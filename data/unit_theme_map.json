@@ -1,0 +1,1058 @@
+{
+  "_meta": {
+    "version": "1.0",
+    "unit_count": 36
+  },
+  "units": [
+    {
+      "unit_id": "必修1 1.0",
+      "book": "必修1",
+      "unit": "1.0",
+      "unit_title": "必修一 U1 Teenage Life",
+      "theme_name": "T-校园生活与自我介绍",
+      "theme_tags": [
+        "校园生活",
+        "自我介绍",
+        "人际交流"
+      ],
+      "word_count": 54,
+      "multi_sense_count": 15,
+      "phrase_count": 10,
+      "multi_sense_ratio": 0.278,
+      "gk_match": [],
+      "sample_words": [
+        "exchange",
+        "lecture",
+        "registration",
+        "register",
+        "sex",
+        "female",
+        "male",
+        "nationality"
+      ],
+      "commercial_role": "资料电商主题包候选"
+    },
+    {
+      "unit_id": "必修1 2.0",
+      "book": "必修1",
+      "unit": "2.0",
+      "unit_title": "必修一 U2 Sports and Fitness",
+      "theme_name": "T-学习成长与课外活动",
+      "theme_tags": [
+        "学习",
+        "成长",
+        "社团活动"
+      ],
+      "word_count": 54,
+      "multi_sense_count": 11,
+      "phrase_count": 8,
+      "multi_sense_ratio": 0.204,
+      "gk_match": [],
+      "sample_words": [
+        "teenage",
+        "teenager",
+        "ballet",
+        "volunteer",
+        "debate",
+        "prefer",
+        "prefer ... to ...",
+        "content"
+      ],
+      "commercial_role": "资料电商主题包候选"
+    },
+    {
+      "unit_id": "必修1 3.0",
+      "book": "必修1",
+      "unit": "3.0",
+      "unit_title": "必修一 U3 Travel Around the World",
+      "theme_name": "T-旅行与世界探索",
+      "theme_tags": [
+        "旅行",
+        "世界遗产",
+        "文化交流"
+      ],
+      "word_count": 69,
+      "multi_sense_count": 17,
+      "phrase_count": 17,
+      "multi_sense_ratio": 0.246,
+      "gk_match": [
+        "文化"
+      ],
+      "sample_words": [
+        "castle",
+        "apply",
+        "apply for",
+        "visa",
+        "rent",
+        "pack",
+        "amazing",
+        "amazed"
+      ],
+      "commercial_role": "资料电商主题包候选"
+    },
+    {
+      "unit_id": "必修1 4.0",
+      "book": "必修1",
+      "unit": "4.0",
+      "unit_title": "必修一 U4 Natural Disasters",
+      "theme_name": "T-体育运动与健康意志",
+      "theme_tags": [
+        "运动",
+        "体育精神",
+        "团队合作"
+      ],
+      "word_count": 59,
+      "multi_sense_count": 18,
+      "phrase_count": 16,
+      "multi_sense_ratio": 0.305,
+      "gk_match": [
+        "体育"
+      ],
+      "sample_words": [
+        "fitness",
+        "soccer",
+        "stadium",
+        "boxing",
+        "badminton",
+        "marathon",
+        "event",
+        "come along"
+      ],
+      "commercial_role": "资料电商主题包候选"
+    },
+    {
+      "unit_id": "必修1 5.0",
+      "book": "必修1",
+      "unit": "5.0",
+      "unit_title": "必修一 U5 Languages Around the World",
+      "theme_name": "T-自然灾害与生存自救",
+      "theme_tags": [
+        "自然灾害",
+        "环境保护",
+        "应急避险"
+      ],
+      "word_count": 73,
+      "multi_sense_count": 22,
+      "phrase_count": 11,
+      "multi_sense_ratio": 0.301,
+      "gk_match": [
+        "环境"
+      ],
+      "sample_words": [
+        "disaster",
+        "tornado",
+        "drought",
+        "landslide",
+        "slide",
+        "tsunami",
+        "flood",
+        "volcanic eruption"
+      ],
+      "commercial_role": "资料电商主题包候选"
+    },
+    {
+      "unit_id": "必修1 6.0",
+      "book": "必修1",
+      "unit": "6.0",
+      "unit_title": "必修一 U6 At Work",
+      "theme_name": "T-语言文字与历史文化",
+      "theme_tags": [
+        "语言",
+        "文字",
+        "历史文化遗产"
+      ],
+      "word_count": 54,
+      "multi_sense_count": 21,
+      "phrase_count": 6,
+      "multi_sense_ratio": 0.389,
+      "gk_match": [
+        "文化"
+      ],
+      "sample_words": [
+        "billion",
+        "native",
+        "attitude",
+        "reference",
+        "refer",
+        "refer to",
+        "system",
+        "despite"
+      ],
+      "commercial_role": "资料电商主题包候选"
+    },
+    {
+      "unit_id": "必修2 1.0",
+      "book": "必修2",
+      "unit": "1.0",
+      "unit_title": "必修二 U1 Cultural Heritage",
+      "theme_name": "T-文化遗产与保护",
+      "theme_tags": [
+        "文化遗产",
+        "遗产保护",
+        "传统文化"
+      ],
+      "word_count": 89,
+      "multi_sense_count": 24,
+      "phrase_count": 16,
+      "multi_sense_ratio": 0.27,
+      "gk_match": [
+        "文化"
+      ],
+      "sample_words": [
+        "heritage",
+        "creatively",
+        "creative",
+        "temple",
+        "relic",
+        "mount",
+        "former",
+        "clue"
+      ],
+      "commercial_role": "资料电商主题包候选"
+    },
+    {
+      "unit_id": "必修2 2.0",
+      "book": "必修2",
+      "unit": "2.0",
+      "unit_title": "必修二 U2 Wildlife Protection",
+      "theme_name": "T-生物多样性与野生动物",
+      "theme_tags": [
+        "生物多样性",
+        "濒危物种",
+        "生态保护"
+      ],
+      "word_count": 85,
+      "multi_sense_count": 20,
+      "phrase_count": 18,
+      "multi_sense_ratio": 0.235,
+      "gk_match": [],
+      "sample_words": [
+        "poster",
+        "illegal",
+        "illegally",
+        "hunt",
+        "hunter",
+        "immediately",
+        "species",
+        "shark"
+      ],
+      "commercial_role": "资料电商主题包候选"
+    },
+    {
+      "unit_id": "必修2 3.0",
+      "book": "必修2",
+      "unit": "3.0",
+      "unit_title": "必修二 U3 The Internet",
+      "theme_name": "T-网络媒体与信息安全",
+      "theme_tags": [
+        "互联网",
+        "网络素养",
+        "信息甄别"
+      ],
+      "word_count": 63,
+      "multi_sense_count": 17,
+      "phrase_count": 12,
+      "multi_sense_ratio": 0.27,
+      "gk_match": [],
+      "sample_words": [
+        "blog",
+        "blog post",
+        "blogger",
+        "engine",
+        "search engine",
+        "chat",
+        "stream",
+        "identity"
+      ],
+      "commercial_role": "资料电商主题包候选"
+    },
+    {
+      "unit_id": "必修2 4.0",
+      "book": "必修2",
+      "unit": "4.0",
+      "unit_title": "必修二 U4 History and Traditions",
+      "theme_name": "T-历史文化与哲学智慧",
+      "theme_tags": [
+        "历史人物",
+        "哲学",
+        "传统美德"
+      ],
+      "word_count": 76,
+      "multi_sense_count": 21,
+      "phrase_count": 11,
+      "multi_sense_ratio": 0.276,
+      "gk_match": [],
+      "sample_words": [
+        "Confucius",
+        "mansion",
+        "cemetery",
+        "philosophy",
+        "descendant",
+        "individual",
+        "heel",
+        "Achilles' heel"
+      ],
+      "commercial_role": "资料电商主题包候选"
+    },
+    {
+      "unit_id": "必修2 5.0",
+      "book": "必修2",
+      "unit": "5.0",
+      "unit_title": "必修二 U5 Music",
+      "theme_name": "T-音乐与艺术创作",
+      "theme_tags": [
+        "音乐",
+        "艺术",
+        "创作与表演"
+      ],
+      "word_count": 76,
+      "multi_sense_count": 13,
+      "phrase_count": 13,
+      "multi_sense_ratio": 0.171,
+      "gk_match": [
+        "艺术"
+      ],
+      "sample_words": [
+        "classical",
+        "hip-hop",
+        "techno",
+        "energy",
+        "soul",
+        "bagpipes",
+        "stringed",
+        "stringed instrument"
+      ],
+      "commercial_role": "资料电商主题包候选"
+    },
+    {
+      "unit_id": "必修3 1.0",
+      "book": "必修3",
+      "unit": "1.0",
+      "unit_title": "必修三 U1 Festivals and Celebrations",
+      "theme_name": "T-传统节日与民俗",
+      "theme_tags": [
+        "传统节日",
+        "民俗",
+        "文化传承"
+      ],
+      "word_count": 101,
+      "multi_sense_count": 29,
+      "phrase_count": 21,
+      "multi_sense_ratio": 0.287,
+      "gk_match": [
+        "文化",
+        "传统节日"
+      ],
+      "sample_words": [
+        "lantern",
+        "carnival",
+        "costume",
+        "dress ... up",
+        "march",
+        "congratulation",
+        "congratulate",
+        "riddle"
+      ],
+      "commercial_role": "资料电商主题包候选"
+    },
+    {
+      "unit_id": "必修3 2.0",
+      "book": "必修3",
+      "unit": "2.0",
+      "unit_title": "必修三 U2 Morals and Virtues",
+      "theme_name": "T-道德品质与职业伦理",
+      "theme_tags": [
+        "道德",
+        "职业伦理",
+        "医德与责任"
+      ],
+      "word_count": 94,
+      "multi_sense_count": 24,
+      "phrase_count": 19,
+      "multi_sense_ratio": 0.255,
+      "gk_match": [
+        "职业"
+      ],
+      "sample_words": [
+        "moral",
+        "virtue",
+        "dilemma",
+        "moral dilemma",
+        "faint",
+        "illustrate",
+        "precious",
+        "entrust"
+      ],
+      "commercial_role": "资料电商主题包候选"
+    },
+    {
+      "unit_id": "必修3 3.0",
+      "book": "必修3",
+      "unit": "3.0",
+      "unit_title": "必修三 U3 Diverse Cultures",
+      "theme_name": "T-多元文化与美国社会",
+      "theme_tags": [
+        "多元文化",
+        "移民",
+        "社会生活"
+      ],
+      "word_count": 81,
+      "multi_sense_count": 24,
+      "phrase_count": 21,
+      "multi_sense_ratio": 0.296,
+      "gk_match": [
+        "文化",
+        "社会"
+      ],
+      "sample_words": [
+        "diverse",
+        "diversity",
+        "fortune",
+        "fortune cookie",
+        "gumbo",
+        "nachos",
+        "chip",
+        "cheese"
+      ],
+      "commercial_role": "资料电商主题包候选"
+    },
+    {
+      "unit_id": "必修3 4.0",
+      "book": "必修3",
+      "unit": "4.0",
+      "unit_title": "必修三 U4 Space Exploration",
+      "theme_name": "T-航天科技与探索精神",
+      "theme_tags": [
+        "航天",
+        "科技",
+        "探索与奉献"
+      ],
+      "word_count": 91,
+      "multi_sense_count": 23,
+      "phrase_count": 19,
+      "multi_sense_ratio": 0.253,
+      "gk_match": [
+        "科技"
+      ],
+      "sample_words": [
+        "astronaut",
+        "procedure",
+        "mental",
+        "cm",
+        "intelligent",
+        "rocket",
+        "gravity",
+        "frontier"
+      ],
+      "commercial_role": "资料电商主题包候选"
+    },
+    {
+      "unit_id": "必修3 5.0",
+      "book": "必修3",
+      "unit": "5.0",
+      "unit_title": "必修三 U5 The Value of Money",
+      "theme_name": "T-金钱观与人生价值",
+      "theme_tags": [
+        "金钱",
+        "价值观",
+        "人生选择"
+      ],
+      "word_count": 80,
+      "multi_sense_count": 27,
+      "phrase_count": 20,
+      "multi_sense_ratio": 0.338,
+      "gk_match": [],
+      "sample_words": [
+        "basis",
+        "on the basis of",
+        "loan",
+        "take out a loan",
+        "plastic",
+        "apologise",
+        "ignore",
+        "in return"
+      ],
+      "commercial_role": "资料电商主题包候选"
+    },
+    {
+      "unit_id": "选修1 1.0",
+      "book": "选修1",
+      "unit": "1.0",
+      "unit_title": "选择性必修一 U1 People of Achievement",
+      "theme_name": "T-医学成就与科学精神",
+      "theme_tags": [
+        "医学",
+        "科学发现",
+        "科学家精神"
+      ],
+      "word_count": 81,
+      "multi_sense_count": 23,
+      "phrase_count": 13,
+      "multi_sense_ratio": 0.284,
+      "gk_match": [],
+      "sample_words": [
+        "physiology",
+        "artemisinin",
+        "crucial",
+        "malaria",
+        "vital",
+        "committed",
+        "commit",
+        "commit oneself to do"
+      ],
+      "commercial_role": "资料电商主题包候选"
+    },
+    {
+      "unit_id": "选修1 2.0",
+      "book": "选修1",
+      "unit": "2.0",
+      "unit_title": "选择性必修一 U2 Looking into the Future",
+      "theme_name": "T-智能生活与科技设备",
+      "theme_tags": [
+        "科技",
+        "智能家居",
+        "生活便利"
+      ],
+      "word_count": 78,
+      "multi_sense_count": 22,
+      "phrase_count": 11,
+      "multi_sense_ratio": 0.282,
+      "gk_match": [
+        "科技"
+      ],
+      "sample_words": [
+        "phrase",
+        "persuade",
+        "switch",
+        "switch on",
+        "switch off",
+        "distant",
+        "secure",
+        "knob"
+      ],
+      "commercial_role": "资料电商主题包候选"
+    },
+    {
+      "unit_id": "选修1 3.0",
+      "book": "选修1",
+      "unit": "3.0",
+      "unit_title": "选择性必修一 U3 Fascinating Parks",
+      "theme_name": "T-国家公园与自然保护",
+      "theme_tags": [
+        "国家公园",
+        "自然保护",
+        "人与自然"
+      ],
+      "word_count": 71,
+      "multi_sense_count": 38,
+      "phrase_count": 10,
+      "multi_sense_ratio": 0.535,
+      "gk_match": [],
+      "sample_words": [
+        "buffet",
+        "cloth",
+        "edge",
+        "valley",
+        "vast",
+        "glacier",
+        "reindeer",
+        "territory"
+      ],
+      "commercial_role": "资料电商主题包候选"
+    },
+    {
+      "unit_id": "选修1 4.0",
+      "book": "选修1",
+      "unit": "4.0",
+      "unit_title": "选择性必修一 U4 Body Language",
+      "theme_name": "T-身体语言与非言语沟通",
+      "theme_tags": [
+        "肢体语言",
+        "人际沟通",
+        "文化差异"
+      ],
+      "word_count": 72,
+      "multi_sense_count": 27,
+      "phrase_count": 8,
+      "multi_sense_ratio": 0.375,
+      "gk_match": [
+        "文化"
+      ],
+      "sample_words": [
+        "interaction",
+        "vary",
+        "appropriate",
+        "by contrast",
+        "approve",
+        "demonstrate",
+        "gesture",
+        "witness"
+      ],
+      "commercial_role": "资料电商主题包候选"
+    },
+    {
+      "unit_id": "选修1 5.0",
+      "book": "选修1",
+      "unit": "5.0",
+      "unit_title": "选择性必修一 U5 Working the Land",
+      "theme_name": "T-粮食安全与农业科技",
+      "theme_tags": [
+        "粮食",
+        "农业",
+        "可持续发展"
+      ],
+      "word_count": 68,
+      "multi_sense_count": 36,
+      "phrase_count": 5,
+      "multi_sense_ratio": 0.529,
+      "gk_match": [],
+      "sample_words": [
+        "hybrid",
+        "devote",
+        "devote ... to",
+        "shortage",
+        "tackle",
+        "crisis",
+        "boost",
+        "yield"
+      ],
+      "commercial_role": "资料电商主题包候选"
+    },
+    {
+      "unit_id": "选修2 1.0",
+      "book": "选修2",
+      "unit": "1.0",
+      "unit_title": "选择性必修二 U1 A Healthy Life",
+      "theme_name": "T-传染病防控与公共卫生",
+      "theme_tags": [
+        "传染病",
+        "防控",
+        "公共卫生"
+      ],
+      "word_count": 83,
+      "multi_sense_count": 30,
+      "phrase_count": 15,
+      "multi_sense_ratio": 0.361,
+      "gk_match": [],
+      "sample_words": [
+        "cholera",
+        "severe",
+        "diarrhoea",
+        "dehydration",
+        "frustrated",
+        "once and for all",
+        "contradictory",
+        "infection"
+      ],
+      "commercial_role": "资料电商主题包候选"
+    },
+    {
+      "unit_id": "选修2 2.0",
+      "book": "选修2",
+      "unit": "2.0",
+      "unit_title": "选择性必修二 U2 The Changing World",
+      "theme_name": "T-留学适应与跨文化",
+      "theme_tags": [
+        "留学",
+        "跨文化适应",
+        "自我成长"
+      ],
+      "word_count": 77,
+      "multi_sense_count": 24,
+      "phrase_count": 14,
+      "multi_sense_ratio": 0.312,
+      "gk_match": [
+        "文化"
+      ],
+      "sample_words": [
+        "complex",
+        "recall",
+        "qualification",
+        "qualify",
+        "ambition",
+        "ambitious",
+        "adaptation",
+        "comfort"
+      ],
+      "commercial_role": "资料电商主题包候选"
+    },
+    {
+      "unit_id": "选修2 3.0",
+      "book": "选修2",
+      "unit": "3.0",
+      "unit_title": "选择性必修二 U3 Food and Culture",
+      "theme_name": "T-饮食文化与美食",
+      "theme_tags": [
+        "饮食",
+        "美食",
+        "中西文化差异"
+      ],
+      "word_count": 69,
+      "multi_sense_count": 11,
+      "phrase_count": 11,
+      "multi_sense_ratio": 0.159,
+      "gk_match": [
+        "文化"
+      ],
+      "sample_words": [
+        "cuisine",
+        "prior",
+        "prior to",
+        "consist",
+        "consist of",
+        "pepper",
+        "recipe",
+        "bold"
+      ],
+      "commercial_role": "资料电商主题包候选"
+    },
+    {
+      "unit_id": "选修2 4.0",
+      "book": "选修2",
+      "unit": "4.0",
+      "unit_title": "选择性必修二 U4 History of Transport",
+      "theme_name": "T-自然奇观与探险",
+      "theme_tags": [
+        "自然奇观",
+        "探险",
+        "旅行"
+      ],
+      "word_count": 72,
+      "multi_sense_count": 12,
+      "phrase_count": 14,
+      "multi_sense_ratio": 0.167,
+      "gk_match": [],
+      "sample_words": [
+        "airline",
+        "bay",
+        "craft",
+        "antique",
+        "pleasant",
+        "arise",
+        "massive",
+        "literally"
+      ],
+      "commercial_role": "资料电商主题包候选"
+    },
+    {
+      "unit_id": "选修2 5.0",
+      "book": "选修2",
+      "unit": "5.0",
+      "unit_title": "选择性必修二 U5 Scenic Spots",
+      "theme_name": "T-急救医学与健康防护",
+      "theme_tags": [
+        "急救",
+        "医学",
+        "健康防护"
+      ],
+      "word_count": 77,
+      "multi_sense_count": 21,
+      "phrase_count": 11,
+      "multi_sense_ratio": 0.273,
+      "gk_match": [
+        "健康"
+      ],
+      "sample_words": [
+        "technique",
+        "leaflet",
+        "organ",
+        "toxin",
+        "ray",
+        "sense of touch",
+        "radiation",
+        "acid"
+      ],
+      "commercial_role": "资料电商主题包候选"
+    },
+    {
+      "unit_id": "选修3 1.0",
+      "book": "选修3",
+      "unit": "1.0",
+      "unit_title": "选择性必修三 U1 Fascinating Parks",
+      "theme_name": "T-美术与艺术鉴赏",
+      "theme_tags": [
+        "美术",
+        "艺术鉴赏",
+        "审美"
+      ],
+      "word_count": 85,
+      "multi_sense_count": 27,
+      "phrase_count": 16,
+      "multi_sense_ratio": 0.318,
+      "gk_match": [
+        "艺术"
+      ],
+      "sample_words": [
+        "precise",
+        "precisely",
+        "Christianity",
+        "realistic",
+        "realism",
+        "realist",
+        "primitive",
+        "two-dimensional"
+      ],
+      "commercial_role": "资料电商主题包候选"
+    },
+    {
+      "unit_id": "选修3 2.0",
+      "book": "选修3",
+      "unit": "2.0",
+      "unit_title": "选择性必修三 U2 The Body Language",
+      "theme_name": "T-健康生活与成瘾防治",
+      "theme_tags": [
+        "健康",
+        "成瘾",
+        "医学与心理"
+      ],
+      "word_count": 56,
+      "multi_sense_count": 19,
+      "phrase_count": 11,
+      "multi_sense_ratio": 0.339,
+      "gk_match": [
+        "健康"
+      ],
+      "sample_words": [
+        "tobacco",
+        "alcohol",
+        "abuse",
+        "physical",
+        "dominate",
+        "repeatedly",
+        "psychology",
+        "cue"
+      ],
+      "commercial_role": "资料电商主题包候选"
+    },
+    {
+      "unit_id": "选修3 3.0",
+      "book": "选修3",
+      "unit": "3.0",
+      "unit_title": "选择性必修三 U3 Green Energy",
+      "theme_name": "T-环境治理与可持续发展",
+      "theme_tags": [
+        "环境",
+        "气候",
+        "可持续发展"
+      ],
+      "word_count": 62,
+      "multi_sense_count": 27,
+      "phrase_count": 5,
+      "multi_sense_ratio": 0.435,
+      "gk_match": [
+        "环境"
+      ],
+      "sample_words": [
+        "graph",
+        "emission",
+        "melt",
+        "starve",
+        "seal",
+        "ecology",
+        "release",
+        "methane"
+      ],
+      "commercial_role": "资料电商主题包候选"
+    },
+    {
+      "unit_id": "选修3 4.0",
+      "book": "选修3",
+      "unit": "4.0",
+      "unit_title": "选择性必修三 U4 Astronomy",
+      "theme_name": "T-航海冒险与坚韧品格",
+      "theme_tags": [
+        "冒险",
+        "坚韧",
+        "品格"
+      ],
+      "word_count": 73,
+      "multi_sense_count": 21,
+      "phrase_count": 14,
+      "multi_sense_ratio": 0.288,
+      "gk_match": [],
+      "sample_words": [
+        "adversity",
+        "wage",
+        "bitter",
+        "expedition",
+        "endurance",
+        "vigour",
+        "turn sb. down",
+        "qualified"
+      ],
+      "commercial_role": "资料电商主题包候选"
+    },
+    {
+      "unit_id": "选修3 5.0",
+      "book": "选修3",
+      "unit": "5.0",
+      "unit_title": "选择性必修三 U5 Water",
+      "theme_name": "T-诗歌韵律与文学欣赏",
+      "theme_tags": [
+        "诗歌",
+        "韵律",
+        "文学鉴赏"
+      ],
+      "word_count": 76,
+      "multi_sense_count": 31,
+      "phrase_count": 10,
+      "multi_sense_ratio": 0.408,
+      "gk_match": [],
+      "sample_words": [
+        "drama",
+        "sorrow",
+        "imagery",
+        "literary",
+        "rhyme",
+        "rhythm",
+        "nursery",
+        "nursery rhyme"
+      ],
+      "commercial_role": "资料电商主题包候选"
+    },
+    {
+      "unit_id": "选修4 1.0",
+      "book": "选修4",
+      "unit": "1.0",
+      "unit_title": "选择性必修四 U1 Working the Land",
+      "theme_name": "T-科幻文学与道德想象",
+      "theme_tags": [
+        "科幻",
+        "想象力",
+        "道德思考"
+      ],
+      "word_count": 65,
+      "multi_sense_count": 26,
+      "phrase_count": 12,
+      "multi_sense_ratio": 0.4,
+      "gk_match": [],
+      "sample_words": [
+        "fiction",
+        "science fiction",
+        "test out",
+        "bonus",
+        "more like",
+        "ridiculous",
+        "integrity",
+        "dignity"
+      ],
+      "commercial_role": "资料电商主题包候选"
+    },
+    {
+      "unit_id": "选修4 2.0",
+      "book": "选修4",
+      "unit": "2.0",
+      "unit_title": "选择性必修四 U2 Literature",
+      "theme_name": "T-国家地理与标志景观",
+      "theme_tags": [
+        "地理",
+        "地标",
+        "文化符号"
+      ],
+      "word_count": 64,
+      "multi_sense_count": 15,
+      "phrase_count": 9,
+      "multi_sense_ratio": 0.234,
+      "gk_match": [
+        "文化"
+      ],
+      "sample_words": [
+        "iconic",
+        "foundation",
+        "political",
+        "didgeridoo",
+        "located",
+        "equator",
+        "koala",
+        "barbecue"
+      ],
+      "commercial_role": "资料电商主题包候选"
+    },
+    {
+      "unit_id": "选修4 3.0",
+      "book": "选修4",
+      "unit": "3.0",
+      "unit_title": "选择性必修四 U3 Contrast",
+      "theme_name": "T-海洋文明与航海史",
+      "theme_tags": [
+        "海洋",
+        "航海",
+        "文明交流"
+      ],
+      "word_count": 42,
+      "multi_sense_count": 19,
+      "phrase_count": 5,
+      "multi_sense_ratio": 0.452,
+      "gk_match": [],
+      "sample_words": [
+        "tale",
+        "merchant",
+        "set sail",
+        "extend",
+        "negotiate",
+        "fleet",
+        "behold",
+        "league"
+      ],
+      "commercial_role": "资料电商主题包候选"
+    },
+    {
+      "unit_id": "选修4 4.0",
+      "book": "选修4",
+      "unit": "4.0",
+      "unit_title": "选择性必修四 U4 Why the Parent Is Dominant",
+      "theme_name": "T-居家生活与日常物品",
+      "theme_tags": [
+        "居家",
+        "生活常识",
+        "人与物"
+      ],
+      "word_count": 62,
+      "multi_sense_count": 20,
+      "phrase_count": 5,
+      "multi_sense_ratio": 0.323,
+      "gk_match": [],
+      "sample_words": [
+        "parcel",
+        "jam",
+        "mail",
+        "secondary",
+        "clay",
+        "dust",
+        "dusty",
+        "weed"
+      ],
+      "commercial_role": "资料电商主题包候选"
+    },
+    {
+      "unit_id": "选修4 5.0",
+      "book": "选修4",
+      "unit": "5.0",
+      "unit_title": "选择性必修四 U5 On the Road",
+      "theme_name": "T-职业探索与职场角色",
+      "theme_tags": [
+        "职业",
+        "职场",
+        "能力与性格"
+      ],
+      "word_count": 64,
+      "multi_sense_count": 22,
+      "phrase_count": 8,
+      "multi_sense_ratio": 0.344,
+      "gk_match": [
+        "职业"
+      ],
+      "sample_words": [
+        "bounce",
+        "bounce around",
+        "aptitude",
+        "head start",
+        "scenario",
+        "lawyer",
+        "assemble",
+        "drawer"
+      ],
+      "commercial_role": "资料电商主题包候选"
+    }
+  ]
+}

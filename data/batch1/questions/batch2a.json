@@ -1,0 +1,802 @@
+[
+  {
+    "id": "q_041",
+    "sense_id": "s_capacity_n_ability",
+    "word_id": "w_capacity",
+    "carrier": "C3",
+    "module": "E3_形近音近混淆",
+    "difficulty": "mid",
+    "expected_accuracy": [0.35, 0.75],
+    "stem": "Regular reading does more than enlarge a student's vocabulary; it also builds the ______ to consider a problem from several angles at once.",
+    "stem_cn": "广泛阅读所做的远不止是扩大词汇量；它还培养了从多个角度同时审视一个问题的能力。",
+    "options": [
+      {
+        "key": "A",
+        "text": "capability",
+        "correct": false,
+        "distractor_reason": "同为「能力」类名词且与 capacity 共享 cap- 词根，后面同样能接 to do，语感上完全说得通，纯语感排不掉；测的是学生能否靠 the capacity to do sth 这一整块固定说法，在两个近义近形名词之间定输赢。"
+      },
+      {
+        "key": "B",
+        "text": "capture",
+        "correct": false,
+        "distractor_reason": "共享 cap- 音节的形近干扰，学生看到 build the 就联想到「捕捉、捕获」；测词性词形误判——capture 是动词或「捕获物」名词，接不上 the …… to consider 这个结构。"
+      },
+      {
+        "key": "C",
+        "text": "capacity",
+        "correct": true,
+        "distractor_reason": null
+      },
+      {
+        "key": "D",
+        "text": "capable",
+        "correct": false,
+        "distractor_reason": "共享词根 cap- 的形容词形近干扰，学生按「有能力的」直译成 the capable；测词性误判——形容词必须先由 be 动词引出，且固定说法是 be capable of doing，不能直接跟在 the 后面作中心词。"
+      }
+    ],
+    "explanation": "【考场动作】看空格左边 the、右边 to consider：the + 空格 + to do 是「the capacity to do sth」这一整块的固定结构，空格必须能作中心语的名词并带不定式；形容词不能跟在 the 后面，先划掉 D。\n【为什么选 C】capacity 在这里取「能力、才能」义：广泛阅读让人具备从多个角度审视问题的本领。只有 capacity 能进入 the …… to do …… 这一块。\n【其他选项】A capability 同为名词、同样能接 to do，语感完全说得通，但高考语料里它几乎只作复数，指「各项性能」，说「培养思考能力」用 capacity 才固定。B capture 是动词「捕捉」，作中心语讲不通，且与 think、consider 冲突。D capable 是形容词，必须由 be 引出（be capable of doing），the capable 不成立。",
+    "trap_note": "陷阱来源：学生按 capacity＝「容量、容积」去理解，或被 capable、capability、capture 三个同根词带偏，直接把「能力」这一层排除掉。",
+    "tags": ["E3", "P4", "P8"]
+  },
+  {
+    "id": "q_042",
+    "sense_id": "s_capacity_n_volume",
+    "word_id": "w_capacity",
+    "carrier": "C1",
+    "module": "E1_熟词僻义",
+    "difficulty": "easy",
+    "expected_accuracy": [0.65, 0.95],
+    "stem": "The new lecture hall has a seating ______ of about three hundred, which is why the university holds two sessions for some popular courses.",
+    "stem_cn": "新阶梯教室的座位容量约为三百，因此有些热门课程大学不得不分成两场上。",
+    "options": [
+      {
+        "key": "A",
+        "text": "capability",
+        "correct": false,
+        "distractor_reason": "与 capacity 共享 cap- 词根，在描述设备「承载能力」的语境里也真能成立，学生容易顺势选它；测的是词形近义混淆——能否靠 seating capacity 这一固定词块分辨两个近义近形名词。"
+      },
+      {
+        "key": "B",
+        "text": "capacity",
+        "correct": true,
+        "distractor_reason": null
+      },
+      {
+        "key": "C",
+        "text": "limit",
+        "correct": false,
+        "distractor_reason": "语义近且完全说得通：a seating limit of three hundred 是地道英语，「能容纳多少」直译过去很像「上限」；纯语感排不掉，测搭配记忆——说「座位能坐多少」高考固定说 seating capacity。"
+      },
+      {
+        "key": "D",
+        "text": "space",
+        "correct": false,
+        "distractor_reason": "语义近：space 有「空间、余地」义，学生按「教室有多大」理解整句毫无违和感；测的是义项层级与搭配——空间按面积体积计，能坐的人数要用 capacity，a seating space 后也不能接 of 加具体数字。"
+      }
+    ],
+    "explanation": "【考场动作】看空格右边的 of about three hundred，这是数量，说明空格要表示「能容纳多少」的名词；左边 the seating 是复合修饰语。说「座位能坐多少人」，高考固定块就是 seating capacity。\n【为什么选 B】capacity 取「容量」义：三百个座位是这间阶梯教室能容纳的上限，与「实际来了多少人」无关。\n【其他选项】A capability 共享 cap- 词根，科技语境里确有「承载能力」的用法，语感纠缠，纯语感排不掉；但「座位能坐多少」只认 seating capacity。C limit 完全说得通，a seating limit of three hundred 是地道英语，可它讲的是「上限」这个抽象概念。D space 只能作「空间」讲，seating space 后要接 for 加数量，说成 of three hundred 就把面积与人数混成了一件事。",
+    "trap_note": "陷阱来源：学生把 capacity 一律读成「能力」，或按「空间大」的思路选 space；更常见的是看到 capacity 就联想到 ability、capability，忽略了 seating capacity 是固定搭配。",
+    "tags": ["E1", "P4", "P2"]
+  },
+  {
+    "id": "q_043",
+    "sense_id": "s_concern_v_relate",
+    "word_id": "w_concern",
+    "carrier": "C1",
+    "module": "E4_固定搭配缺失",
+    "difficulty": "mid",
+    "expected_accuracy": [0.35, 0.75],
+    "stem": "Everything the school does to welcome new students ______ the school's image in the local community.",
+    "stem_cn": "学校为迎接新生所做的一切，都关系到学校在本地社区的形象。",
+    "options": [
+      {
+        "key": "A",
+        "text": "concerns",
+        "correct": true,
+        "distractor_reason": null
+      },
+      {
+        "key": "B",
+        "text": "involves",
+        "correct": false,
+        "distractor_reason": "语义完全说得通：中文「涉及、关系到」直译过去就是 involves，纯语感排不掉；测 E4 搭配与结构缺失——involve 后面必须接动名词 involve doing sth，不能直接接 image 这类名词宾语。"
+      },
+      {
+        "key": "C",
+        "text": "addresses",
+        "correct": false,
+        "distractor_reason": "搭配记忆陷阱：学生背过 address a problem、address an issue，看到「处理、涉及」的语义就顺手把老搭配反着套过来；测 E4 搭配方向误用——address 的宾语必须是「问题、难题」，不能是「形象」这类词。"
+      },
+      {
+        "key": "D",
+        "text": "concerning",
+        "correct": false,
+        "distractor_reason": "词形词性干扰：concerning 既能作介词（关于）又能作现在分词，学生看到「关于学校形象」就想填它；测 E5 词性误判——它不能单独作句子的谓语动词。"
+      }
+    ],
+    "explanation": "【考场动作】空格作谓语动词，主语是 Everything the school does 这个整体动作，后面直接接名词宾语 the school's image；先把不能作谓语的 concerning 划掉。再看接的是名词还是动作——接名词（image、problem）才是「涉及、关系到」。\n【为什么选 A】concern 在这里是及物动词，意为「涉及、关系到」：学校为迎接新生所做的一切，都关系到学校在本地社区的形象。\n【其他选项】B involves 语义完全说得通，中文「涉及」直译就是它；但 involve 后面必须接动名词，不能直接接 image 这类名词宾语，属结构问题。C addresses 是把背熟的 address a problem 反着套，address 的宾语必须是「问题、难题」，不能是「形象」。D concerning 可作介词或现在分词，却不能单独作谓语。",
+    "trap_note": "陷阱来源：学生按 concern＝「担忧、挂念」去读整句，或者被「涉及、关系到」的语义把 involve、address 顶上来——后两者都得靠搭配和结构才能排除。",
+    "tags": ["E4", "P4", "P8"]
+  },
+  {
+    "id": "q_044",
+    "sense_id": "s_concern_n_worry",
+    "word_id": "w_concern",
+    "carrier": "C2",
+    "module": "E2_一词多义混淆",
+    "difficulty": "mid",
+    "expected_accuracy": [0.35, 0.75],
+    "stem": "When the headmaster announced the closure of the school library, there was real ______ among the students, who had relied on it for years.",
+    "stem_cn": "当校长宣布学校图书馆要关闭时，学生们中间弥漫着一股真切的忧虑，他们这些年一直依赖这间图书馆。",
+    "options": [
+      {
+        "key": "A",
+        "text": "anxiety",
+        "correct": false,
+        "distractor_reason": "语义完全说得通：a real anxiety among the students 在英语里也成立，词义上完全对得上，纯语感排不掉；测的是学生能否分辨「群体因一条消息产生的普遍情绪」与「个体持续的心理状态」。"
+      },
+      {
+        "key": "B",
+        "text": "concerns",
+        "correct": false,
+        "distractor_reason": "concern 的另一真实义项（值得关注的诸多问题）的复数形态，与 concern 几乎同形，学生容易顺手加 s；测词形与数量——there was 是单数谓语，而且情绪义不可数。"
+      },
+      {
+        "key": "C",
+        "text": "worry",
+        "correct": false,
+        "distractor_reason": "语义近且完全说得通：there was real worry among the students 语感顺畅，中文「弥漫着一股忧虑」直译过去正是它；测搭配记忆——高考书面语里形容群体弥漫情绪用 concern，worry 作名词多与 a lot of、no 搭配。"
+      },
+      {
+        "key": "D",
+        "text": "concern",
+        "correct": true,
+        "distractor_reason": null
+      }
+    ],
+    "explanation": "【考场动作】看空格左边：there was real ______，real 后面只能接不可数的表示情绪的名词；再看后半句 who had relied on it for years——让人不安的是「图书馆要关」这条消息本身带来的感受，而不是「被关切的某件事」。表达「深切的忧虑」，高考书面语固定用 deep concern、real concern。\n【为什么选 D】concern 是名词，意为「忧虑、担心的情绪」：校长宣布闭馆的消息让学生们既担忧又无奈。\n【其他选项】A anxiety 语义完全说得通，但多指个体持续的心理状态；句中写的是一群人因一条消息产生的普遍情绪。B concerns 是复数，there was 是单数谓语，且复数 concerns 多指「值得关注的诸多问题」，不是情绪。C worry 语感同样顺，但高考里 worry 作名词多与 a lot of、no 搭配，形容群体弥漫情绪要用 concern。",
+    "trap_note": "陷阱来源：学生把 concern 一律读成「关切的领域」或「担心某人」，没意识到这里考的是名词「忧虑的情绪」；或用 worry、anxiety 顶替，忽略了 concern 的书面语搭配。",
+    "tags": ["E2", "P4", "P2"]
+  },
+  {
+    "id": "q_045",
+    "sense_id": "s_consequence_adv_therefore",
+    "word_id": "w_consequence",
+    "carrier": "C1",
+    "module": "E1_熟词僻义",
+    "difficulty": "hard",
+    "expected_accuracy": [0.15, 0.45],
+    "stem": "The storm damaged several power lines; in ______, the whole village was without electricity for two days.",
+    "stem_cn": "暴风雨刮倒了几根电线；______，整个村子停电了两天。",
+    "options": [
+      {
+        "key": "A",
+        "text": "consequently",
+        "correct": false,
+        "distractor_reason": "意思正是「因此」，与空格所在的句子完全相配，而且与 consequence 近形，是本题最强的干扰；测的是学生能否记准 in consequence 这一整块，而不是随手用副词 consequently 顶替。"
+      },
+      {
+        "key": "B",
+        "text": "consequence",
+        "correct": true,
+        "distractor_reason": null
+      },
+      {
+        "key": "C",
+        "text": "sequence",
+        "correct": false,
+        "distractor_reason": "形近音近干扰：sequence 与 consequence 共享 sequ- 词根，in sequence 语法也成立，读起来不像瞎填；测的是学生能否辨出它表达的是「按顺序」而不是「因此」，属词形相似造成的误判。"
+      },
+      {
+        "key": "D",
+        "text": "addition",
+        "correct": false,
+        "distractor_reason": "搭配与语法完全成立：in addition 是「此外、另外」，放进分号后的位置读起来也顺；测的是逻辑连接词误用——学生不辨「因果」与「补充」两种逻辑关系，只凭「都是连接词」就填。"
+      }
+    ],
+    "explanation": "【考场动作】看空格的介词 in：后面要跟名词，整个短语要能独立作状语连接前后两句。再对上因果——前半句「暴风雨刮倒电线」是原因，后半句「村子停电两天」是结果，该短语必须表示「因此」。\n【为什么选 B】consequence 与 in 组成 in consequence，等于 therefore、consequently，是书面语「因此」的固定表达，恰好承接前半句的原因。\n【其他选项】A consequently 意思正是「因此」，是本题最强的干扰，但它本身已是副词，前面不能再加 in。D addition 与 in 组成 in addition，语法成立，却是「此外」，属补充说明而非因果。C sequence 与 consequence 共享 sequ- 词根，in sequence 语法也通，可它表示「按顺序」，逻辑关系不符。",
+    "trap_note": "陷阱来源：学生按 consequence＝「结果、结局」去读，看到结果句就以为要用名词；或凭语感随手用 consequently、in addition 顶替，把 in consequence 这一整块忘掉了。",
+    "tags": ["E1", "P4", "P8"]
+  },
+  {
+    "id": "q_046",
+    "sense_id": "s_consequence_n_result",
+    "word_id": "w_consequence",
+    "carrier": "C1",
+    "module": "E1_熟词僻义",
+    "difficulty": "mid",
+    "expected_accuracy": [0.35, 0.75],
+    "stem": "Few people can predict all the ______ of changing their daily routine so completely within a single week.",
+    "stem_cn": "很少有人能预想到在一周之内彻底改变日常作息会带来哪些后果。",
+    "options": [
+      {
+        "key": "A",
+        "text": "consequences",
+        "correct": true,
+        "distractor_reason": null
+      },
+      {
+        "key": "B",
+        "text": "results",
+        "correct": false,
+        "distractor_reason": "语义近且完全说得通：中文「结果」直译过去就是 results，纯语感排不掉；测搭配记忆——「某个行为带来的后果」在高考固定块里是 the consequences of doing sth，results 多用于比赛、实验等单次结果。"
+      },
+      {
+        "key": "C",
+        "text": "consequents",
+        "correct": false,
+        "distractor_reason": "形近音近干扰：consequent 与 consequence 共享 consequ- 词干，学生看到要加复数就顺手改成 consequents；测词形误判——consequent 是形容词「随之而来的」，根本没有名词复数形式。"
+      },
+      {
+        "key": "D",
+        "text": "effects",
+        "correct": false,
+        "distractor_reason": "语义近且完全说得通：中文「后果、影响」两个词都能直译成 effects；测义项层级与搭配——effect 讲事物本身的作用效果，与「行为带来的后果」不是同一层，高考也用 the consequences of doing 而非 the effects of doing。"
+      }
+    ],
+    "explanation": "【考场动作】看空格的前后搭配：the ______ of doing sth，中间必须能插入动名词；再看宾语——是一次大改动带来的、往往有坏结果的一连串后果。凡是「某个行为带来的结果」，高考固定块是 the consequences of doing sth。\n【为什么选 A】consequence 是名词「结果、结局」，指改变作息带来的种种后果；of 后接动名词，结构也对得上。\n【其他选项】B results 语义完全说得通，中文「后果」直译就是它；但「行为带来的结果」固定用 consequences，results 多用于比赛、实验等单次结果。D effects 语义同样通（影响、效果），但 effect 讲事物本身的作用效果，与「行为带来的后果」不是同一层。C consequents 是把形容词 consequent 硬加复数当作名词，词形根本不成立。",
+    "trap_note": "陷阱来源：学生按 consequence 的另外两个义项（重要性、因此）去读，或用 result、effect 顶替「后果」这一块；更隐蔽的是被 consequent 的形近干扰。",
+    "tags": ["E1", "P4", "P8"]
+  },
+  {
+    "id": "q_047",
+    "sense_id": "s_content_adj_satisfied",
+    "word_id": "w_content",
+    "carrier": "C4",
+    "module": "E5_词性词形误判",
+    "difficulty": "mid",
+    "expected_accuracy": [0.35, 0.75],
+    "stem": "Dear Li Ming, everything has been arranged as you wished. You seemed quite ______ with the simple schedule, so I left you the afternoon free.",
+    "stem_cn": "亲爱的李明：一切都已按你的意思安排好了。你似乎对这份简单的日程很满意，所以我把整个下午留给你了。",
+    "options": [
+      {
+        "key": "A",
+        "text": "contents",
+        "correct": false,
+        "distractor_reason": "同一词的另一词形：contents 是名词复数「书刊的目录」，学生看到 content 就顺手加 s；测词性词形误判——be contents with 语法不成立，be content with 才是固定块。"
+      },
+      {
+        "key": "B",
+        "text": "context",
+        "correct": false,
+        "distractor_reason": "形近音近干扰：context 与 content 拼写只差一个字母、读音相近，学生视觉一扫就误选；测的是学生能否靠 be content with 的表语结构与形容词词性把它排除。"
+      },
+      {
+        "key": "C",
+        "text": "content",
+        "correct": true,
+        "distractor_reason": null
+      },
+      {
+        "key": "D",
+        "text": "contend",
+        "correct": false,
+        "distractor_reason": "形近音近干扰：contend 与 content 同为 cont- 开头，读音相近，又是词表里明写的易混词；测词性判断与搭配——contend with 是「与……抗争」，放进 be quite ______ with 的框架后意思完全不同。"
+      }
+    ],
+    "explanation": "【考场动作】看空格右边的 with：be ______ with sth 是判断 content 词性的关键锚点。be content with、be content to do 一定是形容词「满足的」，名词 content 前面不与 be 连用；左边 seemed quite 也要求表语是形容词。\n【为什么选 C】content 在这里是形容词「满足的、知足的」：你似乎对这份简单的日程很满意，所以我把整个下午留给你。be content with 是表达「满足于」的高频块。\n【其他选项】A contents 是同一词的另一词形——名词复数「书刊的目录」，不与 be 动词连用，be contents with 语法不成立。B context 是形近音近干扰，它是「背景、语境」，不可数，也没有 context with 这一搭配。D contend 是动词「主张、争夺」，填进表语位置后句意变成「你似乎相当能与……抗争」，不通。",
+    "trap_note": "陷阱来源：学生只把 content 当名词「内容」来记，看到 be ______ with 也不敢用形容词形式；或被 context、contend 的形近与 contents 的复数形态带偏，把正确的「满足的」义排除掉。",
+    "tags": ["E5", "P6", "P3"]
+  },
+  {
+    "id": "q_048",
+    "sense_id": "s_content_n_subject",
+    "word_id": "w_content",
+    "carrier": "C1",
+    "module": "E1_熟词僻义",
+    "difficulty": "easy",
+    "expected_accuracy": [0.65, 0.95],
+    "stem": "The ______ of the message was so short that few readers took it seriously.",
+    "stem_cn": "这条消息的内容太短，几乎没有几个读者当真。",
+    "options": [
+      {
+        "key": "A",
+        "text": "contents",
+        "correct": false,
+        "distractor_reason": "同一词的复数形态，学生知道 content 是名词就顺手加 s；测词形与搭配——the contents of a book 是「书后目录」，「消息的内容」只能用单数 the content of a message。"
+      },
+      {
+        "key": "B",
+        "text": "context",
+        "correct": false,
+        "distractor_reason": "形近音近干扰（cont-），且「语境、背景」在中文里与「内容」本就难以分清，学生按字形就会误选；测的是学生能否靠 the content of a message 这一固定搭配与 was so short 的语义线索区分二者。"
+      },
+      {
+        "key": "C",
+        "text": "contest",
+        "correct": false,
+        "distractor_reason": "形近音近干扰（cont- 同根），是「比赛、竞赛」；测视觉相似导致的误选，与义项理解无关，属另一类失分机制。"
+      },
+      {
+        "key": "D",
+        "text": "content",
+        "correct": true,
+        "distractor_reason": null
+      }
+    ],
+    "explanation": "【考场动作】看左边的 the 和右边的 of the message：the ______ of sth 里若填 content 或 contents，要先分清单复数——「信息、讲话里说了什么」用单数 content，「书的篇目清单」用复数 contents。再看谓语 was so short：short 形容的是内容多少，不是清单有几页。\n【为什么选 D】content 是名词「内容、实质」：这条消息的内容太短，短到读者不会当真。the content of a message 是标准搭配。\n【其他选项】A contents 的固定搭配是 the contents of a book（书后目录），「消息的内容」永远用单数，目录也谈不上「太短」。B context 意为「背景、语境」，讲语境而非内容，学生若只抓 cont- 字形就会误选。C contest 意为「比赛、竞赛」，与「信息」搭配根本讲不通。",
+    "trap_note": "陷阱来源：学生按 content＝「内容」之外的义项去理解，或被 contents、context、contest 三个同根词带偏，把唯一正确的单数 content 排除掉。",
+    "tags": ["E1", "P2", "P3"]
+  },
+  {
+    "id": "q_049",
+    "sense_id": "s_current_n_electric",
+    "word_id": "w_current",
+    "carrier": "C1",
+    "module": "E4_固定搭配缺失",
+    "difficulty": "mid",
+    "expected_accuracy": [0.35, 0.75],
+    "stem": "The wire is so thin that only a very weak ______ can flow through it, which is why the device heats up easily.",
+    "stem_cn": "这根电线太细，能流过它的电流非常微弱，所以这个装置很容易发热。",
+    "options": [
+      {
+        "key": "A",
+        "text": "current",
+        "correct": true,
+        "distractor_reason": null
+      },
+      {
+        "key": "B",
+        "text": "charge",
+        "correct": false,
+        "distractor_reason": "语义极近：中文「电荷、电流」本来就常被混着说，a weak charge 读起来完全通顺，纯语感排不掉；测搭配记忆——电流才 flow through，电荷只能 charge a battery。"
+      },
+      {
+        "key": "C",
+        "text": "currency",
+        "correct": false,
+        "distractor_reason": "形近音近干扰：currency 与 current 共享 cur- 词根，在金融话题里又是熟词，学生容易凭字形顺手填上；测视觉与音近导致的误选，与电学语境毫无关系。"
+      },
+      {
+        "key": "D",
+        "text": "voltage",
+        "correct": false,
+        "distractor_reason": "语义近且高度相关：中文「电压」与「电流」常被混着说，voltage 本身完全可作名词，句子读起来也顺；测搭配记忆——voltage 是两点之间的差，不能 flow through，要说 the voltage across the two ends。"
+      }
+    ],
+    "explanation": "【考场动作】看主语和动词：______ can flow through the thin wire。整句讲导线里的电学量，而英语固定说 current flows through a wire；上下文出现 wire、battery 就把范围锁在「电流」这一层。\n【为什么选 A】current 在电学语境里就是「电流」：只有很弱的电流能流过这根细线，所以设备容易发热。electric current、a strong current 都是现成搭配。\n【其他选项】B charge 是「电荷」，电荷不流动，其搭配是 charge a battery。D voltage 是「电压」，是两点之差，不能 flow through，要说 the voltage across the two ends。C currency 与 current 共享 cur- 词根，是「货币」，与电池、导线毫无关系，纯属形近误选。",
+    "trap_note": "陷阱来源：学生按 current＝「当前的、现行的」去理解，看到 wire、battery 也不改读；或被 charge、voltage 的物理近义与 currency 的形近带偏，忘了「电流才 flow through」这条硬搭配。",
+    "tags": ["E4", "P4", "P8"]
+  },
+  {
+    "id": "q_050",
+    "sense_id": "s_current_adj_now",
+    "word_id": "w_current",
+    "carrier": "C2",
+    "module": "E2_一词多义混淆",
+    "difficulty": "mid",
+    "expected_accuracy": [0.35, 0.75],
+    "stem": "The price list on the wall shows the ______ price of each meal, and it is updated at the start of every term.",
+    "stem_cn": "墙上的价目表列着每份餐食的现行价格，每个学期初都会更新一次。",
+    "options": [
+      {
+        "key": "A",
+        "text": "present",
+        "correct": false,
+        "distractor_reason": "语义近且学生最熟：present 等于 current，中文「当前的」直译就是它；测的是词性词形误判——present 作名词才表示「现在」（the present），the present price 不成立。"
+      },
+      {
+        "key": "B",
+        "text": "current",
+        "correct": true,
+        "distractor_reason": null
+      },
+      {
+        "key": "C",
+        "text": "latest",
+        "correct": false,
+        "distractor_reason": "语义近且完全说得通：the latest price 是地道英语，与句中「学期初更新」的语境毫无冲突，纯语感排不掉；测搭配记忆——「现行价格」的高考固定块是 the current price。"
+      },
+      {
+        "key": "D",
+        "text": "regular",
+        "correct": false,
+        "distractor_reason": "语义近且搭配成立：the regular price 指「正常价、原价」，学生按「统一的价格」理解毫无违和感；测义项层级与搭配——regular price 是原价，current price 才是现行有效的那一版。"
+      }
+    ],
+    "explanation": "【考场动作】看空格右边的名词 price，再看后半句 it is updated at the start of every term：既然每个学期初都会更新，墙上写的必然是「眼下正在执行的那一版」价格。表达「现行的」，高考固定块是 the current price、in the current year。\n【为什么选 B】current 是形容词「当前的、现行的」：墙上价目表列的是每份餐食的现行价格，并按学期更新。\n【其他选项】A present 与 current 是同义词，但 present 作名词才表示「现在」（the present），the present price 不成立。C latest 完全说得通，the latest price 是地道英语，可它讲「最新的」，句中强调的是正在生效的那一版。D regular 也能搭配，但它指「原价、正常价」，与「现行有效」不是同一层。",
+    "trap_note": "陷阱来源：学生把 current＝「当前的」拆成 present、latest、regular 这些近义替换，或想起 current 的「电流、时事」另两个义项而不敢用；本题要靠 the current price 这一整块搭配定输赢。",
+    "tags": ["E2", "P4", "P2"]
+  },
+  {
+    "id": "q_051",
+    "sense_id": "s_firm_adj_fixed",
+    "word_id": "w_firm",
+    "carrier": "C1",
+    "module": "E4_固定搭配缺失",
+    "difficulty": "mid",
+    "expected_accuracy": [0.35, 0.75],
+    "stem": "The travel agency offered us a ______ price for the whole journey, with no extra charges for meals or reserved seats.",
+    "stem_cn": "旅行社为我们整段行程报了一个固定价格，餐费和预留座位都不另收钱。",
+    "options": [
+      {
+        "key": "A",
+        "text": "fair",
+        "correct": false,
+        "distractor_reason": "语义近且完全说得通：a fair price 是地道英语，中文「不额外收费」很容易被读成「公道的价格」；测搭配记忆——fair 讲价格合理，firm 讲价格不可更动，本题要靠 no extra charges 这条线索区分。"
+      },
+      {
+        "key": "B",
+        "text": "form",
+        "correct": false,
+        "distractor_reason": "形近音近干扰：form 与 firm 拼写相近、读音相近，学生视觉一扫就误选；测的是 E3 层面的形近误选，与义项判断无关。"
+      },
+      {
+        "key": "C",
+        "text": "firm",
+        "correct": true,
+        "distractor_reason": null
+      },
+      {
+        "key": "D",
+        "text": "stable",
+        "correct": false,
+        "distractor_reason": "语义近且完全说得通：a stable price 在经济话题里真能出现，语感顺畅，纯语感排不掉；测的是搭配与义项微差——「一经说定不再更改」的高考固定块是 a firm price。"
+      }
+    ],
+    "explanation": "【考场动作】把宾语圈出来：a ______ price for the whole journey，with no extra charges。句末「不另收钱」是关键线索，说明这个价格是「一次说定、不会再变」的。表达「不容更改」，高考固定块是 a firm price、a firm offer。\n【为什么选 C】firm 是形容词「固定的、不可更动的」：旅行社给了全程固定价，餐费和座位都不另加钱。a firm price 是商业类阅读里的标准说法。\n【其他选项】A fair 语义完全说得通，a fair price 是地道英语，可 fair 讲价格合理，不是价格不会再变。D stable 同样能搭配（a stable price），但它说金额不波动，而非一经说定不再更改。B form 与 firm 拼写、读音都近，是纯形近音近干扰，a form price 没有任何搭配依据。",
+    "trap_note": "陷阱来源：学生按 firm＝「公司」或「坚定的」去理解，不敢让它修饰 price；或被 fair、stable 这类讲「价格公道、稳定」的近义词顶替，忽略 a firm price 是整块记忆的固定搭配。",
+    "tags": ["E4", "P4", "P3"]
+  },
+  {
+    "id": "q_052",
+    "sense_id": "s_firm_adj_solid",
+    "word_id": "w_firm",
+    "carrier": "C2",
+    "module": "E2_一词多义混淆",
+    "difficulty": "hard",
+    "expected_accuracy": [0.15, 0.45],
+    "stem": "The wall looked thin, but it stands on ______ ground, so the tree will not fall in the next storm.",
+    "stem_cn": "那堵墙看上去很单薄，但它立在坚固的地面上，所以这棵树在下一场风暴里也不会倒。",
+    "options": [
+      {
+        "key": "A",
+        "text": "solid",
+        "correct": false,
+        "distractor_reason": "语义近且搭配完全成立：on solid ground 是真实搭配，与 firm ground 几乎同义，纯语感排不掉；测搭配记忆——firm ground、a firm foundation 这一整块才能定输赢。"
+      },
+      {
+        "key": "B",
+        "text": "flat",
+        "correct": false,
+        "distractor_reason": "语义近且搭配成立：on flat ground 是真搭配，学生抓到「地面」就顺手选它；测的是语境因果——句中要的是「稳、牢」，flat 只写地貌不写地基，与后半句「树不会倒」接不上。"
+      },
+      {
+        "key": "C",
+        "text": "form",
+        "correct": false,
+        "distractor_reason": "形近音近干扰：form 与 firm 拼写与读音都近，学生视觉一扫就误选；测 E3 层面的形近误选，与义项判断无关，on form ground 也不成任何搭配。"
+      },
+      {
+        "key": "D",
+        "text": "firm",
+        "correct": true,
+        "distractor_reason": null
+      }
+    ],
+    "explanation": "【考场动作】看介词 on 后面接的是什么：ground。再看后半句的因果——「树在下一场风暴里不会倒」，说明这个地面是「踩上去不动、地基牢」的，不是「平的」。凡是 ground、foundation、grip 这类接触类名词搭配 firm，才读作「结实的」，这一步先把 flat 排掉。\n【为什么选 D】firm 是形容词「结实的、坚固的」：墙看着单薄，但立在坚固的地面上，所以树在下一次风暴里也不会倒。firm ground 是描述地基的固定说法。\n【其他选项】A solid 与 firm 在「结实的」这一层几乎同义，on solid ground 确实是真搭配，语感排不掉，只能靠 firm ground 记熟来分。B flat 是「平坦的」，on flat ground 只说地面平，既不牢也不稳，与后半句因果接不上。C form 与 firm 拼写、读音都近，纯形近误选。",
+    "trap_note": "陷阱来源：学生按 firm＝「公司」或「坚定的（信念）」去理解；或用 solid 顶替 firm ground 这一整块，只顾词义相近，不看后半句的因果线索。",
+    "tags": ["E2", "P4", "P3"]
+  },
+  {
+    "id": "q_053",
+    "sense_id": "s_flat_adj_uniform",
+    "word_id": "w_flat",
+    "carrier": "C1",
+    "module": "E4_固定搭配缺失",
+    "difficulty": "mid",
+    "expected_accuracy": [0.35, 0.75],
+    "stem": "Members of the sports centre pay one ______ monthly fee, and there is no extra charge for extra classes or equipment.",
+    "stem_cn": "健身中心的会员每月只交一笔统一费用，多上几节课或多用器械都不另收费。",
+    "options": [
+      {
+        "key": "A",
+        "text": "uniform",
+        "correct": false,
+        "distractor_reason": "语义近且搭配成立：a uniform fee 在英语里也真能成立，中文「一律相同」直译过去就是它，纯语感排不掉；测搭配记忆——不分等级的费率在高考固定块里是 a flat fee、a flat rate。"
+      },
+      {
+        "key": "B",
+        "text": "flat",
+        "correct": true,
+        "distractor_reason": null
+      },
+      {
+        "key": "C",
+        "text": "single",
+        "correct": false,
+        "distractor_reason": "语义近且完全说得通：a single monthly fee 强调「一笔」，与后半句没有额外收费完全相容；测的是义项颗粒度——flat 才同时点出「一笔」和「不论多少都同样」这两层。"
+      },
+      {
+        "key": "D",
+        "text": "steady",
+        "correct": false,
+        "distractor_reason": "语义近：a steady monthly fee（金额稳定不波动）语感上顺，测试学生能否靠「多上几节课也不另收费」这条线索区分「稳定」与「划一」。"
+      }
+    ],
+    "explanation": "【考场动作】看 one ______ monthly fee 和后半句 there is no extra charge for extra classes：多上几节课不多收钱，就说明费用「不分等级、一律相同」。高考固定块是 a flat fee、a flat charge、pay a flat monthly fee。\n【为什么选 B】flat 是形容词「划一的、不分等级的」：会员每月只交一笔统一费用，额外课程和器械都不另收费。pay a flat monthly fee 是应用文里的标准表达。\n【其他选项】A uniform 语义完全说得通，a uniform fee 在英语里也成立；但「一律相同」在高考语料里对应的固定词是 flat。C single 同样说得通，可它只点出「一笔」，没点出「不论上多少节课都同样收费」。D steady 说的是金额不波动，不是按统一样式收取，与 extra classes 不另收费不合。",
+    "trap_note": "陷阱来源：学生按 flat＝「平坦的、公寓、平淡的」去理解，四个义项里没有一个能套进「费率」上，于是用 uniform、single、steady 顶替，忽略了 a flat rate 与 pay a flat monthly fee 这两个整块。",
+    "tags": ["E4", "P4", "P8"]
+  },
+  {
+    "id": "q_054",
+    "sense_id": "s_flat_adj_level",
+    "word_id": "w_flat",
+    "carrier": "C1",
+    "module": "E1_熟词僻义",
+    "difficulty": "mid",
+    "expected_accuracy": [0.35, 0.75],
+    "stem": "The ground behind the school is so ______ that the whole football team practises there every afternoon.",
+    "stem_cn": "学校后面的地面十分平坦，所以整支足球队每天下午都在那里训练。",
+    "options": [
+      {
+        "key": "A",
+        "text": "flat",
+        "correct": true,
+        "distractor_reason": null
+      },
+      {
+        "key": "B",
+        "text": "level",
+        "correct": false,
+        "distractor_reason": "语义近且完全说得通：the ground is so level that… 是地道英语，「平」这层意思与 flat 完全重合，纯语感排不掉；测搭配记忆——「地面平」的高考固定词是 flat（flat ground、flat land）。"
+      },
+      {
+        "key": "C",
+        "text": "bland",
+        "correct": false,
+        "distractor_reason": "形近音近干扰：bland 与 flat 拼写与读音都近，学生容易看错就顺手选它；测词义层级误判——bland 讲「乏味无趣」，形容食物或故事，说地面「so bland」根本不成立。"
+      },
+      {
+        "key": "D",
+        "text": "float",
+        "correct": false,
+        "distractor_reason": "形近音近干扰：float 与 flat 同为 fl- 开头、读音相近，是词表里明写的易混词；测词性判断与搭配——float 是动词「漂浮」，填进 the ground is so ______ 这一框架后语法就不成立。"
+      }
+    ],
+    "explanation": "【考场动作】先看主语 the ground behind the school，这是「地面」；再看 so ______ that the whole football team practises there——地面要能让整支足球队训练，说明它平、没坡度。凡描述地面、路面、土方的「无高低差」，高考固定用 flat。\n【为什么选 A】flat 是形容词「平坦的、水平的」：学校后面的地面很平，足球队每天下午都能在那儿训练。\n【其他选项】B level 语义与语境完全说得通，the ground is so level that… 是地道英语；但「地面平」的高考固定词是 flat，level 多用于「同一高度」这类比较。C bland 与 flat 拼写、读音都近，但 bland 是「乏味的」，说地面 bland 不成立。D float 是形近音近干扰，是动词「漂浮」，the ground is so float 不通。",
+    "trap_note": "陷阱来源：学生把 flat 想成「公寓、平淡的」，或被 bland、float 的形近带偏；看到 so ______ that 却不检查「地面平」这个固定说法，结果把唯一正确的 flat 排除掉。",
+    "tags": ["E1", "P4", "P2"]
+  },
+  {
+    "id": "q_055",
+    "sense_id": "s_former_n_founder",
+    "word_id": "w_former",
+    "carrier": "C4",
+    "module": "E5_词性词形误判",
+    "difficulty": "hard",
+    "expected_accuracy": [0.15, 0.45],
+    "stem": "Dear Mr. Green, our reading club was started by two young teachers, and the ______ of the movement are still active members today.",
+    "stem_cn": "尊敬的格林先生：我们的读书俱乐部最初由两位年轻教师创办，那些创办者至今仍是活跃的会员。",
+    "options": [
+      {
+        "key": "A",
+        "text": "former",
+        "correct": false,
+        "distractor_reason": "同一词的另一词性：former 作形容词「以前的、先前的」在学生眼里最熟，看到 the ______ 就顺手填上；测词性词形误判——本题要的是它的名词义「创始人」，the former of the movement 语法不成立。"
+      },
+      {
+        "key": "B",
+        "text": "formal",
+        "correct": false,
+        "distractor_reason": "形近音近干扰：formal 与 former 拼写与读音都接近，是词表里明写的易混词；测视觉相似导致的误选，与义项理解无关。"
+      },
+      {
+        "key": "C",
+        "text": "formers",
+        "correct": true,
+        "distractor_reason": null
+      },
+      {
+        "key": "D",
+        "text": "founder",
+        "correct": false,
+        "distractor_reason": "语义上几乎就是答案（创办人），学生不认识 former 的名词义就会选它；测词形误判——空格里必须是复数形式，谓语 are 与「两位老师」的语境都已给出提示。"
+      }
+    ],
+    "explanation": "【考场动作】看空格两边：左边 the，右边 of the movement，谓语是 are（复数），说明空格必须是一个复数名词。再看句意：两位老师「创办」了这个社团，空格指创办者本人，不是「以前的人」。\n【为什么选 C】former 在这里作名词，意为「创始人、创办者」——the formers of the movement，指当年把社团办起来的那批人。这是它最冷僻的一层，one of the formers 要整块背。\n【其他选项】A former 是形容词「以前的」，the former of the movement 语法不成立；这里考的是名词义。B formal 与 former 形近音近，是纯字形干扰，接不进 the ______ of the movement 的框架。D founder 语义最接近（创办人），学生不认识 former 的名词义就会选它；但它是单数，与谓语 are 和「两位老师」的语境冲突。",
+    "trap_note": "陷阱来源：学生按 former＝「以前的」或 the former＝「前者」去理解，一看到 the ______ of 就不敢选；或用语义上更顺手的 founder 顶替，却漏掉了复数形态与词性。",
+    "tags": ["E5", "P3", "P4"]
+  },
+  {
+    "id": "q_056",
+    "sense_id": "s_former_adj_previous",
+    "word_id": "w_former",
+    "carrier": "C2",
+    "module": "E2_一词多义混淆",
+    "difficulty": "easy",
+    "expected_accuracy": [0.65, 0.95],
+    "stem": "She met her ______ classmates at the station and they talked about the old school days for hours.",
+    "stem_cn": "她在车站遇到了以前的同班同学，两人一聊当年的学校往事就聊了好几个小时。",
+    "options": [
+      {
+        "key": "A",
+        "text": "latter",
+        "correct": false,
+        "distractor_reason": "形近义近干扰：former 与 latter 是一组必背对子，学生看到 former 就容易顺手写反，或者以为「former 已被占用」而改选 latter；测的是成对使用的固定关系与词性。"
+      },
+      {
+        "key": "B",
+        "text": "formal",
+        "correct": false,
+        "distractor_reason": "形近音近干扰：formal 与 former 拼写、读音都近，纯字形误选；测的是形近导致的误判，与义项无关。"
+      },
+      {
+        "key": "C",
+        "text": "formers",
+        "correct": false,
+        "distractor_reason": "另一真实义项的形态：formers 是「创始人」的复数，语义上与「以前的同班同学」并不冲突，学生若把 former 的名词义误用到定语位置就会选它；测词性与义项层级的双重误判。"
+      },
+      {
+        "key": "D",
+        "text": "former",
+        "correct": true,
+        "distractor_reason": null
+      }
+    ],
+    "explanation": "【考场动作】看空格后面的名词 classmates：能被 former 修饰的是「人」；空格作定语，需要形容词。再看语境：她在车站「遇到」他们，一聊就是「当年的学校往事」，说明他们是「以前同班的」。凡是修饰人（former colleagues、a former champion），才读作「以前的」。\n【为什么选 D】former 是形容词「以前的、先前的」：她在车站遇到了以前的同班同学，一聊就是好几个小时当年的学校往事。\n【其他选项】A latter 是必背的固定对子，the former 与 the latter 必须成对出现，单独用 latter 指不出「后者」，接 classmates 也不成搭配。B formal 与 former 形近音近，但 formal 是「正式的」，formal classmates 讲不通。C formers 是 former 的另一真实义项「创始人」的复数，塞进定语位置就是双重误判。",
+    "trap_note": "陷阱来源：学生把 the former＝「前者」这一条套到所有 former 上，或被 former 的名词义（创始人）与 latter、formal 的形近带偏，把「以前的、先前的」排除掉。",
+    "tags": ["E2", "P3", "P4"]
+  },
+  {
+    "id": "q_057",
+    "sense_id": "s_issue_n_problem",
+    "word_id": "w_issue",
+    "carrier": "C1",
+    "module": "E6_语境推断失败",
+    "difficulty": "mid",
+    "expected_accuracy": [0.35, 0.75],
+    "stem": "All classrooms now have smart boards, and so far there has been no ______ at all with the new system; every lesson has gone as planned.",
+    "stem_cn": "现在所有教室都装上了智能黑板，到目前为止新系统一次也没出过问题；每节课都按计划进行。",
+    "options": [
+      {
+        "key": "A",
+        "text": "topic",
+        "correct": false,
+        "distractor_reason": "issue 的另一个真实义项「议题、争论点」，字面完全可以讲通；测语境推断失败——「到目前为止没出任何问题、每节课照常」这条线索把它排除。"
+      },
+      {
+        "key": "B",
+        "text": "issue",
+        "correct": true,
+        "distractor_reason": null
+      },
+      {
+        "key": "C",
+        "text": "matter",
+        "correct": false,
+        "distractor_reason": "形近义近干扰，且与 confusable 列表里的 matter 撞形，学生还会被 no matter at all 这一固定短语吸走；测的是固定短语与搭配双重失分——no issue at all 才是高考固定块。"
+      },
+      {
+        "key": "D",
+        "text": "concern",
+        "correct": false,
+        "distractor_reason": "形近音近干扰：issue 与 concern 常被学生混在一起，语义上「没有担忧」也说得通；测的是词义层级与搭配——concern 讲挂念，不与 with the new system 搭配，更不表示「毛病」。"
+      }
+    ],
+    "explanation": "【考场动作】先圈出三个线索：so far、no ______ at all、every lesson has gone as planned。三处都指向「到目前为止没出任何毛病」，是技术与操作层面的具体问题，不是「有争议的话题」。凡是前面有 no、a minor，后面接 with 加具体事物，都是「问题、隐患」这一层，固定块是 no issue at all。\n【为什么选 B】issue 指「毛病、隐患」：换了智能黑板之后新系统一次也没出过状况，每节课都照计划进行。\n【其他选项】A topic 是 issue 的另一真实义项「议题」，字面也讲得通，但与「一次没出问题、每节课照常」矛盾，属语境推断失败。C matter 是形近义近干扰，学生还会被 no matter at all（「完全无关」）吸走。D concern 讲「挂念」，no concern with the new system 不是搭配，也与「一切正常」矛盾。",
+    "trap_note": "陷阱来源：学生按 issue＝「议题、争论点」去理解，看到讨论类语境就选 topic；或被 matter、concern 的形近带偏，忽略了 no issue at all 与 with 加具体事物这两条硬线索。",
+    "tags": ["E6", "P4", "P3"]
+  },
+  {
+    "id": "q_058",
+    "sense_id": "s_issue_n_topic",
+    "word_id": "w_issue",
+    "carrier": "C1",
+    "module": "E1_熟词僻义",
+    "difficulty": "easy",
+    "expected_accuracy": [0.65, 0.95],
+    "stem": "How to keep a balance between study and rest remains a much discussed ______ in our school.",
+    "stem_cn": "在我们的学校，怎样在学习和休息之间取得平衡仍是一个被广泛讨论的议题。",
+    "options": [
+      {
+        "key": "A",
+        "text": "issue",
+        "correct": true,
+        "distractor_reason": null
+      },
+      {
+        "key": "B",
+        "text": "problem",
+        "correct": false,
+        "distractor_reason": "语义近且完全说得通：a much discussed problem 是地道英语，中文直译也顺，纯语感排不掉；测搭配与义项颗粒度——高考谈「有争议的公共话题」固定用 a controversial issue、a major issue。"
+      },
+      {
+        "key": "C",
+        "text": "topic",
+        "correct": false,
+        "distractor_reason": "语义近：topic 也是「话题」，学生按中文「讨论的话题」直译就会选它；测义项层级——issue 带「争议、需要定夺」这层，topic 只指话题或题目。"
+      },
+      {
+        "key": "D",
+        "text": "matter",
+        "correct": false,
+        "distractor_reason": "confusable 列表里的近形近义词，语义是「事情、物质」；测词形与搭配——matter 在这里不可数，a much discussed matter 讲不通。"
+      }
+    ],
+    "explanation": "【考场动作】看空格前后的搭配：a much discussed ______，讲的是「被广泛讨论、有争议的重要事」。凡是前面有 major、controversial，后面空的就是 issue，固定块是 a major issue。再看 remains a ______：空格是名词中心词。\n【为什么选 A】issue 指「议题、争论点」：学习与休息如何平衡，仍是一个被反复讨论的议题，也是这一层最正式的词。\n【其他选项】B problem 语义完全说得通，a much discussed problem 也是地道英语；但 problem 偏「待解决的麻烦」，issue 强调「被反复讨论的公共话题」。C topic 也说得通，可它偏「话题、题目」，不带「争议」这层。D matter 是 confusable 里的近形词，通常不可数，a much discussed matter 讲不通。",
+    "trap_note": "陷阱来源：学生按 issue＝「问题、麻烦」去理解，认为本题该选 problem；或把 issue 与 matter 混为一谈，忽略了「被广泛讨论的公共议题」这一层与 a controversial issue 的固定搭配。",
+    "tags": ["E1", "P4", "P3"]
+  },
+  {
+    "id": "q_059",
+    "sense_id": "s_major_v_study",
+    "word_id": "w_major",
+    "carrier": "C3",
+    "module": "E3_形近音近混淆",
+    "difficulty": "mid",
+    "expected_accuracy": [0.35, 0.75],
+    "stem": "In college she ______ in economics, taking almost all of her courses in that field.",
+    "stem_cn": "大学期间她主修经济学，几乎所有课程都修的是这个专业。",
+    "options": [
+      {
+        "key": "A",
+        "text": "minor",
+        "correct": false,
+        "distractor_reason": "形近音近干扰，且 minor in X（辅修）在美式英语里真能成立，学生会按「与 major 反义但用法相同」来选；测的是与后半句 taking almost all of her courses 的语境冲突。"
+      },
+      {
+        "key": "B",
+        "text": "majority",
+        "correct": false,
+        "distractor_reason": "形近音近干扰：majority 与 major 共享 major- 词根，学生看到「大部分」就想到「学的大部分」，但它根本不是动词；测词性误判与形近误选。"
+      },
+      {
+        "key": "C",
+        "text": "majored",
+        "correct": true,
+        "distractor_reason": null
+      },
+      {
+        "key": "D",
+        "text": "senior",
+        "correct": false,
+        "distractor_reason": "形近干扰：senior 与 junior 一组，同为 -ior 结尾，学生把 senior 读成「高年级的」并误当成一个动作；测词性误判——she seniored in economics 语法不成立。"
+      }
+    ],
+    "explanation": "【考场动作】先看空格后面：in 加学科名。英语里表示「主修某学科」的固定结构只有一个：major in sth，major 后必须有 in。其次看谓语：主语是 she，时间状语 In college 指向过去，动词要用过去式。\n【为什么选 C】major 是动词「主修、专攻」：她大学主修经济学，几乎所有课程都修的这一个方向。major in computer science、major in English 是校园与留学类话题的固定块。\n【其他选项】A minor 与 major 共享词根，是必背的形近对比，但 minor in X 是「辅修」，与后半句「几乎所有课程都在这一门」直接矛盾。B majority 也是 major- 同根的名词「大多数」，majorityed 不是任何动词形式。D senior 属 -ior 一组的近形词，只能作形容词或名词，she seniored in economics 语法不成立。",
+    "trap_note": "陷阱来源：学生按 major＝「主要的、重大的」去读，看到课程多的语境就想到「大部分」；或在 minor、majority、senior 三个同根近形词之间凭感觉选；本题必须靠 major in sth 这一整块搭配定输赢。",
+    "tags": ["E3", "P4", "P3"]
+  },
+  {
+    "id": "q_060",
+    "sense_id": "s_major_adj_main",
+    "word_id": "w_major",
+    "carrier": "C1",
+    "module": "E1_熟词僻义",
+    "difficulty": "easy",
+    "expected_accuracy": [0.65, 0.95],
+    "stem": "Researchers suggest that family support plays a ______ role in a student's final choice of university.",
+    "stem_cn": "研究者认为，家庭的支持在学生最终决定报考哪所大学时起着主要作用。",
+    "options": [
+      {
+        "key": "A",
+        "text": "key",
+        "correct": false,
+        "distractor_reason": "语义近且完全说得通：plays a key role in 是地道英语，与 major role 几乎同义，纯语感排不掉；测搭配记忆——高考语料里「起主要作用」的固定块是 play a major role in。"
+      },
+      {
+        "key": "B",
+        "text": "minority",
+        "correct": false,
+        "distractor_reason": "形近音近干扰：majority、minority 与 major 共享词根，学生看到 major 就顺着词根想到「大多数」；测词性误判——它不能直接作定语修饰 role。"
+      },
+      {
+        "key": "C",
+        "text": "minor",
+        "correct": false,
+        "distractor_reason": "形近音近干扰：minor 与 major 是一组必背的对比词，搭配 plays a minor role 也成立；测语义方向——句中说的是「起主要作用」，学生不能只抓形近不顾语义。"
+      },
+      {
+        "key": "D",
+        "text": "major",
+        "correct": true,
+        "distractor_reason": null
+      }
+    ],
+    "explanation": "【考场动作】看空格右边：role in a student's final choice，in 引出「在什么范围内起作用」；再看中心词 plays a ______ role。高考里「起主要作用」的固定说法就是 play a major role in sth。\n【为什么选 D】major 是形容词「主要的、重大的」：家庭支持在学生最终选校中起主要作用。a major role in、a major factor in 是议论文里的一组固定说法。\n【其他选项】A key 完全说得通，plays a key role in 是地道英语，纯语感排不掉；但「起主要作用」的高考固定块是 play a major role in。C minor 搭配成立（plays a minor role）却是反义，属 major 与 minor 必背的形近对比。B minority 共享 major- 词根，但它是名词「大多数」，不能修饰 role。",
+    "trap_note": "陷阱来源：学生按 major＝「大部分的」去读，或被 key、minor、minority 这些形近与近义词带偏，把 major 在「主要的、重大的」这一层排除掉。",
+    "tags": ["E1", "P4", "P3"]
+  }
+]

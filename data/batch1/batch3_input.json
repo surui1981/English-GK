@@ -1,0 +1,663 @@
+{
+ "_meta": {
+  "batch": 3,
+  "batches_total": 5,
+  "word_count": 20,
+  "spec": "docs/首批100词精修规范.md",
+  "gold_standard": "docs/首批100词精修规范.md §6",
+  "instruction": "对本批 20 个词条逐条按六维体系精修，输出 JSON 数组"
+ },
+ "words": [
+  {
+   "seq": 41,
+   "id": "w_pattern",
+   "headword": "pattern",
+   "track": "A",
+   "tier": "T1",
+   "trap_strength": 2,
+   "trap_hint": "名词义：模式、典范；动词义：仿制",
+   "core_hint": "图案",
+   "note": "a pattern of behaviour 是社会类文章核心",
+   "score": 159,
+   "seed": {
+    "ipa": "/ˈpætn/",
+    "pos": [
+     "n"
+    ],
+    "pos_raw": "n",
+    "sense_count": 3,
+    "senses_raw": [
+     "模式",
+     "图案",
+     "模范"
+    ],
+    "definition_raw": "n.模式;图案;模范",
+    "book": "必修3",
+    "unit": "4.0",
+    "unit_id": "必修3 4.0",
+    "unit_title_raw": "必修三 U4 Space Exploration",
+    "theme": "T-航天科技与探索精神",
+    "theme_tags": [
+     "航天",
+     "科技",
+     "探索与奉献"
+    ],
+    "source": "新人教版(2019)必修1-3/选择性必修1-4 单元词表"
+   }
+  },
+  {
+   "seq": 42,
+   "id": "w_replace",
+   "headword": "replace",
+   "track": "A",
+   "tier": "T1",
+   "trap_strength": 2,
+   "trap_hint": "动词义：取代；replace A with B（介词方向）",
+   "core_hint": "取代",
+   "note": "介词方向是高频错点",
+   "score": 159,
+   "seed": {
+    "ipa": "/rɪˈpleɪs/",
+    "pos": [
+     "v"
+    ],
+    "pos_raw": "vt",
+    "sense_count": 3,
+    "senses_raw": [
+     "接替",
+     "取代",
+     "更换"
+    ],
+    "definition_raw": "vt.接替;取代;更换",
+    "book": "必修3",
+    "unit": "2.0",
+    "unit_id": "必修3 2.0",
+    "unit_title_raw": "必修三 U2 Morals and Virtues",
+    "theme": "T-道德品质与职业伦理",
+    "theme_tags": [
+     "道德",
+     "职业伦理",
+     "医德与责任"
+    ],
+    "source": "新人教版(2019)必修1-3/选择性必修1-4 单元词表"
+   }
+  },
+  {
+   "seq": 43,
+   "id": "w_seek",
+   "headword": "seek",
+   "track": "A",
+   "tier": "T1",
+   "trap_strength": 2,
+   "trap_hint": "seek to do（试图）；seek after（追求）",
+   "core_hint": "寻求",
+   "note": "搭配是应用文高频",
+   "score": 159,
+   "seed": {
+    "ipa": "/si:k/",
+    "pos": [
+     "v"
+    ],
+    "pos_raw": "vt&vi",
+    "sense_count": 3,
+    "senses_raw": [
+     "vi.寻找",
+     "寻求",
+     "争取"
+    ],
+    "definition_raw": "vt.&vi.寻找;寻求;争取",
+    "book": "必修3",
+    "unit": "3.0",
+    "unit_id": "必修3 3.0",
+    "unit_title_raw": "必修三 U3 Diverse Cultures",
+    "theme": "T-多元文化与美国社会",
+    "theme_tags": [
+     "多元文化",
+     "移民",
+     "社会生活"
+    ],
+    "source": "新人教版(2019)必修1-3/选择性必修1-4 单元词表"
+   }
+  },
+  {
+   "seq": 44,
+   "id": "w_view",
+   "headword": "view",
+   "track": "A",
+   "tier": "T1",
+   "trap_strength": 2,
+   "trap_hint": "动词义：看待、认为（view A as B）；名词义：景色、看法",
+   "core_hint": "观点",
+   "note": "view 与 opinion/attitude 构成近义辨析组",
+   "score": 159,
+   "seed": {
+    "ipa": "/vju:/",
+    "pos": [
+     "n"
+    ],
+    "pos_raw": "n",
+    "sense_count": 3,
+    "senses_raw": [
+     "视野",
+     "景色",
+     "看法"
+    ],
+    "definition_raw": "n.视野;景色;看法",
+    "book": "必修1",
+    "unit": "3.0",
+    "unit_id": "必修1 3.0",
+    "unit_title_raw": "必修一 U3 Travel Around the World",
+    "theme": "T-旅行与世界探索",
+    "theme_tags": [
+     "旅行",
+     "世界遗产",
+     "文化交流"
+    ],
+    "source": "新人教版(2019)必修1-3/选择性必修1-4 单元词表"
+   }
+  },
+  {
+   "seq": 45,
+   "id": "w_challenge",
+   "headword": "challenge",
+   "track": "A",
+   "tier": "T1",
+   "trap_strength": 2,
+   "trap_hint": "动词义：质疑、挑战（challenge sb's claim）",
+   "core_hint": "挑战",
+   "note": "pose a challenge to",
+   "score": 155,
+   "seed": {
+    "ipa": "/ˈtʃæləndʒ/",
+    "pos": [
+     "n"
+    ],
+    "pos_raw": "n",
+    "sense_count": 2,
+    "senses_raw": [
+     "挑战",
+     "艰巨任务 vt.怀疑"
+    ],
+    "definition_raw": "n.挑战;艰巨任务 vt.怀疑",
+    "book": "必修1",
+    "unit": "2.0",
+    "unit_id": "必修1 2.0",
+    "unit_title_raw": "必修一 U2 Sports and Fitness",
+    "theme": "T-学习成长与课外活动",
+    "theme_tags": [
+     "学习",
+     "成长",
+     "社团活动"
+    ],
+    "source": "新人教版(2019)必修1-3/选择性必修1-4 单元词表"
+   }
+  },
+  {
+   "seq": 46,
+   "id": "w_impact",
+   "headword": "impact",
+   "track": "A",
+   "tier": "T1",
+   "trap_strength": 2,
+   "trap_hint": "an impact on（对…的影响）；have an impact on",
+   "core_hint": "冲击；撞击",
+   "note": "介词搭配是高频错点",
+   "score": 155,
+   "seed": {
+    "ipa": "/ˈɪmpækt/",
+    "pos": [
+     "n"
+    ],
+    "pos_raw": "n",
+    "sense_count": 2,
+    "senses_raw": [
+     "巨大影响",
+     "强大作用"
+    ],
+    "definition_raw": "n.巨大影响;强大作用",
+    "book": "必修2",
+    "unit": "5.0",
+    "unit_id": "必修2 5.0",
+    "unit_title_raw": "必修二 U5 Music",
+    "theme": "T-音乐与艺术创作",
+    "theme_tags": [
+     "音乐",
+     "艺术",
+     "创作与表演"
+    ],
+    "source": "新人教版(2019)必修1-3/选择性必修1-4 单元词表"
+   }
+  },
+  {
+   "seq": 47,
+   "id": "w_indicate",
+   "headword": "indicate",
+   "track": "A",
+   "tier": "T1",
+   "trap_strength": 2,
+   "trap_hint": "动词义：表明、指明",
+   "core_hint": "指示",
+   "note": "句型是语法填空高频",
+   "score": 155,
+   "seed": {
+    "ipa": "/ˈɪndɪkeɪt/",
+    "pos": [
+     "v"
+    ],
+    "pos_raw": "vt&vi",
+    "sense_count": 2,
+    "senses_raw": [
+     "vi.表明",
+     "显示 vt.象征"
+    ],
+    "definition_raw": "vt.&vi.表明;显示 vt.象征",
+    "book": "必修3",
+    "unit": "5.0",
+    "unit_id": "必修3 5.0",
+    "unit_title_raw": "必修三 U5 The Value of Money",
+    "theme": "T-金钱观与人生价值",
+    "theme_tags": [
+     "金钱",
+     "价值观",
+     "人生选择"
+    ],
+    "source": "新人教版(2019)必修1-3/选择性必修1-4 单元词表"
+   }
+  },
+  {
+   "seq": 48,
+   "id": "w_occupy",
+   "headword": "occupy",
+   "track": "A",
+   "tier": "T1",
+   "trap_strength": 2,
+   "trap_hint": "动词义：占用、使忙碌（be occupied with）",
+   "core_hint": "占据",
+   "note": "搭配是完形高频",
+   "score": 155,
+   "seed": {
+    "ipa": "/ˈɒkjupaɪ/",
+    "pos": [
+     "v"
+    ],
+    "pos_raw": "v",
+    "sense_count": 2,
+    "senses_raw": [
+     "占据",
+     "占用"
+    ],
+    "definition_raw": "v.占据;占用",
+    "book": "选修1",
+    "unit": "4.0",
+    "unit_id": "选修1 4.0",
+    "unit_title_raw": "选择性必修一 U4 Body Language",
+    "theme": "T-身体语言与非言语沟通",
+    "theme_tags": [
+     "肢体语言",
+     "人际沟通",
+     "文化差异"
+    ],
+    "source": "新人教版(2019)必修1-3/选择性必修1-4 单元词表"
+   }
+  },
+  {
+   "seq": 49,
+   "id": "w_phase",
+   "headword": "phase",
+   "track": "A",
+   "tier": "T1",
+   "trap_strength": 2,
+   "trap_hint": "a phase of（一个阶段）；in phases",
+   "core_hint": "阶段；相位",
+   "note": "与 phrase 构成形近对比组",
+   "score": 155,
+   "seed": {
+    "ipa": "/feɪz/",
+    "pos": [
+     "n"
+    ],
+    "pos_raw": "n",
+    "sense_count": 2,
+    "senses_raw": [
+     "阶段",
+     "时期"
+    ],
+    "definition_raw": "n.阶段;时期",
+    "book": "选修4",
+    "unit": "2.0",
+    "unit_id": "选修4 2.0",
+    "unit_title_raw": "选择性必修四 U2 Literature",
+    "theme": "T-国家地理与标志景观",
+    "theme_tags": [
+     "地理",
+     "地标",
+     "文化符号"
+    ],
+    "source": "新人教版(2019)必修1-3/选择性必修1-4 单元词表"
+   }
+  },
+  {
+   "seq": 50,
+   "id": "w_prove",
+   "headword": "prove",
+   "track": "A",
+   "tier": "T1",
+   "trap_strength": 2,
+   "trap_hint": "prove to be（证明是）",
+   "core_hint": "证明",
+   "note": "结构是语法填空高频",
+   "score": 155,
+   "seed": {
+    "ipa": "/pru:v/",
+    "pos": [
+     "v"
+    ],
+    "pos_raw": "vt",
+    "sense_count": 2,
+    "senses_raw": [
+     "证明",
+     "展现"
+    ],
+    "definition_raw": "vt.证明;展现",
+    "book": "必修2",
+    "unit": "5.0",
+    "unit_id": "必修2 5.0",
+    "unit_title_raw": "必修二 U5 Music",
+    "theme": "T-音乐与艺术创作",
+    "theme_tags": [
+     "音乐",
+     "艺术",
+     "创作与表演"
+    ],
+    "source": "新人教版(2019)必修1-3/选择性必修1-4 单元词表"
+   }
+  },
+  {
+   "seq": 51,
+   "id": "w_range",
+   "headword": "range",
+   "track": "A",
+   "tier": "T1",
+   "trap_strength": 2,
+   "trap_hint": "a wide range of（各种各样的）；动词义：排列",
+   "core_hint": "范围；山脉",
+   "note": "搭配是应用文与作文高频",
+   "score": 155,
+   "seed": {
+    "ipa": "/reɪndʒ/",
+    "pos": [
+     "n"
+    ],
+    "pos_raw": "n",
+    "sense_count": 2,
+    "senses_raw": [
+     "一系列",
+     "范围 vi.包括"
+    ],
+    "definition_raw": "n.一系列;范围 vi.包括",
+    "book": "必修3",
+    "unit": "1.0",
+    "unit_id": "必修3 1.0",
+    "unit_title_raw": "必修三 U1 Festivals and Celebrations",
+    "theme": "T-传统节日与民俗",
+    "theme_tags": [
+     "传统节日",
+     "民俗",
+     "文化传承"
+    ],
+    "source": "新人教版(2019)必修1-3/选择性必修1-4 单元词表"
+   }
+  },
+  {
+   "seq": 52,
+   "id": "w_nerve",
+   "headword": "nerve",
+   "track": "A",
+   "tier": "T1",
+   "trap_strength": 3,
+   "trap_hint": "名词义：勇气（have the nerve to do）",
+   "core_hint": "神经",
+   "note": "lose one's nerve 是完形高频",
+   "score": 143,
+   "seed": {
+    "ipa": "/nɜ:v/",
+    "pos": [
+     "n"
+    ],
+    "pos_raw": "n",
+    "sense_count": 1,
+    "senses_raw": [
+     "神经"
+    ],
+    "definition_raw": "n.神经",
+    "book": "选修2",
+    "unit": "5.0",
+    "unit_id": "选修2 5.0",
+    "unit_title_raw": "选择性必修二 U5 Scenic Spots",
+    "theme": "T-急救医学与健康防护",
+    "theme_tags": [
+     "急救",
+     "医学",
+     "健康防护"
+    ],
+    "source": "新人教版(2019)必修1-3/选择性必修1-4 单元词表"
+   }
+  },
+  {
+   "seq": 53,
+   "id": "w_address",
+   "headword": "address",
+   "track": "B",
+   "tier": "T1",
+   "trap_strength": 3,
+   "trap_hint": "动词义：处理、解决（问题）",
+   "core_hint": "地址；演讲",
+   "note": "议论文与完形高频；address the problem/issue/concern 是硬搭配",
+   "score": 127,
+   "seed": {
+    "ipa": "",
+    "pos": [],
+    "pos_raw": "",
+    "sense_count": 0,
+    "senses_raw": [],
+    "definition_raw": "",
+    "book": "",
+    "unit": "",
+    "unit_id": "",
+    "unit_title_raw": "",
+    "theme": "",
+    "theme_tags": [],
+    "source": ""
+   }
+  },
+  {
+   "seq": 54,
+   "id": "w_bear",
+   "headword": "bear",
+   "track": "B",
+   "tier": "T1",
+   "trap_strength": 3,
+   "trap_hint": "动词义：承受、承担；bear in mind；名词义：生育",
+   "core_hint": "熊；忍受",
+   "note": "bear the responsibility/braces 是作文高频",
+   "score": 127,
+   "seed": {
+    "ipa": "",
+    "pos": [],
+    "pos_raw": "",
+    "sense_count": 0,
+    "senses_raw": [],
+    "definition_raw": "",
+    "book": "",
+    "unit": "",
+    "unit_id": "",
+    "unit_title_raw": "",
+    "theme": "",
+    "theme_tags": [],
+    "source": ""
+   }
+  },
+  {
+   "seq": 55,
+   "id": "w_cover",
+   "headword": "cover",
+   "track": "B",
+   "tier": "T1",
+   "trap_strength": 3,
+   "trap_hint": "动词义：报道、涵盖；名词义：封面；cover for（掩护/代替）",
+   "core_hint": "覆盖",
+   "note": "阅读题「报纸报道了该事件」常考 cover",
+   "score": 127,
+   "seed": {
+    "ipa": "",
+    "pos": [],
+    "pos_raw": "",
+    "sense_count": 0,
+    "senses_raw": [],
+    "definition_raw": "",
+    "book": "",
+    "unit": "",
+    "unit_id": "",
+    "unit_title_raw": "",
+    "theme": "",
+    "theme_tags": [],
+    "source": ""
+   }
+  },
+  {
+   "seq": 56,
+   "id": "w_interest",
+   "headword": "interest",
+   "track": "B",
+   "tier": "T1",
+   "trap_strength": 3,
+   "trap_hint": "名词义：利益、利息；形容词 interested 的分词义",
+   "core_hint": "兴趣",
+   "note": "写作与阅读均高频；interest in / in the interest of",
+   "score": 127,
+   "seed": {
+    "ipa": "",
+    "pos": [],
+    "pos_raw": "",
+    "sense_count": 0,
+    "senses_raw": [],
+    "definition_raw": "",
+    "book": "",
+    "unit": "",
+    "unit_id": "",
+    "unit_title_raw": "",
+    "theme": "",
+    "theme_tags": [],
+    "source": ""
+   }
+  },
+  {
+   "seq": 57,
+   "id": "w_mean",
+   "headword": "mean",
+   "track": "B",
+   "tier": "T1",
+   "trap_strength": 3,
+   "trap_hint": "动词义：意味着、表示；名词义：平均数；形容词义：吝啬的",
+   "core_hint": "打算；卑鄙的",
+   "note": "mean to do 结构在完形与语法填空同时出现",
+   "score": 127,
+   "seed": {
+    "ipa": "",
+    "pos": [],
+    "pos_raw": "",
+    "sense_count": 0,
+    "senses_raw": [],
+    "definition_raw": "",
+    "book": "",
+    "unit": "",
+    "unit_id": "",
+    "unit_title_raw": "",
+    "theme": "",
+    "theme_tags": [],
+    "source": ""
+   }
+  },
+  {
+   "seq": 58,
+   "id": "w_mind",
+   "headword": "mind",
+   "track": "B",
+   "tier": "T1",
+   "trap_strength": 3,
+   "trap_hint": "动词义：介意（Do you mind / Would you mind doing）",
+   "core_hint": "头脑；思想",
+   "note": "mind doing 的疑问句是应用文高频",
+   "score": 127,
+   "seed": {
+    "ipa": "",
+    "pos": [],
+    "pos_raw": "",
+    "sense_count": 0,
+    "senses_raw": [],
+    "definition_raw": "",
+    "book": "",
+    "unit": "",
+    "unit_id": "",
+    "unit_title_raw": "",
+    "theme": "",
+    "theme_tags": [],
+    "source": ""
+   }
+  },
+  {
+   "seq": 59,
+   "id": "w_nature",
+   "headword": "nature",
+   "track": "B",
+   "tier": "T1",
+   "trap_strength": 3,
+   "trap_hint": "名词义：本性、天性（human nature）；in nature",
+   "core_hint": "自然",
+   "note": "human nature 是完形与议论文共现词",
+   "score": 127,
+   "seed": {
+    "ipa": "",
+    "pos": [],
+    "pos_raw": "",
+    "sense_count": 0,
+    "senses_raw": [],
+    "definition_raw": "",
+    "book": "",
+    "unit": "",
+    "unit_id": "",
+    "unit_title_raw": "",
+    "theme": "",
+    "theme_tags": [],
+    "source": ""
+   }
+  },
+  {
+   "seq": 60,
+   "id": "w_order",
+   "headword": "order",
+   "track": "B",
+   "tier": "T1",
+   "trap_strength": 3,
+   "trap_hint": "动词义：命令、订购；名词义：秩序；in order to",
+   "core_hint": "顺序；命令",
+   "note": "in order to do 是语法填空必备",
+   "score": 127,
+   "seed": {
+    "ipa": "",
+    "pos": [],
+    "pos_raw": "",
+    "sense_count": 0,
+    "senses_raw": [],
+    "definition_raw": "",
+    "book": "",
+    "unit": "",
+    "unit_id": "",
+    "unit_title_raw": "",
+    "theme": "",
+    "theme_tags": [],
+    "source": ""
+   }
+  }
+ ]
+}

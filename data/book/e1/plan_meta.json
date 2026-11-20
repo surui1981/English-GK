@@ -1,0 +1,113 @@
+{
+ "kept_questions": [
+  "q_006",
+  "q_008",
+  "q_012",
+  "q_016",
+  "q_020",
+  "q_024",
+  "q_028",
+  "q_030",
+  "q_032",
+  "q_034",
+  "q_038",
+  "q_040",
+  "q_042",
+  "q_046",
+  "q_048",
+  "q_054",
+  "q_058",
+  "q_060",
+  "q_066",
+  "q_072",
+  "q_074",
+  "q_076",
+  "q_078",
+  "q_080",
+  "q_082",
+  "q_084",
+  "q_088",
+  "q_094",
+  "q_100",
+  "q_102",
+  "q_104",
+  "q_106",
+  "q_108",
+  "q_112",
+  "q_114",
+  "q_122",
+  "q_124",
+  "q_126",
+  "q_130",
+  "q_138",
+  "q_140",
+  "q_142",
+  "q_152",
+  "q_154",
+  "q_156",
+  "q_160",
+  "q_166",
+  "q_168",
+  "q_170",
+  "q_172",
+  "q_174",
+  "q_178",
+  "q_184",
+  "q_186",
+  "q_188",
+  "q_192",
+  "q_196",
+  "q_198"
+ ],
+ "replaced_question": "q_004",
+ "replaced_word": "w_access",
+ "new_count": 42,
+ "book_targets": {
+  "difficulty": {
+   "easy": 15,
+   "mid": 55,
+   "hard": 30
+  },
+  "carrier": {
+   "C1": 58,
+   "C2": 18,
+   "C3": 10,
+   "C4": 8,
+   "C5": 3,
+   "C6": 3
+  },
+  "words": 100,
+  "questions": 100
+ },
+ "batch_files": [
+  "data/book/e1/plan_batch1.json",
+  "data/book/e1/plan_batch2.json",
+  "data/book/e1/plan_batch3.json",
+  "data/book/e1/plan_batch4.json",
+  "data/book/e1/plan_batch5.json"
+ ],
+ "book_diff": {
+  "mid": 55,
+  "easy": 15,
+  "hard": 30
+ },
+ "book_carrier": {
+  "C1": 58,
+  "C2": 18,
+  "C3": 10,
+  "C4": 8,
+  "C5": 3,
+  "C6": 3
+ },
+ "new_diff": {
+  "hard": 14,
+  "mid": 28
+ },
+ "new_carrier": {
+  "C2": 18,
+  "C3": 10,
+  "C4": 8,
+  "C5": 3,
+  "C6": 3
+ }
+}

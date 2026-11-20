@@ -1,0 +1,322 @@
+[
+  {
+    "id": "q_e1_043",
+    "sense_id": "s_account_v_explain",
+    "word_id": "w_account",
+    "carrier": "C1",
+    "module": "E1_熟词僻义",
+    "difficulty": "easy",
+    "expected_accuracy": [0.70, 0.90],
+    "stem": "Scientists are still unable to ______ the sharp decline in bee populations across the region.",
+    "stem_cn": "科学家们至今仍无法______该地区蜜蜂数量急剧下降的原因。",
+    "options": [
+      {
+        "key": "A",
+        "text": "account for",
+        "correct": true,
+        "distractor_reason": null
+      },
+      {
+        "key": "B",
+        "text": "account",
+        "correct": false,
+        "distractor_reason": "搭配错（E4）：学生只记住 account for 这个词块的前半截，填了 account 就收手，结果句子缺介词 for 而不成立。测「固定搭配只背一半」的典型失分。"
+      },
+      {
+        "key": "C",
+        "text": "explain",
+        "correct": false,
+        "distractor_reason": "语义近且完全讲得通：explain the sharp decline 字面挑不出错，是学生按 account＝「账户、账目」把正确项排除后的第一反应。测 E1 熟词僻义误判。"
+      },
+      {
+        "key": "D",
+        "text": "count",
+        "correct": false,
+        "distractor_reason": "形近音近干扰：count 与 account 拼写、读音都近（本词 confusable 表内首项），快速阅读时容易滑手；count 意为「清点、计算」，与「说明原因」毫无关系。测 E3 形近音近误选。"
+      }
+    ],
+    "explanation": "【考场动作】先圈住空后的宾语 the sharp decline in bee populations，这是一个「现象、结果」类的名词短语。再看 account 后面接什么：接百分数（account for 40%）是「占多大比例」，接宾语名词短语（account for the delay / the decline）才是「解释、说明原因」。最后确认介词 for 不能省——英语里根本没有 account the decline 这种说法。这一步先把 B 排掉。\n【为什么选 A】account for the decline 是高考阅读里做因果归因的固定说法，意为「是……的原因／能解释……」。句意是「科学家至今也说不清蜜蜂数量为何骤减」，空格处要一个「说明原因」的动词短语，account for 把介词 for 一并带上，与后半句搭配完整，而「账户、账目」这一层意思在这里根本讲不通。\n【其他选项】B account 少了介词 for，句子不成立，属于只记住词块前半截、搭配记不全的典型错误，考场上应直接排除。C explain 语义完全说得通，正是最容易被选走的干扰项：学生把 account 按「账户」义排除后，脑子里冒出来的第一个词就是它，但本题要考的是 account for 这个词块在因果句里的固定用法。D count 与 account 拼写、读音都近，属字形层面的误选；count 是「清点、计算」，跟「说明原因」毫无关系。",
+    "trap_note": "陷阱来源：学生按 account＝「账户、账目」去理解，觉得「用账户解释蜜蜂减少」根本讲不通，就把正确项排除，改选 explain；也有人只记得 account for 的前半截，填了 account 而漏掉介词 for。",
+    "tags": ["E1", "E4", "E3", "P2", "P4"]
+  },
+  {
+    "id": "q_e1_044",
+    "sense_id": "s_capacity_n_ability",
+    "word_id": "w_capacity",
+    "carrier": "C1",
+    "module": "E1_熟词僻义",
+    "difficulty": "easy",
+    "expected_accuracy": [0.68, 0.90],
+    "stem": "Few first-year students have the ______ to keep up with the reading list, which is why the course offers two extra tutorial sessions each week.",
+    "stem_cn": "很少有新生有______跟上这份阅读清单，这也正是这门课每周额外加开两次辅导课的原因。",
+    "options": [
+      {
+        "key": "A",
+        "text": "capacity",
+        "correct": true,
+        "distractor_reason": null
+      },
+      {
+        "key": "B",
+        "text": "ability",
+        "correct": false,
+        "distractor_reason": "语义近且完全讲得通：have the ability to keep up 字面挑不出错，是学生按 capacity＝「容量、容积」把正确项排除后的第一反应。测 E1 熟词僻义误判 + E2 一词多义混淆。"
+      },
+      {
+        "key": "C",
+        "text": "capability",
+        "correct": false,
+        "distractor_reason": "形近音近 + 语义近：capability 与 capacity 拼写相近（本词 confusable 表内），have the capability to keep up 同样成立，学生容易在拼写层滑手。测 E3 形近音近误选。"
+      },
+      {
+        "key": "D",
+        "text": "space",
+        "correct": false,
+        "distractor_reason": "义项错 + 搭配错：space 有「空间、容积」义，正是 capacity 的 S1 义同源说法，学生顺着「容量」一路想下去就会填它；但 have the space to do sth 在英语里不成搭配。测 E1 与 E4 搭配缺失。"
+      }
+    ],
+    "explanation": "【考场动作】看空前的 the 和空后的 to do：the + 名词 + to do sth 这个位置在考「做某事的本领」，先把 capacity 圈出来。再看语境线索：句中没有 full、seating、storage 这类容量线索，也没有 production 这类产能线索，修饰的又是人（students），所以排除「容量、容积」和「产能」两义，只剩「能力、才能」。最后看结构：capacity 后面接动词不定式 to do 是固定搭配 the capacity to do sth，不能换成别的词硬套。\n【为什么选 A】the capacity to do sth 是表达「有做某事的能力」的固定结构。本句说很少有新生跟得上这份阅读清单，因此课程才每周加开两次辅导，用 capacity 恰好点出「能力、才能」这层意思；「容量」义在这里根本讲不通——人不会有容量。\n【其他选项】B ability 语义上完全说得通，是最像样的干扰项：学生把 capacity 按「容量」排除后，脑子里冒出来的就是 ability，但本题要考的是 capacity 这个词的该义项与固定结构 the capacity to do sth。C capability 与 capacity 拼写相近，have the capability to 也成立，测的是形近音近导致的顺手误选。D space 有「空间、容积」的意思，正好是 capacity 的 S1 义同源词，但 have the space to do sth 不是英语说法，属于义项记混又搭配记不牢。",
+    "trap_note": "陷阱来源：学生按 capacity＝「容量、容积」去理解，觉得人不可能有容量，于是把正确项直接排除，改选 ability 或 capability；也有人在 capacity 与 capability 的拼写上失手。",
+    "tags": ["E1", "E2", "E3", "P2"]
+  },
+  {
+    "id": "q_e1_045",
+    "sense_id": "s_critical_adj_essential",
+    "word_id": "w_critical",
+    "carrier": "C1",
+    "module": "E1_熟词僻义",
+    "difficulty": "easy",
+    "expected_accuracy": [0.65, 0.88],
+    "stem": "Vaccination remains ______ to keeping the virus under control in crowded schools, where infections spread fastest.",
+    "stem_cn": "在拥挤的学校里，疫苗接种对于控制病毒扩散而言仍然是______。",
+    "options": [
+      {
+        "key": "A",
+        "text": "critical",
+        "correct": true,
+        "distractor_reason": null
+      },
+      {
+        "key": "B",
+        "text": "crucial",
+        "correct": false,
+        "distractor_reason": "语义近且完全讲得通：crucial 与 critical 意思几乎相同，be crucial to doing 是地道说法，且 crucial 就在本词 confusable 表内。测 E1 熟词僻义误判与 E3 形近音近混淆。"
+      },
+      {
+        "key": "C",
+        "text": "essential",
+        "correct": false,
+        "distractor_reason": "语义近：be essential to doing 在英语里同样成立，学生按 critical＝「批判的」把正确项排除后，很容易改用它。测 E1 熟词僻义误判——学生只认得出「批判的 critical」。"
+      },
+      {
+        "key": "D",
+        "text": "important",
+        "correct": false,
+        "distractor_reason": "语义近 + 搭配不牢：意思虽然对，但英语说「对做某事重要」习惯用 be important for doing 或 be important to do，be important to keeping 这种结构并不可靠。测 E4 固定搭配缺失。"
+      }
+    ],
+    "explanation": "【考场动作】先看介词：空格后面是 to，be critical to 是固定搭配，而 be critical of 才是「对……持批评态度」。看到 to + doing 这一整串，就该往「至关重要的」这层想，而不是「批判的」。再确认语境：全句讲的是防疫措施与病毒控制，属于「少不了它、起决定作用」的判断，所以 critical 在这里必须作形容词「关键的」解，不能作「批评的」解。\n【为什么选 A】be critical to 意为「对……至关重要」，本句说疫苗接种在拥挤学校里是把病毒控制住的关键，critical 准确表达了「少不了它」的关系，「批判的」义在这里根本讲不通——句中没有任何可以被「批评」的对象。\n【其他选项】B crucial 与 critical 意思几乎相同，be crucial to doing 更是英语里的地道说法，学生按 critical＝「批判的」把正确项排除后，很可能顺手选它，可它并不是本题要考的词。C essential 同样是强干扰：be essential to doing 讲得通，学生往往把它当成唯一答案，测的正是「只知道 critical 的批评义」这一盲区。D important 意思对，但搭配松：英语说「对做某事重要」习惯用 be important for doing 或 be important to do，be important to keeping 属于凭语感硬凑的结构。",
+    "trap_note": "陷阱来源：学生按 critical＝「批判的、批评的」去理解，一看到 be ___ to 这个结构就反应不过来是「至关重要」，于是改选 crucial 或 essential；也有人在 be critical to 与 be critical of 的介词上失手。",
+    "tags": ["E1", "E4", "E2", "P2", "P4"]
+  },
+  {
+    "id": "q_e1_046",
+    "sense_id": "s_nerve_n_courage",
+    "word_id": "w_nerve",
+    "carrier": "C1",
+    "module": "E1_熟词僻义",
+    "difficulty": "easy",
+    "expected_accuracy": [0.70, 0.92],
+    "stem": "After months of silence, he finally had the ______ to speak up about the unfairness he had seen.",
+    "stem_cn": "沉默了好几个月之后，他终于有______把自己看到的不公平说出来。",
+    "options": [
+      {
+        "key": "A",
+        "text": "courage",
+        "correct": false,
+        "distractor_reason": "语义近且完全讲得通：had the courage to speak up 是更常见的说法，学生按 nerve＝「神经」把正确项排除后的第一反应就是它。测 E1 熟词僻义误判。"
+      },
+      {
+        "key": "B",
+        "text": "nerve",
+        "correct": true,
+        "distractor_reason": null
+      },
+      {
+        "key": "C",
+        "text": "nerves",
+        "correct": false,
+        "distractor_reason": "词形误判：同词的复数形式，had the nerves to do 在英式口语里偶尔能听到，学生容易在单复数上滑手；美式高考语料里的固定搭配是 have the nerve to do。测 E5 词性词形误判。"
+      },
+      {
+        "key": "D",
+        "text": "guts",
+        "correct": false,
+        "distractor_reason": "语义近但语域不合：had the guts to do 意思讲得通，却属口语、俳语的说法，书面高考语料里基本不出现，属于「意思对、考试不选」。测 E8 情感色彩与语体判断。"
+      }
+    ],
+    "explanation": "【考场动作】先看搭配：the + ______ + to do sth 这一串，正是「敢做某事的胆量」的标准结构 have the nerve to do sth。再看语境里有没有 body、brain、pain、muscle 这类身体线索——本句讲的是一个人敢不敢开口，全是人物心理，没有任何身体信息，那就不是「神经」义。最后看单复数：美式英语里这个说法固定用单数 nerve。\n【为什么选 A】have the nerve to do sth 是高考完形与阅读里表示「鼓起勇气去做某事」的固定说法。本句说沉默许久之后他终于敢开口讲出所见的不公，用 nerve 正好点出「胆量、勇气」这层意思，「神经」义在这里完全讲不通。\n【其他选项】A courage 语义完全说得通，had the courage to speak up 是更常见的说法，学生按 nerve＝「神经」把正确项排除后，第一个想到的就是它，但本题考的是 nerve 这个词的胆量义。C nerves 是同词的复数形式，had the nerves to do 在英式口语里偶尔能听到，学生很容易在单复数上滑手，而美式高考语料里固定搭配是 have the nerve to do。D guts 也讲得通，但 had the guts to do 是口语、俚语的说法，书面高考语料里基本不出现，属于「意思对、考试不选」。",
+    "trap_note": "陷阱来源：学生按 nerve＝「神经」去理解，觉得「他有神经」说不通，就把正确项排除改选 courage；也有人在 nerve 与 nerves 的单复数、以及口语词 guts 上失手。",
+    "tags": ["E1", "E5", "E8", "P4", "P8"]
+  },
+  {
+    "id": "q_e1_047",
+    "sense_id": "s_principle_n_scientific",
+    "word_id": "w_principle",
+    "carrier": "C1",
+    "module": "E1_熟词僻义",
+    "difficulty": "easy",
+    "expected_accuracy": [0.72, 0.92],
+    "stem": "The engineer's new device works on a ______ that had been known for years but never put to practical use.",
+    "stem_cn": "工程师设计的新装置，是依据一个早已为人所知、却从未投入实际使用的______运作的。",
+    "options": [
+      {
+        "key": "A",
+        "text": "principle",
+        "correct": true,
+        "distractor_reason": null
+      },
+      {
+        "key": "B",
+        "text": "law",
+        "correct": false,
+        "distractor_reason": "语义近且完全讲得通：科学语境里 a law that had been known for years 是地道说法，学生把 principle 按「原则、准则」读时最容易改选它。测 E1 熟词僻义误判。"
+      },
+      {
+        "key": "C",
+        "text": "theory",
+        "correct": false,
+        "distractor_reason": "语义近：a theory that… 在英语里同样成立，theory 指「理论、学说」，与「原理」不是一回事，语感上难以排除。测 E2 一词多义混淆。"
+      },
+      {
+        "key": "D",
+        "text": "principal",
+        "correct": false,
+        "distractor_reason": "形近音近干扰：principal 与 principle 只差一个字母（本词 confusable 表内），principal 意为「主要的／校长」，与机器如何运作毫无关系。测 E3 形近音近误选。"
+      }
+    ],
+    "explanation": "【考场动作】先给 principle 分岔：语境落在物理、科技、机器、工程上，就是「原理、法则」；落在道德、诚信、做人准则上，才是「原则、准则」。本句的判断锚点是「机器如何运作」，也就是 works on the principle of（依据……原理运作）这个固定说法。看到 works on、engineer、practical use 这类线索，就往「原理」一边靠。\n【为什么选 A】principle 在科学语境里指事物运行所依据的原理，works on a principle that… 是高考科普说明文里的高频结构。本句说装置依据一个早已被知道、却没被用起来的道理运行，用 principle 才准确，「做人的原则」这一层在这里讲不通。\n【其他选项】B law 语义近：物理语境里 a law that had been known for years 同样成立，law 指普遍成立的「定律」，学生把 principle 读成「原则」时最容易改选它，但定律是规律，装置所依据的原理要用 principle。C theory 语义近：a theory that… 也讲得通，theory 指「理论、学说」，与原理不是一回事。D principal 与 principle 只差一个字母，是典型的形近音近误选；principal 意为「主要的／校长」，跟机器的原理毫无关系。",
+    "trap_note": "陷阱来源：学生按 principle＝「原则、准则」去理解，觉得「机器依据做人的原则运作」说不通，就把正确项排除，改选 law 或 theory；也有人在 principle 与 principal 的拼写上失手。",
+    "tags": ["E1", "E2", "E3", "P4", "P5"]
+  },
+  {
+    "id": "q_e1_048",
+    "sense_id": "s_charge_v_accuse",
+    "word_id": "w_charge",
+    "carrier": "C1",
+    "module": "E1_熟词僻义",
+    "difficulty": "mid",
+    "expected_accuracy": [0.40, 0.70],
+    "stem": "Prosecutors ______ the two teenagers with stealing confidential files from the school office.",
+    "stem_cn": "检方______这两名少年窃取学校办公室的机密文件。",
+    "options": [
+      {
+        "key": "A",
+        "text": "charged",
+        "correct": true,
+        "distractor_reason": null
+      },
+      {
+        "key": "B",
+        "text": "accused",
+        "correct": false,
+        "distractor_reason": "语义近 + 搭配错：accuse sb of sth 才是「指控」的常用搭配，学生只认得 accused 这个词、没记住 charge 的介词，就会顺手填进来，of 与句中的 with 冲突。测 E4 固定搭配缺失。"
+      },
+      {
+        "key": "C",
+        "text": "blamed",
+        "correct": false,
+        "distractor_reason": "语义近 + 搭配错：blame sb for sth 意为「责怪」，blame the teenagers for stealing 字面也讲得通，但 for 不能换成 with，且「责怪」的分量也弱于检方正式指控。测 E1 与 E4。"
+      },
+      {
+        "key": "D",
+        "text": "discharged",
+        "correct": false,
+        "distractor_reason": "形近音近干扰：discharge 与 charge 只差一个前缀（本词 confusable 表内），快速阅读中极易滑手；discharge sb 是「释放、开除」，与检方指控完全不是一回事。测 E3 形近音近误选。"
+      }
+    ],
+    "explanation": "【考场动作】先看空后的介词 with：charge sb with sth 是「以某罪名指控某人」的固定搭配，而 accuse sb of sth、blame sb for sth、suspect sb of sth 各自带自己的介词，谁也换不了谁。判断锚点有两个：一是 with 这个介词，二是语境里出现了刑事罪名（stealing confidential files）加检方这个主体——只有「正式指控」这一层才同时配得上这两条线索。\n【为什么选 A】charge sb with sth 意为「以某罪名指控某人」，本句说检方指控两名少年偷走学校办公室的机密文件，主语是检方、宾语是罪名，用 charged with 完全对得上，「收费、充电」这一层意思在这里根本讲不通。\n【其他选项】B accused 语义最近，意思就是「指控」，但搭配是 accuse sb of sth，介词必须是 of；学生只认 accused、没背住 charge 的搭配就会顺手填进来，这是本题最典型的失分点。C blamed 语义也说得通（责怪他们偷文件），可英语说 blame sb for sth，for 与 with 不能互换，而且「责怪」也弱于检方正式指控的分量。D discharged 与 charge 只差一个前缀，属形近音近误选；discharge sb 是「释放、开除」，跟检方指控根本不是一回事。",
+    "trap_note": "陷阱来源：学生按 charge＝「收费、充电」这一最熟的意思去理解，一看到检方提起指控就想不起 charge 还能表「指控」，于是改选 accused；也有人在 with 与 of 的搭配、以及 charged with 表示「负责承担」这一层上失手。",
+    "tags": ["E1", "E4", "E3", "P2"]
+  },
+  {
+    "id": "q_e1_049",
+    "sense_id": "s_flat_adj_plain",
+    "word_id": "w_flat",
+    "carrier": "C1",
+    "module": "E1_熟词僻义",
+    "difficulty": "mid",
+    "expected_accuracy": [0.40, 0.70],
+    "stem": "The second half of the concert was so ______ that even the band itself seemed to lose interest.",
+    "stem_cn": "音乐会的后半段如此______，就连乐队自己似乎都失去了兴趣。",
+    "options": [
+      {
+        "key": "A",
+        "text": "dull",
+        "correct": false,
+        "distractor_reason": "语义近且完全讲得通：so dull that… 是最自然的说法，学生按 flat＝「平坦的、水平的」把正确项排除后的第一反应就是它。测 E1 熟词僻义误判。"
+      },
+      {
+        "key": "B",
+        "text": "monotonous",
+        "correct": false,
+        "distractor_reason": "语义近：so monotonous that… 同样成立，且更贴近书面语里的「乏味、单调」，语感上无法排除，属于近义词混战。测 E2 一词多义混淆。"
+      },
+      {
+        "key": "C",
+        "text": "flat",
+        "correct": true,
+        "distractor_reason": null
+      },
+      {
+        "key": "D",
+        "text": "fleet",
+        "correct": false,
+        "distractor_reason": "形近音近干扰：fleet 与 flat 同首同尾、拼写相近（本词 confusable 表内），快速阅读时容易滑手；fleet 意为「快速的／舰队」，与演出沉闷毫无关系。测 E3 形近音近误选。"
+      }
+    ],
+    "explanation": "【考场动作】看 flat 修饰的是什么名词：修饰 story / voice / performance / atmosphere 这类跟「演出、讲述」有关的名词时，flat 是「平淡乏味、没劲」；修饰 plain / surface / land 才是「平坦的、水平的」；修饰 rate / fee 则是「划一的」。本句修饰的是 concert 的后半段和乐队状态，属于气氛、演出这一类，所以要往「没劲、沉闷」上想，而不是往「平」上想。\n【为什么选 A】flat 用在演出、故事、声音上就是「平淡、没劲」，本句说后半段的演出沉闷到连乐队自己都失去兴趣，flat 把这层「气氛塌下来」的意思说准了；「平坦」义在这里完全讲不通，音乐会没有平面这一说。\n【其他选项】A dull 语义最近，so dull that… 完全成立，也是学生按 flat＝「平坦的」排除正确项后的第一反应，但它不是这个考点词。B monotonous 同理，so monotonous that… 同样讲得通，属于两个近义词的语感混战；高考语料里形容演出、气氛「没劲」更常用 flat（a flat performance / a flat atmosphere）。D fleet 与 flat 拼写相近，属形近音近误选；fleet 意为「快速的／舰队」，跟演出沉闷毫无关系。",
+    "trap_note": "陷阱来源：学生按 flat＝「平坦的、水平的」去理解，觉得「音乐会的后半段很平坦」说不通，就把正确项排除，改选 dull 或 monotonous；也有人在 flat 与 fleet 的拼写上失手。",
+    "tags": ["E1", "E2", "E3", "P4"]
+  },
+  {
+    "id": "q_e1_050",
+    "sense_id": "s_prove_v_manifest",
+    "word_id": "w_prove",
+    "carrier": "C1",
+    "module": "E1_熟词僻义",
+    "difficulty": "mid",
+    "expected_accuracy": [0.42, 0.72],
+    "stem": "The young engineer ______ his ability by designing a low-cost filter that now serves three villages.",
+    "stem_cn": "这位年轻工程师靠一款如今供三个村子使用的低成本滤水器，______了自己的能力。",
+    "options": [
+      {
+        "key": "A",
+        "text": "proved",
+        "correct": true,
+        "distractor_reason": null
+      },
+      {
+        "key": "B",
+        "text": "demonstrated",
+        "correct": false,
+        "distractor_reason": "语义近且完全讲得通：demonstrate one's ability 是地道搭配，与本题要考的义项几乎同义，学生按 prove＝「证明、证实」排除正确项后的第一反应就是它。测 E1 熟词僻义误判。"
+      },
+      {
+        "key": "C",
+        "text": "confirmed",
+        "correct": false,
+        "distractor_reason": "语义近 + 搭配错：confirm 意为「用证据证实」，学生只想表达「证明」时会选它，但 confirm one's ability 不成搭配；confirm 强调核实事实，缺少「以行动显出本领」这层意思。测 E4 搭配缺失与 E1。"
+      },
+      {
+        "key": "D",
+        "text": "approved",
+        "correct": false,
+        "distractor_reason": "形近音近干扰：approve 与 prove 拼写相近（本词 confusable 表内），也是高考高频易混的一对，学生在快速阅读中容易滑手；approve 是「批准」，句子里根本讲不通。测 E3 形近音近误选。"
+      }
+    ],
+    "explanation": "【考场动作】先看宾语：his ability（他的能力）属于「品质、能力」一类，不是「说法、理论、命题」。宾语是能力、勇气、本事这类词时，prove 就是「展现、显出」；宾语是说法、理论时才轮到「用证据证明」。再看手段：句中 by designing… 说的是「用行动显出」，不是「拿证据核实」。\n【为什么选 A】prove one's ability / prove one's worth 是高考人物类阅读里的高频说法，意为「用行动显出（自己的）能力」。本句说这位工程师靠一款低成本滤水器显出了本领，proved 既落在这层「展现」的意思上，语气也带肯定色彩（显出的是本事，不是核查事实）；若换成「证明」，句子就变成要拿证据去核实他有没有能力，与语意不合。\n【其他选项】B demonstrated 语义与 prove 的这个义项几乎相同，demonstrate his ability 是地道搭配，是本题最强的干扰：学生按 prove＝「证明、证实」把正确项排除后，最自然的手就是 demonstrated。C confirmed 是「用证据证实」，学生只想表达「证明」时会选它，可 confirm one's ability 不成搭配，而且 confirm 强调核实事实，缺少「以行动显出本领」这层意思。D approved 与 prove 拼写相近，属形近音近误选；approve 意为「批准」，句子里根本讲不通。",
+    "trap_note": "陷阱来源：学生按 prove＝「证明、证实」去理解，认为「用一款滤水器证明自己的能力」需要证据，于是改选 demonstrated 或 confirmed；也有人在 prove 与 approve 的拼写上失手。",
+    "tags": ["E1", "E2", "E8", "P6", "P4"]
+  }
+]

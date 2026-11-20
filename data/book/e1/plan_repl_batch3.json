@@ -1,0 +1,644 @@
+[
+ {
+  "word_id": "w_appeal",
+  "headword": "appeal",
+  "ipa": "/əˈpi:l/",
+  "level": "T1",
+  "pos": [
+   "n",
+   "v"
+  ],
+  "target_sense": {
+   "sense_id": "s_appeal_n_attraction",
+   "text": "吸引力、感染力",
+   "sense_level": "S2",
+   "error_mech": [
+    "E1",
+    "E2"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "呼吁、请求"
+   ],
+   "example": {
+    "en": "The story has a wide appeal, which explains why it was adapted for television.",
+    "zh": "这个故事极有吸引力，这解释了它为什么被改编成电视剧。",
+    "source": "仿真例句 · 高考阅读文化评论类高频句式",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "have appeal for sb",
+    "have appeal with sb",
+    "wide appeal",
+    "immediate appeal"
+   ]
+  },
+  "old_sense": {
+   "sense_id": "s_appeal_n_attraction",
+   "text": "吸引力、感染力"
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_appeal_v_urge",
+    "text": "呼吁、恳求、请求",
+    "sense_level": "S1",
+    "is_trap": false,
+    "trap_of": []
+   },
+   {
+    "sense_id": "s_appeal_n_attraction",
+    "text": "吸引力、感染力",
+    "sense_level": "S2",
+    "is_trap": true,
+    "trap_of": [
+     "呼吁、请求"
+    ]
+   },
+   {
+    "sense_id": "s_appeal_v_attract",
+    "text": "吸引（某人）；让人产生兴趣",
+    "sense_level": "S2",
+    "is_trap": true,
+    "trap_of": [
+     "呼吁、请求"
+    ]
+   },
+   {
+    "sense_id": "s_appeal_v_court",
+    "text": "上诉、申诉",
+    "sense_level": "S3",
+    "is_trap": true,
+    "trap_of": [
+     "呼吁、请求"
+    ]
+   },
+   {
+    "sense_id": "s_appeal_n_plea",
+    "text": "呼吁、请求（名词用法）",
+    "sense_level": "S3",
+    "is_trap": true,
+    "trap_of": [
+     "吸引力、感染力"
+    ]
+   }
+  ],
+  "confusable": [
+   "apparent",
+   "peel",
+   "plea",
+   "appeal to"
+  ],
+  "word_family": [
+   "appeal",
+   "appealing",
+   "appellant",
+   "unappealing"
+  ],
+  "notes": "考场判断法：① 先看后面接什么：appeal to sb to do sth → 「呼吁、请求」；appeal for sth（help / funding）→ 「请求、募求」；appeal to the court / appeal against a decision → 「上诉」；② 注意同一个 to 的两种含义：appeal to young readers = 「吸引」，appeal to the court = 「上诉」；③ 名词 have / has appeal for sb = 「吸引力」，wide appeal = 受广泛欢迎；④ 名词 an appeal for help 是「呼吁」，不要读成「吸引力」。",
+  "assigned_carrier": "C1",
+  "assigned_difficulty": "easy",
+  "replaces_question_id": "q_040"
+ },
+ {
+  "word_id": "w_content",
+  "headword": "content",
+  "ipa": "/ˈkɒntent/ · /kənˈtent/",
+  "level": "T1",
+  "pos": [
+   "n",
+   "adj"
+  ],
+  "target_sense": {
+   "sense_id": "s_content_adj_satisfied",
+   "text": "满足的、知足的（be content with）",
+   "sense_level": "S3",
+   "error_mech": [
+    "E1",
+    "E5"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "内容、实质",
+    "目录（书刊的篇目清单）"
+   ],
+   "example": {
+    "en": "He seemed content with the simple life he had chosen for himself.",
+    "zh": "他似乎对自己选择的简朴生活感到满足。",
+    "source": "仿真例句 · 高考人物描述类高频",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "be content with",
+    "be content to do",
+    "content oneself with"
+   ]
+  },
+  "old_sense": {
+   "sense_id": "s_content_adj_satisfied",
+   "text": "满足的、知足的（be content with）"
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_content_adj_satisfied",
+    "text": "满足的、知足的（be content with）",
+    "sense_level": "S3",
+    "is_trap": true,
+    "trap_of": [
+     "内容、实质",
+     "目录（书刊的篇目清单）"
+    ]
+   },
+   {
+    "sense_id": "s_content_n_subject",
+    "text": "内容、实质（所表达的东西）",
+    "sense_level": "S1",
+    "is_trap": false,
+    "trap_of": []
+   },
+   {
+    "sense_id": "s_content_n_contents",
+    "text": "目录（书刊的篇目清单）",
+    "sense_level": "S4",
+    "is_trap": true,
+    "trap_of": [
+     "内容、实质（所表达的东西）"
+    ]
+   },
+   {
+    "sense_id": "s_content_n_composition",
+    "text": "含量、成分比例（食品）",
+    "sense_level": "S2",
+    "is_trap": true,
+    "trap_of": [
+     "内容、实质（所表达的东西）"
+    ]
+   }
+  ],
+  "confusable": [
+   "contest",
+   "context",
+   "contend"
+  ],
+  "word_family": [
+   "content",
+   "contented",
+   "contents",
+   "contentment",
+   "discontent"
+  ],
+  "notes": "考场判断法：① 先看它前面有没有 be：be content with / to do 是形容词「满足的」，而名词 content 不与 be 连用；② the content of a message 是「内容」，the contents of a book 永远带 s，是「目录」；③ 食品、健康类语境里出现 high / low + content，一律读作「含量」。另记词形链 content（内容）→ contented（满意的）→ contentment（满足）。",
+  "assigned_carrier": "C1",
+  "assigned_difficulty": "easy",
+  "replaces_question_id": "q_048"
+ },
+ {
+  "word_id": "w_major",
+  "headword": "major",
+  "ipa": "/ˈmeɪdʒə(r)/",
+  "level": "T1",
+  "pos": [
+   "adj",
+   "n",
+   "v"
+  ],
+  "target_sense": {
+   "sense_id": "s_major_n_field",
+   "text": "主修专业、主修科目",
+   "sense_level": "S3",
+   "error_mech": [
+    "E1",
+    "E5"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "主要的、重大的（占主导的）"
+   ],
+   "example": {
+    "en": "She changed her major from biology to environmental science in her second year.",
+    "zh": "她在大二时把主修专业从生物学改成了环境科学。",
+    "source": "仿真例句 · 高考校园与留学类话题",
+    "carrier": "C4"
+   },
+   "collocations": [
+    "change one's major",
+    "a double major",
+    "her major subject",
+    "a major in biology"
+   ]
+  },
+  "old_sense": {
+   "sense_id": "s_major_n_field",
+   "text": "主修专业、主修科目"
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_major_adj_main",
+    "text": "主要的、重大的（占主导的）",
+    "sense_level": "S1",
+    "is_trap": false,
+    "trap_of": []
+   },
+   {
+    "sense_id": "s_major_adj_bulk",
+    "text": "大部分的、大半的（占多数的）",
+    "sense_level": "S3",
+    "is_trap": true,
+    "trap_of": [
+     "主要的、重大的（占主导的）"
+    ]
+   },
+   {
+    "sense_id": "s_major_n_field",
+    "text": "主修专业、主修科目",
+    "sense_level": "S3",
+    "is_trap": true,
+    "trap_of": [
+     "主要的、重大的（占主导的）"
+    ]
+   },
+   {
+    "sense_id": "s_major_v_study",
+    "text": "主修、专攻（major in）",
+    "sense_level": "S4",
+    "is_trap": true,
+    "trap_of": [
+     "主要的、重大的（占主导的）"
+    ]
+   }
+  ],
+  "confusable": [
+   "minor",
+   "majority",
+   "senior"
+  ],
+  "word_family": [
+   "major",
+   "majority",
+   "minor",
+   "minority"
+  ],
+  "notes": "考场判断法：① major 后面接 part / share / portion 这类表示「份额」的词，译成「大部分」，不是「主要的」；② 接 factor / concern / role / change 这类抽象名词才是「主要的、重大的」；③ 前面有 my / his / her 且指学业方向 → 名词「主修专业」；④ 后面带 in + 学科名 → 动词「主修」。major 与 minor 是一组必背的形近对比。",
+  "assigned_carrier": "C1",
+  "assigned_difficulty": "easy",
+  "replaces_question_id": "q_060"
+ },
+ {
+  "word_id": "w_position",
+  "headword": "position",
+  "ipa": "/pəˈzɪʃn/",
+  "level": "T1",
+  "pos": [
+   "n",
+   "v",
+   "phrase"
+  ],
+  "target_sense": {
+   "sense_id": "s_position_n_job",
+   "text": "职位、职务",
+   "sense_level": "S2",
+   "error_mech": [
+    "E1"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "位置、方位"
+   ],
+   "example": {
+    "en": "After two years of hard work she was offered a leading position in the company.",
+    "zh": "经过两年的努力，她得到了公司的一个领导职位。",
+    "source": "仿真例句 · 高考阅读职业与职场类高频句式",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "hold a position",
+    "apply for a position",
+    "a senior position",
+    "take up a position"
+   ]
+  },
+  "old_sense": {
+   "sense_id": "s_position_n_job",
+   "text": "职位、职务"
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_position_n_place",
+    "text": "位置、方位；所处的地点",
+    "sense_level": "S1",
+    "is_trap": false,
+    "trap_of": []
+   },
+   {
+    "sense_id": "s_position_n_job",
+    "text": "职位、职务",
+    "sense_level": "S2",
+    "is_trap": true,
+    "trap_of": [
+     "位置、方位"
+    ]
+   },
+   {
+    "sense_id": "s_position_n_stance",
+    "text": "立场、态度、看法",
+    "sense_level": "S2",
+    "is_trap": true,
+    "trap_of": [
+     "位置、方位"
+    ]
+   },
+   {
+    "sense_id": "s_position_phrase_in_a_position",
+    "text": "（in a position to do）有能力做某事",
+    "sense_level": "S4",
+    "is_trap": true,
+    "trap_of": [
+     "职位、职务"
+    ]
+   },
+   {
+    "sense_id": "s_position_v_place",
+    "text": "把…放在；使处于某位置",
+    "sense_level": "S3",
+    "is_trap": true,
+    "trap_of": [
+     "职位、立场"
+    ]
+   }
+  ],
+  "confusable": [
+   "condition",
+   "portion",
+   "possession",
+   "opposition"
+  ],
+  "word_family": [
+   "position",
+   "positional",
+   "positioning",
+   "positive"
+  ],
+  "notes": "考场判断法：① 先看前面的动词：hold / apply for / offer a position → 「职位」；take a position on → 「立场、看法」；② 看到 in a position to do sth → 「有能力、有条件做某事」，后面必须跟动词不定式；③ 表示「在…位置上」时用介词 in 或 at（in a position / at the centre），不要用动词 position in；④ position 作动词时常见的是被动分词 positioned，这是语法填空的高频形态。",
+  "assigned_carrier": "C1",
+  "assigned_difficulty": "easy",
+  "replaces_question_id": "q_024"
+ },
+ {
+  "word_id": "w_setting",
+  "headword": "setting",
+  "ipa": "/ˈsetɪŋ/",
+  "level": "T1",
+  "pos": [
+   "n"
+  ],
+  "target_sense": {
+   "sense_id": "s_setting_n_device",
+   "text": "设备上的设定、档位",
+   "sense_level": "S3",
+   "error_mech": [
+    "E1",
+    "E10"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "环境、背景"
+   ],
+   "example": {
+    "en": "Before recording any video, you should check the privacy settings on your phone first.",
+    "zh": "录任何视频之前，你都应当先检查一下手机上的隐私设置。",
+    "source": "仿真例句 · 高考阅读网络与信息安全类高频句式",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "privacy settings",
+    "change the settings",
+    "default settings",
+    "the highest setting"
+   ]
+  },
+  "old_sense": {
+   "sense_id": "s_setting_n_device",
+   "text": "设备上的设定、档位"
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_setting_n_backdrop",
+    "text": "环境、背景；故事发生的场景",
+    "sense_level": "S1",
+    "is_trap": false,
+    "trap_of": []
+   },
+   {
+    "sense_id": "s_setting_n_context",
+    "text": "场合、情境（正式或社交场合）",
+    "sense_level": "S2",
+    "is_trap": true,
+    "trap_of": [
+     "环境、背景"
+    ]
+   },
+   {
+    "sense_id": "s_setting_n_device",
+    "text": "设备上的设定、档位",
+    "sense_level": "S3",
+    "is_trap": true,
+    "trap_of": [
+     "环境、背景"
+    ]
+   },
+   {
+    "sense_id": "s_setting_n_sunset",
+    "text": "日落、落下（太阳的落下）",
+    "sense_level": "S3",
+    "is_trap": true,
+    "trap_of": [
+     "环境、背景"
+    ]
+   }
+  ],
+  "confusable": [
+   "seating",
+   "settlement",
+   "set",
+   "settling"
+  ],
+  "word_family": [
+   "set",
+   "setting",
+   "settings",
+   "setter"
+  ],
+  "notes": "考场判断法：① 先看介词：in the setting of a novel = 在…的故事背景下；in a professional / public setting = 在某种场合；② 上下文出现 device / phone / app / TV / camera + setting → 「设定、参数」，这是科技话题词；③ 出现 the setting of the sun 或 the setting sun → 「日落、落下」，是写景类文章的固定表达；④ setting 是 set（设置、放置）的名词形式，读后续写里先想「被设置的状态」，再按语境细分。",
+  "assigned_carrier": "C1",
+  "assigned_difficulty": "easy",
+  "replaces_question_id": "q_032"
+ },
+ {
+  "word_id": "w_emphasis",
+  "headword": "emphasis",
+  "ipa": "/ˈemfəsɪs/",
+  "level": "T1",
+  "pos": [
+   "n"
+  ],
+  "target_sense": {
+   "sense_id": "s_emphasis_n_stress",
+   "text": "重音、重读（词的发音着力点）",
+   "sense_level": "S3",
+   "error_mech": [
+    "E1",
+    "E2"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "强调、着重（把注意力集中在…）"
+   ],
+   "example": {
+    "en": "The emphasis in the word falls on the last syllable, which slightly changes its meaning.",
+    "zh": "这个单词的重音落在最后一个音节上，这略微改变了它的意思。",
+    "source": "仿真例句 · 高考语言与文化类阅读",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "the emphasis falls on",
+    "stress and emphasis",
+    "word emphasis"
+   ]
+  },
+  "old_sense": {
+   "sense_id": "s_emphasis_n_stress",
+   "text": "重音、重读（词的发音着力点）"
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_emphasis_n_stress",
+    "text": "重音、重读（词的发音着力点）",
+    "sense_level": "S3",
+    "is_trap": true,
+    "trap_of": [
+     "强调、着重（把注意力集中在…）"
+    ]
+   },
+   {
+    "sense_id": "s_emphasis_n_focus",
+    "text": "强调、着重（把注意力集中在…）",
+    "sense_level": "S1",
+    "is_trap": false,
+    "trap_of": []
+   },
+   {
+    "sense_id": "s_emphasis_n_priority",
+    "text": "重点、侧重之处",
+    "sense_level": "S2",
+    "is_trap": true,
+    "trap_of": [
+     "强调、着重（把注意力集中在…）"
+    ]
+   }
+  ],
+  "confusable": [
+   "emphasize",
+   "emphatic",
+   "empirical"
+  ],
+  "word_family": [
+   "emphasis",
+   "emphasize",
+   "emphatic",
+   "emphatically"
+  ],
+  "notes": "考场判断法：① 出现 place / put / lay emphasis on sb/sth → 一律译成「强调、重视」，这是应用文写作的固定词块；② 上下文谈的是句子重音、发音着力点 → 「重音、重读」；③ 出现 a shift in emphasis / the emphasis of… → 「重点、侧重之处」。注意 emphasis（名词，强调）与 emphatic（形容词，强调的）、empirical（经验的）常被混选。",
+  "assigned_carrier": "C1",
+  "assigned_difficulty": "mid",
+  "replaces_question_id": "q_076"
+ },
+ {
+  "word_id": "w_observe",
+  "headword": "observe",
+  "ipa": "/əbˈzɜ:v/",
+  "level": "T1",
+  "pos": [
+   "v"
+  ],
+  "target_sense": {
+   "sense_id": "s_observe_v_celebrate",
+   "text": "庆祝、纪念（节日与周年）",
+   "sense_level": "S3",
+   "error_mech": [
+    "E1",
+    "E10"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "观察、注视"
+   ],
+   "example": {
+    "en": "The festival is observed on the ninth day of the second lunar month.",
+    "zh": "这个节日在农历二月初九庆祝。",
+    "source": "仿真例句 · 高考阅读传统文化类高频句式",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "be observed on",
+    "the holiday is observed",
+    "observed with great ceremony"
+   ]
+  },
+  "old_sense": {
+   "sense_id": "s_observe_v_celebrate",
+   "text": "庆祝、纪念（节日与周年）"
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_observe_v_watch",
+    "text": "观察、注视；注意到",
+    "sense_level": "S1",
+    "is_trap": false,
+    "trap_of": []
+   },
+   {
+    "sense_id": "s_observe_v_obey",
+    "text": "遵守、遵循（规则与协议）",
+    "sense_level": "S2",
+    "is_trap": true,
+    "trap_of": [
+     "观察、注视"
+    ]
+   },
+   {
+    "sense_id": "s_observe_v_celebrate",
+    "text": "庆祝、纪念（节日与周年）",
+    "sense_level": "S3",
+    "is_trap": true,
+    "trap_of": [
+     "观察、注视"
+    ]
+   },
+   {
+    "sense_id": "s_observe_v_remark",
+    "text": "指出、评论说（that 从句）",
+    "sense_level": "S3",
+    "is_trap": true,
+    "trap_of": [
+     "观察、注意到"
+    ]
+   }
+  ],
+  "confusable": [
+   "obey",
+   "reserve",
+   "overview",
+   "observant"
+  ],
+  "word_family": [
+   "observe",
+   "observer",
+   "observation",
+   "observant",
+   "observatory"
+  ],
+  "notes": "考场判断法：① 看宾语：the rules / safety rules / the treaty / a deadline → 「遵守、遵循」；a plant / a change / how things develop → 「观察、注意到」；② 出现节日名 + is observed on → 「庆祝、纪念」，这是传统节日话题的固定说法；③ 后面接 that 从句且主语是人时，observe that 是「指出、评论说」，不是「观察到」；④ observe 是及物动词，后接宾语或 that 从句，不能说 observe to do。",
+  "assigned_carrier": "C1",
+  "assigned_difficulty": "mid",
+  "replaces_question_id": "q_020"
+ }
+]

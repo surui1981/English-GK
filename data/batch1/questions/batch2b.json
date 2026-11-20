@@ -1,0 +1,402 @@
+[
+ {
+  "id": "q_061",
+  "sense_id": "s_rate_n_speed",
+  "word_id": "w_rate",
+  "carrier": "C1",
+  "module": "E6_语境推断失败",
+  "difficulty": "mid",
+  "expected_accuracy": [0.35, 0.75],
+  "stem": "The night bus is cheap and comfortable, yet the ______ of travel is barely more than thirty kilometres an hour, so passengers often arrive tired.",
+  "stem_cn": "夜间大巴又便宜又舒适，可行驶速度每小时才三十多公里，乘客常常是累着到站的。",
+  "options": [
+   {"key": "A", "text": "rate", "correct": true, "distractor_reason": null},
+   {"key": "B", "text": "ratio", "correct": false, "distractor_reason": "与 rate 形近音近，本身义为「比率、比例」，学生一看到「计量、比例」类说法就顺手填它；ratio 后面接的是同类量之间的比值，接不上「每小时三十多公里」。测 E3 形近音近加 E2 一词多义混淆。"},
+   {"key": "C", "text": "fare", "correct": false, "distractor_reason": "形近词 fare 是「车费、票价」，学生看到 cheap、travel 就往「价格」方向想，字面也讲得通；但 fare 与 travel 组成不了「旅行的车费」这样的名词搭配，且后半句的速度计量已经排除了价格义。测 E1 熟词僻义加 E6 语境推断失败。"},
+   {"key": "D", "text": "pace", "correct": false, "distractor_reason": "语义最近（速度、节奏），the pace of travel 读起来完全顺；但 pace 指行进时的节奏快慢，多与 walking、working 连用，装不下「每小时三十多公里」这种计量口径。测 E6 语境推断失败：语感排不掉，只能靠 rate of travel 整块记忆定输赢。"}
+  ],
+  "explanation": "【考场动作】先看计量单位：句子给出「每小时三十多公里」，这是速度口径，不是比例也不是价格。所以先圈出「能接速度单位的词」，再套 the ______ of travel，对应固定块 the rate of travel / at the rate of。\n【为什么选 A】语境说夜班车便宜又舒适，可每小时只跑三十多公里，乘客到站常常是累的——讲的是「快慢」，正是 rate 的速度义。\n【其他选项】B ratio 与 rate 形近音近，义为「比率」，学生看到「计量」就填；可 ratio 接的是同类量之间的比值，接不上「每小时三十多公里」；C fare 是形近词、也是「车费、票价」，学生看到 cheap、travel 就联想价格，可 fare 与 travel 组成不了名词搭配，速度计量已把价格义排除；D pace 语义最近，可 pace 指行进节奏，多与 walking、working 连用，装不下速度计量口径。",
+  "trap_note": "陷阱来源：学生按 rate＝「比率、比例」或「价格、费率」去理解，看到「计量、单位」就往这些义项上靠，把正确的「速度、速率」义排掉；或被形近词 fare、ratio 直接带走。",
+  "tags": ["E6", "E2", "P4"]
+ },
+ {
+  "id": "q_062",
+  "sense_id": "s_rate_n_ratio",
+  "word_id": "w_rate",
+  "carrier": "C2",
+  "module": "E2_一词多义混淆",
+  "difficulty": "easy",
+  "expected_accuracy": [0.65, 0.95],
+  "stem": "After the new method was introduced, the ______ of increase showed no sign of slowing down.",
+  "stem_cn": "新方法投入使用后，增长率丝毫没有放缓的迹象。",
+  "options": [
+   {"key": "A", "text": "speed", "correct": false, "distractor_reason": "rate 的另一真实义项「速度」，the speed of increase 字面能读通，学生把 rate 一律先想成「速度」就会选它；书面语里表「增长有多快」固定说 the rate of increase。测 E2 一词多义混淆：两个义都认识，语境没锁定。"},
+   {"key": "B", "text": "rate", "correct": true, "distractor_reason": null},
+   {"key": "C", "text": "level", "correct": false, "distractor_reason": "语义近的「水平」，the level of increase 听着像中文「增长的水平」的直译；英语里 level 说的是绝对高低，接不住 increase 这个「变化被计量」的对象。测 E6 语境推断失败加 E4 搭配缺失，靠搭配才能排除。"},
+   {"key": "D", "text": "degree", "correct": false, "distractor_reason": "语义近的「程度」，the degree of increase 是学生按中文「增长的程度」直译出来的说法；英语里 degree 接的是程度高低，不是比率。测 E4 固定搭配缺失：the rate of increase / the growth rate 才是现成说法。"}
+  ],
+  "explanation": "【考场动作】先定框架：the ______ of increase。of 后接 increase，空格装的是「增长被计量出的比率」；再把候选按比率、速度、水平、程度归位，看哪类能接住 increase。\n【为什么选 B】the rate of increase（也可说 the growth rate）是高考语料里表示「增长率」的固定块。语境说增长率丝毫没有放缓，正是这个义项，此时 rate 等于 ratio。\n【其他选项】A speed 是 rate 的另一真实义项「速度」，the speed of increase 字面读得通，可书面语说「增长有多快」固定说 the rate of increase；C level 与 D degree 是「水平、程度」，the level of increase、the degree of increase 在英语里不是现成搭配，学生按中文「增长的程度上」的语感选它们，只能靠搭配记忆排除。",
+  "trap_note": "陷阱来源：学生把 rate 一律读成「速度」，或按中文语感把「增长率」拆成「增长的水平／程度」；真正要记的是 the rate of increase、the growth rate 这组固定块。",
+  "tags": ["E2", "P4", "P2"]
+ },
+ {
+  "id": "q_063",
+  "sense_id": "s_settle_v_calm",
+  "word_id": "w_settle",
+  "carrier": "C1",
+  "module": "E4_固定搭配缺失",
+  "difficulty": "mid",
+  "expected_accuracy": [0.35, 0.75],
+  "stem": "Children often need months to ______ into the daily routine of a new boarding school, especially when they are far from their families.",
+  "stem_cn": "孩子们往往需要好几个月才能融入新寄宿学校的日常作息，尤其是远离家人、身处异乡的时候。",
+  "options": [
+   {"key": "A", "text": "adapt", "correct": false, "distractor_reason": "语义最近（适应），学生看到「适应新环境」就选它；但 adapt 后面只能接 to（adapt to the new situation），接 into 不成搭配。测 E4 固定搭配缺失加 E1 熟词僻义误判。"},
+   {"key": "B", "text": "take", "correct": false, "distractor_reason": "take into 是真实词块（take into account / take into consideration），学生看见 into 就想填；可 take into 必须再接 account 或 consideration 才成立，take into the routine 是词块记了一半。测 E4 词块整体记忆。"},
+   {"key": "C", "text": "settle", "correct": true, "distractor_reason": null},
+   {"key": "D", "text": "fit", "correct": false, "distractor_reason": "fit into 是真实搭配，a fit into the routine 字面完全说得通，语感排不掉；但 fit 指尺寸或形式上吻合，说的是人与作息「不合尺寸」，表达不出「慢慢融入集体」。测 E6 语境推断失败，只能靠 settle into 与 fit into 的义项分工定输赢。"}
+  ],
+  "explanation": "【考场动作】先圈框架：to ______ into + the daily routine of a new boarding school。settle into 是「逐渐融入」的整块；同表「适应」的动词先查介词——adapt、adjust 只接 to，fit 接 into 但说尺寸吻合。\n【为什么选 C】语境说孩子们要花好几个月才能融入新寄宿学校的日常作息，讲的正是「安顿下来、融入新环境」，就是 settle into 这一固定块。\n【其他选项】A adapt 后面只能接 to，接 into 不成搭配，学生按中文「适应」就选了它；B take into 必须再带 account 或 consideration 才成立，take into the routine 不成搭配；D fit into 是真实搭配，字面讲得通，可它说尺寸吻合，表达不出「慢慢融入集体」，只能靠 settle into 与 fit into 的分工定输赢。",
+  "trap_note": "陷阱来源：学生把 settle 一律读成「解决争端」，或按中文「适应」一词的语感去填 adapt / fit，把 settle into 这个整块漏掉；take into 这类「同形不同义」的词块也是常见误填源。",
+  "tags": ["E4", "E1", "P4"]
+ },
+ {
+  "id": "q_064",
+  "sense_id": "s_settle_v_decide",
+  "word_id": "w_settle",
+  "carrier": "C2",
+  "module": "E2_一词多义混淆",
+  "difficulty": "mid",
+  "expected_accuracy": [0.35, 0.75],
+  "stem": "After several rounds of discussion, the two sides finally ______ on a date for the event, and invitations went out that evening.",
+  "stem_cn": "经过几轮讨论，双方最终就活动的日期敲定了方案，当晚邀请函就发出去了。",
+  "options": [
+   {"key": "A", "text": "agree", "correct": false, "distractor_reason": "agree on a date 是完全成立的真搭配，字面读起来毫无破绽，语感上根本排不掉；高考语料里「敲定日期」固定说 settle on a date / settle the date。测 E4 搭配记忆，属于「语感对但考试不选」的干扰项。"},
+   {"key": "B", "text": "decide", "correct": false, "distractor_reason": "decide on a date 同样是真搭配，学生用更熟悉的 decide 替换 settle；decide 偏「当场决定」，settle on 带「几轮商量后落定」的意味。测 E2 一词多义混淆加 E4 搭配熟度，纯语感排不掉。"},
+   {"key": "C", "text": "insist", "correct": false, "distractor_reason": "insist on 是真实词块（insist on a date），字面能接在同一结构下；但 insist 意思是「坚持某个日期」，与「双方商量后确定」的语气完全相反。测 E4 搭配缺失：词块形状对、语义方向错。"},
+   {"key": "D", "text": "settle", "correct": true, "distractor_reason": null}
+  ],
+  "explanation": "【考场动作】先看结构：the two sides finally ______ on a date for the event。空格后已给出 on a date，要判断哪个动词能接在前面组成「敲定」；settle on a date、settle the date 是本词条记录的搭配族。\n【为什么选 D】语境说经过几轮讨论，双方最终把日期定了下来，当晚邀请函就发出去了，讲的正是「敲定、确定（时间、价格、方案）」，也就是 settle on a date。\n【其他选项】A agree on a date 是完全成立的真搭配，字面毫无破绽，但高考语料里「敲定日期」固定用 settle on a date；B decide on a date 同样成立，它更偏「当场拍板」，settle on 带「商量之后落定」的意味；C insist on a date 也是真搭配，意思却是「坚持某个日期」，与「商量后确定」的语气方向相反。",
+  "trap_note": "陷阱来源：学生把 settle 读成「解决争端」，或在「敲定、确定」这一层用更熟的说法 decide / agree 顶替，没有记住 settle on a date、settle the price 这一族固定搭配。",
+  "tags": ["E2", "E4", "P4"]
+ },
+ {
+  "id": "q_065",
+  "sense_id": "s_shift_v_move",
+  "word_id": "w_shift",
+  "carrier": "C1",
+  "module": "E6_语境推断失败",
+  "difficulty": "hard",
+  "expected_accuracy": [0.15, 0.45],
+  "stem": "The workers spent nearly an hour carefully ______ the heavy stone block into the shallow groove cut into the floor of the workshop.",
+  "stem_cn": "工人们花了将近一个小时，小心翼翼地把那块沉重的石料挪进车间地板上凿出的浅槽里。",
+  "options": [
+   {"key": "A", "text": "shift", "correct": true, "distractor_reason": null},
+   {"key": "B", "text": "switch", "correct": false, "distractor_reason": "shift 的同族词，也是「转换、切换」的意思，学生按 shift 的「转向、改换」义来读题就会选它；可 switch 接的是 on / off 或 A to B，switch the block into the groove 根本不成立。测 E2 一词多义混淆加 E3 同族词误选。"},
+   {"key": "C", "text": "shaft", "correct": false, "distractor_reason": "与 shift 形近音近（sh- 开头、-aft 与 -ift 结尾），读快了极易写错；shaft 是「轴、竖井」，和搬东西毫无关系。测 E3 形近音近混淆，纯视觉误选，与义项理解无关。"},
+   {"key": "D", "text": "drag", "correct": false, "distractor_reason": "语义最近（拖、拽），重物、角落这些线索都指得住，the heavy block 也确实能拖；可 drag 说的是一路拖行，语境强调的是把石料挪进凿好的凹槽、位置要准。测 E6 语境推断失败，靠语境线索才能与 shift sth into place 分开。"}
+  ],
+  "explanation": "【考场动作】先看宾语：the heavy stone block（实物）加 into the groove（into 后是终点位置）。凡是「实物 + into／into place」，动词多半是「搬动、挪动」；宾语若是政策、注意力才是「转向」义。\n【为什么选 A】shift sth into place 是本词条记录的固定块，这里是它的变体：把重物挪到指定位置。「一个多小时」「小心翼翼」「凿好的浅槽」三个线索都指向物理挪动。\n【其他选项】B switch 是 shift 同族的「转换、切换」词，学生按「改换」义选，可 switch the block into the groove 根本不成立（switch 接 on / off 或 A to B）；C shaft 与 shift 形近音近，shaft 是「轴、竖井」，纯视觉误选；D drag 字面讲得通，可 drag 是一路拖行，语境强调挪进凿好的凹槽、位置要准。",
+  "trap_note": "陷阱来源：学生把 shift 读成「转向、改换」（看到 into 就想成「转移到某个方向」），或被同族词 switch、形近词 shaft 带走；也有人按 shift＝「转变（名词）」去理解整句。",
+  "tags": ["E6", "E2", "P4"]
+ },
+ {
+  "id": "q_066",
+  "sense_id": "s_shift_v_turn",
+  "word_id": "w_shift",
+  "carrier": "C1",
+  "module": "E1_熟词僻义",
+  "difficulty": "mid",
+  "expected_accuracy": [0.35, 0.75],
+  "stem": "After more and more customers began to order online, the company ______ its focus from its city stores to its website, and several shops were closed.",
+  "stem_cn": "越来越多的顾客开始网上下单之后，公司把重心从城市门店转向了网站，几家店随之关闭。",
+  "options": [
+   {"key": "A", "text": "moved", "correct": false, "distractor_reason": "对应 shift 的「搬动、挪动」义，学生看到 focus 仍按「搬」去理解，moved its focus 勉强说得通，却不是「改换方向」的固定搭配。测 E1 熟词僻义误判加 E4 搭配缺失。"},
+   {"key": "B", "text": "shifted", "correct": true, "distractor_reason": null},
+   {"key": "C", "text": "changed", "correct": false, "distractor_reason": "对应 shift 的「转变、转移」义，changed its focus from A to B 字面完全通顺，语感排不掉；它强调状态改变，而这一栏考的是 shift from A to B 这一整块搭配的熟度。测 E2 一词多义混淆。"},
+   {"key": "D", "text": "switched", "correct": false, "distractor_reason": "与 shift 同族，也能接 from A to B，字面上无法排除，纯语感绝对排不掉；只能靠 shift focus from A to B 的整块记忆来定输赢。测 E3 同族词形近对比加 E4 搭配缺失。"}
+  ],
+  "explanation": "【考场动作】先看框架：______ + its focus + from A to B。凡「转向、改换」义，动词后必现 from A to B 这个「起点→终点」标记，宾语是 focus、attention 这类抽象对象；宾语若为实物，就查「搬动」那一栏。\n【为什么选 B】shift ... from A to B 是本词条固定块，讲的是把重心、方向换到另一个对象上。语境说公司把重点从城市门店转向网站，是方向的变化，不是把东西挪走。\n【其他选项】A moved 对应 shift「搬动、挪动」义，学生看到 focus 仍按「搬」理解，却不是「改换方向」的固定搭配；C changed 对应「转变、转移」义，字面完全通顺，但它强调状态改变，这一栏考的是整块搭配的熟度；D switched 与 shift 同族，同样能接 from A to B，字面排除不掉，只能靠 shift focus from A to B 的整块记忆定输赢。",
+  "trap_note": "陷阱来源：学生把 shift 读成「搬动、挪动」或「转变（名词义）」，于是被 moved、changed 带走；或被同族词 switched 误导，没有认出 shift focus from A to B 这整块。",
+  "tags": ["E1", "E2", "P4"]
+ },
+ {
+  "id": "q_067",
+  "sense_id": "s_spot_v_detect",
+  "word_id": "w_spot",
+  "carrier": "C4",
+  "module": "E5_词性词形误判",
+  "difficulty": "hard",
+  "expected_accuracy": [0.15, 0.45],
+  "stem": "Dear students, if you ______ any problems with the laboratory equipment, please report them to the office as soon as possible.",
+  "stem_cn": "同学们，如果你们发现实验设备有任何问题，请尽快向办公室报告。",
+  "options": [
+   {"key": "A", "text": "spoil", "correct": false, "distractor_reason": "与 spot 形近音近（sp- 开头），且 spoil the equipment 是真实搭配，学生被字形吸引或者把「损坏设备」与「发现问题」混为一谈就会选它；可 spoil 的宾语应是设备本身，句中要接的是 problems。测 E3 形近音近加 E5 词性词形误判。"},
+   {"key": "B", "text": "notice", "correct": false, "distractor_reason": "语义最近，notice any problems 是完全自然的地道英语，字面根本排不掉；表「察觉差错、异常」时高考语料的固定块是 spot a problem / spot a mistake / spot the difference。测 E4 搭配缺失，属于「语感对但考试不选」。"},
+   {"key": "C", "text": "spot", "correct": true, "distractor_reason": null},
+   {"key": "D", "text": "spotted", "correct": false, "distractor_reason": "词形误判：过去式。语境讲的是今后随时可能遇到的情况，if you spot any problems 才对；用 spotted 就变成「如果你已经发现了」，与「请及时上报」的逻辑自相矛盾。测 E5 词形与时态误判。"}
+  ],
+  "explanation": "【考场动作】先定词性：空格前是 if you（第二人称），后面是 any problems（问题类名词），空格必须作谓语、用动词原形。再查固定块：spot a problem / spot a mistake 一族。\n【为什么选 C】通知语体里「发现设备有问题就上报」用的正是这一组固定块，any problems 正是 spot 的搭配对象，spot 在此是动词义。\n【其他选项】A spoil 与 spot 形近音近，spoil the equipment 也是真搭配，可 spoil 的宾语是设备本身，句中要接的是 problems，不成立；B notice 字面讲得通，notice any problems 是自然说法，但与「差错、异常」搭配固定用 spot a problem，只能靠搭配记忆定输赢；D spotted 是过去式，语境讲的是今后随时会遇到的，用了 spotted 就变成「你已经发现了」，与「及时上报」矛盾。",
+  "trap_note": "陷阱来源：学生把 spot 当名词读（「地点、场所」「斑点、污点」），不把它当动词用；或被形近词 spoil、同义表达 notice 带走；也有人误用过去式 spotted。",
+  "tags": ["E5", "E3", "P4"]
+ },
+ {
+  "id": "q_068",
+  "sense_id": "s_spot_n_place",
+  "word_id": "w_spot",
+  "carrier": "C3",
+  "module": "E3_形近音近混淆",
+  "difficulty": "mid",
+  "expected_accuracy": [0.35, 0.75],
+  "stem": "Every spring the old town becomes a popular tourist ______, and visitors from many countries come to see the old houses and narrow lanes.",
+  "stem_cn": "这座古镇每年春天都会成为热门的旅游______，来自世界各国的游客纷至沓来，看那些老房子和窄窄的巷子。",
+  "options": [
+   {"key": "A", "text": "spoil", "correct": false, "distractor_reason": "与 spot 只差一个字母（spoil 与 spot 都是 spo-），读快了极易看成同一个词；填进去读作「最受欢迎的旅游破坏」，纯视觉误选。测 E3 形近音近混淆，与义项理解无关。"},
+   {"key": "B", "text": "spout", "correct": false, "distractor_reason": "字形最接近的一组（-out 与 -ot 只差两个字母），spout 是「喷口、壶嘴」；考场上一行扫过去最容易把这个字母换错。测 E3 形近音近误选。"},
+   {"key": "C", "text": "place", "correct": false, "distractor_reason": "语义近，a popular tourist place 语法不违规、意思也讲得通，语感排不掉；但 place 过于泛化，考场语料里描述「值得一游的地点」固定说 tourist spot / scenic spot / historic spot，place 在这个位置几乎总被替换。测 E4 搭配记忆。"},
+   {"key": "D", "text": "spot", "correct": true, "distractor_reason": null}
+  ],
+  "explanation": "【考场动作】先看冠词和搭配：a popular tourist ______，a 说明要填单数名词；再问「这种名词的固定块是什么」——「景点」固定写成 tourist spot / scenic spot / historic spot。填之前把 spoil、spout 默读一遍。\n【为什么选 D】spot 作名词就是「地点、场所」，a popular tourist spot 与 scenic spot 是描述旅游地的固定说法，语境说古镇成了热门景点，正是名词义。\n【其他选项】A spoil 只与 spot 差一个字母，读快了极易误填，属视觉误选；B spout 与 spot 只差两个字母，是「喷口、壶嘴」，同属形近致误；C place 语义完全说得通，a popular tourist place 语法也不违规，可 place 太泛，描述景点固定用 tourist spot，只能靠搭配记忆定输赢。",
+  "trap_note": "陷阱来源：学生把 spot 看成 spoil、spout 这类形近词，或按 spot＝「斑点、污点」去理解；同时 place 这类泛化词在语义上完全说得通，只有靠 tourist spot 这一整块的记忆才能排除。",
+  "tags": ["E3", "E4", "P4"]
+ },
+ {
+  "id": "q_069",
+  "sense_id": "s_suspect_n_person",
+  "word_id": "w_suspect",
+  "carrier": "C4",
+  "module": "E5_词性词形误判",
+  "difficulty": "mid",
+  "expected_accuracy": [0.35, 0.75],
+  "stem": "Police have asked witnesses to describe the ______, who was last seen near the station late that night.",
+  "stem_cn": "警方已请目击者描述那名嫌疑人——此人当晚最后被人看见是在车站附近。",
+  "options": [
+   {"key": "A", "text": "suspect", "correct": true, "distractor_reason": null},
+   {"key": "B", "text": "suspects", "correct": false, "distractor_reason": "词形误判：复数。后面 who was last seen 用的是单数谓语 was，说明指的是一个人，应用单数 suspect；学生按「嫌疑人（们）」的泛化想法就选了复数。测 E5 词形（单复数与谓语一致）。"},
+   {"key": "C", "text": "suspicion", "correct": false, "distractor_reason": "同根词混淆：suspicion 是不可数名词「怀疑」这一心理活动，学生记 suspect / suspicion 词族时把两个词当成同义词；可英语里指人必须用 suspect，suspicion 永远不指人。测 E5 词性词形加 E2 一词多义混淆。"},
+   {"key": "D", "text": "criminal", "correct": false, "distractor_reason": "语义近，a criminal 也指作案者，字面讲得通；但语境说警方仍在调查、请目击者辨认，criminal 带着「已被认定为罪犯」的预判，与「尚未查实」矛盾。测 E6 语境推断失败，属语感排不掉、只能靠 suspect 的名词义定输赢。"}
+  ],
+  "explanation": "【考场动作】先定词性：空格前有定冠词 the，后面 who was last seen 用的是单数谓语 was，所以空格必须是一个「指人的单数名词」。再按词性分家：suspect 作名词＝嫌疑人，作动词＝怀疑，作形容词＝可疑的；suspicion 是不可数的「怀疑」，永远不指人。\n【为什么选 A】这里要的就是 suspect 的名词义「嫌疑人」：警方还在调查、尚未定案，请目击者描述的那个人就是嫌疑人。\n【其他选项】B suspects 是复数，与后面 who was 的单数谓语冲突，属词形误判；C suspicion 与 suspect 同根，学生记词族时容易混选，可它是不可数名词「怀疑」本身，指人时英语必须用 suspect；D criminal 语义上完全说得通，a criminal 也是作案者，但语境强调警方仍在调查、请目击者辨认，criminal 带着「已被认定为罪犯」的预判，与「尚未查实」矛盾。",
+  "trap_note": "陷阱来源：学生把 suspect 一律当动词「怀疑」读，或把同根的 suspicion 当成「嫌疑人」；也有人误用复数 suspects 与形容词形式 suspected。",
+  "tags": ["E5", "E2", "P3"]
+ },
+ {
+  "id": "q_070",
+  "sense_id": "s_suspect_adj_doubtful",
+  "word_id": "w_suspect",
+  "carrier": "C2",
+  "module": "E2_一词多义混淆",
+  "difficulty": "mid",
+  "expected_accuracy": [0.35, 0.75],
+  "stem": "The teacher did not ignore the student's ______ excuse for being late, and she asked him to explain what had actually happened.",
+  "stem_cn": "老师没有对学生那个站不住脚的迟到借口置之不理，而是让他解释到底发生了什么。",
+  "options": [
+   {"key": "A", "text": "suspicious", "correct": false, "distractor_reason": "形近近义词，a suspicious excuse 读起来完全自然，语感根本排不掉；高考语料里形容「经不起推敲的借口、动机」固定用 suspect excuse / suspect motive。测 E3 形近词辨析加 E4 搭配缺失。"},
+   {"key": "B", "text": "suspect", "correct": true, "distractor_reason": null},
+   {"key": "C", "text": "suspected", "correct": false, "distractor_reason": "过去分词形式，学生按「被怀疑的」直接套进形容词位；the student's suspected excuse 在当代英语里基本不这么用。测 E5 词形词性误判：suspect 横跨动词、名词、形容词三种词性，先定词性再定义项。"},
+   {"key": "D", "text": "dubious", "correct": false, "distractor_reason": "语义近且完全地道，a dubious excuse 是自然的英语说法，字面毫无破绽；它偏「可疑、不可靠」，而高考语料形容借口、动机固定用 suspect motive / suspect behaviour。测 E4 搭配记忆，靠整块记忆定输赢。"}
+  ],
+  "explanation": "【考场动作】先定词性：空格修饰 excuse（名词），要的是形容词；suspect 横跨动词「怀疑」、名词「嫌疑人」、形容词「可疑的」三种词性，修饰名词时只能取形容词义。再看固定块：形容经不起推敲的借口、动机，固定用 suspect excuse / suspect motive。\n【为什么选 B】语境说老师没有放过这个借口、反而追问细节，说明这借口本身经不起推敲，属形容词「可疑的、令人起疑的」。\n【其他选项】A suspicious 是形近近义词，a suspicious excuse 完全自然；区别在高考语料形容「借口、动机」固定用 suspect excuse，suspicious 多落在「引起怀疑的人」上；C suspected 是过去分词，the student's suspected excuse 在当代英语里基本不这么用，属词形误判；D dubious 语义近且地道，偏「不可靠」，同样靠搭配记忆定输赢。",
+  "trap_note": "陷阱来源：学生把 suspect 一律读成动词「怀疑」，看到 excuse 就想不到形容词义；或被形近词 suspicious、近义说法 dubious 带走，没有意识到 suspect 横跨三种词性，要先定词性再定义项。",
+  "tags": ["E2", "E3", "P3"]
+ },
+ {
+  "id": "q_071",
+  "sense_id": "s_assumption_n_on_that",
+  "word_id": "w_assumption",
+  "carrier": "C1",
+  "module": "E4_固定搭配缺失",
+  "difficulty": "mid",
+  "expected_accuracy": [0.35, 0.75],
+  "stem": "The scholarship was awarded on the ______ that the winner would spend a term teaching in her own village.",
+  "stem_cn": "这份奖学金授予的前提是：获奖者要在自己的村里支教一个学期。",
+  "options": [
+   {"key": "A", "text": "assume", "correct": false, "distractor_reason": "搭配错：on the assume that 不是英语搭配（要作定语必须名词化成 assumption），学生常按中文「在假设……的前提下」直译成 on the assume that。测 E4 搭配缺失加 E5 名词化词形误判。"},
+   {"key": "B", "text": "presumption", "correct": false, "distractor_reason": "与 assume 同根、语义也近，on the presumption that 确实是真实存在的英语搭配，字面完全说得通；on the assumption that 才是本词条 collocations 里明确列出的固定块。测 E3 形近词加 E4 搭配记忆。"},
+   {"key": "C", "text": "assumption", "correct": true, "distractor_reason": null},
+   {"key": "D", "text": "belief", "correct": false, "distractor_reason": "语义近，on the belief that 是极常见的真实搭配，字面毫无破绽，语感排不掉；它与 assume 不同族，而 on the assumption that 才是高考语料里固定的那一块。测 E2 一词多义混淆加 E4 搭配记忆。"}
+  ],
+  "explanation": "【考场动作】先看介词：on the ______ that + 从句。on the assumption that 是整体词块，意思是「以……为前提」，后面必须跟 that 从句；on + 名词 + that 能接的自然词很少，要靠搭配熟度定输赢。\n【为什么选 C】语境说奖学金能不能拿，取决于获奖者是否愿意回村支教一个学期——事先假定一条尚未证实的情况并以它为前提，所以用 assumption。\n【其他选项】A assume 是动词，on the assume that 不是英语搭配（须名词化成 assumption），学生常按中文直译；B presumption 与 assume 同根，on the presumption that 是真实搭配，字面说得通，可固定块是 on the assumption that；D belief 同样贴切（on the belief that 是真搭配），只能靠搭配记忆定输赢。",
+  "trap_note": "陷阱来源：学生把 on the assumption that 当成「一个假设」而不是「在……的前提」，于是用 assume 的动词形式直译成 on the assume that；或被同义的 presumption、belief 带偏。",
+  "tags": ["E4", "E2", "P4"]
+ },
+ {
+  "id": "q_072",
+  "sense_id": "s_assumption_n_responsibility",
+  "word_id": "w_assumption",
+  "carrier": "C1",
+  "module": "E1_熟词僻义",
+  "difficulty": "mid",
+  "expected_accuracy": [0.35, 0.75],
+  "stem": "Her ______ of responsibility for the project changed the way the whole team worked, and the manager no longer had to check every step.",
+  "stem_cn": "她接管这个项目的责任之后，整个团队的做事方式都变了，经理也不必再事事过问。",
+  "options": [
+   {"key": "A", "text": "view", "correct": false, "distractor_reason": "按学生最熟的「想法、看法」一路读成「她对责任的看法」，her view of responsibility for the project 字面与语境都说得通；可这一栏考的不是「看法」，而是「接管职权与责任」这个动作。测 E1 熟词僻义误判加 E2 一词多义混淆。"},
+   {"key": "B", "text": "acceptance", "correct": false, "distractor_reason": "语义近且是真搭配，acceptance of responsibility 完全成立，学生按「接受责任」就选它；可 accept responsibility 偏「主动担起」，assumption of responsibility 指接管职位与职权。测 E4 搭配缺失，靠搭配记忆定输赢。"},
+   {"key": "C", "text": "presumption", "correct": false, "distractor_reason": "与 assume 同根，学生记词族时误选；presumption 的意思是「臆断、推定」，presumption of responsibility 在英语里根本不成立，它不承担「担起、接管」这一层。测 E3 形近词加 E2 义项混淆。"},
+   {"key": "D", "text": "assumption", "correct": true, "distractor_reason": null}
+  ],
+  "explanation": "【考场动作】先看叙事线索：changed the way the whole team worked——变的是「她接下项目后谁说了算」，空格要装「接管职权与责任」。对照 assumption of responsibility / of power。\n【为什么选 D】assumption of responsibility 是本词条固定搭配，指接管职权与责任；语境说团队做事方式随之改变，讲的正是她接手后局面变了。\n【其他选项】A view 是学生最熟的「想法」，her view of responsibility 也说得通，可考的不是「看法」而是「接管」；B acceptance 是真搭配，但 accept responsibility 偏「主动担起」，后者偏接管职权；C presumption 与 assume 同根易误选，可它指「臆断」，presumption of responsibility 不成立。",
+  "trap_note": "陷阱来源：学生把 assumption 一律读成「假定、假设」，于是被 view、presumption 这类表示「想法」的词带走，忽略了 assumption of responsibility / of power 这一层「接管、承担」的义项。",
+  "tags": ["E1", "E2", "P4"]
+ },
+ {
+  "id": "q_073",
+  "sense_id": "s_characteristic_n_quality",
+  "word_id": "w_characteristic",
+  "carrier": "C1",
+  "module": "E6_语境推断失败",
+  "difficulty": "hard",
+  "expected_accuracy": [0.15, 0.45],
+  "stem": "Patience is the ______ that this young teacher has shown again and again in class, and it is the reason her students trust her so much.",
+  "stem_cn": "耐心是这位年轻老师在课堂上一次次展现出来的品质，也是她的学生如此信任她的原因。",
+  "options": [
+   {"key": "A", "text": "characteristic", "correct": true, "distractor_reason": null},
+   {"key": "B", "text": "character", "correct": false, "distractor_reason": "与 characteristic 同词根，the character that she has shown 字面完全讲得通，学生被词根吸引就会选它；但 character 指「性格、个性」，重心在这个人一贯是什么样的人，不是这一栏所考的「优良素质」。测 E3 形近词加 E2 义项混淆。"},
+   {"key": "C", "text": "feature", "correct": false, "distractor_reason": "语义近，the feature that she has shown 语法也成立；但 feature 说的是「（产品、地方、制度等）的特色、特点」，与人的素质搭配不到一起，与语境线索矛盾。测 E6 语境推断失败。"},
+   {"key": "D", "text": "trait", "correct": false, "distractor_reason": "语义近，a trait of a leader 确实指「（人的）特质」，字面完全说得通，语感排不掉；只能靠 fine characteristics / a noble characteristic 这整块的记忆把它与 characteristic 分开。测 E4 搭配缺失。"}
+  ],
+  "explanation": "【考场动作】先看被形容的对象是人还是物：主语是 Patience——一个抽象的优良素质，被说明的人是一位老师。形容人的素质，固定块是 fine characteristics / a noble characteristic。\n【为什么选 A】语境说老师「一次次展现出来」的耐心，并当成学生信任她的原因，讲的是人的素质层面（品质、素养），与 a noble characteristic 一致。\n【其他选项】B character 与 characteristic 同词根，the character that she has shown 讲得通，可 character 指「性格、个性」，重心在「这人一贯是什么样」；C feature 语义也通，可它多指「（产品、制度等）的特色」，与素质搭配不到一起；D trait 也是真搭配（a trait of a leader），只能靠 fine characteristics 定输赢。",
+  "trap_note": "陷阱来源：学生按 characteristic＝「特征、特点」这个最熟的义项去读题，于是被 feature、trait 这类同义替换词带走；或被同词根的 character 干扰，忽略了形容人的素质该用 a noble characteristic。",
+  "tags": ["E6", "E2", "P4"]
+ },
+ {
+  "id": "q_074",
+  "sense_id": "s_characteristic_adj_typical",
+  "word_id": "w_characteristic",
+  "carrier": "C1",
+  "module": "E1_熟词僻义",
+  "difficulty": "mid",
+  "expected_accuracy": [0.35, 0.75],
+  "stem": "It is ______ of this old town that every street follows the shape of the river, and local guides always point this out to visitors.",
+  "stem_cn": "这座古镇的典型之处在于每一条街道都顺着河流的走向延伸，当地导游总会向来访者指出这一点。",
+  "options": [
+   {"key": "A", "text": "typical", "correct": false, "distractor_reason": "语义近且是真实搭配，be typical of 结构完全成立，语感根本排不掉；它是一般说法，而高考语料里表达「是……的典型特征」固定用 be characteristic of / a characteristic style。测 E4 搭配记忆，属于「语感对但考试不选」。"},
+   {"key": "B", "text": "characteristic", "correct": true, "distractor_reason": null},
+   {"key": "C", "text": "distinctive", "correct": false, "distractor_reason": "形近义近且是真搭配，be distinctive of 语法完全成立；但 distinctive 强调「与众不同、与别处不同」，语境说的是古镇一贯的做法，而不是刻意标新立异。测 E2 义项混淆加 E6 语境推断失败。"},
+   {"key": "D", "text": "symbolic", "correct": false, "distractor_reason": "搭配错：be symbolic of 是真搭配，看到 of 就往上填；可它说的是「象征意义」，语境里每条街顺河而建只是一贯做法，毫无象征色彩。测 E4 搭配缺失加 E2 义项偏。"}
+  ],
+  "explanation": "【考场动作】先定词性：It is ___ of + 人/物，空格要填接 of 的形容词。表「是某物的典型特征」有平行说法：be characteristic of / be typical of / be distinctive of，结构一样，只能靠搭配记忆判定。主语是 this old town。\n【为什么选 B】be characteristic of + 对象 + that 从句是本词条记录的固定搭配，意思正是「是……的典型特征」。语境说古镇每条街顺着河道走，这就是它的典型特征。\n【其他选项】A be typical of 语法意思都成立，是最强语感干扰项，但表达「是……的典型特征」高考固定用 be characteristic of，typical 属通用说法；C be distinctive of 也是真搭配，侧重「与众不同」，与「一贯如此」有差别；D symbolic of 同样成立，但指「象征意义」，语境里没有。",
+  "trap_note": "陷阱来源：学生把 characteristic 一律当名词「特征」读，看到 of 就以为要填 the feature of…；或凭 be typical of 的通用语感把 characteristic 排掉，忘了 be characteristic of 是一整块要背。",
+  "tags": ["E1", "E2", "P4"]
+ },
+ {
+  "id": "q_075",
+  "sense_id": "s_emphasis_n_stress",
+  "word_id": "w_emphasis",
+  "carrier": "C2",
+  "module": "E2_一词多义混淆",
+  "difficulty": "hard",
+  "expected_accuracy": [0.15, 0.45],
+  "stem": "The teacher asked us to mark the ______ of each new word, because moving it would change the meaning entirely.",
+  "stem_cn": "老师让我们标出每个生词的重音，因为重音一挪，词义就完全变了。",
+  "options": [
+   {"key": "A", "text": "stress", "correct": false, "distractor_reason": "语义最近，the stress of a word、the stress on the first syllable 都是地道英语，字面完全说得通；但高考语料里讲「重音落在哪个音节」固定用 the emphasis falls on / the emphasis on，stress 在书面语中更常见于 stress the importance 这类义项。测 E2 一词多义混淆加 E4 搭配记忆。"},
+   {"key": "B", "text": "importance", "correct": false, "distractor_reason": "对应 emphasis「强调、着重」这一真实义项（强调＝看得重＝重要），the importance of each new word 字面也讲得通；但语境谈的是发音着力点，答非所问。测 E1 熟词僻义误判。"},
+   {"key": "C", "text": "emphasis", "correct": true, "distractor_reason": null},
+   {"key": "D", "text": "pronunciation", "correct": false, "distractor_reason": "主题相近的干扰项，the pronunciation of each new word 语法成立，却指整个词的发音，与「挪一下就变义」的那个着力点不是一回事。测 E6 语境推断失败：学生抓到「读音」就顺手填。"}
+  ],
+  "explanation": "【考场动作】先看上下文：moving it would change the meaning——「挪动一下，词义就变了」。能改变词义的语音因素只有重音落在哪个音节，先分「着力点」与「分量」两类。\n【为什么选 C】mark the emphasis of each new word 讲的是标出每个生词的重音位置，正是 emphasis 的「重音、重读」义。\n【其他选项】A stress 最像，the stress of a word、the stress on the first syllable 都地道，字面说得通，可讲「重音落在哪个音节」高考固定用 the emphasis falls on；B importance 对应 emphasis「强调、着重」义，the importance of each new word 也通，但语境谈的是发音着力点，答非所问；D pronunciation 指整个词的发音，与着力点不同。",
+  "trap_note": "陷阱来源：学生把 emphasis 一律读成「强调、着重」，看到 mark、importance 就往「分量、重点」方向想，把「重音、重读」这一层排除；或被同义表达 stress 带走。",
+  "tags": ["E2", "E1", "P3"]
+ },
+ {
+  "id": "q_076",
+  "sense_id": "s_emphasis_n_focus",
+  "word_id": "w_emphasis",
+  "carrier": "C1",
+  "module": "E1_熟词僻义",
+  "difficulty": "mid",
+  "expected_accuracy": [0.35, 0.75],
+  "stem": "The school places great ______ on reading aloud every morning before the first class begins, and the teachers say it helps the students concentrate.",
+  "stem_cn": "学校非常重视每天早上第一节课前的朗读，教师们说这有助于学生集中注意力。",
+  "options": [
+   {"key": "A", "text": "stress", "correct": false, "distractor_reason": "同一词族的另一真实义项「重音、重读」，place great stress on 在英语里也成立，字面完全说得通；可 place the stress on 偏「把着力点放在……上」，表「重视」这一层高考固定用 place emphasis on。测 E2 一词多义混淆加 E4 搭配记忆。"},
+   {"key": "B", "text": "focus", "correct": false, "distractor_reason": "另一真实义项「重点、侧重之处」，place great focus on 同样地道，字面毫无破绽；但 focus 落在「焦点」上，语境说的是「看重、重视」这层意思。测 E2 一词多义混淆，属于语感排不掉的干扰项。"},
+   {"key": "C", "text": "importance", "correct": false, "distractor_reason": "语义最接近，place great importance on 是标准搭配，学生几乎一定会考虑它；可高考应用文里「非常重视……」的固定表达是 place / put / lay emphasis on。测 E4 搭配记忆。"},
+   {"key": "D", "text": "emphasis", "correct": true, "distractor_reason": null}
+  ],
+  "explanation": "【考场动作】先看框架：place / put / lay + great + ______ + on + 名词。这三个动词与 on 构成一整块固定搭配 place / put / lay emphasis on，空格填的必须是「强调、重视」。\n【为什么选 D】语境说学校非常重视每天朗读这件事，是把注意力集中在某件事上，因此是 emphasis 的「强调、着重」义，应用文的「重视……」正是 place great emphasis on。\n【其他选项】A stress 是同族义项「重音」，place great stress on 也成立，可它偏「着力点」，表「重视」高考固定用 place emphasis on；B focus 是「重点」，place great focus on 也地道，语境说的是「看重」；C importance 语义最接近，place great importance on 是标准搭配，属语感排不掉的干扰。",
+  "trap_note": "陷阱来源：学生把 emphasis 读成「重音」或「重点」，看到 place … on 就按通用说法填 stress / focus / importance，而没有想起 place emphasis on 这组高考高频词块。",
+  "tags": ["E1", "E2", "P4"]
+ },
+ {
+  "id": "q_077",
+  "sense_id": "s_gap_n_interval",
+  "word_id": "w_gap",
+  "carrier": "C3",
+  "module": "E3_形近音近混淆",
+  "difficulty": "mid",
+  "expected_accuracy": [0.35, 0.75],
+  "stem": "There was a long ______ between the two lectures, so the students went out for a cup of tea.",
+  "stem_cn": "两堂课之间空出很长一段空档，学生们便出去喝了杯茶。",
+  "options": [
+   {"key": "A", "text": "gap", "correct": true, "distractor_reason": null},
+   {"key": "B", "text": "gape", "correct": false, "distractor_reason": "与 gap 只差一个字母、读音也几乎一样，考场上一行扫过去最容易写错；gape 是「张口、豁口」，a gape between 两个讲座根本不成搭配。测 E3 形近音近混淆，纯视觉误选。"},
+   {"key": "C", "text": "space", "correct": false, "distractor_reason": "语义近，a space between 在英语里存在，学生按中文「间隔＝空间」的语感就选它；可高考语料里「两节课之间的空档」固定说 a gap between / a gap of，space 更多用于座位、物体之间的空间。测 E4 搭配缺失。"},
+   {"key": "D", "text": "distance", "correct": false, "distractor_reason": "语义近，a distance between 字面讲得通，学生按中文「时间上的距离」来理解；可语境问的是「隔了多长时间」，不是「相隔多远」，只能靠 a gap between two lectures 这一整块的记忆来定输赢。测 E4 搭配缺失加 E6 语境推断失败。"}
+  ],
+  "explanation": "【考场动作】先看框架：a long ______ between + 两样东西。空格前有 a，要单数名词；说的是两堂课之间的「一段时间」，要时间间隔。再比词形：gap 与 gape 只差一个字母、读音也近。最后比搭配：两堂课之间的空档固定说 a gap between two lectures。\n【为什么选 A】语境说两堂课之间空出很长一段，学生趁这段时间出去喝茶，讲的是时间上的「间隔、空档」，正是 gap 的这个义项。\n【其他选项】B gape 与 gap 形近音近（gape 是「张口、豁口」），a gape between 两个讲座不成搭配，属误选；C space 语义说得通，a space between 在英语里存在，可「两节课之间的空档」固定用 gap between；D distance 也是语义近干扰，讲「相隔多远」，语境问的是「隔了多长时间」，只能靠 a gap between two lectures 定输赢。",
+  "trap_note": "陷阱来源：学生把 gap 看成形近词 gape；或按中文「间隔＝空间／距离」的语感选 space、distance，丢掉 gap between lectures 这一固定搭配。",
+  "tags": ["E3", "E4", "P4"]
+ },
+ {
+  "id": "q_078",
+  "sense_id": "s_gap_n_opening",
+  "word_id": "w_gap",
+  "carrier": "C1",
+  "module": "E1_熟词僻义",
+  "difficulty": "hard",
+  "expected_accuracy": [0.15, 0.45],
+  "stem": "A narrow ______ between the two doors let in the cold wind of the winter night.",
+  "stem_cn": "两扇门之间一道窄窄的缝，让冬夜的冷风灌了进来。",
+  "options": [
+   {"key": "A", "text": "difference", "correct": false, "distractor_reason": "对应 gap 最熟的「差距」义，the difference between the two doors 字面读作「两扇门之间的差别」，也讲得通；但「差别」不会让风灌进来，与后半句的线索直接矛盾，属熟词僻义误判。测 E1 熟词僻义加 E6 语境推断失败。"},
+   {"key": "B", "text": "gap", "correct": true, "distractor_reason": null},
+   {"key": "C", "text": "space", "correct": false, "distractor_reason": "语义近且是真搭配，a narrow space between the two doors 指的就是那道空处，字面毫无破绽；但它只说明「两者之间有空处」，缺了「开口、豁口」这层实物感，本词条讲物体的缝固定用 a gap in the wall / a narrow gap。测 E4 搭配缺失。"},
+   {"key": "D", "text": "gape", "correct": false, "distractor_reason": "与 gap 形近音近（gape 只多一个字母），gape 本身也有「张开的口子」的意思；但 gape 强调张得很大，与句中的 narrow 直接冲突，这是只比外形、不看语境线索的误选。测 E3 形近音近混淆。"}
+  ],
+  "explanation": "【考场动作】先看后半句：let in the cold wind——能让风灌进来的只能是「一道缝」，不是「差别」，也不是「大张口」。圈出「缝隙类」再比词：gap 的固定块是 a narrow gap / a gap in the wall，gape 与 narrow 矛盾。\n【为什么选 B】语境说冬夜的冷风从两扇门之间那道窄缝灌进来，讲的是物体上的开口，正是 gap 的缺口义。\n【其他选项】A difference 是学生最熟的差距义，the difference between the two doors 也讲得通，但「差别」不会让风灌进来，与线索矛盾；C space 语义完全说得通，a narrow space between the two doors 就是那道空处，可它只说明「两者之间有空处」，没有「开口」感；D gape 与 gap 形近音近，也有「张开的口子」之意，但 gape 强调张得很大，与 narrow 相冲。",
+  "trap_note": "陷阱来源：学生按 gap＝「差距、悬殊之处」这个最熟的义项去理解，看到 between 就往「两者相差多少」上想，把正确的「缺口、豁口」义排除；或被形近词 gape 带走。",
+  "tags": ["E1", "E6", "P3"]
+ },
+ {
+  "id": "q_079",
+  "sense_id": "s_input_n_information",
+  "word_id": "w_input",
+  "carrier": "C2",
+  "module": "E2_一词多义混淆",
+  "difficulty": "mid",
+  "expected_accuracy": [0.35, 0.75],
+  "stem": "Her advice turned out to be the most valuable ______ the team could draw on while they were writing the plan.",
+  "stem_cn": "事实证明，在写方案的那段时间里，团队最能倚重的宝贵______就是她的建议。",
+  "options": [
+   {"key": "A", "text": "data", "correct": false, "distractor_reason": "input 的另一真实义项「输入的内容、数据」；the most valuable data the team could draw on 字面完全通顺，但语境给的是「一条建议」而不是一套数据或系统里的内容。测 E2 一词多义混淆，两个义都认识，语境没锁定。"},
+   {"key": "B", "text": "support", "correct": false, "distractor_reason": "语义近，the most valuable support the team could draw on 成立；可它说的是「支持、助力」，与「提供参考消息」不是一回事。测 E6 语境推断失败，属于语感排不掉的干扰项。"},
+   {"key": "C", "text": "input", "correct": true, "distractor_reason": null},
+   {"key": "D", "text": "investment", "correct": false, "distractor_reason": "input 的另一真实义项「投入（资金、设备、人力）」，draw on investment 本身也是真实搭配，字面成立；可语境里被倚重的是一条意见，不是一笔投入或一笔资金。测 E2 一词多义混淆加 E6 语境推断失败。"}
+  ],
+  "explanation": "【考场动作】先看来源和用途：前面是「她的建议」，后面是「团队写方案时可以倚重的」，所以空格装的是「可供参考、供人取用的消息或线索」，不是具体数据、投入资金或泛泛的支持。再比整块：valuable input。\n【为什么选 C】她的建议对写方案来说是最宝贵的参考材料，属于「供参考的消息、线索」，正是 input 的这个义项；应用文里「为方案提供宝贵参考」对应的就是 valuable input。\n【其他选项】A data 是 input 的另一真实义项「输入的数据」，the most valuable data the team could draw on 字面通顺，可语境给的是一条建议；B support 是语义近干扰项，the most valuable support 成立，可它说的是「支持」；D investment 是「投入」义，draw on investment 也成立，可倚重的是一条意见。",
+  "trap_note": "陷阱来源：学生把 input 一律读成「输入的数据」或「投入」，于是被 data、investment 带走；或凭中文「建议＝支持」的语感选 support，没有抓住 valuable input 这一组固定块。",
+  "tags": ["E2", "E1", "P4"]
+ },
+ {
+  "id": "q_080",
+  "sense_id": "s_input_v_enter",
+  "word_id": "w_input",
+  "carrier": "C1",
+  "module": "E1_熟词僻义",
+  "difficulty": "hard",
+  "expected_accuracy": [0.15, 0.45],
+  "stem": "The form will not be accepted unless you ______ your name and student number into the boxes at the top.",
+  "stem_cn": "除非你把姓名和学号录进表格顶端的方框里，这份表格不会被受理。",
+  "options": [
+   {"key": "A", "text": "type", "correct": false, "distractor_reason": "语义最近，type your name into the boxes 是完全自然的地道英语，字面根本排不掉；可表「把文字、指令、密码录进系统」时高考语料固定用 input information / input a password / input data，type 是日常说法。测 E4 搭配缺失，属于「语感对但考试不选」。"},
+   {"key": "B", "text": "put", "correct": false, "distractor_reason": "学生把 input 读成「投入」时的对应说法（put resources into a project），字面也讲得通；但 put 只表示「放进去」，不含「键入、录入」的技术含义，而空格后面的宾语是要录进去的字符信息。测 E1 熟词僻义误判加 E6 语境推断失败。"},
+   {"key": "C", "text": "enter", "correct": false, "distractor_reason": "语义近且是真搭配，enter your name into the form 在英语里完全成立；但 enter 的重心在「进入、填写」，把数据「键入系统」这一层仍以 input 为准，属于语感排不掉、只能靠搭配记忆定输赢的干扰项。测 E2 一词多义混淆加 E4 搭配缺失。"},
+   {"key": "D", "text": "input", "correct": true, "distractor_reason": null}
+  ],
+  "explanation": "【考场动作】先看宾语：your name and student number 是要「录进表格」的字符信息，不是要被「投入」的资金、设备。再看固定块：input data / input information / input a password、input into the system。\n【为什么选 D】语境说表格不被受理、除非你把姓名和学号录进顶端的方框里，讲的正是「键入、录入」这一动作，也就是 input 的动词义。\n【其他选项】A type 最像，type your name into the boxes 完全自然，可它指「敲键盘」，把文字、密码录进系统时高考固定用 input information；B put 字面也通，学生若把 input 读成「投入」就顺手选 put，可 put 只表示「放进去」，不含「录入」的含义；C enter 也是真搭配，重心在「进入、填写」，「键入系统」仍以 input 为准。",
+  "trap_note": "陷阱来源：学生把 input 一律读成「投入（资金、设备、人力）」，于是选 put 这类说法；或被 type、enter 这些通用表达带走，没有想起 input information / input a password 这组固定搭配。",
+  "tags": ["E1", "E4", "P4"]
+ }
+]

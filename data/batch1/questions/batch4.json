@@ -1,0 +1,1882 @@
+[
+ {
+  "id": "q_121",
+  "sense_id": "s_plant_v_place",
+  "word_id": "w_plant",
+  "carrier": "C2",
+  "module": "E2_一词多义混淆",
+  "difficulty": "hard",
+  "expected_accuracy": [
+   0.15,
+   0.45
+  ],
+  "stem": "He never said it aloud, but his words ______ a doubt in her mind that never went away.",
+  "stem_cn": "他从没把它说出口，可他的话在她心里种下了一个始终挥之不去的疑问。",
+  "options": [
+   {
+    "key": "A",
+    "text": "put",
+    "correct": false,
+    "distractor_reason": "语义最近、语境完全说得通（put doubt in her mind），语感上几乎排不掉。测「学生是否记得 plant a doubt / plant suspicion 这块高考固定搭配」，只会按中文「心里塞进怀疑」直译就会误选。"
+   },
+   {
+    "key": "B",
+    "text": "planted",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "C",
+    "text": "sowed",
+    "correct": false,
+    "distractor_reason": "搭配错：sow 后面只能接 the seeds of sth（sow the seeds of doubt），不能直接接 a doubt。测「学生是否知道 sow 与 plant 在「植入想法」这一语境里的搭配分工」，属固定搭配缺失（E4）。"
+   },
+   {
+    "key": "D",
+    "text": "grew",
+    "correct": false,
+    "distractor_reason": "本词的另一真实义项（grow＝生长、种植）被误当成「疑虑滋长」而选中；「疑虑生长」只能说 a doubt grew in her mind，不能说 grow a doubt。测「一词多义混淆中动词方向是否读反」（E2）。"
+   }
+  ],
+  "explanation": "【考场动作】先圈动词后的宾语 a doubt in her mind——doubt 是「念头」类名词，不是 seeds / crops / trees 这类活物。宾语是 doubt / suspicion / an idea，动词就往「植入」想，先把 sow、grow 排掉。\n【为什么选 B】plant a doubt in sb's mind 是高考固定说法，「在某人心里埋下疑虑」，强调这份疑虑是被人放进去、会一直发酵；本句正是朋友的话这样在她心里种下疑问。\n【其他选项】A put 语感全通（put doubt in her mind），但只是泛化说法，要靠 plant a doubt 这块记忆压住。C sow 只能接 the seeds of sth（sow the seeds of doubt），接不了 a doubt，搭配错。D grow a doubt 讲不通，「疑虑生长」只能说 a doubt grew。",
+  "trap_note": "陷阱来源：学生按 plant＝「种植」或按「心里塞进怀疑」的直译选 put，忽略了 plant a doubt / plant suspicion 这一「把想法塞进人心」的固定说法。",
+  "tags": [
+   "E2",
+   "P2",
+   "P4"
+  ]
+ },
+ {
+  "id": "q_122",
+  "sense_id": "s_plant_v_grow",
+  "word_id": "w_plant",
+  "carrier": "C1",
+  "module": "E1_熟词僻义",
+  "difficulty": "easy",
+  "expected_accuracy": [
+   0.65,
+   0.95
+  ],
+  "stem": "In early spring, farmers across the valley ______ rice seedlings into the flooded fields, a practice passed down for generations.",
+  "stem_cn": "早春时节，谷地里的农民把稻秧插进水田，这个做法已传承了几代人。",
+  "options": [
+   {
+    "key": "A",
+    "text": "put",
+    "correct": false,
+    "distractor_reason": "语义近、语感通（put seedlings into the soil），单看中文「把秧苗放进田里」完全说得通。测「是否记住 plant seedlings / transplant seedlings 是高考种树栽苗的固定搭配」，属搭配记忆而非词义。"
+   },
+   {
+    "key": "B",
+    "text": "raise",
+    "correct": false,
+    "distractor_reason": "语义近：raise 本身有「种植、饲养」义，学生按养花养鸡的读法迁移过来。测「raise 后面不接 into the flooded fields 这种地点状语」的搭配错，语感排不掉。"
+   },
+   {
+    "key": "C",
+    "text": "grow",
+    "correct": false,
+    "distractor_reason": "本词的另一真实义项（grow＝生长）被当成「让稻子长大」而误选；grow 后面不能接「放进某个地点」的介词短语，grow in the fields 才是生长。测「动词的方向与结构是否读错」（E2）。"
+   },
+   {
+    "key": "D",
+    "text": "plant",
+    "correct": true,
+    "distractor_reason": null
+   }
+  ],
+  "explanation": "【考场动作】看 plant 的宾语：rice seedlings 是「要放进土里扎根的活物」，对应栽种；前面若有 power / chemical / steel，则读成「工厂」。后面 into the flooded fields 也是「放进去」的动作。\n【为什么选 D】plant rice seedlings into the flooded fields 是自然英语，也是高考讲「插秧、栽种」的固定搭配，强调把幼苗放进土里扎根。\n【其他选项】A put 语感通，但高考固定写 plant seedlings / transplant seedlings。B raise 有「种植、饲养」义，却不接 into the flooded fields 这类地点状语，搭配不通。C grow 是「生长」，后面不能接「放进某地」的介词短语，学生按「长出来」想就误选。三个词都读得通，只能靠搭配记忆定输赢。",
+  "trap_note": "陷阱来源：学生把 plant 一律读成名词「植物」或按 grow「生长」去套，忽略宾语是幼苗、后面有地点状语时的固定说法。",
+  "tags": [
+   "E1",
+   "P2",
+   "P4"
+  ]
+ },
+ {
+  "id": "q_123",
+  "sense_id": "s_point_v_direct",
+  "word_id": "w_point",
+  "carrier": "C1",
+  "module": "E6_语境推断失败",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "Years of observation ______ to a clear change in the way teenagers spend their free time, and the shift has not yet been fully explained.",
+  "stem_cn": "多年的观察指向青少年打发空闲时间方式上的明显变化，而这一转变至今仍未被完全解释。",
+  "options": [
+   {
+    "key": "A",
+    "text": "hint",
+    "correct": false,
+    "distractor_reason": "搭配错：hint 表示「暗示」必须接 at（hint at a change），说 hint to 介词方向就错了。测「学生是否只记意思、不查搭配」，属固定搭配缺失（E4）。"
+   },
+   {
+    "key": "B",
+    "text": "refer",
+    "correct": false,
+    "distractor_reason": "语义近、字面讲得通（refer to＝提到、指的是），学生按「说到这一变化」理解就会选它。测「refer to 的宾语应是「被提及的对象」而不是结论本身」的语境推断（E6）。"
+   },
+   {
+    "key": "C",
+    "text": "points",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "D",
+    "text": "suggest",
+    "correct": false,
+    "distractor_reason": "语义最近、语感完全说得通（suggest a change），纯语感排不掉。测「是否知道抽象趋势用 point to、数据类主语用 point to 表明结论」这一高考数据句的固定说法（E6＋E4）。"
+   }
+  ],
+  "explanation": "【考场动作】先看介词：后面是 to，抽象趋势用 point to，具体方位才用 point at；再看主语 Years of observation 这类「证据类」主语，point 就是「表明、指向趋势」。\n【为什么选 C】the pattern points to a change 是高考说明文「数据表明」的标准写法，point to 后接抽象名词，强调证据指向一个可观察的结论。\n【其他选项】A hint 必须接 at（hint at a change），说 hint to 方向就错。B refer 的宾语应是「被提及的对象」，接不了「变化」这个结论。D suggest 语义最近、语感全通，但只表示「暗示、提出看法」，高考数据句固定用 point to。纯语感排不掉，只能靠「抽象趋势用 to」这条判断。",
+  "trap_note": "陷阱来源：学生抓住 suggest / refer 这类语义近词，或者忽略 point to 与 hint at 的介词差别，凭「说明变化」的语感答题。",
+  "tags": [
+   "E6",
+   "P2",
+   "P8"
+  ]
+ },
+ {
+  "id": "q_124",
+  "sense_id": "s_point_n_view",
+  "word_id": "w_point",
+  "carrier": "C1",
+  "module": "E1_熟词僻义",
+  "difficulty": "hard",
+  "expected_accuracy": [
+   0.15,
+   0.45
+  ],
+  "stem": "On this ______, the two proposals differ only in the number of meetings each of them requires.",
+  "stem_cn": "在这______上，两个方案唯一的区别只在于各自需要开会的次数。",
+  "options": [
+   {
+    "key": "A",
+    "text": "point",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "B",
+    "text": "issue",
+    "correct": false,
+    "distractor_reason": "语义近、语感通（on this issue＝在这个议题上），纯语感排不掉。测「学生是否知道 on this point 是高考议论文的固定块，issue 指向的是整个议题、颗粒度不对」。"
+   },
+   {
+    "key": "C",
+    "text": "matter",
+    "correct": false,
+    "distractor_reason": "语义近、语感通（on this matter＝在这件事上），句法上完全成立。测「学生能否把「整体的事」与「分歧所在的那一点」区分开」，属熟词僻义的方向性误判（E1）。"
+   },
+   {
+    "key": "D",
+    "text": "score",
+    "correct": false,
+    "distractor_reason": "另一真实义项＋形近双重干扰：point＝分数是学生最熟的义项，而 on this score 本身又是真实搭配（在这一方面），极易误选。测「对固定搭配的熟词僻义双向失分」（E1＋E3）。"
+   }
+  ],
+  "explanation": "【考场动作】看框架 On this ___：后面接「两个方案在哪里不一样」，即分歧点、论点。point 后接 of view / a valid one，或构成 make a point / on this point，一律读作「观点、要点」。\n【为什么选 A】on this point 是高考议论文的高频固定块，「在这一点上」，句中说的正是两个方案相左之处；这里的 point 不是「点」也不是「分数」。\n【其他选项】B issue 语感通（on this issue），但它指整个议题，指不到具体分歧点。C matter 同理偏整体。D score 是真实搭配（on this score＝在这一方面），加上 point＝分数是学生最熟的义项，极易误选；可它讲的是「方面」而非「分歧点」。三项都靠 on this point 这一整块记忆才能排除。",
+  "trap_note": "陷阱来源：学生按 point＝「点／分数」的第一义去排除，或者用 issue、matter 这类大词替代「分歧点」，错过了 on this point 的固定说法。",
+  "tags": [
+   "E1",
+   "P2",
+   "P4"
+  ]
+ },
+ {
+  "id": "q_125",
+  "sense_id": "s_present_adj_attend",
+  "word_id": "w_present",
+  "carrier": "C5",
+  "module": "E5_词性词形误判",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "The empty chair beside him told the whole story: his best friend was not ______ in the audience that evening.",
+  "stem_cn": "他身旁那把空椅子说明了一切：那天晚上，他最好的朋友根本没有出现在观众席上。",
+  "options": [
+   {
+    "key": "A",
+    "text": "attendance",
+    "correct": false,
+    "distractor_reason": "同一词根的名词化（attendance＝出席、出席率），学生凭「attendance＝出席」就把词填进去。测「形容词 present 与名词 attendance 的词性分辨」，属词性词形误判（E5）。"
+   },
+   {
+    "key": "B",
+    "text": "presently",
+    "correct": false,
+    "distractor_reason": "同一词根的副词（-ly），意为「目前、随即」，既不能作 be 动词的表语，词义也与「在场」无关。测「词形后缀识别＋词义双判」（E5＋E9）。"
+   },
+   {
+    "key": "C",
+    "text": "seated",
+    "correct": false,
+    "distractor_reason": "语义近、语感完全通顺（not seated in the audience），纯语感排不掉。测「是否知道 be present at the meeting＝出席这一固定块」，把「就座」当成「到场」就会误选（E4）。"
+   },
+   {
+    "key": "D",
+    "text": "present",
+    "correct": true,
+    "distractor_reason": null
+   }
+  ],
+  "explanation": "【考场动作】先定词性：be 动词后要能作表语。再定词形：此处要表达「到没到场」，固定块是 be present at / be present for，at 后接活动场合；时间线索 that evening 指向那一场活动。\n【为什么选 D】be present in the audience 即「在场」，与前半句「那把空椅子说明了一切」正好互证缺席。\n【其他选项】A attendance 是同词根名词化，be 动词后不能接名词作表语，句子立刻崩，测词性分辨。B presently 是同词根副词（-ly），义为「目前、随即」，既不能作表语也与「在场」无关。C seated 语感全通（not seated in the audience），但「就座」只是「在场」的一种状态，不等于「出席」；考场问「有没有到场」固定用 be present at。",
+  "trap_note": "陷阱来源：学生把 present 想成名词 attendance 或副词 presently，或者用 seated 这类近义状态词替代「出席」，没有抓住 be present at 这一固定块。",
+  "tags": [
+   "E5",
+   "P2",
+   "P6"
+  ]
+ },
+ {
+  "id": "q_126",
+  "sense_id": "s_present_v_offer",
+  "word_id": "w_present",
+  "carrier": "C1",
+  "module": "E1_熟词僻义",
+  "difficulty": "hard",
+  "expected_accuracy": [
+   0.15,
+   0.45
+  ],
+  "stem": "At the public hearing, the research team ______ its findings to the panel, and several members praised the honesty of the data.",
+  "stem_cn": "在公开听证会上，研究小组把它的研究结果呈递给评审团，几位委员称赞了这些数据的诚实。",
+  "options": [
+   {
+    "key": "A",
+    "text": "submitted",
+    "correct": false,
+    "distractor_reason": "语义近、语境完全说得通（submit findings to a committee），纯语感排不掉。测「是否知道 present sth to sb 是「向某人呈递成果」的高考固定说法，submit 偏书面递交材料」。"
+   },
+   {
+    "key": "B",
+    "text": "presented",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "C",
+    "text": "reported",
+    "correct": false,
+    "distractor_reason": "语义近、语感通（report findings to），但 report 只说明「报告消息」的过程，不含「把材料摆到对方面前」这层，精度不够。测「一词多义中是否只取最泛的说法」（E2）。"
+   },
+   {
+    "key": "D",
+    "text": "prevented",
+    "correct": false,
+    "distractor_reason": "形近音近（pre-sent / pre-vent-ed），纯拼写误选。测「视觉相似导致的误选」，与义项理解无关，属另一类失分机制（E3）。"
+   }
+  ],
+  "explanation": "【考场动作】看 present 的宾语与介词：present sth to sb 是「把……呈递给某人」，to 后是人或评审团这种接受方；若 present 后直接跟 problem / difficulty，那才是「出现（问题）」。\n【为什么选 B】present one's findings to the panel 是学术语域的标准说法：把研究成果正式摆到评审面前，宾语 findings 加 to 的结构齐全，句中被当场称赞也印证是正式呈报。\n【其他选项】A submitted 语境全通，但强调「递交书面材料」，本句是当众口头呈报并当场被称赞，高考场景固定用 present sth to sb。C reported 只说明「报告消息」的过程，缺「把材料呈到对方面前」这层，精度不够。D prevented 与 present 形近（pre-sent / pre-vent-ed），属纯拼写误选。",
+  "trap_note": "陷阱来源：学生把 present 读成「目前的」「出席的」，于是在「呈递成果」这一场景里改选 submitted、reported 这类泛化说法，或被形近词 prevented 带偏。",
+  "tags": [
+   "E1",
+   "P2",
+   "P6"
+  ]
+ },
+ {
+  "id": "q_127",
+  "sense_id": "s_result_adv_as_a_result",
+  "word_id": "w_result",
+  "carrier": "C3",
+  "module": "E7_逻辑连接词误用",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "The heavy rain lasted for three days, ______ several mountain roads were closed and the village was cut off from the outside world.",
+  "stem_cn": "大雨连下三天，______几条山路被封闭，村子与外界断绝了联系。",
+  "options": [
+   {
+    "key": "A",
+    "text": "as a result",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "B",
+    "text": "as a result of",
+    "correct": false,
+    "distractor_reason": "搭配错：as a result of 是「由于」，后面必须接名词或名词短语；此处空格后面是完整句子。原因已出现在前一分句，不能再用 of 版本。测介词与词块的整体记忆（E4）。"
+   },
+   {
+    "key": "C",
+    "text": "resulting in",
+    "correct": false,
+    "distractor_reason": "搭配错：result in / resulting in 后面只能接名词或动名词（resulting in serious damage），不能直接接句子。测「学生是否知道 result in 与 result from 的方向及结构」（E4＋E7）。"
+   },
+   {
+    "key": "D",
+    "text": "and so",
+    "correct": false,
+    "distractor_reason": "语法完全说得通，但只是把两句并列串起来，没有把「下雨」与「封路」的因果关系写成显性连接。测「逻辑关系判断：显性因果 vs 并列推进」（E7）。"
+   }
+  ],
+  "explanation": "【考场动作】先看空格后面：是一整个句子，不是名词。再看前面：原因已经出现（the heavy rain lasted for three days）。所以空格要放「引出结果」的连接成分。\n【为什么选 A】as a result 是高考最标准的「因此」，后面直接接结果句；雨下三天导致封路断绝，正是「原因在前、结果在后」。\n【其他选项】B as a result of 是「由于」，后面必须接名词或名词短语，接句子就错；本题原因已在前一分句。C resulting in 后面只能接名词或动名词（resulting in serious damage），接不了句子。D and so 语法全通，却只把两句并列串起来，没有写明显性因果；高考因果连接固定用 as a result。",
+  "trap_note": "陷阱来源：学生看到「由于下雨」就想填 as a result of，或把因果关系读反（result in / result from），也有的用 and so 一带了之，不落实显性因果。",
+  "tags": [
+   "E7",
+   "P4",
+   "P2"
+  ]
+ },
+ {
+  "id": "q_128",
+  "sense_id": "s_result_n_outcome",
+  "word_id": "w_result",
+  "carrier": "C6",
+  "module": "E3_形近音近混淆",
+  "difficulty": "easy",
+  "expected_accuracy": [
+   0.65,
+   0.95
+  ],
+  "stem": "The team had checked every figure twice, and yet the final ______ surprised everyone who had seen the early data.",
+  "stem_cn": "团队把每个数字都核对过两遍，可最后的结果还是让所有看过早期数据的人吃了一惊。",
+  "options": [
+   {
+    "key": "A",
+    "text": "resulting",
+    "correct": false,
+    "distractor_reason": "形近：现在分词／形容词「由此产生的」，只能作定语或状语，作主语讲不通；学生看到 -ing 就顺手填。测形近词与词形的双重判断（E3＋E5）。"
+   },
+   {
+    "key": "B",
+    "text": "resultant",
+    "correct": false,
+    "distractor_reason": "形近：形容词「结果的」，作定语可以（the resultant effect），但不能单独作主语名词。测「共享词根但词性不同」的混淆（E3）。"
+   },
+   {
+    "key": "C",
+    "text": "result",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "D",
+    "text": "resolve",
+    "correct": false,
+    "distractor_reason": "音近形近：名词义是「决心」，形式上塞进 the final ___ 毫无问题，但语义与「结果」完全对不上。测形近音近词在无提示语境下的误选（E3）。"
+   }
+  ],
+  "explanation": "【考场动作】先数数：前面有 the final，后面要作主语，因此必须能当名词用。再看要表达的是「试验最后得出的那个东西」，即结果、结论。\n【为什么选 C】result 作名词是「结果、结局」，the final result 是说明文最常见的说法，指试验或讨论最后得出的结论。\n【其他选项】A resulting 是同词根现在分词／形容词「由此产生的」，只能作定语或状语，作主语讲不通。B resultant 是形近形容词「结果的」，作定语可以（the resultant effect），不能单独当主语。D resolve 音近形近，名词义是「决心」，形式上塞得进 the final ___，语义却与「结果」对不上。三项都要靠词性与词义两道判断排除。",
+  "trap_note": "陷阱来源：学生被 result 家族的形近词（resulting、resultant、resolve）带偏，没有先做「这里要一个可作主语的名词」这一步。",
+  "tags": [
+   "E3",
+   "P2",
+   "P8"
+  ]
+ },
+ {
+  "id": "q_129",
+  "sense_id": "s_right_adj_suitable",
+  "word_id": "w_right",
+  "carrier": "C2",
+  "module": "E2_一词多义混淆",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "Years of experience alone do not make him the ______ person for the job, and the panel finally chose someone younger.",
+  "stem_cn": "仅凭多年经验并不能使他成为这份工作的合适人选，评审组最终选了一个更年轻的人。",
+  "options": [
+   {
+    "key": "A",
+    "text": "correct",
+    "correct": false,
+    "distractor_reason": "本词的另一真实义项「正确的、对的」，且语义最近：the correct person for the job 语感完全说得通，纯语感排不掉。测「right＝合适 vs correct＝正确」的义项分辨（E2）。"
+   },
+   {
+    "key": "B",
+    "text": "right",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "C",
+    "text": "capable",
+    "correct": false,
+    "distractor_reason": "语义近：the capable person for the job 读作「有能力的人」，语感通。测「学生是否抓住本句落点是匹不匹配，而不是能力高低」的语义定位（E2＋E6）。"
+   },
+   {
+    "key": "D",
+    "text": "ideal",
+    "correct": false,
+    "distractor_reason": "语义近、语感通（the ideal person for the job），但 ideal 强到「完美的、理想的」，程度超过「恰当、合适」这一层。测「语义精度与程度判断」（E2）。"
+   }
+  ],
+  "explanation": "【考场动作】看 right 后面直接跟的名词：the ___ person for the job。right 紧跟名词（the right way / the right person / the right choice）是形容词「恰当的、合适的」，强调与需求匹配；be right、the right answer 才是「正确的」。\n【为什么选 B】the right person for the job 是高考「最合适的人选」的固定块，落点在「与这份工作匹配」；后半句评审组选了更年轻的人，讲的也是人选是否合适，不是谁答对题。\n【其他选项】A correct 语义最近、语境全通，但它强调「符合事实、没错」，讲对错不讲匹配。C capable 读作「有能力的人」，可本句落点是「经历多不等于合适」，能力与合适不是一回事。D ideal 语感也通，但强到「完美的」，程度超过「恰当」这一层。三个词都要靠 right 的固定搭配排除。",
+  "trap_note": "陷阱来源：学生按 right＝「正确的」去理解，或用 correct、capable、ideal 这类近义词顶替，把「合适」与「对错／能力／完美」混成一谈。",
+  "tags": [
+   "E2",
+   "P2",
+   "P4"
+  ]
+ },
+ {
+  "id": "q_130",
+  "sense_id": "s_right_adv_exactly",
+  "word_id": "w_right",
+  "carrier": "C1",
+  "module": "E1_熟词僻义",
+  "difficulty": "hard",
+  "expected_accuracy": [
+   0.15,
+   0.45
+  ],
+  "stem": "Anyone who wants a front seat at the concert had better come ______ now, since the hall is filled within minutes of the opening.",
+  "stem_cn": "任何想在前排占座的人都最好马上来，因为开场后几分钟内大厅就坐满了。",
+  "options": [
+   {
+    "key": "A",
+    "text": "just",
+    "correct": false,
+    "distractor_reason": "词块方向相反：just now 意为「刚才」，与句中「马上来」的紧迫感正好相反；语感上「快点来现在」却读得通，纯语感排不掉。测 just now 与 right now 的词块记忆（E2＋E3）。"
+   },
+   {
+    "key": "B",
+    "text": "exactly",
+    "correct": false,
+    "distractor_reason": "语义近、语感勉强通顺（come exactly now），但强调的是「准点、恰好在这个时刻」，不是「立刻」。测「语义精度判断：准点 vs 马上」（E1＋E2）。"
+   },
+   {
+    "key": "C",
+    "text": "rightly",
+    "correct": false,
+    "distractor_reason": "副词但词义是「正当地、正确地」，come rightly now 既不成搭配也没有意义，属纯词形误选。测「副词 right 与 rightly 的词形分辨」（E5＋E9）。"
+   },
+   {
+    "key": "D",
+    "text": "right",
+    "correct": true,
+    "distractor_reason": null
+   }
+  ],
+  "explanation": "【考场动作】看 right 的位置：它修饰 now 这类时间副词，不是 be 动词后的表语。right now / right away 是副词「立刻、马上」，见到 right + now 就按「立刻」读。\n【为什么选 D】come right now 意为「马上过来」，与后半句「开场后几分钟内就坐满」的紧迫感完全吻合，right 在此是副词「立刻」。\n【其他选项】A just 的词块方向相反，just now 意为「刚才」，与「马上」正好相反；语感上却读得通，只能靠词块记忆分辨。B exactly 强调「准点、恰好在这个时刻」，不是「立刻」，与坐满的时间压力不合。C rightly 义为「正当地、正确地」，come rightly now 既不成搭配也没意义，是纯词形误选。",
+  "trap_note": "陷阱来源：学生按 right＝「正确的」去读，或被 just now「刚才」这个词块带偏，没有意识到 right now 是「立刻」这个固定副词短语。",
+  "tags": [
+   "E1",
+   "P2",
+   "P4"
+  ]
+ },
+ {
+  "id": "q_131",
+  "sense_id": "s_sense_v_make_sense_of",
+  "word_id": "w_sense",
+  "carrier": "C3",
+  "module": "E4_固定搭配缺失",
+  "difficulty": "hard",
+  "expected_accuracy": [
+   0.15,
+   0.45
+  ],
+  "stem": "It took me three careful readings to ______ the long passage, and only then did the writer's argument become clear.",
+  "stem_cn": "我仔细读了三遍才弄懂这部长长的段落，之后作者的论点才变得清晰起来。",
+  "options": [
+   {
+    "key": "A",
+    "text": "make sense of",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "B",
+    "text": "make sense",
+    "correct": false,
+    "distractor_reason": "词块只差一个介词，意思却正好翻过来：make sense 是「讲得通、有道理」，不能接宾语。学生对 make sense 远比 make sense of 熟，纯语感排不掉。测「两个只差 of 的词块是否成对记」（E4）。"
+   },
+   {
+    "key": "C",
+    "text": "get the sense of",
+    "correct": false,
+    "distractor_reason": "语义近、语感勉强说得通（大致领会某段话），是典型的「认识但不是考场用词」。测「高考讲「读懂、弄懂」固定用 make sense of」的搭配记忆（E4＋E2）。"
+   },
+   {
+    "key": "D",
+    "text": "make senses of",
+    "correct": false,
+    "distractor_reason": "词形误判：sense 在这里是固定名词，不加 -s。语法填空中不少学生凭读音把 sense 当成可数名词加复数，句子直接崩掉。测词形与不可数性的判断（E5＋E9）。"
+   }
+  ],
+  "explanation": "【考场动作】看 sense 后面有没有 of。这是本题的判断锚点：make sense of 后面必须带宾语，是「弄懂、读懂」；make sense 后面不接宾语，是「讲得通、有道理」。两个词块只差一个介词，必须整块背。\n【为什么选 A】make sense of the long passage 是「读懂这部长文章」，与后半句「作者的论点才变得清晰」方向一致，属「理解」义。\n【其他选项】B make sense：漏了 of，意思整个翻过来——「讲得通、有道理」，主语该是计划、说法这类东西，不能说「讲得通这篇长文章」。这是本词条最典型的陷阱，语感上两个词块几乎分不开。C get the sense of：英语里勉强能表达「大致领会」，但高考语料讲「读懂、弄懂」固定用 make sense of。D make senses of：sense 在这里是固定名词，不加 -s。三项都要靠 of 的有无与词块整体记忆来定输赢。",
+  "trap_note": "陷阱来源：学生只熟 make sense，遇到「弄懂某段话」就漏掉 of；或被 sense 可数化、语感相近的说法带偏。",
+  "tags": [
+   "E4",
+   "P4",
+   "P2"
+  ]
+ },
+ {
+  "id": "q_132",
+  "sense_id": "s_sense_n_awareness",
+  "word_id": "w_sense",
+  "carrier": "C2",
+  "module": "E2_一词多义混淆",
+  "difficulty": "hard",
+  "expected_accuracy": [
+   0.15,
+   0.45
+  ],
+  "stem": "Joining a club gave her a stronger ______ of belonging, and by the end of the term she had a dozen new friends.",
+  "stem_cn": "加入社团让她有了更强的归属感，到学期末，她已经多了一打新朋友。",
+  "options": [
+   {
+    "key": "A",
+    "text": "feeling",
+    "correct": false,
+    "distractor_reason": "语义最近、语感完全说得通（a stronger feeling of belonging），纯语感排不掉。测「学生是否知道 a sense of belonging 是高考固定块，feeling 只是一般说法」（E4＋E1）。"
+   },
+   {
+    "key": "B",
+    "text": "meaning",
+    "correct": false,
+    "distractor_reason": "本词的另一真实义项「意义、含义」被误当成「归属的意义」而选中，a meaning of belonging 搭配不成立。测「一词多义中义项串味」（E2）。"
+   },
+   {
+    "key": "C",
+    "text": "sense",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "D",
+    "text": "scent",
+    "correct": false,
+    "distractor_reason": "形近音近（scent / sense），义为「气味、香气」，只能作具体名词，与抽象的 belonging 搭配错误。测「纯形近导致的误选」，与义项理解无关（E3）。"
+   }
+  ],
+  "explanation": "【考场动作】看 sense 前面有没有 a 和 of，中间那个名词属于哪一类：belonging / responsibility / purpose 都是抽象的「观念」，构成 a sense of… 就是「意识、观念」；中间若换成 smell / touch 才是「感官」。\n【为什么选 C】a stronger sense of belonging 是高考校园话题里的固定表达，意为「归属感」，指一种意识到的体会，不是「意义」也不是「感觉」。\n【其他选项】A feeling：语义最近、语感全通，但高考讲「归属感、责任感」固定用 a sense of…，feeling 只是一般说法。B meaning：该词的另一真实义项「意义」，可 a meaning of belonging 讲不通。D scent：形近音近，义为「气味」，与抽象的 belonging 搭配错误。三项分别对应语义近、义项串味和形近音近三种失分机制。",
+  "trap_note": "陷阱来源：学生按 sense＝「感觉」或「意义」去理解，用 feeling、meaning 顶替，忽略了 a sense of belonging 这一固定块。",
+  "tags": [
+   "E2",
+   "P2",
+   "P4"
+  ]
+ },
+ {
+  "id": "q_133",
+  "sense_id": "s_sound_v_seem",
+  "word_id": "w_sound",
+  "carrier": "C1",
+  "module": "E6_语境推断失败",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "He described the new plan in less than two minutes, and to everyone in the room it ______ like a simple idea that would work.",
+  "stem_cn": "他用了不到两分钟就把新方案讲了一遍，屋里每个人都觉得这听起来是个简单可行的主意。",
+  "options": [
+   {
+    "key": "A",
+    "text": "looks",
+    "correct": false,
+    "distractor_reason": "语义近、语感完全说得通（the plan looks simple），纯语感排不掉。测「语境线索：全句只有听觉信息，没有人见过方案，look 的依据不成立」（E6＋E2）。"
+   },
+   {
+    "key": "B",
+    "text": "sounds",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "C",
+    "text": "feels",
+    "correct": false,
+    "distractor_reason": "语感也通（it feels like a simple idea），但 feel 指触觉或直觉，跟「听见一段描述」的通道对不上。测「感官通道与语境线索是否读对」（E6）。"
+   },
+   {
+    "key": "D",
+    "text": "proves",
+    "correct": false,
+    "distractor_reason": "语义偏：prove 是「证明」，要等后续事实成立，也不能直接接 like + 名词，与「当场就形成印象」的语境矛盾。测「逻辑关系是否判断对」（E6＋E2）。"
+   }
+  ],
+  "explanation": "【考场动作】先看这句给了什么信息：主语是「他用两分钟描述的方案」，屋里人只听见了描述，没有任何视觉信息。所以空格必须是听觉／印象类的动词，靠「看见」才能成立的 look 直接排除。\n【为什么选 B】it sounds like a simple idea 是「听起来像个好主意」，sound like 用于「说出来给人的感觉」，正好对应「只听见描述就形成印象」这一语境。\n【其他选项】A looks：语感全通，但 look 要靠「看见」，全句只有听觉信息，语境线索直接否掉它。C feels：语感也通，可 feel 指触觉或直觉，跟「听见一段描述」的通道对不上。D proves：prove 要等后续事实成立，也不能直接接 like + 名词，与「当场就形成印象」矛盾。这三项分别测语境线索、感官通道和逻辑关系。",
+  "trap_note": "陷阱来源：学生抓住 look / feel 这类视觉触觉词，或用 prove 把「印象」当成「已被证明的事实」，没有顺着「只听见描述」这条线索走。",
+  "tags": [
+   "E6",
+   "P2",
+   "P8"
+  ]
+ },
+ {
+  "id": "q_134",
+  "sense_id": "s_sound_adj_reliable",
+  "word_id": "w_sound",
+  "carrier": "C2",
+  "module": "E2_一词多义混淆",
+  "difficulty": "hard",
+  "expected_accuracy": [
+   0.15,
+   0.45
+  ],
+  "stem": "The committee liked the plan, but the reasoning behind it was far from ______ , and several members asked for firmer proof.",
+  "stem_cn": "委员会很认可这个方案，可背后的论证远谈不上站得住脚，几位成员要求拿出更硬的证据。",
+  "options": [
+   {
+    "key": "A",
+    "text": "sensible",
+    "correct": false,
+    "distractor_reason": "语义最近、语感完全说得通（far from sensible），也是形近音近词（sensible / sound）。测「是否分清 sensible＝明智不明智 与 sound＝论证是否站得住脚」（E3＋E2）。"
+   },
+   {
+    "key": "B",
+    "text": "healthy",
+    "correct": false,
+    "distractor_reason": "本词的另一真实义项「健全的」被误选：healthy 只能用在身体上（in sound health），配 reasoning 属义项错配。测「形容词义项与适用对象是否匹配」（E2）。"
+   },
+   {
+    "key": "C",
+    "text": "correct",
+    "correct": false,
+    "distractor_reason": "语感也通（far from correct），但 correct 只管对错，不含「经得起检验、站得住脚」这层；高考评价论证用 sound reasoning / sound argument。测「语义精度判断」（E2＋E4）。"
+   },
+   {
+    "key": "D",
+    "text": "sound",
+    "correct": true,
+    "distractor_reason": null
+   }
+  ],
+  "explanation": "【考场动作】看 sound 后面直接跟的名词：reasoning / argument / judgment / advice / decision 这类「论证、判断」类名词接 sound，是形容词「可靠的、站得住脚的」；sound + 形容词才是「听起来」。\n【为什么选 D】the reasoning behind it was far from sound 意为「背后的论证远谈不上站得住脚」，后半句「几位成员要求拿出更硬的证据」正是对论证不扎实的评价。\n【其他选项】A sensible：语义最近、语感全通，它讲的是「明智不明智」，而本句批评的是论证经不经得起推敲。B healthy：另一真实义项「健全的」，只能用在身体上，配 reasoning 属义项错配。C correct：语感也通，但只管对错，不含「经得起检验」这层。三项分别对应语义近、义项错配和词义精度，都靠 sound + 论证类名词这条规则排掉。",
+  "trap_note": "陷阱来源：学生把 sound 一律读成「声音」，或用 sensible、correct 顶替「站得住脚」，没看出 reasoning、argument 这类宾语的提示。",
+  "tags": [
+   "E2",
+   "P2",
+   "P3"
+  ]
+ },
+ {
+  "id": "q_135",
+  "sense_id": "s_stand_v_support",
+  "word_id": "w_stand",
+  "carrier": "C6",
+  "module": "E3_形近音近混淆",
+  "difficulty": "hard",
+  "expected_accuracy": [
+   0.15,
+   0.45
+  ],
+  "stem": "When the criticism began, few of her colleagues were willing to ______ her, and she was left to face the meeting alone.",
+  "stem_cn": "批评开始的时候，她的同事里几乎没人愿意站出来为她说话，她只能独自面对那场会议。",
+  "options": [
+   {
+    "key": "A",
+    "text": "stand up for",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "B",
+    "text": "stand for",
+    "correct": false,
+    "distractor_reason": "少一个 up：stand for 是「代表、象征」，接人时读作「代表她」，与「挺身而出」方向不同。学生最常把 stand up for 记成 stand for，属形近词块混淆（E3＋E4）。"
+   },
+   {
+    "key": "C",
+    "text": "stand in for",
+    "correct": false,
+    "distractor_reason": "结构多了 in：意思是「代替某人出面」，是替人做事而不是替人说话。语感上「站在她那一边」容易蒙混过关，测介词结构分辨（E3＋E4）。"
+   },
+   {
+    "key": "D",
+    "text": "stand by",
+    "correct": false,
+    "distractor_reason": "语感也通，stand by sb 表示「支持某人的立场」，但不强调在压力面前公开站出来，力度比 stand up for 弱一档。测「同族短语之间的力度与场合差别」（E3）。"
+   }
+  ],
+  "explanation": "【考场动作】数一数介词：stand up for 是三段式，多一个 up，意思是「站出来维护、支持某人」；stand for 是「代表」，stand in for 是「代替」，stand by 是「站在旁边／支持立场」。先把介词结构数清楚，义项自然就定了。\n【为什么选 A】stand up for her 正是「站出来为她说话」，与前半句「同事里几乎没人愿意」和后半句「她只能独自面对」构成因果，是 support 的 S4 搭配义。\n【其他选项】B stand for：少一个 up，是「代表、象征」，接人时读作「代表她」，与「挺身而出」方向不同，学生最易把这两个短语记混。C stand in for：结构多了 in，意思是「代替某人出面」，是替人做事而不是替人说话。D stand by：语感也通，但只表示「支持某人的立场」，不强调在压力面前公开站出来，力度弱一档。四项都是真实搭配，只能靠整块记忆定输赢。",
+  "trap_note": "陷阱来源：学生把 stand up for 记成 stand for，或与 stand in for、stand by 混为一谈，没有按「多一个 up＝站出来维护」这条硬规则判断。",
+  "tags": [
+   "E3",
+   "P4",
+   "P2"
+  ]
+ },
+ {
+  "id": "q_136",
+  "sense_id": "s_stand_v_represent",
+  "word_id": "w_stand",
+  "carrier": "C3",
+  "module": "E4_固定搭配缺失",
+  "difficulty": "hard",
+  "expected_accuracy": [
+   0.15,
+   0.45
+  ],
+  "stem": "The three colours on the school flag ______ the three ideals written in the school song.",
+  "stem_cn": "校旗上的三种颜色象征着校歌里写到的三种理想。",
+  "options": [
+   {
+    "key": "A",
+    "text": "stand out",
+    "correct": false,
+    "distractor_reason": "搭配错：stand out 是不及物用法，意为「突出、显眼」，后面根本不接宾语。学生把「象征」读成「突出」就会误选，测固定搭配缺失（E4）。"
+   },
+   {
+    "key": "B",
+    "text": "stand up for",
+    "correct": false,
+    "distractor_reason": "结构错：多一个 up，意思是「挺身而出维护（某人）」，与「象征」方向不同；看到 for 容易联想到却配错了义项。测词块结构与义项双判（E4＋E2）。"
+   },
+   {
+    "key": "C",
+    "text": "stand for",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "D",
+    "text": "stand by",
+    "correct": false,
+    "distractor_reason": "搭配错：stand by 是「站在……一边／在旁」，接不到「象征」这一层；学生按「站在标志旁边」直译就会误选。测搭配与义项的对应（E4）。"
+   }
+  ],
+  "explanation": "【考场动作】看主语是「旗上的三种颜色」还是「人」：抽象符号、缩写、机构作主语时，stand for 是「代表、象征」；stand out、stand in 后面都不接宾语，stand up for 接人。\n【为什么选 C】The three colours stand for the three ideals 意为「三种颜色象征着三种理想」，stand for + 抽象名词是高考文化类语料的固定搭配。\n【其他选项】A stand out：不及物用法，意为「突出、显眼」，后面根本不接宾语，学生若把「象征」读成「突出」就会误选。B stand up for：多一个 up，意思是「挺身而出维护」，方向与「象征」完全不同。D stand by：搭配义是「站在……一边／在旁」，同样接不到「象征」这一层。四项全是 stand 家族的真实搭配，只能靠 stand + for 的整块记忆分辨。",
+  "trap_note": "陷阱来源：学生按「stand＝站立」去搭，或把 stand out、stand up for、stand by 与 stand for 混记，忽略了主语是符号、宾语是抽象名词这条判断锚点。",
+  "tags": [
+   "E4",
+   "P4",
+   "P2"
+  ]
+ },
+ {
+  "id": "q_137",
+  "sense_id": "s_state_v_declare",
+  "word_id": "w_state",
+  "carrier": "C5",
+  "module": "E5_词性词形误判",
+  "difficulty": "hard",
+  "expected_accuracy": [
+   0.15,
+   0.45
+  ],
+  "stem": "Before the applause could start, the doctor ______ that the results had been checked twice and no one should panic.",
+  "stem_cn": "掌声还没来得及响起，医生就说明结果已经核对过两遍，谁也不必惊慌。",
+  "options": [
+   {
+    "key": "A",
+    "text": "statue",
+    "correct": false,
+    "distractor_reason": "形近拼写（statue / stated），义为「雕像」，句子里讲的是医生说话，纯视觉误选。测形近词导致的误判（E3＋E9）。"
+   },
+   {
+    "key": "B",
+    "text": "stated",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "C",
+    "text": "stating",
+    "correct": false,
+    "distractor_reason": "同一词根的现在分词：主语是 the doctor，需要谓语动词，the doctor stating that… 缺谓语，句子不成立。测动词与分词的词形判断（E5）。"
+   },
+   {
+    "key": "D",
+    "text": "claimed",
+    "correct": false,
+    "distractor_reason": "语义近、语感也通（claimed that…），但 claim 带「声称、未必属实」的怀疑色彩，与「已核对两遍、结果可靠」的正式陈述不合。测情感色彩误判（E8＋E1）。"
+   }
+  ],
+  "explanation": "【考场动作】先定词性：主语是 the doctor（人），后面接 that 从句，需要谓语动词。再看宾语内容「数据已经核对过两遍」——是客观事实的正式陈述，就是 state sth / state that。\n【为什么选 B】the doctor stated that… 是「医生明确表示……」的标准写法，state that 表示正式陈述事实、立场，主语常是专家或发言人，与前面「掌声还没响起」的紧张场面吻合。\n【其他选项】A statue：形近拼写，是「雕像」，与说话无关，纯视觉误选。C stating：同词根的现在分词，主语是医生、需要谓语动词，句子缺谓语，测的是词形判断。D claimed：语义近、语感也通，但 claim 带「声称、未必属实」的怀疑色彩，与「已核对两遍」的正式陈述不合。三项分别对应形近、词形和情感色彩三种失分机制。",
+  "trap_note": "陷阱来源：学生按 state＝「状况／国家」去读，或被 statue、stating 这类同根形近词带偏，把「陈述」误当成名词化形式。",
+  "tags": [
+   "E5",
+   "P2",
+   "P4"
+  ]
+ },
+ {
+  "id": "q_138",
+  "sense_id": "s_state_n_condition",
+  "word_id": "w_state",
+  "carrier": "C1",
+  "module": "E1_熟词僻义",
+  "difficulty": "hard",
+  "expected_accuracy": [
+   0.15,
+   0.45
+  ],
+  "stem": "The old bridge is in a poor ______ and may have to be closed for repairs before the winter.",
+  "stem_cn": "那座旧桥状况很差，入冬前可能必须封闭维修。",
+  "options": [
+   {
+    "key": "A",
+    "text": "condition",
+    "correct": false,
+    "distractor_reason": "语义最近、语感完全说得通（in a poor condition），纯语感排不掉。测「是否知道 in a poor state 是高考讲建筑、病况的固定块，condition 多用 of 结构」（E4＋E1）。"
+   },
+   {
+    "key": "B",
+    "text": "status",
+    "correct": false,
+    "distractor_reason": "形近：status 义为「地位、处境」，读作「处境」时搭配 be in good status，人和物的破旧程度不用它。测形近词的义项与对象错配（E3＋E1）。"
+   },
+   {
+    "key": "C",
+    "text": "nation",
+    "correct": false,
+    "distractor_reason": "本词的另一真实义项被触发：学生看到 state 就想到「国家」，可 in a poor nation 变成「在一个贫穷的国家」，与后半句「可能必须关闭维修」直接矛盾。测语境与逻辑是否核对（E1＋E6）。"
+   },
+   {
+    "key": "D",
+    "text": "state",
+    "correct": true,
+    "distractor_reason": null
+   }
+  ],
+  "explanation": "【考场动作】看 state 在句中的位置和前面的介词：in a poor ___、the state of… 都是名词「状况、状态」；若主语是国家名，或者前面是 state-of-the-art，读法完全不同。\n【为什么选 D】The old bridge is in a poor state 意为「那座旧桥状况很差」，后半句「可能必须封闭维修」正是桥况不好的直接后果。\n【其他选项】A condition：语义最近、语感全通，但高考讲建筑、病况的「状况」固定用 in a poor state，condition 更多搭配 condition of the equipment 这类 of 结构。B status：形近词，义为「地位、处境」，讲的是人和物的破旧程度用它不对。C nation：另一真实义项被触发，in a poor nation 变成「在一个贫穷的国家」，与后半句直接矛盾。三项分别考搭配、词义对象和语境核对。",
+  "trap_note": "陷阱来源：学生按 state＝「国家／州」的第一义去理解，或用 condition、status 这类近义词顶替，忽略了 in a poor state 这一固定说法。",
+  "tags": [
+   "E1",
+   "P2",
+   "P4"
+  ]
+ },
+ {
+  "id": "q_139",
+  "sense_id": "s_subject_adj_prone",
+  "word_id": "w_subject",
+  "carrier": "C3",
+  "module": "E4_固定搭配缺失",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "Teenagers are particularly ______ to peer pressure when they choose what to study for the final year.",
+  "stem_cn": "在选择最后一年学什么的时候，青少年尤其容易受到同伴压力的影响。",
+  "options": [
+   {
+    "key": "A",
+    "text": "subject",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "B",
+    "text": "subjected",
+    "correct": false,
+    "distractor_reason": "多一个 -ed：意思从「容易受」变成被动「遭受」，须用 be subjected to。这是本词条最典型的分词陷阱，学生只背了 subjected to 就顺手填。测词形与义项双判（E5＋E4）。"
+   },
+   {
+    "key": "C",
+    "text": "susceptible",
+    "correct": false,
+    "distractor_reason": "语义近、语感也通（are susceptible to peer pressure），读得通却不是高考这块固定搭配。测「be subject to 的整体记忆」，纯语感排不掉（E4）。"
+   },
+   {
+    "key": "D",
+    "text": "exposed",
+    "correct": false,
+    "distractor_reason": "语义近、语感也通（are exposed to peer pressure），但 exposed 强调「被置于风险中」，subject to 强调「特别容易」，与句中 particularly 的提示正好对应。测语义精度（E2＋E4）。"
+   }
+  ],
+  "explanation": "【考场动作】看 be 动词后有没有 -ed：be + 过去分词 subjected to 是「遭受」（被动），be + 形容词 subject to 是「易受……的」。再对宾词：approval / change / stress 都是压力条件。\n【为什么选 A】Teenagers are particularly subject to peer pressure 是高考高频句式，subject to 表「特别容易受影响」，particularly 正提示「特别容易」。\n【其他选项】B subjected：多 -ed，意思从「容易受」变成「遭受」，是典型的分词陷阱。C susceptible：语义近、语感也通，却不是高考这块固定搭配。D exposed：语义也通，但强调「被置于风险中」，与「特别容易」不同层。三项都要靠 be subject to 与 be subjected to 的分词差别。",
+  "trap_note": "陷阱来源：学生只记得 subjected to a pressure，填出 be subjected to；或用 susceptible、exposed 这类同义说法顶替，没有锁定 be subject to 的固定搭配。",
+  "tags": [
+   "E4",
+   "P4",
+   "P2"
+  ]
+ },
+ {
+  "id": "q_140",
+  "sense_id": "s_subject_n_subordinate",
+  "word_id": "w_subject",
+  "carrier": "C1",
+  "module": "E1_熟词僻义",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "For thirty years the old king ruled his ______ from the hilltop castle, and few of them dared to complain.",
+  "stem_cn": "老国王在山顶城堡里统治他的臣民长达三十年，其中几乎没人敢提出异议。",
+  "options": [
+   {
+    "key": "A",
+    "text": "citizens",
+    "correct": false,
+    "distractor_reason": "语义近、语感也通（ruled his citizens），纯语感排不掉。测「高考历史叙事里「君主的臣民」固定写 his subjects，citizens 强调现代制度下的公民身份」（E1＋E2）。"
+   },
+   {
+    "key": "B",
+    "text": "servants",
+    "correct": false,
+    "distractor_reason": "语义近但身份不同：读作「他统治自己的仆从」，与句中「臣民」的范围和语气都对不上。测「语境中的身份范围判断」（E2＋E6）。"
+   },
+   {
+    "key": "C",
+    "text": "subjects",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "D",
+    "text": "subordinates",
+    "correct": false,
+    "distractor_reason": "同一词根：subordinate 义为「下属、部下」，只指机构内部的下级，读作「他统治自己的下属」不合历史语境。测词根串味（E3＋E1）。"
+   }
+  ],
+  "explanation": "【考场动作】先看语境信号：历史、君主、城堡这类词一出现，subject 就是「臣民」，不是「主题」也不是「科目」。判断锚点是句中主语与 king 的关系，以及后面「几乎没人敢提出异议」这一层。\n【为什么选 C】ruled his subjects 意为「统治他的臣民」，复数 subjects 与「臣民们」完全对应，后文「其中几乎没人敢提出异议」也正是君主与臣民的关系。\n【其他选项】A citizens：语义近、语感也通，citizens 强调现代制度下的公民身份，高考历史叙事里「君主的臣民」固定写 his subjects。B servants：语义近但身份不同，读作「他统治自己的仆从」，与句中「臣民」的范围不符。D subordinates：同一词根，义为「下属、部下」，只指机构内部的下级，不合历史语境。三项分别对应语义近、范围错和词根串味。",
+  "trap_note": "陷阱来源：学生按 subject＝「主题／科目」这一熟悉义去读，或用 citizens、subordinates 顶替，错过了「君主—臣民」这一语境提示。",
+  "tags": [
+   "E1",
+   "P2",
+   "P4"
+  ]
+ },
+ {
+  "id": "q_141",
+  "sense_id": "s_treat_v_regard",
+  "word_id": "w_treat",
+  "carrier": "C3",
+  "module": "E4_固定搭配缺失",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "Many students still ______ online learning as a second choice rather than a genuine alternative to the classroom.",
+  "stem_cn": "许多学生仍把线上学习当作次选，而不是课堂真正的替代方案。",
+  "options": [
+   {
+    "key": "A",
+    "text": "regard",
+    "correct": false,
+    "distractor_reason": "语义最近、语境完全说得通（regard online learning as a second choice），语感上几乎排不掉。测「是否知道高考语料把「把…视为」固定写 treat A as B」，属于「语感对但考试不选」型。"
+   },
+   {
+    "key": "B",
+    "text": "treat",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "C",
+    "text": "consider",
+    "correct": false,
+    "distractor_reason": "结构错：consider 后直接接宾语或用 to be（consider it a mistake / consider it to be a mistake），不能说 consider A as B。测搭配与结构（E4）。"
+   },
+   {
+    "key": "D",
+    "text": "take",
+    "correct": false,
+    "distractor_reason": "介词方向错：take A for B 才是「把…误认为」，take A as B 不成立；学生把 take for 与 treat as 混起来就会误选。测介词与义项方向（E4＋E2）。"
+   }
+  ],
+  "explanation": "【考场动作】盯住 as 这个信号：treat A as B 里的 as 是「把…视为」的标志，说明宾语被重新定性。看到 as 就先按这一类动词想。\n【为什么选 B】treat online learning as a second choice 是「把线上学习当作次选」，高考语料在评价类语境中固定用 treat A as B 这一整块，后半句 rather than a genuine alternative 也正是同一对比结构。\n【其他选项】A regard：语义最近、语境全通，是标准英语，语感几乎排不掉，只能靠 treat A as B 这个高考固定块压下去。C consider：结构不对，consider 后直接接宾语或用 to be，不能说 consider A as B。D take：take A for B 才是「把…误认为」，take A as B 不成立。三项分别考搭配块、结构错和介词方向。",
+  "trap_note": "陷阱来源：学生按中文「把…当作」直译选 regard，或把 take for 与 treat as 混记，忽略了 as 出现时高考语料的固定搭配。",
+  "tags": [
+   "E4",
+   "P4",
+   "P2"
+  ]
+ },
+ {
+  "id": "q_142",
+  "sense_id": "s_treat_v_entertain",
+  "word_id": "w_treat",
+  "carrier": "C1",
+  "module": "E1_熟词僻义",
+  "difficulty": "hard",
+  "expected_accuracy": [
+   0.15,
+   0.45
+  ],
+  "stem": "After the final exam, my friends ______ us all to a big dinner at the noodle shop near the school.",
+  "stem_cn": "期末考试之后，我的朋友们在学校附近的面馆请我们吃了一顿丰盛的晚餐。",
+  "options": [
+   {
+    "key": "A",
+    "text": "served",
+    "correct": false,
+    "distractor_reason": "语义近、语感也通（serve dinner），但 serve 的宾语只能是饭菜本身（serve us dinner / serve dinner），接不到 to a dinner。测搭配缺失（E4）。"
+   },
+   {
+    "key": "B",
+    "text": "paid",
+    "correct": false,
+    "distractor_reason": "语义近，但 pay 的固定搭配是 pay for sth（pay for dinner），pay sb to sth 不成立，介词方向错。测「请客」这一块的介词记忆（E4）。"
+   },
+   {
+    "key": "C",
+    "text": "entertained",
+    "correct": false,
+    "distractor_reason": "同一词根的另一动词，也能表示「宴请」，语感读得通；但高考语料里「请客吃饭」固定写 treat sb to sth，而 entertain 的固定搭配是 entertain guests。测词族义项串味（E1＋E2）。"
+   },
+   {
+    "key": "D",
+    "text": "treated",
+    "correct": true,
+    "distractor_reason": null
+   }
+  ],
+  "explanation": "【考场动作】看介词：空格后面是 to a big dinner。treat sb to sth 是「请某人吃饭」的固定搭配，介词只能是 to。\n【为什么选 D】my friends treated us all to a big dinner 是「朋友们请我们吃了一顿丰盛的晚餐」，to 后面接被请的人（us），再接食物，构成 treat sb to sth 的标准结构。\n【其他选项】A served：语义近、语感也通，但 serve 的宾语只能是饭菜本身（serve us dinner），接不到 to a dinner。B paid：语义近，可 pay 的固定搭配是 pay for sth，pay sb to sth 不成立。C entertained：同一词根的另一动词也能表示「宴请」，语感读得通，但高考语料里「请客吃饭」固定写 treat sb to sth。三项分别考搭配、介词方向与词族义项。",
+  "trap_note": "陷阱来源：学生按 treat＝「对待／治疗」去理解，或被 entertained、served 这类同义说法带偏，没有抓住 treat sb to sth 的介词。",
+  "tags": [
+   "E1",
+   "P4",
+   "P2"
+  ]
+ },
+ {
+  "id": "q_143",
+  "sense_id": "s_value_v_estimate",
+  "word_id": "w_value",
+  "carrier": "C5",
+  "module": "E5_词性词形误判",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "After months of patient restoration, the old painting was finally ______ at a price that astonished the whole family.",
+  "stem_cn": "经过数月耐心的修复，这幅旧画最后被估出了一个让全家人吃惊的价格。",
+  "options": [
+   {
+    "key": "A",
+    "text": "valued",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "B",
+    "text": "valuation",
+    "correct": false,
+    "distractor_reason": "同一词根的名词化（valuation＝估价、评估），学生凭「valuation＝估价」就填；was valuation at… 结构不通，句子直接崩。测动词与名词的词性分辨（E5）。"
+   },
+   {
+    "key": "C",
+    "text": "appraised",
+    "correct": false,
+    "distractor_reason": "语义最近、语感完全说得通（appraise a painting at a price），纯语感排不掉。测「高考语料讲「给某物定价」固定写 value sth at」这一搭配记忆（E4）。"
+   },
+   {
+    "key": "D",
+    "text": "estimated",
+    "correct": false,
+    "distractor_reason": "语义也近（estimate a painting at…），但 estimate 偏「粗略估算」，正式给艺术品定价用 value at。测词义精度与语域（E2＋E4）。"
+   }
+  ],
+  "explanation": "【考场动作】看 value 后面跟的是什么：value sth at + 金额 是「估价、定价」的固定结构，at 后面必须是价钱；place value on sth 才是「重视」。\n【为什么选 A】the painting was valued at a price that astonished the whole family 正是「这幅画被估出了一个惊人的价格」，被动语态加 at + 价格，是给艺术品定价的标准说法。\n【其他选项】B valuation：同一词根的名词化，was valuation at… 结构不通，讲的是词性分辨。C appraised：语义最近、语感全通，但高考语料讲「给某物定价」固定写 value sth at。D estimated：语义也近，可 estimate 偏「粗略估算」，正式定价用 value at。三项都要靠 value + at + 金额这块搭配记忆来分高下。",
+  "trap_note": "陷阱来源：学生按 value＝「价值」去读，或用 appraised、estimated 顶替，没有认出 value sth at + 金额这个固定结构。",
+  "tags": [
+   "E5",
+   "P2",
+   "P6"
+  ]
+ },
+ {
+  "id": "q_144",
+  "sense_id": "s_value_n_worth",
+  "word_id": "w_value",
+  "carrier": "C6",
+  "module": "E3_形近音近混淆",
+  "difficulty": "easy",
+  "expected_accuracy": [
+   0.65,
+   0.95
+  ],
+  "stem": "As a building it has little market ______ , yet it is the only place where the family still keeps everything it remembers.",
+  "stem_cn": "作为一座房子，它在市场上几乎不值什么钱；然而那里保存的旧时光，却是任何人都估不出价来的。",
+  "options": [
+   {
+    "key": "A",
+    "text": "virtue",
+    "correct": false,
+    "distractor_reason": "形近词：virtue 与 value 只差两个字母，义为「美德」，market virtue 根本不成立。测「视觉相似的形近词导致的误选」（E3）。"
+   },
+   {
+    "key": "B",
+    "text": "values",
+    "correct": false,
+    "distractor_reason": "词形陷阱：复数 values 是「价值观」，market values 读作「市场价值观」，与「房子不值钱」的意思正好相反。测单复数与词义双判（E5＋E3）。"
+   },
+   {
+    "key": "C",
+    "text": "value",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "D",
+    "text": "worth",
+    "correct": false,
+    "distractor_reason": "语义近：worth 前面一般要接 of 或说 be of… worth，market worth 并非高考语料的说法，搭配不成立。测搭配与词性（E4）。"
+   }
+  ],
+  "explanation": "【考场动作】看中心词的位置和搭配：market ____ 是「市场价值」，后面不能再接名词；所以空格必须填能直接作名词、表示「价值、价格」的词。\n【为什么选 C】As a building it has little market value 意为「作为一座房子，它在市场上几乎不值钱」，market value 是高考阅读里形容房产、藏品价值的固定搭配。\n【其他选项】A virtue：形近词，义为「美德」，market virtue 根本不成立。B values：词形陷阱，复数 values 是「价值观」，market values 读作「市场价值观」，与「房子不值钱」正好相反。D worth：语义近，可 worth 前面一般要接 of，market worth 并非高考语料的说法。三项分别对应形近、词形与搭配，都靠「market value」来排。",
+  "trap_note": "陷阱来源：学生被 virtue、values 这类形近词带偏，或把 values「价值观」的复数义误当成「价值」，没有认出 market value 这一固定搭配。",
+  "tags": [
+   "E3",
+   "P2",
+   "P8"
+  ]
+ },
+ {
+  "id": "q_145",
+  "sense_id": "s_develop_v_process",
+  "word_id": "w_develop",
+  "carrier": "C4",
+  "module": "E3_形近音近混淆",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "If you post the roll of film back to me on Friday, I will ______ it at home and send the prints to you next week.",
+  "stem_cn": "如果你周五把那卷胶片寄回给我，我就在家里把它冲洗出来，下周把照片寄给你。",
+  "options": [
+   {
+    "key": "A",
+    "text": "print",
+    "correct": false,
+    "distractor_reason": "语义最近、语感也通（print the film），但 print 的宾语是已经成像的照片或影像，胶片本身要先冲洗出底片才能印。测「develop film 与 print the photos 的动作先后」（E1＋E4）。"
+   },
+   {
+    "key": "B",
+    "text": "develop",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "C",
+    "text": "envelop",
+    "correct": false,
+    "distractor_reason": "形近音近（envelop / develop 共用 -velop），意思是「包裹、笼罩」，与冲洗胶片毫无关系；学生拼写时容易把两个词混在一起。测形近词导致的误选（E3＋E9）。"
+   },
+   {
+    "key": "D",
+    "text": "deplete",
+    "correct": false,
+    "distractor_reason": "形近（-plete 与 -velop 音近），意为「耗尽」，「把胶片耗尽」讲不通，属纯形近误选。测视觉相似导致的误判（E3）。"
+   }
+  ],
+  "explanation": "【考场动作】看宾语：宾语是 the film / the negatives / a photograph 这类「胶片、底片、照片」，动词就是「冲洗」；宾语是 habit / interest / city / technology 时才是别的义项。\n【为什么选 B】I will develop it at home 意为「我会在家里把它冲洗出来」，后面「再把照片寄给你」正好印证了 develop 之后得到的是照片。\n【其他选项】A print：语义最近、语感也通，可 print 的宾语是已经成像的照片，胶片本身要先 develop 冲出底片才能印。C envelop：形近音近，意思是「包裹、笼罩」，与冲洗胶片无关。D deplete：形近，意为「耗尽」，「把胶片耗尽」讲不通。后两项是纯形近误选，第一项则要靠 develop film / develop the negatives 这块固定搭配。",
+  "trap_note": "陷阱来源：学生按 develop＝「发展」去读，或被 envelop、deplete 这类形近词带偏，把「冲洗胶片」当成「发展、印制」。",
+  "tags": [
+   "E3",
+   "P2",
+   "P8"
+  ]
+ },
+ {
+  "id": "q_146",
+  "sense_id": "s_develop_v_habit",
+  "word_id": "w_develop",
+  "carrier": "C2",
+  "module": "E2_一词多义混淆",
+  "difficulty": "hard",
+  "expected_accuracy": [
+   0.15,
+   0.45
+  ],
+  "stem": "In his first term at boarding school, Tom quickly ______ a habit of reading in the library, and the quiet there calmed him down.",
+  "stem_cn": "在寄宿学校的第一个学期，汤姆很快养成了在图书馆读书的习惯，那里的安静让他平静下来。",
+  "options": [
+   {
+    "key": "A",
+    "text": "built",
+    "correct": false,
+    "distractor_reason": "语义最近、语感完全说得通（build a habit of reading），纯语感排不掉。测「高考语料讲「养成习惯」固定用 develop a habit / develop an interest」这一搭配记忆（E4）。"
+   },
+   {
+    "key": "B",
+    "text": "formed",
+    "correct": false,
+    "distractor_reason": "语义同样近（form a habit of），而且更常见，属于「语感能过但不是高考这块」的干扰。测「一组近义动词里只有一个是高考固定搭配」（E2＋E4）。"
+   },
+   {
+    "key": "C",
+    "text": "picked up",
+    "correct": false,
+    "distractor_reason": "语感最地道（pick up a habit），学生按「学会了某个习惯」直译就会选它，但这一说法在高考书面语里少见。测「认识但不是考场用词」这一类失分（E4）。"
+   },
+   {
+    "key": "D",
+    "text": "developed",
+    "correct": true,
+    "distractor_reason": null
+   }
+  ],
+  "explanation": "【考场动作】看宾语：a habit of + 动名词。宾语是 habit / interest / reputation / skills 这类「长期积累出来的东西」，动词就是「养成、发展出」，不是「发展、进步」。\n【为什么选 D】Tom quickly developed a habit of reading 是「汤姆很快养成了读书的习惯」，quickly 与 a habit 同时出现，正是习惯形成的写法。\n【其他选项】A built：语义最近、语感全通，但高考语料讲「养成习惯」固定用 develop a habit / develop an interest。B formed：语义同样近且更常见，是「语感过、要靠词块记忆压掉」的典型干扰。C picked up：语感最地道，学生按「学会了某个习惯」直译容易选它，但这一说法在高考书面语里少见。三项都要靠 develop + habit / interest 这组固定搭配分辨。",
+  "trap_note": "陷阱来源：学生按 develop＝「发展、进步」去理解，或用 build、form、pick up 这类近义说法顶替，漏掉了 develop a habit 的固定搭配。",
+  "tags": [
+   "E2",
+   "P2",
+   "P4"
+  ]
+ },
+ {
+  "id": "q_147",
+  "sense_id": "s_practice_n_custom",
+  "word_id": "w_practice",
+  "carrier": "C4",
+  "module": "E3_形近音近混淆",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "Reviewing your notes the night before an exam is common ______ in our school, so please don't worry if you see me in the library late.",
+  "stem_cn": "考试前一晚复习笔记在我们学校是常见的做法，所以如果看到我深夜还在图书馆，别担心。",
+  "options": [
+   {
+    "key": "A",
+    "text": "practice",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "B",
+    "text": "custom",
+    "correct": false,
+    "distractor_reason": "语义最近、语感也通（common custom），是另一类「习俗」的说法。测「高考应用文讲「这是普遍做法」固定写 common practice」，属语域与搭配记忆（E4）。"
+   },
+   {
+    "key": "C",
+    "text": "practise",
+    "correct": false,
+    "distractor_reason": "形近音近：英式动词拼写，名词位置只能用 practice；学生常把 practice / practise 混用。测拼写规范与词性双判（E3＋E9）。"
+   },
+   {
+    "key": "D",
+    "text": "premise",
+    "correct": false,
+    "distractor_reason": "形近：premise 与 practice 词形相近，义为「前提、假设」，与「普遍做法」不是一回事。测「形近词串义」（E3＋E1）。"
+   }
+  ],
+  "explanation": "【考场动作】看 practice 前面有没有 common / standard / usual 这类形容词：有就读作「惯例、通行的做法」；没有形容词、后面直接跟动名词（practice doing），才是「练习」。\n【为什么选 A】is common practice in our school 是应用文里表达「这是我们学校的普遍做法」的固定写法，common practice 是高考应用文的高频词块。\n【其他选项】B custom：语义最近、语感也通，它是另一类「习俗」的说法，但高考应用文讲「普遍做法」固定写 common practice，custom 在书面语里少用。C practise：形近音近，是英式动词拼写，名词位置只能用 practice，学生常把两个词混用。D premise：形近，义为「前提、假设」，与「普遍做法」不是一回事。四项分别考词块、拼写和形近串义。",
+  "trap_note": "陷阱来源：学生按 practice＝「练习」去读，或被 custom、premise、practise 这些形近说法带偏，没有抓住 common practice 这一应用文固定块。",
+  "tags": [
+   "E3",
+   "P2",
+   "P4"
+  ]
+ },
+ {
+  "id": "q_148",
+  "sense_id": "s_practice_v_perform",
+  "word_id": "w_practice",
+  "carrier": "C2",
+  "module": "E2_一词多义混淆",
+  "difficulty": "easy",
+  "expected_accuracy": [
+   0.65,
+   0.95
+  ],
+  "stem": "Students who ______ their writing every day usually make visible progress within a month.",
+  "stem_cn": "每天练习写作的学生，通常一个月内就能看到明显的进步。",
+  "options": [
+   {
+    "key": "A",
+    "text": "practised",
+    "correct": false,
+    "distractor_reason": "拼写：英式动词拼写 practise 与美式 practice 同义，但高考卷面统一写 practice。测「英美拼写一致性」的书写失分，与义项无关（E3＋E9）。"
+   },
+   {
+    "key": "B",
+    "text": "improved",
+    "correct": false,
+    "distractor_reason": "语义近、语感也通（improve their writing），但它强调结果变好；本句讲的是靠每天动手练，练习这个动作固定写 practice doing sth。测语义精度（E2＋E4）。"
+   },
+   {
+    "key": "C",
+    "text": "practice",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "D",
+    "text": "repeated",
+    "correct": false,
+    "distractor_reason": "语义偏：「重复写」与「练习写作」不是同一个动作，the writing 已被反复写过的意味与语意不合。测「一词多义中动词动作对象是否读对」（E2）。"
+   }
+  ],
+  "explanation": "【考场动作】看 practice 后面接什么：接动名词或一项技能（practice writing / practice a skill），就是动词「练习、演练」；前面带 common / standard 才读名词「惯例」。\n【为什么选 C】Students who practice their writing every day 意为「每天练习写作的学生」，practice 后直接接动作或技能，是动词用法，与后半句「一个月内看到进步」呼应。\n【其他选项】A practised：英式动词拼写，写在卷面上要用 practice，这是拼写层面的失分，与义项无关。B improved：语义近、语感也通，但它强调结果变好，本句讲的是靠每天动手练，练习这个动作用 practice doing sth。D repeated：语义偏，「重复写」与「练习写作」不是同一个动作。三项中 A 测拼写，B、D 测「练习」这一动作该用哪个动词。",
+  "trap_note": "陷阱来源：学生把 practise / practice 拼写混用，或按「让写作变好」去选 improved，没有抓住 practice doing sth 的固定结构。",
+  "tags": [
+   "E2",
+   "P2",
+   "P4"
+  ]
+ },
+ {
+  "id": "q_149",
+  "sense_id": "s_division_n_math",
+  "word_id": "w_division",
+  "carrier": "C5",
+  "module": "E5_词性词形误判",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "My grandmother still remembers doing long ______ by hand at school, and she laughed at how slowly we work with a calculator.",
+  "stem_cn": "奶奶还记得当年在学校用笔算长除法，她笑话我们用计算器时动作有多慢。",
+  "options": [
+   {
+    "key": "A",
+    "text": "divide",
+    "correct": false,
+    "distractor_reason": "词形误判：动词原形，前面 doing 之后接动词原形虽然通，但 long divide 不是数学术语；此处要的是名词形式。测动词与名词的词性分辨（E5）。"
+   },
+   {
+    "key": "B",
+    "text": "division",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "C",
+    "text": "divider",
+    "correct": false,
+    "distractor_reason": "同一词根的另一个名词，义为「分隔板、分隔物」，与「长除法运算」完全不是一回事。测同根名词之间的义项混淆（E3＋E5）。"
+   },
+   {
+    "key": "D",
+    "text": "multiplication",
+    "correct": false,
+    "distractor_reason": "语义对立但语感通（long multiplication 是真实术语），可语境里奶奶说「学校学过基本乘法之后」，填进去逻辑就自相矛盾。测语境逻辑是否核对（E6＋E2）。"
+   }
+  ],
+  "explanation": "【考场动作】看后面的定语：long ____ by hand 讲的是运算方式，数学语境（long division / division sign）就是「除法」；同时中心词前面没有 the，后面要作宾语，这里必须用名词。\n【为什么选 D】doing long division by hand 是「用笔做长除法」，long division 是数学里固定的运算名称，后面 by hand 也只有除法才说得通。\n【其他选项】A divide：词形不对，动词原形虽能接 doing，但 long divide 不是数学术语，此处要的是名词形式。C divider：同一词根的另一个名词，义为「分隔板」，与「长除法运算」完全不是一回事。D multiplication：语义对立但语感通（long multiplication 是真实术语），可语境里奶奶说「学校学过基本乘法之后」，填进去逻辑就自相矛盾。三项分别测词形、同根名词和逻辑关系。",
+  "trap_note": "陷阱来源：学生把 division 读成动词原形或「划分」，或被 divider、multiplication 这类同根与同范畴词带偏。",
+  "tags": [
+   "E5",
+   "P2",
+   "P4"
+  ]
+ },
+ {
+  "id": "q_150",
+  "sense_id": "s_division_ph_labour",
+  "word_id": "w_division",
+  "carrier": "C3",
+  "module": "E4_固定搭配缺失",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "Specialization grows because the ______ of labour lets each worker master a smaller set of skills.",
+  "stem_cn": "专业化之所以加深，是因为劳动分工让每位工人只需掌握更少的技能。",
+  "options": [
+   {
+    "key": "A",
+    "text": "divide",
+    "correct": false,
+    "distractor_reason": "词形不对：空格处需要名词，the + 动词原形不成立（the divide of labour 讲不通）。测「先定词性再定义项」的顺序（E5＋E4）。"
+   },
+   {
+    "key": "B",
+    "text": "divisor",
+    "correct": false,
+    "distractor_reason": "同根名词，义为「除数」，属数学义，和 labour 搭配根本不成立。测「同根名词的义项串味」（E3＋E1）。"
+   },
+   {
+    "key": "C",
+    "text": "separation",
+    "correct": false,
+    "distractor_reason": "语义最近、语感完全说得通（the separation of labour），但英语里 separation 指的是「分开」这一事实；高考语料讲经济学的「分工」固定用 the division of labour，属「语感对但考试不选」。"
+   },
+   {
+    "key": "D",
+    "text": "division",
+    "correct": true,
+    "distractor_reason": null
+   }
+  ],
+  "explanation": "【考场动作】看 labour 这个词：它一旦出现在 the ___ of labour 里，整块就是「劳动分工」；这是需要整块背诵的固定说法，不能拆开按「分开、划分」逐字直译。\n【为什么选 D】the division of labour lets each worker master a smaller set of skills 正是「劳动分工让每位工人只需掌握更少的技能」，与前半句 specialization（专业化）构成因果。\n【其他选项】A divide：词形不对，空格处需要名词，the + 动词原形不成立。B divisor：同根名词，义为「除数」，和 labour 搭配根本不成立。C separation：语义最近、语感全通，可它指的是「分开」这一事实；高考语料讲经济学的「分工」固定用 the division of labour。三项分别考词形、词根义和搭配记忆。",
+  "trap_note": "陷阱来源：学生按 division＝「分开、划分」直译，或被 separation 这类同义说法带走，没有认出 the division of labour 这一整块。",
+  "tags": [
+   "E4",
+   "P4",
+   "P2"
+  ]
+ },
+ {
+  "id": "q_151",
+  "sense_id": "s_suspend_v_contain",
+  "word_id": "w_suspend",
+  "carrier": "C5",
+  "module": "E5_词性词形误判",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "Fine particles remained ______ in the air long after the spray was released, and the room smelled of disinfectant for hours.",
+  "stem_cn": "喷雾释放后很久，细小的颗粒仍悬浮在空气中，房间里的消毒水味持续了好几个小时。",
+  "options": [
+   {
+    "key": "A",
+    "text": "suspended",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "B",
+    "text": "suspension",
+    "correct": false,
+    "distractor_reason": "同一词根的名词化（suspension＝悬挂、悬置），学生凭词形相近就填；remained suspension 结构不通，句子直接崩。测形容词与名词的词性分辨（E5）。"
+   },
+   {
+    "key": "C",
+    "text": "hung",
+    "correct": false,
+    "distractor_reason": "语义最近、语感也通（remained hung in the air），但那是「挂着」，与细小颗粒漂浮在空气中的状态不同，也和前半句「喷雾释放」矛盾。测「悬挂义 vs 悬浮义」的分辨（E1＋E2）。"
+   },
+   {
+    "key": "D",
+    "text": "suspending",
+    "correct": false,
+    "distractor_reason": "同一词根的现在分词，remained suspending 缺少谓语，句子不成立。测分词与形容词的词形判断（E5）。"
+   }
+  ],
+  "explanation": "【考场动作】看主语：主语是 fine particles（细小颗粒），不是灯、画、计划。宾语是颗粒、尘埃且 remain ___ in the air，读的就是「悬浮」；若是具体悬挂物且后面有 from，才是「悬挂」。\n【为什么选 A】remained suspended in the air 意为「仍悬浮在空气中」，suspended 在这里是形容词「悬浮的」，与后面消毒水味久久不散的科学描述一致。\n【其他选项】B suspension：同一词根的名词化，remained suspension 结构不通，讲的是词性而非义项。C hung：语义最近、语感也通，但那是「挂着」，与细小颗粒漂浮的状态不同，且与前半句「喷雾释放」矛盾。D suspending：同一词根的现在分词，remained suspending 缺谓语，测的是词形。三项分别对应词性、义项和词形三种失分机制。",
+  "trap_note": "陷阱来源：学生按 suspend＝「悬挂、吊挂」去读，或把名词 suspension、分词 suspending 填进表语位置，没有先看主语是细小颗粒。",
+  "tags": [
+   "E5",
+   "P2",
+   "P4"
+  ]
+ },
+ {
+  "id": "q_152",
+  "sense_id": "s_suspend_v_postpone",
+  "word_id": "w_suspend",
+  "carrier": "C1",
+  "module": "E1_熟词僻义",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "The launch of the new line was ______ while engineers checked the design once more, and work on the old plant stopped that week.",
+  "stem_cn": "工程师再次核查设计期间，新线的投产被中止了，那一周老厂也停了工。",
+  "options": [
+   {
+    "key": "A",
+    "text": "postponed",
+    "correct": false,
+    "distractor_reason": "语义最近、语感也通（postpone the launch），但 postpone 强调「推到以后某个时间再进行」，句中并没有改期后的时间，只有「核查期间停住」。测语义精度（E1＋E2）。"
+   },
+   {
+    "key": "B",
+    "text": "delayed",
+    "correct": false,
+    "distractor_reason": "语义也近（the launch was delayed），可 delay 是「耽搁」，同样是「晚点做」的意味，而本句的关键是「暂时中止」。测「中止 vs 推迟」的义项分辨（E2）。"
+   },
+   {
+    "key": "C",
+    "text": "suspended",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "D",
+    "text": "inspected",
+    "correct": false,
+    "distractor_reason": "形近音近（suspend / inspect），语境里后半句提到 engineers checked the design，学生容易顺手选它；但 inspect 是「检查」，全句说到底是谁被停下了，逻辑正好相反。测形近误选与语境逻辑（E3＋E6）。"
+   }
+  ],
+  "explanation": "【考场动作】先看宾语：the launch（投产）是「正在进行的一件事」，动词就是「中止、暂停」；若是灯、画加 from，才是「悬挂」。时间状语 while… 表示「核查期间停住」，不是「推到某个时间以后」。\n【为什么选 C】the launch was suspended while engineers checked the design 意为「核查期间，投产被中止了」，suspend the launch 是高考财经标准搭配。\n【其他选项】A postponed：语义最近、语感也通，但 postpone 强调「推到以后某个时间再进行」，句中没有改期时间，只有「核查期间停下」。B delayed：语义也近，同样是「晚点做」的意味，本句关键是「暂时中止」。D inspected：形近音近，语境里提到 checked the design 容易让人顺手选它，但 inspect 是「检查」，全句说到底是谁被停下，逻辑正好相反。",
+  "trap_note": "陷阱来源：学生按 suspend＝「悬挂」去读，或用 postponed、delayed 这类泛化说法顶替，没有抓住「宾语是正在进行的事」这条判断锚点。",
+  "tags": [
+   "E1",
+   "P2",
+   "P4"
+  ]
+ },
+ {
+  "id": "q_153",
+  "sense_id": "s_criterion_n_criteria",
+  "word_id": "w_criterion",
+  "carrier": "C5",
+  "module": "E5_词性词形误判",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "The judges published their ______ in advance, and even the disappointed candidates could not argue about the decision afterwards.",
+  "stem_cn": "评委们事先公布了他们的评判指标，就连落选的考生也无法再对结果提出异议。",
+  "options": [
+   {
+    "key": "A",
+    "text": "criterions",
+    "correct": false,
+    "distractor_reason": "最常见的拼写错误：criterion 的复数是拉丁式 criteria，英美两种英语里都没有 criterions 这个形式。测「先数数、再定复数形式」的考场动作（E9＋E5）。"
+   },
+   {
+    "key": "B",
+    "text": "criteria",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "C",
+    "text": "criterion",
+    "correct": false,
+    "distractor_reason": "单数：与前面 their 和后面的过去时被动冲突，一条标准要用 a criterion for…。学生只背了 criterion 一词就顺手填。测单复数与句法一致性（E5）。"
+   },
+   {
+    "key": "D",
+    "text": "criterias",
+    "correct": false,
+    "distractor_reason": "按英语常规加 -s 也错：criterion 属拉丁复数，只有 criteria 一说。学生凭「criterion 加 s 就成复数」的规则推词形，必然出错。测词形规则的盲区（E9＋E5）。"
+   }
+  ],
+  "explanation": "【考场动作】先数数：前面有 their，后面跟的是过去时被动，主语必须是复数。criterion 的复数是拉丁式 criteria，不加 -s。\n【为什么选 B】The judges published their criteria in advance 意为「评委们事先公布了他们各自的评判指标」，criteria 是 criterion 唯一正确的复数形式，「提前公布」也正说明这是一份清单。\n【其他选项】A criterions：学生最常见的拼写错误，英式和美式都没有 criterions 这个形式。C criterion：单数，与 their 及被动结构冲突，一条标准要用 a criterion for…。D criterias：按英语常规加 -s 也错，criterion 属拉丁复数，只有 criteria 一说。三项都要靠「先数数、再定复数形式」这条考场动作才能排掉。",
+  "trap_note": "陷阱来源：学生凭「criterion 加 -s 就成复数」的规则推词形，或只背了单数就填，忽略了 criterion → criteria 的拉丁复数规则。",
+  "tags": [
+   "E5",
+   "P6",
+   "P8"
+  ]
+ },
+ {
+  "id": "q_154",
+  "sense_id": "s_criterion_n_measure",
+  "word_id": "w_criterion",
+  "carrier": "C1",
+  "module": "E1_熟词僻义",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "The ______ for measuring progress must be set before the project begins, not afterwards.",
+  "stem_cn": "衡量进展的指标必须在项目开始之前确定，而不是事后才补。",
+  "options": [
+   {
+    "key": "A",
+    "text": "criterions",
+    "correct": false,
+    "distractor_reason": "拼写错误：这个形式根本不存在，学生却因为「见过 criterions」而误选。测复数规则的落实（E9＋E5）。"
+   },
+   {
+    "key": "B",
+    "text": "standard",
+    "correct": false,
+    "distractor_reason": "语义最近、语感完全说得通（the standard for measuring progress），纯语感排不掉。测「standard 偏「水准、尺度」泛指，指标要用 criteria」的词义精度（E1＋E2）。"
+   },
+   {
+    "key": "C",
+    "text": "measure",
+    "correct": false,
+    "distractor_reason": "词形与词义双重混淆：measure 是动词「测量」或名词「措施」，the measure for measuring progress 既不成搭配也不合语义。测词性判断（E5）。"
+   },
+   {
+    "key": "D",
+    "text": "criteria",
+    "correct": true,
+    "distractor_reason": null
+   }
+  ],
+  "explanation": "【考场动作】看句子谈的是不是「可衡量的尺度」：the ___ for measuring… 是「用来衡量……的指标」。凡是谈评分、评估、数据，一律按「指标」读。\n【为什么选 D】The criteria for measuring progress must be set before the project begins 意为「衡量进展的指标必须在项目开始前确定」，criteria for measuring… 是高考说明文标准搭配，且必须是复数形式。\n【其他选项】A criterons：拼写错误，这个形式根本不存在。B standard：语义最近、语感全通，但 standard 偏「水准、尺度」的泛指，这里讲的是一组可衡量的指标。C measure：词形与词义双重混淆，measure 是动词「测量」或名词「措施」，the measure for measuring progress 不成搭配。三项分别测拼写、义项精度和词性。",
+  "trap_note": "陷阱来源：学生按 criterion＝「原则、准则」去理解，或用 standard 这类泛化说法顶替，没抓住 criteria for measuring… 的固定搭配与复数形式。",
+  "tags": [
+   "E1",
+   "P2",
+   "P6"
+  ]
+ },
+ {
+  "id": "q_155",
+  "sense_id": "s_exploit_v_profit",
+  "word_id": "w_exploit",
+  "carrier": "C2",
+  "module": "E8_情感色彩误判",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "The workers complained that the farm was ______ cheap labour to cut its costs, and several of them left without notice.",
+  "stem_cn": "工人们抱怨这家农场在压榨廉价劳动力以压低成本，其中几个人不加招呼就离开了。",
+  "options": [
+   {
+    "key": "A",
+    "text": "exploiting",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "B",
+    "text": "employing",
+    "correct": false,
+    "distractor_reason": "色彩相反：employ 只是中性的「雇用」，不带道德判断，语境也读得通（employ cheap labour）。测「学生是否看清全句在控诉，贬义词才配得上 complain 与 left without notice」（E8）。"
+   },
+   {
+    "key": "C",
+    "text": "using",
+    "correct": false,
+    "distractor_reason": "色彩中性（using cheap labour），语感同样通顺，但丢掉了「不道德地榨取」这层判断。测情感色彩强度（E8＋E1）。"
+   },
+   {
+    "key": "D",
+    "text": "seeking",
+    "correct": false,
+    "distractor_reason": "语义近、色彩偏正面（seeking cheap labour＝寻求廉价劳动力），与控诉语境冲突。测「褒贬方向是否与上下文一致」（E8）。"
+   }
+  ],
+  "explanation": "【考场动作】看色彩：句首是 The workers complained that…，全句在控诉，主语是农场这类经营者，宾语是 cheap labour。此时 exploit 的贬义「压榨、榨取」才成立。\n【为什么选 A】the farm was exploiting cheap labour to cut its costs 意为「这家农场在压榨廉价劳动力以压低成本」，exploit 与 complained、left without notice 构成同一条批评线。\n【其他选项】B employing：色彩相反，employ 只是中性「雇用」，在高考语料里不带道德判断，用在这里就淡化了批评。C using：色彩中性，语感也通，同样丢掉了「不道德地榨取」这层判断。D seeking：语义近、色彩偏正面，与控诉语境冲突。三项都能把句子读顺，只有抓住「全句在批评」这一线索才能锁定 exploit。",
+  "trap_note": "陷阱来源：学生按 exploit＝「充分利用」的中性义去读，或用 employ / use 这类无色彩词顶替，没看出全句的控诉基调。",
+  "tags": [
+   "E8",
+   "P2",
+   "P8"
+  ]
+ },
+ {
+  "id": "q_156",
+  "sense_id": "s_exploit_n_achievement",
+  "word_id": "w_exploit",
+  "carrier": "C1",
+  "module": "E1_熟词僻义",
+  "difficulty": "hard",
+  "expected_accuracy": [
+   0.15,
+   0.45
+  ],
+  "stem": "Climbing the old tower in the middle of the storm was a remarkable ______ , and the story has been retold for years.",
+  "stem_cn": "在暴风雨中登上那座古塔是一项了不起的壮举，这个故事多年来被反复讲述。",
+  "options": [
+   {
+    "key": "A",
+    "text": "exploration",
+    "correct": false,
+    "distractor_reason": "形近同根：义为「探索、考察」，是过程不是成就，a remarkable exploration 读起来也别扭。测形近词的义项分辨（E3＋E1）。"
+   },
+   {
+    "key": "B",
+    "text": "experience",
+    "correct": false,
+    "distractor_reason": "语义最近、语感也通（a remarkable experience），但它讲的是「经历、体验」，不是被人称赞的功绩。测「经历 vs 功绩」的义项分辨（E1＋E2）。"
+   },
+   {
+    "key": "C",
+    "text": "exploit",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "D",
+    "text": "accomplishment",
+    "correct": false,
+    "distractor_reason": "语义也近（a remarkable accomplishment），泛指「成就」；「壮举、功绩」在高考语料里固定写 a remarkable exploit。测词块记忆（E4＋E1）。"
+   }
+  ],
+  "explanation": "【考场动作】先看词性：前面有冠词 a 和形容词 remarkable，后面作主语，这里要的是名词。再看搭配：a remarkable ___ 在高考语料里指「了不起的壮举」。\n【为什么选 C】Climbing the old tower in the middle of the storm was a remarkable exploit 意为「在暴风雨中登上那座古塔是一项了不起的壮举」，exploit 作名词正是「功绩、壮举」，也与后半句「故事被反复讲述」相印证。\n【其他选项】A exploration：形近同根，义为「探索、考察」，是过程不是成就。B experience：语义最近、语感也通，但它讲的是「经历、体验」，不是被人称赞的功绩。D accomplishment：语义也近，泛指「成就」，而「壮举」固定用 a remarkable exploit。三项都要靠这一整块搭配来分辨。",
+  "trap_note": "陷阱来源：学生按 exploit＝「利用、剥削」去读，一看到名词就想到 experience、accomplishment，错过了 a remarkable exploit 这一固定块。",
+  "tags": [
+   "E1",
+   "P2",
+   "P8"
+  ]
+ },
+ {
+  "id": "q_157",
+  "sense_id": "s_utter_v_cry",
+  "word_id": "w_utter",
+  "carrier": "C3",
+  "module": "E4_固定搭配缺失",
+  "difficulty": "hard",
+  "expected_accuracy": [
+   0.15,
+   0.45
+  ],
+  "stem": "A faint cry was ______ from somewhere in the dark, and every person in the room fell silent.",
+  "stem_cn": "黑暗中某处传来一声微弱的叫喊，屋里每个人都沉默了。",
+  "options": [
+   {
+    "key": "A",
+    "text": "muttered",
+    "correct": false,
+    "distractor_reason": "形近词族（mutter / utter）：mutter 是「低声咕哝」，跟「黑暗中一声轻叫」不是一回事。测形近词与语感差异（E3＋E1）。"
+   },
+   {
+    "key": "B",
+    "text": "uttered",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "C",
+    "text": "let out",
+    "correct": false,
+    "distractor_reason": "语义最近、语感完全说得通（let out a cry 是地道英语），纯语感排不掉。测「高考语料讲「发出叫声」固定写 utter a cry / utter a scream」这一搭配记忆（E4）。"
+   },
+   {
+    "key": "D",
+    "text": "raised",
+    "correct": false,
+    "distractor_reason": "语义偏：raise a cry 指「提出呼吁」，与黑暗中的一声轻叫不是同一回事。测搭配与义项的对应（E4＋E2）。"
+   }
+  ],
+  "explanation": "【考场动作】看宾语：宾语是 a faint cry / a scream / a groan / a sound 这类「叫声、声音」，动词就是 utter；若是 words / a warning / no sound，才是「说出」。注意本题是被动语态，宾语提前了。\n【为什么选 B】A faint cry was uttered from somewhere in the dark 意为「黑暗中某处传来一声微弱的叫喊」，utter a cry 是固定搭配，被动式用过去分词完全正确。\n【其他选项】A muttered：形近词族，mutter 是「低声咕哝」，与「一声轻叫」不是一回事。C let out：语义最近、语感全通，但高考语料讲「发出叫声」固定写 utter a cry。D raised：语义偏，raise a cry 指「提出呼吁」，与黑暗中的一声轻叫不是一回事。三项都要靠 utter + 叫声类名词这块记忆定输赢。",
+  "trap_note": "陷阱来源：学生按 utter＝「说出」去理解，或被 let out、raised、muttered 这些同义与形近说法带走，没有认出 utter a cry 这一固定搭配。",
+  "tags": [
+   "E4",
+   "P3",
+   "P2"
+  ]
+ },
+ {
+  "id": "q_158",
+  "sense_id": "s_utter_v_express",
+  "word_id": "w_utter",
+  "carrier": "C2",
+  "module": "E2_一词多义混淆",
+  "difficulty": "hard",
+  "expected_accuracy": [
+   0.15,
+   0.45
+  ],
+  "stem": "He never ______ a word of praise for his team, and they began to wonder why they worked so hard.",
+  "stem_cn": "他从没对自己的团队说过一句赞美的话，队员们开始怀疑自己这么拼命是为了什么。",
+  "options": [
+   {
+    "key": "A",
+    "text": "expressed",
+    "correct": false,
+    "distractor_reason": "语义最近、语感也通（expressed a word of praise），纯语感排不掉。测「高考语料讲「一句赞美／一句抱怨」固定用 utter a word of…」的搭配记忆（E4＋E2）。"
+   },
+   {
+    "key": "B",
+    "text": "said",
+    "correct": false,
+    "distractor_reason": "语感同样通（said a word of praise），是典型的「认识但不是考场这块」。测词块整体记忆（E4）。"
+   },
+   {
+    "key": "C",
+    "text": "breathed",
+    "correct": false,
+    "distractor_reason": "词块近：breathe a word 指「透露一点消息」，方向与「说出赞美的话」不同，属于另一类惯用法。测「惯用语之间的义项差异」（E2＋E4）。"
+   },
+   {
+    "key": "D",
+    "text": "uttered",
+    "correct": true,
+    "distractor_reason": null
+   }
+  ],
+  "explanation": "【考场动作】看宾语：a word of praise / a complaint / a doubt 这类「想法、意见」，动词就是「表达、吐露」；若是 a cry，就该读成「发出声音」。\n【为什么选 D】He never uttered a word of praise for his team 意为「他从没对团队说过一句赞美的话」，utter a word of… 是固定说法，后半句队员的困惑正说明赞美从未出口。\n【其他选项】A expressed：语义最近、语感也通，但高考语料讲「一句赞美、一句抱怨」固定用 utter a word of…，express 只是一般说法。B said：语感同样通，属于典型的「语感对但不是考场这块」。C breathed：词块近，breathe a word 指「透露一点消息」，方向与「说出赞美的话」不同。三项都得靠 utter a word of praise 排掉。",
+  "trap_note": "陷阱来源：学生按 utter＝「说出、开口讲」的第一义去读，或用 expressed、said、breathed 这类惯用法顶替，错过了 utter a word of… 的固定搭配。",
+  "tags": [
+   "E2",
+   "P2",
+   "P3"
+  ]
+ },
+ {
+  "id": "q_159",
+  "sense_id": "s_bond_v_strengthen",
+  "word_id": "w_bond",
+  "carrier": "C5",
+  "module": "E5_词性词形误判",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "The summer camp ______ the two children who had barely spoken a word to each other back in June.",
+  "stem_cn": "夏令营把六月里几乎没说过话的两个孩子连在了一起。",
+  "options": [
+   {
+    "key": "A",
+    "text": "bonded",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "B",
+    "text": "bond",
+    "correct": false,
+    "distractor_reason": "词形错：主语是 The summer camp（单数第三人称），需要过去式 bonded；学生只背了动词原形就填。测动词词形与时态（E5＋E9）。"
+   },
+   {
+    "key": "C",
+    "text": "bonding",
+    "correct": false,
+    "distractor_reason": "分词形式：the summer camp bonding… 缺谓语动词，句子不成立；学生按「bonding 的两个班」这类名词用法直接搬过来。测词形与句法（E5）。"
+   },
+   {
+    "key": "D",
+    "text": "bound",
+    "correct": false,
+    "distractor_reason": "形近（bond / bound）：bound 作动词是「捆绑」，读作「把两个孩子捆在一起」勉强成立，但那是物理意义上的捆绑，与「建立情感联结」不同。测形近加义项混淆（E3＋E1）。"
+   }
+  ],
+  "explanation": "【考场动作】先定词性和词形：主语是 The summer camp（单数第三人称），后面说「把两个孩子连在一起」，动词要用过去式。再看宾语是不是「人、关系」这类情感对象。\n【为什么选 A】The summer camp bonded the two children 是「夏令营把两个孩子连在了一起」，bond 作动词是「建立、加强情感联系」，与「六月里几乎没说过话」的前后对照完全吻合。\n【其他选项】B bond：词形错，缺过去式，主语第三人称单数必须用 bonded。C bonding：分词形式，the summer camp bonding… 缺谓语动词，句子不成立。D bound：形近，bound 作动词是「捆绑」，读作「把两个孩子捆在一起」勉强成立，但那是物理意义上的捆绑，与「建立情感联结」不同。三项分别测词形、句法和形近串义。",
+  "trap_note": "陷阱来源：学生只记了 bond 的名词义「纽带」而填了原形或分词，或被 bound「捆绑」这层形近义带走，忽略了 bond 作动词「建立情感联结」与时态。",
+  "tags": [
+   "E5",
+   "P2",
+   "P6"
+  ]
+ },
+ {
+  "id": "q_160",
+  "sense_id": "s_bond_n_financial",
+  "word_id": "w_bond",
+  "carrier": "C1",
+  "module": "E1_熟词僻义",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "The city issued ______ to pay for the new hospital and the school gym, and the local bank handled the paperwork.",
+  "stem_cn": "该市发行债券，用来支付新医院和学校体育馆的建造费用，具体的文件手续由当地银行办理。",
+  "options": [
+   {
+    "key": "A",
+    "text": "debts",
+    "correct": false,
+    "distractor_reason": "语义最近、语感也通（issued debts），纯语感排不掉。测「债券是有息、有面额与期限的凭证，政府 issue bonds 是高考财经话题的固定说法」（E1＋E2）。"
+   },
+   {
+    "key": "B",
+    "text": "funds",
+    "correct": false,
+    "distractor_reason": "语义也近（issued funds），但发行债券与「筹集资金」是两件事，语感说得通却不是这一块。测概念精度（E2）。"
+   },
+   {
+    "key": "C",
+    "text": "bonds",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "D",
+    "text": "bands",
+    "correct": false,
+    "distractor_reason": "形近（band / bond），义为「乐队、带子」，本句是财经语境；学生若按 bond＝「纽带、联系」的熟悉义走偏，就会误选它。测形近与熟词僻义的双重失分（E3＋E1）。"
+   }
+  ],
+  "explanation": "【考场动作】看金融信号：issued（发行）、主语是 city 这类机构、宾语是建设资金——出现 issue / sell / interest rate 这类词，就锁定金融义「债券」。\n【为什么选 C】The city issued bonds to pay for the new hospital and the school gym 意为「该市发行债券来支付新医院和学校体育馆的建造费用」，issue bonds 是财经语料的标准搭配。\n【其他选项】A debts：语义最近、语感也通，但 debts 是泛指「债务」，而债券是有息、有明确面额与期限的凭证，govt / city issue bonds 是高考财经话题的固定说法。B funds：语义也近，但发行债券与「筹集资金」是两件事，语感上说得通却不是这一块。D bands：形近，义为「乐队、带子」，与本句财经语境无关。四项分别考概念精度、搭配与形近。",
+  "trap_note": "陷阱来源：学生按 bond＝「纽带、联系」的熟悉义去读，或用 debts、funds、bands 这类近形近义词顶替，错过了 issue bonds 这一财经固定搭配。",
+  "tags": [
+   "E1",
+   "P2",
+   "P8"
+  ]
+ }
+]

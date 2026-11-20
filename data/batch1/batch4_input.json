@@ -1,0 +1,613 @@
+{
+ "_meta": {
+  "batch": 4,
+  "batches_total": 5,
+  "word_count": 20,
+  "spec": "docs/首批100词精修规范.md",
+  "gold_standard": "docs/首批100词精修规范.md §6",
+  "instruction": "对本批 20 个词条逐条按六维体系精修，输出 JSON 数组"
+ },
+ "words": [
+  {
+   "seq": 61,
+   "id": "w_plant",
+   "headword": "plant",
+   "track": "B",
+   "tier": "T1",
+   "trap_strength": 3,
+   "trap_hint": "名词义：工厂、发电站",
+   "core_hint": "植物；种植",
+   "note": "power plant 是环境类话题高频",
+   "score": 127,
+   "seed": {
+    "ipa": "",
+    "pos": [],
+    "pos_raw": "",
+    "sense_count": 0,
+    "senses_raw": [],
+    "definition_raw": "",
+    "book": "",
+    "unit": "",
+    "unit_id": "",
+    "unit_title_raw": "",
+    "theme": "",
+    "theme_tags": [],
+    "source": ""
+   }
+  },
+  {
+   "seq": 62,
+   "id": "w_point",
+   "headword": "point",
+   "track": "B",
+   "tier": "T1",
+   "trap_strength": 3,
+   "trap_hint": "名词义：观点、要点（make a point / point of view）；动词义：指向",
+   "core_hint": "点；分数",
+   "note": "point of view 在写作中必须用 view",
+   "score": 127,
+   "seed": {
+    "ipa": "",
+    "pos": [],
+    "pos_raw": "",
+    "sense_count": 0,
+    "senses_raw": [],
+    "definition_raw": "",
+    "book": "",
+    "unit": "",
+    "unit_id": "",
+    "unit_title_raw": "",
+    "theme": "",
+    "theme_tags": [],
+    "source": ""
+   }
+  },
+  {
+   "seq": 63,
+   "id": "w_present",
+   "headword": "present",
+   "track": "B",
+   "tier": "T1",
+   "trap_strength": 3,
+   "trap_hint": "动词义：呈现、提出（present sth to sb）；形容词义：出席的、目前的",
+   "core_hint": "现在；礼物",
+   "note": "语法填空中 present 分词作状语 vs 形容词义是常考区分",
+   "score": 127,
+   "seed": {
+    "ipa": "",
+    "pos": [],
+    "pos_raw": "",
+    "sense_count": 0,
+    "senses_raw": [],
+    "definition_raw": "",
+    "book": "",
+    "unit": "",
+    "unit_id": "",
+    "unit_title_raw": "",
+    "theme": "",
+    "theme_tags": [],
+    "source": ""
+   }
+  },
+  {
+   "seq": 64,
+   "id": "w_result",
+   "headword": "result",
+   "track": "B",
+   "tier": "T1",
+   "trap_strength": 3,
+   "trap_hint": "result in（导致）vs result from（源于）",
+   "core_hint": "结果",
+   "note": "方向混用是完形高频陷阱",
+   "score": 127,
+   "seed": {
+    "ipa": "",
+    "pos": [],
+    "pos_raw": "",
+    "sense_count": 0,
+    "senses_raw": [],
+    "definition_raw": "",
+    "book": "",
+    "unit": "",
+    "unit_id": "",
+    "unit_title_raw": "",
+    "theme": "",
+    "theme_tags": [],
+    "source": ""
+   }
+  },
+  {
+   "seq": 65,
+   "id": "w_right",
+   "headword": "right",
+   "track": "B",
+   "tier": "T1",
+   "trap_strength": 3,
+   "trap_hint": "名词义：权利（the right to do）；right 形容词义「恰当的」",
+   "core_hint": "正确的；右边",
+   "note": "human rights / right to education 是社会类文章核心",
+   "score": 127,
+   "seed": {
+    "ipa": "",
+    "pos": [],
+    "pos_raw": "",
+    "sense_count": 0,
+    "senses_raw": [],
+    "definition_raw": "",
+    "book": "",
+    "unit": "",
+    "unit_id": "",
+    "unit_title_raw": "",
+    "theme": "",
+    "theme_tags": [],
+    "source": ""
+   }
+  },
+  {
+   "seq": 66,
+   "id": "w_sense",
+   "headword": "sense",
+   "track": "B",
+   "tier": "T1",
+   "trap_strength": 3,
+   "trap_hint": "名词义：意义、含义（in this sense）；a sense of；make sense",
+   "core_hint": "感觉；感官",
+   "note": "make sense of 是语法填空高频短语",
+   "score": 127,
+   "seed": {
+    "ipa": "",
+    "pos": [],
+    "pos_raw": "",
+    "sense_count": 0,
+    "senses_raw": [],
+    "definition_raw": "",
+    "book": "",
+    "unit": "",
+    "unit_id": "",
+    "unit_title_raw": "",
+    "theme": "",
+    "theme_tags": [],
+    "source": ""
+   }
+  },
+  {
+   "seq": 67,
+   "id": "w_sound",
+   "headword": "sound",
+   "track": "B",
+   "tier": "T1",
+   "trap_strength": 3,
+   "trap_hint": "形容词义：健全的、可靠的；副词义：充分地",
+   "core_hint": "声音",
+   "note": "sound asleep / sound advice 属高考作文高分搭配",
+   "score": 127,
+   "seed": {
+    "ipa": "",
+    "pos": [],
+    "pos_raw": "",
+    "sense_count": 0,
+    "senses_raw": [],
+    "definition_raw": "",
+    "book": "",
+    "unit": "",
+    "unit_id": "",
+    "unit_title_raw": "",
+    "theme": "",
+    "theme_tags": [],
+    "source": ""
+   }
+  },
+  {
+   "seq": 68,
+   "id": "w_stand",
+   "headword": "stand",
+   "track": "B",
+   "tier": "T1",
+   "trap_strength": 3,
+   "trap_hint": "stand for（代表/容忍）；stand out（突出）；stand up for（维护）",
+   "core_hint": "站立",
+   "note": "三个短语义完全不同，是完形富矿",
+   "score": 127,
+   "seed": {
+    "ipa": "",
+    "pos": [],
+    "pos_raw": "",
+    "sense_count": 0,
+    "senses_raw": [],
+    "definition_raw": "",
+    "book": "",
+    "unit": "",
+    "unit_id": "",
+    "unit_title_raw": "",
+    "theme": "",
+    "theme_tags": [],
+    "source": ""
+   }
+  },
+  {
+   "seq": 69,
+   "id": "w_state",
+   "headword": "state",
+   "track": "B",
+   "tier": "T1",
+   "trap_strength": 3,
+   "trap_hint": "名词义：状态；动词义：陈述、说明（state that）",
+   "core_hint": "国家；州",
+   "note": "state of mind / state-of-the-art 在应用文与阅读均出现",
+   "score": 127,
+   "seed": {
+    "ipa": "",
+    "pos": [],
+    "pos_raw": "",
+    "sense_count": 0,
+    "senses_raw": [],
+    "definition_raw": "",
+    "book": "",
+    "unit": "",
+    "unit_id": "",
+    "unit_title_raw": "",
+    "theme": "",
+    "theme_tags": [],
+    "source": ""
+   }
+  },
+  {
+   "seq": 70,
+   "id": "w_subject",
+   "headword": "subject",
+   "track": "B",
+   "tier": "T1",
+   "trap_strength": 3,
+   "trap_hint": "名词义：主题、话题；动词义：使遭受（be subjected to）",
+   "core_hint": "科目；被统治者",
+   "note": "subject to 被动结构是语法填空常考点",
+   "score": 127,
+   "seed": {
+    "ipa": "",
+    "pos": [],
+    "pos_raw": "",
+    "sense_count": 0,
+    "senses_raw": [],
+    "definition_raw": "",
+    "book": "",
+    "unit": "",
+    "unit_id": "",
+    "unit_title_raw": "",
+    "theme": "",
+    "theme_tags": [],
+    "source": ""
+   }
+  },
+  {
+   "seq": 71,
+   "id": "w_treat",
+   "headword": "treat",
+   "track": "B",
+   "tier": "T1",
+   "trap_strength": 3,
+   "trap_hint": "treat sb to sth（请客）；treat A as B（把…视为）",
+   "core_hint": "治疗；对待",
+   "note": "两个搭配义完全不同",
+   "score": 127,
+   "seed": {
+    "ipa": "",
+    "pos": [],
+    "pos_raw": "",
+    "sense_count": 0,
+    "senses_raw": [],
+    "definition_raw": "",
+    "book": "",
+    "unit": "",
+    "unit_id": "",
+    "unit_title_raw": "",
+    "theme": "",
+    "theme_tags": [],
+    "source": ""
+   }
+  },
+  {
+   "seq": 72,
+   "id": "w_value",
+   "headword": "value",
+   "track": "B",
+   "tier": "T1",
+   "trap_strength": 3,
+   "trap_hint": "place value on（重视）；be of great value to",
+   "core_hint": "价值",
+   "note": "搭配是作文高频",
+   "score": 127,
+   "seed": {
+    "ipa": "",
+    "pos": [],
+    "pos_raw": "",
+    "sense_count": 0,
+    "senses_raw": [],
+    "definition_raw": "",
+    "book": "",
+    "unit": "",
+    "unit_id": "",
+    "unit_title_raw": "",
+    "theme": "",
+    "theme_tags": [],
+    "source": ""
+   }
+  },
+  {
+   "seq": 73,
+   "id": "w_develop",
+   "headword": "develop",
+   "track": "B",
+   "tier": "T1",
+   "trap_strength": 2,
+   "trap_hint": "动词义：发展出、养成（习惯）；develop into",
+   "core_hint": "生长；开发（资源）",
+   "note": "develop a habit/interest 在写作中易被误译",
+   "score": 118,
+   "seed": {
+    "ipa": "",
+    "pos": [],
+    "pos_raw": "",
+    "sense_count": 0,
+    "senses_raw": [],
+    "definition_raw": "",
+    "book": "",
+    "unit": "",
+    "unit_id": "",
+    "unit_title_raw": "",
+    "theme": "",
+    "theme_tags": [],
+    "source": ""
+   }
+  },
+  {
+   "seq": 74,
+   "id": "w_practice",
+   "headword": "practice",
+   "track": "B",
+   "tier": "T1",
+   "trap_strength": 2,
+   "trap_hint": "名词义：惯例、习俗（不是「练习」）；in practice",
+   "core_hint": "练习",
+   "note": "be common practice 是应用文高频表达",
+   "score": 118,
+   "seed": {
+    "ipa": "",
+    "pos": [],
+    "pos_raw": "",
+    "sense_count": 0,
+    "senses_raw": [],
+    "definition_raw": "",
+    "book": "",
+    "unit": "",
+    "unit_id": "",
+    "unit_title_raw": "",
+    "theme": "",
+    "theme_tags": [],
+    "source": ""
+   }
+  },
+  {
+   "seq": 75,
+   "id": "w_division",
+   "headword": "division",
+   "track": "A",
+   "tier": "T2",
+   "trap_strength": 3,
+   "trap_hint": "名词义：分歧（division within）；部门；除法",
+   "core_hint": "分开",
+   "note": "选必四 U1；义项分叉",
+   "score": 134,
+   "seed": {
+    "ipa": "/dɪˈvɪʒn/",
+    "pos": [
+     "n"
+    ],
+    "pos_raw": "n",
+    "sense_count": 4,
+    "senses_raw": [
+     "分开",
+     "分隔",
+     "差异",
+     "除(法)"
+    ],
+    "definition_raw": "n.分开;分隔;差异;除(法)",
+    "book": "选修4",
+    "unit": "1.0",
+    "unit_id": "选修4 1.0",
+    "unit_title_raw": "选择性必修四 U1 Working the Land",
+    "theme": "T-科幻文学与道德想象",
+    "theme_tags": [
+     "科幻",
+     "想象力",
+     "道德思考"
+    ],
+    "source": "新人教版(2019)必修1-3/选择性必修1-4 单元词表"
+   }
+  },
+  {
+   "seq": 76,
+   "id": "w_suspend",
+   "headword": "suspend",
+   "track": "A",
+   "tier": "T2",
+   "trap_strength": 3,
+   "trap_hint": "动词义：暂停、推迟（suspend the plan）",
+   "core_hint": "悬挂",
+   "note": "选必四 U1",
+   "score": 134,
+   "seed": {
+    "ipa": "/səˈspend/",
+    "pos": [
+     "v"
+    ],
+    "pos_raw": "vt",
+    "sense_count": 4,
+    "senses_raw": [
+     "悬",
+     "挂",
+     "暂停",
+     "暂缓"
+    ],
+    "definition_raw": "vt.悬;挂;暂停;暂缓",
+    "book": "选修4",
+    "unit": "1.0",
+    "unit_id": "选修4 1.0",
+    "unit_title_raw": "选择性必修四 U1 Working the Land",
+    "theme": "T-科幻文学与道德想象",
+    "theme_tags": [
+     "科幻",
+     "想象力",
+     "道德思考"
+    ],
+    "source": "新人教版(2019)必修1-3/选择性必修1-4 单元词表"
+   }
+  },
+  {
+   "seq": 77,
+   "id": "w_criterion",
+   "headword": "criterion",
+   "track": "A",
+   "tier": "T2",
+   "trap_strength": 3,
+   "trap_hint": "名词义：标准（复数 criteria）",
+   "core_hint": "标准",
+   "note": "选必四 U4；单复数是 E9 考点",
+   "score": 130,
+   "seed": {
+    "ipa": "/kraɪˈtɪəriən/",
+    "pos": [
+     "n"
+    ],
+    "pos_raw": "n",
+    "sense_count": 3,
+    "senses_raw": [
+     "标准",
+     "准则",
+     "原则"
+    ],
+    "definition_raw": "n.标准;准则;原则",
+    "book": "选修4",
+    "unit": "4.0",
+    "unit_id": "选修4 4.0",
+    "unit_title_raw": "选择性必修四 U4 Why the Parent Is Dominant",
+    "theme": "T-居家生活与日常物品",
+    "theme_tags": [
+     "居家",
+     "生活常识",
+     "人与物"
+    ],
+    "source": "新人教版(2019)必修1-3/选择性必修1-4 单元词表"
+   }
+  },
+  {
+   "seq": 78,
+   "id": "w_exploit",
+   "headword": "exploit",
+   "track": "A",
+   "tier": "T2",
+   "trap_strength": 3,
+   "trap_hint": "动词义：开发、利用（exploit resources）；名词义：功绩",
+   "core_hint": "剥削",
+   "note": "褒贬色彩差异是 E8 考点",
+   "score": 130,
+   "seed": {
+    "ipa": "/ɪkˈsplɔɪt/",
+    "pos": [
+     "v"
+    ],
+    "pos_raw": "vt",
+    "sense_count": 3,
+    "senses_raw": [
+     "开发",
+     "利用",
+     "剥削"
+    ],
+    "definition_raw": "vt.开发;利用;剥削",
+    "book": "选修4",
+    "unit": "3.0",
+    "unit_id": "选修4 3.0",
+    "unit_title_raw": "选择性必修四 U3 Contrast",
+    "theme": "T-海洋文明与航海史",
+    "theme_tags": [
+     "海洋",
+     "航海",
+     "文明交流"
+    ],
+    "source": "新人教版(2019)必修1-3/选择性必修1-4 单元词表"
+   }
+  },
+  {
+   "seq": 79,
+   "id": "w_utter",
+   "headword": "utter",
+   "track": "A",
+   "tier": "T2",
+   "trap_strength": 3,
+   "trap_hint": "动词义：说出（utter a warning）；形容词义：完全的（utter nonsense）",
+   "core_hint": "发出声音",
+   "note": "选必三 U5；词性跨越",
+   "score": 130,
+   "seed": {
+    "ipa": "/ˈʌtə(r)/",
+    "pos": [
+     "v"
+    ],
+    "pos_raw": "vt",
+    "sense_count": 3,
+    "senses_raw": [
+     "出声",
+     "说",
+     "讲 a.完全的"
+    ],
+    "definition_raw": "vt.出声;说;讲 a.完全的",
+    "book": "选修3",
+    "unit": "5.0",
+    "unit_id": "选修3 5.0",
+    "unit_title_raw": "选择性必修三 U5 Water",
+    "theme": "T-诗歌韵律与文学欣赏",
+    "theme_tags": [
+     "诗歌",
+     "韵律",
+     "文学鉴赏"
+    ],
+    "source": "新人教版(2019)必修1-3/选择性必修1-4 单元词表"
+   }
+  },
+  {
+   "seq": 80,
+   "id": "w_bond",
+   "headword": "bond",
+   "track": "A",
+   "tier": "T2",
+   "trap_strength": 3,
+   "trap_hint": "名词义：纽带、联系；债券（金融义）",
+   "core_hint": "纽带",
+   "note": "选必四 U3；金融义是 E2 考点",
+   "score": 126,
+   "seed": {
+    "ipa": "/bɒnd/",
+    "pos": [
+     "n"
+    ],
+    "pos_raw": "n",
+    "sense_count": 2,
+    "senses_raw": [
+     "纽带",
+     "关系 v.增强信任关系"
+    ],
+    "definition_raw": "n.纽带;关系 v.增强信任关系",
+    "book": "选修4",
+    "unit": "3.0",
+    "unit_id": "选修4 3.0",
+    "unit_title_raw": "选择性必修四 U3 Contrast",
+    "theme": "T-海洋文明与航海史",
+    "theme_tags": [
+     "海洋",
+     "航海",
+     "文明交流"
+    ],
+    "source": "新人教版(2019)必修1-3/选择性必修1-4 单元词表"
+   }
+  }
+ ]
+}

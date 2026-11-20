@@ -1,0 +1,2707 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>拾词 · 高考英语核心词 — 可点击高保真原型 v1</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --canvas:#f4f6f3;
+  --card:#ffffff;
+  --ink:#111c18;
+  --ink-2:#42514c;
+  --ink-3:#78857f;
+  --line:#e4e8e3;
+  --line-2:#eef1ed;
+  --accent:#10b981;
+  --accent-deep:#047857;
+  --accent-tint:#ecfdf5;
+  --danger:#f43f5e;
+  --danger-tint:#fff1f3;
+  --warn:#f59e0b;
+  --warn-tint:#fffbeb;
+  --shadow-s:0 2px 8px rgba(16,24,20,.05);
+  --shadow-m:0 6px 20px -4px rgba(16,24,20,.10);
+  --shadow-l:0 18px 44px -10px rgba(16,24,20,.22);
+  --r-s:10px; --r-m:14px; --r-l:20px; --r-xl:26px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{
+  font-family:'Outfit','Noto Sans SC','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;
+  background:var(--canvas);color:var(--ink);
+  font-size:14px;line-height:1.55;
+  -webkit-font-smoothing:antialiased;
+  padding:28px 24px 48px;
+}
+button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
+svg{display:block}
+::selection{background:var(--accent);color:#fff}
+
+/* ---------- layout ---------- */
+.layout{max-width:1320px;margin:0 auto;display:grid;grid-template-columns:296px minmax(0,1fr);gap:34px;align-items:start}
+.side{position:sticky;top:28px;max-height:calc(100vh - 56px);overflow:auto;padding-right:6px}
+.side::-webkit-scrollbar{width:5px}
+.side::-webkit-scrollbar-thumb{background:#d5dbd5;border-radius:4px}
+
+.brand{display:flex;align-items:center;gap:11px;margin-bottom:14px}
+.brand-mark{width:38px;height:38px;border-radius:11px;background:var(--ink);color:#fff;display:grid;place-items:center;flex:none}
+.brand h1{font-size:17px;font-weight:700;letter-spacing:-.01em}
+.brand .ver{font-family:'JetBrains Mono',monospace;font-size:10.5px;color:var(--ink-3);margin-left:auto}
+.side-lede{font-size:13px;color:var(--ink-2);margin-bottom:8px}
+.side-lede b{color:var(--ink)}
+.tagline{display:inline-block;background:var(--accent-tint);color:var(--accent-deep);font-size:11.5px;font-weight:500;padding:3px 9px;border-radius:99px;margin-bottom:18px}
+
+.side h2{font-size:10.5px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3);margin:26px 0 10px}
+.navlist{display:flex;flex-direction:column;gap:3px}
+.navitem{display:flex;gap:10px;align-items:flex-start;text-align:left;padding:8px 10px;border-radius:var(--r-s);transition:background .18s,transform .18s;width:100%}
+.navitem:hover{background:#fff;transform:translateX(2px)}
+.navitem.on{background:#fff;box-shadow:var(--shadow-s)}
+.navitem .n{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--ink-3);padding-top:2px;flex:none;width:16px}
+.navitem.on .n{color:var(--accent-deep)}
+.navitem .t{font-size:13px;font-weight:500;line-height:1.35}
+.navitem .d{font-size:11px;color:var(--ink-3);line-height:1.4}
+.navitem .pay{display:inline-block;margin-top:4px;font-size:10px;font-weight:600;color:var(--warn);background:var(--warn-tint);border-radius:99px;padding:1px 7px}
+
+.dlist{list-style:none;display:flex;flex-direction:column;gap:11px}
+.dlist li{display:grid;grid-template-columns:16px 1fr;gap:9px;font-size:12.5px;color:var(--ink-2);line-height:1.5}
+.dlist .k{color:var(--accent-deep);font-weight:700;font-family:'JetBrains Mono',monospace;font-size:11px;padding-top:1px}
+.dlist b{color:var(--ink);font-weight:600}
+
+.flowcard{background:#fff;border:1px solid var(--line);border-radius:var(--r-m);padding:14px 14px 10px}
+.sidefoot{font-size:11px;color:var(--ink-3);margin-top:24px;padding-top:14px;border-top:1px solid var(--line)}
+.sidefoot code{font-family:'JetBrains Mono',monospace;font-size:10.5px;background:#fff;border:1px solid var(--line);padding:1px 5px;border-radius:5px}
+
+/* ---------- stage ---------- */
+.main{display:flex;flex-direction:column;align-items:center;gap:18px}
+.phone{
+  width:390px;height:800px;background:#0d1512;border-radius:46px;padding:11px;
+  box-shadow:var(--shadow-l),0 0 0 1.5px rgba(255,255,255,.08) inset;
+  position:relative;flex:none;
+}
+.bezel{position:relative;width:100%;height:100%;background:var(--canvas);border-radius:36px;overflow:hidden;display:flex;flex-direction:column}
+.statusbar{height:40px;flex:none;display:flex;align-items:center;justify-content:space-between;padding:0 22px;font-size:12px;font-weight:600;font-family:'Outfit',sans-serif;color:var(--ink)}
+.sb-r{display:flex;gap:5px;align-items:center}
+.notch{position:absolute;top:9px;left:50%;transform:translateX(-50%);width:104px;height:26px;background:#0d1512;border-radius:99px;z-index:40}
+.screens{flex:1;position:relative;overflow:hidden}
+.screen{position:absolute;inset:0;overflow-y:auto;overflow-x:hidden;padding:0 18px 26px;display:none;scrollbar-width:none}
+.screen::-webkit-scrollbar{display:none}
+.screen.on{display:block;animation:fade .26s ease}
+@keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.screen.sub .stophon{display:none}
+
+.home-ind{position:absolute;bottom:7px;left:50%;transform:translateX(-50%);width:132px;height:4.5px;border-radius:99px;background:rgba(17,28,24,.26);z-index:45;pointer-events:none}
+
+/* ---------- tabbar ---------- */
+.tabbar{height:60px;flex:none;background:rgba(255,255,255,.93);backdrop-filter:blur(14px);border-top:1px solid var(--line);display:flex;padding-bottom:14px;transition:transform .28s ease}
+.phone.no-tab .tabbar{transform:translateY(100%);position:absolute;bottom:0;left:11px;right:11px;border-radius:0 0 36px 36px}
+.tab{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;font-size:10.5px;color:var(--ink-3);transition:color .18s}
+.tab.on{color:var(--accent-deep);font-weight:600}
+.tab .badge{position:absolute;top:6px;margin-left:22px;background:var(--danger);color:#fff;font-size:9px;line-height:1;padding:2px 4.5px;border-radius:99px;font-family:'Outfit',sans-serif;font-weight:700}
+
+/* ---------- generic phone UI ---------- */
+.ptop{padding-top:8px}
+.scr-title{font-size:22px;font-weight:700;letter-spacing:-.02em;margin:2px 0 2px}
+.scr-sub{font-size:12.5px;color:var(--ink-3);margin-bottom:14px}
+.sec-head{display:flex;align-items:baseline;justify-content:space-between;margin:20px 0 10px}
+.sec-head h3{font-size:14px;font-weight:700;letter-spacing:-.01em}
+.sec-head .more{font-size:12px;color:var(--accent-deep);font-weight:600;display:flex;align-items:center;gap:2px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r-l);box-shadow:var(--shadow-s)}
+.btn{display:flex;align-items:center;justify-content:center;gap:7px;width:100%;border-radius:15px;font-weight:600;transition:transform .16s,opacity .16s,background .16s}
+.btn:active{transform:scale(.975)}
+.btn-primary{background:var(--accent);color:#fff;font-size:15px;padding:14px}
+.btn-primary:hover{background:var(--accent-deep)}
+.btn-ghost{background:#fff;border:1px solid var(--line);color:var(--ink-2);font-size:14px;padding:12px}
+.btn-ghost:hover{border-color:var(--ink-3)}
+.btn-line{background:transparent;color:var(--accent-deep);font-size:13px;font-weight:600;padding:10px}
+.btn-sm{font-size:12.5px;padding:9px 14px;border-radius:11px;width:auto;display:inline-flex}
+.btn-dark{background:var(--ink);color:#fff;font-size:15px;padding:14px}
+
+.backbar{display:flex;align-items:center;gap:10px;padding:6px 0 12px}
+.backbar h3{font-size:16px;font-weight:700;letter-spacing:-.01em}
+.icon-btn{width:32px;height:32px;border-radius:10px;background:#fff;border:1px solid var(--line);display:grid;place-items:center;flex:none;transition:background .16s}
+.icon-btn:hover{background:var(--line-2)}
+
+/* ---------- home ---------- */
+.countdown{display:flex;align-items:center;justify-content:space-between;background:var(--ink);color:#fff;border-radius:var(--r-l);padding:14px 16px;margin-bottom:16px;box-shadow:var(--shadow-m)}
+.countdown .lbl{font-size:11.5px;opacity:.66}
+.countdown .num{font-family:'Outfit',sans-serif;font-size:28px;font-weight:700;line-height:1.1;letter-spacing:-.02em}
+.countdown .num small{font-size:12px;font-weight:500;opacity:.7;margin-left:3px}
+.countdown .r{text-align:right}
+.countdown .streak{font-size:11.5px;opacity:.8;display:flex;align-items:center;gap:4px;justify-content:flex-end}
+
+.today-card{padding:17px;display:flex;gap:16px;align-items:center}
+.ring{width:78px;height:78px;border-radius:50%;flex:none;display:grid;place-items:center;position:relative}
+.ring::after{content:"";position:absolute;inset:8px;background:#fff;border-radius:50%}
+.ring-in{position:relative;z-index:2;text-align:center;font-family:'Outfit',sans-serif}
+.ring-in b{font-size:19px;font-weight:700;letter-spacing:-.02em}
+.ring-in span{display:block;font-size:9.5px;color:var(--ink-3);margin-top:-2px}
+.today-meta{flex:1;min-width:0}
+.today-meta h4{font-size:15.5px;font-weight:700;letter-spacing:-.01em;margin-bottom:3px}
+.today-meta p{font-size:12px;color:var(--ink-3);margin-bottom:10px}
+.mini-stat{display:flex;gap:8px;margin-top:12px}
+.ms{flex:1;background:var(--line-2);border-radius:11px;padding:8px 9px}
+.ms b{display:block;font-family:'Outfit',sans-serif;font-size:16px;font-weight:700;letter-spacing:-.02em}
+.ms span{font-size:10.5px;color:var(--ink-3)}
+
+.hero-entry{background:linear-gradient(160deg,var(--accent) 0%,var(--accent-deep) 100%);color:#fff;border-radius:var(--r-l);padding:16px 17px;margin-bottom:11px;box-shadow:0 10px 24px -12px rgba(4,120,87,.65);position:relative;overflow:hidden}
+.hero-entry::after{content:"";position:absolute;right:-34px;top:-34px;width:120px;height:120px;border-radius:50%;background:rgba(255,255,255,.09)}
+.hero-entry .k{display:inline-flex;align-items:center;gap:4px;font-size:10.5px;font-weight:600;background:rgba(255,255,255,.2);padding:2px 8px;border-radius:99px;margin-bottom:8px}
+.hero-entry h4{font-size:16.5px;font-weight:700;letter-spacing:-.01em;margin-bottom:4px}
+.hero-entry p{font-size:12px;opacity:.88;margin-bottom:12px}
+.hero-entry .go{background:#fff;color:var(--accent-deep);font-size:13px;font-weight:700;padding:9px 16px;border-radius:11px;display:inline-flex;align-items:center;gap:5px}
+
+.two-grid{display:grid;grid-template-columns:1fr 1fr;gap:11px}
+.small-entry{padding:14px}
+.small-entry .ic{width:32px;height:32px;border-radius:10px;display:grid;place-items:center;margin-bottom:9px}
+.small-entry h4{font-size:14px;font-weight:700;letter-spacing:-.01em;margin-bottom:2px}
+.small-entry p{font-size:11.5px;color:var(--ink-3);margin-bottom:9px;line-height:1.4}
+.small-entry .go{font-size:11.5px;font-weight:700;color:var(--accent-deep);display:flex;align-items:center;gap:3px}
+
+.prod-scroll{display:flex;gap:11px;overflow-x:auto;padding-bottom:6px;margin:0 -18px;padding-left:18px;padding-right:18px;scrollbar-width:none}
+.prod-scroll::-webkit-scrollbar{display:none}
+.prod-card{width:158px;flex:none;overflow:hidden}
+.prod-cover{height:92px;border-radius:14px 14px 0 0;display:grid;place-items:center;color:#fff;font-weight:700;font-size:12.5px;letter-spacing:.02em;text-align:center;padding:8px;line-height:1.3}
+.prod-body{padding:10px 11px 12px;border:1px solid var(--line);border-top:none;border-radius:0 0 14px 14px;background:#fff}
+.prod-body h5{font-size:12.5px;font-weight:600;line-height:1.35;height:34px;overflow:hidden;margin-bottom:6px}
+.prod-price{display:flex;align-items:baseline;gap:6px}
+.prod-price b{font-family:'Outfit',sans-serif;font-size:16px;font-weight:700;color:var(--danger);letter-spacing:-.02em}
+.prod-price span{font-size:10.5px;color:var(--ink-3);text-decoration:line-through}
+.prod-meta{font-size:10.5px;color:var(--ink-3);margin-top:3px}
+
+/* ---------- study / card ---------- */
+.studybar{display:flex;align-items:center;gap:11px;padding:6px 0 14px}
+.pbar{flex:1;height:6px;background:var(--line);border-radius:99px;overflow:hidden}
+.pbar i{display:block;height:100%;background:var(--accent);border-radius:99px;transition:width .35s cubic-bezier(.4,0,.2,1)}
+.studybar .cnt{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--ink-3);flex:none}
+
+.wcard-wrap{perspective:1400px;margin-bottom:16px}
+.wcard{position:relative;transform-style:preserve-3d;transition:transform .5s cubic-bezier(.4,.2,.2,1);cursor:pointer;display:grid}
+.wcard.flip{transform:rotateY(180deg)}
+.face{grid-area:1/1;align-self:start;backface-visibility:hidden;-webkit-backface-visibility:hidden;background:#fff;border:1px solid var(--line);border-radius:var(--r-xl);box-shadow:var(--shadow-m);padding:26px 22px;min-height:270px;display:flex;flex-direction:column}
+.face.back{transform:rotateY(180deg);padding:20px 19px;justify-content:flex-start}
+.w-word{font-family:'Outfit',sans-serif;font-size:33px;font-weight:600;letter-spacing:-.02em;line-height:1.1}
+.w-ipa{font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--ink-3);margin-top:5px}
+.w-pos{font-size:11px;font-weight:600;color:var(--accent-deep);background:var(--accent-tint);padding:2px 8px;border-radius:99px;margin-top:11px;align-self:flex-start}
+.w-def{font-size:15px;margin-top:11px;line-height:1.6}
+.w-def .pos-tag{font-size:11px;color:var(--ink-3);font-family:'Outfit',sans-serif;margin-right:5px}
+.tap-hint{margin-top:auto;text-align:center;font-size:11.5px;color:var(--ink-3);display:flex;align-items:center;justify-content:center;gap:5px}
+
+.bk-row{display:flex;align-items:center;gap:6px;margin-bottom:12px}
+.bk{font-size:10.5px;font-weight:600;padding:2.5px 8px;border-radius:7px;background:var(--warn-tint);color:#b45309}
+.bk.g{background:var(--accent-tint);color:var(--accent-deep)}
+.bk.n{background:#eef2ff;color:#4f46e5}
+.bk-title{font-size:10.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-3);margin:14px 0 7px;display:flex;align-items:center;gap:6px}
+.ex{background:var(--accent-tint);border-left:2.5px solid var(--accent);border-radius:0 12px 12px 0;padding:11px 13px}
+.ex p{font-size:13.5px;line-height:1.55;color:var(--ink)}
+.ex .zh{font-size:12px;color:var(--ink-2);margin-top:6px}
+.ex .src{font-size:10px;color:var(--ink-3);margin-top:7px;display:flex;align-items:center;gap:4px}
+.cols{display:flex;flex-wrap:wrap;gap:6px}
+.col{font-size:12px;background:var(--line-2);border-radius:8px;padding:5px 9px;color:var(--ink-2);font-family:'Outfit','Noto Sans SC',sans-serif}
+.word-note{font-size:12.5px;color:var(--ink-2);line-height:1.6;background:var(--warn-tint);border-radius:12px;padding:10px 12px}
+.word-note b{color:#b45309}
+
+.rate{display:grid;grid-template-columns:1fr 1fr 1fr;gap:9px;margin-top:16px}
+/* 评价栏吸底：义项树把卡片撑高后，三档按钮必须始终留在手机可视区内 */
+.study-foot{position:sticky;bottom:0;z-index:6;margin-top:14px;padding:10px 0 2px;background:var(--canvas);box-shadow:0 -14px 16px -12px rgba(17,28,24,.22)}
+.study-foot .rate{margin-top:0}
+.rbtn{border-radius:14px;padding:12px 6px;text-align:center;border:1.5px solid var(--line);background:#fff;transition:all .16s}
+.rbtn b{display:block;font-size:13.5px;font-weight:600}
+.rbtn span{font-size:10px;color:var(--ink-3);font-family:'JetBrains Mono',monospace}
+.rbtn:hover{border-color:var(--ink-3)}
+.rbtn.unknown:hover{border-color:var(--danger);background:var(--danger-tint)}
+.rbtn.vague:hover{border-color:var(--warn);background:var(--warn-tint)}
+.rbtn.known:hover{border-color:var(--accent);background:var(--accent-tint)}
+.rbtn.on{transform:scale(.96)}
+/* ── 义项树：掌握度挂在义项上（教研体系地基）── */
+.sense-tree{display:flex;flex-direction:column;gap:7px}
+.sense-row{border:1px solid var(--line);border-radius:11px;padding:9px 11px;background:var(--line-2);position:relative}
+.sense-row.focus{border-color:var(--accent);background:var(--accent-tint)}
+.sense-top{display:flex;align-items:baseline;gap:7px;flex-wrap:wrap}
+.sense-txt{font-size:13px;font-weight:500;line-height:1.45}
+.sense-lv{font-family:'JetBrains Mono',monospace;font-size:9.5px;padding:2px 6px;border-radius:5px;background:#fff;border:1px solid var(--line);color:var(--ink-3);letter-spacing:.04em}
+.sense-lv.trap{color:var(--danger);border-color:var(--danger);background:var(--danger-tint)}
+.sense-due{margin-left:auto;font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--ink-3);white-space:nowrap}
+.mast-bar{height:4px;border-radius:3px;background:var(--line);margin-top:7px;overflow:hidden}
+.mast-fill{height:100%;border-radius:3px;background:var(--accent);transition:width .3s}
+.mast-fill.low{background:var(--danger)}
+.mast-fill.mid{background:var(--warn)}
+.mast-meta{display:flex;justify-content:space-between;font-size:10.5px;color:var(--ink-3);margin-top:4px;font-family:'JetBrains Mono',monospace}
+/* ── FSRS 排期反馈 ── */
+.fsrs-line{text-align:center;font-size:11.5px;color:var(--ink-3);margin-top:12px;line-height:1.6;font-family:'JetBrains Mono',monospace}
+.fsrs-line b{color:var(--ink-2);font-weight:500}
+.fsrs-line .sched{display:block;margin-top:3px;color:var(--ink-2);font-family:'Noto Sans SC',sans-serif;font-size:12px}
+.fsrs-line .sched em{font-style:normal;color:var(--accent-deep);font-weight:600}
+.mast-chip{display:inline-flex;align-items:center;gap:5px;font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--ink-3);border:1px solid var(--line);border-radius:999px;padding:3px 9px;background:var(--line-2)}
+
+.done-wrap{text-align:center;padding-top:22px}
+.done-ic{width:66px;height:66px;border-radius:50%;background:var(--accent-tint);color:var(--accent-deep);display:grid;place-items:center;margin:0 auto 14px}
+.done-wrap h3{font-size:21px;font-weight:700;letter-spacing:-.02em;margin-bottom:5px}
+.done-wrap p{font-size:13px;color:var(--ink-3);margin-bottom:20px}
+.done-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-bottom:20px}
+.done-stats div{background:#fff;border:1px solid var(--line);border-radius:14px;padding:12px 6px}
+.done-stats b{display:block;font-family:'Outfit',sans-serif;font-size:20px;font-weight:700;letter-spacing:-.02em}
+.done-stats span{font-size:10.5px;color:var(--ink-3)}
+
+/* ---------- quiz ---------- */
+.qprog{display:flex;align-items:center;gap:11px;padding:4px 0 14px}
+.qprog .pbar{flex:1}
+.qprog .cnt{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--ink-3)}
+.qstem{background:#fff;border:1px solid var(--line);border-radius:var(--r-l);padding:17px;margin-bottom:14px;box-shadow:var(--shadow-s)}
+.qstem .tag{font-size:10px;font-weight:700;color:var(--accent-deep);background:var(--accent-tint);padding:2px 8px;border-radius:6px;display:inline-block;margin-bottom:9px}
+.qstem p{font-size:15px;line-height:1.65}
+.qstem .blank{color:var(--accent-deep);font-weight:700;border-bottom:2px solid var(--accent);padding:0 16px}
+.opts{display:flex;flex-direction:column;gap:9px}
+.opt{display:flex;align-items:center;gap:11px;background:#fff;border:1.5px solid var(--line);border-radius:14px;padding:13px 14px;text-align:left;transition:all .16s}
+.opt:hover{border-color:var(--ink-3)}
+.opt .k{width:24px;height:24px;border-radius:8px;background:var(--line-2);display:grid;place-items:center;font-family:'Outfit',sans-serif;font-size:11.5px;font-weight:700;flex:none;transition:all .16s}
+.opt .t{flex:1;font-size:14px}
+.opt .t small{display:block;font-size:11px;color:var(--ink-3);margin-top:1px}
+.opt.right{border-color:var(--accent);background:var(--accent-tint)}
+.opt.right .k{background:var(--accent);color:#fff}
+.opt.wrong{border-color:var(--danger);background:var(--danger-tint)}
+.opt.wrong .k{background:var(--danger);color:#fff}
+.opt.locked{pointer-events:none}
+.feedback{margin-top:14px;border-radius:var(--r-l);padding:15px;display:none}
+.feedback.on{display:block;animation:fade .22s ease}
+.feedback.right{background:var(--accent-tint);border:1px solid #a7f3d0}
+.feedback.wrong{background:var(--danger-tint);border:1px solid #fecdd3}
+.feedback h4{font-size:14px;font-weight:700;display:flex;align-items:center;gap:7px;margin-bottom:9px}
+.feedback p{font-size:12.5px;line-height:1.65;color:var(--ink-2)}
+.feedback .rule{margin-top:9px;padding-top:9px;border-top:1px dashed rgba(17,28,24,.14);font-size:12px;color:var(--ink-2)}
+.feedback .rule b{color:var(--ink)}
+
+/* ---------- error map ---------- */
+.chart-card{background:#fff;border:1px solid var(--line);border-radius:var(--r-l);padding:16px;margin-bottom:12px;box-shadow:var(--shadow-s)}
+.chart-card h4{font-size:13.5px;font-weight:700;margin-bottom:3px}
+.chart-card .sub{font-size:11.5px;color:var(--ink-3);margin-bottom:14px}
+.bench{display:grid;grid-template-columns:74px 1fr 38px;gap:10px;align-items:center;padding:5px 0}
+.bench-label{font-size:12px;color:var(--ink-2)}
+.bench-track{height:14px;background:var(--line-2);border-radius:5px;overflow:hidden}
+.bench-fill{height:100%;border-radius:5px;background:var(--accent);transition:width .5s cubic-bezier(.4,0,.2,1)}
+.bench-val{font-family:'Outfit',sans-serif;font-size:12px;font-weight:600;text-align:right;color:var(--ink-2)}
+.bench.top .bench-fill{background:var(--danger)}
+.bench.top .bench-label{color:var(--ink);font-weight:600}
+.bench.top .bench-val{color:var(--danger)}
+.legend{display:flex;flex-wrap:wrap;gap:12px;margin-top:12px;padding-top:11px;border-top:1px solid var(--line-2)}
+.legend span{font-size:11px;color:var(--ink-3);display:flex;align-items:center;gap:5px}
+.legend i{width:9px;height:9px;border-radius:3px;display:block}
+.donut-wrap{display:flex;align-items:center;gap:16px}
+.donut{width:108px;height:108px;border-radius:50%;flex:none;position:relative;display:grid;place-items:center}
+.donut::after{content:"";position:absolute;inset:14px;background:#fff;border-radius:50%}
+.donut-c{position:relative;z-index:2;text-align:center}
+.donut-c b{display:block;font-family:'Outfit',sans-serif;font-size:19px;font-weight:700;letter-spacing:-.02em}
+.donut-c span{font-size:9.5px;color:var(--ink-3)}
+.dl{display:flex;flex-direction:column;gap:7px;flex:1;min-width:0}
+.dl div{display:flex;align-items:center;gap:7px;font-size:11.5px;color:var(--ink-2)}
+.dl i{width:8px;height:8px;border-radius:2.5px;flex:none}
+.dl b{margin-left:auto;font-family:'Outfit',sans-serif;font-weight:600;color:var(--ink)}
+.advice{background:var(--ink);color:#fff;border-radius:var(--r-l);padding:15px;margin-bottom:12px}
+.advice .k{display:inline-flex;align-items:center;gap:5px;font-size:10.5px;background:rgba(255,255,255,.14);padding:2px 8px;border-radius:99px;margin-bottom:9px}
+.advice h4{font-size:14.5px;font-weight:700;margin-bottom:5px}
+.advice p{font-size:12px;opacity:.78;line-height:1.6}
+.errlist{display:flex;flex-direction:column;gap:7px}
+.errrow{display:flex;align-items:center;gap:11px;background:#fff;border:1px solid var(--line);border-radius:13px;padding:11px 13px;transition:all .16s;text-align:left;width:100%}
+.errrow:hover{border-color:var(--accent)}
+.errrow .w{font-family:'Outfit',sans-serif;font-size:15px;font-weight:600;flex:none;min-width:86px}
+.errrow .m{flex:1;font-size:11px;color:var(--ink-3)}
+.errrow .c{font-size:11px;font-weight:600;color:var(--danger);background:var(--danger-tint);padding:2px 7px;border-radius:6px;flex:none}
+
+/* ---------- shop ---------- */
+.shoptop{display:flex;gap:8px;margin-bottom:14px}
+.chip{font-size:12.5px;padding:7px 13px;border-radius:99px;background:#fff;border:1px solid var(--line);color:var(--ink-2);font-weight:500;transition:all .16s}
+.chip.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.goods{display:flex;gap:12px;padding:13px;margin-bottom:10px}
+.gcover{width:76px;height:94px;border-radius:11px;flex:none;display:grid;place-items:center;color:#fff;font-weight:700;font-size:11.5px;text-align:center;padding:6px;line-height:1.3;position:relative}
+.gcover .badge{position:absolute;top:-6px;right:-6px;background:var(--danger);color:#fff;font-size:9px;font-weight:700;padding:2px 6px;border-radius:99px;font-family:'Outfit',sans-serif}
+.ginfo{flex:1;min-width:0;display:flex;flex-direction:column}
+.ginfo h5{font-size:14px;font-weight:600;line-height:1.4;margin-bottom:5px}
+.ginfo .desc{font-size:11.5px;color:var(--ink-3);line-height:1.5;margin-bottom:8px;flex:1}
+.gbot{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.gprice{display:flex;align-items:baseline;gap:5px}
+.gprice b{font-family:'Outfit',sans-serif;font-size:18px;font-weight:700;color:var(--danger);letter-spacing:-.02em}
+.gprice s{font-size:10.5px;color:var(--ink-3)}
+.vip-tag{font-size:10px;font-weight:700;color:#a16207;background:var(--warn-tint);padding:1.5px 6px;border-radius:5px}
+.buy-btn{background:var(--ink);color:#fff;font-size:12.5px;font-weight:600;padding:8px 15px;border-radius:10px;transition:background .16s}
+.buy-btn:hover{background:var(--accent-deep)}
+.mcard{background:linear-gradient(150deg,#fff 0%,#f6fdf9 100%);border:1px solid #bbf0d9;border-radius:var(--r-l);padding:16px;margin-bottom:10px;position:relative;overflow:hidden}
+.mcard::after{content:"";position:absolute;right:-30px;bottom:-40px;width:120px;height:120px;border-radius:50%;background:rgba(16,185,129,.08)}
+.mcard .k{font-size:10.5px;font-weight:700;color:var(--accent-deep);background:var(--accent-tint);padding:2px 8px;border-radius:6px;display:inline-block;margin-bottom:8px}
+.mcard h4{font-size:16px;font-weight:700;letter-spacing:-.01em;margin-bottom:4px}
+.mcard .price{display:flex;align-items:baseline;gap:7px;margin:10px 0 12px}
+.mcard .price b{font-family:'Outfit',sans-serif;font-size:24px;font-weight:700;letter-spacing:-.02em}
+.mcard .price s{font-size:12px;color:var(--ink-3)}
+.mcard .price em{font-style:normal;font-size:10.5px;font-weight:600;color:var(--danger);background:var(--danger-tint);padding:2px 7px;border-radius:6px}
+.mlist{display:flex;flex-direction:column;gap:7px;margin-bottom:13px;position:relative;z-index:2}
+.mlist div{display:flex;align-items:center;gap:7px;font-size:12px;color:var(--ink-2)}
+
+/* ---------- profile ---------- */
+.prof-head{display:flex;align-items:center;gap:13px;padding:6px 0 16px}
+.avatar{width:52px;height:52px;border-radius:17px;background:var(--ink);color:#fff;display:grid;place-items:center;font-size:19px;font-weight:700;flex:none}
+.prof-head h3{font-size:17px;font-weight:700;letter-spacing:-.01em}
+.prof-head p{font-size:12px;color:var(--ink-3)}
+.vipchip{font-size:10px;font-weight:700;color:#a16207;background:var(--warn-tint);padding:2px 7px;border-radius:5px;margin-left:6px}
+.stat-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:6px}
+.stat{background:#fff;border:1px solid var(--line);border-radius:var(--r-m);padding:13px}
+.stat b{display:block;font-family:'Outfit',sans-serif;font-size:21px;font-weight:700;letter-spacing:-.02em;letter-spacing:-.02em}
+.stat span{font-size:11px;color:var(--ink-3)}
+.stat em{font-style:normal;font-size:10.5px;font-weight:600;color:var(--accent-deep);margin-left:5px}
+.mrow{display:flex;align-items:center;gap:11px;padding:13px 14px;background:#fff;border-bottom:1px solid var(--line-2);width:100%;text-align:left;transition:background .16s}
+.mrow:first-child{border-radius:var(--r-m) var(--r-m) 0 0}
+.mrow:last-child{border-radius:0 0 var(--r-m) var(--r-m);border-bottom:none}
+.mrow:hover{background:var(--accent-tint)}
+.mrow .ic{width:28px;height:28px;border-radius:9px;background:var(--line-2);display:grid;place-items:center;color:var(--ink-2);flex:none}
+.mrow .t{flex:1;font-size:13.5px}
+.mrow .r{font-size:11.5px;color:var(--ink-3);display:flex;align-items:center;gap:6px}
+.mrow .arrow{color:var(--ink-3)}
+
+/* ---------- parent report ---------- */
+.rpt-banner{background:linear-gradient(150deg,var(--accent) 0%,var(--accent-deep) 100%);color:#fff;border-radius:var(--r-l);padding:16px;margin-bottom:12px}
+.rpt-banner .k{font-size:10.5px;opacity:.85;display:flex;align-items:center;gap:5px}
+.rpt-banner h3{font-size:17px;font-weight:700;letter-spacing:-.01em;margin:6px 0 4px}
+.rpt-banner p{font-size:12px;opacity:.85;line-height:1.55}
+.kpi-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px}
+.kpi{background:#fff;border:1px solid var(--line);border-radius:var(--r-m);padding:13px}
+.kpi .l{font-size:11px;color:var(--ink-3);margin-bottom:3px}
+.kpi b{font-family:'Outfit',sans-serif;font-size:21px;font-weight:700;letter-spacing:-.02em}
+.kpi .d{font-size:10.5px;font-weight:600;margin-top:2px;display:inline-flex;align-items:center;gap:3px}
+.up{color:var(--accent-deep)}.down{color:var(--danger)}
+.heat{display:grid;grid-template-columns:repeat(7,1fr);gap:5px;margin-top:4px}
+.heat i{aspect-ratio:1;border-radius:4px;background:var(--line-2);display:block}
+.heat i.l1{background:#c9f2e2}.heat i.l2{background:#7fe0bd}.heat i.l3{background:#34d399}.heat i.l4{background:var(--accent-deep)}
+.heat-labels{display:grid;grid-template-columns:repeat(7,1fr);gap:5px;margin-bottom:4px}
+.heat-labels span{font-size:9.5px;color:var(--ink-3);text-align:center}
+.ptips{display:flex;flex-direction:column;gap:8px}
+.ptip{display:flex;gap:9px;background:#fff;border:1px solid var(--line);border-radius:13px;padding:11px 12px;font-size:12.5px;line-height:1.55;color:var(--ink-2)}
+.ptip .n{width:19px;height:19px;border-radius:6px;background:var(--accent-tint);color:var(--accent-deep);font-family:'Outfit',sans-serif;font-size:10.5px;font-weight:700;display:grid;place-items:center;flex:none;margin-top:1px}
+.ptip b{color:var(--ink)}
+
+/* ---------- modal ---------- */
+.mask{position:absolute;inset:0;background:rgba(10,18,15,.5);backdrop-filter:blur(3px);z-index:60;display:none;align-items:flex-end;justify-content:center}
+.mask.on{display:flex;animation:fade .2s ease}
+.sheet{width:100%;background:#fff;border-radius:24px 24px 36px 36px;padding:20px 18px 26px;max-height:88%;overflow-y:auto;animation:up .3s cubic-bezier(.32,.72,0,1)}
+@keyframes up{from{transform:translateY(100%)}to{transform:none}}
+.sheet .handle{width:36px;height:4px;border-radius:99px;background:var(--line);margin:0 auto 15px}
+.sheet h3{font-size:18px;font-weight:700;letter-spacing:-.02em;margin-bottom:5px}
+.sheet .sub{font-size:12.5px;color:var(--ink-3);margin-bottom:15px}
+.opt-row{display:flex;align-items:center;gap:11px;border:1.5px solid var(--line);border-radius:13px;padding:12px 13px;margin-bottom:9px;width:100%;text-align:left;transition:all .16s}
+.opt-row.on{border-color:var(--accent);background:var(--accent-tint)}
+.opt-row .ic{width:30px;height:30px;border-radius:9px;background:var(--line-2);display:grid;place-items:center;flex:none}
+.opt-row .t{flex:1}
+.opt-row .t b{display:block;font-size:13.5px;font-weight:600}
+.opt-row .t span{font-size:11px;color:var(--ink-3)}
+.opt-row .ck{opacity:0;color:var(--accent);transition:opacity .16s}
+.opt-row.on .ck{opacity:1}
+.summary{border-top:1px dashed var(--line);margin-top:14px;padding-top:13px;display:flex;flex-direction:column;gap:9px}
+.sline{display:flex;justify-content:space-between;font-size:13px;color:var(--ink-2)}
+.sline.total{font-size:15px;font-weight:700;color:var(--ink);align-items:baseline}
+.sline.total b{font-family:'Outfit',sans-serif;font-size:22px;color:var(--danger);letter-spacing:-.02em}
+.coupon{display:flex;align-items:center;gap:7px;background:var(--danger-tint);border-radius:11px;padding:9px 12px;font-size:12px;color:#be123c;font-weight:500}
+.paybar{display:flex;align-items:center;gap:12px;background:var(--line-2);border-radius:13px;padding:12px 14px;margin-top:14px}
+.paybar .wx{width:30px;height:30px;border-radius:9px;background:var(--accent);color:#fff;display:grid;place-items:center;flex:none}
+.paybar .t{flex:1;font-size:13.5px;font-weight:600}
+.success{text-align:center;padding:12px 0 4px}
+.success .ic{width:60px;height:60px;border-radius:50%;background:var(--accent-tint);color:var(--accent-deep);display:grid;place-items:center;margin:0 auto 13px}
+.success h3{font-size:19px;font-weight:700;letter-spacing:-.02em}
+.success p{font-size:13px;color:var(--ink-3);margin:5px 0 18px}
+
+/* plan switch */
+.plan{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px}
+.plan-c{border:1.5px solid var(--line);border-radius:15px;padding:13px;text-align:center;transition:all .16s;position:relative}
+.plan-c.on{border-color:var(--accent);background:var(--accent-tint)}
+.plan-c b{display:block;font-family:'Outfit',sans-serif;font-size:20px;font-weight:700;letter-spacing:-.02em}
+.plan-c span{font-size:11px;color:var(--ink-3)}
+.plan-c .save{position:absolute;top:-8px;right:-6px;background:var(--danger);color:#fff;font-size:9.5px;font-weight:700;padding:2px 6px;border-radius:99px}
+.perk{display:flex;gap:8px;align-items:flex-start;font-size:12.5px;color:var(--ink-2);padding:5px 0}
+.perk svg{flex:none;margin-top:3px;color:var(--accent-deep)}
+
+/* ---------- caption under phone ---------- */
+.caption{max-width:390px;width:100%;display:flex;gap:10px;align-items:flex-start;background:#fff;border:1px solid var(--line);border-radius:var(--r-m);padding:11px 13px;box-shadow:var(--shadow-s)}
+.caption .ic{width:26px;height:26px;border-radius:8px;background:var(--accent-tint);color:var(--accent-deep);display:grid;place-items:center;flex:none}
+.caption b{font-size:12.5px;display:block;margin-bottom:2px}
+.caption p{font-size:11.5px;color:var(--ink-3);line-height:1.5}
+.hintbar{font-size:11.5px;color:var(--ink-3);display:flex;gap:14px;flex-wrap:wrap;justify-content:center;align-items:center}
+.hintbar kbd{font-family:'JetBrains Mono',monospace;font-size:10px;background:#fff;border:1px solid var(--line);border-bottom-width:2px;border-radius:5px;padding:1px 5px;color:var(--ink-2)}
+
+@media(max-width:1080px){
+  .layout{grid-template-columns:1fr;gap:26px}
+  .side{position:static;max-height:none}
+  .navlist{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:6px}
+}
+@media(max-width:440px){
+  body{padding:16px 10px 30px}
+  .phone{width:100%;max-width:390px;height:780px;padding:8px;border-radius:40px}
+  .bezel{border-radius:32px}
+  .notch{width:90px}
+}
+</style>
+</head>
+<body>
+<div class="layout">
+
+  <!-- ================= SIDEBAR ================= -->
+  <aside class="side">
+    <div class="brand">
+      <div class="brand-mark">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5V5a2 2 0 0 1 2-2h13"/><path d="M6 17h13"/><path d="M9 7h6"/></svg>
+      </div>
+      <h1>拾词</h1>
+      <span class="ver">v1.0</span>
+    </div>
+    <p class="side-lede">高考英语核心词汇工具 · 面向<b>工具订阅 + 资料电商</b>双引擎的独立开发者方案</p>
+    <span class="tagline">专治「认识却用不对」</span>
+
+    <h2>页面地图</h2>
+    <nav class="navlist" id="nav"></nav>
+
+    <h2>核心闭环</h2>
+    <div class="flowcard">
+      <svg viewBox="0 0 240 132" width="100%" height="132" fill="none">
+        <defs><marker id="ar" markerWidth="7" markerHeight="7" refX="5.5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#10b981"/></marker></defs>
+        <rect x="8" y="14" width="62" height="42" rx="11" fill="#ecfdf5" stroke="#10b981" stroke-width="1.4"/>
+        <text x="39" y="33" font-size="10.5" font-weight="700" fill="#047857" text-anchor="middle" font-family="Outfit,sans-serif">发现</text>
+        <text x="39" y="46" font-size="9" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC,sans-serif">首页/错因</text>
+        <rect x="89" y="14" width="62" height="42" rx="11" fill="#ecfdf5" stroke="#10b981" stroke-width="1.4"/>
+        <text x="120" y="33" font-size="10.5" font-weight="700" fill="#047857" text-anchor="middle" font-family="Outfit,sans-serif">学习</text>
+        <text x="120" y="46" font-size="9" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC,sans-serif">背词/专项</text>
+        <rect x="170" y="14" width="62" height="42" rx="11" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.4"/>
+        <text x="201" y="33" font-size="10.5" font-weight="700" fill="#b45309" text-anchor="middle" font-family="Outfit,sans-serif">付费</text>
+        <text x="201" y="46" font-size="9" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC,sans-serif">全包/资料</text>
+        <path d="M70 35 H86" stroke="#10b981" stroke-width="1.6" marker-end="url(#ar)"/>
+        <path d="M151 35 H167" stroke="#10b981" stroke-width="1.6" marker-end="url(#ar)"/>
+        <path d="M201 58 V92 H39 V60" stroke="#10b981" stroke-width="1.6" stroke-dasharray="4 3" marker-end="url(#ar)"/>
+        <text x="120" y="106" font-size="9.5" fill="#047857" text-anchor="middle" font-family="Noto Sans SC,sans-serif">错因回流 · 精准补弱</text>
+        <text x="120" y="121" font-size="9" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC,sans-serif">复购来自数据变好，不靠打扰</text>
+      </svg>
+    </div>
+
+    <h2>关键设计决策</h2>
+    <ul class="dlist">
+      <li><span class="k">01</span><span><b>首页不叫「背单词」，叫「今日任务」。</b>把 20 词拆成 8 分钟可完成的小目标，高三用户要的是确定性，不是词库规模。</span></li>
+      <li><span class="k">02</span><span><b>背词卡强制翻面才可评价。</b>三档（不认识/模糊/认识）直接喂给间隔重复算法，是留存的地基。</span></li>
+      <li><span class="k">03</span><span><b>「熟词僻义」是唯一的差异化专项。</b>免费用户可试 3 题，第 4 题起进付费墙 —— 首次付费点放在最痛的地方。</span></li>
+      <li><span class="k">04</span><span><b>失分地图把 App 从工具变成诊断。</b>按错因归类（不是按词表），直接给家长看可解释的失分归因逻辑。</span></li>
+      <li><span class="k">05</span><span><b>资料电商挂在词库旁边。</b>用户刚背完 150 词 → 立刻推《真题语境手册》，转化路径最短。</span></li>
+      <li><span class="k">06</span><span><b>家长周报免费开放。</b>家长是真正的付费决策人，先给他「看得见的进步」，再收钱。</span></li>
+    </ul>
+
+    <h2>变现位标注</h2>
+    <ul class="dlist">
+      <li><span class="k">A</span><span>专项训练第 4 题起 · 全包 ¥9.9（一次买断，含完整训练册）</span></li>
+      <li><span class="k">B</span><span>失分地图完整版 · 含在全包 ¥9.9 内</span></li>
+      <li><span class="k">C</span><span>资料商店 · 分档单品 ¥1.9 / ¥3.9 / ¥4.9</span></li>
+      <li><span class="k">D</span><span>真题例句库（核心壁垒）· 含在全包内</span></li>
+    </ul>
+
+    <div class="sidefoot">
+      原型为<b>静态高保真交互稿</b>，无后端。<br>
+      词条例句为<b>仿真例句</b>，规避真题版权风险。<br>
+      直接双击文件即可离线打开：<code>prototype/index.html</code>
+    </div>
+  </aside>
+
+  <!-- ================= STAGE ================= -->
+  <main class="main">
+    <div class="phone" id="phone">
+      <div class="notch"></div>
+      <div class="bezel">
+        <div class="statusbar">
+          <span>9:41</span>
+          <span class="sb-r">
+            <svg width="16" height="11" viewBox="0 0 16 11" fill="currentColor"><rect x="0" y="7" width="3" height="4" rx="1"/><rect x="4.3" y="5" width="3" height="6" rx="1"/><rect x="8.6" y="2.5" width="3" height="8.5" rx="1"/><rect x="12.9" y="0" width="3" height="11" rx="1"/></svg>
+            <svg width="15" height="11" viewBox="0 0 15 11" fill="currentColor"><path d="M7.5 9.8 5.6 7.9a2.7 2.7 0 0 1 3.8 0l-1.9 1.9Z"/><path d="M3.4 5.7 1.6 3.9a8.3 8.3 0 0 1 11.8 0l-1.8 1.8a6 6 0 0 0-8.2 0Z" opacity=".9"/><path d="M0 1.4A11.7 11.7 0 0 1 15 1.4l-1.6 1.7a9.4 9.4 0 0 0-11.8 0L0 1.4Z" opacity=".55"/></svg>
+            <svg width="24" height="11" viewBox="0 0 24 11" fill="none"><rect x="0.6" y="0.6" width="20" height="9.8" rx="3" stroke="currentColor" stroke-opacity=".35"/><rect x="2.2" y="2.2" width="15" height="6.6" rx="1.8" fill="currentColor"/><path d="M22 4v3" stroke="currentColor" stroke-opacity=".4" stroke-width="1.6" stroke-linecap="round"/></svg>
+          </span>
+        </div>
+
+        <div class="screens" id="screens">
+          <!-- ===== HOME ===== -->
+          <section class="screen on" id="s-home">
+            <div class="ptop">
+              <div class="countdown">
+                <div>
+                  <div class="lbl">距 2027 高考</div>
+                  <div class="num">203<small>天</small></div>
+                </div>
+                <div class="r">
+                  <div class="streak">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2c1 4-3 5-3 9a4 4 0 0 0 7 2.6C18 11 15 6 12 2Z" opacity=".9"/></svg>
+                    连续打卡 <span id="kpiStreak">0</span> 天
+                  </div>
+                  <div style="font-size:11px;opacity:.55;margin-top:2px">晚上好，林同学</div>
+                </div>
+              </div>
+
+              <div class="card today-card">
+                <div class="ring" id="ring">
+                  <div class="ring-in"><b id="ringp">0</b><span id="ringSub">已背 0/0</span></div>
+                </div>
+                <div class="today-meta">
+                  <h4>今日任务</h4>
+                  <p>核心高频词 20 词 · 预计 8 分钟</p>
+                  <button class="btn btn-primary" onclick="go('s-study')" style="padding:10px 16px;font-size:13.5px">继续学习</button>
+                </div>
+              </div>
+
+              <div class="mini-stat">
+                <div class="ms"><b id="kpiTouched">0</b><span>累计接触</span></div>
+                <div class="ms"><b id="kpiMastered">0</b><span>已掌握</span></div>
+                <div class="ms"><b id="kpiWeak">0</b><span>待巩固</span></div>
+              </div>
+
+              <div class="sec-head"><h3>为你推荐</h3><span class="more" onclick="go('s-err')">失分地图 <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span></div>
+
+              <div class="hero-entry" onclick="go('s-quiz')">
+                <div class="k">
+                  <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 2.6 6.3 6.8.5-5.2 4.5 1.6 6.6L12 16.3 6.2 19.9l1.6-6.6L2.6 8.8l6.8-.5L12 2Z"/></svg>
+                  今日必练 · 3 分钟
+                </div>
+                <h4>熟词僻义专项</h4>
+                <p id="homeQuizLine">12 道高频陷阱题 · 做完 3 题看你的真实正确率</p>
+                <span class="go">开始练习 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
+              </div>
+
+              <div class="two-grid">
+                <div class="card small-entry" onclick="go('s-err')">
+                  <div class="ic" style="background:var(--danger-tint);color:var(--danger)">
+                    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+                  </div>
+                  <h4>失分地图</h4>
+                  <p>近 30 天错因定位</p>
+                  <span class="go">查看 <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
+                </div>
+                <div class="card small-entry" onclick="go('s-parent')">
+                  <div class="ic" style="background:var(--accent-tint);color:var(--accent-deep)">
+                    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M8 21V9h8v12"/></svg>
+                  </div>
+                  <h4>家长周报</h4>
+                  <p>本周学习进度报告</p>
+                  <span class="go">查看 <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
+                </div>
+              </div>
+
+              <div class="sec-head"><h3>教辅资料</h3><span class="more" onclick="go('s-shop')">全部 <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span></div>
+              <div class="prod-scroll">
+                <div class="prod-card" onclick="go('s-shop')">
+                  <div class="prod-cover" style="background:linear-gradient(150deg,#10b981,#047857)">真题语境<br>核心1500词</div>
+                  <div class="prod-body">
+                    <h5>《高考英语核心1500词 · 真题语境版》</h5>
+                    <div class="prod-price"><b>¥4.9</b></div>
+                    <div class="prod-meta">分档 150/750/1500 词 · ¥1.9 起</div>
+                  </div>
+                </div>
+                <div class="prod-card" onclick="go('s-shop')">
+                  <div class="prod-cover" style="background:linear-gradient(150deg,#f59e0b,#b45309)">熟词僻义<br>100题专项</div>
+                  <div class="prod-body">
+                    <h5>《熟词僻义100题专项训练册》</h5>
+                    <div class="prod-price"><b>¥4.9</b></div>
+                    <div class="prod-meta">分档 10/50/100 题 · ¥1.9 起</div>
+                  </div>
+                </div>
+                <div class="prod-card" onclick="go('s-shop')">
+                  <div class="prod-cover" style="background:linear-gradient(150deg,#64748b,#334155)">高频搭配<br>速记手册</div>
+                  <div class="prod-body">
+                    <h5>《高考英语高频搭配速记手册》</h5>
+                    <div class="prod-price"><b>¥4.9</b></div>
+                    <div class="prod-meta">分档 60/300/600 组 · ¥1.9 起</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- ===== STUDY / WORD CARD ===== -->
+          <section class="screen sub" id="s-study">
+            <div class="studybar">
+              <button class="icon-btn" onclick="go('s-home')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button>
+              <div class="pbar"><i id="spbar" style="width:60%"></i></div>
+              <span class="cnt" id="scnt">12/20</span>
+            </div>
+            <div id="studyBody"></div>
+          </section>
+
+          <!-- ===== QUIZ ===== -->
+          <section class="screen sub" id="s-quiz">
+            <div class="backbar">
+              <button class="icon-btn" onclick="go('s-home')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button>
+              <h3>熟词僻义专项</h3>
+            </div>
+            <div id="quizBody"></div>
+          </section>
+
+          <!-- ===== ERROR MAP ===== -->
+          <section class="screen sub" id="s-err">
+            <div class="backbar">
+              <button class="icon-btn" onclick="go('s-home')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button>
+              <h3>失分地图</h3>
+              <span class="more" style="margin-left:auto;font-size:11.5px;color:var(--ink-3)">近 30 天</span>
+            </div>
+            <p class="scr-sub" style="margin-top:-6px">累计 <span id="kpiQuizN">0</span> 题 · 错 <span id="kpiQuizW">0</span> 题 · 你的失分高度集中在「熟词僻义」</p>
+
+            <div class="advice">
+              <div class="k">
+                <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v4"/><path d="M12 17h.01"/><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0Z"/></svg>
+                本周建议
+              </div>
+              <h4>优先攻克熟词僻义</h4>
+              <p id="errAdvice">正在统计你的错因分布…</p>
+            </div>
+
+            <div class="chart-card">
+              <h4>错因分布</h4>
+              <div class="sub" id="errDistSub">按失分原因归类，而非词表顺序</div>
+              <div id="errDist"></div>
+              <div class="legend">
+                <span><i style="background:var(--danger)"></i>首要缺口</span>
+                <span><i style="background:var(--accent);opacity:.7"></i>次要缺口</span>
+                <span><i style="background:var(--accent);opacity:.3"></i>边缘失分</span>
+              </div>
+            </div>
+
+            <div class="chart-card">
+              <h4>题型分布</h4>
+              <div class="sub">哪类题型在偷走你的分数</div>
+              <div id="typeDist"></div>
+            </div>
+
+            <div class="sec-head"><h3>高频错词 · Top 5</h3><span class="more" id="errTotal">全部 0 个</span></div>
+            <div class="errlist" id="errList"></div>
+
+            <button class="btn btn-dark" style="margin-top:14px" onclick="go('s-quiz')">一键攻克 Top10 错词</button>
+          </section>
+
+          <!-- ===== SHOP ===== -->
+          <section class="screen" id="s-shop">
+            <div class="ptop">
+              <h2 class="scr-title">资料商店</h2>
+              <p class="scr-sub">配合学习进度使用，效果最好</p>
+              <div class="shoptop">
+                <button class="chip on">全部</button>
+                <button class="chip">词书</button>
+                <button class="chip">专项</button>
+                <button class="chip">打卡表</button>
+              </div>
+
+              <div class="mcard">
+                <span class="k">全包 · 一次买断</span>
+                <h4>拾词全包</h4>
+                <p style="font-size:12px;color:var(--ink-3)">完整 100 题训练册 + 全部专项训练、义项树与家长周报</p>
+                <div class="price">
+                  <b>¥9.9</b><em>全站最高价</em>
+                </div>
+                <div class="mlist">
+                  <div><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>完整 100 题专项训练册 PDF</div>
+                  <div><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>全部专项训练题库 + 解析</div>
+                  <div><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>真题风格例句库</div>
+                  <div><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>错词自动复习 + 完整失分地图</div>
+                  <div><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>家长周报 · 每周推送</div>
+                </div>
+                <button class="btn btn-primary" onclick="openPay('all')">立即购买全包</button>
+              </div>
+
+              <div class="sec-head"><h3>单品教辅</h3><span class="more">电子 PDF · 分档定价</span></div>
+              <div id="goodsList"></div>
+
+              <div class="card" style="padding:14px;margin-top:6px;display:flex;gap:11px;align-items:center">
+                <div style="width:34px;height:34px;border-radius:11px;background:var(--accent-tint);color:var(--accent-deep);display:grid;place-items:center;flex:none">
+                  <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m8 11 4 4 4-4"/><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg>
+                </div>
+                <div style="flex:1">
+                  <div style="font-size:13px;font-weight:600">下单后 3 分钟内可下载</div>
+                  <div style="font-size:11.5px;color:var(--ink-3)">全部电子版，可自行双面打印，无实体书</div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- ===== PROFILE ===== -->
+          <section class="screen" id="s-me">
+            <div class="ptop">
+              <div class="prof-head">
+                <div class="avatar">林</div>
+                <div>
+                  <h3>林同学<span class="vipchip">普通用户</span></h3>
+                  <p>高三 · 累计学习 <span id="kpiMinutes">0</span> 分钟 · <span id="kpiStreak2">0</span> 天连续</p>
+                </div>
+              </div>
+
+              <div class="card" style="padding:16px;margin-bottom:14px;background:linear-gradient(150deg,#fff,#f6fdf9);border-color:#bbf0d9">
+                <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px">
+                  <div style="flex:1">
+                    <div style="font-size:15px;font-weight:700">升级全包，解锁全部专项</div>
+                    <div style="font-size:12px;color:var(--ink-3);margin-top:2px">全包 ¥9.9 · 一次买断</div>
+                  </div>
+                  <button class="btn btn-primary btn-sm" onclick="openPay('all')">开通</button>
+                </div>
+                <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;text-align:center">
+                  <div><b style="font-family:'Outfit';font-size:17px">全部</b><div style="font-size:10.5px;color:var(--ink-3)">专项训练</div></div>
+                  <div><b style="font-family:'Outfit';font-size:17px">∞</b><div style="font-size:10.5px;color:var(--ink-3)">真题例句</div></div>
+                  <div><b style="font-family:'Outfit';font-size:17px">周报</b><div style="font-size:10.5px;color:var(--ink-3)">家长报告</div></div>
+                </div>
+              </div>
+
+              <div class="stat-grid">
+                <div class="stat"><b id="kpiTouched2">0</b><span>累计接触词汇</span></div>
+                <div class="stat"><b id="kpiMastered2">0</b><span>已掌握</span></div>
+                <div class="stat"><b id="kpiStreak3">0<em>天</em></b><span>连续打卡</span></div>
+                <div class="stat"><b id="kpiMinutes2">0<em>min</em></b><span>累计学习时长</span></div>
+              </div>
+
+              <div class="sec-head"><h3>我的</h3></div>
+              <div class="card" style="overflow:hidden">
+                <button class="mrow" onclick="go('s-err')">
+                  <span class="ic"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg></span>
+                  <span class="t">错题本</span>
+                  <span class="r"><span id="errBook">0 个待攻克</span> <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
+                </button>
+                <button class="mrow" onclick="go('s-parent')">
+                  <span class="ic"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M8 21V9h8v12"/></svg></span>
+                  <span class="t">家长周报</span>
+                  <span class="r">11月10日 <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
+                </button>
+                <button class="mrow" onclick="openPay('all')">
+                  <span class="ic"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2.5"/><path d="M2 10h20"/></svg></span>
+                  <span class="t">我的订单</span>
+                  <span class="r">2 笔 <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
+                </button>
+                <button class="mrow">
+                  <span class="ic"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.9l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.9-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1A1.7 1.7 0 0 0 9 19.4a1.7 1.7 0 0 0-1.9.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.9 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1A1.7 1.7 0 0 0 4.6 9a1.7 1.7 0 0 0-.3-1.9l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.9.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.9-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.9V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1Z"/></svg></span>
+                  <span class="t">学习设置</span>
+                  <span class="r">每日 20 词 <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
+                </button>
+              </div>
+
+              <div style="text-align:center;font-size:11px;color:var(--ink-3);margin-top:18px">拾词 v1.0.0 · 例句为仿真例句</div>
+            </div>
+          </section>
+
+          <!-- ===== PARENT REPORT ===== -->
+          <section class="screen sub" id="s-parent">
+            <div class="backbar">
+              <button class="icon-btn" onclick="go('s-home')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button>
+              <h3>家长周报</h3>
+              <span style="margin-left:auto;font-size:11.5px;color:var(--ink-3)">11.10 – 11.16</span>
+            </div>
+
+            <div class="rpt-banner">
+              <div class="k">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+                第 3 周 · 距离高考 203 天
+              </div>
+              <h3>孩子本周状态：稳步上升</h3>
+              <p>学习时长与正确率同时提升，熟词僻义仍是主要短板，建议继续专项训练。</p>
+            </div>
+
+            <div class="kpi-grid">
+              <div class="kpi"><div class="l">学习时长</div><b>3.5h</b><div class="d up"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 15 7-7 7 7"/></svg>较上周 +40%</div></div>
+              <div class="kpi"><div class="l">本周复习词</div><b>142</b><div class="d up"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 15 7-7 7 7"/></svg>计划 120 词</div></div>
+              <div class="kpi"><div class="l">综合正确率</div><b id="kpiAcc">0%</b><div class="d up"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 15 7-7 7 7"/></svg>+8%</div></div>
+              <div class="kpi"><div class="l">坚持打卡</div><b id="kpiCheckin">0/7</b><div class="d down"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 9 7 7 7-7"/></svg>缺 1 天</div></div>
+            </div>
+
+            <div class="chart-card">
+              <h4>每日学习量</h4>
+              <div class="sub">本周背诵词数（周一至周日）</div>
+              <svg viewBox="0 0 300 120" width="100%" height="120" fill="none">
+                <line x1="24" y1="96" x2="288" y2="96" stroke="#e4e8e3" stroke-width="1"/>
+                <line x1="24" y1="62" x2="288" y2="62" stroke="#eef1ed" stroke-width="1"/>
+                <line x1="24" y1="28" x2="288" y2="28" stroke="#eef1ed" stroke-width="1"/>
+                <text x="18" y="99" font-size="8" fill="#78857f" text-anchor="end" font-family="Outfit">0</text>
+                <text x="18" y="65" font-size="8" fill="#78857f" text-anchor="end" font-family="Outfit">30</text>
+                <text x="18" y="31" font-size="8" fill="#78857f" text-anchor="end" font-family="Outfit">60</text>
+                <path d="M36 76 L76 58 L116 66 L156 40 L196 50 L236 22 L276 34" stroke="#10b981" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M36 76 L76 58 L116 66 L156 40 L196 50 L236 22 L276 34 L276 96 L36 96 Z" fill="#10b981" fill-opacity=".08"/>
+                <circle cx="36" cy="76" r="3.2" fill="#fff" stroke="#10b981" stroke-width="2"/>
+                <circle cx="76" cy="58" r="3.2" fill="#fff" stroke="#10b981" stroke-width="2"/>
+                <circle cx="116" cy="66" r="3.2" fill="#fff" stroke="#10b981" stroke-width="2"/>
+                <circle cx="156" cy="40" r="3.2" fill="#fff" stroke="#10b981" stroke-width="2"/>
+                <circle cx="196" cy="50" r="3.2" fill="#fff" stroke="#10b981" stroke-width="2"/>
+                <circle cx="236" cy="22" r="3.2" fill="#10b981" stroke="#fff" stroke-width="2"/>
+                <circle cx="276" cy="34" r="3.2" fill="#fff" stroke="#10b981" stroke-width="2"/>
+                <text x="36" y="112" font-size="8.5" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC">一</text>
+                <text x="76" y="112" font-size="8.5" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC">二</text>
+                <text x="116" y="112" font-size="8.5" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC">三</text>
+                <text x="156" y="112" font-size="8.5" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC">四</text>
+                <text x="196" y="112" font-size="8.5" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC">五</text>
+                <text x="236" y="112" font-size="8.5" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC">六</text>
+                <text x="276" y="112" font-size="8.5" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC">日</text>
+              </svg>
+            </div>
+
+            <div class="chart-card">
+              <h4>近 4 周打卡</h4>
+              <div class="sub">颜色越深，学习量越大</div>
+              <div class="heat-labels"><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span></div>
+              <div class="heat" id="heat"></div>
+            </div>
+
+            <div class="chart-card">
+              <h4>本周薄弱项</h4>
+              <div class="sub">建议按此顺序补弱</div>
+              <div class="bench top"><span class="bench-label">熟词僻义</span><div class="bench-track"><div class="bench-fill" style="width:38%"></div></div><span class="bench-val">38%</span></div>
+              <div class="bench"><span class="bench-label">一词多义</span><div class="bench-track"><div class="bench-fill" style="width:24%;opacity:.72"></div></div><span class="bench-val">24%</span></div>
+              <div class="bench"><span class="bench-label">固定搭配</span><div class="bench-track"><div class="bench-fill" style="width:19%;opacity:.52"></div></div><span class="bench-val">19%</span></div>
+            </div>
+
+            <div class="sec-head"><h3>给家长的建议</h3></div>
+            <div class="ptips">
+              <div class="ptip"><span class="n">1</span><span>本周有 <b>1 天未打卡</b>（周六），建议把每日目标从 20 词调到 15 词，先保住连续性再提量。</span></div>
+              <div class="ptip"><span class="n">2</span><span>错题集中在<b>熟词僻义</b>，是「认识但不懂句中含义」。专项训练每天 5 题，两周可见明显变化。</span></div>
+              <div class="ptip"><span class="n">3</span><span>正确率提升 8%，处于健康区间。<b>不必加量</b>，当前节奏比强度更重要。</span></div>
+            </div>
+          </section>
+        </div>
+
+        <nav class="tabbar" id="tabbar">
+          <button class="tab on" data-tab="s-home">
+            <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 10 9-7 9 7v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z"/><path d="M9 22V12h6v10"/></svg>
+            <span>首页</span>
+          </button>
+          <button class="tab" data-tab="s-study">
+            <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5V5a2 2 0 0 1 2-2h13"/><path d="M6 17h13"/><path d="M9 7h6"/></svg>
+            <span>背词</span>
+          </button>
+          <button class="tab" data-tab="s-shop">
+            <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+            <span>资料</span>
+          </button>
+          <button class="tab" data-tab="s-me">
+            <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>
+            <span>我的</span>
+          </button>
+        </nav>
+      </div>
+      <div class="home-ind"></div>
+
+      <!-- modals -->
+      <div class="mask" id="mask" onclick="if(event.target===this)closeMask()">
+        <div class="sheet" id="sheet"></div>
+      </div>
+    </div>
+
+    <div class="caption" id="caption"></div>
+
+    <div class="hintbar">
+      <span>点卡片翻面 · 三档评价喂给记忆算法</span>
+      <span><kbd>←</kbd> <kbd>→</kbd> 切页</span>
+      <span>全包弹窗 / 下单流程可点 <kbd>资料</kbd> <kbd>我的</kbd> 进入</span>
+    </div>
+  </main>
+</div>
+
+<script>
+/* ==================== DATA ==================== */
+/* @inject:fsrs */
+/* ==== BEGIN @inject:fsrs ==== */
+/* 以下为生成内容，源文件见 prototype/src/，请勿手改 */
+/* ============================================================
+ * 拾词 · FSRS-5 记忆调度引擎（义项级）
+ * ============================================================
+ * 这不是"看起来像算法"的装饰。原型左栏写着「词卡与记忆算法」，
+ * 那这里就必须是真算法：每个义项（sense_id）各自维护难度 D 与
+ * 稳定度 S，按幂律遗忘曲线算可提取性 R，据此定下次复习时间。
+ *
+ * 与 Python 参考实现 tools/fsrs_reference.py 逐式对应，
+ * 该脚本用公开 FSRS visualizer 基准值校验过（连续按 Good：
+ * 稳定度 3.17 → 10.75 → 34.63 → 100.91，公开基准 3.17 → 10.74
+ * → 34.58 → 100.75，偏差 ≤0.16，属各公开实现间的取整口径差异）。
+ *
+ * 三档评价映射（UI 三个按钮）：
+ *   1 不认识 → FSRS rating 1 (Again)
+ *   2 模糊   → FSRS rating 2 (Hard)
+ *   3 认识   → FSRS rating 3 (Good)
+ *   FSRS rating 4 (Easy) 未在 UI 暴露。
+ * ============================================================ */
+var FSRS = (function () {
+  'use strict';
+
+  var W = [
+    0.40255, 1.18385, 3.173, 15.69105,   // w0-w3  初始稳定度 Again/Hard/Good/Easy
+    7.1949, 0.5345,                      // w4-w5  初始难度
+    1.4604, 0.0046,                      // w6-w7  难度更新与均值回拉
+    1.54575, 0.1192, 1.01925,            // w8-w10 成功后稳定度增长
+    1.9395, 0.11, 0.29605, 2.2698,       // w11-w14 失败后稳定度
+    0.2315, 2.9898,                      // w15-w16 Hard 惩罚 / Easy 奖励
+    0.51655, 0.6621                      // w17-w18 当日复习
+  ];
+  var DECAY = -0.5;
+  var FACTOR = 19 / 81;
+  var MIN_D = 1.0, MAX_D = 10.0;
+  var REQUEST_RETENTION = 0.90;
+  var MAX_INTERVAL = 36500;
+  var DAY = 86400000;
+
+  var STATE = { NEW: 0, LEARNING: 1, REVIEW: 2, RELEARNING: 3 };
+
+  function clamp(x, lo, hi) { return Math.max(lo, Math.min(hi, x)); }
+
+  function initStability(rating) { return W[rating - 1]; }
+
+  function initDifficulty(rating) {
+    return clamp(W[4] - Math.exp(W[5] * (rating - 1)) + 1, MIN_D, MAX_D);
+  }
+
+  function nextDifficulty(d, rating) {
+    var delta = -W[6] * (rating - 3);
+    var dPrime = d + delta * ((10 - d) / 9);
+    var dTarget = initDifficulty(4);
+    return clamp(W[7] * dTarget + (1 - W[7]) * dPrime, MIN_D, MAX_D);
+  }
+
+  /* 幂律遗忘曲线：t=0 → R=1；t=S → R≈0.9 */
+  function retrievability(elapsedDays, s) {
+    if (!s || s <= 0) return 0;
+    return Math.pow(1 + FACTOR * elapsedDays / s, DECAY);
+  }
+
+  /* 解 R(t)=目标留存 → 下次复习间隔（天） */
+  function nextInterval(s, requestRetention) {
+    if (requestRetention === undefined) requestRetention = REQUEST_RETENTION;
+    var iv = (s / FACTOR) * (Math.pow(requestRetention, 1 / DECAY) - 1);
+    return Math.min(MAX_INTERVAL, Math.max(1, Math.round(iv)));
+  }
+
+  function stabilityAfterSuccess(s, r, d, rating) {
+    var hard = rating === 2 ? W[15] : 1.0;
+    var easy = rating === 4 ? W[16] : 1.0;
+    return s * (1 + Math.exp(W[8]) * (11 - d) * Math.pow(s, -W[9])
+      * (Math.exp((1 - r) * W[10]) - 1) * hard * easy);
+  }
+
+  function stabilityAfterFailure(s, r, d) {
+    return W[11] * Math.pow(d, -W[12]) * (Math.pow(s + 1, W[13]) - 1)
+      * Math.exp(W[14] * (1 - r));
+  }
+
+  function newCard() {
+    return { state: STATE.NEW, d: 0, s: 0, due: null, last: null,
+             reps: 0, lapses: 0, iv: 0 };
+  }
+
+  /* 一次复习 → 更新卡片状态。elapsedDays 为距上次复习的天数 */
+  function review(card, elapsedDays, rating, nowMs) {
+    var now = nowMs || Date.now();
+    if (card.state === STATE.NEW) {
+      card.d = initDifficulty(rating);
+      card.s = initStability(rating);
+      card.state = rating === 1 ? STATE.LEARNING : STATE.REVIEW;
+      card.lapses = rating === 1 ? 1 : 0;
+      card.reps = 1;
+    } else {
+      var r = retrievability(elapsedDays, card.s);
+      card.d = nextDifficulty(card.d, rating);
+      if (rating === 1) {
+        card.s = Math.min(stabilityAfterFailure(card.s, r, card.d), card.s);
+        card.lapses++;
+        card.state = STATE.RELEARNING;
+      } else {
+        card.s = stabilityAfterSuccess(card.s, r, card.d, rating);
+        card.state = STATE.REVIEW;
+      }
+      card.reps++;
+    }
+    card.iv = nextInterval(card.s);
+    card.last = now;
+    card.due = now + card.iv * DAY;
+    return card;
+  }
+
+  /* 当前可提取性（记忆留存概率） */
+  function currentR(card, nowMs) {
+    if (!card || card.state === STATE.NEW || !card.last) return 0;
+    var elapsed = ((nowMs || Date.now()) - card.last) / DAY;
+    return retrievability(elapsed, card.s);
+  }
+
+  /* 人类可读的间隔文案 */
+  function intervalText(days) {
+    if (days <= 0) return '现在';
+    if (days === 1) return '明天';
+    if (days < 30) return days + ' 天后';
+    if (days < 365) return Math.round(days / 30) + ' 个月后';
+    return (days / 365).toFixed(1) + ' 年后';
+  }
+
+  return {
+    W: W, DECAY: DECAY, FACTOR: FACTOR, STATE: STATE,
+    REQUEST_RETENTION: REQUEST_RETENTION, DAY: DAY,
+    initStability: initStability, initDifficulty: initDifficulty,
+    nextDifficulty: nextDifficulty, retrievability: retrievability,
+    nextInterval: nextInterval, newCard: newCard, review: review,
+    currentR: currentR, intervalText: intervalText,
+    stabilityAfterSuccess: stabilityAfterSuccess,
+    stabilityAfterFailure: stabilityAfterFailure
+  };
+})();
+
+
+/* ============================================================
+ * 拾词 · 学习状态仓库（真实统计，替代原先写死的数字）
+ * ============================================================
+ * 原型首页与「我的」页的 1,284 累计接触 / 862 已掌握 / 54 待巩固 /
+ * 23 天连续 / 42h 学习时长，全是 HTML 里的字面量，做完题不会动。
+ * 这里换成真实状态：每次评价、每次答题都写进 localStorage，
+ * 计数器由 FSRS 卡片状态推导出来。
+ * ============================================================ */
+var Store = (function () {
+  'use strict';
+  var KEY = 'shici_state_v1';
+  var DAY = 86400000;
+
+  var state = null;
+
+  function blank() {
+    return {
+      cards: {},        // sense_id → FSRS 卡片
+      wordSenses: {},  // headword → [sense_id]
+      log: [],         // 复习日志 {sid, rating, at, iv}
+      quiz: { answered: 0, right: 0, wrong: 0, byModule: {}, byType: {} },
+      days: [],        // 有活动的日期戳 (YYYY-MM-DD)
+      seconds: 0,      // 累计学习秒数
+      startedAt: null
+    };
+  }
+
+  function load() {
+    if (state) return state;
+    try {
+      var raw = localStorage.getItem(KEY);
+      state = raw ? JSON.parse(raw) : blank();
+    } catch (e) { state = blank(); }
+    // 兼容字段缺失
+    var b = blank();
+    for (var k in b) if (!(k in state)) state[k] = b[k];
+    return state;
+  }
+
+  function save() {
+    try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) { /* 隐私模式 */ }
+  }
+
+  function reset() {
+    state = blank();
+    save();
+    return state;
+  }
+
+  function today() {
+    var d = new Date();
+    return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate());
+  }
+  function pad(n) { return n < 10 ? '0' + n : '' + n; }
+
+  function touchToday() {
+    var st = load();
+    var t = today();
+    if (st.days.indexOf(t) < 0) { st.days.push(t); }
+    if (!st.startedAt) st.startedAt = Date.now();
+  }
+
+  /* 连续打卡天数：从今天（或昨天）往前数连续有活动的日子 */
+  function streak() {
+    var st = load();
+    if (!st.days.length) return 0;
+    var set = {};
+    st.days.forEach(function (d) { set[d] = 1; });
+    var n = 0;
+    var cur = new Date();
+    // 今天没活动则从昨天开始数（当天还没学不算断）
+    if (!set[today()]) cur.setDate(cur.getDate() - 1);
+    for (;;) {
+      var k = cur.getFullYear() + '-' + pad(cur.getMonth() + 1) + '-' + pad(cur.getDate());
+      if (!set[k]) break;
+      n++;
+      cur.setDate(cur.getDate() - 1);
+    }
+    return n;
+  }
+
+  function card(sid) {
+    var st = load();
+    if (!st.cards[sid]) st.cards[sid] = FSRS.newCard();
+    return st.cards[sid];
+  }
+
+  /* 对某个义项做一次评价，返回排期结果 */
+  function reviewSense(sid, rating, headword) {
+    var st = load();
+    var c = card(sid);
+    var elapsed = c.last ? Math.max(0, (Date.now() - c.last) / FSRS.DAY) : 0;
+    FSRS.review(c, elapsed, rating, Date.now());
+    st.log.push({ sid: sid, rating: rating, at: Date.now(), iv: c.iv });
+    if (headword) {
+      if (!st.wordSenses[headword]) st.wordSenses[headword] = [];
+      if (st.wordSenses[headword].indexOf(sid) < 0) st.wordSenses[headword].push(sid);
+    }
+    touchToday();
+    save();
+    return { card: c, interval: c.iv, r: FSRS.currentR(c) };
+  }
+
+  /* 某义项的掌握度（0~1），未学过为 0 */
+  function mastery(sid) {
+    var st = load();
+    var c = st.cards[sid];
+    if (!c || c.state === FSRS.STATE.NEW) return 0;
+    return FSRS.currentR(c);
+  }
+
+  function dueText(sid) {
+    var st = load();
+    var c = st.cards[sid];
+    if (!c || c.state === FSRS.STATE.NEW) return '';
+    var d = Math.round((c.due - Date.now()) / FSRS.DAY);
+    if (d <= 0) return '待复习';
+    return FSRS.intervalText(d);
+  }
+
+  function quizAnswer(correct, module, type) {
+    var st = load();
+    st.quiz.answered++;
+    if (correct) st.quiz.right++; else st.quiz.wrong++;
+    if (module) st.quiz.byModule[module] = (st.quiz.byModule[module] || 0) + (correct ? 0 : 1);
+    // 题型分布：题库标注了「题型」才统计，没有标记就留空，不臆造
+    if (type && !correct) st.quiz.byType[type] = (st.quiz.byType[type] || 0) + 1;
+    touchToday();
+    save();
+  }
+
+  function addTime(sec) {
+    var st = load();
+    st.seconds += sec;
+    touchToday();
+    save();
+  }
+
+  /* ── 由 FSRS 状态推导的聚合计数 ──
+   * 口径（与「掌握度挂在义项上」一致，不得注水）：
+   *   累计接触 = 至少有一个义项学过（该词条出现在 LEX 的全量义项里）
+   *   已掌握   = 该词的【全部义项】都在学，且当前留存率都 ≥ 0.90
+   *   待巩固   = 学过但尚未全部达标
+   * 只学过 1 个义项的词绝不算「已掌握」。 */
+  function stats() {
+    var st = load();
+    var touchedWords = 0, masteredWords = 0, weakWords = 0;
+    var senseTotal = 0, senseMastered = 0, senseLearning = 0;
+
+    // 词 → 全量义项。以 LEX 为准（拿得到全量义项），否则退回已学义项
+    var list = [];
+    if (typeof LEX !== 'undefined' && LEX.length) {
+      for (var i = 0; i < LEX.length; i++) {
+        var lw = LEX[i];
+        var sids = [];
+        for (var j = 0; j < (lw.senses || []).length; j++) sids.push(lw.senses[j].sense_id);
+        list.push({ w: lw.w, sids: sids });
+      }
+    } else {
+      for (var hw in st.wordSenses) list.push({ w: hw, sids: st.wordSenses[hw] });
+    }
+
+    for (var n = 0; n < list.length; n++) {
+      var sids = list[n].sids;
+      if (!sids || !sids.length) continue;
+      var allOk = true, any = false;
+      for (var k = 0; k < sids.length; k++) {
+        var c = st.cards[sids[k]];
+        if (!c || c.state === FSRS.STATE.NEW) { allOk = false; continue; }
+        any = true;
+        senseTotal++;
+        var r = FSRS.currentR(c);
+        if (r >= 0.9) senseMastered++; else { senseLearning++; allOk = false; }
+      }
+      if (any) {
+        touchedWords++;
+        if (allOk) masteredWords++; else weakWords++;
+      }
+    }
+    return {
+      touchedWords: touchedWords,
+      masteredWords: masteredWords,
+      weakWords: weakWords,
+      senseMastered: senseMastered,
+      senseLearning: senseLearning,
+      sensesTouched: senseTotal,
+      streak: streak(),
+      minutes: Math.round(st.seconds / 60),
+      quizAnswered: st.quiz.answered,
+      quizRight: st.quiz.right,
+      quizWrong: st.quiz.wrong,
+      accuracy: st.quiz.answered ? Math.round(100 * st.quiz.right / st.quiz.answered) : 0
+    };
+  }
+
+  return {
+    load: load, save: save, reset: reset, card: card,
+    reviewSense: reviewSense, mastery: mastery, dueText: dueText,
+    quizAnswer: quizAnswer, addTime: addTime, stats: stats, streak: streak
+  };
+})();
+/* 自动生成 · tools/build_prototype_lex.py —— 请勿手改
+ * 义项级词库数据：原型手写文案 × 生产词条义项，按 headword 合并
+ */
+var LEX = [
+ {
+  "w": "appreciate",
+  "ipa": "/əˈpriːʃieɪt/",
+  "pos": "v.",
+  "tag": "熟词僻义",
+  "tagc": "g",
+  "note": "高考常考 <b>意识到、察觉</b>，而不是「欣赏、感激」。常见考法：<i>I didn't appreciate the risk until it was too late.</i>（直到为时已晚我才意识到风险）",
+  "root": "← ap+preci (价值) + -ate：把价值看作 → 评估、欣赏、感激、意识到",
+  "origin": "样例词条",
+  "focus": "s_appreciate_v_realize",
+  "senses": [
+   {
+    "sense_id": "s_appreciate_v_realize",
+    "text": "意识到、察觉到",
+    "sense_level": "S2",
+    "error_mech": [
+     "E1"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "感激",
+     "欣赏"
+    ],
+    "example": {
+     "en": "She didn't appreciate the significance of the change until she saw the results.",
+     "zh": "直到看到结果，她才意识到这一变化的重要意义。",
+     "source": "仿真例句 · 高考阅读高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "appreciate the significance",
+     "appreciate the difficulty",
+     "appreciate the fact that"
+    ]
+   },
+   {
+    "sense_id": "s_appreciate_v_grateful",
+    "text": "感激",
+    "sense_level": "S1",
+    "error_mech": [],
+    "is_trap": false,
+    "trap_of": [],
+    "example": {
+     "en": "I would really appreciate it if you could help me with this.",
+     "zh": "如果你能帮我处理这个，我将不胜感激。",
+     "source": "仿真例句 · 应用文常用表达",
+     "carrier": "C4"
+    },
+    "collocations": [
+     "appreciate your help",
+     "I would appreciate it if",
+     "be greatly appreciated"
+    ]
+   },
+   {
+    "sense_id": "s_appreciate_v_value",
+    "text": "欣赏、赏识（作品、景观）",
+    "sense_level": "S1",
+    "error_mech": [],
+    "is_trap": false,
+    "trap_of": [],
+    "example": {
+     "en": "Visitors come here to appreciate the natural beauty of the coastline.",
+     "zh": "游客来到这里欣赏海岸线的自然之美。",
+     "source": "仿真例句 · 描述类话题",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "appreciate the beauty of",
+     "appreciate art",
+     "highly appreciate"
+    ]
+   }
+  ]
+ },
+ {
+  "w": "address",
+  "ipa": "/əˈdres/",
+  "pos": "v. / n.",
+  "tag": "熟词僻义",
+  "tagc": "g",
+  "note": "作动词时高考高频义为 <b>处理、解决（问题）</b>。注意与名词「地址」区分，语法填空常考词性转换。",
+  "root": "← ad (向) + dress (走向)：走向某人 → 演说、地址",
+  "origin": "精修词条",
+  "focus": "s_address_v_handle",
+  "senses": [
+   {
+    "sense_id": "s_address_v_handle",
+    "text": "处理、解决（问题、差距、隐患）",
+    "sense_level": "S2",
+    "error_mech": [
+     "E1"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "演讲、致辞",
+     "地址"
+    ],
+    "example": {
+     "en": "The new policy was introduced to address the widening gap between rich and poor.",
+     "zh": "新政策的出台是为了应对贫富之间日益扩大的差距。",
+     "source": "仿真例句 · 高考阅读议论文高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "address a problem",
+     "address the issue",
+     "address a concern",
+     "address the challenge"
+    ]
+   },
+   {
+    "sense_id": "s_address_v_speech",
+    "text": "向…发表演说；向…讲话",
+    "sense_level": "S2",
+    "error_mech": [
+     "E1",
+     "E2"
+    ],
+    "is_trap": false,
+    "trap_of": [],
+    "example": {
+     "en": "She addressed the teachers' conference that afternoon on the importance of early education.",
+     "zh": "那天下午她在教师大会上就早期教育的重要性发表了演说。",
+     "source": "仿真例句 · 高考写作与演讲类话题高频句式",
+     "carrier": "C4"
+    },
+    "collocations": [
+     "address an audience",
+     "address a meeting",
+     "address the conference",
+     "deliver an address"
+    ]
+   },
+   {
+    "sense_id": "s_address_v_title",
+    "text": "称呼、称谓（叫作某称呼）",
+    "sense_level": "S3",
+    "error_mech": [
+     "E1",
+     "E2"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "演讲（addressed the audience）",
+     "地址"
+    ],
+    "example": {
+     "en": "How do you address a colleague from another country you have just met?",
+     "zh": "你该怎么称呼一位刚认识的外国同事？",
+     "source": "仿真例句 · 高考交际与礼仪类话题高频句式",
+     "carrier": "C4"
+    },
+    "collocations": [
+     "address sb as",
+     "the form of address",
+     "address sb by name"
+    ]
+   },
+   {
+    "sense_id": "s_address_n_speech",
+    "text": "演讲、致辞（发表的演说）",
+    "sense_level": "S3",
+    "error_mech": [
+     "E1"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "地址"
+    ],
+    "example": {
+     "en": "He delivered a moving address to the graduates at the end of the ceremony.",
+     "zh": "典礼结束时，他向毕业生们发表了一场动人的致辞。",
+     "source": "仿真例句 · 高考阅读校园类话题高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "deliver an address",
+     "give an address",
+     "a closing address",
+     "the opening address"
+    ]
+   },
+   {
+    "sense_id": "s_address_n_location",
+    "text": "地址；门牌号；收件地址",
+    "sense_level": "S1",
+    "error_mech": [
+     "E2"
+    ],
+    "is_trap": false,
+    "trap_of": [],
+    "example": {
+     "en": "Please leave your address and phone number on the form before you leave.",
+     "zh": "离开前请在表格上填好你的地址和电话号码。",
+     "source": "仿真例句 · 高考日常应用文高频句式",
+     "carrier": "C4"
+    },
+    "collocations": [
+     "home address",
+     "email address",
+     "change of address",
+     "return address"
+    ]
+   }
+  ]
+ },
+ {
+  "w": "interest",
+  "ipa": "/ˈɪntrəst/",
+  "pos": "n. / v.",
+  "tag": "熟词僻义",
+  "tagc": "g",
+  "note": "金融/经济类语境中 <b>interest = 利息</b>。高考阅读（经济、社会类话题）出现频率极高，中文都译「利息」极易误判。",
+  "root": "← interest 同时含「利益、利息」义，源于「share in the profits」",
+  "origin": "精修词条",
+  "focus": "s_interest_n_interest_rate",
+  "senses": [
+   {
+    "sense_id": "s_interest_n_curiosity",
+    "text": "兴趣、爱好（对某事的喜爱）",
+    "sense_level": "S1",
+    "error_mech": [
+     "E2"
+    ],
+    "is_trap": false,
+    "trap_of": [],
+    "example": {
+     "en": "She has a strong interest in traditional Chinese painting as well as calligraphy.",
+     "zh": "她对中国传统绘画和书法有浓厚的兴趣。",
+     "source": "仿真例句 · 高考应用文写作高频句式",
+     "carrier": "C4"
+    },
+    "collocations": [
+     "have an interest in",
+     "show interest in",
+     "a wide range of interests",
+     "with great interest"
+    ]
+   },
+   {
+    "sense_id": "s_interest_n_interest_rate",
+    "text": "利息（借钱或存款所付的钱）",
+    "sense_level": "S2",
+    "error_mech": [
+     "E1",
+     "E4"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "兴趣、爱好"
+    ],
+    "example": {
+     "en": "With interest rates rising, many families are rethinking their long-term savings plans.",
+     "zh": "随着利率上升，许多家庭正在重新考虑储蓄计划。",
+     "source": "仿真例句 · 高考经济类说明文高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "interest rate",
+     "compound interest",
+     "pay interest",
+     "high interest"
+    ]
+   },
+   {
+    "sense_id": "s_interest_n_benefit",
+    "text": "利益、好处（多为复数）",
+    "sense_level": "S3",
+    "error_mech": [
+     "E1",
+     "E2"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "兴趣、爱好"
+    ],
+    "example": {
+     "en": "The decision was made in the interest of safety rather than profit.",
+     "zh": "这个决定是出于安全而非盈利的考虑。",
+     "source": "仿真例句 · 高考议论文高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "in the interest of",
+     "conflicting interests",
+     "a vested interest",
+     "serve the interests of"
+    ]
+   },
+   {
+    "sense_id": "s_interest_v_arouse",
+    "text": "使感兴趣、引起关注",
+    "sense_level": "S2",
+    "error_mech": [
+     "E1",
+     "E2"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "对…感兴趣（be interested in）"
+    ],
+    "example": {
+     "en": "The story of an ordinary farmer is sure to interest students of literature.",
+     "zh": "一个普通农民的故事一定会引起文学专业学生的兴趣。",
+     "source": "仿真例句 · 高考完形填空高频句式",
+     "carrier": "C2"
+    },
+    "collocations": [
+     "interest sb in sth",
+     "interest sb with sth",
+     "interest the readers"
+    ]
+   },
+   {
+    "sense_id": "s_interest_adj_interested",
+    "text": "有关系的、利害相关的（利益方）",
+    "sense_level": "S3",
+    "error_mech": [
+     "E1",
+     "E5"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "感兴趣的（be interested in）"
+    ],
+    "example": {
+     "en": "All interested parties, including local residents and traders, were invited to comment.",
+     "zh": "所有利益相关方，包括当地居民和商家，都受邀提出意见。",
+     "source": "仿真例句 · 高考阅读公民参与类话题高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "an interested party",
+     "interested parties",
+     "the interested reader"
+    ]
+   }
+  ]
+ },
+ {
+  "w": "sound",
+  "ipa": "/saʊnd/",
+  "pos": "adj. / n. / v.",
+  "tag": "熟词僻义",
+  "tagc": "g",
+  "note": "形容词义 <b>健全的、可信的</b> 高考低频但一考就是关键。例：<i>a sound argument</i>（站得住脚的论点）、<i>a sound sleep</i>（酣睡）。",
+  "root": "← sound 作名词「声音」最常见，其余义项均属熟词僻义",
+  "origin": "精修词条",
+  "focus": "s_sound_adj_reliable",
+  "senses": [
+   {
+    "sense_id": "s_sound_n_noise",
+    "text": "声音、声响；耳朵听到的振动",
+    "sense_level": "S1",
+    "error_mech": [],
+    "is_trap": false,
+    "trap_of": [],
+    "example": {
+     "en": "He heard a strange sound coming from the next room and opened the door slowly.",
+     "zh": "他听到隔壁房间传来一种奇怪的声音，于是慢慢打开了门。",
+     "source": "仿真例句 · 高考读后续写场景描写高频句式",
+     "carrier": "C5"
+    },
+    "collocations": [
+     "make a sound",
+     "the sound of",
+     "a faint sound",
+     "no sound"
+    ]
+   },
+   {
+    "sense_id": "s_sound_adj_reliable",
+    "text": "可靠的、站得住脚的（论证、判断）",
+    "sense_level": "S2",
+    "error_mech": [
+     "E1",
+     "E2"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "声音、声响"
+    ],
+    "example": {
+     "en": "Their conclusion sounded reasonable, but the evidence behind it was far from sound.",
+     "zh": "他们的结论听上去合情合理，但其背后的证据远不扎实。",
+     "source": "仿真例句 · 高考阅读议论文高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "a sound argument",
+     "sound reasoning",
+     "sound judgment",
+     "a sound decision"
+    ]
+   },
+   {
+    "sense_id": "s_sound_adj_healthy",
+    "text": "健全的；身体状况良好的",
+    "sense_level": "S3",
+    "error_mech": [
+     "E1",
+     "E10"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "声音、声响"
+    ],
+    "example": {
+     "en": "The doctor said she was in sound health and needed no further treatment that year.",
+     "zh": "医生说她身体状况良好，那一年不需要进一步治疗。",
+     "source": "仿真例句 · 高考阅读健康话题高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "sound health",
+     "in sound condition",
+     "sound fitness",
+     "a sound body"
+    ]
+   },
+   {
+    "sense_id": "s_sound_v_seem",
+    "text": "听起来；给人…的感觉",
+    "sense_level": "S2",
+    "error_mech": [
+     "E1",
+     "E6"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "声音、声响"
+    ],
+    "example": {
+     "en": "That sounds like a reasonable plan, though we should check the cost before we agree.",
+     "zh": "那听起来是个合理的计划，不过我们答应前还是该核实一下成本。",
+     "source": "仿真例句 · 高考应用文口语化表达高频句式",
+     "carrier": "C4"
+    },
+    "collocations": [
+     "sound good",
+     "sound like",
+     "sound familiar",
+     "sound terrible"
+    ]
+   },
+   {
+    "sense_id": "s_sound_adv_fully",
+    "text": "充分地、彻底地（sound asleep）",
+    "sense_level": "S3",
+    "error_mech": [
+     "E1",
+     "E5"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "声音、声响"
+    ],
+    "example": {
+     "en": "She was so tired after the long journey that she fell sound asleep within minutes.",
+     "zh": "长途旅行后她累极了，几分钟内就睡得死沉。",
+     "source": "仿真例句 · 高考应用文写作可复用高频句式",
+     "carrier": "C4"
+    },
+    "collocations": [
+     "sound asleep",
+     "sound asleep in bed",
+     "soundly asleep",
+     "sound sleep"
+    ]
+   }
+  ]
+ },
+ {
+  "w": "mean",
+  "ipa": "/miːn/",
+  "pos": "adj. / v.",
+  "tag": "熟词僻义",
+  "tagc": "g",
+  "note": "形容词 <b>mean = 吝啬的、不善良的</b>。完形填空中 <i>He was too mean to share his lunch.</i> 是经典设定，但学生极易只想到动词义。",
+  "root": "← mean 义项极多：平均的/吝啬的/_mean的（区别于 mean 的过去式）",
+  "origin": "精修词条",
+  "focus": "s_mean_v_intend",
+  "senses": [
+   {
+    "sense_id": "s_mean_v_imply",
+    "text": "意味着、表示（某符号或事实所代表的）",
+    "sense_level": "S1",
+    "error_mech": [
+     "E2"
+    ],
+    "is_trap": false,
+    "trap_of": [],
+    "example": {
+     "en": "The new sign means that visitors must register before entering the hall.",
+     "zh": "这个新标志表示访客进入大厅前必须登记。",
+     "source": "仿真例句 · 高考日常交际高频句式",
+     "carrier": "C4"
+    },
+    "collocations": [
+     "mean to do",
+     "what does it mean",
+     "mean much to sb",
+     "it means that"
+    ]
+   },
+   {
+    "sense_id": "s_mean_v_intend",
+    "text": "打算、有意（想做某事）",
+    "sense_level": "S2",
+    "error_mech": [
+     "E5",
+     "E1"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "意味着、表示"
+    ],
+    "example": {
+     "en": "She meant to call you earlier, but the meeting ran much longer than expected.",
+     "zh": "她本来想早点给你打电话的，但会开得比预想的长。",
+     "source": "仿真例句 · 高考完形填空高频句式",
+     "carrier": "C2"
+    },
+    "collocations": [
+     "mean to do sth",
+     "mean to say",
+     "I mean to",
+     "mean to call"
+    ]
+   },
+   {
+    "sense_id": "s_mean_n_average",
+    "text": "平均数、平均值（统计量）",
+    "sense_level": "S3",
+    "error_mech": [
+     "E2",
+     "E5"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "意味着（动词义）",
+     "平均的（形容词义）"
+    ],
+    "example": {
+     "en": "The mean score of the group was higher than that of the control group.",
+     "zh": "该组的平均分高于对照组的平均分。",
+     "source": "仿真例句 · 高考阅读数据说明类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "the mean score",
+     "the mean age",
+     "above the mean",
+     "the arithmetic mean"
+    ]
+   },
+   {
+    "sense_id": "s_mean_adj_miserly",
+    "text": "吝啬的、不大方的（对钱或物品）",
+    "sense_level": "S3",
+    "error_mech": [
+     "E1",
+     "E2"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "意味着、平均数"
+    ],
+    "example": {
+     "en": "He was too mean to share his lunch with the new classmates.",
+     "zh": "他吝啬得连午饭都不愿和刚来的同学分享。",
+     "source": "仿真例句 · 高考完形填空高频句式",
+     "carrier": "C2"
+    },
+    "collocations": [
+     "too mean to do",
+     "mean about money",
+     "mean with his money",
+     "a mean spirit"
+    ]
+   },
+   {
+    "sense_id": "s_mean_adj_base",
+    "text": "卑劣的、恶毒的（品行或手段）",
+    "sense_level": "S3",
+    "error_mech": [
+     "E1",
+     "E8"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "吝啬的"
+    ],
+    "example": {
+     "en": "It was a mean trick to tell her the meeting had been cancelled.",
+     "zh": "谎称会议已取消，是个卑劣的把戏。",
+     "source": "仿真例句 · 高考读后续写高频句式",
+     "carrier": "C5"
+    },
+    "collocations": [
+     "a mean trick",
+     "a mean person",
+     "mean spirit",
+     "mean and unfair"
+    ]
+   }
+  ]
+ },
+ {
+  "w": "bear",
+  "ipa": "/beə/",
+  "pos": "v. / n.",
+  "tag": "熟词僻义",
+  "tagc": "g",
+  "note": "<b>bear a responsibility / bear in mind</b> 是高频搭配；<b>bore</b>（生育）需辨析：the verb bear 的过去式是 bore，但 <i>she bore a child</i> 读作「生育」，<i>she bored him</i> 是「厌烦他」。",
+  "root": "bear（承担）→ bore（生育）→ borne（过去分词）三态同源",
+  "origin": "精修词条",
+  "focus": "s_bear_v_endure",
+  "senses": [
+   {
+    "sense_id": "s_bear_v_endure",
+    "text": "承受、忍受（痛苦、压力、后果）",
+    "sense_level": "S2",
+    "error_mech": [
+     "E1"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "熊"
+    ],
+    "example": {
+     "en": "She bore the pain of the serious injury without ever complaining to anyone.",
+     "zh": "她默默忍受着严重伤痛的折磨，从未向任何人抱怨。",
+     "source": "仿真例句 · 高考阅读人物类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "bear the pain",
+     "bear the consequences",
+     "bear the pressure",
+     "bear with me"
+    ]
+   },
+   {
+    "sense_id": "s_bear_v_responsible",
+    "text": "承担（责任、义务）",
+    "sense_level": "S3",
+    "error_mech": [
+     "E1",
+     "E2"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "忍受（生理与心理上的痛苦）"
+    ],
+    "example": {
+     "en": "Every citizen should bear part of the responsibility for protecting the environment.",
+     "zh": "每位公民都应承担保护环境的部分责任。",
+     "source": "仿真例句 · 高考议论文写作高频句式",
+     "carrier": "C4"
+    },
+    "collocations": [
+     "bear the responsibility",
+     "bear responsibility for",
+     "bear the duty",
+     "bear part of the cost"
+    ]
+   },
+   {
+    "sense_id": "s_bear_v_remember",
+    "text": "牢记、把…记在心里",
+    "sense_level": "S4",
+    "error_mech": [
+     "E4"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "承受、忍受（bear the pain）"
+    ],
+    "example": {
+     "en": "Parents should bear in mind that the early years shape a child's love of learning.",
+     "zh": "父母应牢记，幼年时光会影响孩子对学习的热爱。",
+     "source": "仿真例句 · 高考应用文写作可复用",
+     "carrier": "C4"
+    },
+    "collocations": [
+     "bear in mind",
+     "bear in mind that",
+     "bear it in mind"
+    ]
+   },
+   {
+    "sense_id": "s_bear_v_give_birth",
+    "text": "生育、产下（孩子）",
+    "sense_level": "S3",
+    "error_mech": [
+     "E1",
+     "E5"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "熊",
+     "承受、携带（bear a heavy bag）"
+    ],
+    "example": {
+     "en": "The young couple are expecting their first child and will bear a daughter next spring.",
+     "zh": "这对年轻夫妇正期待第一个孩子的到来，明年春天将迎来一个女儿。",
+     "source": "仿真例句 · 高考读后续写高频句式",
+     "carrier": "C5"
+    },
+    "collocations": [
+     "bear a child",
+     "bear a son",
+     "bear children",
+     "give birth to"
+    ]
+   },
+   {
+    "sense_id": "s_bear_n_animal",
+    "text": "熊（一种大型哺乳动物）",
+    "sense_level": "S1",
+    "error_mech": [
+     "E2"
+    ],
+    "is_trap": false,
+    "trap_of": [],
+    "example": {
+     "en": "Brown bears spend the winter sleeping in quiet caves in the north.",
+     "zh": "棕熊在北方的安静洞穴里过冬。",
+     "source": "仿真例句 · 高考科普说明文高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "polar bear",
+     "bear habitat",
+     "grizzly bear",
+     "bear population"
+    ]
+   }
+  ]
+ },
+ {
+  "w": "subject",
+  "ipa": "/ˈsʌbdʒɪkt/",
+  "pos": "n. / adj.",
+  "tag": "熟词僻义",
+  "tagc": "g",
+  "note": "<b>be subject to</b> = 易受…影响的 / 须经…同意的。高考阅读中的高频短语结构，比单词本身更常考。",
+  "root": "← sub (在…之下) + ject (投掷)：置于…之下 → 主题、对象、易受…",
+  "origin": "精修词条",
+  "focus": "s_subject_adj_prone",
+  "senses": [
+   {
+    "sense_id": "s_subject_n_topic",
+    "text": "主题、话题；讨论的对象",
+    "sense_level": "S1",
+    "error_mech": [],
+    "is_trap": false,
+    "trap_of": [],
+    "example": {
+     "en": "The subject of the lecture was how ordinary people can protect themselves online.",
+     "zh": "讲座的主题是普通人如何保护自己在网上的信息安全。",
+     "source": "仿真例句 · 高考阅读高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "the subject of",
+     "on the subject of",
+     "subject matter",
+     "a sensitive subject"
+    ]
+   },
+   {
+    "sense_id": "s_subject_n_academic",
+    "text": "科目、学科；（考试）科目",
+    "sense_level": "S2",
+    "error_mech": [
+     "E2"
+    ],
+    "is_trap": false,
+    "trap_of": [],
+    "example": {
+     "en": "Mathematics has always been my favourite subject at school, though it is not easy.",
+     "zh": "数学一直是我在学校最喜欢的科目，尽管它并不容易。",
+     "source": "仿真例句 · 高考应用文校园话题高频句式",
+     "carrier": "C4"
+    },
+    "collocations": [
+     "school subject",
+     "favourite subject",
+     "choose a subject",
+     "subject teacher"
+    ]
+   },
+   {
+    "sense_id": "s_subject_adj_prone",
+    "text": "易受…的；须经…批准的",
+    "sense_level": "S3",
+    "error_mech": [
+     "E1",
+     "E4",
+     "E5"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "主题、话题",
+     "科目、学科"
+    ],
+    "example": {
+     "en": "Teenagers are particularly subject to peer pressure when they choose their subjects.",
+     "zh": "在选科的时候，青少年尤其容易受到同伴压力的影响。",
+     "source": "仿真例句 · 高考语法填空高频句式",
+     "carrier": "C3"
+    },
+    "collocations": [
+     "be subject to",
+     "be subject to approval",
+     "be subject to change",
+     "be subject to strict rules"
+    ]
+   },
+   {
+    "sense_id": "s_subject_v_expose",
+    "text": "使遭受；使屈服于（被动）",
+    "sense_level": "S3",
+    "error_mech": [
+     "E1",
+     "E4",
+     "E5"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "主题、话题",
+     "科目、学科"
+    ],
+    "example": {
+     "en": "Some workers were subjected to unfair treatment during the crisis and later received compensation.",
+     "zh": "危机期间一些工人遭受了不公平的对待，后来获得了赔偿。",
+     "source": "仿真例句 · 高考阅读社会话题高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "be subjected to",
+     "be subjected to abuse",
+     "be subjected to stress",
+     "be subjected to treatment"
+    ]
+   },
+   {
+    "sense_id": "s_subject_n_subordinate",
+    "text": "臣民、被统治的人",
+    "sense_level": "S3",
+    "error_mech": [
+     "E1",
+     "E5"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "主题、话题",
+     "科目、学科"
+    ],
+    "example": {
+     "en": "In those years the king ruled his subjects with a firm but fair hand.",
+     "zh": "在那些年月里，君主以坚定而公正的方式统治着他的臣民。",
+     "source": "仿真例句 · 高考读后续写历史故事高频句式",
+     "carrier": "C5"
+    },
+    "collocations": [
+     "his subjects",
+     "the subjects of a state",
+     "a loyal subject",
+     "the king's subjects"
+    ]
+   }
+  ]
+ },
+ {
+  "w": "fine",
+  "ipa": "/faɪn/",
+  "pos": "adj. / v. / n.",
+  "tag": "熟词僻义",
+  "tagc": "g",
+  "note": "作动词 <b>fine = 处以罚款</b>。完形填空常见：<i>He was fined for parking on the double yellow lines.</i> 注意与副词「很好地」区分。",
+  "root": "← 法语 finer（结束）→ 罚款、结案",
+  "origin": "原型派生",
+  "focus": "s_fine_0",
+  "senses": [
+   {
+    "sense_id": "s_fine_0",
+    "text": "好的；晴朗的；罚款",
+    "sense_level": "S2",
+    "error_mech": [
+     "E1"
+    ],
+    "is_trap": true,
+    "trap_of": [],
+    "example": {},
+    "collocations": [
+     "be fined for",
+     "a heavy fine",
+     "fine for speeding"
+    ]
+   }
+  ]
+ }
+];
+/* ==== END @inject:fsrs ==== */
+const WORDS=[
+ {w:"appreciate",ipa:"/əˈpriːʃieɪt/",pos:"v.",def:"欣赏；感激；<b>意识到</b>",
+  tag:"熟词僻义",tagc:"g",
+  note:"高考常考 <b>意识到、察觉</b>，而不是「欣赏、感激」。常见考法：<i>I didn't appreciate the risk until it was too late.</i>（直到为时已晚我才意识到风险）",
+  coll:["appreciate the difficulty","appreciate that…","I would appreciate it if…"],
+  ex:{en:"She didn't appreciate the significance of the change until she saw the results.",zh:"直到看到结果，她才意识到这一变化的重要意义。",src:"仿真例句 · 高考阅读高频句式"},
+  root:"← ap+preci (价值) + -ate：把价值看作 → 评估、欣赏、感激、意识到"},
+ {w:"address",ipa:"/əˈdres/",pos:"v. / n.",def:"<b>处理、解决</b>；演讲；地址",
+  tag:"熟词僻义",tagc:"g",
+  note:"作动词时高考高频义为 <b>处理、解决（问题）</b>。注意与名词「地址」区分，语法填空常考词性转换。",
+  coll:["address a problem","address the issue","address a concern"],
+  ex:{en:"The school must address the issue of exam anxiety before it becomes a serious problem.",zh:"学校必须在考试焦虑成为严重问题之前解决它。",src:"仿真例句 · 应用文写作可复用"},
+  root:"← ad (向) + dress (走向)：走向某人 → 演说、地址"},
+ {w:"interest",ipa:"/ˈɪntrəst/",pos:"n. / v.",def:"兴趣；<b>利息</b>；使感兴趣",
+  tag:"熟词僻义",tagc:"g",
+  note:"金融/经济类语境中 <b>interest = 利息</b>。高考阅读（经济、社会类话题）出现频率极高，中文都译「利息」极易误判。",
+  coll:["interest rate","compound interest","show interest in"],
+  ex:{en:"With interest rates rising, many families are reconsidering their savings plans.",zh:"随着利率上升，许多家庭正在重新考虑自己的储蓄计划。",src:"仿真例句 · 读后续写/说明文题材"},
+  root:"← interest 同时含「利益、利息」义，源于「share in the profits」"},
+ {w:"sound",ipa:"/saʊnd/",pos:"adj. / n. / v.",def:"<b>健全的、可靠的</b>；声音；听起来",
+  tag:"熟词僻义",tagc:"g",
+  note:"形容词义 <b>健全的、可信的</b> 高考低频但一考就是关键。例：<i>a sound argument</i>（站得住脚的论点）、<i>a sound sleep</i>（酣睡）。",
+  coll:["a sound decision","sound reasoning","sound judgment"],
+  ex:{en:"His argument, though unconventional, was sound enough to convince the panel.",zh:"他的论点虽不循规蹈矩，却足够严谨，说服了评审组。",src:"仿真例句 · 议论文素材"},
+  root:"← sound 作名词「声音」最常见，其余义项均属熟词僻义"},
+ {w:"mean",ipa:"/miːn/",pos:"adj. / v.",def:"吝啬的；平均的；意味着",
+  tag:"熟词僻义",tagc:"g",
+  note:"形容词 <b>mean = 吝啬的、不善良的</b>。完形填空中 <i>He was too mean to share his lunch.</i> 是经典设定，但学生极易只想到动词义。",
+  coll:["mean to sb","mean well","a mean spirit"],
+  ex:{en:"He was mean with his money, but never mean to the people around him.",zh:"他对钱很吝啬，但对身边的人从不薄。",src:"仿真例句 · 完形填空句式"},
+  root:"← mean 义项极多：平均的/吝啬的/_mean的（区别于 mean 的过去式）"},
+ {w:"bear",ipa:"/beə/",pos:"v. / n.",def:"<b>承担、忍受</b>；生育；携带；熊",
+  tag:"熟词僻义",tagc:"g",
+  note:"<b>bear a responsibility / bear in mind</b> 是高频搭配；<b>bore</b>（生育）需辨析：the verb bear 的过去式是 bore，但 <i>she bore a child</i> 读作「生育」，<i>she bored him</i> 是「厌烦他」。",
+  coll:["bear the responsibility","bear in mind","bear with me"],
+  ex:{en:"Students should bear in mind that a single careless mistake can cost several points.",zh:"学生应当牢记，一次粗心的失误可能损失好几分。",src:"仿真例句 · 应用文写作可复用"},
+  root:"bear（承担）→ bore（生育）→ borne（过去分词）三态同源"},
+ {w:"subject",ipa:"/ˈsʌbdʒɪkt/",pos:"n. / adj.",def:"<b>易受…的</b>；主题；科目；使遭受",
+  tag:"熟词僻义",tagc:"g",
+  note:"<b>be subject to</b> = 易受…影响的 / 须经…同意的。高考阅读中的高频短语结构，比单词本身更常考。",
+  coll:["be subject to","a subject for debate","subject to approval"],
+  ex:{en:"Teenagers are particularly subject to peer pressure when making academic choices.",zh:"在做学业选择时，青少年尤其容易受到同伴压力影响。",src:"仿真例句 · 议论文/说明文"},
+  root:"← sub (在…之下) + ject (投掷)：置于…之下 → 主题、对象、易受…"},
+ {w:"fine",ipa:"/faɪn/",pos:"adj. / v. / n.",def:"好的；晴朗的；<b>罚款</b>",
+  tag:"熟词僻义",tagc:"g",
+  note:"作动词 <b>fine = 处以罚款</b>。完形填空常见：<i>He was fined for parking on the double yellow lines.</i> 注意与副词「很好地」区分。",
+  coll:["be fined for","a heavy fine","fine for speeding"],
+  ex:{en:"Drivers who ignore the ban are fined heavily, which has cut accidents by a third.",zh:"无视禁令的司机会被重罚，此举使事故减少了三分之一。",src:"仿真例句 · 说明文数据类"},
+  root:"← 法语 finer（结束）→ 罚款、结案"}
+];
+
+const QUIZ=[
+ {stem:"When she read the letter, she suddenly ___ how much her parents had sacrificed for her.",
+  tag:"熟词僻义 · appreciate",opts:["appreciated","appraised","approached","approved"],
+  right:0,zh:"当她读到那封信时，她突然意识到父母为她牺牲了多少。",
+  rule:"appreciate 此处 = <b>意识到、察觉到</b>。appraise = 评估，approach = 接近，approve = 赞成。"},
+ {stem:"The school is taking steps to ___ the growing pressure on students.",
+  tag:"熟词僻义 · address",opts:["address","access","assess","accuse"],
+  right:0,zh:"学校正在采取措施应对学生身上日益增加的压力。",
+  rule:"address 动词 = <b>处理、解决（问题）</b>，最贴近 take steps to 的搭配。access 是名词「通道」，assess 是「评估」，accuse 是「指控」。"},
+ {stem:"With interest rates rising, families are saving less than they used to.",
+  tag:"熟词僻义 · interest",opts:["interest","interview","interfere","intervene"],
+  right:0,zh:"随着利率上升，家庭储蓄比以往少了。",
+  rule:"<b>interest rates = 利率</b>，此处 interest = 利息。若译成「兴趣」则完全不通，是典型的阅读陷阱。"},
+ {stem:"His explanation sounded reasonable, but it was not ___ enough to satisfy the judges.",
+  tag:"熟词僻义 · sound",opts:["sound","soundly","sounding","sounded"],
+  right:0,zh:"他的解释听起来有道理，但不够严密，无法让评委满意。",
+  rule:"sound 形容词 = <b>严谨的、站得住脚的</b>。soundly 是副词「soundly asleep（睡得熟）」，此处需形容词作表语。"},
+ {stem:"The poor old woman was too ___ to share her food with the stray dog.",
+  tag:"熟词僻义 · mean",opts:["mean","meaning","meanly","meant"],
+  right:0,zh:"那位可怜的老太太太吝啬了，不肯把食物分给流浪狗。",
+  rule:"mean 形容词 = <b>吝啬的</b>。too mean to… 是高考完形的经典结构，学生常误选副词 meanly。"},
+ {stem:"___ the child safety seat, the new law was brought into effect last month.",
+  tag:"熟词僻义 · bear",opts:["Bearing","Bored","Borne","Bear"],
+  right:2,zh:"随着儿童安全座椅被强制使用，新法上月生效。",
+  rule:"<b>Borne = 过去分词（被动）</b>，对应 with + 宾语 + 过去分词结构。Bearing 是现在分词，Bore 是过去式。"}
+];
+
+const ERRORS=[
+ {w:"appreciate",m:"词义误判 · 选成「感激」",c:"熟词僻义"},
+ {w:"interest",m:"阅读理解 · 译成「兴趣」",c:"熟词僻义"},
+ {w:"mean",m:"完形填空 · 未选「吝啬的」",c:"熟词僻义"},
+ {w:"address",m:"语法填空 · 词性误判",c:"词性"},
+ {w:"account for",m:"阅读理解 · 未识别短语",c:"固定搭配"}
+];
+
+const GOODS=[
+ {n:"《高考英语核心1500词 · 真题语境版》",d:"每个词配一个真题风格语境句 + 3 个高频义项 + 搭配",p:4.9,o:null,badge:"热销",cover:"linear-gradient(150deg,#10b981,#047857)",coverText:"真题语境<br>核心1500词",note:"分档：150 词 ¥1.9 / 750 词 ¥3.9 / 全书 ¥4.9"},
+ {n:"《熟词僻义100题专项训练册》",d:"100 题覆盖 100 个高频词的陷阱义，每题附考场动作与错因解析",p:4.9,o:null,badge:"新上架",cover:"linear-gradient(150deg,#f59e0b,#b45309)",coverText:"熟词僻义<br>100题专项",note:"分档：10 题 ¥1.9 / 50 题 ¥3.9 / 全册 ¥4.9"},
+ {n:"《高考英语高频搭配速记手册》",d:"动词+介词、形容词+名词等 600 组高频搭配",p:4.9,o:null,badge:"分档",cover:"linear-gradient(150deg,#64748b,#334155)",coverText:"高频搭配<br>速记手册",note:"分档：60 组 ¥1.9 / 300 组 ¥3.9 / 全书 ¥4.9"},
+ {n:"《30 天冲刺计划表 + 单词打卡表》",d:"可打印 A4，含每日词量梯度与复盘表",p:3.9,o:null,badge:"打印即用",cover:"linear-gradient(150deg,#0ea5e9,#0369a1)",coverText:"30天冲刺<br>计划打卡表",note:"分档：7 天 ¥1.9 / 30 天全套 ¥3.9"}
+];
+
+/* ==================== STATE ==================== */
+let wIdx=0, flipped=false, rated={unknown:0,vague:0,known:0}, sched=null;
+let qIdx=0, qAnswered=false, qScore=0, qRight=0, qWrong=0;
+let payPlan='year', payStage='plan', buyItem=null, couponUsed=false;
+
+/* ==================== NAV ==================== */
+const SCREENS=['s-home','s-study','s-quiz','s-err','s-shop','s-me','s-parent'];
+const META={
+ 's-home':['首页 · 今日任务','首屏解决「今天该学什么」，高考倒计时 + 连续打卡 + 一个明确的主任务入口，降低高三用户的决策成本。'],
+ 's-study':['背单词卡','词卡正面是词，背面是释义、真题风格例句、搭配与熟词僻义提示。必须翻面才能评价 —— 这是记忆算法唯一可靠的数据来源。'],
+ 's-quiz':['专项训练 · 熟词僻义','免费 3 题，第 4 题触发付费墙。首次付费点放在用户最痛的地方，而不是首页最显眼的按钮。'],
+ 's-err':['失分地图','把「我英语差」翻译成「我 38% 的失分来自熟词僻义」。诊断能力是工具和诊断系统的分界线。'],
+ 's-shop':['资料商店','全包卡 + 单品教辅。词书按「配套学习进度」推荐，背完词再买词书，转化路径最短。'],
+ 's-me':['我的','学习数据 + 全包入口 + 订单。数据可视化本身就是留存和说服家长付费的武器。'],
+ 's-parent':['家长周报','免费开放给家长看。家长是真正的付费决策人，先交付「看得见的进步」，再谈价格。']
+};
+const NAVLIST=[
+ ['s-home','首页','今日任务与推荐'],
+ ['s-study','背单词','词卡与记忆算法'],
+ ['s-quiz','专项训练','熟词僻义付费墙','pay'],
+ ['s-err','失分地图','错因诊断'],
+ ['s-shop','资料商店','电商与订阅','pay'],
+ ['s-me','我的','数据与订单'],
+ ['s-parent','家长周报','付费决策人入口']
+];
+
+function go(id){
+  SCREENS.forEach(s=>document.getElementById(s).classList.toggle('on',s===id));
+  document.getElementById('phone').classList.toggle('no-tab',['s-study','s-quiz','s-err','s-parent'].includes(id));
+  document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('on',t.dataset.tab===id||(id==='s-quiz'&&t.dataset.tab==='s-study')));
+  document.getElementById('screens').scrollTop=0;
+  const sc=document.getElementById(id); if(sc) sc.scrollTop=0;
+  const m=META[id]; if(m){document.getElementById('caption').innerHTML=
+    '<div class="ic"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01"/><path d="M11 12h1v4h1"/></svg></div><div><b>'+m[0]+'</b><p>'+m[1]+'</p></div>';}
+  document.querySelectorAll('.navitem').forEach(n=>n.classList.toggle('on',n.dataset.go===id));
+  if(typeof syncStats==='function') syncStats();
+}
+function buildNav(){
+  document.getElementById('nav').innerHTML=NAVLIST.map((n,i)=>
+    '<button class="navitem" data-go="'+n[0]+'" onclick="go(\''+n[0]+'\')"><span class="n">'+String(i+1).padStart(2,'0')+'</span><span><span class="t">'+n[1]+'</span> <span class="d">'+n[2]+'</span>'+(n[3]?'<br><span class="pay">变现点</span>':'')+'</span></button>').join('');
+}
+document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{
+  if(t.dataset.tab==='s-study'){resetStudy();go('s-study');}
+  else go(t.dataset.tab);
+}));
+
+/* ==================== STUDY CARD ==================== */
+function resetStudy(){wIdx=0;flipped=false;rated={unknown:0,vague:0,known:0};sched=null;renderStudy();}
+function senseOf(lw,sid){for(var i=0;i<lw.senses.length;i++){if(lw.senses[i].sense_id===sid)return lw.senses[i];}return null;}
+function focusSense(lw){return senseOf(lw,lw.focus)||lw.senses[0];}
+function senseRow(lw,s){
+  var m=Store.mastery(s.sense_id);
+  var pct=Math.round(m*100);
+  var cls=pct>=90?'':(pct>=50?'mid':'low');
+  var due=Store.dueText(s.sense_id);
+  return '<div class="sense-row'+(s.sense_id===lw.focus?' focus':'')+'">'+
+    '<div class="sense-top"><span class="sense-txt">'+s.text+'</span>'+
+      '<span class="sense-lv'+(s.is_trap?' trap':'')+'">'+s.sense_level+(s.is_trap?' 陷阱':'')+'</span>'+
+      '<span class="sense-due">'+(due||'未学')+'</span></div>'+
+    (m>0?'<div class="mast-bar"><div class="mast-fill '+cls+'" style="width:'+pct+'%"></div></div>'+
+      '<div class="mast-meta"><span>掌握度 '+pct+'%</span><span>'+(s.collocations.length||0)+' 搭配</span></div>':'')+
+  '</div>';
+}
+function renderStudy(){
+  const lw=LEX[wIdx], n=LEX.length;
+  const done=wIdx, total=n;
+  const fs=focusSense(lw);
+  const fm=Store.mastery(fs.sense_id);
+  document.getElementById('spbar').style.width=Math.round(done/total*100)+'%';
+  document.getElementById('scnt').textContent=done+'/'+total;
+  document.getElementById('studyBody').innerHTML=
+  '<div class="wcard-wrap"><div class="wcard'+(flipped?' flip':'')+'" id="wcard" onclick="flipCard()">'+
+    '<div class="face front">'+
+      '<div class="w-word">'+lw.w+'</div>'+
+      '<div class="w-ipa">'+lw.ipa+'</div>'+
+      '<div class="w-pos">'+lw.pos+'</div>'+
+      '<div class="w-def">'+fs.text+'</div>'+
+      '<div style="margin-top:10px"><span class="mast-chip">S 层级 '+fs.sense_level+(fs.is_trap?' · 陷阱义':'')+' · 掌握度 '+Math.round(fm*100)+'%</span></div>'+
+      '<div class="tap-hint"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18"/><path d="m7 8 5-5 5 5"/><path d="m7 16 5 5 5-5"/></svg>点击卡片查看义项树与例句</div>'+
+    '</div>'+
+    '<div class="face back">'+
+      '<div class="bk-row"><span class="bk '+lw.tagc+'">'+lw.tag+'</span><span class="w-ipa" style="margin:0">'+lw.w+'</span></div>'+
+      '<div class="bk-title">义项树 · 掌握度挂在义项上</div>'+
+      '<div class="sense-tree">'+lw.senses.map(s=>senseRow(lw,s)).join('')+'</div>'+
+      '<div class="bk-title">焦点义项例句</div>'+
+      (fs.example&&fs.example.en?
+        '<div class="ex"><p>'+fs.example.en+'</p><div class="zh">'+fs.example.zh+'</div><div class="src"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg>'+fs.example.source+'</div></div>'
+        :'<div style="font-size:12.5px;color:var(--ink-3)">（该义项暂无配套例句）</div>')+
+      '<div class="bk-title">高频搭配</div>'+
+      '<div class="cols">'+(fs.collocations||[]).map(c=>'<span class="col">'+c+'</span>').join('')+'</div>'+
+      '<div class="bk-title">易错点</div>'+
+      '<div class="word-note">'+lw.note+'</div>'+
+      '<div class="bk-title">词根词缀</div>'+
+      '<div style="font-size:12px;color:var(--ink-2);line-height:1.6">'+lw.root+'</div>'+
+    '</div>'+
+  '</div></div>'+
+  '<div class="study-foot">'+
+  '<div class="rate">'+
+    '<button class="rbtn unknown" onclick="rate(\'unknown\',this)"><b>不认识</b><span>1</span></button>'+
+    '<button class="rbtn vague" onclick="rate(\'vague\',this)"><b>模糊</b><span>2</span></button>'+
+    '<button class="rbtn known" onclick="rate(\'known\',this)"><b>认识</b><span>3</span></button>'+
+  '</div>'+
+  '<p class="fsrs-line" id="fsrsLine">'+fsrsLineHtml()+'</p>'+
+  '</div>';
+  // 换词后回到卡片顶部
+  const scr=document.getElementById('s-study');
+  if(scr) scr.scrollTop=0;
+}
+function fsrsLineHtml(){
+  if(sched){
+    return 'FSRS-5 · 稳定度 S='+sched.s.toFixed(2)+' · 难度 D='+sched.d.toFixed(2)+
+      '<span class="sched">本次评价「'+sched.label+'」→ 下次复习 <em>'+FSRS.intervalText(sched.iv)+'</em>（当前记忆留存 '+Math.round(sched.r*100)+'%）</span>';
+  }
+  const lw=LEX[wIdx], fs=focusSense(lw);
+  const c=Store.load().cards[fs.sense_id];
+  if(c&&c.state!==FSRS.STATE.NEW){
+    return 'FSRS-5 · 稳定度 S='+c.s.toFixed(2)+' · 难度 D='+c.d.toFixed(2)+
+      ' · 下次复习 '+FSRS.intervalText(Math.max(0,Math.round((c.due-Date.now())/FSRS.DAY)));
+  }
+  return 'FSRS-5 间隔重复 · 三个评价档位会算出不同的下次复习时间';
+}
+function flipCard(){flipped=!flipped;document.getElementById('wcard').classList.toggle('flip',flipped);}
+function rate(k,btn){
+  const RATING={unknown:1,vague:2,known:3};
+  const LABEL={unknown:'不认识',vague:'模糊',known:'认识'};
+  const lw=LEX[wIdx], fs=focusSense(lw);
+  const res=Store.reviewSense(fs.sense_id,RATING[k],lw.w);
+  rated[k]++;
+  if(btn)btn.classList.add('on');
+  sched={s:res.card.s,d:res.card.d,iv:res.interval,r:res.r,label:LABEL[k]};
+  syncStats();
+  const line=document.getElementById('fsrsLine');
+  if(line)line.innerHTML=fsrsLineHtml();
+  setTimeout(()=>{
+    sched=null;
+    if(wIdx<LEX.length-1){wIdx++;flipped=false;renderStudy();}
+    else{showDone();}
+  },1100);
+}
+function showDone(){
+  const t=LEX.length;
+  const st=Store.stats();
+  document.getElementById('spbar').style.width='100%';
+  document.getElementById('scnt').textContent=t+'/'+t;
+  document.getElementById('studyBody').innerHTML=
+  '<div class="done-wrap">'+
+    '<div class="done-ic"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></div>'+
+    '<h3>本轮完成</h3><p>'+t+' 词 · 已按 FSRS 排入下次复习</p>'+
+    '<div class="done-stats">'+
+      '<div><b style="color:var(--danger)">'+rated.unknown+'</b><span>不认识</span></div>'+
+      '<div><b style="color:var(--warn)">'+rated.vague+'</b><span>模糊</span></div>'+
+      '<div><b style="color:var(--accent-deep)">'+rated.known+'</b><span>认识</span></div>'+
+    '</div>'+
+    '<div class="sense-tree" style="margin-top:14px;text-align:left">'+
+      LEX.map(function(lw){var fs=focusSense(lw);return senseRow(lw,fs);}).join('')+
+    '</div>'+
+    '<button class="btn btn-primary" onclick="go(\'s-err\')">查看本轮失分归因</button>'+
+    '<button class="btn btn-ghost" style="margin-top:10px" onclick="resetStudy();renderStudy()">再背一轮</button>'+
+  '</div>';
+}
+
+/* ==================== QUIZ ==================== */
+function renderQuiz(){
+  const locked=qIdx>=3&&!paywallPassed;
+  if(locked){renderPayWallQuiz();return;}
+  const q=QUIZ[qIdx];
+  let opts='';
+  q.opts.forEach((o,i)=>{
+    let cls='opt';
+    if(qAnswered){
+      cls+=' locked';
+      if(i===q.right)cls+=' right';
+      else if(i===q.picked)cls+=' wrong';
+    }
+    opts+='<button class="'+cls+'" onclick="pick('+i+')"><span class="k">'+'ABCD'[i]+'</span><span class="t">'+o+'</span></button>';
+  });
+  let fb='';
+  if(qAnswered){
+    const ok=q.picked===q.right;
+    fb='<div class="feedback '+(ok?'right':'wrong')+' on">'+
+      '<h4><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">'+(ok?'<path d="M20 6 9 17l-5-5"/>':'<path d="M18 6 6 18M6 6l12 12"/>')+'</svg>'+(ok?'答对了':'答错了 · 正确答案 '+'ABCD'[q.right])+'</h4>'+
+      '<p>'+q.zh+'</p>'+
+      '<div class="rule"><b>考点</b> · '+q.rule+'</div>'+
+      '</div>';
+  }
+  document.getElementById('quizBody').innerHTML=
+    '<div class="qprog"><div class="pbar"><i style="width:'+Math.round(qIdx/QUIZ.length*100)+'%"></i></div><span class="cnt">第 '+(qIdx+1)+'/'+QUIZ.length+' 题</span></div>'+
+    '<div class="qstem"><span class="tag">'+q.tag+'</span><p>'+q.stem.replace('___','<span class="blank">&nbsp;&nbsp;?&nbsp;&nbsp;</span>')+'</p></div>'+
+    '<div class="opts">'+opts+'</div>'+
+    fb+
+    (qAnswered?'<button class="btn btn-primary" style="margin-top:14px" onclick="nextQ()">'+(qIdx<QUIZ.length-1?'下一题':'查看本次成绩')+'</button>':'');
+}
+function pick(i){
+  if(qAnswered)return;
+  qAnswered=true;
+  QUIZ[qIdx].picked=i;
+  const correct=(i===QUIZ[qIdx].right);
+  if(correct){qRight++;qScore++;}
+  else{qWrong++;}
+  // 写入真实统计：累计题数、错题数、正确率、连续打卡、错因、题型
+  Store.quizAnswer(correct, (QUIZ[qIdx].tag||'熟词僻义').split(' · ')[0], QUIZ[qIdx].type);
+  syncStats();
+  renderQuiz();
+}
+function nextQ(){
+  if(qIdx<QUIZ.length-1){qIdx++;qAnswered=false;renderQuiz();}
+  else{renderQuizResult();}
+}
+function renderQuizResult(){
+  const pct=Math.round(qRight/QUIZ.length*100);
+  // 错因归类：按本机真实错题分布出，不用写死百分比
+  const bm=Store.load().quiz.byModule||{};
+  const tot=Object.keys(bm).reduce(function(a,k){return a+bm[k];},0);
+  const rows=ERR_CATS.map(function(c){return {c:c,v:bm[c.k]||0};}).filter(function(r){return r.v>0;}).sort(function(a,b){return b.v-a.v;});
+  let benchHtml='<div style="font-size:12.5px;font-weight:700;margin-bottom:9px">错因归类</div>';
+  if(tot&&rows.length){
+    const shown=rows.slice(0,2);
+    benchHtml+=shown.map(function(r,i){
+      const p=Math.round(100*r.v/tot);
+      return '<div class="bench'+(i===0?' top':'')+'"><span class="bench-label">'+r.c.label+'</span><div class="bench-track"><div class="bench-fill" style="width:'+Math.max(p,3)+'%"></div></div><span class="bench-val">'+p+'%</span></div>';
+    }).join('');
+    const sum=shown.reduce(function(a,r){return a+r.v;},0);
+    benchHtml+='<div style="font-size:11.5px;color:var(--ink-3);margin-top:11px;line-height:1.55">'+(shown.length>1?'这两类':'这类')+'错因占你全部词汇失分的 <b style="color:var(--ink)">'+Math.round(100*sum/tot)+'%</b>。解锁全包可查看完整失分地图与针对性词单。</div>';
+  }else{
+    benchHtml+='<div style="font-size:11.5px;color:var(--ink-3);line-height:1.55">本轮没有错题记录。解锁全包可查看完整失分地图与针对性词单。</div>';
+  }
+  document.getElementById('quizBody').innerHTML=
+    '<div class="done-wrap">'+
+      '<div class="done-ic" style="background:'+(pct>=70?'var(--accent-tint)':'var(--warn-tint)')+';color:'+(pct>=70?'var(--accent-deep)':'#b45309')+'"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg></div>'+
+      '<h3>正确率 '+pct+'%</h3><p>答对 '+qRight+' 题 · 答错 '+qWrong+' 题 · 用时 4 分 12 秒</p>'+
+      '<div class="card" style="padding:15px;text-align:left;margin-bottom:16px">'+
+        benchHtml+
+      '</div>'+
+      '<button class="btn btn-primary" onclick="openPay(\'all\')">解锁完整失分地图</button>'+
+      '<button class="btn btn-ghost" style="margin-top:10px" onclick="go(\'s-err\')">先看免费版失分地图</button>'+
+    '</div>';
+}
+let paywallPassed=false;
+function renderPayWallQuiz(){
+  document.getElementById('quizBody').innerHTML=
+    '<div class="chart-card" style="text-align:center;padding:24px 18px">'+
+      '<div style="width:54px;height:54px;border-radius:16px;background:var(--accent-tint);color:var(--accent-deep);display:grid;place-items:center;margin:0 auto 13px">'+
+        '<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></div>'+
+      '<h3 style="font-size:17px;font-weight:700;letter-spacing:-.02em;margin-bottom:6px">免费体验已结束</h3>'+
+      '<p style="font-size:12.5px;color:var(--ink-3);line-height:1.6">你已完成 3 道免费题。第 4 题起需要全包 —— 全部专项训练、真题例句库和完整失分地图都在里面。</p>'+
+      '<button class="btn btn-primary" style="margin-top:16px" onclick="openPay(\'all\')">购买全包 ¥9.9 继续</button>'+
+      '<button class="btn btn-line" style="margin-top:6px" onclick="paywallPassed=true;renderQuiz()">先继续刷题（演示跳过付费墙）</button>'+
+      '<div style="font-size:11px;color:var(--ink-3);margin-top:12px">¥9.9 一次买断，含完整 100 题训练册 · 支持 7 天无理由退款</div>'+
+    '</div>';
+}
+
+/* ==================== ERRORS ==================== */
+document.getElementById('errList').innerHTML=ERRORS.map(e=>
+  '<button class="errrow" onclick="openWord(\''+e.w+'\')"><span class="w">'+e.w+'</span><span class="m">'+e.m+'</span><span class="c">'+e.c+'</span></button>').join('');
+function openWord(w){
+  const i=LEX.findIndex(x=>x.w===w); if(i>=0){wIdx=i;flipped=true;rated={unknown:0,vague:0,known:0};sched=null;renderStudy();go('s-study');}
+}
+
+/* ==================== GOODS ==================== */
+document.getElementById('goodsList').innerHTML=GOODS.map((g,i)=>
+  '<div class="card goods"><div class="gcover" style="background:'+g.cover+'">'+g.coverText+'<span class="badge">'+g.badge+'</span></div>'+
+  '<div class="ginfo"><h5>'+g.n+'</h5><div class="desc">'+g.d+'</div>'+
+  '<div class="gbot"><div><div class="gprice"><b>¥'+g.p+'</b>'+(g.o?'<s>¥'+g.o+'</s>':'')+'</div><div style="font-size:10.5px;color:var(--ink-3)">'+g.note+'</div></div>'+
+  '<button class="buy-btn" onclick="openBuy('+i+')">立即购买</button></div></div></div>').join('');
+
+/* ==================== HEATMAP ==================== */
+(function(){
+  const lv=[3,2,0,3,4,2,1, 2,3,3,4,3,0,1,2, 4,4,2,3,4,4,2, 3,2,4,3,3,4,0].slice(0,28);
+  document.getElementById('heat').innerHTML=lv.map(v=>'<i class="'+(v?'l'+v:'')+'"></i>').join('');
+})();
+
+/* ==================== MODALS ==================== */
+function openMask(html){document.getElementById('sheet').innerHTML=html;document.getElementById('mask').classList.add('on');}
+function closeMask(){document.getElementById('mask').classList.remove('on');}
+function openPay(plan){
+  payPlan=plan;payStage='plan';
+  renderPay();
+  openMask(document.getElementById('sheet').innerHTML);
+}
+function renderPay(){
+  let s='<div class="handle"></div>';
+  if(payStage==='done'){
+    s+='<div class="success"><div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></div>'+
+      '<h3>开通成功</h3><p>全包已生效：完整训练册 + App 全部功能，一次买断，没有续费</p>'+
+      '<button class="btn btn-primary" onclick="closeMask();paywallPassed=true;go(\'s-quiz\')">继续刷题</button>'+
+      '<button class="btn btn-ghost" style="margin-top:10px" onclick="closeMask();go(\'s-me\')">查看我的全包</button></div>';
+  }else{
+    s+='<h3>拾词全包</h3><p class="sub">一次买断，含完整 100 题训练册 + App 全部功能</p>'+
+      '<div class="plan">'+
+        '<button class="plan-c on"><b>¥9.9</b><span>全包 · 一次买断</span></button>'+
+      '</div>'+
+      '<div style="margin-bottom:12px">'+
+        ['完整 100 题专项训练册 PDF','全部专项训练题库 + 完整解析','真题风格例句库','错词自动复习 + 完整失分地图','家长周报每周推送','离线词库，校园网无信号也能背','新高考卷型更新免费'].map(p=>
+        '<div class="perk"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>'+p+'</div>').join('')+
+      '</div>'+
+      '<div class="coupon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v3a2 2 0 0 0 0 6v3a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-3a2 2 0 0 0 0-6Z"/><path d="M12 6v2M12 16v2M12 11v2"/></svg>全包一次性买断，没有年卡月卡，也不需要续费</div>'+
+      '<button class="btn btn-primary" style="margin-top:14px" onclick="payStage=\'done\';renderPay();openMask(document.getElementById(\'sheet\').innerHTML)">微信支付 ¥9.9</button>'+
+      '<p style="text-align:center;font-size:11px;color:var(--ink-3);margin-top:10px">支持微信 / 支付宝 · 7 天无理由退款</p>';
+  }
+  document.getElementById('sheet').innerHTML=s;
+}
+function openBuy(i){
+  buyItem=GOODS[i];couponUsed=false;payStage='buy';
+  renderBuy();
+  openMask(document.getElementById('sheet').innerHTML);
+}
+function renderBuy(){
+  const g=buyItem;
+  const total=Number(g.p).toFixed(2).replace(/\.?0+$/,'');
+  let s='<div class="handle"></div>';
+  if(payStage==='buydone'){
+    s+='<div class="success"><div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></div>'+
+      '<h3>下单成功</h3><p>《'+g.n+'》已加入「我的资料」，下载链接已发送到你的微信</p>'+
+      '<button class="btn btn-primary" onclick="closeMask()">去学习</button></div>';
+  }else{
+    s+='<h3>确认订单</h3><p class="sub">电子版即时下载，可自行双面打印</p>'+
+      '<div class="card goods" style="box-shadow:none;padding:12px;margin-bottom:14px"><div class="gcover" style="background:'+g.cover+';height:78px;width:62px">'+g.coverText+'</div>'+
+      '<div class="ginfo"><h5 style="font-size:13px">'+g.n+'</h5><div class="desc" style="margin-bottom:6px">电子 PDF（立即下载）</div>'+
+      '<div class="gprice"><b>¥'+g.p+'</b></div></div></div>'+
+      '<div class="opt-row on"><span class="ic"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span><span class="t"><b>下载方式</b><span>微信接收下载链接 · 邮箱同步一份</span></span><span class="ck"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span></div>'+
+      '<div class="opt-row" onclick="closeMask();openPay(\'all\')"><span class="ic"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v3a2 2 0 0 0 0 6v3a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-3a2 2 0 0 0 0-6Z"/></svg></span><span class="t"><b>更划算：全包 ¥9.9</b><span>含完整训练册 + App 全部功能，一次买断</span></span><span class="ck"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span></div>'+
+      '<div class="summary">'+
+        '<div class="sline"><span>商品小计</span><span>¥'+g.p+'</span></div>'+
+        '<div class="sline"><span>配送</span><span>¥0（电子版）</span></div>'+
+        '<div class="sline total"><span>实付金额</span><b>¥'+total+'</b></div>'+
+      '</div>'+
+      '<div class="paybar"><span class="wx"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M9 3.5c-3.3 0-6 2.1-6 4.7 0 1.5.9 2.8 2.3 3.7-.2.5-.6 1.4-1.3 2.4-.2.2 0 .5.3.4 1.7-.6 3-1.6 3.6-2.2.5.1 1 .2 1.6.2.6 0 1.2 0 1.7-.1-.3-.7-.5-1.4-.5-2.2 0-3.4 3.1-6.1 6.9-6.1h.6C16.8 3.8 13.4 3.5 9 3.5Z" transform="translate(0,4) scale(.78)"/><path d="M17.3 9.9c-3 0-5.4 1.9-5.4 4.3s2.4 4.3 5.4 4.3c.7 0 1.3-.1 1.9-.3-.3 1.1-.9 2-1.8 2.7-.2.2-.1.5.2.4 1.4-.5 2.5-1.4 3.1-2.3.9-.7 1.5-1.6 1.7-2.6.1-.3-.1-.5-.4-.4-.5.2-1.1.3-1.7.3 1.4-1 2.3-2.4 2.3-4 0-1-.4-1.8-1.2-2.5 2.4.1 4.4.9 4.4.9.4.1.5-.3.3-.6-.9-1.7-3.2-2.6-5.6-2.6-.7 0-1.3.1-1.9.2.1-.3.2-.7.2-1 .1-2.1-1.7-3.7-3.7-3.7-1.9 0-3.5 1.6-3.5 3.5 0 .6.2 1.2.5 1.7-.6.1-1.3.3-1.9.6-.2.1-.3.3-.1.5.8.7 2.1 1.1 3.4 1.1 1.2 0 2.3-.3 3.2-.8.1.4.2.8.2 1.2 0 1.6-.9 2.9-2.1 3.8-.2.2-.1.5.2.4 1.3-.6 2.3-1.6 2.8-2.5.6.4 1.3.6 2 .6h.5c-.9 1.5-2.6 2.5-4.6 2.5-3 0-5.4-1.9-5.4-4.3s2.4-4.3 5.4-4.3c2.9 0 5.3 1.9 5.3 4.3 0 2.3-2.4 4.2-5.3 4.2Z"/></svg></span><span class="t">微信支付</span><span style="font-size:11.5px;color:var(--ink-3)">推荐使用</span></div>'+
+      '<button class="btn btn-primary" style="margin-top:14px" onclick="payStage=\'buydone\';renderBuy();openMask(document.getElementById(\'sheet\').innerHTML)">确认支付 ¥'+total+'</button>'+
+      '<p style="text-align:center;font-size:11px;color:var(--ink-3);margin-top:10px">支持 7 天无理由退款 · 电子版永久可下载</p>';
+  }
+  document.getElementById('sheet').innerHTML=s;
+}
+
+/* ==================== INIT ==================== */
+buildNav();
+renderStudy();
+renderQuiz();
+
+/* ============================================================
+ * 真实统计同步
+ * ------------------------------------------------------------
+ * 原型首页/我的页的「1,284 累计接触 / 862 已掌握 / 54 待巩固 /
+ * 23 天连续 / 42h 学习时长」原本是 HTML 里的字面量，做完题不会动。
+ * 现在全部由 Store（FSRS 卡片状态 + 活动日志）推导。
+ * ============================================================ */
+var ERR_CATS=[
+  {k:'熟词僻义',label:'熟词僻义',o:.9},
+  {k:'一词多义',label:'一词多义',o:.72},
+  {k:'固定搭配',label:'固定搭配',o:.52},
+  {k:'词性误判',label:'词性误判',o:.38},
+  {k:'拼写变形',label:'拼写变形',o:.26}
+];
+function renderErrDist(){
+  const bm=Store.load().quiz.byModule||{};
+  const total=Object.keys(bm).reduce(function(a,k){return a+bm[k];},0);
+  const box=document.getElementById('errDist');
+  const sub=document.getElementById('errDistSub');
+  const adv=document.getElementById('errAdvice');
+  if(!box)return;
+  if(!total){
+    box.innerHTML='<div style="font-size:12.5px;color:var(--ink-3);padding:8px 0">尚无错题数据。先去「熟词僻义专项」答几题，这里会按真实错因出分布。</div>';
+    if(sub)sub.textContent='按失分原因归类，而非词表顺序';
+    if(adv)adv.innerHTML='还没有足够的作答数据来定位你的失因分布。<b style="color:#fff">先做 3 题</b>，系统就会按你真实错在哪来排序。';
+    return;
+  }
+  const rows=ERR_CATS.map(function(c){
+    const v=bm[c.k]||0; const pct=Math.round(100*v/total);
+    return '<div class="bench'+(c===ERR_CATS[0]?' top':'')+'"><span class="bench-label">'+c.label+'</span>'+
+      '<div class="bench-track"><div class="bench-fill" style="width:'+Math.max(pct,1.5)+'%;opacity:'+c.o+'"></div></div>'+
+      '<span class="bench-val">'+pct+'%</span></div>';
+  }).join('');
+  box.innerHTML=rows;
+  if(sub)sub.textContent='本机真实作答：'+total+' 道错题';
+  const top=ERR_CATS.slice().sort(function(a,b){return (bm[b.k]||0)-(bm[a.k]||0);})[0];
+  const pct=Math.round(100*(bm[top.k]||0)/total);
+  if(adv)adv.innerHTML='你因「'+top.label+'」丢掉 <b style="color:#fff">'+pct+'%</b> 的词汇失分，'+
+    '集中练 40 分钟，预计可在阅读与完形挽回 <b style="color:#fff">8–12 分</b>。';
+}
+/* 题型分布：按真实作答里的题型标记出，没数据不预填百分比 */
+function renderTypeDist(){
+  const box=document.getElementById('typeDist');
+  if(!box)return;
+  const bt=(Store.load().quiz.byType)||{};
+  const rows=Object.keys(bt).map(k=>({k:k,v:bt[k]})).filter(r=>r.v>0).sort((a,b)=>b.v-a.v);
+  const total=rows.reduce((a,r)=>a+r.v,0);
+  if(!total){
+    box.innerHTML='<div style="font-size:12.5px;color:var(--ink-3);padding:8px 0;line-height:1.6">还没有题型数据。题库给每道题标注「题型」后，这里会按你的真实作答出分布——不会预填任何百分比。</div>';
+    return;
+  }
+  const cols=['#10b981','#34d399','#7fe0bd','#c9f2e2'];
+  let acc=0;
+  const stops=rows.slice(0,4).map((r,i)=>{
+    const from=Math.round(acc/total*100), to=Math.round((acc+r.v)/total*100); acc+=r.v;
+    return cols[i]+' '+from+'% '+to+'%';
+  }).join(',');
+  box.innerHTML='<div class="donut-wrap">'+
+    '<div class="donut" style="background:conic-gradient('+stops+')"><div class="donut-c"><b>'+Math.round(100*rows[0].v/total)+'%</b><span>'+rows[0].k+'</span></div></div>'+
+    '<div class="dl">'+rows.slice(0,4).map((r,i)=>'<div><i style="background:'+cols[i]+'"></i>'+r.k+'<b>'+Math.round(100*r.v/total)+'%</b></div>').join('')+'</div>'+
+  '</div>';
+}
+function syncStats(){
+  const st=Store.stats();
+  const set=(id,v)=>{const el=document.getElementById(id); if(el) el.textContent=v;};
+  set('kpiStreak',st.streak);
+  set('kpiStreak2',st.streak);
+  set('kpiStreak3',st.streak);
+  set('kpiTouched',st.touchedWords);
+  set('kpiTouched2',st.touchedWords);
+  set('kpiMastered',st.masteredWords);
+  set('kpiMastered2',st.masteredWords);
+  set('kpiWeak',st.weakWords);
+  set('kpiQuizN',st.quizAnswered);
+  set('kpiQuizW',st.quizWrong);
+  set('kpiMinutes',st.minutes);
+  set('kpiMinutes2',st.minutes);
+  set('kpiAcc',st.quizAnswered?st.accuracy+'%':'—');
+  set('kpiCheckin',st.streak+'/7');
+  // 今日任务环：已接触词数 / 计划词数
+  const plan=LEX.length;
+  const done=Math.min(plan,st.touchedWords);
+  set('ringp',done);
+  set('ringSub','已背 '+done+'/'+plan);
+  const ring=document.getElementById('ring');
+  if(ring) ring.style.background='conic-gradient(var(--accent) 0 '+Math.round(done/plan*100)+'%, var(--line-2) '+Math.round(done/plan*100)+'% 100%)';
+  // 首页/我的页文案随真实作答变化（不再写死 62% / 54 个）
+  const hq=document.getElementById('homeQuizLine');
+  if(hq) hq.textContent=st.quizAnswered?('12 道高频陷阱题 · 你的正确率 '+st.accuracy+'%'):'12 道高频陷阱题 · 做完 3 题看你的真实正确率';
+  const et=document.getElementById('errTotal');
+  if(et) et.textContent='全部 '+st.quizWrong+' 个';
+  const eb=document.getElementById('errBook');
+  if(eb) eb.textContent=st.quizWrong+' 个待攻克';
+  // 失分地图：错因分布按真实作答统计刷新
+  renderErrDist();
+  renderTypeDist();
+}
+syncStats();
+
+/* 学习时长：按页面停留累计（每 15 秒结算一次） */
+let lastTick=Date.now();
+setInterval(()=>{
+  const now=Date.now();
+  const sc=document.querySelector('.screen.on');
+  if(sc&&sc.id!=='s-shop'){ Store.addTime(Math.min(60,(now-lastTick)/1000)); syncStats(); }
+  lastTick=now;
+},15000);
+
+/* keyboard nav */
+document.addEventListener('keydown',e=>{
+  const order=['s-home','s-study','s-shop','s-me'];
+  if(e.key==='ArrowRight'||e.key==='ArrowLeft'){
+    const cur=SCREENS.findIndex(s=>document.getElementById(s).classList.contains('on'));
+    const tabIdx=order.findIndex(s=>s===SCREENS[cur]);
+    if(tabIdx<0)return;
+    const ni=(tabIdx+(e.key==='ArrowRight'?1:order.length-1))%order.length;
+    if(order[ni]==='s-study')resetStudy();
+    go(order[ni]);
+  }
+});
+</script>
+</body>
+</html>

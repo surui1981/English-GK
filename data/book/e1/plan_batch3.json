@@ -1,0 +1,644 @@
+[
+ {
+  "word_id": "w_challenge",
+  "headword": "challenge",
+  "ipa": "/ˈtʃæləndʒ/",
+  "level": "T1",
+  "pos": [
+   "n",
+   "v"
+  ],
+  "target_sense": {
+   "sense_id": "s_challenge_v_doubt",
+   "text": "质疑、反驳（对某个说法提出疑问）",
+   "sense_level": "S3",
+   "error_mech": [
+    "E1",
+    "E2"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "挑战、难题（名词义）"
+   ],
+   "example": {
+    "en": "Several researchers challenged the old assumption that talent alone finally decides a person's success.",
+    "zh": "几位研究者质疑了「仅凭天赋就能决定一个人的成功」这一假设。",
+    "source": "仿真例句 · 高考阅读议论文高频句式",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "challenge the view that",
+    "challenge sb's claim",
+    "challenge an assumption",
+    "be challenged by"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_challenge_n_difficulty",
+    "text": "挑战、难题（需要克服的困难）",
+    "sense_level": "S1",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_challenge_n_question",
+    "text": "（对既有认知的）质疑、挑战",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_challenge_v_doubt",
+    "text": "质疑、反驳（对某个说法提出疑问）",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_challenge_v_invite",
+    "text": "向…发起挑战、要求对方做",
+    "sense_level": "S4",
+    "is_trap": true
+   }
+  ],
+  "confusable": [
+   "charm",
+   "danger",
+   "trial"
+  ],
+  "word_family": [
+   "challenge",
+   "challenging",
+   "challenger",
+   "unchallenged"
+  ],
+  "notes": "考场判断法：① 动词后面接「说法、观点、假设、结论」这类信念类名词 → 必是「质疑、反驳」，不是「挑战难度」；② 动词后面接人并构成 challenge sb to do → 才是「向…挑战」；③ 名词前有 pose / represent / be a challenge to → 是「对…的质疑」；④ 名词单独作宾语讲困难 → 「挑战、难题」。高考里 challenge 当动词几乎都是「质疑」，只背名词义就会整片选错。",
+  "assigned_carrier": "C2",
+  "assigned_difficulty": "hard",
+  "replaces_question_id": null
+ },
+ {
+  "word_id": "w_develop",
+  "headword": "develop",
+  "ipa": "/dɪˈveləp/",
+  "level": "T1",
+  "pos": [
+   "v"
+  ],
+  "target_sense": {
+   "sense_id": "s_develop_v_illness",
+   "text": "患上、染上（疾病）",
+   "sense_level": "S2",
+   "error_mech": [
+    "E1",
+    "E2"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "发展、进步"
+   ],
+   "example": {
+    "en": "He developed a bad cold after walking home in the rain that evening.",
+    "zh": "那天晚上冒雨走回家后，他患了重感冒。",
+    "source": "仿真例句 · 高考阅读健康话题高频句式",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "develop a cold",
+    "develop a disease",
+    "develop symptoms",
+    "develop cancer"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_develop_v_progress",
+    "text": "发展、进步；开发（资源）",
+    "sense_level": "S1",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_develop_v_habit",
+    "text": "养成、发展出（习惯、兴趣）",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_develop_v_illness",
+    "text": "患上、染上（疾病）",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_develop_v_process",
+    "text": "冲洗（胶片、照片）",
+    "sense_level": "S3",
+    "is_trap": true
+   }
+  ],
+  "confusable": [
+   "deployment",
+   "development",
+   "envelope",
+   "deplete"
+  ],
+  "word_family": [
+   "develop",
+   "developer",
+   "development",
+   "developing",
+   "envelope"
+  ],
+  "notes": "考场判断法：① develop 后面接 habit / interest / reputation，是「养成、发展出」；② 接 cold / disease / symptoms，是「患上」；③ 接 film / photograph，是「冲洗」；④ 接 into（develop into a serious problem），是「发展成、变成」；⑤ 宾语是城市、技术、经济这类，才是「发展、开发」。语法填空常考现在分词作状语（Developing rapidly, the company…），按「正在发展的」理解。",
+  "assigned_carrier": "C2",
+  "assigned_difficulty": "hard",
+  "replaces_question_id": null
+ },
+ {
+  "word_id": "w_mind",
+  "headword": "mind",
+  "ipa": "/maɪnd/",
+  "level": "T1",
+  "pos": [
+   "n",
+   "v"
+  ],
+  "target_sense": {
+   "sense_id": "s_mind_v_object",
+   "text": "介意、不赞同（问对方是否在意）",
+   "sense_level": "S3",
+   "error_mech": [
+    "E1",
+    "E4"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "头脑、心智（名词义）"
+   ],
+   "example": {
+    "en": "Would you mind opening the window? The room feels rather stuffy now.",
+    "zh": "你介意开一下窗吗？房间有点闷。",
+    "source": "仿真例句 · 高考应用文写作高频句式",
+    "carrier": "C4"
+   },
+   "collocations": [
+    "Do you mind",
+    "Would you mind doing",
+    "mind if I do",
+    "I don't mind"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_mind_n_brain",
+    "text": "头脑、心智（思考与记忆的器官）",
+    "sense_level": "S1",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_mind_v_object",
+    "text": "介意、不赞同（问对方是否在意）",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_mind_n_thought",
+    "text": "想法、见解（心里的主意）",
+    "sense_level": "S2",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_mind_v_watch_out",
+    "text": "当心、留心（注意脚下等）",
+    "sense_level": "S4",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_mind_v_keep_in_mind",
+    "text": "把…记在心上（牢记）",
+    "sense_level": "S4",
+    "is_trap": true
+   }
+  ],
+  "confusable": [
+   "mindful",
+   "remind",
+   "mine",
+   "mend"
+  ],
+  "word_family": [
+   "mind",
+   "mindful",
+   "remind",
+   "reminder"
+  ],
+  "notes": "考场判断法：① 看到 Do you mind / Would you mind doing 必是「介意」，后面若接 if 从句，从句要用陈述语序（Do you mind if I open the window?）；② keep sth in mind 与 bear in mind 同义，是「记在心上」，不是「介意」；③ mind your head / mind your step 是「当心」；④ 名词 mind 后接 change（change your mind）、put（put your mind to）时是「想法、心思」。mind doing 与 mind to do 的介词选择是应用文高频错点。",
+  "assigned_carrier": "C2",
+  "assigned_difficulty": "hard",
+  "replaces_question_id": null
+ },
+ {
+  "word_id": "w_defeat",
+  "headword": "defeat",
+  "ipa": "/dɪˈfi:t/",
+  "level": "T2",
+  "pos": [
+   "v",
+   "n",
+   "phrase"
+  ],
+  "target_sense": {
+   "sense_id": "s_defeat_n_loss",
+   "text": "失败、败北（一场败仗）",
+   "sense_level": "S2",
+   "error_mech": [
+    "E1",
+    "E5"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "击败、战胜（对手、队伍）"
+   ],
+   "example": {
+    "en": "The defeat was painful, but the players still believed they had a chance next season.",
+    "zh": "这场失败令人痛苦，但队员们仍相信下个赛季还有机会。",
+    "source": "仿真例句 · 高考记叙与体育精神类高频句式",
+    "carrier": "C5"
+   },
+   "collocations": [
+    "a heavy defeat",
+    "suffer a defeat",
+    "a crushing defeat",
+    "the defeat of the team"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_defeat_v_beat",
+    "text": "击败、战胜（对手、队伍）",
+    "sense_level": "S1",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_defeat_n_loss",
+    "text": "失败、败北（一场败仗）",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_defeat_v_frustrate",
+    "text": "使（希望、计划）落空、挫败（努力）",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_defeat_phrase_be_defeated_by",
+    "text": "（be defeated by）被…击败",
+    "sense_level": "S4",
+    "is_trap": true
+   }
+  ],
+  "confusable": [
+   "defect",
+   "defend",
+   "defective",
+   "defeatist"
+  ],
+  "word_family": [
+   "defeat",
+   "defeated",
+   "defeater",
+   "defeatism"
+  ],
+  "notes": "考场判断法：① 先看是动词还是名词：动词 defeat 后面直接跟被击败的对象（they defeated their rivals）→ 「击败」；名词 a defeat / suffer a defeat → 「失败、败北」；② 宾语是 hope / plan / purpose / expectations → 「使落空、使破灭」，不是「击败」；③ 被动式 be defeated by 后面接对手，be defeated in 后面接比赛项目（They were defeated in the final），两个介词指向不同，别混；④ 注意 defeated 还能作形容词（a defeated team 被击败的队伍），语法填空考变形时不要写成 defeat。",
+  "assigned_carrier": "C4",
+  "assigned_difficulty": "mid",
+  "replaces_question_id": null
+ },
+ {
+  "word_id": "w_occupy",
+  "headword": "occupy",
+  "ipa": "/ˈɒkjupaɪ/",
+  "level": "T1",
+  "pos": [
+   "v"
+  ],
+  "target_sense": {
+   "sense_id": "s_occupy_v_capture",
+   "text": "占领（城市、领土）",
+   "sense_level": "S3",
+   "error_mech": [
+    "E1",
+    "E10"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "占据（空间、抽象位置）"
+   ],
+   "example": {
+    "en": "The enemy occupied the coastal town for nearly a month before withdrawing.",
+    "zh": "敌军占领了这座海滨城镇近一个月后才撤退。",
+    "source": "仿真例句 · 高考阅读历史类高频句式",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "occupy the town",
+    "be occupied by troops",
+    "occupy the country",
+    "military occupation"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_occupy_v_space",
+    "text": "占据（空间、位置、席位）",
+    "sense_level": "S1",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_occupy_v_time",
+    "text": "占用（时间、精力、资源）",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_occupy_v_busy",
+    "text": "忙于、使…忙碌（无暇分身）",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_occupy_v_capture",
+    "text": "占领（城市、领土）",
+    "sense_level": "S3",
+    "is_trap": true
+   }
+  ],
+  "confusable": [
+   "employ",
+   "engage",
+   "seize",
+   "conquer"
+  ],
+  "word_family": [
+   "occupy",
+   "occupied",
+   "occupancy",
+   "occupant"
+  ],
+  "notes": "考场判断法：① 宾语是 room / seat / space → 「占据」；宾语是 time / energy / attention → 「占用」；② 看到 be occupied with / be occupied in，记成「忙于」而不是「被占满」，这是完形填空最常考的熟词僻义；③ 宾语是城市、领土、国家 → 「占领」；④ occupied 作形容词时看后面跟 with 还是跟地点，才知道是「忙于」还是「被占用」。",
+  "assigned_carrier": "C2",
+  "assigned_difficulty": "mid",
+  "replaces_question_id": null
+ },
+ {
+  "word_id": "w_practice",
+  "headword": "practice",
+  "ipa": "/ˈpræktɪs/",
+  "level": "T1",
+  "pos": [
+   "n",
+   "v",
+   "adv"
+  ],
+  "target_sense": {
+   "sense_id": "s_practice_adv_in_practice",
+   "text": "实际上、事实上（in practice）",
+   "sense_level": "S4",
+   "error_mech": [
+    "E4",
+    "E2"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "练习、训练"
+   ],
+   "example": {
+    "en": "The plan sounds perfect on paper, but in practice it is much harder to carry out.",
+    "zh": "这个方案纸面上看起来完美，但实际操作起来要难得多。",
+    "source": "仿真例句 · 高考阅读议论文高频句式",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "in practice",
+    "in actual practice",
+    "in practice, not in theory"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_practice_n_exercise",
+    "text": "练习、训练；练习过程",
+    "sense_level": "S1",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_practice_v_perform",
+    "text": "练习、演练（技艺、发言）",
+    "sense_level": "S2",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_practice_n_custom",
+    "text": "惯例、习俗；通行的做法",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_practice_n_profession",
+    "text": "业务、执业（医疗、法律）",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_practice_adv_in_practice",
+    "text": "实际上、事实上（in practice）",
+    "sense_level": "S4",
+    "is_trap": true
+   }
+  ],
+  "confusable": [
+   "practise",
+   "practitioner",
+   "practical",
+   "premise"
+  ],
+  "word_family": [
+   "practice",
+   "practise",
+   "practitioner",
+   "practical",
+   "practically"
+  ],
+  "notes": "考场判断法：① practice 前面有 common / standard / usual，是「惯例、做法」，不是「练习」；② in practice 意为「实际上」（= in reality），不是「在练习中」；③ 后面接 doing（practice speaking English），是动词「练习」；④ medical / legal 语境（medical practice, in clinical practice）是「业务、行医执业」；⑤ 应用文表达「这是一种普遍做法」固定写 It is common practice to do sth，不要写成 common practice of doing。",
+  "assigned_carrier": "C3",
+  "assigned_difficulty": "mid",
+  "replaces_question_id": null
+ },
+ {
+  "word_id": "w_sense",
+  "headword": "sense",
+  "ipa": "/sens/",
+  "level": "T1",
+  "pos": [
+   "n",
+   "v"
+  ],
+  "target_sense": {
+   "sense_id": "s_sense_v_make_sense",
+   "text": "讲得通、有道理（make sense）",
+   "sense_level": "S4",
+   "error_mech": [
+    "E4",
+    "E2"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "理解、弄懂（make sense of）"
+   ],
+   "example": {
+    "en": "The instructions are so confusing that the plan simply does not make sense to anyone.",
+    "zh": "这些说明令人摸不着头脑，这个方案对谁都讲不通。",
+    "source": "仿真例句 · 高考完形填空高频句式",
+    "carrier": "C2"
+   },
+   "collocations": [
+    "make sense",
+    "makes no sense",
+    "make perfect sense",
+    "it makes sense to do sth"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_sense_n_faculty",
+    "text": "感觉、感官；官能",
+    "sense_level": "S1",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_sense_n_meaning",
+    "text": "意义、含义；词义",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_sense_n_awareness",
+    "text": "意识、观念；意识到的体会",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_sense_v_make_sense",
+    "text": "讲得通、有道理（make sense）",
+    "sense_level": "S4",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_sense_v_make_sense_of",
+    "text": "理解、弄懂（读懂、领会）",
+    "sense_level": "S4",
+    "is_trap": true
+   }
+  ],
+  "confusable": [
+   "sensitive",
+   "sensible",
+   "sensory",
+   "sentence"
+  ],
+  "word_family": [
+   "sense",
+   "sensible",
+   "sensitive",
+   "sensory",
+   "senseless"
+  ],
+  "notes": "考场判断法：① a + 抽象名词（belonging / responsibility / achievement / purpose）构成 a sense of…，是「意识、观念」，不是「感觉」也不是「意义」；② in this / in a sense 是「意义、含义」；③ make sense 后面不接宾语，是「讲得通、有道理」；make sense of + 宾语是「理解、弄懂」，两个短语必须整块背；④ a sixth sense / sense of smell 才是「感官」义。语法填空最爱考 make sense of。",
+  "assigned_carrier": "C3",
+  "assigned_difficulty": "mid",
+  "replaces_question_id": null
+ },
+ {
+  "word_id": "w_stand",
+  "headword": "stand",
+  "ipa": "/stænd/",
+  "level": "T1",
+  "pos": [
+   "v"
+  ],
+  "target_sense": {
+   "sense_id": "s_stand_v_tolerate",
+   "text": "容忍、忍受；无法忍受",
+   "sense_level": "S3",
+   "error_mech": [
+    "E1",
+    "E4",
+    "E2"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "代表、象征"
+   ],
+   "example": {
+    "en": "The school will not stand for the kind of behaviour that puts others in danger.",
+    "zh": "学校不会容忍那种会让他人陷入危险的行为。",
+    "source": "仿真例句 · 高考完形填空校园话题高频句式",
+    "carrier": "C2"
+   },
+   "collocations": [
+    "won't stand for sth",
+    "can't stand sb",
+    "can't stand it",
+    "stand the pressure"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_stand_v_stand",
+    "text": "站立；（建筑物）坐落、矗立",
+    "sense_level": "S1",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_stand_v_represent",
+    "text": "代表、象征；意味着",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_stand_v_tolerate",
+    "text": "容忍、忍受；无法忍受",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_stand_v_out",
+    "text": "突出、显眼（格外引人注意）",
+    "sense_level": "S4",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_stand_v_support",
+    "text": "维护、支持（为…挺身而出）",
+    "sense_level": "S4",
+    "is_trap": true
+   }
+  ],
+  "confusable": [
+   "standard",
+   "stanza",
+   "stare",
+   "undertake"
+  ],
+  "word_family": [
+   "stand",
+   "standing",
+   "standpoint",
+   "understand",
+   "misunderstand"
+  ],
+  "notes": "考场判断法：① stand + for：后面接符号、缩写、机构，是「代表、象征」（stand for the Olympic Games）；后面接负面行为（won't stand for such rudeness），是「容忍、容许」；② stand + out 是不及物用法，意为「突出、显眼」，后面常接 from / among；③ stand + up + for + 人，多一个 up，意为「维护、支持（他人）」，与 stand for 的「代表」完全不同；④ 主语是「物 + 地点」时是「坐落、矗立」。完形里这四个短语义各考各的，不能只背一个。",
+  "assigned_carrier": "C4",
+  "assigned_difficulty": "mid",
+  "replaces_question_id": null
+ }
+]

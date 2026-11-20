@@ -1,0 +1,851 @@
+{
+ "_meta": {
+  "batch": "22b",
+  "count": 20,
+  "spec": "docs/首批100词精修规范.md",
+  "gold_standard": "docs/首批100词精修规范.md §6.2"
+ },
+ "questions": [
+  {
+   "id": "q_061",
+   "word_id": "w_rate",
+   "headword": "rate",
+   "sense_id": "s_rate_n_speed",
+   "sense_text": "速度、速率（移动的快慢）",
+   "sense_level": "S2",
+   "is_trap": true,
+   "trap_of": [
+    "比率、比例（增速、发生率等）"
+   ],
+   "sense_error_mech": [
+    "E2",
+    "E6"
+   ],
+   "module": "E6_语境推断失败",
+   "module_code": "E6",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C1",
+   "collocations": [
+    "at the rate of",
+    "at a fast rate",
+    "the rate of travel",
+    "slow down the rate"
+   ],
+   "confusable": [
+    "ratio",
+    "fare",
+    "rank"
+   ],
+   "notes": "考场判断法：① 句子的主语是人（teachers rate students highly）→ 动词义「评价、评级」，别按「比率」读；② 后面接 of + growth / birth / success → 名词「比率」；③ 出现 at the rate of / at a steady rate → 「速度、速率」；④ 修饰 pay / hotel / price → 「价格、收费标准」。",
+   "example": {
+    "en": "The car consumes much less fuel when it is driven at a steady rate.",
+    "zh": "汽车以稳定的速度行驶时会省下多得多的燃料。",
+    "source": "仿真例句 · 高考科普与交通类话题",
+    "carrier": "C1"
+   },
+   "design_hint": "考语境推断：干扰项字面讲得通但与上下文线索矛盾"
+  },
+  {
+   "id": "q_062",
+   "word_id": "w_rate",
+   "headword": "rate",
+   "sense_id": "s_rate_n_ratio",
+   "sense_text": "比率、比例（增速、发生率等）",
+   "sense_level": "S1",
+   "is_trap": false,
+   "trap_of": [],
+   "sense_error_mech": [],
+   "module": "E2_一词多义混淆",
+   "module_code": "E2",
+   "difficulty": "easy",
+   "expected_accuracy": [
+    0.65,
+    0.95
+   ],
+   "carrier": "C2",
+   "collocations": [
+    "the rate of growth",
+    "a high success rate",
+    "the birth rate",
+    "a rate of change"
+   ],
+   "confusable": [
+    "ratio",
+    "fare",
+    "rank"
+   ],
+   "notes": "考场判断法：① 句子的主语是人（teachers rate students highly）→ 动词义「评价、评级」，别按「比率」读；② 后面接 of + growth / birth / success → 名词「比率」；③ 出现 at the rate of / at a steady rate → 「速度、速率」；④ 修饰 pay / hotel / price → 「价格、收费标准」。",
+   "example": {
+    "en": "The rate of growth in renewable energy has risen sharply over the past few years.",
+    "zh": "过去几年里可再生能源的增长率大幅上升。",
+    "source": "仿真例句 · 高考数据说明文高频",
+    "carrier": "C1"
+   },
+   "design_hint": "考同一词的另一义项：干扰项是该词另一个真实存在的义项"
+  },
+  {
+   "id": "q_063",
+   "word_id": "w_settle",
+   "headword": "settle",
+   "sense_id": "s_settle_v_calm",
+   "sense_text": "安顿下来、平静下来",
+   "sense_level": "S4",
+   "is_trap": true,
+   "trap_of": [
+    "解决、处理（争端、纠纷）"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E4"
+   ],
+   "module": "E4_固定搭配缺失",
+   "module_code": "E4",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C1",
+   "collocations": [
+    "settle down",
+    "settle into",
+    "settle in a new place",
+    "settle for"
+   ],
+   "confusable": [
+    "shuttle",
+    "saddle",
+    "selection"
+   ],
+   "notes": "考场判断法：① 宾语是 dispute / conflict / difference 这类「争端类」→ 「解决、和解」；② 宾语是 date / price / details 这类「事务类」→ 「敲定、确定」；③ 后面不接宾语或跟 in / into → 「定居、安顿」，settle down 这个固定块是「安顿下来、平静下来」，别按「解决」读。",
+   "example": {
+    "en": "It took her a whole term to settle down in the new boarding school far from home.",
+    "zh": "她花了整整一个学期才在离家很远的寄宿学校里安顿下来。",
+    "source": "仿真例句 · 高考留学与适应类话题",
+    "carrier": "C1"
+   },
+   "design_hint": "考固定搭配：干扰项须能接在同一结构下但搭配错"
+  },
+  {
+   "id": "q_064",
+   "word_id": "w_settle",
+   "headword": "settle",
+   "sense_id": "s_settle_v_decide",
+   "sense_text": "敲定、确定（时间、价格、方案）",
+   "sense_level": "S3",
+   "is_trap": true,
+   "trap_of": [
+    "解决、处理（争端、纠纷）"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E2"
+   ],
+   "module": "E2_一词多义混淆",
+   "module_code": "E2",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C2",
+   "collocations": [
+    "settle on a date",
+    "settle the price",
+    "settle the details",
+    "settle a plan"
+   ],
+   "confusable": [
+    "shuttle",
+    "saddle",
+    "selection"
+   ],
+   "notes": "考场判断法：① 宾语是 dispute / conflict / difference 这类「争端类」→ 「解决、和解」；② 宾语是 date / price / details 这类「事务类」→ 「敲定、确定」；③ 后面不接宾语或跟 in / into → 「定居、安顿」，settle down 这个固定块是「安顿下来、平静下来」，别按「解决」读。",
+   "example": {
+    "en": "After several rounds of discussion, the two sides finally settled the date of the event.",
+    "zh": "经过几轮讨论，双方终于敲定了活动的日期。",
+    "source": "仿真例句 · 高考应用文与事务类话题",
+    "carrier": "C4"
+   },
+   "design_hint": "考同一词的另一义项：干扰项是该词另一个真实存在的义项"
+  },
+  {
+   "id": "q_065",
+   "word_id": "w_shift",
+   "headword": "shift",
+   "sense_id": "s_shift_v_move",
+   "sense_text": "搬动、挪动（把物品移开）",
+   "sense_level": "S3",
+   "is_trap": true,
+   "trap_of": [
+    "转变、转移（政策、态度的变化）"
+   ],
+   "sense_error_mech": [
+    "E2",
+    "E6"
+   ],
+   "module": "E6_语境推断失败",
+   "module_code": "E6",
+   "difficulty": "hard",
+   "expected_accuracy": [
+    0.15,
+    0.45
+   ],
+   "carrier": "C1",
+   "collocations": [
+    "shift sth into place",
+    "shift the weight",
+    "shift gears",
+    "shift attention to"
+   ],
+   "confusable": [
+    "switch",
+    "shaft",
+    "swift"
+   ],
+   "notes": "考场判断法：① 出现 a shift in / a shift towards → 名词「转变、转移」，这是社会类文章的核心表达；② 宾语是实物（machine / furniture）→ 动词「搬动、挪动」；③ 出现 shift from A to B → 动词「转向、改换」；④ 跟 night / day / work 连用 → 名词「轮班、班次」。",
+   "example": {
+    "en": "It took two workers half an hour to shift the heavy machine into the corner.",
+    "zh": "两名工人花了半小时才把这台沉重的机器挪到角落里。",
+    "source": "仿真例句 · 高考记叙与说明类",
+    "carrier": "C5"
+   },
+   "design_hint": "考语境推断：干扰项字面讲得通但与上下文线索矛盾"
+  },
+  {
+   "id": "q_066",
+   "word_id": "w_shift",
+   "headword": "shift",
+   "sense_id": "s_shift_v_turn",
+   "sense_text": "转向、改换（从…转到…）",
+   "sense_level": "S2",
+   "is_trap": true,
+   "trap_of": [
+    "搬动、挪动（把物品移开）",
+    "转变、转移（政策、态度的变化）"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E2"
+   ],
+   "module": "E1_熟词僻义",
+   "module_code": "E1",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C1",
+   "collocations": [
+    "shift from A to B",
+    "shift focus to",
+    "shift to a new approach"
+   ],
+   "confusable": [
+    "switch",
+    "shaft",
+    "swift"
+   ],
+   "notes": "考场判断法：① 出现 a shift in / a shift towards → 名词「转变、转移」，这是社会类文章的核心表达；② 宾语是实物（machine / furniture）→ 动词「搬动、挪动」；③ 出现 shift from A to B → 动词「转向、改换」；④ 跟 night / day / work 连用 → 名词「轮班、班次」。",
+   "example": {
+    "en": "The factory has shifted from making paper bags to making reusable cloth bags.",
+    "zh": "这家工厂已从生产纸袋转为生产可重复使用的布袋。",
+    "source": "仿真例句 · 高考环保与产业类阅读",
+    "carrier": "C1"
+   },
+   "design_hint": "考熟词僻义：干扰项按学生最熟悉的那个义项设置，正解是本义项"
+  },
+  {
+   "id": "q_067",
+   "word_id": "w_spot",
+   "headword": "spot",
+   "sense_id": "s_spot_v_detect",
+   "sense_text": "发现、察觉（问题、异常）",
+   "sense_level": "S2",
+   "is_trap": true,
+   "trap_of": [
+    "地点、场所",
+    "斑点、污点"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E5"
+   ],
+   "module": "E5_词性词形误判",
+   "module_code": "E5",
+   "difficulty": "hard",
+   "expected_accuracy": [
+    0.15,
+    0.45
+   ],
+   "carrier": "C4",
+   "collocations": [
+    "spot a problem",
+    "spot a mistake",
+    "spot the difference",
+    "easy to spot"
+   ],
+   "confusable": [
+    "spoil",
+    "spout",
+    "spotted"
+   ],
+   "notes": "考场判断法：① 后面接的是 problem / mistake / difference 这类「问题类」名词 → 动词「发现、察觉」；② 后面接的是人（sb / a friend）→ 「认出、辨出」；③ 前面有 a / the 并指一处风景 → 名词「地点、场所」；④ 形容墙、皮肤上的印迹 → 名词「斑点、污点」。spot 作动词是完形里的常客。",
+   "example": {
+    "en": "Careful readers will soon spot the mistake that the writer has deliberately left in the text.",
+    "zh": "细心的读者很快就会发现作者故意留在文章里的错误。",
+    "source": "仿真例句 · 高考阅读高频句式",
+    "carrier": "C1"
+   },
+   "design_hint": "考词性或词形变化（-ed/-ing/名词化/形容词↔名词），干扰项用同一词根的另一词性"
+  },
+  {
+   "id": "q_068",
+   "word_id": "w_spot",
+   "headword": "spot",
+   "sense_id": "s_spot_n_place",
+   "sense_text": "地点、场所",
+   "sense_level": "S1",
+   "is_trap": false,
+   "trap_of": [],
+   "sense_error_mech": [],
+   "module": "E3_形近音近混淆",
+   "module_code": "E3",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C3",
+   "collocations": [
+    "a scenic spot",
+    "a popular spot",
+    "on the spot",
+    "a spot of bother"
+   ],
+   "confusable": [
+    "spoil",
+    "spout",
+    "spotted"
+   ],
+   "notes": "考场判断法：① 后面接的是 problem / mistake / difference 这类「问题类」名词 → 动词「发现、察觉」；② 后面接的是人（sb / a friend）→ 「认出、辨出」；③ 前面有 a / the 并指一处风景 → 名词「地点、场所」；④ 形容墙、皮肤上的印迹 → 名词「斑点、污点」。spot 作动词是完形里的常客。",
+   "example": {
+    "en": "The old town is one of the most attractive spots for visitors in this region.",
+    "zh": "这座古镇是本地区对游客最有吸引力的景点之一。",
+    "source": "仿真例句 · 高考旅游与文化类话题",
+    "carrier": "C1"
+   },
+   "design_hint": "干扰项必须取自该词的 confusable 形近/音近列表，正确项与干扰项共享词根或音节"
+  },
+  {
+   "id": "q_069",
+   "word_id": "w_suspect",
+   "headword": "suspect",
+   "sense_id": "s_suspect_n_person",
+   "sense_text": "嫌疑人、嫌疑犯",
+   "sense_level": "S3",
+   "is_trap": true,
+   "trap_of": [
+    "怀疑、觉得…有嫌疑",
+    "可疑的、令人起疑的"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E5"
+   ],
+   "module": "E5_词性词形误判",
+   "module_code": "E5",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C4",
+   "collocations": [
+    "a prime suspect",
+    "the main suspect",
+    "a suspect list",
+    "question a suspect"
+   ],
+   "confusable": [
+    "suspicion",
+    "suspicious",
+    "suspend"
+   ],
+   "notes": "考场判断法：① suspect 后面接 of + 人或 that 从句且涉及「罪行」→ 「怀疑有嫌疑」；② suspect that 后面说的是自己不确定的事 → 「猜想、料想」，语气是中性推测；③ 冠词 the + suspect 且指人 → 名词「嫌疑人」；④ 修饰 motive / excuse / package → 形容词「可疑的」。suspect 横跨 v / n / adj 三种词性，先定词性再定义项。",
+   "example": {
+    "en": "The suspect was questioned for several hours before the police let him go.",
+    "zh": "这名嫌疑人被盘问了好几个小时，随后警方才放他走。",
+    "source": "仿真例句 · 高考推理与犯罪类话题",
+    "carrier": "C1"
+   },
+   "design_hint": "考词性或词形变化（-ed/-ing/名词化/形容词↔名词），干扰项用同一词根的另一词性"
+  },
+  {
+   "id": "q_070",
+   "word_id": "w_suspect",
+   "headword": "suspect",
+   "sense_id": "s_suspect_adj_doubtful",
+   "sense_text": "可疑的、令人起疑的",
+   "sense_level": "S3",
+   "is_trap": true,
+   "trap_of": [
+    "怀疑、觉得…有嫌疑"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E2"
+   ],
+   "module": "E2_一词多义混淆",
+   "module_code": "E2",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C2",
+   "collocations": [
+    "a suspect motive",
+    "suspect behaviour",
+    "a suspect package",
+    "look suspect"
+   ],
+   "confusable": [
+    "suspicion",
+    "suspicious",
+    "suspend"
+   ],
+   "notes": "考场判断法：① suspect 后面接 of + 人或 that 从句且涉及「罪行」→ 「怀疑有嫌疑」；② suspect that 后面说的是自己不确定的事 → 「猜想、料想」，语气是中性推测；③ 冠词 the + suspect 且指人 → 名词「嫌疑人」；④ 修饰 motive / excuse / package → 形容词「可疑的」。suspect 横跨 v / n / adj 三种词性，先定词性再定义项。",
+   "example": {
+    "en": "The teacher did not ignore the student's suspect excuse and asked a few clear questions.",
+    "zh": "老师没有忽略学生那可疑的借口，而是问了几个清楚的问题。",
+    "source": "仿真例句 · 高考校园与人物描写类",
+    "carrier": "C2"
+   },
+   "design_hint": "考同一词的另一义项：干扰项是该词另一个真实存在的义项"
+  },
+  {
+   "id": "q_071",
+   "word_id": "w_assumption",
+   "headword": "assumption",
+   "sense_id": "s_assumption_n_on_that",
+   "sense_text": "在…的前提下（固定搭配）",
+   "sense_level": "S4",
+   "is_trap": true,
+   "trap_of": [
+    "假定、假设（未加证实的前提）"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E4"
+   ],
+   "module": "E4_固定搭配缺失",
+   "module_code": "E4",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C1",
+   "collocations": [
+    "on the assumption that",
+    "on this assumption",
+    "under the assumption that"
+   ],
+   "confusable": [
+    "assume",
+    "presumption",
+    "consumption"
+   ],
+   "notes": "考场判断法：① 看到 assumption，先看介词：on the assumption that / on this assumption 一律译成「在…的前提下」，本身带「若…则」的假设语气；② 后面接 responsibility / power / office → 「承担、接管」，绝不译成「假定」；③ 只有 make an assumption、a false assumption 这类抽象用法才是「假定、假设」。另记 -sumption 词族：consumption（消耗）是形近误选重灾区。",
+   "example": {
+    "en": "He signed the form on the assumption that the company would pay for the training.",
+    "zh": "他是在「公司会承担培训费用」这一前提下签了那张表。",
+    "source": "仿真例句 · 高考语法填空固定搭配高频",
+    "carrier": "C3"
+   },
+   "design_hint": "考固定搭配：干扰项须能接在同一结构下但搭配错"
+  },
+  {
+   "id": "q_072",
+   "word_id": "w_assumption",
+   "headword": "assumption",
+   "sense_id": "s_assumption_n_responsibility",
+   "sense_text": "承担、接管（责任、权力、职位）",
+   "sense_level": "S3",
+   "is_trap": true,
+   "trap_of": [
+    "假定、假设（未加证实的前提）"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E2"
+   ],
+   "module": "E1_熟词僻义",
+   "module_code": "E1",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C1",
+   "collocations": [
+    "assumption of responsibility",
+    "assumption of power",
+    "assumption of office"
+   ],
+   "confusable": [
+    "assume",
+    "presumption",
+    "consumption"
+   ],
+   "notes": "考场判断法：① 看到 assumption，先看介词：on the assumption that / on this assumption 一律译成「在…的前提下」，本身带「若…则」的假设语气；② 后面接 responsibility / power / office → 「承担、接管」，绝不译成「假定」；③ 只有 make an assumption、a false assumption 这类抽象用法才是「假定、假设」。另记 -sumption 词族：consumption（消耗）是形近误选重灾区。",
+   "example": {
+    "en": "Her assumption of responsibility for the project changed the way the whole team worked.",
+    "zh": "她承担起这个项目的责任，改变了整个团队的做事方式。",
+    "source": "仿真例句 · 高考职场与责任类话题",
+    "carrier": "C1"
+   },
+   "design_hint": "考熟词僻义：干扰项按学生最熟悉的那个义项设置，正解是本义项"
+  },
+  {
+   "id": "q_073",
+   "word_id": "w_characteristic",
+   "headword": "characteristic",
+   "sense_id": "s_characteristic_n_quality",
+   "sense_text": "品质、素养（人的优良素质）",
+   "sense_level": "S2",
+   "is_trap": true,
+   "trap_of": [
+    "特征、特点、性质"
+   ],
+   "sense_error_mech": [
+    "E2",
+    "E6"
+   ],
+   "module": "E6_语境推断失败",
+   "module_code": "E6",
+   "difficulty": "hard",
+   "expected_accuracy": [
+    0.15,
+    0.45
+   ],
+   "carrier": "C1",
+   "collocations": [
+    "fine characteristics",
+    "a noble characteristic",
+    "characteristics of a leader"
+   ],
+   "confusable": [
+    "character",
+    "characterize",
+    "categorical"
+   ],
+   "notes": "考场判断法：① 出现 be characteristic of sb/sth → 形容词义「是…的典型特征」，主语一定是被描述的人或物；② 前面有 a key / an obvious 且后面接 of + 对象 → 名词「特征、特点」；③ 形容人的优秀表现 → 「品质、素养」。写作用词时优先用 the key characteristic of…，这是议论文的高分表达。",
+   "example": {
+    "en": "Patience is the quality that this young teacher has shown again and again in class.",
+    "zh": "耐心是这位年轻老师在课堂上一次次展现出的品质。",
+    "source": "仿真例句 · 高考人物描写与写作类",
+    "carrier": "C4"
+   },
+   "design_hint": "考语境推断：干扰项字面讲得通但与上下文线索矛盾"
+  },
+  {
+   "id": "q_074",
+   "word_id": "w_characteristic",
+   "headword": "characteristic",
+   "sense_id": "s_characteristic_adj_typical",
+   "sense_text": "典型的、特有的（是…的典型特征）",
+   "sense_level": "S3",
+   "is_trap": true,
+   "trap_of": [
+    "特征、特点、性质"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E4"
+   ],
+   "module": "E1_熟词僻义",
+   "module_code": "E1",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C1",
+   "collocations": [
+    "be characteristic of",
+    "a characteristic style",
+    "characteristic of the period"
+   ],
+   "confusable": [
+    "character",
+    "characterize",
+    "categorical"
+   ],
+   "notes": "考场判断法：① 出现 be characteristic of sb/sth → 形容词义「是…的典型特征」，主语一定是被描述的人或物；② 前面有 a key / an obvious 且后面接 of + 对象 → 名词「特征、特点」；③ 形容人的优秀表现 → 「品质、素养」。写作用词时优先用 the key characteristic of…，这是议论文的高分表达。",
+   "example": {
+    "en": "It is characteristic of this old town that every street follows the shape of the river.",
+    "zh": "这座古镇的特点是每一条街道都顺着河流的走向延伸。",
+    "source": "仿真例句 · 高考文化与地理类阅读",
+    "carrier": "C1"
+   },
+   "design_hint": "考熟词僻义：干扰项按学生最熟悉的那个义项设置，正解是本义项"
+  },
+  {
+   "id": "q_075",
+   "word_id": "w_emphasis",
+   "headword": "emphasis",
+   "sense_id": "s_emphasis_n_stress",
+   "sense_text": "重音、重读（词的发音着力点）",
+   "sense_level": "S3",
+   "is_trap": true,
+   "trap_of": [
+    "强调、着重（把注意力集中在…）"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E2"
+   ],
+   "module": "E2_一词多义混淆",
+   "module_code": "E2",
+   "difficulty": "hard",
+   "expected_accuracy": [
+    0.15,
+    0.45
+   ],
+   "carrier": "C2",
+   "collocations": [
+    "the emphasis falls on",
+    "stress and emphasis",
+    "word emphasis"
+   ],
+   "confusable": [
+    "emphasize",
+    "emphatic",
+    "empirical"
+   ],
+   "notes": "考场判断法：① 出现 place / put / lay emphasis on sb/sth → 一律译成「强调、重视」，这是应用文写作的固定词块；② 上下文谈的是句子重音、发音着力点 → 「重音、重读」；③ 出现 a shift in emphasis / the emphasis of… → 「重点、侧重之处」。注意 emphasis（名词，强调）与 emphatic（形容词，强调的）、empirical（经验的）常被混选。",
+   "example": {
+    "en": "The emphasis in the word falls on the last syllable, which slightly changes its meaning.",
+    "zh": "这个单词的重音落在最后一个音节上，这略微改变了它的意思。",
+    "source": "仿真例句 · 高考语言与文化类阅读",
+    "carrier": "C1"
+   },
+   "design_hint": "考同一词的另一义项：干扰项是该词另一个真实存在的义项"
+  },
+  {
+   "id": "q_076",
+   "word_id": "w_emphasis",
+   "headword": "emphasis",
+   "sense_id": "s_emphasis_n_focus",
+   "sense_text": "强调、着重（把注意力集中在…）",
+   "sense_level": "S1",
+   "is_trap": false,
+   "trap_of": [],
+   "sense_error_mech": [],
+   "module": "E1_熟词僻义",
+   "module_code": "E1",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C1",
+   "collocations": [
+    "place emphasis on",
+    "put emphasis on",
+    "lay emphasis on",
+    "give emphasis to"
+   ],
+   "confusable": [
+    "emphasize",
+    "emphatic",
+    "empirical"
+   ],
+   "notes": "考场判断法：① 出现 place / put / lay emphasis on sb/sth → 一律译成「强调、重视」，这是应用文写作的固定词块；② 上下文谈的是句子重音、发音着力点 → 「重音、重读」；③ 出现 a shift in emphasis / the emphasis of… → 「重点、侧重之处」。注意 emphasis（名词，强调）与 emphatic（形容词，强调的）、empirical（经验的）常被混选。",
+   "example": {
+    "en": "The school places great emphasis on reading aloud every morning before the first class begins.",
+    "zh": "这所学校非常强调每天早上在第一节课开始前朗读。",
+    "source": "仿真例句 · 高考校园与写作类高频",
+    "carrier": "C4"
+   },
+   "design_hint": "考熟词僻义：干扰项按学生最熟悉的那个义项设置，正解是本义项"
+  },
+  {
+   "id": "q_077",
+   "word_id": "w_gap",
+   "headword": "gap",
+   "sense_id": "s_gap_n_interval",
+   "sense_text": "间隔、空档（时间上的空隙）",
+   "sense_level": "S3",
+   "is_trap": true,
+   "trap_of": [
+    "差距、悬殊之处"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E2"
+   ],
+   "module": "E3_形近音近混淆",
+   "module_code": "E3",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C3",
+   "collocations": [
+    "a gap of two years",
+    "a long gap between",
+    "fill the gap"
+   ],
+   "confusable": [
+    "gape",
+    "space",
+    "distance"
+   ],
+   "notes": "考场判断法：① the gap between A and B → 一定是「差距」，也是作文里 bridge the gap 的固定对象；② a gap in + 具体事物（wall / market / record / knowledge）→ 「缺口、豁口或空白」；③ 后面跟时间（a gap of two years / a gap between two lectures）→ 「间隔、空档」。",
+   "example": {
+    "en": "There was a long gap between the two lectures, so the students went out for a cup of tea.",
+    "zh": "两堂课之间有很长的空档，学生们便出去喝了杯茶。",
+    "source": "仿真例句 · 高考校园与日常类话题",
+    "carrier": "C4"
+   },
+   "design_hint": "干扰项必须取自该词的 confusable 形近/音近列表，正确项与干扰项共享词根或音节"
+  },
+  {
+   "id": "q_078",
+   "word_id": "w_gap",
+   "headword": "gap",
+   "sense_id": "s_gap_n_opening",
+   "sense_text": "缺口、豁口（物体上的开口）",
+   "sense_level": "S2",
+   "is_trap": true,
+   "trap_of": [
+    "差距、悬殊之处"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E2"
+   ],
+   "module": "E1_熟词僻义",
+   "module_code": "E1",
+   "difficulty": "hard",
+   "expected_accuracy": [
+    0.15,
+    0.45
+   ],
+   "carrier": "C1",
+   "collocations": [
+    "a gap in the wall",
+    "a narrow gap",
+    "fill the gap"
+   ],
+   "confusable": [
+    "gape",
+    "space",
+    "distance"
+   ],
+   "notes": "考场判断法：① the gap between A and B → 一定是「差距」，也是作文里 bridge the gap 的固定对象；② a gap in + 具体事物（wall / market / record / knowledge）→ 「缺口、豁口或空白」；③ 后面跟时间（a gap of two years / a gap between two lectures）→ 「间隔、空档」。",
+   "example": {
+    "en": "A narrow gap between the two doors let in the cold wind of the winter night.",
+    "zh": "两扇门之间一道窄缝，让冬夜的冷风钻了进来。",
+    "source": "仿真例句 · 高考记叙与描写类",
+    "carrier": "C5"
+   },
+   "design_hint": "考熟词僻义：干扰项按学生最熟悉的那个义项设置，正解是本义项"
+  },
+  {
+   "id": "q_079",
+   "word_id": "w_input",
+   "headword": "input",
+   "sense_id": "s_input_n_information",
+   "sense_text": "供参考的消息、线索",
+   "sense_level": "S3",
+   "is_trap": true,
+   "trap_of": [
+    "投入（资金、设备、人力）",
+    "输入的内容、数据"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E2"
+   ],
+   "module": "E2_一词多义混淆",
+   "module_code": "E2",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C2",
+   "collocations": [
+    "valuable input",
+    "input from",
+    "welcome input",
+    "provide input"
+   ],
+   "confusable": [
+    "output",
+    "impute",
+    "impose"
+   ],
+   "notes": "考场判断法：① 后面是 into / a system / data / a password → 动词「输入、键入」；② 后面跟 of + money / time / energy → 「投入」；③ 语境里出现 advice / comment / suggestion，说的是「别人的意见」→ 「供参考的消息、线索」；④ 名词指送进系统的东西才是「输入的内容、数据」。input 与 output 是一组必背对比，impute（把…归因于）是形近误选重灾区。",
+   "example": {
+    "en": "Her advice was valuable input for the plan we finally put forward.",
+    "zh": "她的建议为我们最终提交的方案提供了宝贵的参考。",
+    "source": "仿真例句 · 高考写作与职场类话题",
+    "carrier": "C4"
+   },
+   "design_hint": "考同一词的另一义项：干扰项是该词另一个真实存在的义项"
+  },
+  {
+   "id": "q_080",
+   "word_id": "w_input",
+   "headword": "input",
+   "sense_id": "s_input_v_enter",
+   "sense_text": "输入、键入（文字、指令、密码）",
+   "sense_level": "S2",
+   "is_trap": true,
+   "trap_of": [
+    "投入（资金、设备、人力）"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E5"
+   ],
+   "module": "E1_熟词僻义",
+   "module_code": "E1",
+   "difficulty": "hard",
+   "expected_accuracy": [
+    0.15,
+    0.45
+   ],
+   "carrier": "C1",
+   "collocations": [
+    "input data",
+    "input a password",
+    "input information",
+    "manually input"
+   ],
+   "confusable": [
+    "output",
+    "impute",
+    "impose"
+   ],
+   "notes": "考场判断法：① 后面是 into / a system / data / a password → 动词「输入、键入」；② 后面跟 of + money / time / energy → 「投入」；③ 语境里出现 advice / comment / suggestion，说的是「别人的意见」→ 「供参考的消息、线索」；④ 名词指送进系统的东西才是「输入的内容、数据」。input 与 output 是一组必背对比，impute（把…归因于）是形近误选重灾区。",
+   "example": {
+    "en": "Please input your name and student number before you print the form.",
+    "zh": "打印表格之前，请输入你的姓名和学号。",
+    "source": "仿真例句 · 高考应用文与事务类高频",
+    "carrier": "C4"
+   },
+   "design_hint": "考熟词僻义：干扰项按学生最熟悉的那个义项设置，正解是本义项"
+  }
+ ]
+}

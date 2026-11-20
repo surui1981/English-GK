@@ -1,0 +1,930 @@
+{
+  "_meta": {
+    "version": "1.0",
+    "note": "拾词词条样例数据 · 严格遵循 docs/词汇教研体系v1.md §3 schema",
+    "copyright_rule": "example.source 必须标注为仿真例句，绝不可标注真题出处",
+    "levels": "T1=核心高频 T2=写作高频 T3=中频 T4=低频",
+    "sense_levels": "S1=核心义 S2=高考核心义 S3=熟词僻义 S4=搭配义",
+    "error_mechs": "E1=熟词僻义 E2=一词多义 E3=形近音近 E4=固定搭配 E5=词性词形 E6=语境推断 E7=逻辑连接 E8=情感色彩 E9=拼写 E10=主题词",
+    "carriers": "C1=阅读 C2=完形 C3=语法填空 C4=应用文 C5=读后续写 C6=七选五 C7=听力",
+    "strategies": "P1=词根词缀 P2=语境义项树 P3=形近对比 P4=词块 P5=主题串联 P6=词形转换 P7=听说读写 P8=易错点",
+    "count": 12
+  },
+  "words": [
+    {
+      "id": "w_address",
+      "headword": "address",
+      "ipa": "/əˈdres/",
+      "level": "T1",
+      "pos": ["v", "n"],
+      "strategies": ["P2", "P3", "P4", "P8"],
+      "carriers": ["C1", "C2", "C3"],
+      "senses": [
+        {
+          "sense_id": "s_address_v_handle",
+          "text": "处理、解决（问题）",
+          "sense_level": "S2",
+          "error_mech": ["E1"],
+          "is_trap": true,
+          "trap_of": ["地址"],
+          "example": {
+            "en": "The government must address the housing shortage before the next election.",
+            "zh": "政府必须在下次选举前解决住房短缺问题。",
+            "source": "仿真例句 · 高考阅读议论文高频句式",
+            "carrier": "C1"
+          },
+          "collocations": ["address a problem", "address the issue", "address a concern", "address the challenge"]
+        },
+        {
+          "sense_id": "s_address_v_speech",
+          "text": "演讲、发表演说",
+          "sense_level": "S2",
+          "error_mech": ["E1", "E2"],
+          "is_trap": false,
+          "trap_of": [],
+          "example": {
+            "en": "She addressed the conference on the importance of early education.",
+            "zh": "她就早期教育的重要性向会议发表了演说。",
+            "source": "仿真例句 · 写作与演讲类话题",
+            "carrier": "C4"
+          },
+          "collocations": ["address an audience", "deliver an address", "address a meeting"]
+        },
+        {
+          "sense_id": "s_address_v_title",
+          "text": "称呼、称谓",
+          "sense_level": "S1",
+          "error_mech": [],
+          "is_trap": false,
+          "trap_of": [],
+          "example": {
+            "en": "How do you address a problem you cannot solve on your own?",
+            "zh": "当你无法独自解决一个问题时，你会如何称呼它？",
+            "source": "仿真例句 · 引导思考句式",
+            "carrier": "C1"
+          },
+          "collocations": ["address sb as", "the form of address"]
+        },
+        {
+          "sense_id": "s_address_n_location",
+          "text": "地址",
+          "sense_level": "S1",
+          "error_mech": [],
+          "is_trap": false,
+          "trap_of": [],
+          "example": {
+            "en": "Please leave your address and phone number on the form.",
+            "zh": "请在表格上留下你的地址和电话号码。",
+            "source": "仿真例句 · 日常应用文",
+            "carrier": "C4"
+          },
+          "collocations": ["home address", "email address", "change of address"]
+        }
+      ],
+      "confusable": ["addressee", "addresses"],
+      "word_family": ["address", "addressee", "addressable"],
+      "notes": "动词高频义是「处理、解决」，不是「地址」也不是「演讲」。考场判断法：后面接 issue / problem / concern 这类「问题类」名词时，必然是「解决」义；接 audience / conference 这类「人/场合」时才是「演讲」义。",
+      "quiz_ids": ["q_001", "q_007"]
+    },
+    {
+      "id": "w_appreciate",
+      "headword": "appreciate",
+      "ipa": "/əˈpriːʃieɪt/",
+      "level": "T1",
+      "pos": ["v"],
+      "strategies": ["P2", "P4", "P8"],
+      "carriers": ["C1", "C2", "C4"],
+      "senses": [
+        {
+          "sense_id": "s_appreciate_v_realize",
+          "text": "意识到、察觉到",
+          "sense_level": "S2",
+          "error_mech": ["E1"],
+          "is_trap": true,
+          "trap_of": ["感激", "欣赏"],
+          "example": {
+            "en": "She didn't appreciate the significance of the change until she saw the results.",
+            "zh": "直到看到结果，她才意识到这一变化的重要意义。",
+            "source": "仿真例句 · 高考阅读高频句式",
+            "carrier": "C1"
+          },
+          "collocations": ["appreciate the significance", "appreciate the difficulty", "appreciate the fact that"]
+        },
+        {
+          "sense_id": "s_appreciate_v_grateful",
+          "text": "感激",
+          "sense_level": "S1",
+          "error_mech": [],
+          "is_trap": false,
+          "trap_of": [],
+          "example": {
+            "en": "I would really appreciate it if you could help me with this.",
+            "zh": "如果你能帮我处理这个，我将不胜感激。",
+            "source": "仿真例句 · 应用文常用表达",
+            "carrier": "C4"
+          },
+          "collocations": ["appreciate your help", "I would appreciate it if", "be greatly appreciated"]
+        },
+        {
+          "sense_id": "s_appreciate_v_value",
+          "text": "欣赏、赏识（作品、景观）",
+          "sense_level": "S1",
+          "error_mech": [],
+          "is_trap": false,
+          "trap_of": [],
+          "example": {
+            "en": "Visitors come here to appreciate the natural beauty of the coastline.",
+            "zh": "游客来到这里欣赏海岸线的自然之美。",
+            "source": "仿真例句 · 描述类话题",
+            "carrier": "C1"
+          },
+          "collocations": ["appreciate the beauty of", "appreciate art", "highly appreciate"]
+        }
+      ],
+      "confusable": ["appreciation", "appreciative"],
+      "word_family": ["appreciate", "appreciation", "appreciative"],
+      "notes": "高考最爱考「意识到」。考场判断法：appreciate 后面接的若是 significance / difficulty / importance / the fact that 这类「抽象事物」，就是「意识到」；接人的帮助才是「感激」。",
+      "quiz_ids": ["q_002"]
+    },
+    {
+      "id": "w_interest",
+      "headword": "interest",
+      "ipa": "/ˈɪntrəst/",
+      "level": "T1",
+      "pos": ["n", "v"],
+      "strategies": ["P2", "P4", "P8"],
+      "carriers": ["C1", "C2", "C4"],
+      "senses": [
+        {
+          "sense_id": "s_interest_n_interest",
+          "text": "兴趣、爱好",
+          "sense_level": "S1",
+          "error_mech": [],
+          "is_trap": false,
+          "trap_of": [],
+          "example": {
+            "en": "He has a strong interest in ancient Chinese history.",
+            "zh": "他对中国古代历史有浓厚的兴趣。",
+            "source": "仿真例句 · 人物描述类",
+            "carrier": "C4"
+          },
+          "collocations": ["have an interest in", "show interest in", "a wide range of interests"]
+        },
+        {
+          "sense_id": "s_interest_n_loan",
+          "text": "利息",
+          "sense_level": "S2",
+          "error_mech": ["E1"],
+          "is_trap": true,
+          "trap_of": ["兴趣"],
+          "example": {
+            "en": "With interest rates rising, many families are reconsidering their savings plans.",
+            "zh": "随着利率上升，许多家庭正在重新考虑储蓄计划。",
+            "source": "仿真例句 · 经济类说明文高频",
+            "carrier": "C1"
+          },
+          "collocations": ["interest rate", "compound interest", "pay interest"]
+        },
+        {
+          "sense_id": "s_interest_n_share",
+          "text": "（复数）利益、股份",
+          "sense_level": "S2",
+          "error_mech": ["E1", "E2"],
+          "is_trap": true,
+          "trap_of": ["兴趣"],
+          "example": {
+            "en": "The company has interests in several overseas markets.",
+            "zh": "该公司 在数个海外市场拥有权益。",
+            "source": "仿真例句 · 商业话题",
+            "carrier": "C1"
+          },
+          "collocations": ["have interests in", "vested interests", "conflict of interests"]
+        },
+        {
+          "sense_id": "s_interest_v_engage",
+          "text": "使感兴趣、引起关注",
+          "sense_level": "S2",
+          "error_mech": ["E1"],
+          "is_trap": true,
+          "trap_of": ["感兴趣"],
+          "example": {
+            "en": "The topic is sure to interest students who are preparing for the exam.",
+            "zh": "这个话题一定会引起正在备考的学生们的兴趣。",
+            "source": "仿真例句 · 完形填空高频",
+            "carrier": "C2"
+          },
+          "collocations": ["interest sb in sth", "interest sb with sth"]
+        }
+      ],
+      "confusable": ["interesting", "interested", "interestingly"],
+      "word_family": ["interest", "interested", "interesting", "interestingly"],
+      "notes": "四个义项，其中三个是「熟词僻义」。考场判断法：出现 rate / rates / loan / bank / invest 这类经济语境词，直接锁定「利息」；出现 interests 复数形式，多半是「利益/权益」。",
+      "quiz_ids": ["q_003"]
+    },
+    {
+      "id": "w_account",
+      "headword": "account",
+      "ipa": "/əˈkaʊnt/",
+      "level": "T1",
+      "pos": ["n", "v"],
+      "strategies": ["P4", "P8"],
+      "carriers": ["C1", "C2", "C3"],
+      "senses": [
+        {
+          "sense_id": "s_account_v_explain",
+          "text": "解释、说明（原因）；占（比例）",
+          "sense_level": "S2",
+          "error_mech": ["E1", "E4"],
+          "is_trap": true,
+          "trap_of": ["账户"],
+          "example": {
+            "en": "Online sales account for nearly half of the company's revenue.",
+            "zh": "线上销售占该公司营收的近一半。",
+            "source": "仿真例句 · 数据说明文高频",
+            "carrier": "C1"
+          },
+          "collocations": ["account for 40%", "account for the difference", "this accounts for"]
+        },
+        {
+          "sense_id": "s_account_n_report",
+          "text": "描述、记述",
+          "sense_level": "S2",
+          "error_mech": ["E1"],
+          "is_trap": true,
+          "trap_of": ["账户"],
+          "example": {
+            "en": "The book gives a detailed account of the professor's early years.",
+            "zh": "这本书详细记述了教授的早年生活。",
+            "source": "仿真例句 · 传记与记叙类",
+            "carrier": "C1"
+          },
+          "collocations": ["a detailed account of", "give an account of"]
+        },
+        {
+          "sense_id": "s_account_n_ledger",
+          "text": "账户",
+          "sense_level": "S1",
+          "error_mech": [],
+          "is_trap": false,
+          "trap_of": [],
+          "example": {
+            "en": "She transferred the money to her online bank account this morning.",
+            "zh": "她今天上午把钱转到了她的网上银行账户。",
+            "source": "仿真例句 · 日常场景",
+            "carrier": "C4"
+          },
+          "collocations": ["bank account", "open an account", "account balance"]
+        }
+      ],
+      "confusable": ["count", "counter", "discount"],
+      "word_family": ["account", "accountant", "accountable", "accountability"],
+      "notes": "account for 是高考超高频词块，必须整块记（E4）。单独理解 account 会直接失分。词族四个词同源：account 账目 → accountant 会计 → accountable 应负责的 → accountability 责任。",
+      "quiz_ids": ["q_004"]
+    },
+    {
+      "id": "w_subject",
+      "headword": "subject",
+      "ipa": "/ˈsʌbdʒɪkt/",
+      "level": "T1",
+      "pos": ["n", "adj", "v"],
+      "strategies": ["P2", "P4", "P6", "P8"],
+      "carriers": ["C1", "C2", "C3"],
+      "senses": [
+        {
+          "sense_id": "s_subject_adj_prone",
+          "text": "易受…的、易遭…的（be subject to）",
+          "sense_level": "S2",
+          "error_mech": ["E1", "E4"],
+          "is_trap": true,
+          "trap_of": ["科目", "主题"],
+          "example": {
+            "en": "Teenagers are particularly subject to peer pressure when making academic choices.",
+            "zh": "在做学业选择时，青少年尤其容易受到同伴压力影响。",
+            "source": "仿真例句 · 议论文高频",
+            "carrier": "C1"
+          },
+          "collocations": ["be subject to", "be subject to approval", "be subject to change"]
+        },
+        {
+          "sense_id": "s_subject_n_topic",
+          "text": "主题、话题",
+          "sense_level": "S1",
+          "error_mech": [],
+          "is_trap": false,
+          "trap_of": [],
+          "example": {
+            "en": "The subject of the meeting was the safety of the new building.",
+            "zh": "会议的议题是新建筑的安全问题。",
+            "source": "仿真例句 · 日常话题",
+            "carrier": "C4"
+          },
+          "collocations": ["the subject of", "on the subject of", "subject matter"]
+        },
+        {
+          "sense_id": "s_subject_n_academic",
+          "text": "科目",
+          "sense_level": "S1",
+          "error_mech": [],
+          "is_trap": false,
+          "trap_of": [],
+          "example": {
+            "en": "Mathematics is my favourite subject at school.",
+            "zh": "数学是我在学校最喜欢的科目。",
+            "source": "仿真例句 · 校园话题",
+            "carrier": "C4"
+          },
+          "collocations": ["school subject", "major subject", "subject teacher"]
+        },
+        {
+          "sense_id": "s_subject_v_expose",
+          "text": "使遭受、遭受（be subjected to）",
+          "sense_level": "S3",
+          "error_mech": ["E1"],
+          "is_trap": true,
+          "trap_of": ["科目", "主题"],
+          "example": {
+            "en": "Some workers were subjected to unfair treatment during the crisis.",
+            "zh": "危机期间，一些工人遭受了不公平的对待。",
+            "source": "仿真例句 · 社会话题",
+            "carrier": "C1"
+          },
+          "collocations": ["be subjected to", "be subjected to abuse", "be subjected to stress"]
+        }
+      ],
+      "confusable": ["subjective", "object", "project"],
+      "word_family": ["subject", "subjective", "subjectivity"],
+      "notes": "subject 四个义项全是陷阱，因为学生的第一反应永远是「科目/主题」。特别注意 be subject to（易受）与 be subjected to（遭受）的区别：前者是形容词性的「易于」，后者是被动「遭受」。语法填空常考这个区分。",
+      "quiz_ids": ["q_005"]
+    },
+    {
+      "id": "w_sound",
+      "headword": "sound",
+      "ipa": "/saʊnd/",
+      "level": "T1",
+      "pos": ["adj", "n", "v"],
+      "strategies": ["P2", "P3", "P8"],
+      "carriers": ["C1", "C2"],
+      "senses": [
+        {
+          "sense_id": "s_sound_adj_solid",
+          "text": "严谨的、站得住脚的（观点、论证、判断）",
+          "sense_level": "S2",
+          "error_mech": ["E1", "E2"],
+          "is_trap": true,
+          "trap_of": ["声音"],
+          "example": {
+            "en": "His argument, though unconventional, was sound enough to convince the panel.",
+            "zh": "他的论点虽不循规蹈矩，却足够严谨，说服了评审组。",
+            "source": "仿真例句 · 议论文素材",
+            "carrier": "C1"
+          },
+          "collocations": ["a sound argument", "sound reasoning", "sound judgment", "sound decision"]
+        },
+        {
+          "sense_id": "s_sound_adj_well",
+          "text": "健全的（身体状况）",
+          "sense_level": "S3",
+          "error_mech": ["E1"],
+          "is_trap": true,
+          "trap_of": ["声音"],
+          "example": {
+            "en": "The doctor said she was in sound health and needed no further treatment.",
+            "zh": "医生说她身体状况良好，不需要进一步治疗。",
+            "source": "仿真例句 · 健康话题",
+            "carrier": "C1"
+          },
+          "collocations": ["sound health", "sound sleep", "sound condition"]
+        },
+        {
+          "sense_id": "s_sound_v_seem",
+          "text": "听起来（seem 的同义替换）",
+          "sense_level": "S2",
+          "error_mech": ["E1"],
+          "is_trap": true,
+          "trap_of": ["声音"],
+          "example": {
+            "en": "That sounds like a reasonable plan to me.",
+            "zh": "在我看来那听起来是个合理的计划。",
+            "source": "仿真例句 · 口语与写作高频",
+            "carrier": "C4"
+          },
+          "collocations": ["sound good", "sound like", "sound familiar"]
+        },
+        {
+          "sense_id": "s_sound_n_noise",
+          "text": "声音",
+          "sense_level": "S1",
+          "error_mech": [],
+          "is_trap": false,
+          "trap_of": [],
+          "example": {
+            "en": "He heard a strange sound coming from the next room.",
+            "zh": "他听到隔壁房间传来一种奇怪的声音。",
+            "source": "仿真例句 · 记叙类",
+            "carrier": "C5"
+          },
+          "collocations": ["make a sound", "the sound of", "a faint sound"]
+        }
+      ],
+      "confusable": ["soup", "surround", "sounded"],
+      "word_family": ["sound", "soundly", "resound", "sounding"],
+      "notes": "sound 的陷阱级别极高，因为学生看到它只会想到「声音」。但高考里 sound 几乎从不用「声音」义。考场判断法：sound 后面直接跟名词（argument / reasoning / decision / health），一定是形容词义「可靠的/健全的」。",
+      "quiz_ids": ["q_006"]
+    },
+    {
+      "id": "w_mean",
+      "headword": "mean",
+      "ipa": "/miːn/",
+      "level": "T1",
+      "pos": ["v", "adj"],
+      "strategies": ["P2", "P3", "P8"],
+      "carriers": ["C1", "C2", "C3"],
+      "senses": [
+        {
+          "sense_id": "s_mean_adj_mean",
+          "text": "吝啬的、不大方的",
+          "sense_level": "S2",
+          "error_mech": ["E1", "E2"],
+          "is_trap": true,
+          "trap_of": ["意味着", "平均的"],
+          "example": {
+            "en": "He was mean with his money, but never mean to the people around him.",
+            "zh": "他对钱很吝啬，但对身边的人从不薄。",
+            "source": "仿真例句 · 完形填空高频",
+            "carrier": "C2"
+          },
+          "collocations": ["too mean to do", "mean about money", "mean spirit"]
+        },
+        {
+          "sense_id": "s_mean_v_mean",
+          "text": "意味着、意思是",
+          "sense_level": "S1",
+          "error_mech": [],
+          "is_trap": false,
+          "trap_of": [],
+          "example": {
+            "en": "The sign means that smoking is not allowed here.",
+            "zh": "这个标志表示此处禁止吸烟。",
+            "source": "仿真例句 · 日常场景",
+            "carrier": "C4"
+          },
+          "collocations": ["mean to do", "what does it mean", "mean much to sb"]
+        },
+        {
+          "sense_id": "s_mean_adj_average",
+          "text": "平均的、平均值的",
+          "sense_level": "S2",
+          "error_mech": ["E2"],
+          "is_trap": true,
+          "trap_of": ["意味着"],
+          "example": {
+            "en": "The mean temperature in the region rose by two degrees last year.",
+            "zh": "该地区去年的平均气温上升了两度。",
+            "source": "仿真例句 · 科普说明文",
+            "carrier": "C1"
+          },
+          "collocations": ["the mean age", "mean value", "on average"]
+        },
+        {
+          "sense_id": "s_mean_adj_base",
+          "text": "卑劣的、恶毒的",
+          "sense_level": "S3",
+          "error_mech": ["E1"],
+          "is_trap": true,
+          "trap_of": ["意味着"],
+          "example": {
+            "en": "That was a mean trick to hide the letter from her.",
+            "zh": "那是个卑劣的把戏，把信瞒着她。",
+            "source": "仿真例句 · 记叙类",
+            "carrier": "C5"
+          },
+          "collocations": ["a mean trick", "mean spirit", "a mean person"]
+        }
+      ],
+      "confusable": ["meaning", "meaningful", "meanwhile", "meaningless"],
+      "word_family": ["mean", "meaning", "meaningful", "meaningless", "meanwhile"],
+      "notes": "mean 是单义词里义项最密的之一，四个义项全是陷阱。考点核心是「too mean to do」结构。另外注意 mean（平均的）≠ meaningless（无意义的），这组是 E3 形近词的高频误判点。",
+      "quiz_ids": ["q_008"]
+    },
+    {
+      "id": "w_bear",
+      "headword": "bear",
+      "ipa": "/beə/",
+      "level": "T1",
+      "pos": ["v", "n"],
+      "strategies": ["P2", "P4", "P8"],
+      "carriers": ["C1", "C2", "C4"],
+      "senses": [
+        {
+          "sense_id": "s_bear_v_endure",
+          "text": "承受、忍受（重担、后果）",
+          "sense_level": "S2",
+          "error_mech": ["E1"],
+          "is_trap": true,
+          "trap_of": ["熊"],
+          "example": {
+            "en": "Students should bear in mind that a single careless mistake can cost several points.",
+            "zh": "学生应当牢记，一次粗心的失误可能损失好几分。",
+            "source": "仿真例句 · 应用文写作可复用",
+            "carrier": "C4"
+          },
+          "collocations": ["bear in mind", "bear the responsibility", "bear the consequences", "bear with me"]
+        },
+        {
+          "sense_id": "s_bear_v_give_birth",
+          "text": "生育、产下",
+          "sense_level": "S3",
+          "error_mech": ["E1"],
+          "is_trap": true,
+          "trap_of": ["熊"],
+          "example": {
+            "en": "The couple are expecting their first child and will bear a daughter next spring.",
+            "zh": "这对夫妇正期待他们的第一个孩子，明年春天将迎来一个女儿。",
+            "source": "仿真例句 · 记叙类",
+            "carrier": "C5"
+          },
+          "collocations": ["bear a child", "bear a son", "bear children"]
+        },
+        {
+          "sense_id": "s_bear_v_carry",
+          "text": "携带、带有（标记、痕迹）",
+          "sense_level": "S3",
+          "error_mech": ["E1"],
+          "is_trap": true,
+          "trap_of": ["熊"],
+          "example": {
+            "en": "His face bore the signs of years of hard work.",
+            "zh": "他的脸上带着多年辛勤工作的痕迹。",
+            "source": "仿真例句 · 记叙类",
+            "carrier": "C1"
+          },
+          "collocations": ["bear a sign", "bear a resemblance to", "bear a mark"]
+        },
+        {
+          "sense_id": "s_bear_n_animal",
+          "text": "熊",
+          "sense_level": "S1",
+          "error_mech": [],
+          "is_trap": false,
+          "trap_of": [],
+          "example": {
+            "en": "Bears spend the winter sleeping in caves.",
+            "zh": "熊在冬天于洞穴中冬眠。",
+            "source": "仿真例句 · 科普说明文",
+            "carrier": "C1"
+          },
+          "collocations": ["polar bear", "bear habitat", "grizzly bear"]
+        }
+      ],
+      "confusable": ["bare", "beard", "beer"],
+      "word_family": ["bear", "bore", "borne", "bearing"],
+      "notes": "bear 高考几乎从不用「熊」义。真正的考点是 bear in mind 这个词块——它是应用文写作的加分表达。注意三态：bear-bore-borne，且 bore 有「生育」义，务必结合语境判断。",
+      "quiz_ids": []
+    },
+    {
+      "id": "w_cover",
+      "headword": "cover",
+      "ipa": "/ˈkʌvə/",
+      "level": "T1",
+      "pos": ["v", "n"],
+      "strategies": ["P2", "P4", "P8"],
+      "carriers": ["C1", "C2", "C3"],
+      "senses": [
+        {
+          "sense_id": "s_cover_v_report",
+          "text": "报道、采访（新闻事件）",
+          "sense_level": "S2",
+          "error_mech": ["E1"],
+          "is_trap": true,
+          "trap_of": ["覆盖"],
+          "example": {
+            "en": "Journalists from six countries covered the climate summit in detail.",
+            "zh": "来自六个国家的记者详细报道了这次气候峰会。",
+            "source": "仿真例句 · 新闻传媒类话题",
+            "carrier": "C1"
+          },
+          "collocations": ["cover the summit", "cover the story", "be widely covered"]
+        },
+        {
+          "sense_id": "s_cover_v_pay",
+          "text": "支付、承担（费用）",
+          "sense_level": "S2",
+          "error_mech": ["E1"],
+          "is_trap": true,
+          "trap_of": ["覆盖"],
+          "example": {
+            "en": "The scholarship covers tuition fees but not living expenses.",
+            "zh": "该奖学金涵盖学费，但不包括生活费。",
+            "source": "仿真例句 · 校园话题",
+            "carrier": "C1"
+          },
+          "collocations": ["cover the cost", "cover expenses", "be covered by insurance"]
+        },
+        {
+          "sense_id": "s_cover_v_include",
+          "text": "涵盖、包括",
+          "sense_level": "S1",
+          "error_mech": [],
+          "is_trap": false,
+          "trap_of": [],
+          "example": {
+            "en": "The survey covers students from all three grades.",
+            "zh": "这项调查涵盖三个年级的学生。",
+            "source": "仿真例句 · 说明文",
+            "carrier": "C1"
+          },
+          "collocations": ["cover a wide range of", "cover all aspects"]
+        },
+        {
+          "sense_id": "s_cover_v_shield",
+          "text": "覆盖、遮盖",
+          "sense_level": "S1",
+          "error_mech": [],
+          "is_trap": false,
+          "trap_of": [],
+          "example": {
+            "en": "Snow covered the entire mountain overnight.",
+            "zh": "一夜之间积雪覆盖了整座山。",
+            "source": "仿真例句 · 记叙与写景类",
+            "carrier": "C5"
+          },
+          "collocations": ["cover with", "be covered in", "cover up"]
+        }
+      ],
+      "confusable": ["discover", "recovery", "covert"],
+      "word_family": ["cover", "discover", "recovery", "uncover"],
+      "notes": "cover 的三个高频义全是熟词僻义。cover 与 discover 是 E3 形近词组，同时 cover 又有「报道/支付」两个 S2 义项，是典型的「一词多义 + 形近词」复合考点。",
+      "quiz_ids": []
+    },
+    {
+      "id": "w_develop",
+      "headword": "develop",
+      "ipa": "/dɪˈveləp/",
+      "level": "T1",
+      "pos": ["v"],
+      "strategies": ["P2", "P4", "P6", "P8"],
+      "carriers": ["C1", "C2", "C3"],
+      "senses": [
+        {
+          "sense_id": "s_develop_v_habit",
+          "text": "养成（习惯）",
+          "sense_level": "S2",
+          "error_mech": ["E1"],
+          "is_trap": true,
+          "trap_of": ["发展"],
+          "example": {
+            "en": "She developed a habit of reading before bed during her first year at university.",
+            "zh": "她在上大学第一年养成了睡前阅读的习惯。",
+            "source": "仿真例句 · 完形填空高频",
+            "carrier": "C2"
+          },
+          "collocations": ["develop a habit of", "develop an interest in", "develop a reputation"]
+        },
+        {
+          "sense_id": "s_develop_v_illness",
+          "text": "患上（疾病）",
+          "sense_level": "S2",
+          "error_mech": ["E1"],
+          "is_trap": true,
+          "trap_of": ["发展"],
+          "example": {
+            "en": "She developed a bad cold after walking home in the rain.",
+            "zh": "她冒雨走回家后患了重感冒。",
+            "source": "仿真例句 · 健康话题",
+            "carrier": "C1"
+          },
+          "collocations": ["develop a cold", "develop a disease", "develop symptoms"]
+        },
+        {
+          "sense_id": "s_develop_v_progress",
+          "text": "发展、进步、开发",
+          "sense_level": "S1",
+          "error_mech": [],
+          "is_trap": false,
+          "trap_of": [],
+          "example": {
+            "en": "The city has developed rapidly over the past twenty years.",
+            "zh": "这座城市在过去二十年里发展迅速。",
+            "source": "仿真例句 · 城市与经济类",
+            "carrier": "C1"
+          },
+          "collocations": ["develop rapidly", "develop new technology", "develop into"]
+        },
+        {
+          "sense_id": "s_develop_v_process",
+          "text": "冲洗（胶片照片）",
+          "sense_level": "S3",
+          "error_mech": ["E1"],
+          "is_trap": true,
+          "trap_of": ["发展"],
+          "example": {
+            "en": "He developed the film at home before showing it to the class.",
+            "zh": "他在给全班看之前先在家把胶片冲洗了出来。",
+            "source": "仿真例句 · 校园活动类",
+            "carrier": "C5"
+          },
+          "collocations": ["develop film", "develop a photograph"]
+        }
+      ],
+      "confusable": ["development", "developer", "envelope", "deploy"],
+      "word_family": ["develop", "development", "developer", "developing"],
+      "notes": "develop 高考有四个义项，其中「发展」反而不是主力。语法填空常考 develop 的分词形式作状语（Developing rapidly, the company...），这属于 E5 词形考点，需要和义项一起练。",
+      "quiz_ids": []
+    },
+    {
+      "id": "w_charge",
+      "headword": "charge",
+      "ipa": "/tʃɑːdʒ/",
+      "level": "T1",
+      "pos": ["v", "n"],
+      "strategies": ["P2", "P4", "P8"],
+      "carriers": ["C1", "C2"],
+      "senses": [
+        {
+          "sense_id": "s_charge_v_accuse",
+          "text": "指控、控告（某人犯某罪）",
+          "sense_level": "S2",
+          "error_mech": ["E1"],
+          "is_trap": true,
+          "trap_of": ["收费"],
+          "example": {
+            "en": "He was charged with fraud but later cleared of all blame.",
+            "zh": "他被指控欺诈，但后来被洗清了所有嫌疑。",
+            "source": "仿真例句 · 社会新闻类",
+            "carrier": "C1"
+          },
+          "collocations": ["be charged with", "charge sb with sth", "face a charge"]
+        },
+        {
+          "sense_id": "s_charge_v_manage",
+          "text": "掌管、负责（charge sth with sth）",
+          "sense_level": "S2",
+          "error_mech": ["E1", "E4"],
+          "is_trap": true,
+          "trap_of": ["收费"],
+          "example": {
+            "en": "She was charged with the task of organizing the school festival.",
+            "zh": "她被委以组织校庆的任务。",
+            "source": "仿真例句 · 校园话题",
+            "carrier": "C2"
+          },
+          "collocations": ["be charged with", "in charge of", "charge oneself with"]
+        },
+        {
+          "sense_id": "s_charge_v_fee",
+          "text": "收费、收取费用",
+          "sense_level": "S1",
+          "error_mech": [],
+          "is_trap": false,
+          "trap_of": [],
+          "example": {
+            "en": "The hotel charges an extra fee for late check-out.",
+            "zh": "这家酒店对延迟退房额外收费。",
+            "source": "仿真例句 · 旅行话题",
+            "carrier": "C4"
+          },
+          "collocations": ["charge a fee", "charge sb for sth", "free of charge"]
+        },
+        {
+          "sense_id": "s_charge_n_duty",
+          "text": "责任、掌管（in charge of）",
+          "sense_level": "S2",
+          "error_mech": ["E4"],
+          "is_trap": true,
+          "trap_of": ["费用"],
+          "example": {
+            "en": "He is in charge of the project that will be completed next year.",
+            "zh": "他负责的项目将于明年完成。",
+            "source": "仿真例句 · 职业话题",
+            "carrier": "C4"
+          },
+          "collocations": ["in charge of", "be in charge", "take charge of"]
+        }
+      ],
+      "confusable": ["discharge", "charger", "charm"],
+      "word_family": ["charge", "discharge", "charger", "recharge"],
+      "notes": "charge 的核心是「与…有关/负责」的义项家族（charge with / in charge of），E4 固定搭配是主要考点。写应用文时「in charge of」是固定表达，注意不要说成 in charge of doing。",
+      "quiz_ids": []
+    },
+    {
+      "id": "w_plant",
+      "headword": "plant",
+      "ipa": "/plɑːnt/",
+      "level": "T1",
+      "pos": ["n", "v"],
+      "strategies": ["P2", "P4", "P8"],
+      "carriers": ["C1", "C2", "C5"],
+      "senses": [
+        {
+          "sense_id": "s_plant_n_factory",
+          "text": "工厂",
+          "sense_level": "S2",
+          "error_mech": ["E1", "E10"],
+          "is_trap": true,
+          "trap_of": ["植物"],
+          "example": {
+            "en": "The chemical plant was shut down after years of complaints about waste.",
+            "zh": "在多年关于废料的投诉之后，这家化工厂被关闭了。",
+            "source": "仿真例句 · 环保类说明文高频",
+            "carrier": "C1"
+          },
+          "collocations": ["power plant", "chemical plant", "factory plant"]
+        },
+        {
+          "sense_id": "s_plant_n_growth",
+          "text": "植物",
+          "sense_level": "S1",
+          "error_mech": [],
+          "is_trap": false,
+          "trap_of": [],
+          "example": {
+            "en": "This plant produces beautiful flowers in early summer.",
+            "zh": "这种植物在初夏开出美丽的花朵。",
+            "source": "仿真例句 · 科普类",
+            "carrier": "C1"
+          },
+          "collocations": ["flowering plant", "plant species", "plant life"]
+        },
+        {
+          "sense_id": "s_plant_v_place",
+          "text": "安放、放置；植入（想法、怀疑）",
+          "sense_level": "S3",
+          "error_mech": ["E1"],
+          "is_trap": true,
+          "trap_of": ["种植"],
+          "example": {
+            "en": "She planted the idea of recycling in her classmates' minds.",
+            "zh": "她在同学们心中植入了 recycling 的理念。",
+            "source": "仿真例句 · 记叙类",
+            "carrier": "C5"
+          },
+          "collocations": ["plant an idea", "plant suspicion", "plant trees"]
+        },
+        {
+          "sense_id": "s_plant_v_grow",
+          "text": "种植",
+          "sense_level": "S1",
+          "error_mech": [],
+          "is_trap": false,
+          "trap_of": [],
+          "example": {
+            "en": "The farmers plant wheat twice a year in this region.",
+            "zh": "在这个地区，农民一年种两茬小麦。",
+            "source": "仿真例句 · 农业话题",
+            "carrier": "C1"
+          },
+          "collocations": ["plant crops", "plant seeds"]
+        }
+      ],
+      "confusable": ["planet", "planter", "plenty", "plantation"],
+      "word_family": ["plant", "plantation", "planter", "plantable"],
+      "notes": "plant = 工厂 是环保话题的超级高频坑，且与 plant 植物义形成 E1 + E10 双重考点。判断法：出现 power / chemical / factory / pollution / environmental 这类语境词，直接锁定「工厂」。",
+      "quiz_ids": []
+    },
+    {
+      "id": "w_mean_economic",
+      "headword": "economic / economical",
+      "ipa": "/ˌiːkəˈnɒmɪk/ · /ɪˌkəˈnɒmɪkl/",
+      "level": "T1",
+      "pos": ["adj"],
+      "strategies": ["P3", "P8"],
+      "carriers": ["C1", "C2", "C3"],
+      "senses": [
+        {
+          "sense_id": "s_economic_adj_relating",
+          "text": "经济的、与经济有关的（economic growth / economic policy）",
+          "sense_level": "S1",
+          "error_mech": ["E3"],
+          "is_trap": false,
+          "trap_of": [],
+          "example": {
+            "en": "The policy was designed to boost economic growth in the region.",
+            "zh": "该政策旨在促进该地区的经济增长。",
+            "source": "仿真例句 · 经济类说明文",
+            "carrier": "C1"
+          },
+          "collocations": ["economic growth", "economic policy", "economic crisis"]
+        },
+        {
+          "sense_id": "s_economical_adj_thrifty",
+          "text": "节俭的、节约的（不浪费钱）",
+          "sense_level": "S2",
+          "error_mech": ["E3"],
+          "is_trap": true,
+          "trap_of": ["economic 经济的"],
+          "example": {
+            "en": "An economical car saves money on fuel and maintenance.",
+            "zh": "一辆节俭的汽车能省下燃油和维护的费用。",
+            "source": "仿真例句 · 应用文写作素材",
+            "carrier": "C4"
+          },
+          "collocations": ["economical option", "economical use of resources", "highly economical"]
+        }
+      ],
+      "confusable": ["economic", "economical", "economy", "economics"],
+      "word_family": ["economy", "economic", "economics", "economical"],
+      "notes": "E3 形近词组的经典样例。-ic = 与…有关的（economic）；-ical = 有…性质的/节俭的（economical）。记忆钩子：economical 有 -al 可以联想 call——叫你省钱。写作里用错会直接降档，属于 E3 + C4 复合考点。",
+      "quiz_ids": []
+    }
+  ]
+}

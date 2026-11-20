@@ -1,0 +1,162 @@
+[
+ {
+  "id": "q_e1_019",
+  "sense_id": "s_challenge_v_doubt",
+  "word_id": "w_challenge",
+  "carrier": "C2",
+  "module": "E1_熟词僻义",
+  "difficulty": "hard",
+  "expected_accuracy": [0.18, 0.42],
+  "stem": "Professor Hale had defended this theory for thirty years. When a young team collected their own data, they ______ his conclusion, and the debate began again.",
+  "stem_cn": "霍尔教授为这个理论辩护了三十年。当一个年轻团队收集到自己的数据时，他们______了他的结论，这场辩论由此重新开始。",
+  "options": [
+   {"key": "A", "text": "questioned", "correct": false, "distractor_reason": "语义最近，question the conclusion 语感上完全说得通，学生一看「质疑结论」就顺手填它。测 E1/E2：是否知道 challenge 与 claim / conclusion / assumption 构成固定搭配，而不是把 question 当成唯一解法。"},
+   {"key": "B", "text": "challenge", "correct": true, "distractor_reason": null},
+   {"key": "C", "text": "called", "correct": false, "distractor_reason": "搭配错：学生想到固定短语 call sth into question（对……提出质疑），却只记得前半截，填进去后句子变成「他们称呼他的结论」，意思完全走偏。测 E4 固定搭配缺失与词块完整性。"},
+   {"key": "D", "text": "refuted", "correct": false, "distractor_reason": "语义近但语体过强：refute 是「用证据证明为假、彻底驳倒」，学生以为讲「反驳」就该用最狠的词；可句中只说新数据引发了新一轮辩论，并没有说结论已被推翻。测 E6 语境推断失败与义项边界判断。"}
+  ],
+  "explanation": "【考场动作】先圈住空格的宾语 his conclusion——宾语是「结论、说法」这类信念类名词，不是「困难」也不是「对手」。凡是动词后面接 conclusion / claim / assumption / view，整句就锁定在「对某个说法提出疑问」这一义，而不是「挑战难度」或「向人发起挑战」。再看后半分句 the debate began again：只是「争论重新开始」，说明结论尚未被推翻，可以顺手挡掉「彻底驳倒」那一类词。最后把只会出现在固定短语里的词（call into question）挡掉。\n【为什么选 B】challenge his conclusion 是高考议论文与学术语境的标准说法，意为「质疑、反驳他的结论」。这正好对上「新数据出现→他们质疑原结论→争论重新开始」这条情节线。\n【其他选项】A questioned 语义上完全说得通，question the conclusion 也没有语法问题，但它属于泛化的质疑说法；高考语料里一旦宾语是 claim / conclusion / assumption，习惯写 challenge，学生只按「质疑＝question」的语感走就会掉进这一项，测的是 E1 熟词僻义与搭配记忆。C called 是典型的「只记得词块前半截」：call sth into question 才是「对……提出质疑」，单独填 call 只能理解成「称呼」，与新数据引发争论的情节无关，测 E4 固定搭配缺失。D refuted 语义上更「狠」，学生会觉得「反驳」就该用 refute，但 refute 意味着已经证明结论为假，而句中只说争论重新开始，结论并未被推翻，属于语境推断失败。",
+  "trap_note": "陷阱来源：学生把 challenge 只当成名词「挑战、难题」或动词「向……发起挑战」，看到「结论、说法」就不敢选；或看到「反驳」就想到 question / refute 这类更熟的说法，把固定搭配 challenge his conclusion 整个放掉。",
+  "tags": ["E1", "E2", "E4", "P4"]
+ },
+ {
+  "id": "q_e1_020",
+  "sense_id": "s_develop_v_illness",
+  "word_id": "w_develop",
+  "carrier": "C2",
+  "module": "E1_熟词僻义",
+  "difficulty": "hard",
+  "expected_accuracy": [0.2, 0.44],
+  "stem": "Her doctor was shocked by the test results, which showed that she had ______ diabetes for years without ever feeling ill or changing her habits at all.",
+  "stem_cn": "医生被检查结果吓了一跳：结果显示她已经______糖尿病好几年，自己却从未觉得哪里不舒服，也没改过任何生活习惯。",
+  "options": [
+   {"key": "A", "text": "catch", "correct": false, "distractor_reason": "语义最近：学生一见「染上、患上」就想到 catch（catch a cold / catch the flu 是他们最熟的搭配），语感上完全讲得通。测 E4 固定搭配缺失——他们不知道 develop a disease / develop diabetes 才是高考语料里的固定说法。"},
+   {"key": "B", "text": "develop", "correct": true, "distractor_reason": null},
+   {"key": "C", "text": "suffer", "correct": false, "distractor_reason": "语义近：学生把「患病」直接对应 suffer，可英语固定框架是 suffer from 或 suffer a stroke，suffer diabetes 不成搭配。测 E4 搭配缺失加 E1 熟词僻义误判：按「遭殃」去填，忽略介词要求。"},
+   {"key": "D", "text": "contract", "correct": false, "distractor_reason": "语义近（传染义）：contract 是「传染上（疾病）」，学生觉得「得病＝传染」就往上靠；但它只用于传染病，套在糖尿病这类慢性病上讲不通。测 E2 一词多义混淆与义项边界判断。"}
+  ],
+  "explanation": "【考场动作】先看宾语 diabetes：它是一类慢性病，不是一次性「传染」来的东西。再把动词按三档筛：能接慢性病名的固定动词是 develop（develop diabetes / develop cancer / develop a disease）；catch 只接感冒、流感这类传染来的小病；contract 更窄，只指「传染上（疾病）」；suffer 必须搭 from。句中还有一条硬线索 for years without ever feeling ill——是「在身体里慢慢形成」的，那就必须是 develop。\n【为什么选 B】develop diabetes 是高考健康类语料的标准搭配，意为「患上糖尿病」。句意是：她已经患糖尿病多年，自己却毫无察觉。\n【其他选项】A catch：catch a cold / catch the flu 是学生最熟的说法，一看到「患病」就填它，可 catch 与慢性病名搭不上，纯语感会被带走，测的是搭配记忆（E4）。C suffer：语义上「遭受疾病」讲得通，但英语要求 suffer from diabetes，介词一缺整个搭配就塌了，属于固定搭配缺失。D contract：指的是「传染上」，学生把「染病」当成「得病」就用它，可 contract 只用于传染病，与糖尿病这类慢性病冲突，属一词多义混淆。",
+  "trap_note": "陷阱来源：学生按 develop＝「发展、进步、开发」的熟义去理解，认为 develop 只能接城市、技术、经济；或一见「患病」就抢着填 catch / suffer / contract，把 develop 与疾病搭配这个高考固定用法整个漏掉。",
+  "tags": ["E1", "E4", "P4"]
+ },
+ {
+  "id": "q_e1_021",
+  "sense_id": "s_mind_v_object",
+  "word_id": "w_mind",
+  "carrier": "C2",
+  "module": "E1_熟词僻义",
+  "difficulty": "hard",
+  "expected_accuracy": [0.16, 0.4],
+  "stem": "The hall was packed and the air was stale, so I leaned over to the stranger beside me and asked whether he would ______ opening the window.",
+  "stem_cn": "礼堂里挤满了人，空气发闷，我侧过身问身边的陌生人：他______开窗吗？",
+  "options": [
+   {"key": "A", "text": "remind", "correct": false, "distractor_reason": "形近音近：remind 与 mind 同为 -mind 收尾，学生把 mind 记成 remind，听见「提醒对方」就填。测 E3 形近音近误判，同时暴露 remind 必须接「人 + 不定式」的结构。"},
+   {"key": "B", "text": "object", "correct": false, "distractor_reason": "语义近加搭配错：object（反对）和「介意」在语义上很接近，学生会想「他会不会反对我开窗」；可英语固定说 object to doing，单独填 object 句子不成立。测 E4 固定搭配缺失。"},
+   {"key": "C", "text": "mind", "correct": true, "distractor_reason": null},
+   {"key": "D", "text": "like", "correct": false, "distractor_reason": "语义近加句式近：Would you like…? 是学生最熟的请求句式，一看到 would 加动名词就顺手填 like；但 like 问的是「想不想」，与说话人「怕对方介意、先探一句口风」的语气不符。测 E2 一词多义混淆。"}
+  ],
+  "explanation": "【考场动作】先把说话人的意图读出来：他不是想知道对方「想不想开窗」，而是怕自己擅自动手引起反感，所以先探一句「你介不介意」。凡是 would 后面跟动名词、又在问「是否同意、是否反感」的，答案就是 mind（Would you mind doing…?）。再排两个能蒙混的：remind 必须接「人 + 不定式」，句中没有；object 必须说 object to doing，句中空格后直接是动名词，to 放不进去。\n【为什么选 C】mind 在这里是动词，意为「介意、不赞同」，Would you mind opening the window? 就是「你介意开一下窗吗？」。放在「空气发闷、我侧身问邻座」的语境里，正是先探口风再动手，语意吻合。\n【其他选项】A remind 与 mind 形近音近，学生把「提醒」义错当成 mind；而且 remind 的结构是 remind sb to do，句中既没有宾语也不接动名词，属 E3 形近误判加搭配缺失。B object 语义上接近「反对」，学生会想「他会不会不赞成我开窗」；可英语固定说 object to doing，单独填 object 句子不成立，测的是固定搭配缺失。D like 是学生最熟的请求句式 Would you like…?，但它问的是对方的意愿；句中说话人是在意对方介不介意，问的是「会不会反感」，语用方向不同，属一词多义混淆。",
+  "trap_note": "陷阱来源：学生把 mind 只当成名词「头脑、心智」，看到 would 后面跟动名词就以为在问对方「想不想」，于是去填 like；或被 remind 的形近音近带走，把 mind 的「介意」义整个漏掉。",
+  "tags": ["E1", "E3", "E4", "P4"]
+ },
+ {
+  "id": "q_e1_022",
+  "sense_id": "s_defeat_n_loss",
+  "word_id": "w_defeat",
+  "carrier": "C4",
+  "module": "E1_熟词僻义",
+  "difficulty": "mid",
+  "expected_accuracy": [0.42, 0.74],
+  "stem": "Dear Members, our side lost last night's game, and the coach asked us to remember that a heavy ______ can teach a team more than a comfortable win.",
+  "stem_cn": "亲爱的会员们：我们队昨晚输掉了比赛，教练提醒大家记住，一次沉重的______比一场轻松取胜更能教会一个团队。",
+  "options": [
+   {"key": "A", "text": "victory", "correct": false, "distractor_reason": "语义反向：学生把 heavy 当成「重大的」，看到 comfortable win 就顺手配成 heavy victory；也可误以为叙述方是赢的一方。测 E6 语境推断失败加 E7 逻辑方向判断。"},
+   {"key": "B", "text": "failure", "correct": false, "distractor_reason": "语义近：failure 与「失败」直接对应，学生觉得 defeat 既然要作名词，说成 failure 更「准」。但 failure 强调任务没做好、出了纰漏，英语里 a heavy failure 不是固定说法，「一场落败」在语料中固定写 defeat 或 loss。测 E1 义项边界与 E4 搭配。"},
+   {"key": "C", "text": "beating", "correct": false, "distractor_reason": "词性词形加一词多义：学生只认得 defeat 的动词义「击败」，把它直接名词化成 beating 填进去；语感读得通，可 beating 在英语里多指「殴打、痛打」，与一场比赛的结果并不搭配。测 E5 词性词形误判加 E1 熟词僻义。"},
+   {"key": "D", "text": "defeat", "correct": true, "distractor_reason": null}
+  ],
+  "explanation": "【考场动作】先抓两条线索：① our side lost——叙述方是败方，结果词只能指「输」；② 空格前是形容词 heavy，空格后接 can teach a team，说明它是「一场比赛的结果」这个名词。能同时满足「败方 + 一场比赛 + heavy」的固定说法只剩 a heavy defeat。接着逐个排词：victory 与 lost 打架；failure 抽象，说的是「没做好」而不是「一场落败」；beating 是把动词义「击败」硬名词化出来的形式。\n【为什么选 D】defeat 作名词指「失败、败北」，a heavy defeat 就是「一场惨败」。句意是：一场惨败教给球队的比一场轻松取胜更多——这正是教练开完败仗后的典型说法。\n【其他选项】A victory 与 our side lost 直接矛盾，学生若抓住 heavy 就去配「重大的胜利」，属于语境推断失败。B failure 语义上很近，但 failure 讲的是「任务没完成、出了纰漏」，高考语料里「一场落败」写 defeat 或 loss；a heavy failure 也不是英语的固定搭配。C beating 是把 defeat 的动词义「击败」直接名词化，学生只认熟义就往里填，可 beating 在英语里多指「殴打、痛打」，跟比赛结果搭不上，属词性词形与一词多义双重误判。",
+  "trap_note": "陷阱来源：学生只认得 defeat 的动词义「击败、战胜」，看到句子要名词就随手名词化成 beating，或者干脆用 failure 顶替，把「一场败仗」这个词块整个漏掉。",
+  "tags": ["E1", "E6", "E5", "P4"]
+ },
+ {
+  "id": "q_e1_023",
+  "sense_id": "s_occupy_v_capture",
+  "word_id": "w_occupy",
+  "carrier": "C2",
+  "module": "E1_熟词僻义",
+  "difficulty": "mid",
+  "expected_accuracy": [0.4, 0.72],
+  "stem": "The rebels ______ the valley for two years, and the government kept sending more soldiers to hold the line.",
+  "stem_cn": "叛军______这条河谷长达两年，政府方面则不断增派士兵坚守防线。",
+  "options": [
+   {"key": "A", "text": "occupy", "correct": true, "distractor_reason": null},
+   {"key": "B", "text": "conquer", "correct": false, "distractor_reason": "语义近（confusable 组）：conquer 是「征服」，学生把「占领」换成更「彻底」的动词；可句中两方仍在拉锯、政府不断增援，并没有分出胜负，conquer 把过程写成了结局。测 E6 语境推断失败加 E1 义项边界。"},
+   {"key": "C", "text": "seize", "correct": false, "distractor_reason": "形近音近加语义近（confusable 组）：seize 是「夺取、抓住」的一瞬间动作，学生看到「夺下河谷」就填它；可 for two years 要求一个能持续的状态动词，seize 接时长不成立。测 E3 形近音近误判加 E4 搭配缺失。"},
+   {"key": "D", "text": "employ", "correct": false, "distractor_reason": "义近 confusable 加搭配错：employ 与 occupy 义近（占用、雇佣），学生按 occupy＝「占用」的熟义联想到 employ；可 employ 的宾语是人或劳动力，employ the valley 根本不成搭配。测 E1 熟词僻义误判加 E4 搭配缺失。"}
+  ],
+  "explanation": "【考场动作】先看句子的时间结构：for two years，加上后面政府还在不断增援，说明这是「长期控制一片地方」的状态，不是夺取的一瞬间，也不是已经分出胜负的终局。再看宾语 the valley：一条河谷是地盘，只有 occupy 能同时表达「占住、控住」和「对领土的占领」（be occupied by、military occupation）。把只能接瞬间动作或只能接人的词挡掉即可。\n【为什么选 A】occupy the valley 是「占领、占据一片领土」的标准说法，句意是：叛军控制这条河谷达两年之久，政府方面则不断增兵。\n【其他选项】B conquer 属 confusable 组，语义近但意思是「彻底征服、拿下」，通常已带胜负已定的结果；句中双方还在拉锯、政府持续增援，说 conquer 就把过程写成了结局。C seize 同属 confusable 组，是「夺取」的一瞬间动作，学生看到「夺下河谷」就填；可 for two years 要求一个能持续的状态动词，seize 接时长不成搭配。D employ 同样出自 confusable 组，与 occupy 义近（占用、雇佣），学生按 occupy＝「占用」的熟义去联想；可 employ 的宾语是人或劳动力，employ the valley 讲不通，属于熟词僻义与搭配双重失分。",
+  "trap_note": "陷阱来源：学生把 occupy 只当成「占据空间、占用时间」的熟义，或者记成 seize / conquer 这类「拿下」的近义动词，看不出句子写的是对一片领土的长期占领。",
+  "tags": ["E1", "E3", "E4", "P2"]
+ },
+ {
+  "id": "q_e1_024",
+  "sense_id": "s_practice_adv_in_practice",
+  "word_id": "w_practice",
+  "carrier": "C3",
+  "module": "E1_熟词僻义",
+  "difficulty": "mid",
+  "expected_accuracy": [0.38, 0.7],
+  "stem": "The plan looks perfect on paper, but in ______ it turned out to be much harder to carry out than the designer had expected.",
+  "stem_cn": "这个方案在纸面上看起来完美，可______，执行起来比设计者预想的要难得多。",
+  "options": [
+   {"key": "A", "text": "theory", "correct": false, "distractor_reason": "搭配错加逻辑方向：in theory（在理论上）是真实搭配，学生看到 on paper 就联想 on paper / in theory 这一老组合顺手填上；但 but 后要说的正是「实际做起来」，与「在理论上」方向相反。测 E4 固定搭配缺失加 E7 逻辑方向误判。"},
+   {"key": "B", "text": "practise", "correct": false, "distractor_reason": "形近音近加拼写变形：英式动词拼写（＝练习，动词），学生只背到动词这一支，觉得 in 后面要接动词原形；可 in practice 是名词化的固定副词短语，后面不能接动词原形。测 E3 形近音近与 E9 拼写变形。"},
+   {"key": "C", "text": "practice", "correct": true, "distractor_reason": null},
+   {"key": "D", "text": "training", "correct": false, "distractor_reason": "语义近，正是本题主考点：training 就是 practice 的熟义「练习、训练」，学生把 in practice 读成「在练习中」，于是填 training；可句中说的是方案真正落地时的难度，不是训练过程。测 E1 熟词僻义误判。"}
+  ],
+  "explanation": "【考场动作】先看 in 后面的空当：这里要填的是能与 in 构成固定副词短语 in practice 的名词，意思是「实际上、事实上」。再看对比结构：on paper（纸面上）… but …（可是）——后半句必须说「真正做起来是什么样」，所以空格只能译成「实际上」。凡是 in theory（理论上是）、in training（在训练中）都跟 but 的方向或句子主语对不上。\n【为什么选 C】in practice = 实际上、事实上。句意：方案在纸面上看着完美，可真做起来比设计者预想的难得多。\n【其他选项】A theory：in theory 是真实搭配，意为「在理论上」，学生看到 on paper 就联想到 on paper / in theory 的老组合，但 but 要求转折到「实际上」，方向相反，测的是搭配与逻辑方向。B practise：与 practice 同根的英式动词拼写，意为「练习（动词）」，学生只背到动词那一支，觉得 in 后面该接动词原形；可 in practice 是名词化的固定短语，测的是形近音近与拼写变形。D training：语义最贴近——training 就是 practice 的熟义「练习、训练」，学生把 in practice 读成「在练习中」就填了它；可句中谈的是方案真正执行时的难度，不是训练环节，正是本题要考的熟词僻义误判。",
+  "trap_note": "陷阱来源：学生按 practice＝「练习、训练」的熟义去理解 in practice，把它读成「在练习中」；或被 on paper / in theory 这类熟搭配带着走，把固定副词短语 in practice 整个放掉。",
+  "tags": ["E1", "E3", "E4", "P4"]
+ },
+ {
+  "id": "q_e1_025",
+  "sense_id": "s_sense_v_make_sense",
+  "word_id": "w_sense",
+  "carrier": "C3",
+  "module": "E1_熟词僻义",
+  "difficulty": "mid",
+  "expected_accuracy": [0.4, 0.72],
+  "stem": "The plan is so confusing that it simply does not ______ to anyone.",
+  "stem_cn": "这份方案让人一头雾水，对任何人来说都完全讲______。",
+  "options": [
+   {"key": "A", "text": "sensible", "correct": false, "distractor_reason": "形近音近加词性词形：sensible 与 sense 同根（sens-），学生把 make sense 与 sensible 混成一件事，填成 sensible；可 sensible 是形容词，不能跟在 not 后面当动词说「不明智」，而且句中讲的是「讲不通」不是「不明智」。测 E3 形近音近误判加 E5 词性词形误判。"},
+   {"key": "B", "text": "figure", "correct": false, "distractor_reason": "语义近加搭配错：figure out 是「弄明白」，学生看到「让人听不懂」就想找一个跟「弄懂」有关的动词；可 figure 必须与 out 连用，does not figure to anyone 不成搭配。测 E4 固定搭配缺失加 E1 熟词僻义误判。"},
+   {"key": "C", "text": "do", "correct": false, "distractor_reason": "语义近加搭配错：学生按「这个方案对谁都不管用」的语感填 do；可英语里表示「讲得通、有道理」固定说 make sense，does not do to anyone 搭配不成立。测 E1 熟词僻义误判加 E4 搭配缺失。"},
+   {"key": "D", "text": "make", "correct": true, "distractor_reason": null}
+  ],
+  "explanation": "【考场动作】先看空格的语法位置：does not 后面接动词原形，空格后面紧跟 to anyone，动词和 anyone 之间插不进别的成分，它要么是不及物动词，要么整体构成一个固定词块。再看语境：confusing（让人困惑）后面必然跟「讲不讲得通」这一组意义，所以要找的是能与 somebody 搭配的「讲得通」类动词，make sense to sb 是唯一的固定说法。\n【为什么选 D】make sense 意为「讲得通、有道理」，make sense to anyone 就是「对任何人来说都讲不通」。句意是：这份方案让人一头雾水，对谁来说都讲不通。\n【其他选项】A sensible 与 sense 同根（sens-），学生把 make sense 和 sensible 混在一起就填了 sensible；可 sensible 是形容词，说「不明智」放在 does not 之后根本不成句子，而且句中讲的是「讲不通」而非「不明智」，属形近音近加词性词形双重误判。B figure 的 figure out 是「弄明白」，学生看见「让人听不懂」就想用跟「弄懂」有关的词；可 figure 必须带 out，does not figure to anyone 不成立，且句中问的是「有没有道理」而不是「有没有看懂」，测的是固定搭配缺失。C do 是纯语感干扰：学生按「这个方案对谁都不管用」填 do，但英语中表示「讲得通」只固定说 make sense，does not do to anyone 搭配不成立。",
+  "trap_note": "陷阱来源：学生把 sense 只当成名词「感觉、意义」或 sens- 词根的形容词 sensible，看到 does not 就往形容词、往「弄懂」的方向想，漏掉 make sense（讲得通）这个固定说法。",
+  "tags": ["E1", "E3", "E4", "P4"]
+ },
+ {
+  "id": "q_e1_026",
+  "sense_id": "s_stand_v_tolerate",
+  "word_id": "w_stand",
+  "carrier": "C4",
+  "module": "E1_熟词僻义",
+  "difficulty": "mid",
+  "expected_accuracy": [0.45, 0.75],
+  "stem": "Dear Colleagues, I must make it clear that the school will not ______ for any form of rudeness towards parents, and any such case will be reported.",
+  "stem_cn": "各位同事：我必须明确说明，本校对任何不尊重家长的行为都绝不______，任何此类情况都将上报。",
+  "options": [
+   {"key": "A", "text": "account", "correct": false, "distractor_reason": "语义近加搭配错：account for 意为「解释、占（比例）」，学生看到 for 会本能地去找能带 for 的动词；可「学校不解释对家长无礼的行为」在公告语体里根本讲不通，属于只凭语感抓词。测 E4 固定搭配缺失。"},
+   {"key": "B", "text": "allow", "correct": false, "distractor_reason": "语义近加搭配错：allow 是「允许」，学生想表达「不允许」就直接抓来；可 allow 表「允许」时后面不接 for，allow for 反而是「考虑到」，语义整个拧了。测 E1 熟词僻义误判加 E4 搭配缺失。"},
+   {"key": "C", "text": "stand", "correct": true, "distractor_reason": null},
+   {"key": "D", "text": "care", "correct": false, "distractor_reason": "语义近加搭配错：care for 意为「关心、在乎」，学生按「在乎这种行为」去填；可公告语体这一句的语气是「不容许、绝不姑息」，不是「关心」，care for 与 rudeness 也搭不出固定说法。测 E7 语体与语气判断。"}
+  ],
+  "explanation": "【考场动作】先把空格和它后面的 for 一起看：这里要的是一个「能与 for 组成固定词块、且表示不容许」的动词。逐个试：account for 是「解释、占（比例）」，allow for 是「考虑到」，care for 是「关心、在乎」——这三个词带 for 都不算错，但放进「对家长无礼」都不讲得通。再补一条语气线索：语体是公告式的表态，语气是「不容许、绝不姑息」，只有 stand for（容忍、容许）能扛住这个语气。\n【为什么选 C】won't stand for sth 是「零容忍」公告的固定说法，意为「不容许、不容忍」。句意：本校对任何不尊重家长的行为都绝不姑息，一经发现即上报。\n【其他选项】A account：account for 意为「解释、占（比例）」，学生看到 for 就本能抓词，可「学校不解释无礼行为」在公告语体里讲不通，测的是固定搭配缺失。B allow：allow 是「允许」，学生想表达「不允许」就抓来填；可 allow 表允许时不接 for，allow for 反而是「考虑到」，语义整个拧了，是熟词僻义加搭配的双重错误。D care：care for 意为「关心、在乎」，语气比「不容许」轻得多，且 care for 与 rudeness 搭不出固定说法，属于语体与语气判断失准。",
+  "trap_note": "陷阱来源：学生把 stand for 只记成「代表、象征」，看到否定式就以为讲不通，转而去填 allow / care 这类「允许、在乎」的近义词，漏掉 won't stand for＝不容许这个公告常用说法。",
+  "tags": ["E1", "E4", "P8"]
+ }
+]

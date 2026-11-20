@@ -1,0 +1,162 @@
+[
+ {
+  "id": "q_e1_027",
+  "sense_id": "s_concern_n_care",
+  "word_id": "w_concern",
+  "carrier": "C2",
+  "module": "E1_熟词僻义",
+  "difficulty": "hard",
+  "expected_accuracy": [0.2, 0.44],
+  "stem": "Housing costs have climbed year by year, and finding an affordable home has become a growing ______ for young couples who have just left university.",
+  "stem_cn": "房价一年比一年高，找一套负担得起的房子已日益成为刚走出大学校门的年轻情侣们普遍______的一件事。",
+  "options": [
+   {"key": "A", "text": "concern", "correct": true, "distractor_reason": null},
+   {"key": "B", "text": "worry", "correct": false, "distractor_reason": "语义最近且完全说得通：a growing worry 本身就是自然英语。学生按 concern＝「忧虑、担心的情绪」这一熟义把正确项排除后，就会落到它头上。测「熟词僻义误判」——只有知道 concern 还能指「值得关注的事」才会选 A。"},
+   {"key": "C", "text": "challenge", "correct": false, "distractor_reason": "语义近、语境也说得通：a growing challenge for young couples 读起来像「越来越棘手的难题」。但 challenge 的固定介词是 to（a challenge to sb），搭配上与 a concern for sb 这一固定块不同。测「搭配记忆」叠加「一词多义混淆」。"},
+   {"key": "D", "text": "consensus", "correct": false, "distractor_reason": "形近音近干扰：concern 与 consensus 词首相近，扫描时容易看错。测「形近音近误判」（E3）——与义项理解无关；且 consensus 是「共识」，后接 for 也讲不通，与「房价上涨、越来越多人关注」的语境正好相反，属纯形近误选。"}
+  ],
+  "explanation": "【考场动作】先圈住空前的 a growing 和空后的 for young couples，把「a growing + 名词 + for sb」当一个整块读：固定说法是 a growing concern for sb（日益成为……关注的事）。再用介词把近义词分开：worry 后面接 that 从句（a growing worry that…）或 about，challenge 后面接 to（a challenge to sb），只有 concern 才配 for someone。\n【为什么选 A】本句说的是房价上涨带来的、越来越多年轻家庭关注的问题，是「值得关注的事」这一事物，而不是「担心」这种情绪。concern 作名词时既可指忧虑，也可指令人关切之事，这里取后者；a growing concern for young couples 是社会类阅读的高频搭配。\n【其他选项】B worry 语感几乎排不掉，但 worry 落在情绪上，且介词要换成 about 或补出 that 从句；学生一按「concern＝担心」就掉进来，这是本题最典型的熟词僻义失分。C challenge 也读得通，表示「越来越难的挑战」，但固定搭配是 a challenge to sb，不是 for sb。D consensus 与 concern 词形相近属 E3 形近误选，且 consensus 指「共识」，与语境相反。",
+  "trap_note": "陷阱来源：学生按 concern＝「忧虑、担心的情绪」去理解，觉得 a growing 后面接情绪更顺，就改选 worry，而不知道 a growing concern 是「日益成为关注的事」这一固定说法。",
+  "tags": ["E1", "E2", "E3", "P2", "P4"]
+ },
+ {
+  "id": "q_e1_028",
+  "sense_id": "s_effect_n_side",
+  "word_id": "w_effect",
+  "carrier": "C2",
+  "module": "E1_熟词僻义",
+  "difficulty": "hard",
+  "expected_accuracy": [0.18, 0.42],
+  "stem": "The new medicine relieves her pain within minutes, but doctors warn that long-term use may produce ______ that are hard to detect.",
+  "stem_cn": "这种新药几分钟内就能缓解她的疼痛，但医生提醒，长期使用可能会产生一些难以察觉的______。",
+  "options": [
+   {"key": "A", "text": "effects", "correct": false, "distractor_reason": "语义近且讲得通：produce effects、have effects 都是自然英语。学生按 effect＝「效果、效力」这一核心义迁移过来，会以为泛泛的「效果」已够用。测「熟词僻义误判」加「搭配记忆」——副作用必须带 side 才成立。"},
+   {"key": "B", "text": "side effects", "correct": true, "distractor_reason": null},
+   {"key": "C", "text": "consequences", "correct": false, "distractor_reason": "语义近、语境完全说得通：produce consequences that are hard to detect 是自然英语，泛指「后果」也说得过去。测「一词多义混淆中能否靠固定搭配定输赢」——药物的不良反应在高考语料里固定写作 side effects。"},
+   {"key": "D", "text": "affects", "correct": false, "distractor_reason": "形近音近干扰：affect 与 effect 只差一个字母，学生看到药物语境容易顺手写 affects。测「形近音近误判」（E3）——错的是词形不是义项；affect 是动词「影响」，produce affects 既不合搭配也不合词性，属纯形近误选。"}
+  ],
+  "explanation": "【考场动作】先圈主语和语境：主语是 the new medicine，后面是 doctors warn that long-term use may produce ___。讲药物长期使用带来的坏处，固定词块是 side effects；凡是 effects，前面必须带 side 才表示「副作用」，光说 effects 只是「效果、作用」，那是 have an effect on / take effect 一类的搭配。\n【为什么选 B】医生提醒长期用药可能产生难以察觉的不良反应，指的就是药物的副作用。side effects 是健康与科技类阅读里唯一贴切的固定说法，搭配也只能是 produce / have / bring side effects。\n【其他选项】A effects 语感上能接上，produce effects 也通，但丢掉 side 之后就成了泛指的「效果」，与「难以察觉的坏处」不合；这正是把 effect 按「效果、效力」去理解造成的失分。C consequences 语义最近，produce consequences 也是自然搭配，但它是泛指「后果」，不是药物副作用的现成表达。D affects 与 effect 词形相近属 E3 形近误选，affect 是动词，此处空格要名词，说 produce affects 讲不通。",
+  "trap_note": "陷阱来源：学生按 effect＝「效果、效力」去理解，觉得 effects 也能接，忽略了「药物不良反应」必须写成 side effects；也有的学生因 affect／effects 词形相近而误选。",
+  "tags": ["E1", "E2", "E3", "P4"]
+ },
+ {
+  "id": "q_e1_029",
+  "sense_id": "s_minor_v_minor_in",
+  "word_id": "w_minor",
+  "carrier": "C2",
+  "module": "E1_熟词僻义",
+  "difficulty": "hard",
+  "expected_accuracy": [0.15, 0.4],
+  "stem": "After finishing the required courses for her major in physics, she decided to ______ in art as well, hoping to prepare a portfolio for art school.",
+  "stem_cn": "修完物理专业的必修课后，她决定再去______艺术，好为报考艺术院校准备一份作品集。",
+  "options": [
+   {"key": "A", "text": "major", "correct": false, "distractor_reason": "形近反义干扰：major 与 minor 只差一个字母，major in 是「主修」，学生看到 in 就顺手写 major。测「形近音近误判」（E3）叠加「固定搭配缺失」（E4）；语义上 to major in art 也能讲通，语感排不掉，必须靠「她已有主修专业」这一上下文才能排除。"},
+   {"key": "B", "text": "specialize", "correct": false, "distractor_reason": "语义近且完全说得通：to specialize in art 是地道英语，指以艺术为专长。测「一词多义混淆」——专攻与兼修是两回事，语感上两者都能塞进句子，只能靠「课程表上多修一门」这一身份线索来定。"},
+   {"key": "C", "text": "minor", "correct": true, "distractor_reason": null},
+   {"key": "D", "text": "train", "correct": false, "distractor_reason": "搭配错：to train in art 只能读成「去接受艺术训练」，说的是学本领，不表示在课表上兼修一门课；读得顺但身份对不上。测「固定搭配缺失」——兼修课的固定动词是 minor in。"}
+  ],
+  "explanation": "【考场动作】看 to 后面：to minor in art 是校园与升学类文本里的固定说法，minor in＝兼修、辅修，major in＝主修，一字之差、意思相反。判断时先问一句：句中她已经有一个 major（物理），现在要加的是不是「第二门课」；是，就只能是 minor in。再排除动词身份不对的词（train 是受训，specialize 是专攻）。\n【为什么选 C】她修完物理主修的必修课后，再兼修一门艺术课以准备作品集，正是 minor in art 的用法。这里的 minor 是动词，不是「次要的、无关紧要的」，也不是名词「未成年人」。\n【其他选项】A major 形近且语意诱人，但 major in 是主修；一个人不能同时在两个专业「主修」，与前半句 for her major in physics 直接冲突，这正是 minor／major 只差一个字母的陷阱。B specialize 语义上完全说得通，specialize in art＝专攻艺术，但它不表示兼修课程，测的是一词多义混淆。D train 在搭配上只能读成 train in art＝受训于艺术，与「再兼修一门课」的身份对不上。",
+  "trap_note": "陷阱来源：学生按 minor＝「次要的、无关紧要的」或按 major in＝「主修」去理解，看到 in 就想到 major，或者干脆不敢选 minor，忽略了 minor in＝兼修这一固定说法。",
+  "tags": ["E1", "E3", "E4", "P2", "P4"]
+ },
+ {
+  "id": "q_e1_030",
+  "sense_id": "s_division_n_disagreement",
+  "word_id": "w_division",
+  "carrier": "C5",
+  "module": "E1_熟词僻义",
+  "difficulty": "mid",
+  "expected_accuracy": [0.35, 0.7],
+  "stem": "The two families had shared the same narrow lane for forty years, but a deep ______ between them turned every small matter into an awkward silence.",
+  "stem_cn": "两家人在同一条窄巷里住了四十年，可他们之间深深的______让每件小事都变成了尴尬的沉默。",
+  "options": [
+   {"key": "A", "text": "division", "correct": true, "distractor_reason": null},
+   {"key": "B", "text": "disagreement", "correct": false, "distractor_reason": "语义近且完全说得通：a disagreement between them 读起来毫无违和感，学生按「意见不一致」就能选中。测「一词多义混淆」——要用 a deep division between sb 表达长期的、阵营式的裂痕这一固定说法才能取胜。"},
+   {"key": "C", "text": "vision", "correct": false, "distractor_reason": "形近音近干扰：vision 与 division 字形相近，扫描时容易看错。测「形近音近误判」（E3）——与义项理解无关；vision 是「视力、愿景」，放在两家人的裂痕里根本讲不通，属纯形近误选。"},
+   {"key": "D", "text": "conflict", "correct": false, "distractor_reason": "语义近：a deep conflict between them 也能读通。测「情感色彩与语体判断」——conflict 常指激烈甚至带对抗性的冲突，与「小事都变成尴尬沉默」这种无声的疏离不合，语感强但语境对不上。"}
+  ],
+  "explanation": "【考场动作】先看介词组合：between 后面接「人、双方、群体」时，division 表示「分歧、不和」，这是固定搭配 division between sb；若前面出现 business、sales、marketing 这类行业名才是「部门」。这里 between them 已经把范围锁死在「双方之间的裂痕」上。\n【为什么选 A】两家老邻居同住一条窄巷四十年，如今每件小事都只剩尴尬的沉默——这写的是长期积累的分歧与分裂，a deep division between them 是叙事里写「阵营对立」的现成说法。\n【其他选项】B disagreement 语义几乎相同、语感完全说得通，是最强的干扰；a disagreement between them 也成立，但它多指一次性的意见不合，而且 disagreement between 往往还要补出 about／over 说清议题，只说 between them 略生硬；写「深层、持久的裂痕」高考更常用 division。D conflict 也能读，但 conflict 常带激烈对抗甚至武力的色彩，与「无声的疏离」这一情节推进不合。C vision 与 division 字形相近属 E3 形近误选，vision 是「视力、愿景」，语境里完全讲不通。",
+  "trap_note": "陷阱来源：学生按 division＝「分开、划分」这一核心义去理解，把 between 两家读成单纯的「分隔」，没想到该处表示双方之间的分歧；也有的学生按「意见不同」选了 disagreement。",
+  "tags": ["E1", "E2", "E3", "P2"]
+ },
+ {
+  "id": "q_e1_031",
+  "sense_id": "s_order_v_command",
+  "word_id": "w_order",
+  "carrier": "C2",
+  "module": "E1_熟词僻义",
+  "difficulty": "mid",
+  "expected_accuracy": [0.4, 0.72],
+  "stem": "The foreman ______ the workers to leave the workshop at once, and every one of them obeyed without a word.",
+  "stem_cn": "工头______工人们立刻离开车间，他们一个个二话没说就服从了。",
+  "options": [
+   {"key": "A", "text": "asked", "correct": false, "distractor_reason": "语义近：to ask sb to leave 语法和语义都通，只是语气弱。学生按 order＝「订购（order a ticket）」「顺序、次序」这两个更熟的义把正确项排除后，往往退到最泛的 ask。测「熟词僻义误判」加「语气判断」。"},
+   {"key": "B", "text": "instructed", "correct": false, "distractor_reason": "语义近且完全说得通：instructed the workers to leave 是自然英语，比 ask 更接近命令语境，语感几乎排不掉。测「一词多义混淆与语体判断」——口语叙事里的「下令」首选 order sb to do。"},
+   {"key": "C", "text": "reminded", "correct": false, "distractor_reason": "搭配错：remind sb to do 表示「提醒某人做某事」，是提醒不是命令，读起来顺但动作性质不同。测「固定搭配缺失」——order sb to do 与 remind sb to do 是两块不同的词块。"},
+   {"key": "D", "text": "ordered", "correct": true, "distractor_reason": null}
+  ],
+  "explanation": "【考场动作】先抓语气线索：at once（立刻）加上 without a word（无人多言），说明这不是请求而是上对下的指令。再看结构：动词后面直接跟 sb to do（让某人做某事），这一格只能填「命令类」动词，而 order sb to do 是高考叙事里「下令」的固定说法。\n【为什么选 D】工头让工人们立刻离开车间，众人二话没说照办，这是「命令、指示」义；order the workers to leave 是地道且高频的写法。order 作动词时的另外两个熟义「订购」「次序」在这里都不成立：宾语是人加不定式，既不是商品也不是排列。\n【其他选项】A asked 语义上说得通，可「请求一下」和「当场下令」语气差别很大；学生一按「order＝订购／次序」把正确项排掉，就落到它身上。B instructed 也完全说得通且更正式，但口语叙事里的工头下令用 order 更贴，instruct 多用于书面指派。C reminded 的搭配 remind sb to do 表示提醒，是另一块词块，意思对不上。",
+  "trap_note": "陷阱来源：学生按 order＝「订购（order a ticket）」「顺序、次序」这两个更熟的义去理解，觉得「让工人们离开」用不上 order，转而选了泛指动词 ask 或 instructed，忽略了 order sb to do＝命令某人做某事。",
+  "tags": ["E1", "E2", "E4", "P2", "P4"]
+ },
+ {
+  "id": "q_e1_032",
+  "sense_id": "s_rate_n_price",
+  "word_id": "w_rate",
+  "carrier": "C3",
+  "module": "E1_熟词僻义",
+  "difficulty": "mid",
+  "expected_accuracy": [0.38, 0.7],
+  "stem": "During the peak holiday season, seaside hotels usually charge a much higher ______, which is why tourists are advised to book well in advance.",
+  "stem_cn": "在旅游旺季，海滨城市的酒店通常会收取高得多的______，这也正是建议游客提前很久预订的原因。",
+  "options": [
+   {"key": "A", "text": "rate", "correct": true, "distractor_reason": null},
+   {"key": "B", "text": "price", "correct": false, "distractor_reason": "语义近且讲得通：charge a much higher price 是自然英语，泛指「价钱更高」完全不违和。测「一词多义混淆」——酒店按标准收费的固定块是 charge rates／hotel rates，泛化说法难以占优。"},
+   {"key": "C", "text": "fare", "correct": false, "distractor_reason": "语义近但搭配错：fare 指车船票价（air fare、bus fare），酒店收费不用 fare，charge a higher fare 在这里讲不通。测「固定搭配缺失」。"},
+   {"key": "D", "text": "ratio", "correct": false, "distractor_reason": "形近音近干扰：ratio 与 rate 同源、字形相近，学生容易顺手写上。测「形近音近误判」（E3）叠加「固定搭配缺失」（E4）；且 ratio 只能接 of（the ratio of A to B），charge a higher ratio 搭配不通，语境上也在讲钱而不是比值。"}
+  ],
+  "explanation": "【考场动作】先定词性：空前是 a much higher，只能填名词。再看语境主体：主语是 hotels，动词是 charge，讲的是「房价、收费标准」。charge 后接价格义的名词，高频固定块是 charge rates／charge higher rates；ratio 只能接 of，fare 只用于车船票。\n【为什么选 A】旺季酒店涨价，说的正是「收费标准、房价」的提高。rate 在商业、住宿、旅游语境里就是价格，hotel rates 是高考阅读里常见词块，charge rates 也是现成搭配。\n【其他选项】B price 语义最接近、charge a higher price 也说得通，是最强干扰；但它是泛指某件东西的价格，而在「酒店按标准收费」这一语体里 charge rates 才固定。C fare 限定车船票价，酒店收费不用 fare，搭配错。D ratio 与 rate 词形相近属 E3 形近误选，而且 ratio 后面必须接 of（the ratio of A to B），charge a ratio 讲不通。",
+  "trap_note": "陷阱来源：学生按 rate＝「比率、比例」或「速度」去理解，觉得 ratio 讲不通就转向更泛的价格词，忽略了 rate 在酒店、收费、薪酬这类语境里就是「价格、收费标准」。",
+  "tags": ["E1", "E3", "E4", "P4"]
+ },
+ {
+  "id": "q_e1_033",
+  "sense_id": "s_settle_v_resolve",
+  "word_id": "w_settle",
+  "carrier": "C3",
+  "module": "E1_熟词僻义",
+  "difficulty": "mid",
+  "expected_accuracy": [0.35, 0.7],
+  "stem": "Both sides agreed to ______ the dispute themselves, rather than let the court decide who was right.",
+  "stem_cn": "双方同意自己去______这场纠纷，而不是让法庭来裁定谁对谁错。",
+  "options": [
+   {"key": "A", "text": "resolve", "correct": false, "distractor_reason": "语义近且完全说得通：resolve the dispute 是自然英语，语感几乎排不掉。测「一词多义混淆」——resolve 高频搭配是 resolve a problem／matter，而把争端自行了结的固定块是 settle a dispute。"},
+   {"key": "B", "text": "settle", "correct": true, "distractor_reason": null},
+   {"key": "C", "text": "end", "correct": false, "distractor_reason": "语义近：to end the dispute 也成立，句式也通。测「语义边界判断」——end 只表示争端不再继续，不含双方自行谈妥、纠纷被处理妥当这层意思。"},
+   {"key": "D", "text": "solve", "correct": false, "distractor_reason": "搭配错：solve 只搭配 problem（solve a problem／solve an equation），solve a dispute 讲不通。测「固定搭配缺失」。"}
+  ],
+  "explanation": "【考场动作】先定结构：to 后面是动词原形，宾语是 the dispute（争端类名词）。争端类宾语搭配的动词分三档——settle a dispute／conflict／matter（把争端处理妥当）、resolve a problem／matter（解决难题）、end a dispute（争端不再继续）。三者都读得通，所以必须再抓语境线索：themselves 与 rather than let the court… 强调双方自行了结、不再僵持，只有 settle 同时含「谈妥、处置妥当」的意思。\n【为什么选 B】双方同意自己去把这场纠纷了结，而不是交给法庭——正是 settle a dispute 的用法。settle 在这里是「解决争端」，不是「定居、安顿下来」；后者后面不接 dispute，也没有「了结」的含义。\n【其他选项】A resolve 语感完全说得通，resolve the dispute 是自然英语，但高考语料中 resolve 的高频宾语是 problem／matter，而 settle a dispute／conflict／argument 才是处理争端的固定块，答案要靠搭配定。C end the dispute 句式也成立，可 end 只说明争端不再继续，不含双方谈妥这层意思。D solve 搭配错，solve 只接 problem，solve a dispute 讲不通。",
+  "trap_note": "陷阱来源：学生按 settle＝「定居、安顿下来」去理解，见了 dispute 也不敢选，转而选 resolve 或 end，忽略了 settle a dispute＝把争端处理妥当这一固定说法。",
+  "tags": ["E1", "E2", "E4", "P2", "P4"]
+ },
+ {
+  "id": "q_e1_034",
+  "sense_id": "s_suspect_v_believe",
+  "word_id": "w_suspect",
+  "carrier": "C4",
+  "module": "E1_熟词僻义",
+  "difficulty": "mid",
+  "expected_accuracy": [0.38, 0.72],
+  "stem": "Dear Anna, the classroom was locked all morning and nobody answered the phone, so I ______ that our meeting has been moved to Friday.",
+  "stem_cn": "亲爱的安娜：教室一上午都锁着，也没人接电话，所以我______会议已经改到周五了。",
+  "options": [
+   {"key": "A", "text": "suspect", "correct": true, "distractor_reason": null},
+   {"key": "B", "text": "think", "correct": false, "distractor_reason": "语义近且完全说得通：I think that our meeting has been moved… 是最自然的替换，语感排不掉。学生按 suspect＝「怀疑、有嫌疑」这一熟义把正确项排除后，就会退到它身上。测「熟词僻义误判」——只有知道 suspect 还有「猜想、料想」这一义才会选 A。"},
+   {"key": "C", "text": "doubt", "correct": false, "distractor_reason": "语义近但意思相反：doubt that our meeting has been moved 意思是「我不认为会议改期了」，与写信人据线索作出的推测方向相反。测「情感色彩与语气判断」——doubt 带否定、不信任的色彩，suspect 才是中性推测。"},
+   {"key": "D", "text": "suspend", "correct": false, "distractor_reason": "形近音近干扰：suspend 与 suspect 字形相近，读到会议话题时容易顺手写上。测「形近音近误判」（E3）——与义项理解无关；suspend 是「暂停、中止」，且不能接 that 从句，说 suspend that 讲不通，属纯形近误选。"}
+  ],
+  "explanation": "【考场动作】看 that 从句里说的是「会议已改期」这类尚未证实的消息，而前面给了两条线索（教室锁着、没人接电话），这是「有根据但不肯定」的推测，固定说法是 I suspect that…。先分掉纯猜测与泛说，再注意 doubt that 的意思相反。\n【为什么选 A】写信人根据两条线索判断会议改到了周五，却不敢肯定，用的正是 suspect＝「猜想、料想」这一义。suspect 横跨动词、名词、形容词三性，这里是动词接 that 从句的推测用法，与「怀疑某人有嫌疑」无关。\n【其他选项】B think 语义最近、I think that… 完全可以替换，纯语感排不掉；但 think 只表示「认为」，不带上「有线索却没把握」的怀疑语气，书信里要说出这种推测，用 suspect 更准。C doubt 长得像、也常接 that 从句，可 doubt that the meeting has been moved 意思正好相反，是「我不认为」，考的是语气色彩判断。D suspend 与 suspect 字形相近属 E3 形近误选；suspend 是「暂停、中止」，不能接 that 从句，说 suspend that 讲不通。",
+  "trap_note": "陷阱来源：学生按 suspect＝「怀疑、觉得…有嫌疑」这一熟义去理解，觉得此处「不合情境」而改选 think 或 doubt，忽略了 I suspect that＝我料想、我猜想这一常用说法。",
+  "tags": ["E1", "E2", "E3", "P2"]
+ }
+]

@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>拾词 · 高考英语词汇教研体系 v1.0</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --canvas:#f7f5f0;
+  --card:#ffffff;
+  --ink:#14171e;
+  --ink-2:#3a4256;
+  --ink-3:#7c7a72;
+  --line:#e9e3d6;
+  --line-soft:#f2efe8;
+  --primary:#2f6f5e;
+  --primary-deep:#1e4a3e;
+  --primary-tint:#eaf3f0;
+  --accent:#c97b3f;
+  --accent-tint:#faf1e8;
+  --danger:#b06367;
+  --danger-tint:#faf0f0;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  font-family:'Outfit','Noto Sans SC','PingFang SC','Hiragino Sans GB',sans-serif;
+  background:var(--canvas);color:var(--ink);
+  font-size:14px;line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+body::before{
+  content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
+  background:
+    radial-gradient(600px 300px at 8% -5%, rgba(47,111,94,.06), transparent 60%),
+    radial-gradient(500px 280px at 95% 3%, rgba(201,123,63,.055), transparent 60%);
+}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px 80px;position:relative;z-index:1}
+svg{display:block}
+::selection{background:var(--primary);color:#fff}
+
+header{padding:56px 0 40px;border-bottom:1px solid var(--line);margin-bottom:48px}
+.eyebrow{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;color:var(--primary);text-transform:uppercase;margin-bottom:16px}
+h1{font-size:38px;line-height:1.2;font-weight:700;letter-spacing:-.025em;max-width:16em}
+h1 em{font-style:normal;color:var(--primary)}
+.lede{margin-top:18px;font-size:16px;color:var(--ink-2);max-width:44em;line-height:1.75}
+.meta{display:flex;gap:10px;flex-wrap:wrap;margin-top:26px}
+.chip{display:inline-flex;align-items:center;gap:6px;font-size:12px;padding:5px 11px;border-radius:99px;background:#fff;border:1px solid var(--line);color:var(--ink-2)}
+.chip.acc{background:var(--primary-tint);border-color:#cfe3dc;color:var(--primary-deep)}
+
+section{margin-bottom:56px}
+.sec-head{display:flex;align-items:baseline;gap:14px;margin-bottom:8px;flex-wrap:wrap}
+h2{font-size:25px;font-weight:700;letter-spacing:-.02em}
+.sec-n{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--primary);letter-spacing:.1em}
+.sec-desc{color:var(--ink-2);margin-bottom:26px;max-width:46em;font-size:14px}
+
+h3{font-size:15px;font-weight:700;letter-spacing:-.01em;margin-bottom:4px}
+
+.grid{display:grid;gap:16px}
+.g2{grid-template-columns:repeat(2,1fr)}
+.g3{grid-template-columns:repeat(3,1fr)}
+.g4{grid-template-columns:repeat(4,1fr)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;box-shadow:0 2px 8px rgba(20,23,30,.035)}
+.card h3 .tag{font-family:'JetBrains Mono',monospace;font-size:10.5px;color:var(--primary);background:var(--primary-tint);padding:1px 6px;border-radius:5px;margin-left:8px;font-weight:500;vertical-align:2px}
+.card p{font-size:13px;color:var(--ink-2);line-height:1.65}
+.card p b{color:var(--ink)}
+
+.kv{display:grid;grid-template-columns:78px 1fr;gap:8px 14px;font-size:12.5px}
+.kv dt{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--primary);font-weight:500}
+.kv dd{color:var(--ink-2)}
+
+.bench{display:grid;grid-template-columns:130px 1fr 52px;gap:12px;align-items:center;padding:6px 0}
+.bench-label{font-size:12.5px;color:var(--ink-2)}
+.bench-track{height:18px;background:var(--line-soft);border-radius:6px;overflow:hidden}
+.bench-fill{height:100%;border-radius:6px;background:var(--primary);transition:width .6s cubic-bezier(.4,0,.2,1)}
+.bench-val{font-family:'Outfit',sans-serif;font-size:12.5px;font-weight:600;text-align:right;color:var(--ink)}
+.bench.alt .bench-fill{background:var(--accent)}
+.bench.alt .bench-label{color:var(--ink-3)}
+
+.axis{display:grid;gap:14px}
+.axis-row{display:grid;grid-template-columns:96px 1fr;gap:18px;align-items:start;padding:16px 18px;background:#fff;border:1px solid var(--line);border-radius:14px}
+.axis-name{font-size:13px;font-weight:700;color:var(--primary-deep);line-height:1.4}
+.axis-name span{display:block;font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--ink-3);font-weight:400;margin-top:3px}
+.axis-body{font-size:13px;color:var(--ink-2);line-height:1.7}
+.axis-body b{color:var(--ink)}
+.lvl{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:10.5px;padding:1px 6px;border-radius:4px;background:var(--primary-tint);color:var(--primary-deep);margin-right:6px;font-weight:500}
+
+.flow{display:grid;grid-template-columns:repeat(4,1fr);gap:0;position:relative}
+.flow-step{position:relative;padding:22px 20px 20px;background:#fff;border:1px solid var(--line);border-radius:14px;margin-right:-1px}
+.flow-step:first-child{border-radius:14px 0 0 14px}
+.flow-step:last-child{border-radius:0 14px 14px 0;margin-right:0}
+.flow-step .rn{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--ink-3);letter-spacing:.1em}
+.flow-step h4{font-size:14.5px;font-weight:700;margin:6px 0 3px}
+.flow-step .sub{font-size:12px;color:var(--primary);margin-bottom:9px}
+.flow-step p{font-size:12.5px;color:var(--ink-2);line-height:1.6}
+.flow-step .out{margin-top:11px;padding-top:9px;border-top:1px dashed var(--line);font-size:11.5px;color:var(--ink-3)}
+.flow-step .out b{color:var(--primary-deep)}
+
+.tbl{width:100%;border-collapse:collapse;font-size:13px;background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.tbl th{text-align:left;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);font-weight:600;padding:12px 14px;background:#faf9f5;border-bottom:1px solid var(--line)}
+.tbl td{padding:11px 14px;border-bottom:1px solid var(--line-soft);color:var(--ink-2);vertical-align:top}
+.tbl tr:last-child td{border-bottom:none}
+.tbl td:first-child{color:var(--ink);font-weight:600;white-space:nowrap}
+.tbl .mono{font-family:'JetBrains Mono',monospace;font-size:11.5px;color:var(--primary);font-weight:500}
+.tbl .pay{color:var(--accent);font-weight:600;font-size:12px}
+.tbl .free{color:var(--ink-3);font-size:12px}
+
+.tree{background:#fff;border:1px solid var(--line);border-radius:16px;padding:24px;overflow-x:auto}
+.tree pre{font-family:'Outfit','Noto Sans SC','PingFang SC',monospace;font-size:12.5px;line-height:2;white-space:pre;color:var(--ink-2)}
+.tree .hl{color:var(--accent);font-weight:600}
+.tree .lbl{color:var(--primary);font-weight:600}
+
+.six{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
+.six .card{padding:16px}
+.six .code{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--primary);background:var(--primary-tint);padding:2px 7px;border-radius:5px;display:inline-block;margin-bottom:9px}
+.six h3{font-size:13.5px;margin-bottom:6px}
+.six p{font-size:12px;line-height:1.55}
+.six .use{margin-top:9px;padding-top:8px;border-top:1px solid var(--line-soft);font-size:11px;color:var(--ink-3)}
+
+.checks{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.check{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px 18px;display:flex;gap:12px}
+.check .ic{width:26px;height:26px;border-radius:8px;background:var(--primary-tint);color:var(--primary-deep);display:grid;place-items:center;flex:none}
+.check h4{font-size:13.5px;font-weight:700;margin-bottom:4px}
+.check p{font-size:12.5px;color:var(--ink-2);line-height:1.6}
+
+.warnbox{background:var(--danger-tint);border:1px solid #e8d5d6;border-radius:14px;padding:18px 20px}
+.warnbox h3{color:var(--danger);margin-bottom:8px;display:flex;align-items:center;gap:8px}
+.warnbox p{font-size:13px;color:var(--ink-2);line-height:1.7}
+.warnbox ul{margin:9px 0 0 2px;list-style:none;display:flex;flex-direction:column;gap:5px}
+.warnbox li{font-size:12.5px;color:var(--ink-2);padding-left:16px;position:relative}
+.warnbox li::before{content:"";position:absolute;left:2px;top:8px;width:5px;height:5px;border-radius:99px;background:var(--danger)}
+
+.srcnote{font-size:12px;color:var(--ink-3);line-height:1.7;margin-top:14px;padding-top:13px;border-top:1px solid var(--line)}
+.srcnote b{color:var(--ink-2)}
+
+.roadmap{display:grid;gap:0;position:relative;padding-left:26px}
+.roadmap::before{content:"";position:absolute;left:7px;top:8px;bottom:8px;width:2px;background:var(--primary);opacity:.28}
+.roadmap li{list-style:none;position:relative;padding:0 0 22px}
+.roadmap li:last-child{padding-bottom:0}
+.roadmap li::before{content:"";position:absolute;left:-24px;top:5px;width:14px;height:14px;border-radius:50%;background:#fff;border:2px solid var(--primary)}
+.roadmap .ph{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--primary);letter-spacing:.06em}
+.roadmap h4{font-size:14.5px;font-weight:700;margin:4px 0 4px}
+.roadmap p{font-size:12.5px;color:var(--ink-2)}
+
+footer{border-top:1px solid var(--line);padding-top:26px;font-size:12px;color:var(--ink-3);line-height:1.75}
+
+@media(max-width:900px){
+  .g4,.g3,.six{grid-template-columns:repeat(2,1fr)}
+  .flow{grid-template-columns:1fr}
+  .flow-step{border-radius:14px!important;margin:0 0 10px}
+  .checks{grid-template-columns:1fr}
+}
+@media(max-width:620px){
+  .wrap{padding:0 16px 60px}
+  h1{font-size:29px}
+  header{padding:36px 0 28px;margin-bottom:36px}
+  .g2,.g3,.g4,.six{grid-template-columns:1fr}
+  .axis-row{grid-template-columns:1fr;gap:8px}
+  .bench{grid-template-columns:96px 1fr 46px;gap:8px}
+  section{margin-bottom:44px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="eyebrow">拾词 · 教研体系 v1.0 · 内容优先</div>
+  <h1>把「高考英语单词」从词表变成<em>可测量、可归因、可训练</em>的知识系统</h1>
+  <p class="lede">
+    市面上所有背词 App 都按字母顺序或词频组织内容，但高考丢分从不按字母顺序发生。
+    这套体系的核心主张是：<b>分类必须按丢分机制组织</b>，教学目标必须可测量，训练必须与真题同构。
+    下面这份文档是产品的教研宪法——功能、数据结构、训练内容、定价，全部以它为准。
+  </p>
+  <div class="meta">
+    <span class="chip acc">六维分类体系</span>
+    <span class="chip">四阶段学习闭环</span>
+    <span class="chip">六条训练质量标准</span>
+    <span class="chip">十条失分机制</span>
+    <span class="chip">版权红线</span>
+  </div>
+</header>
+
+<!-- ========== 1 事实基线 ========== -->
+<section>
+  <div class="sec-head"><span class="sec-n">01</span><h2>事实基线</h2></div>
+  <p class="sec-desc">内容配比必须建立在已核验的事实上，而不是感觉。以下数据来自公开来源，用于指导教研配比，<b>不作为产品宣传口径</b>。</p>
+
+  <div class="grid g2">
+    <div class="card">
+      <h3>新高考全国卷 · 词汇主战场</h3>
+      <p style="margin-bottom:16px">满分 150 分中，词汇直接决定 <b>120 分</b>。</p>
+      <div class="bench"><span class="bench-label">阅读理解</span><div class="bench-track"><div class="bench-fill" style="width:100%"></div></div><span class="bench-val">50</span></div>
+      <div class="bench"><span class="bench-label">书面表达</span><div class="bench-track"><div class="bench-fill" style="width:80%"></div></div><span class="bench-val">40</span></div>
+      <div class="bench"><span class="bench-label">听力理解</span><div class="bench-track"><div class="bench-fill" style="width:60%"></div></div><span class="bench-val">30</span></div>
+      <div class="bench"><span class="bench-label">完形填空</span><div class="bench-track"><div class="bench-fill" style="width:30%;opacity:.72"></div></div><span class="bench-val">15</span></div>
+      <div class="bench"><span class="bench-label">语法填空</span><div class="bench-track"><div class="bench-fill" style="width:30%;opacity:.52"></div></div><span class="bench-val">15</span></div>
+      <div class="bench alt"><span class="bench-label">词汇主战场合计</span><div class="bench-track"><div class="bench-fill" style="width:80%"></div></div><span class="bench-val">120</span></div>
+      <div class="srcnote">
+        <b>来源：</b>南国都市报《英语如何做好冲刺备考？》（海南中学高三英语备课组组长李玥，2025）· 英语巴士《2027高考英语高分突破》<br>
+        <b>注意：</b>北京卷（听力30/阅读50/写作35/口语10）与上海卷题型不同，需单独适配内容。
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>关键结论</h3>
+      <dl class="kv" style="margin-top:14px">
+        <dt>3500</dt><dd>课标要求单词数，另含<b>约 500 个习惯用语和固定搭配</b></dd>
+        <dt>~800</dt><dd>多来源共同指向的真正核心高频词，其余为长尾</dd>
+        <dt>15–20</dt><dd>每套卷子中的熟词生义考点个数</dd>
+        <dt>42%</dt><dd>完形因误判熟词生义的失分率（<b>教培机构统计，原始口径未见</b>）</dd>
+        <dt>80%</dt><dd>熟词生义中动词与名词的占比</dd>
+      </dl>
+      <div class="srcnote">
+        <b>来源：</b>《普通高中英语课程标准》词表口径 · 奇速英语《高中英语阅读"熟词生义"50词》· 廊坊大讲堂《词汇积累：别再死记硬背了，一线老师带你抓考点》· 广州培训网《高三学英语最好的方法》<br>
+        <b>产品含义：</b>不做「3500 词全覆盖」的均质产品，做「800 词打透 + 1500 词覆盖 + 1200 词兜底」的三层结构。宣传讲 3500，深度投入压在前 800。
+      </div>
+    </div>
+  </div>
+
+  <div class="grid g2" style="margin-top:16px">
+    <div class="card">
+      <h3>教研共识 · 四轮学习法</h3>
+      <p style="margin-top:8px">来自广东名师工作室讲座，与「语境、检测、复现、运用」四大支柱吻合。这四轮<b>直接对应产品的四个学习阶段</b>——信息架构的教研依据，不是拍脑袋。</p>
+      <div class="srcnote" style="margin-top:14px"><b>来源：</b>南方+《当神舟二十号驶入英语课堂》（宋桂林名教师工作室讲座）</div>
+    </div>
+    <div class="card">
+      <h3>词块教学 · 一个诚实的边界</h3>
+      <p style="margin-top:8px">对照实验（75 名高三学生，一学期）显示：词块教学提高写作准确性与流利度、改善语篇阅读能力；但<b>与听力、语法、完型的改善没有直接关系</b>。</p>
+      <p style="margin-top:8px"><b>产品含义：</b>词块教学对写作和阅读有效，对完形无效。完形必须靠「语境义辨析」单独训练——这是两类不同的训练，不能混为一谈。</p>
+      <div class="srcnote" style="margin-top:14px"><b>来源：</b>《词块理论在高三英语词汇复习中的应用》（引 Lewis 词块教学法）</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 2 六维分类 ========== -->
+<section>
+  <div class="sec-head"><span class="sec-n">02</span><h2>六维分类体系</h2></div>
+  <p class="sec-desc">一个词条 = 一行数据，六个维度。每个维度都有明确用途——不是为了分类而分类，而是每一维都直接对应一个产品功能。</p>
+
+  <div class="grid g3" style="margin-bottom:16px">
+    <div class="card">
+      <h3>维度 1 · 词性词形 <span class="tag">Grammar</span></h3>
+      <p>决定<b>教学方式</b>。名词、动词、形容词的教法完全不同。覆盖 <code style="font-family:'JetBrains Mono',monospace;font-size:11px">n / v / adj / adv / prep / conj / pron / phrase / morph</code> 九类。</p>
+    </div>
+    <div class="card">
+      <h3>维度 2 · 义项层级 <span class="tag">Sense Level</span></h3>
+      <p><b>整个产品的灵魂。</b>每个义项单独计掌握度、单独出题、单独进入间隔重复算法。S3 熟词僻义是最高价值层——它是「知道这个词却做错题」的唯一来源。</p>
+    </div>
+    <div class="card">
+      <h3>维度 3 · 失分机制 <span class="tag">Error Mech</span></h3>
+      <p><b>失分地图的分类依据。</b>按「为什么错」归类，不是按词表归类。这是与竞品结构差异最深的地方。</p>
+    </div>
+    <div class="card">
+      <h3>维度 4 · 题型载体 <span class="tag">Carrier</span></h3>
+      <p>决定「这个词在哪种题型里考」。同一词在不同题型的训练形态完全不同——阅读只需识别，写作必须输出。</p>
+    </div>
+    <div class="card">
+      <h3>维度 5 · 教学策略 <span class="tag">Pedagogy</span></h3>
+      <p>决定「这个词怎么教」。八种策略覆盖从词根词缀到听说读写联动的完整教学动作。</p>
+    </div>
+    <div class="card">
+      <h3>维度 6 · 分级优先级 <span class="tag">Tier</span></h3>
+      <p>决定内容生产顺序与用户注意力分配。T1 是付费理由，T2–T4 是完整性护城河。</p>
+    </div>
+  </div>
+
+  <div class="axis">
+    <div class="axis-row">
+      <div class="axis-name">义项层级<span>Sense Level</span></div>
+      <div class="axis-body">
+        <span class="lvl">S1</span>核心义 — 课标高频义项，任何卷子都可能出现。掌握判定：看到 1.5 秒内反应出。<br>
+        <span class="lvl">S2</span>高考核心义 — 反复考查的非第一义项。如 address「处理」、account for「占比」。<br>
+        <span class="lvl">S3</span>熟词僻义 — <b>学生「认识」但会误判</b>的义项。如 sound「严谨的」、plant「工厂」。必须 100% 配仿真语境例句。<br>
+        <span class="lvl">S4</span>搭配义 — 只能通过固定搭配整体习得。如 bear in mind。整块记，不可拆。
+      </div>
+    </div>
+    <div class="axis-row">
+      <div class="axis-name">失分机制<span>Error Mechanism</span></div>
+      <div class="axis-body">
+        <span class="lvl">E1</span>熟词僻义误判　<span class="lvl">E2</span>一词多义混淆　<span class="lvl">E3</span>形近音近混淆　<span class="lvl">E4</span>固定搭配缺失　<span class="lvl">E5</span>词性词形误判<br>
+        <span class="lvl">E6</span>语境推断失败　<span class="lvl">E7</span>逻辑连接词误用　<span class="lvl">E8</span>情感色彩误判　<span class="lvl">E9</span>拼写变形错误　<span class="lvl">E10</span>主题词汇缺失
+      </div>
+    </div>
+    <div class="axis-row">
+      <div class="axis-name">题型载体<span>Exam Carrier</span></div>
+      <div class="axis-body">
+        <span class="lvl">C1</span>阅读理解 50分　<span class="lvl">C2</span>完形填空 15分　<span class="lvl">C3</span>语法填空 15分　<span class="lvl">C4</span>应用文写作 15分　<span class="lvl">C5</span>读后续写 25分　<span class="lvl">C6</span>七选五 12.5分　<span class="lvl">C7</span>听力理解 30分
+      </div>
+    </div>
+    <div class="axis-row">
+      <div class="axis-name">教学策略<span>Pedagogy Strategy</span></div>
+      <div class="axis-body">
+        <span class="lvl">P1</span>词根词缀拆解　<span class="lvl">P2</span>语境义项树　<span class="lvl">P3</span>形近词对比组　<span class="lvl">P4</span>词块整体记忆　<span class="lvl">P5</span>主题串联　<span class="lvl">P6</span>词形转换链　<span class="lvl">P7</span>听说读写联动　<span class="lvl">P8</span>易混点规避
+      </div>
+    </div>
+    <div class="axis-row">
+      <div class="axis-name">分级优先级<span>Tier</span></div>
+      <div class="axis-body">
+        <span class="lvl">T1</span>核心高频 + 熟词僻义重灾区（~800 词）— 主力内容，深度打磨，<b>订阅核心价值</b><br>
+        <span class="lvl">T2</span>写作高频 + 搭配密集（~600 词）— 搭配词块 + 作文升级表达<br>
+        <span class="lvl">T3</span>中频覆盖（~1500 词）— 词义 + 例句，走量<br>
+        <span class="lvl">T4</span>低频兜底（~1200 词）— 完整考纲覆盖，查漏补缺
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 3 义项树 ========== -->
+<section>
+  <div class="sec-head"><span class="sec-n">03</span><h2>义项树 · 核心交互</h2></div>
+  <p class="sec-desc">用户点击一个词，看到的不是一列释义，而是<b>一棵按失分概率排序的义项树</b>。每个义项独立标记掌握状态、独立进入复习队列。这是「熟词僻义专项」能独立成为产品线的前提。</p>
+  <div class="grid g2">
+    <div class="tree">
+      <pre>address  /əˈdres/
+├─ <span class="hl">v. 处理、解决</span>  <span class="lbl">S2 高考核心义 · 陷阱义 · C1C2</span>
+│   ├ 我们的政策必须解决这个问题
+│   └ address a problem / address the issue
+├─ v. 演讲、发表演说      <span class="lbl">S2 · 易与「处理」混淆</span>
+├─ v. 称呼、称谓          <span class="lbl">S1</span>
+└─ n. 地址              <span class="lbl">S1 ← 陷阱来源</span></pre>
+    </div>
+    <div class="card">
+      <h3>为什么必须是树，不是列表</h3>
+      <p style="margin-top:10px">列表把义项平铺，学生会平均分配注意力给每个义项——但 <b>address 的「处理」义出现频率是「地址」义的上百倍</b>，两者价值完全不对等。</p>
+      <p style="margin-top:10px">树结构按<b>高考实际考查概率</b>排序，把高频陷阱义放在最上面，并直接标注它与哪个熟悉义冲突。</p>
+      <p style="margin-top:10px">更关键的是：每个义项是<b>独立的数据实体</b>（<code style="font-family:'JetBrains Mono',monospace;font-size:11px">sense_id</code>），独立计分、独立排复习、独立绑题目。这让「我认识 address 但在阅读里读错了它的处理义」这件事第一次变得<b>可测量</b>。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 4 学习闭环 ========== -->
+<section>
+  <div class="sec-head"><span class="sec-n">04</span><h2>四阶段学习闭环</h2></div>
+  <p class="sec-desc">映射教研「四轮学习法」，每一阶段有明确的产品功能、时长与完成判定。</p>
+  <div class="flow" style="margin-bottom:20px">
+    <div class="flow-step">
+      <div class="rn">ROUND 01</div>
+      <h4>逐词学习</h4>
+      <div class="sub">音 · 形 · 义 · 用</div>
+      <p>词卡学习，建立基础音形义映射。义项树首次展开，标出陷阱义。</p>
+      <div class="out">产品：<b>词卡学习</b> · 20 词/天<br>完成：释义自测正确 + 例句理解</div>
+    </div>
+    <div class="flow-step">
+      <div class="rn">ROUND 02</div>
+      <h4>重点突破</h4>
+      <div class="sub">高频词 + 构词法</div>
+      <p>T1 词条精读。词根词缀拆解建立词族网络，形近词成组对比。</p>
+      <div class="out">产品：<b>词根词缀 + 形近对比</b> · 30 词/天<br>完成：构词推导正确 + 对比组辨析正确</div>
+    </div>
+    <div class="flow-step">
+      <div class="rn">ROUND 03</div>
+      <h4>意识增进</h4>
+      <div class="sub">真题语境 + 熟词僻义</div>
+      <p>进入语境。专项训练强化 S3 陷阱义识别，绑定真实题型。</p>
+      <div class="out">产品：<b>熟词僻义专项</b> · 12 题/天<br>完成：陷阱义无误判</div>
+    </div>
+    <div class="flow-step">
+      <div class="rn">ROUND 04</div>
+      <h4>温故知新</h4>
+      <div class="sub">主题整合 + 提取</div>
+      <p>主题包串联，作文输出复用。词汇从「认识」变成「能用」。</p>
+      <div class="out">产品：<b>主题包 + 写作输出</b> · 按周<br>完成：作文中主动复用</div>
+    </div>
+  </div>
+
+  <div class="grid g4">
+    <div class="card"><h3>语境</h3><p style="margin-top:6px">每个义项必须有例句，且标注题型载体。<br><b>反例：</b>只给中文释义，无语境。</p></div>
+    <div class="card"><h3>检测</h3><p style="margin-top:6px">义项级主动回忆，不是识别。<br><b>反例：</b>只做「看英文选中文」。</p></div>
+    <div class="card"><h3>复现</h3><p style="margin-top:6px">FSRS 算法作用在义项 ID 上。<br><b>反例：</b>整词一条记忆曲线。</p></div>
+    <div class="card"><h3>运用</h3><p style="margin-top:6px">造句 + 作文升级替换 + 口语输出。<br><b>反例：</b>只背不说。</p></div>
+  </div>
+</section>
+
+<!-- ========== 5 训练质量 ========== -->
+<section>
+  <div class="sec-head"><span class="sec-n">05</span><h2>六条训练质量标准</h2></div>
+  <p class="sec-desc">普通背词 App 的题目是「address → A.地址 B.处理 C.演讲 D.解决」，学生靠排除法也能做对——这种题没有训练价值。「高考专享」的含金水，全部体现在下面六条。</p>
+
+  <div class="checks">
+    <div class="check">
+      <div class="ic"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7V5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2"/><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 12h8"/></svg></div>
+      <div><h4>① 真实语境，可归因</h4><p>题干不是孤立单词，而是仿真真题句子，标注所属题型。单独一个词的四选一，没有训练价值。</p></div>
+    </div>
+    <div class="check">
+      <div class="ic"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18"/><path d="M5 8h14"/><path d="M7 8l-2 5a3 3 0 0 0 6 0L9 8"/></svg></div>
+      <div><h4>② 干扰项必须有错因设计</h4><p>每个错误选项对应一个真实常见误判，不是凑数。通用 App 的干扰项随机生成，练完只会「见过这个词」，不会「不再做错」。</p></div>
+    </div>
+    <div class="check">
+      <div class="ic"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M20 4.5A8.5 8.5 0 0 0 9 16M20 19.5A8.5 8.5 0 0 0 9 8"/></svg></div>
+      <div><h4>③ 反向归因到义项</h4><p>每题绑定 sense_id，错题自动归入 E1–E10 失分机制。这是「失分地图」能成立的技术前提。</p></div>
+    </div>
+    <div class="check">
+      <div class="ic"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17v-4M8 17V9M13 17v-7M18 17V4"/></svg></div>
+      <div><h4>④ 难度分布贴合真题</h4><p>简单 15% / 中等 55% / 困难 30%。简单题靠排除法可解，困难题需上下文推理。不允许全是对立式选择题。</p></div>
+    </div>
+    <div class="check">
+      <div class="ic"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M12 2a6 6 0 0 0-4 10.5c.7.6 1 1.5 1 2.5h6c0-1 .3-1.9 1-2.5A6 6 0 0 0 12 2Z"/></svg></div>
+      <div><h4>⑤ 解析给「考场动作」</h4><p>不是词义解释，而是考场上如何判断。「感激的对象是人，意识到的对象是事」比任何释义都管用。</p></div>
+    </div>
+    <div class="check">
+      <div class="ic"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m7 14 3-3 3 3 4-6"/></svg></div>
+      <div><h4>⑥ 错误率监控</h4><p>正确率 >90% 说明太简单、筛不出能力；<30% 说明太难、产生挫败。教研需复审是否替换或调难度。</p></div>
+    </div>
+  </div>
+
+  <div class="grid g2" style="margin-top:16px">
+    <div class="card">
+      <h3>干扰项设计 · 真实样例</h3>
+      <p style="margin-top:10px">题干：<i>The new policy was introduced to ______ the widening gap between rich and poor.</i></p>
+      <div style="margin-top:12px;display:flex;flex-direction:column;gap:7px;font-size:12.5px">
+        <div style="padding:8px 12px;border-radius:9px;background:var(--primary-tint);color:var(--primary-deep);font-weight:600">A · address ✓ — 高考实际用词，固定搭配 address the gap</div>
+        <div style="padding:8px 12px;border-radius:9px;background:var(--line-soft);color:var(--ink-2)"><b>B · solve</b> — 语义近但非高考实际用词，测「是否知道高考偏好 address」</div>
+        <div style="padding:8px 12px;border-radius:9px;background:var(--line-soft);color:var(--ink-2)"><b>C · handle</b> — 同义干扰，测「address 是否会被误判为不可用」</div>
+        <div style="padding:8px 12px;border-radius:9px;background:var(--line-soft);color:var(--ink-2)"><b>D · attend</b> — 共享词根，测形近音近误判（E3）</div>
+      </div>
+      <p style="margin-top:12px">关键：B 和 C 在语义和语境上<b>完全说得通</b>，纯靠语感排除不掉——必须靠搭配记忆来定。这就是这个知识点必须单独成一类题的原因。</p>
+    </div>
+    <div class="card">
+      <h3>训练模块 · 按失分机制组织</h3>
+      <p style="margin-top:10px;margin-bottom:12px">不是按词表组织。这是与竞品最大的结构差异。</p>
+      <table class="tbl" style="font-size:12.5px">
+        <thead><tr><th>模块</th><th>题量</th><th>商业定位</th></tr></thead>
+        <tbody>
+          <tr><td>熟词僻义专项 <span class="mono">E1</span></td><td>12</td><td class="pay">首次付费主入口</td></tr>
+          <tr><td>一词多义辨析 <span class="mono">E2</span></td><td>10</td><td class="free">会员权益</td></tr>
+          <tr><td>固定搭配词块 <span class="mono">E4</span></td><td>10</td><td class="pay">会员 + 资料电商</td></tr>
+          <tr><td>词性词形转换 <span class="mono">E5</span></td><td>10</td><td class="free">会员权益</td></tr>
+          <tr><td>主题词包 <span class="mono">E10</span></td><td>20</td><td class="pay">资料电商</td></tr>
+          <tr><td>拼写听写 <span class="mono">E9</span></td><td>10</td><td class="free">免费引流</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 6 版权红线 ========== -->
+<section>
+  <div class="sec-head"><span class="sec-n">06</span><h2>版权红线 · 不可协商</h2></div>
+  <p class="sec-desc">这一节能让整个项目直接夭折，所以放在最显眼的位置。产品内每条例句必须标注来源，<b>绝不可</b>标注成「2023 全国卷真题」除非确属原文且已获授权。</p>
+  <div class="grid g2">
+    <div class="warnbox">
+      <h3><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m15 9-6 6M9 9l6 6"/></svg>禁止</h3>
+      <ul>
+        <li><b>高考真题原文、选项、解析</b> —— 著作权归属在实践中存在争议，商业使用风险高</li>
+        <li><b>课标附录词表</b> —— 需查证当期授权状态，不可默认可商用</li>
+        <li><b>人教版等教材正文与单元词表</b> —— 受版权保护，禁止抓取入产品</li>
+        <li><b>词典释义（牛津/朗文）</b> —— 受版权保护，可自行改写措辞但不可搬运</li>
+        <li><b>宣传禁用词</b> —— 提分、保过、押题、押中、保证、必胜</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>允许 + 强制标注规范</h3>
+      <p style="margin-top:10px">自编例句、单词拼写与音标（事实性信息）均可使用。例句来源必须如实标注：</p>
+      <div style="margin-top:12px;padding:12px 14px;border-radius:11px;background:var(--primary-tint);font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--primary-deep)">source: "仿真例句 · 高考阅读高频句式"</div>
+      <p style="margin-top:12px">宁可少一点权威感，不可多一点法律风险。<b>所有标注「2023 全国卷真题」的例句，在我们的产品中一律替换为仿真例句。</b></p>
+      <p style="margin-top:10px">其余合规：定位为「学习工具」而非「升学辅导」；未成年人信息最小化收集 + 监护人同意 + 隐私政策明示；APP 备案、小程序类目资质、ICP 备案。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 7 产能与路线图 ========== -->
+<section>
+  <div class="sec-head"><span class="sec-n">07</span><h2>内容产能 · 路线图</h2></div>
+  <p class="sec-desc">单条 T1 词条 ≈ 100 分钟（9 步），800 条 = 约 167 人日。<b>这是本项目最大的现实约束</b>——独立开发者不可能短期内手工产出 800 条高质量 T1 词条。</p>
+  <div class="grid g2" style="margin-bottom:24px">
+    <div class="card">
+      <h3>可行的产能路径</h3>
+      <p style="margin-top:10px"><b>1.</b> 先做 <b>100 条</b>（约 17 人日）验证转化率与用户反馈<br>
+      <b>2.</b> AI 批量生成初稿 + 人工精修 T1（人工只过 100 条，成本降到 1/5）<br>
+      <b>3.</b> T2–T4 允许较高比例的 AI 初稿 + 抽检<br>
+      <b>4.</b> <b>用户错题反馈反哺</b>——真实错题优先精修</p>
+    </div>
+    <div class="card">
+      <h3>单条 T1 词条 · 9 步 SOP</h3>
+      <p style="margin-top:10px;font-size:12.5px">列义项(5min) → 标 S/E 层(10) → 标陷阱(5) → 写仿真例句(15) → 提搭配(10) → 组对比组(10) → 写易错点(10) → 出 2–3 题(25) → 自查(10)</p>
+      <p style="margin-top:10px;font-size:12.5px"><b>自查清单：</b>每个义项标了 S 层级吗？至少一个义项标了 is_trap 吗？例句标了 carrier 吗？搭配 ≥3 吗？干扰项写了「设计了什么误判」吗？绑了 sense_id 吗？没有禁用词吗？</p>
+    </div>
+  </div>
+
+  <div class="roadmap">
+    <ul style="list-style:none">
+      <li><div class="ph">C0 · 第 1–2 周</div><h4>体系定稿</h4><p>本规范文档 + 数据 schema + 100 词条生产</p></li>
+      <li><div class="ph">C1 · 第 3–6 周</div><h4>内容试点</h4><p>100 条 T1 词条 + 200 道题，质量标准落地验证</p></li>
+      <li><div class="ph">C2 · 第 7–10 周</div><h4>小程序 MVP</h4><p>词卡 + 专项训练 + 错题本，只做 C1 涉及的模块</p></li>
+      <li><div class="ph">C3 · 第 11–16 周</div><h4>冷启动验证</h4><p>小红书内容 + 100–500 种子用户，验证「熟词僻义专项」付费意愿</p></li>
+      <li><div class="ph">C4 · 第 17–26 周</div><h4>扩量</h4><p>AI 辅助产出 T1 全量 + T2 起步</p></li>
+      <li><div class="ph">C5 · 第 27 周起</div><h4>商业闭环</h4><p>订阅上线 + 资料电商 + 家长周报</p></li>
+    </ul>
+  </div>
+
+  <div class="warnbox" style="margin-top:20px;background:var(--accent-tint);border-color:#e8d9c9">
+    <h3 style="color:var(--accent)"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg>顺序不可颠倒</h3>
+    <p>C1 内容没做完不做 C2。否则会做出「一个漂亮但内容空洞的背词 App」——那是这条赛道上最常见的死法。同时注意：<b>42% 这个失分率数字来自教培机构转述，未见原始统计口径</b>，产品内不得直接引用为事实，只能表述为「教培机构普遍观察到完形是熟词生义的重灾区」。</p>
+  </div>
+</section>
+
+<!-- ========== 8 待验证假设 ========== -->
+<section>
+  <div class="sec-head"><span class="sec-n">08</span><h2>待验证假设</h2></div>
+  <p class="sec-desc">这五条是产品的商业根基。<b>未验证前，不要大规模投入内容生产。</b>先用 100 条词条 + 500 名种子用户跑验证。</p>
+  <table class="tbl">
+    <thead><tr><th>编号</th><th>假设</th><th>验证方式</th><th>判定标准</th></tr></thead>
+    <tbody>
+      <tr><td>H1</td><td>熟词僻义专项能驱动首次付费</td><td>付费墙 A/B：免费 3 题 vs 免费 5 题</td><td class="pay">付费率差异 &gt; 30%</td></tr>
+      <tr><td>H2</td><td>家长比学生更愿意付费</td><td>家长周报单独开放 vs 藏在会员内</td><td class="pay">家长端转化 &gt; 学生端</td></tr>
+      <tr><td>H3</td><td>「失分地图」比「背词进度」更能留住家长</td><td>次周留存对比</td><td class="pay">留存差异 &gt; 15%</td></tr>
+      <tr><td>H4</td><td>仿真例句 + 失因解析 优于通用释义</td><td>两版词卡 A/B</td><td class="pay">7 日留存差异 &gt; 10%</td></tr>
+      <tr><td>H5</td><td>资料电商在背词后转化路径最短</td><td>购买链路埋点</td><td class="pay">背词完成用户购买率 &gt; 未完成 2 倍</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<footer>
+  <b>拾词 · 高考英语词汇教研体系 v1.0</b> · 本文档是产品教研宪法，修改需同步更新数据 schema 与内容生产流程。<br>
+  配套文件：<code style="font-family:'JetBrains Mono',monospace;font-size:11px">docs/词汇教研体系v1.md</code> · <code style="font-family:'JetBrains Mono',monospace;font-size:11px">data/words.sample.json</code>（12 词条完整标注） · <code style="font-family:'JetBrains Mono',monospace;font-size:11px">data/questions.sample.json</code>（8 道题含干扰项错因） · <code style="font-family:'JetBrains Mono',monospace;font-size:11px">prototype/index.html</code>（可点击原型）<br>
+  事实核验来源：南国都市报 2025-05-14 · 南方+ 2025-06-03 · 奇速英语 · 二一教育 · 廊坊大讲堂 · 英语巴士 · 词块理论研究 · 百度百科·高中英语词汇
+</footer>
+
+</div>
+</body>
+</html>

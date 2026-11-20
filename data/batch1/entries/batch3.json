@@ -1,0 +1,1577 @@
+[
+  {
+    "id": "w_pattern",
+    "headword": "pattern",
+    "ipa": "/ˈpætn/",
+    "level": "T1",
+    "pos": ["n", "v"],
+    "strategies": ["P2", "P4", "P6", "P8"],
+    "carriers": ["C1", "C4", "C5"],
+    "senses": [
+      {
+        "sense_id": "s_pattern_n_design",
+        "text": "图案、花样（重复出现的图形组合）",
+        "sense_level": "S1",
+        "error_mech": ["E2"],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "The wall was decorated with a repeating pattern of leaves and small birds.",
+          "zh": "墙上装饰着由树叶和小鸟组成的重复图案。",
+          "source": "仿真例句 · 高考阅读写景类高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["a repeating pattern", "a floral pattern", "a geometric pattern", "a pattern on the fabric"]
+      },
+      {
+        "sense_id": "s_pattern_n_mode",
+        "text": "模式、规律（事物发展的固定形式）",
+        "sense_level": "S2",
+        "error_mech": ["E1"],
+        "is_trap": true,
+        "trap_of": ["图案、花样"],
+        "example": {
+          "en": "Studies suggest that a pattern of short sleep may lead to lower concentration at school.",
+          "zh": "研究显示，睡眠时间偏少的规律可能导致上课时注意力下降。",
+          "source": "仿真例句 · 高考阅读社会类高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["a pattern of behaviour", "a pattern of decline", "a growing pattern", "follow a pattern"]
+      },
+      {
+        "sense_id": "s_pattern_v_copy",
+        "text": "仿制、照…的样子做",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E5"],
+        "is_trap": true,
+        "trap_of": ["图案（名词义）", "模式、规律"],
+        "example": {
+          "en": "Young designers frequently pattern their clothes after the styles of the Song dynasty.",
+          "zh": "年轻设计师常常以宋代风格为范本设计服装。",
+          "source": "仿真例句 · 高考应用文写作可复用",
+          "carrier": "C4"
+        },
+        "collocations": ["pattern sth after sb", "pattern A on B", "pattern yourself on sb"]
+      },
+      {
+        "sense_id": "s_pattern_n_model",
+        "text": "典范、榜样（可供效仿的样子）",
+        "sense_level": "S3",
+        "error_mech": ["E1"],
+        "is_trap": true,
+        "trap_of": ["图案、模式"],
+        "example": {
+          "en": "Her patience with beginners set a pattern of service that many volunteers now follow.",
+          "zh": "她对初学者的耐心树立了服务典范，许多志愿者如今都效仿她。",
+          "source": "仿真例句 · 高考读后续写高频句式",
+          "carrier": "C5"
+        },
+        "collocations": ["a pattern of diligence", "set a pattern for others", "the ideal pattern of"]
+      }
+    ],
+    "confusable": ["prototype", "model", "format"],
+    "word_family": ["pattern", "patterned", "patterning"],
+    "notes": "考场判断法：① 先判词性——后面直接带宾语并出现 after / on，多半是动词「仿制」义（pattern sth after sb）；② 句子里出现 behaviour / decline / trend / development 这类社会词，是名词「模式、规律」义；③ 只有提到布料、墙纸、桌布、器皿表面花纹时才读「图案」；④ 讲某人的做法值得别人效仿时，是「典范、榜样」。注意 pattern 在高考里作动词「仿照」是高频坑，语法填空见 pattern 后接名词就先想动词义。",
+    "quiz_ids": []
+  },
+  {
+    "id": "w_replace",
+    "headword": "replace",
+    "ipa": "/rɪˈpleɪs/",
+    "level": "T1",
+    "pos": ["v"],
+    "strategies": ["P2", "P4", "P8"],
+    "carriers": ["C1", "C2", "C4"],
+    "senses": [
+      {
+        "sense_id": "s_replace_v_take_place",
+        "text": "取代、顶替（原有的人或物被换掉）",
+        "sense_level": "S1",
+        "error_mech": ["E2"],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "Online shopping has gradually replaced the small shops that once lined the street.",
+          "zh": "网购逐渐取代了曾经沿街开设的那些小店。",
+          "source": "仿真例句 · 高考阅读社会变迁类高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["replace the old system", "be replaced by", "completely replace"]
+      },
+      {
+        "sense_id": "s_replace_v_swap",
+        "text": "更换（把旧的换成新的同类物）",
+        "sense_level": "S2",
+        "error_mech": ["E1", "E2"],
+        "is_trap": true,
+        "trap_of": ["取代、顶替（人事义）"],
+        "example": {
+          "en": "Our school replaces the lamps in the reading room every second year to save electricity.",
+          "zh": "学校每两年更换一次阅览室的灯，以节约用电。",
+          "source": "仿真例句 · 高考校园话题高频句式",
+          "carrier": "C4"
+        },
+        "collocations": ["replace the filter", "replace a worn-out part", "replace the bulb"]
+      },
+      {
+        "sense_id": "s_replace_v_succeed",
+        "text": "接替（接任某人的职位或角色）",
+        "sense_level": "S3",
+        "error_mech": ["E1"],
+        "is_trap": true,
+        "trap_of": ["取代、顶替"],
+        "example": {
+          "en": "When the head coach stepped down, a young assistant replaced him at short notice.",
+          "zh": "主教练卸任后，一位年轻助理在短时间内接替了他。",
+          "source": "仿真例句 · 高考阅读体育类高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["replace sb as manager", "replace him as coach", "be replaced by"]
+      },
+      {
+        "sense_id": "s_replace_v_with",
+        "text": "用…替换（甲换乙）",
+        "sense_level": "S4",
+        "error_mech": ["E4", "E2"],
+        "is_trap": true,
+        "trap_of": ["被…取代（replace A by B）"],
+        "example": {
+          "en": "The school replaced the old blackboards with smart screens that record every lesson.",
+          "zh": "学校用可记录每节课的智能屏幕替换了旧黑板。",
+          "source": "仿真例句 · 高考说明文设施类高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["replace A with B", "replace the old with the new", "replace the text with a photo"]
+      }
+    ],
+    "confusable": ["substitute", "restore", "replacement"],
+    "word_family": ["replace", "replacement", "replaceable", "irreplaceable"],
+    "notes": "考场判断法：① 先圈出「被换掉的」和「换进来的」两样东西；② 两样都是人且谈职位 → 「接替」；两样都是同类物品、一新一旧 → 「更换」；③ 看到 replace A with B 就固定读成「用 B 换掉 A」，而 replace A by B 是「用 A 换掉 B」，介词一写反整句意思就倒过来，这是 E4 级硬伤；④ 作文写「取代旧做法」优先用 replace the old system、replace A with B 这类高考现成搭配。",
+    "quiz_ids": []
+  },
+  {
+    "id": "w_seek",
+    "headword": "seek",
+    "ipa": "/si:k/",
+    "level": "T1",
+    "pos": ["v"],
+    "strategies": ["P2", "P4", "P8"],
+    "carriers": ["C1", "C3", "C4", "C5"],
+    "senses": [
+      {
+        "sense_id": "s_seek_v_obtain",
+        "text": "寻求、设法得到（帮助、许可、信息）",
+        "sense_level": "S1",
+        "error_mech": ["E2"],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "If the problem is too hard to solve alone, you should seek advice from a teacher.",
+          "zh": "如果问题太难自己解决，你应该向老师寻求建议。",
+          "source": "仿真例句 · 高考应用文写作高频句式",
+          "carrier": "C4"
+        },
+        "collocations": ["seek help", "seek advice", "seek permission", "seek support"]
+      },
+      {
+        "sense_id": "s_seek_v_attempt",
+        "text": "试图、力图（想做某事）",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E5"],
+        "is_trap": true,
+        "trap_of": ["寻求、设法得到（seek sth）"],
+        "example": {
+          "en": "Many students seek to improve their writing by keeping a short diary in English.",
+          "zh": "许多学生试图通过写英文日记来提高写作水平。",
+          "source": "仿真例句 · 高考语法填空高频句式",
+          "carrier": "C3"
+        },
+        "collocations": ["seek to do sth", "seek to improve", "seek to change", "seek to find out"]
+      },
+      {
+        "sense_id": "s_seek_v_shelter",
+        "text": "寻找、觅得（住处、庇护、治疗）",
+        "sense_level": "S2",
+        "error_mech": ["E2"],
+        "is_trap": true,
+        "trap_of": ["寻求、设法获得（抽象义）"],
+        "example": {
+          "en": "After the flood, many families sought shelter in the local community hall.",
+          "zh": "洪水过后，许多家庭在当地的社区大厅找到了栖身之处。",
+          "source": "仿真例句 · 高考阅读灾情类高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["seek shelter", "seek refuge", "seek treatment", "seek a job"]
+      },
+      {
+        "sense_id": "s_seek_v_pursue",
+        "text": "追求（目标、成功、幸福）",
+        "sense_level": "S2",
+        "error_mech": ["E2"],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "After years of hard work, he finally achieved the career he had sought after.",
+          "zh": "经过多年的努力，他终于得到了自己一直追求的事业。",
+          "source": "仿真例句 · 高考读后续写高频句式",
+          "carrier": "C5"
+        },
+        "collocations": ["seek success", "seek happiness", "seek a balance", "seek after fame"]
+      }
+    ],
+    "confusable": ["search", "pursue", "chase"],
+    "word_family": ["seek", "seeker", "sought"],
+    "notes": "考场判断法：① 后面接不定式（seek to do）立刻锁定「试图、力图」，别当成「想要做」；② 后面接 help / advice / permission / support 这类「可获得的资源」是「寻求、设法得到」；③ 后面接 shelter / refuge / treatment / job 这类「要找到的东西」是「寻找、觅得」；④ 后面接 success / happiness / fame 这类「长期想要的状态」是「追求」。seek 是书面语，语法填空里 seek to do 的不定式漏掉 to 就整空错。",
+    "quiz_ids": []
+  },
+  {
+    "id": "w_view",
+    "headword": "view",
+    "ipa": "/vju:/",
+    "level": "T1",
+    "pos": ["n", "v"],
+    "strategies": ["P2", "P3", "P4", "P8"],
+    "carriers": ["C1", "C2", "C4"],
+    "senses": [
+      {
+        "sense_id": "s_view_n_opinion",
+        "text": "看法、观点（对事物的认识）",
+        "sense_level": "S1",
+        "error_mech": ["E2"],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "In my view, protecting old buildings matters more than building new ones quickly.",
+          "zh": "在我看来，保护老建筑比急着建新楼更重要。",
+          "source": "仿真例句 · 高考议论文写作高频句式",
+          "carrier": "C4"
+        },
+        "collocations": ["a view on sth", "in my view", "a different view", "hold the view that"]
+      },
+      {
+        "sense_id": "s_view_v_regard",
+        "text": "看待、把…视为（当作）",
+        "sense_level": "S2",
+        "error_mech": ["E1", "E2"],
+        "is_trap": true,
+        "trap_of": ["看法（名词义）", "景色、风光"],
+        "example": {
+          "en": "Many young people view online learning as a useful supplement to classroom teaching.",
+          "zh": "许多年轻人把网络学习看作课堂教学的有益补充。",
+          "source": "仿真例句 · 高考阅读议论文高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["view A as B", "widely viewed as", "view sth as a threat", "view sb differently"]
+      },
+      {
+        "sense_id": "s_view_n_scenery",
+        "text": "景色、风光（从某处望见的景致）",
+        "sense_level": "S2",
+        "error_mech": ["E1"],
+        "is_trap": true,
+        "trap_of": ["看法、观点"],
+        "example": {
+          "en": "The balcony offers a magnificent view of the harbour in the early morning.",
+          "zh": "清晨的阳台上可以望见港湾的壮丽景色。",
+          "source": "仿真例句 · 高考阅读旅行类高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["a magnificent view", "a view of the lake", "a panoramic view", "a sea view"]
+      },
+      {
+        "sense_id": "s_view_n_perspective",
+        "text": "视角、着眼点（看问题的角度）",
+        "sense_level": "S3",
+        "error_mech": ["E1"],
+        "is_trap": true,
+        "trap_of": ["看法、观点"],
+        "example": {
+          "en": "From a health point of view, a short walk is often better than a cup of coffee.",
+          "zh": "从健康的角度看，散步往往比喝一杯咖啡更管用。",
+          "source": "仿真例句 · 高考阅读科普类高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["from a ... point of view", "a global perspective", "a different perspective", "in perspective"]
+      },
+      {
+        "sense_id": "s_view_v_watch",
+        "text": "观看、浏览（视频、网页、文件）",
+        "sense_level": "S3",
+        "error_mech": ["E1"],
+        "is_trap": true,
+        "trap_of": ["看法（名词义）"],
+        "example": {
+          "en": "The short video explaining the experiment has been viewed by thousands of students.",
+          "zh": "那段讲解实验的短视频已被数千名学生观看过。",
+          "source": "仿真例句 · 高考阅读网络类高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["view the video", "be widely viewed", "view a website", "view the file online"]
+      }
+    ],
+    "confusable": ["opinion", "attitude", "perspective", "scene"],
+    "word_family": ["view", "viewer", "viewpoint", "preview", "interview"],
+    "notes": "考场判断法：① 一看到 view A as B 的框架，先判定它是动词「把…视为」，所有名词义全部出局；② 宾语是 of the 加地名或景物 → 「景色」；接 on / about → 「看法」；③ 出现 from a ... point of view → 「视角、着眼点」，不是「看法」；④ view 的被动式（has been viewed）多半是「观看、浏览」，学生按名词义读会整句译反。",
+    "quiz_ids": []
+  },
+  {
+    "id": "w_challenge",
+    "headword": "challenge",
+    "ipa": "/ˈtʃæləndʒ/",
+    "level": "T1",
+    "pos": ["n", "v"],
+    "strategies": ["P2", "P4", "P8"],
+    "carriers": ["C1", "C2", "C5"],
+    "senses": [
+      {
+        "sense_id": "s_challenge_n_difficulty",
+        "text": "挑战、难题（需要克服的困难）",
+        "sense_level": "S1",
+        "error_mech": ["E2"],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "Adapting to life in a new city is a challenge that every graduate has to face.",
+          "zh": "适应新城市的生活是每个毕业生都必须面对的挑战。",
+          "source": "仿真例句 · 高考阅读成长类高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["face a challenge", "a serious challenge", "meet the challenge", "an exciting challenge"]
+      },
+      {
+        "sense_id": "s_challenge_n_question",
+        "text": "（对既有认知的）质疑、挑战",
+        "sense_level": "S2",
+        "error_mech": ["E1"],
+        "is_trap": true,
+        "trap_of": ["挑战、难题（名词义）"],
+        "example": {
+          "en": "Her findings pose a challenge to widely accepted ideas in the field.",
+          "zh": "她的发现对这一领域中被广泛接受的观念构成了挑战。",
+          "source": "仿真例句 · 高考阅读学术类高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["pose a challenge to", "a challenge to traditional thinking", "represent a challenge"]
+      },
+      {
+        "sense_id": "s_challenge_v_doubt",
+        "text": "质疑、反驳（对某个说法提出疑问）",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E2"],
+        "is_trap": true,
+        "trap_of": ["挑战、难题（名词义）"],
+        "example": {
+          "en": "Several researchers challenged the old assumption that talent alone finally decides a person's success.",
+          "zh": "几位研究者质疑了「仅凭天赋就能决定一个人的成功」这一假设。",
+          "source": "仿真例句 · 高考阅读议论文高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["challenge the view that", "challenge sb's claim", "challenge an assumption", "be challenged by"]
+      },
+      {
+        "sense_id": "s_challenge_v_invite",
+        "text": "向…发起挑战、要求对方做",
+        "sense_level": "S4",
+        "error_mech": ["E4"],
+        "is_trap": true,
+        "trap_of": ["质疑、反驳"],
+        "example": {
+          "en": "The young team challenged their rivals to a friendly match on the last day.",
+          "zh": "这支年轻队在最后一天向对手发起了一场友谊赛的挑战。",
+          "source": "仿真例句 · 高考读后续写高频句式",
+          "carrier": "C5"
+        },
+        "collocations": ["challenge sb to a duel", "challenge sb to do sth", "challenge sb to a match"]
+      }
+    ],
+    "confusable": ["charm", "danger", "trial"],
+    "word_family": ["challenge", "challenging", "challenger", "unchallenged"],
+    "notes": "考场判断法：① 动词后面接「说法、观点、假设、结论」这类信念类名词 → 必是「质疑、反驳」，不是「挑战难度」；② 动词后面接人并构成 challenge sb to do → 才是「向…挑战」；③ 名词前有 pose / represent / be a challenge to → 是「对…的质疑」；④ 名词单独作宾语讲困难 → 「挑战、难题」。高考里 challenge 当动词几乎都是「质疑」，只背名词义就会整片选错。",
+    "quiz_ids": []
+  },
+  {
+    "id": "w_impact",
+    "headword": "impact",
+    "ipa": "/ˈɪmpækt/",
+    "level": "T1",
+    "pos": ["n", "v"],
+    "strategies": ["P2", "P3", "P4", "P8"],
+    "carriers": ["C1", "C3", "C4"],
+    "senses": [
+      {
+        "sense_id": "s_impact_n_effect",
+        "text": "影响、作用（对某事产生作用）",
+        "sense_level": "S1",
+        "error_mech": ["E4"],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "Few inventions have had such a lasting impact on the way people spend their time.",
+          "zh": "很少有发明对人们支配时间的方式产生如此持久的影响。",
+          "source": "仿真例句 · 高考议论文写作高频句式",
+          "carrier": "C4"
+        },
+        "collocations": ["have an impact on", "a major impact on", "the impact of sth on sth", "a positive impact on"]
+      },
+      {
+        "sense_id": "s_impact_v_affect",
+        "text": "对…产生影响（动词义）",
+        "sense_level": "S2",
+        "error_mech": ["E5", "E2"],
+        "is_trap": true,
+        "trap_of": ["撞击、冲击（动词的字面义）"],
+        "example": {
+          "en": "How a student reacts to failure greatly impacts the rest of his school life.",
+          "zh": "一个学生对失败的反应会极大地影响他余下的校园生活。",
+          "source": "仿真例句 · 高考语法填空高频句式",
+          "carrier": "C3"
+        },
+        "collocations": ["impact on the environment", "significantly impact", "directly impact on", "impact daily life"]
+      },
+      {
+        "sense_id": "s_impact_n_collision",
+        "text": "撞击、冲击（物体相撞的那一下）",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E10"],
+        "is_trap": true,
+        "trap_of": ["影响、作用"],
+        "example": {
+          "en": "The impact of the heavy door left a deep dent in the wooden wall.",
+          "zh": "沉重门的撞击在木墙上留下了一个深深的凹痕。",
+          "source": "仿真例句 · 高考阅读记叙类高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["the impact of the crash", "a powerful impact", "the impact on the surface", "absorb the impact"]
+      }
+    ],
+    "confusable": ["affect", "effect", "impart", "impair"],
+    "word_family": ["impact", "impactful", "unaffected"],
+    "notes": "考场判断法：① impact 后面跟 on，或前面出现 have / make，一律先读成「影响」，再看词性；② 只有句子在讲物体相撞相砸（car、storm、meteorite、debris），才读「撞击、冲击」；③ 名词用 a huge impact on sth，动词用 impact sth，中间不加介词 on，介词误加是语法填空高频错点。",
+    "quiz_ids": []
+  },
+  {
+    "id": "w_indicate",
+    "headword": "indicate",
+    "ipa": "/ˈɪndɪkeɪt/",
+    "level": "T1",
+    "pos": ["v"],
+    "strategies": ["P2", "P4", "P8"],
+    "carriers": ["C1", "C3", "C4"],
+    "senses": [
+      {
+        "sense_id": "s_indicate_v_show",
+        "text": "表明、显示（研究或迹象指向某个结论）",
+        "sense_level": "S1",
+        "error_mech": ["E2"],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "Recent studies indicate that short naps in the afternoon can improve memory in students.",
+          "zh": "近期研究表明，午后短暂小睡能提高学生的记忆力。",
+          "source": "仿真例句 · 高考阅读科普类高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["indicate that", "the results indicate", "indicate a trend", "the figures indicate"]
+      },
+      {
+        "sense_id": "s_indicate_v_point",
+        "text": "指示、指出（方向或位置）",
+        "sense_level": "S2",
+        "error_mech": ["E1"],
+        "is_trap": true,
+        "trap_of": ["表明、显示（得出结论）"],
+        "example": {
+          "en": "A wooden sign at the corner indicated the path leading to the old temple.",
+          "zh": "拐角处的一块木牌指示着通往古寺的小路。",
+          "source": "仿真例句 · 高考阅读旅行类高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["indicate the way", "indicate the direction", "indicate a turn", "indicate clearly"]
+      },
+      {
+        "sense_id": "s_indicate_v_symbolize",
+        "text": "象征、意味着（某种符号所代表的）",
+        "sense_level": "S3",
+        "error_mech": ["E1"],
+        "is_trap": true,
+        "trap_of": ["表明、显示"],
+        "example": {
+          "en": "In many cultures, the colour red indicates courage as well as celebration.",
+          "zh": "在许多文化中，红色既象征勇气，也象征喜庆。",
+          "source": "仿真例句 · 高考阅读文化类高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["indicate the presence of", "indicate a quality", "indicate the coming of"]
+      }
+    ],
+    "confusable": ["show", "imply", "signal"],
+    "word_family": ["indicate", "indication", "indicative", "indicator"],
+    "notes": "考场判断法：① 主语是研究、报告、数据、迹象（studies, results, data, signs）时，indicate that 加从句＝「表明」，后面通常跟结论；② 主语是指路牌、箭头、老师的手势 → 「指示、指出方向」；③ 主语是颜色、符号、手势这类象征物 → 「象征、意味着」；④ 语法填空的固定考法是 indicate that 加从句，别漏掉 that。",
+    "quiz_ids": []
+  },
+  {
+    "id": "w_occupy",
+    "headword": "occupy",
+    "ipa": "/ˈɒkjupaɪ/",
+    "level": "T1",
+    "pos": ["v"],
+    "strategies": ["P2", "P4", "P8"],
+    "carriers": ["C1", "C2", "C4"],
+    "senses": [
+      {
+        "sense_id": "s_occupy_v_space",
+        "text": "占据（空间、位置、席位）",
+        "sense_level": "S1",
+        "error_mech": ["E2"],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "A large oil painting occupied the whole wall above the fireplace in the hall.",
+          "zh": "大厅壁炉上方的整面墙被一幅大型油画占据。",
+          "source": "仿真例句 · 高考阅读描述类高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["occupy a seat", "occupy space", "occupy a place in", "occupy the front row"]
+      },
+      {
+        "sense_id": "s_occupy_v_time",
+        "text": "占用（时间、精力、资源）",
+        "sense_level": "S2",
+        "error_mech": ["E2"],
+        "is_trap": true,
+        "trap_of": ["占据（空间、位置）"],
+        "example": {
+          "en": "Preparing for the final exam occupied most of her free time this term.",
+          "zh": "准备期末考试占据了她这学期大部分空闲时间。",
+          "source": "仿真例句 · 高考校园话题高频句式",
+          "carrier": "C4"
+        },
+        "collocations": ["occupy most of the time", "occupy my attention", "occupy the resources", "fully occupy"]
+      },
+      {
+        "sense_id": "s_occupy_v_busy",
+        "text": "忙于、使…忙碌（无暇分身）",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E4"],
+        "is_trap": true,
+        "trap_of": ["占据（空间、座位）"],
+        "example": {
+          "en": "She was occupied with preparing a short speech for the school festival next week.",
+          "zh": "她正忙着准备下周校庆会上的简短演讲。",
+          "source": "仿真例句 · 高考完形填空高频句式",
+          "carrier": "C2"
+        },
+        "collocations": ["be occupied with sth", "be occupied in doing", "be fully occupied", "keep sb occupied"]
+      },
+      {
+        "sense_id": "s_occupy_v_capture",
+        "text": "占领（城市、领土）",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E10"],
+        "is_trap": true,
+        "trap_of": ["占据（空间、抽象位置）"],
+        "example": {
+          "en": "The enemy occupied the coastal town for nearly a month before withdrawing.",
+          "zh": "敌军占领了这座海滨城镇近一个月后才撤退。",
+          "source": "仿真例句 · 高考阅读历史类高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["occupy the town", "be occupied by troops", "occupy the country", "military occupation"]
+      }
+    ],
+    "confusable": ["employ", "engage", "seize", "conquer"],
+    "word_family": ["occupy", "occupied", "occupancy", "occupant"],
+    "notes": "考场判断法：① 宾语是 room / seat / space → 「占据」；宾语是 time / energy / attention → 「占用」；② 看到 be occupied with / be occupied in，记成「忙于」而不是「被占满」，这是完形填空最常考的熟词僻义；③ 宾语是城市、领土、国家 → 「占领」；④ occupied 作形容词时看后面跟 with 还是跟地点，才知道是「忙于」还是「被占用」。",
+    "quiz_ids": []
+  },
+  {
+    "id": "w_phase",
+    "headword": "phase",
+    "ipa": "/feɪz/",
+    "level": "T1",
+    "pos": ["n", "v"],
+    "strategies": ["P2", "P4", "P8"],
+    "carriers": ["C1", "C3", "C4"],
+    "senses": [
+      {
+        "sense_id": "s_phase_n_stage",
+        "text": "阶段、时期（事物发展的一个段落）",
+        "sense_level": "S1",
+        "error_mech": ["E2"],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "The project passed through three difficult phases before the final product appeared.",
+          "zh": "这个项目在最终成品问世前经历了三个艰难阶段。",
+          "source": "仿真例句 · 高考说明文项目类高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["a phase of", "in this phase", "the final phase", "a new phase"]
+      },
+      {
+        "sense_id": "s_phase_n_signal",
+        "text": "相位（波形、信号、电波的位相）",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E10"],
+        "is_trap": true,
+        "trap_of": ["阶段、时期"],
+        "example": {
+          "en": "Two sound waves with the same frequency but different phase behave quite differently.",
+          "zh": "频率相同但相位不同的两列声波表现相当不同。",
+          "source": "仿真例句 · 高考阅读科普类高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["the phase of the wave", "in phase", "out of phase", "phase difference"]
+      },
+      {
+        "sense_id": "s_phase_v_step",
+        "text": "分阶段进行、逐步推进",
+        "sense_level": "S4",
+        "error_mech": ["E4"],
+        "is_trap": true,
+        "trap_of": ["阶段（名词义）"],
+        "example": {
+          "en": "The cleanup of the river will be carried out in phases to reduce traffic trouble.",
+          "zh": "河道清理将分阶段进行，以减少交通干扰。",
+          "source": "仿真例句 · 高考应用文写作可复用",
+          "carrier": "C4"
+        },
+        "collocations": ["in phases", "phase by phase", "be carried out in phases", "in three phases"]
+      },
+      {
+        "sense_id": "s_phase_v_phase_out",
+        "text": "逐步淘汰、逐步停用",
+        "sense_level": "S4",
+        "error_mech": ["E4"],
+        "is_trap": true,
+        "trap_of": ["阶段（名词义）"],
+        "example": {
+          "en": "The city plans to phase out the oldest diesel buses within three years.",
+          "zh": "该市计划在三年内逐步淘汰最老旧的柴油公交车。",
+          "source": "仿真例句 · 高考环保话题高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["phase out", "phase in", "be phased out", "phase out gradually"]
+      }
+    ],
+    "confusable": ["phrase", "faze", "face"],
+    "word_family": ["phase", "phased", "phasing"],
+    "notes": "考场判断法：① 看到 in phases / phase by phase，固定读成「逐步、分阶段地」，整块背下来；② phase out 是「逐步淘汰」，别拆成「淘汰一个阶段」；③ 只有语境里出现 wave / signal / current 这些物理词，才可能读成「相位」；④ 其余一律是「阶段、时期」，搭配记 a phase of 和 in this phase。",
+    "quiz_ids": []
+  },
+  {
+    "id": "w_prove",
+    "headword": "prove",
+    "ipa": "/pru:v/",
+    "level": "T1",
+    "pos": ["v"],
+    "strategies": ["P2", "P4", "P6", "P8"],
+    "carriers": ["C1", "C3", "C4"],
+    "senses": [
+      {
+        "sense_id": "s_prove_v_confirm",
+        "text": "证明、证实（用证据说明命题成立）",
+        "sense_level": "S1",
+        "error_mech": ["E2"],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "Careful research is needed to prove that a new method actually works in class.",
+          "zh": "要证明一种新方法在课堂上确实有效，需要严谨的研究。",
+          "source": "仿真例句 · 高考阅读科普类高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["prove that", "prove the theory", "prove a claim", "prove to be true"]
+      },
+      {
+        "sense_id": "s_prove_v_manifest",
+        "text": "展现、显出（某种品质或实力）",
+        "sense_level": "S2",
+        "error_mech": ["E2", "E8"],
+        "is_trap": true,
+        "trap_of": ["证明、证实（需要证据的语境）"],
+        "example": {
+          "en": "The young athlete proved her courage by finishing the race despite the injury.",
+          "zh": "这位年轻运动员不顾伤病跑完全程，展现了勇气。",
+          "source": "仿真例句 · 高考阅读人物类高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["prove one's worth", "prove oneself", "prove his ability", "prove true"]
+      },
+      {
+        "sense_id": "s_prove_v_turn_out",
+        "text": "结果证明是、原来是",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E5"],
+        "is_trap": true,
+        "trap_of": ["证明、证实（拿证据去验证的读法）"],
+        "example": {
+          "en": "What looked like a serious problem proved to be only a temporary setback.",
+          "zh": "看似严重的问题结果证明只是一次暂时的挫折。",
+          "source": "仿真例句 · 高考语法填空高频句式",
+          "carrier": "C3"
+        },
+        "collocations": ["prove to be", "prove difficult", "prove useful", "prove to be true"]
+      }
+    ],
+    "confusable": ["improve", "approve", "proof"],
+    "word_family": ["prove", "proven", "proved", "proof"],
+    "notes": "考场判断法：① 先看宾语是不是「命题、说法、理论」——是则是「证明、证实」；② 宾语是人或品质（courage、ability、oneself）→ 「展现、显出」；③ 后面是 to be 加名词或形容词，或者 prove 加形容词（prove difficult / prove useful），结果是「结果是…、原来是…」，不必真有证据；④ 语法填空里 prove to be 是不加 to 不加 be 的高频结构，只写 prove 拿不到分。",
+    "quiz_ids": []
+  },
+  {
+    "id": "w_range",
+    "headword": "range",
+    "ipa": "/reɪndʒ/",
+    "level": "T1",
+    "pos": ["n", "v"],
+    "strategies": ["P2", "P3", "P4", "P8"],
+    "carriers": ["C1", "C2", "C4"],
+    "senses": [
+      {
+        "sense_id": "s_range_n_scope",
+        "text": "范围、幅度（数值或程度的上下限）",
+        "sense_level": "S1",
+        "error_mech": ["E4"],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "The range of topics in the writing exam becomes wider every few years.",
+          "zh": "写作考试的出题范围每隔几年就会变得更宽。",
+          "source": "仿真例句 · 高考说明文高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["a wide range of", "the range of", "age range", "price range"]
+      },
+      {
+        "sense_id": "s_range_n_variety",
+        "text": "（各种各样的）一类事物、一系列",
+        "sense_level": "S2",
+        "error_mech": ["E2"],
+        "is_trap": true,
+        "trap_of": ["范围、幅度（抽象区间）"],
+        "example": {
+          "en": "The shop offers a range of books on traditional Chinese culture and history.",
+          "zh": "这家店有各类关于中国传统文化与历史的书。",
+          "source": "仿真例句 · 高考应用文高频句式",
+          "carrier": "C4"
+        },
+        "collocations": ["a range of books", "a wide range of products", "a range of options", "a full range of"]
+      },
+      {
+        "sense_id": "s_range_v_span",
+        "text": "遍及、涵盖（从一个到另一个）",
+        "sense_level": "S3",
+        "error_mech": ["E4"],
+        "is_trap": true,
+        "trap_of": ["范围（名词义）"],
+        "example": {
+          "en": "The age of the volunteers ranges from teenagers to retirees in the city.",
+          "zh": "这些志愿者的年龄从青少年到退休人士都有。",
+          "source": "仿真例句 · 高考阅读数据说明类高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["range from A to B", "range widely", "range over", "prices range"]
+      },
+      {
+        "sense_id": "s_range_n_mountain",
+        "text": "山脉（连绵成片的一列山）",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E10"],
+        "is_trap": true,
+        "trap_of": ["范围、幅度"],
+        "example": {
+          "en": "The mountain range runs across the border between the two neighbouring countries.",
+          "zh": "这条山脉横跨两个相邻国家的边界。",
+          "source": "仿真例句 · 高考阅读地理类话题高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["a mountain range", "the Himalayan range", "a range of hills"]
+      }
+    ],
+    "confusable": ["rank", "arrange", "array"],
+    "word_family": ["range", "ranger", "arrange", "arrangement"],
+    "notes": "考场判断法：① a range of 后面接复数名词 → 是「各种各样的、一系列」；② 出现 from A to B 或 over a period of years → 是动词「遍及、涵盖」；③ 语境里出现 mountain / peak / plateau / valley → 山脉义；④ 谈价格、年龄、分数的上下限时才是「范围、幅度」，固定搭配是 a wide range of 和 the range of。",
+    "quiz_ids": []
+  },
+  {
+    "id": "w_nerve",
+    "headword": "nerve",
+    "ipa": "/nɜ:v/",
+    "level": "T1",
+    "pos": ["n", "v"],
+    "strategies": ["P2", "P4", "P8"],
+    "carriers": ["C1", "C2", "C5"],
+    "senses": [
+      {
+        "sense_id": "s_nerve_n_fibre",
+        "text": "神经（人体内的传导组织）",
+        "sense_level": "S1",
+        "error_mech": ["E10"],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "The message from the brain travels along the nerves to the muscles within a second.",
+          "zh": "来自大脑的信息在一秒内沿神经传到肌肉。",
+          "source": "仿真例句 · 高考科普说明文高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["nerve cells", "nerve endings", "nerve damage", "a damaged nerve"]
+      },
+      {
+        "sense_id": "s_nerve_n_courage",
+        "text": "勇气、胆量（敢做某事）",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E4"],
+        "is_trap": true,
+        "trap_of": ["神经"],
+        "example": {
+          "en": "It takes real nerve to speak up when the whole class is watching.",
+          "zh": "全班都在看着的时候敢开口，需要真正的勇气。",
+          "source": "仿真例句 · 高考完形填空高频句式",
+          "carrier": "C2"
+        },
+        "collocations": ["have the nerve to do", "lose one's nerve", "pluck up the nerve", "the nerve to try"]
+      },
+      {
+        "sense_id": "s_nerve_v_irritate",
+        "text": "使…恼火、刺激（让人烦躁）",
+        "sense_level": "S4",
+        "error_mech": ["E4"],
+        "is_trap": true,
+        "trap_of": ["神经（字面义）"],
+        "example": {
+          "en": "The constant noise from the road gets on my nerves every evening.",
+          "zh": "马路上的持续噪音每天晚上都让我心烦。",
+          "source": "仿真例句 · 高考阅读生活类高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["get on sb's nerves", "on one's nerves", "get on the nerves of sb"]
+      },
+      {
+        "sense_id": "s_nerve_v_embolden",
+        "text": "使鼓起勇气、给…壮胆",
+        "sense_level": "S4",
+        "error_mech": ["E4"],
+        "is_trap": true,
+        "trap_of": ["神经（字面义）", "勇气（名词义）"],
+        "example": {
+          "en": "The applause of her friends nerved her to speak to the class again.",
+          "zh": "朋友们的掌声给了她勇气，让她再次在全班面前发言。",
+          "source": "仿真例句 · 高考读后续写高频句式",
+          "carrier": "C5"
+        },
+        "collocations": ["nerve sb to do", "nerve sb to try", "nerve sb to speak"]
+      }
+    ],
+    "confusable": ["nervous", "nurture", "sneak"],
+    "word_family": ["nerve", "nervous", "nervously", "nerveless"],
+    "notes": "考场判断法：① 语境里出现 body / brain / muscle / pain / damaged → 神经义；② 出现 have the nerve to do、lose one's nerve、pluck up one's nerve → 勇气义，一律搭配 one's nerve 或 to do；③ get on sb's nerves 是「让某人烦躁」，不是「神经上的」；④ nerve 单数多指神经或勇气，nerves 复数多指情绪上的紧张。",
+    "quiz_ids": []
+  },
+  {
+    "id": "w_address",
+    "headword": "address",
+    "ipa": "/əˈdres/",
+    "level": "T1",
+    "pos": ["v", "n"],
+    "strategies": ["P2", "P3", "P4", "P8"],
+    "carriers": ["C1", "C2", "C4"],
+    "senses": [
+      {
+        "sense_id": "s_address_v_handle",
+        "text": "处理、解决（问题、差距、隐患）",
+        "sense_level": "S2",
+        "error_mech": ["E1"],
+        "is_trap": true,
+        "trap_of": ["演讲、致辞", "地址"],
+        "example": {
+          "en": "The new policy was introduced to address the widening gap between rich and poor.",
+          "zh": "新政策的出台是为了应对贫富之间日益扩大的差距。",
+          "source": "仿真例句 · 高考阅读议论文高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["address a problem", "address the issue", "address a concern", "address the challenge"]
+      },
+      {
+        "sense_id": "s_address_v_speech",
+        "text": "向…发表演说；向…讲话",
+        "sense_level": "S2",
+        "error_mech": ["E1", "E2"],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "She addressed the teachers' conference that afternoon on the importance of early education.",
+          "zh": "那天下午她在教师大会上就早期教育的重要性发表了演说。",
+          "source": "仿真例句 · 高考写作与演讲类话题高频句式",
+          "carrier": "C4"
+        },
+        "collocations": ["address an audience", "address a meeting", "address the conference", "deliver an address"]
+      },
+      {
+        "sense_id": "s_address_v_title",
+        "text": "称呼、称谓（叫作某称呼）",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E2"],
+        "is_trap": true,
+        "trap_of": ["演讲（addressed the audience）", "地址"],
+        "example": {
+          "en": "How do you address a colleague from another country you have just met?",
+          "zh": "你该怎么称呼一位刚认识的外国同事？",
+          "source": "仿真例句 · 高考交际与礼仪类话题高频句式",
+          "carrier": "C4"
+        },
+        "collocations": ["address sb as", "the form of address", "address sb by name"]
+      },
+      {
+        "sense_id": "s_address_n_speech",
+        "text": "演讲、致辞（发表的演说）",
+        "sense_level": "S3",
+        "error_mech": ["E1"],
+        "is_trap": true,
+        "trap_of": ["地址"],
+        "example": {
+          "en": "He delivered a moving address to the graduates at the end of the ceremony.",
+          "zh": "典礼结束时，他向毕业生们发表了一场动人的致辞。",
+          "source": "仿真例句 · 高考阅读校园类话题高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["deliver an address", "give an address", "a closing address", "the opening address"]
+      },
+      {
+        "sense_id": "s_address_n_location",
+        "text": "地址；门牌号；收件地址",
+        "sense_level": "S1",
+        "error_mech": ["E2"],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "Please leave your address and phone number on the form before you leave.",
+          "zh": "离开前请在表格上填好你的地址和电话号码。",
+          "source": "仿真例句 · 高考日常应用文高频句式",
+          "carrier": "C4"
+        },
+        "collocations": ["home address", "email address", "change of address", "return address"]
+      }
+    ],
+    "confusable": ["addressee", "assess", "addresses"],
+    "word_family": ["address", "addressee", "addressable"],
+    "notes": "考场判断法：① 动词后面接 issue / problem / concern / gap / challenge 这类「问题类」名词 → 必是「处理、解决」义；② 接 audience / conference / meeting 这类「人、场合」→ 才是「演讲」义；③ 出现 deliver an address 或 address sb as → 分别是「致辞」与「称呼」；④ 整句是「请留下地址」这类行政语境 → 名词「地址」义。写作里表达「解决问题」优先用 address the problem，这是高考官方搭配，不要用 solve、handle 去顶替。",
+    "quiz_ids": []
+  },
+  {
+    "id": "w_bear",
+    "headword": "bear",
+    "ipa": "/beə/",
+    "level": "T1",
+    "pos": ["v", "n"],
+    "strategies": ["P2", "P4", "P8"],
+    "carriers": ["C1", "C4", "C5"],
+    "senses": [
+      {
+        "sense_id": "s_bear_v_endure",
+        "text": "承受、忍受（痛苦、压力、后果）",
+        "sense_level": "S2",
+        "error_mech": ["E1"],
+        "is_trap": true,
+        "trap_of": ["熊"],
+        "example": {
+          "en": "She bore the pain of the serious injury without ever complaining to anyone.",
+          "zh": "她默默忍受着严重伤痛的折磨，从未向任何人抱怨。",
+          "source": "仿真例句 · 高考阅读人物类高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["bear the pain", "bear the consequences", "bear the pressure", "bear with me"]
+      },
+      {
+        "sense_id": "s_bear_v_responsible",
+        "text": "承担（责任、义务）",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E2"],
+        "is_trap": true,
+        "trap_of": ["忍受（生理与心理上的痛苦）"],
+        "example": {
+          "en": "Every citizen should bear part of the responsibility for protecting the environment.",
+          "zh": "每位公民都应承担保护环境的部分责任。",
+          "source": "仿真例句 · 高考议论文写作高频句式",
+          "carrier": "C4"
+        },
+        "collocations": ["bear the responsibility", "bear responsibility for", "bear the duty", "bear part of the cost"]
+      },
+      {
+        "sense_id": "s_bear_v_remember",
+        "text": "牢记、把…记在心里",
+        "sense_level": "S4",
+        "error_mech": ["E4"],
+        "is_trap": true,
+        "trap_of": ["承受、忍受（bear the pain）"],
+        "example": {
+          "en": "Parents should bear in mind that the early years shape a child's love of learning.",
+          "zh": "父母应牢记，幼年时光会影响孩子对学习的热爱。",
+          "source": "仿真例句 · 高考应用文写作可复用",
+          "carrier": "C4"
+        },
+        "collocations": ["bear in mind", "bear in mind that", "bear it in mind"]
+      },
+      {
+        "sense_id": "s_bear_v_give_birth",
+        "text": "生育、产下（孩子）",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E5"],
+        "is_trap": true,
+        "trap_of": ["熊", "承受、携带（bear a heavy bag）"],
+        "example": {
+          "en": "The young couple are expecting their first child and will bear a daughter next spring.",
+          "zh": "这对年轻夫妇正期待第一个孩子的到来，明年春天将迎来一个女儿。",
+          "source": "仿真例句 · 高考读后续写高频句式",
+          "carrier": "C5"
+        },
+        "collocations": ["bear a child", "bear a son", "bear children", "give birth to"]
+      },
+      {
+        "sense_id": "s_bear_n_animal",
+        "text": "熊（一种大型哺乳动物）",
+        "sense_level": "S1",
+        "error_mech": ["E2"],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "Brown bears spend the winter sleeping in quiet caves in the north.",
+          "zh": "棕熊在北方的安静洞穴里过冬。",
+          "source": "仿真例句 · 高考科普说明文高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["polar bear", "bear habitat", "grizzly bear", "bear population"]
+      }
+    ],
+    "confusable": ["bare", "beard", "beer", "pear"],
+    "word_family": ["bear", "bore", "borne", "bearing"],
+    "notes": "考场判断法：① 看到 bear in mind 就是「牢记」，后面常跟 that 从句，不是「忍受」；② 宾语是 responsibility / duty / burden → 「承担」义，是作文高频；宾语是 pain / pressure / consequences → 「承受」义；③ 宾语是 a child / a son → 「生育」义；④ 三态 bear–bore–borne 必须记牢，bore 在「生育、产下」义里还会作为过去式出现。",
+    "quiz_ids": []
+  },
+  {
+    "id": "w_cover",
+    "headword": "cover",
+    "ipa": "/ˈkʌvə/",
+    "level": "T1",
+    "pos": ["n", "v"],
+    "strategies": ["P2", "P3", "P4", "P8"],
+    "carriers": ["C1", "C3", "C4"],
+    "senses": [
+      {
+        "sense_id": "s_cover_v_include",
+        "text": "涵盖、包括（含…内容）",
+        "sense_level": "S1",
+        "error_mech": ["E2"],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "The nationwide survey covers students from all three grades in the school.",
+          "zh": "这项全国性调查涵盖了这所学校三个年级的全部学生。",
+          "source": "仿真例句 · 高考说明文高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["cover a wide range of", "cover all aspects", "cover the whole population", "cover the topic"]
+      },
+      {
+        "sense_id": "s_cover_v_report",
+        "text": "报道、采访（新闻、赛事）",
+        "sense_level": "S2",
+        "error_mech": ["E1"],
+        "is_trap": true,
+        "trap_of": ["覆盖、遮盖"],
+        "example": {
+          "en": "Journalists from several countries covered the climate summit in great detail for weeks.",
+          "zh": "来自几个国家的记者详细报道了这次气候峰会。",
+          "source": "仿真例句 · 高考新闻传媒类话题高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["cover the summit", "cover the story", "be widely covered", "cover the event"]
+      },
+      {
+        "sense_id": "s_cover_v_pay",
+        "text": "支付、承担（费用）",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E4"],
+        "is_trap": true,
+        "trap_of": ["覆盖、遮盖"],
+        "example": {
+          "en": "The scholarship covers tuition fees but not the living expenses of students.",
+          "zh": "该奖学金涵盖学费，但不包括学生的生活费。",
+          "source": "仿真例句 · 高考校园与经济话题高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["cover the cost", "cover expenses", "be covered by insurance", "cover the fee"]
+      },
+      {
+        "sense_id": "s_cover_v_shield",
+        "text": "覆盖、遮盖（盖住表面）",
+        "sense_level": "S2",
+        "error_mech": ["E2"],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "Deep snow covered the whole mountain overnight, and the narrow path disappeared.",
+          "zh": "一夜大雪覆盖了整座山，小路也消失了。",
+          "source": "仿真例句 · 高考阅读写景类高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["be covered with", "cover up", "cover your mouth", "be covered in snow"]
+      },
+      {
+        "sense_id": "s_cover_n_front",
+        "text": "封面、封底（书刊杂志的一页）",
+        "sense_level": "S3",
+        "error_mech": ["E1"],
+        "is_trap": true,
+        "trap_of": ["覆盖、遮盖"],
+        "example": {
+          "en": "Her photograph appeared on the front cover of a well-known travel magazine.",
+          "zh": "她的照片出现在一本畅销旅游杂志的封面上。",
+          "source": "仿真例句 · 高考阅读传媒类话题高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["on the cover of", "the front cover", "a magazine cover", "cover story"]
+      }
+    ],
+    "confusable": ["discover", "covert", "hover", "recover"],
+    "word_family": ["cover", "discover", "recovery", "uncover"],
+    "notes": "考场判断法：① 主语是人（journalists、reporters、the newspaper）且宾语是会议、赛事、事件 → 「报道」；② 宾语是 money / costs / fees / expenses → 「支付、承担费用」；③ 宾语是 topics / aspects / students / a wide range of → 「涵盖」；④ 看到 the cover of a magazine → 名词「封面」；另有固定词块 cover for sb＝「顶替」，别当成「覆盖某人」。",
+    "quiz_ids": []
+  },
+  {
+    "id": "w_interest",
+    "headword": "interest",
+    "ipa": "/ˈɪntrəst/",
+    "level": "T1",
+    "pos": ["n", "v", "adj"],
+    "strategies": ["P2", "P4", "P6", "P8"],
+    "carriers": ["C1", "C2", "C4"],
+    "senses": [
+      {
+        "sense_id": "s_interest_n_curiosity",
+        "text": "兴趣、爱好（对某事的喜爱）",
+        "sense_level": "S1",
+        "error_mech": ["E2"],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "She has a strong interest in traditional Chinese painting as well as calligraphy.",
+          "zh": "她对中国传统绘画和书法有浓厚的兴趣。",
+          "source": "仿真例句 · 高考应用文写作高频句式",
+          "carrier": "C4"
+        },
+        "collocations": ["have an interest in", "show interest in", "a wide range of interests", "with great interest"]
+      },
+      {
+        "sense_id": "s_interest_n_interest_rate",
+        "text": "利息（借钱或存款所付的钱）",
+        "sense_level": "S2",
+        "error_mech": ["E1", "E4"],
+        "is_trap": true,
+        "trap_of": ["兴趣、爱好"],
+        "example": {
+          "en": "With interest rates rising, many families are rethinking their long-term savings plans.",
+          "zh": "随着利率上升，许多家庭正在重新考虑储蓄计划。",
+          "source": "仿真例句 · 高考经济类说明文高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["interest rate", "compound interest", "pay interest", "high interest"]
+      },
+      {
+        "sense_id": "s_interest_n_benefit",
+        "text": "利益、好处（多为复数）",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E2"],
+        "is_trap": true,
+        "trap_of": ["兴趣、爱好"],
+        "example": {
+          "en": "The decision was made in the interest of safety rather than profit.",
+          "zh": "这个决定是出于安全而非盈利的考虑。",
+          "source": "仿真例句 · 高考议论文高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["in the interest of", "conflicting interests", "a vested interest", "serve the interests of"]
+      },
+      {
+        "sense_id": "s_interest_v_arouse",
+        "text": "使感兴趣、引起关注",
+        "sense_level": "S2",
+        "error_mech": ["E1", "E2"],
+        "is_trap": true,
+        "trap_of": ["对…感兴趣（be interested in）"],
+        "example": {
+          "en": "The story of an ordinary farmer is sure to interest students of literature.",
+          "zh": "一个普通农民的故事一定会引起文学专业学生的兴趣。",
+          "source": "仿真例句 · 高考完形填空高频句式",
+          "carrier": "C2"
+        },
+        "collocations": ["interest sb in sth", "interest sb with sth", "interest the readers"]
+      },
+      {
+        "sense_id": "s_interest_adj_interested",
+        "text": "有关系的、利害相关的（利益方）",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E5"],
+        "is_trap": true,
+        "trap_of": ["感兴趣的（be interested in）"],
+        "example": {
+          "en": "All interested parties, including local residents and traders, were invited to comment.",
+          "zh": "所有利益相关方，包括当地居民和商家，都受邀提出意见。",
+          "source": "仿真例句 · 高考阅读公民参与类话题高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["an interested party", "interested parties", "the interested reader"]
+      }
+    ],
+    "confusable": ["interfere", "interact", "interior", "entertain"],
+    "word_family": ["interest", "interested", "interesting", "interestingly", "disinterested"],
+    "notes": "考场判断法：① 句中出现 rate / rates / loan / bank / deposit → 直接锁定「利息」；② 出现复数 interests 或 in the interest of → 「利益、权益」；③ interested 作形容词时，只有 be interested in、be interested to do 才是「对…感兴趣」，an interested party 是「利益相关方」；④ 动词 interest 后面直接跟人、不接 in，就是「引起…的兴趣」。",
+    "quiz_ids": []
+  },
+  {
+    "id": "w_mean",
+    "headword": "mean",
+    "ipa": "/miːn/",
+    "level": "T1",
+    "pos": ["v", "n", "adj"],
+    "strategies": ["P2", "P3", "P6", "P8"],
+    "carriers": ["C1", "C2", "C4", "C5"],
+    "senses": [
+      {
+        "sense_id": "s_mean_v_imply",
+        "text": "意味着、表示（某符号或事实所代表的）",
+        "sense_level": "S1",
+        "error_mech": ["E2"],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "The new sign means that visitors must register before entering the hall.",
+          "zh": "这个新标志表示访客进入大厅前必须登记。",
+          "source": "仿真例句 · 高考日常交际高频句式",
+          "carrier": "C4"
+        },
+        "collocations": ["mean to do", "what does it mean", "mean much to sb", "it means that"]
+      },
+      {
+        "sense_id": "s_mean_v_intend",
+        "text": "打算、有意（想做某事）",
+        "sense_level": "S2",
+        "error_mech": ["E5", "E1"],
+        "is_trap": true,
+        "trap_of": ["意味着、表示"],
+        "example": {
+          "en": "She meant to call you earlier, but the meeting ran much longer than expected.",
+          "zh": "她本来想早点给你打电话的，但会开得比预想的长。",
+          "source": "仿真例句 · 高考完形填空高频句式",
+          "carrier": "C2"
+        },
+        "collocations": ["mean to do sth", "mean to say", "I mean to", "mean to call"]
+      },
+      {
+        "sense_id": "s_mean_n_average",
+        "text": "平均数、平均值（统计量）",
+        "sense_level": "S3",
+        "error_mech": ["E2", "E5"],
+        "is_trap": true,
+        "trap_of": ["意味着（动词义）", "平均的（形容词义）"],
+        "example": {
+          "en": "The mean score of the group was higher than that of the control group.",
+          "zh": "该组的平均分高于对照组的平均分。",
+          "source": "仿真例句 · 高考阅读数据说明类高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["the mean score", "the mean age", "above the mean", "the arithmetic mean"]
+      },
+      {
+        "sense_id": "s_mean_adj_miserly",
+        "text": "吝啬的、不大方的（对钱或物品）",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E2"],
+        "is_trap": true,
+        "trap_of": ["意味着、平均数"],
+        "example": {
+          "en": "He was too mean to share his lunch with the new classmates.",
+          "zh": "他吝啬得连午饭都不愿和刚来的同学分享。",
+          "source": "仿真例句 · 高考完形填空高频句式",
+          "carrier": "C2"
+        },
+        "collocations": ["too mean to do", "mean about money", "mean with his money", "a mean spirit"]
+      },
+      {
+        "sense_id": "s_mean_adj_base",
+        "text": "卑劣的、恶毒的（品行或手段）",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E8"],
+        "is_trap": true,
+        "trap_of": ["吝啬的"],
+        "example": {
+          "en": "It was a mean trick to tell her the meeting had been cancelled.",
+          "zh": "谎称会议已取消，是个卑劣的把戏。",
+          "source": "仿真例句 · 高考读后续写高频句式",
+          "carrier": "C5"
+        },
+        "collocations": ["a mean trick", "a mean person", "mean spirit", "mean and unfair"]
+      }
+    ],
+    "confusable": ["meaning", "meanwhile", "meaningless", "mien"],
+    "word_family": ["mean", "meaning", "meaningful", "meaningless", "meanwhile"],
+    "notes": "考场判断法：① 后面跟 to do（mean to do）→ 「打算」，mean to say 同理；② 出现在句末作结论（That means... / It means a lot to me）→ 「意味着」；③ 前面有 the，后面跟 score / age / price → 是名词「平均数」；④ 后面跟 money，或构成 too mean to do → 形容词「吝啬的」；⑤ mean 是同形三义词（动词、名词、形容词），语法填空先定词性再定义项：mean value、mean temperature 是形容词「平均的」，the mean 是名词「平均数」。",
+    "quiz_ids": []
+  },
+  {
+    "id": "w_mind",
+    "headword": "mind",
+    "ipa": "/maɪnd/",
+    "level": "T1",
+    "pos": ["n", "v"],
+    "strategies": ["P2", "P4", "P8"],
+    "carriers": ["C1", "C2", "C4"],
+    "senses": [
+      {
+        "sense_id": "s_mind_n_brain",
+        "text": "头脑、心智（思考与记忆的器官）",
+        "sense_level": "S1",
+        "error_mech": ["E2"],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "A calm mind helps a person make better decisions under heavy pressure.",
+          "zh": "平静的心智能帮助人在重压之下做出更好的决定。",
+          "source": "仿真例句 · 高考阅读心理类高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["the human mind", "a calm mind", "mind and body", "an open mind"]
+      },
+      {
+        "sense_id": "s_mind_v_object",
+        "text": "介意、不赞同（问对方是否在意）",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E4"],
+        "is_trap": true,
+        "trap_of": ["头脑、心智（名词义）"],
+        "example": {
+          "en": "Would you mind opening the window? The room feels rather stuffy now.",
+          "zh": "你介意开一下窗吗？房间有点闷。",
+          "source": "仿真例句 · 高考应用文写作高频句式",
+          "carrier": "C4"
+        },
+        "collocations": ["Do you mind", "Would you mind doing", "mind if I do", "I don't mind"]
+      },
+      {
+        "sense_id": "s_mind_n_thought",
+        "text": "想法、见解（心里的主意）",
+        "sense_level": "S2",
+        "error_mech": ["E2"],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "He changed his mind after hearing the reasons of the other side.",
+          "zh": "听了对方的理由之后，他改变了主意。",
+          "source": "仿真例句 · 高考阅读议论文高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["change one's mind", "put one's mind to", "in one's mind", "a mind of one's own"]
+      },
+      {
+        "sense_id": "s_mind_v_watch_out",
+        "text": "当心、留心（注意脚下等）",
+        "sense_level": "S4",
+        "error_mech": ["E4"],
+        "is_trap": true,
+        "trap_of": ["介意（动词义）"],
+        "example": {
+          "en": "Mind your step when you get off the crowded bus at the stop.",
+          "zh": "在车站下拥挤的公交车时当心脚下。",
+          "source": "仿真例句 · 高考日常交际高频句式",
+          "carrier": "C4"
+        },
+        "collocations": ["mind your head", "mind your step", "mind how you go", "mind your manners"]
+      },
+      {
+        "sense_id": "s_mind_v_keep_in_mind",
+        "text": "把…记在心上（牢记）",
+        "sense_level": "S4",
+        "error_mech": ["E4"],
+        "is_trap": true,
+        "trap_of": ["介意（Do you mind）"],
+        "example": {
+          "en": "Do keep in mind that small daily habits decide your progress in the long run.",
+          "zh": "请记住，每天的小习惯决定着你长远的进步。",
+          "source": "仿真例句 · 高考应用文写作可复用",
+          "carrier": "C4"
+        },
+        "collocations": ["keep in mind", "keep it in mind", "keep sth in mind when doing"]
+      }
+    ],
+    "confusable": ["mindful", "remind", "mine", "mend"],
+    "word_family": ["mind", "mindful", "remind", "reminder"],
+    "notes": "考场判断法：① 看到 Do you mind / Would you mind doing 必是「介意」，后面若接 if 从句，从句要用陈述语序（Do you mind if I open the window?）；② keep sth in mind 与 bear in mind 同义，是「记在心上」，不是「介意」；③ mind your head / mind your step 是「当心」；④ 名词 mind 后接 change（change your mind）、put（put your mind to）时是「想法、心思」。mind doing 与 mind to do 的介词选择是应用文高频错点。",
+    "quiz_ids": []
+  },
+  {
+    "id": "w_nature",
+    "headword": "nature",
+    "ipa": "/ˈneɪtʃə/",
+    "level": "T1",
+    "pos": ["n", "adv"],
+    "strategies": ["P2", "P4", "P8"],
+    "carriers": ["C1", "C2", "C4"],
+    "senses": [
+      {
+        "sense_id": "s_nature_n_natural",
+        "text": "自然、大自然（自然界及其景观）",
+        "sense_level": "S1",
+        "error_mech": ["E10"],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "Many young people dream of returning to nature after years in big cities.",
+          "zh": "许多年轻人在大城市生活多年后梦想回归自然。",
+          "source": "仿真例句 · 高考阅读环保类话题高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["nature reserve", "the natural world", "back to nature", "appreciate nature"]
+      },
+      {
+        "sense_id": "s_nature_n_disposition",
+        "text": "本性、天性（人固有的倾向）",
+        "sense_level": "S3",
+        "error_mech": ["E1"],
+        "is_trap": true,
+        "trap_of": ["自然（自然景观）"],
+        "example": {
+          "en": "It is human nature to want to be praised by the people around us.",
+          "zh": "希望得到身边人的赞美，这是人的天性。",
+          "source": "仿真例句 · 高考议论文高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["human nature", "by nature", "inborn nature", "the nature of human beings"]
+      },
+      {
+        "sense_id": "s_nature_n_character",
+        "text": "性质、特征（事物的本质）",
+        "sense_level": "S2",
+        "error_mech": ["E2"],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "The confidential nature of the report made any public discussion quite impossible.",
+          "zh": "这份报告的保密性质使得任何公开讨论都完全不可能。",
+          "source": "仿真例句 · 高考说明文高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["the nature of the problem", "the nature of the work", "of a different nature", "the exact nature of"]
+      },
+      {
+        "sense_id": "s_nature_adv_in_nature",
+        "text": "本质上、其实（in nature）",
+        "sense_level": "S4",
+        "error_mech": ["E4"],
+        "is_trap": true,
+        "trap_of": ["在大自然中（in nature 作状语）"],
+        "example": {
+          "en": "The two languages are different in form but very close in nature.",
+          "zh": "这两种语言在形式上不同，但本质十分接近。",
+          "source": "仿真例句 · 高考阅读比较类高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["in nature", "in nature a form of", "different in nature"]
+      }
+    ],
+    "confusable": ["natural", "nurture", "mature", "naive"],
+    "word_family": ["nature", "natural", "naturally", "supernatural"],
+    "notes": "考场判断法：① 主语是 human beings / children，或者 it is human nature to do → 锁定「天性、本性」；② 前面出现 the，接 the nature of the problem、the nature of the work → 是「性质、本质」；③ 出现 in nature 单独作状语（in nature a form of ...）→ 是「本质上」；④ 其余讲山川、树林、环保的才是「自然、大自然」。",
+    "quiz_ids": []
+  },
+  {
+    "id": "w_order",
+    "headword": "order",
+    "ipa": "/ˈɔːdə/",
+    "level": "T1",
+    "pos": ["n", "v"],
+    "strategies": ["P2", "P4", "P8"],
+    "carriers": ["C1", "C2", "C3", "C4"],
+    "senses": [
+      {
+        "sense_id": "s_order_n_sequence",
+        "text": "顺序、次序（事物排列的先后）",
+        "sense_level": "S1",
+        "error_mech": ["E2"],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "The books should be returned in the order in which they were borrowed.",
+          "zh": "这些书应当按借阅的先后顺序归还。",
+          "source": "仿真例句 · 高考说明文高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["in order of", "the order of", "in the right order", "a fixed order"]
+      },
+      {
+        "sense_id": "s_order_n_peace",
+        "text": "秩序、良好状态（社会或环境的常态）",
+        "sense_level": "S2",
+        "error_mech": ["E1", "E2"],
+        "is_trap": true,
+        "trap_of": ["顺序、次序"],
+        "example": {
+          "en": "Great care is taken to keep order and safety at all public events.",
+          "zh": "所有公共活动都十分注意维持秩序与安全。",
+          "source": "仿真例句 · 高考阅读社会类话题高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["keep order", "maintain order", "law and order", "restore order"]
+      },
+      {
+        "sense_id": "s_order_v_command",
+        "text": "命令、指示（让某人做某事）",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E4"],
+        "is_trap": true,
+        "trap_of": ["订购（order a ticket）", "顺序、次序"],
+        "example": {
+          "en": "The teacher ordered the students to leave the classroom at once without further question.",
+          "zh": "老师命令学生立刻离开教室，不得多问。",
+          "source": "仿真例句 · 高考完形填空高频句式",
+          "carrier": "C2"
+        },
+        "collocations": ["order sb to do", "order sb about", "give orders to sb", "obey an order"]
+      },
+      {
+        "sense_id": "s_order_v_book",
+        "text": "订购、预订（商品、机票、书）",
+        "sense_level": "S2",
+        "error_mech": ["E1"],
+        "is_trap": true,
+        "trap_of": ["命令、指示"],
+        "example": {
+          "en": "You can order the tickets online or pick them up at the office.",
+          "zh": "你可以在线订票，也可以在办公室取票。",
+          "source": "仿真例句 · 高考应用文写作高频句式",
+          "carrier": "C4"
+        },
+        "collocations": ["order a ticket", "order online", "place an order", "order a book"]
+      },
+      {
+        "sense_id": "s_order_phrase_in_order_to",
+        "text": "为了、以便（为了做某事）",
+        "sense_level": "S4",
+        "error_mech": ["E4"],
+        "is_trap": true,
+        "trap_of": ["顺序（in the order of）"],
+        "example": {
+          "en": "We set out early in order to reach the village before dark.",
+          "zh": "我们很早出发，以便在天黑前赶到村里。",
+          "source": "仿真例句 · 高考语法填空高频句式",
+          "carrier": "C3"
+        },
+        "collocations": ["in order to do sth", "in order that", "in order for sb to do"]
+      }
+    ],
+    "confusable": ["border", "ordinary", "disorder", "reorder"],
+    "word_family": ["order", "ordered", "disorder", "reorder", "orderly"],
+    "notes": "考场判断法：① 看到 in order to do，立刻锁定「为了」，别当成「按…顺序」；② 动词后面跟人并带 to do 或 about → 「命令、指示」；后面跟商品、机票、书 → 「订购」；③ 名词前有 keep / maintain / restore → 「秩序」，这是社会类文章的高频词；④ 名词接 the order of → 「顺序」。order 的名词义（命令、秩序、顺序）与动词义（命令、订购）都要分清，order sb to do 和 order a ticket 意思完全不同。",
+    "quiz_ids": []
+  }
+]

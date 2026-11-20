@@ -1,0 +1,162 @@
+[
+ {
+  "id": "q_e1_035",
+  "sense_id": "s_contrast_v_differ",
+  "word_id": "w_contrast",
+  "carrier": "C2",
+  "module": "E1_熟词僻义",
+  "difficulty": "hard",
+  "expected_accuracy": [0.2, 0.44],
+  "stem": "The river finally turned clear again, and the little town ______ with everything we had been promised, so my grandmother stood at the gate and said nothing.",
+  "stem_cn": "河水终于又变清了，小镇______我们此前听到的所有描述，祖母站在门口一言不发。",
+  "options": [
+   {"key": "A", "text": "contrasted", "correct": true, "distractor_reason": null},
+   {"key": "B", "text": "compared", "correct": false, "distractor_reason": "语义近且语境完全说得通：the town compared with what we had been promised 读起来毫无违和感，学生按 contrast＝「对比、对照」这个更熟的义项去理解时，会认为「比较一下」也够用。测「熟词僻义误判」（E1）叠加「一词多义混淆」（E2）——compare 只陈述比一比，不带落差、反差的意味。"},
+   {"key": "C", "text": "differed", "correct": false, "distractor_reason": "语义近、语感也通：differed 表达的正是「与…不同」。但固定搭配是 differ from（differ from expectations），differ with 是极少见的旧式说法，学生凭语感写 differed 属于搭配没记牢。测「固定搭配缺失」（E4）叠加「一词多义混淆」（E2）。"},
+   {"key": "D", "text": "contracted", "correct": false, "distractor_reason": "形近音近干扰：contract 与 contrast 首尾同音、字形相近，扫描时容易看错。测「形近音近误判」（E3）——错的是词形不是义项；contract with＝与…签约，后面接的却是「我们被承诺的一切」，没有签约对象，属纯形近误选。"}
+  ],
+  "explanation": "【考场动作】先圈住介词 with 和它后面的宾语 everything we had been promised（我们被承诺的一切），再回头看主语 the little town。凡是 with 后面接「预期、承诺、说法」这类内容，动词多半要表达「落差、反差」而不是「比一比」，高考语料里首选 contrast with（contrast sharply with）这一整块。\n【为什么选 A】contrasted with 在这里表示「小镇与我们被承诺的一切形成鲜明反差」，与前文「河水终于又变清了」、后文「祖母站在门口一言不发」的惊讶语气完全吻合；contrast with expectations 就是同一块词块，迁移到 promised 上同样成立。\n【其他选项】B compared 语感上完全说得通，是本题最强干扰，但 compare 只陈述「比一比」，不带「落差、反差」的强烈意味，搭配 promised 时更像在做比较说明，学生一按 contrast＝「对比、对照」就掉进来。C differed 语义最近，但固定搭配是 differ from，differ with 是极少见的旧式说法，要靠搭配记忆才能排掉。D contracted 与 contrast 形近音近（contract with＝与…签约），语境里根本没有人签约，属纯视觉误选。",
+  "trap_note": "陷阱来源：学生按 contrast＝「对比、对照」这个更熟的义去理解，或把 contrast 与 compare、differ 混为一谈，只看到「比较」而看不到「反差」，于是选了 compared / differed。",
+  "tags": ["E1", "E2", "E3", "P2", "P4"]
+ },
+ {
+  "id": "q_e1_036",
+  "sense_id": "s_firm_n_company",
+  "word_id": "w_firm",
+  "carrier": "C2",
+  "module": "E1_熟词僻义",
+  "difficulty": "hard",
+  "expected_accuracy": [0.18, 0.42],
+  "stem": "When the mill in our street closed, my uncle was jobless for months, until a colleague offered him a job at a small ______ dealing with property.",
+  "stem_cn": "我们街上的磨坊关门后，叔叔闲了几个月，直到一位同事让他到一家主要经营房产业务的小型______任职。",
+  "options": [
+   {"key": "A", "text": "firm", "correct": true, "distractor_reason": null},
+   {"key": "B", "text": "company", "correct": false, "distractor_reason": "语义最近且完全说得通：中文「公司」直接对译 company，a small company dealing with property 语感毫无违和。测「熟词僻义误判」（E1）——学生只认 firm＝「坚定的、坚决的」「结实的」，一旦把正确项排除，最自然就落到泛称 company 上。"},
+   {"key": "C", "text": "form", "correct": false, "distractor_reason": "形近音近干扰：firm 与 form 只差一个字母，扫描时容易看错。测「形近音近误判」（E3）——错的是词形不是义项；a small form（一张小表格）与后面 dealing with property 讲的是两码事，属纯字形误选。"},
+   {"key": "D", "text": "factory", "correct": false, "distractor_reason": "中文概念混淆：中文「公司」与「工厂」不分，学生顺手写 factory，a small factory 在英文里也成立。测「主题词汇与语义偏移」（E1／E10 混）——语境讲的是经营房产业务的服务型商号，不是生产厂房，词能用但语境对不上。"}
+  ],
+  "explanation": "【考场动作】先判断这个空格要名词还是形容词：前面有 a small，后面跟 dealing with property，说明要一个「机构」的名词。再把 firm 的两个形容词义（坚定的、结实的）先排除，因为后面跟的是机构不是信念也不是地基。最后按「专业性商业机构、服务型商号」这一语境，在 firm、company、factory 之间定夺。\n【为什么选 A】firm 作名词就是「公司、商号、企业」，a small firm 是高考阅读与写作里的常见说法；语境强调规模不大、做专业业务、靠信誉经营，正对应商号义，而不是生产商品的工厂或泛泛的大公司。\n【其他选项】B company 语义最接近、中文最直接对译，语感完全说得通，是本题最大陷阱；但在「小型、专业服务机构」这一语境下高考语料固定用 firm，company 多指有雇员、有产线的较大商业实体。C form 形近音近，属 E3 类视觉误选，a small form 是「一张小表格」，与经营房产业务毫无关系。D factory 是中文「公司／工厂」不分造成的语义偏移，词本身能用，但语境说的是服务型商号而非生产厂房，靠上下文就能排掉。",
+  "trap_note": "陷阱来源：学生按 firm＝「坚定的、坚决的」或「结实的、坚固的」这两个熟义去理解，完全不认识 firm 的名词义「公司、商号」，于是改选泛称 company 或中文意义上的 factory。",
+  "tags": ["E1", "E3", "E4", "P2", "P4"]
+ },
+ {
+  "id": "q_e1_037",
+  "sense_id": "s_assign_v_appoint",
+  "word_id": "w_assign",
+  "carrier": "C4",
+  "module": "E1_熟词僻义",
+  "difficulty": "mid",
+  "expected_accuracy": [0.4, 0.72],
+  "stem": "According to the duty roster posted outside the classroom, each senior student is ______ to accompany one new pupil during the first month of term.",
+  "stem_cn": "根据贴在教室外的值班表，每位高年级学生都要______在开学第一个月里陪伴一位新同学。",
+  "options": [
+   {"key": "A", "text": "assigned", "correct": true, "distractor_reason": null},
+   {"key": "B", "text": "appointed", "correct": false, "distractor_reason": "语义近、结构和语感都通：appointed to accompany 读起来毫无违和感，appoint 本义就是「任命、指派」。测「一词多义混淆」（E2）叠加「固定搭配缺失」（E4）——appointment 指正式任命职位，值班表这种临时分工用 assign 更贴。"},
+   {"key": "C", "text": "required", "correct": false, "distractor_reason": "语义近且完全说得通：is required to accompany 是自然英语，语境里「必须去陪」也讲得过去。测「语境推断失败」（E6）——表格派下的是「分派的职责」，不是「对方有权要求」，两种来源不同，须靠 duty roster 这一线索分辨。"},
+   {"key": "D", "text": "associated", "correct": false, "distractor_reason": "形近音近干扰：assign 与 associate 字形与读音都近，扫描时容易写错。测「形近音近误判」（E3）——错的是词形不是义项；associate 后必须接 with，assign yourself to 才是「把自己安排到某岗位」，两者语序正好相反，属纯形近误选。"}
+  ],
+  "explanation": "【考场动作】先看空后面的不定式 to accompany 和前面的 duty roster（值班表）：表格派下来的活儿，一定是「指派、分派职责给某人」，不是「把东西分发给某人」。凡是「人 + to do sth」这一结构，表示「让某人去做某事」的动词在高考语料里首选 assign；把 assign 只当「分配桌椅经费」来解，就是典型的熟词僻义漏认。\n【为什么选 A】assigned to accompany 是 assign 的「指派、委派」义，在语法填空里正好考这个义项在被动结构中的形态：is assigned to do sth（被指派去做某事）。句中每位高年级学生按排班去带一位新同学，是「指派任务给人」的典型场景。\n【其他选项】B appointed 语义近、结构也完全成立，是最强干扰，但 appoint 指「正式任命职位」，值班表这种临时分工不用 appoint，学生多在「任职」这一层意思上栽跟头。C required 语感也通，可 require 强调「对方有权要求」，与「按表分派职责」这一来源不符。D associated 属形近音近误选（assign／associate），associate 后必须接 with，assign yourself to 才是「把自己安排到某岗位」，语序方向正好相反。",
+  "trap_note": "陷阱来源：学生按 assign＝「分配、分派（任务、房间、经费）」这一熟义去理解，把「指派某人做某事」当成「把东西分出去」，于是改选 appointed 或 required，忽略了 assign sb to do sth＝把某人指派去做某事。",
+  "tags": ["E1", "E2", "E3", "P2", "P4"]
+ },
+ {
+  "id": "q_e1_038",
+  "sense_id": "s_exchange_v_converse",
+  "word_id": "w_exchange",
+  "carrier": "C5",
+  "module": "E1_熟词僻义",
+  "difficulty": "mid",
+  "expected_accuracy": [0.42, 0.7],
+  "stem": "Outside the gym the two rivals stopped and ______ warm greetings, and by the time the bus arrived they were walking home together.",
+  "stem_cn": "在体育馆外，两位对手停下脚步，______了热情的问候；等公交到来时，他们已经一起走回家了。",
+  "options": [
+   {"key": "A", "text": "traded", "correct": false, "distractor_reason": "语义近：trade 的本义就是「交换、做交易」，学生按 exchange＝「互换、交换（礼物、号码、意见）」这个熟义去理解时，会顺手找一个「交换」近义词顶上。测「熟词僻义误判」（E1）——trade greetings 讲不出「互致问候」这层意思，属词能用但搭配错（E4）。"},
+   {"key": "B", "text": "exchanged", "correct": true, "distractor_reason": null},
+   {"key": "C", "text": "returned", "correct": false, "distractor_reason": "语义近、语感几乎排不掉：returned a greeting（回应问候）是地道英文，学生读到「回了招呼」很顺。测「一词多义混淆」（E2）——return 是「一方回应另一方」，句中主语是两位对手、动作发生在两人之间，方向是「互致」而不是「回应」。"},
+   {"key": "D", "text": "switched", "correct": false, "distractor_reason": "形近音近干扰：switch 是 confusable 列表里的词，与 exchange 语义场相近，容易凭字形与联想一起被选上。测「形近音近误判」（E3）——switched greetings 不构成任何搭配，属纯字形误选。"}
+  ],
+  "explanation": "【考场动作】先判断这个动作是单向还是双向：句中主语是 the two rivals，动作发生在两人之间，这是「互致」；凡是两人之间交换言语、目光、问候的固定块，动词只能是 exchange（exchange words／glances／greetings），不要写成表示「交换东西」的 swap、trade。\n【为什么选 B】exchanged warm greetings 是「互致热情的问候」，与后文「两人一起走回家」的和解情节完全吻合；greetings 本身就是互惠动作，只有 exchange 能把它和「互致」锁死，句中两个「对方」的关系是双向的。\n【其他选项】A traded 语义近，trade＝交换正是 exchange 的熟义，学生找「交换」近义词时最容易上钩；可 trade 后面接的是货物、座位、球权，trade greetings 讲不出「互致问候」这层意思。C returned 语义近且 returned a greeting 是地道英文，语感极强，但它是「一方回应另一方」，与「两位对手互致」的方向不符。D switched 属形近音近误选，switched greetings 不成任何搭配，属纯字形误选。",
+  "trap_note": "陷阱来源：学生按 exchange＝「互换、交换（礼物、号码、意见）」这一熟义去理解，把「互致几句、互致问候」当成「交换东西」，于是去找 trade、swap 一类的近义词，忽略了 exchange greetings＝互致问候这一整块。",
+  "tags": ["E1", "E2", "E3", "P4"]
+ },
+ {
+  "id": "q_e1_039",
+  "sense_id": "s_particular_adj_fastidious",
+  "word_id": "w_particular",
+  "carrier": "C2",
+  "module": "E1_熟词僻义",
+  "difficulty": "mid",
+  "expected_accuracy": [0.44, 0.72],
+  "stem": "My aunt is extremely ______ about the freshness of the food she cooks, and anything kept in the fridge for two days goes into the bin.",
+  "stem_cn": "我姑姑对饭菜的新鲜程度总是极其______，在冰箱里放上两天的菜她都直接扔掉。",
+  "options": [
+   {"key": "A", "text": "particular", "correct": true, "distractor_reason": null},
+   {"key": "B", "text": "specific", "correct": false, "distractor_reason": "语义近且是本题的核心陷阱：very specific about the freshness 语感勉强说得通，学生按 particular＝「特定的、具体的」这一核心义去理解时，会直接选它。测「熟词僻义误判」（E1）——specific 只表示「具体明确」，不带「过分挑剔、讲究」的意味。"},
+   {"key": "C", "text": "strict", "correct": false, "distractor_reason": "语义近、结构和语感都通：is strict about the food 是自然英语，语境里也能读通。测「一词多义混淆」（E2）叠加「情感色彩判断」（E8）——strict 强调「要求严格、不许违反」，particular 强调「过分讲究、容不得半点将就」，后者才与「放两天就扔」这种苛刻做法吻合。"},
+   {"key": "D", "text": "anxious", "correct": false, "distractor_reason": "语义近：食品安全语境里 is anxious about the freshness 完全讲得通，学生容易顺手写上。测「语境推断失败」（E6）——anxious 说的是情绪反应（担心），与「讲究、挑剔」不是一回事，排除只能靠 be particular about 这一整块搭配。"}
+  ],
+  "explanation": "【考场动作】先看是不是 be + 形容词 + about 这一格，把固定块 be particular about（对…过分挑剔、讲究）调出来；再看介词后的宾语：about the freshness of the food 说的是「讲究程度、细节要求」，若宾语换成「具体某事某物」，才轮到 specific（特定的、具体的）。\n【为什么选 A】particular 在 be particular about 结构里是「挑剔、讲究、过分讲究」，带轻微贬义，与后文「放两天就扔掉」这种苛刻做法完全吻合。particular 的核心义确实是「特定的」，但高考最爱考的正是 be particular about 这一整块。\n【其他选项】B specific 是本题最核心的陷阱：学生按 particular＝「特定的、具体的」去理解，very specific about the freshness 读起来也顺，但 specific 只表示「具体明确」，不含挑剔意味。C strict 语义近、语感也通，strict 强调「要求严格」，挑剔强调「过分讲究」，侧重点不同，要靠语义细辨才排得掉。D anxious 语义近，在食品安全语境里讲得通，但它说的是情绪反应，与讲究程度无关，排除靠的正是 be particular about 这块固定搭配。",
+  "trap_note": "陷阱来源：学生按 particular＝「特定的、具体的」这个最熟的核心义去理解，认不出 be particular about＝「对…过分挑剔、讲究」，于是选了 specific 或 strict。",
+  "tags": ["E1", "E2", "E4", "P2", "P4"]
+ },
+ {
+  "id": "q_e1_040",
+  "sense_id": "s_reform_v_correct",
+  "word_id": "w_reform",
+  "carrier": "C6",
+  "module": "E1_熟词僻义",
+  "difficulty": "mid",
+  "expected_accuracy": [0.45, 0.72],
+  "stem": "Tom had drifted between jobs for three years. 'If you want to ______ yourself,' his uncle told him, 'start with the work nobody else wants to do.'",
+  "stem_cn": "汤姆三年来在各种工作之间游荡。「如果你想______自己，」他叔叔对他说，「就从没人愿意干的活儿干起。」",
+  "options": [
+   {"key": "A", "text": "improve", "correct": false, "distractor_reason": "语义近、语感完全说得通：improve yourself 是地道英语，泛指「提升自己」在叔侄对话里也讲得过去。测「一词多义混淆」（E2）——improve 只说一般性自我提升，不含「由坏到好」的转变这层意思。"},
+   {"key": "B", "text": "correct", "correct": false, "distractor_reason": "语义近且结构完全成立：correct yourself（改正自己的错误）是自然英语，是本题最强干扰。测「熟词僻义误判」（E1）——高考语料里「改过自新」固定说 reform oneself／reform one's ways，correct oneself 更偏「纠正自己说错的话、弄错的事」。"},
+   {"key": "C", "text": "reform", "correct": true, "distractor_reason": null},
+   {"key": "D", "text": "refine", "correct": false, "distractor_reason": "形近音近干扰：reform 与 refine 同以 re- 开头、字形相近，扫描时容易写错。测「形近音近误判」（E3）——refine oneself 语感勉强成立（把自己磨得更精细），但与「把坏毛病改掉、由坏到好」的情节推进对不上，属纯字形误选。"}
+  ],
+  "explanation": "【考场动作】先看空后面的反身代词 yourself：人 + oneself 只能接「自我改造」类动词（reform oneself、improve oneself、correct oneself），change oneself 之类根本不成立。再看上下文褒贬：叔叔说「从没人愿意干的活儿干起」，讲的是把坏毛病改掉，不是制度层面的变革。\n【为什么选 C】reform oneself 与 reform one's ways 是高考记叙文里的固定块，意思是「改过自新、把坏毛病改掉」，正好呼应后文村里人说他是「变了个人」；这里考的是 reform 的僻义，而不是「改革制度、教育」这一核心义。\n【其他选项】B correct 语义近、结构和语感都通，是本题最强干扰，但高考语料中「改过自新」固定说 reform oneself／reform one's ways，correct oneself 更偏「纠正自己说错的话或弄错的事」，与「由散漫到踏实的转变」不完全重合。A improve 也讲得通，可它只是一般性自我提升，缺少「从错到对」的贬义起点。D refine 属形近音近误选，refine oneself 语感勉强成立，测的是视觉误选，与义项理解无关。",
+  "trap_note": "陷阱来源：学生按 reform＝「改革、变革（制度、教育、系统）」这一核心义去理解，把「改过自新」当成制度层面的改革，或者干脆改选 correct、improve，忽略了 reform oneself／reform one's ways 这块固定搭配。",
+  "tags": ["E1", "E2", "E3", "P4"]
+ },
+ {
+  "id": "q_e1_041",
+  "sense_id": "s_sound_adj_healthy",
+  "word_id": "w_sound",
+  "carrier": "C3",
+  "module": "E1_熟词僻义",
+  "difficulty": "mid",
+  "expected_accuracy": [0.46, 0.74],
+  "stem": "After the operation the doctor told the family that the old man was in ______ health and could go back to work the following month.",
+  "stem_cn": "手术后，医生告诉家属那位老人身体状况______，下个月就能回去上班。",
+  "options": [
+   {"key": "A", "text": "sound", "correct": true, "distractor_reason": null},
+   {"key": "B", "text": "strong", "correct": false, "distractor_reason": "语义近：学生按「身体强壮」这一最直接的想法选 strong，in strong health 读起来也勉强说得通。测「固定搭配缺失」（E4）——高考语料里说身体状况是 in good health 或 in sound health，in strong health 不是现成搭配，靠词块记忆才能排掉。"},
+   {"key": "C", "text": "healthy", "correct": false, "distractor_reason": "语义近且是最典型的熟词僻义漏认：healthy＝「健康的」人人都认，但 in healthy health 语法不成立，定语位置要的是能独立作形容词的 sound。测「熟词僻义误判」（E1）——只知道 healthy，不认 sound＝「健全的、身体状况良好的」。"},
+   {"key": "D", "text": "soundly", "correct": false, "distractor_reason": "词性词形误判：soundly 是副词，只作副词用（soundly asleep、soundly defeated），不能放在名词前作定语。测「词性词形误判」（E5）——错的是形式不是义项，属于把 sound 与 soundly 两个形式混记造成的失分。"}
+  ],
+  "explanation": "【考场动作】先把这个语法空当定语位置看：in + 形容词 + health，能填进去的只能是形容词（sound／good／poor），副词和动词都被语法挡掉。再把固定块 in sound health（身体状况良好）调出来，把「健康的＝healthy」这个直觉答案挡在门外。\n【为什么选 A】sound 在 in sound health 里是形容词「健全的；身体状况良好的」，这是高考阅读健康类话题的固定表达，也正是本词条最容易被认不出的义项——学生只认 sound＝「声音、声响」或「听起来」。\n【其他选项】B strong 语义近，按「身体强壮」选它语感勉强说得通，但 in strong health 不是高考语料里的固定说法，考场上要么写 in good health，要么写 in sound health，只能靠词块记忆排掉。C healthy 是「认识 healthy 却不认 sound health」的典型熟词僻义漏认：healthy 本身没错，可 in healthy health 语法不成立。D soundly 属词性词形误判，副词不能作定语修饰名词；soundly 只在 soundly asleep、soundly defeated 这类位置可用。",
+  "trap_note": "陷阱来源：学生只认 sound＝「声音、声响」「听起来」，或者只想得到 healthy＝「健康的」，不认 sound＝「健全的、身体状况良好的」，于是写出 strong、healthy 或副词形式 soundly。",
+  "tags": ["E1", "E2", "E5", "P4"]
+ },
+ {
+  "id": "q_e1_042",
+  "sense_id": "s_utter_adj_complete",
+  "word_id": "w_utter",
+  "carrier": "C6",
+  "module": "E1_熟词僻义",
+  "difficulty": "mid",
+  "expected_accuracy": [0.43, 0.7],
+  "stem": "Every Monday they walked home side by side without a word. One winter evening one of them laughed and called the silence between them ______ nonsense.",
+  "stem_cn": "每个周一，他们都并肩走回家，却一句话也没说。一个冬天的晚上，其中一人笑了起来，说他们之间的沉默简直是______胡说。",
+  "options": [
+   {"key": "A", "text": "utter", "correct": true, "distractor_reason": null},
+   {"key": "B", "text": "complete", "correct": false, "distractor_reason": "语义近且语感成立：complete nonsense 读起来说得通，学生一按 utter＝「说出、开口讲」把正确项排除后，多半会用「彻底、完全」这类更泛的词顶上。测「熟词僻义误判」（E1）——高考语料中「彻头彻尾的胡说」固定写作 utter nonsense，complete 更常与 failure、lack 搭配。"},
+   {"key": "C", "text": "sheer", "correct": false, "distractor_reason": "语义近：sheer nonsense 在英文里勉强说得通，学生凭「十足、纯粹」的语感就会写它。测「一词多义混淆」（E2）叠加「搭配记忆」（E4）——sheer 高频搭配是 sheer luck、sheer chance、sheer relief，不与 nonsense 形成高考记忆点。"},
+   {"key": "D", "text": "utterly", "correct": false, "distractor_reason": "词性词形误判：utterly 是副词，不能作定语修饰名词，也是本词条 confusable 列表里的词。测「词性词形误判」（E5）——学生把形容词与副词两个形式混在一起记，就会在这个空格上写 utterly。"}
+  ],
+  "explanation": "【考场动作】先做词性判断：空后面是名词 nonsense，前面是动词 called，所以这里要的是一个能直接修饰名词的形容词；看到 utter 先确认它能不能作形容词——能，utter nonsense 就是高考写作里「彻头彻尾的胡说」这块固定词块。再看语气：说话人是在全盘否定两人之间的沉默，不是指出某一处小毛病。\n【为什么选 A】utter 在此是形容词「彻底的、毫无道理的」，utter nonsense 属于高考写作与阅读的高频词块；本词条最容易丢分的地方，是学生只认 utter＝「说出、开口讲」，根本没想到它还能放在名词前当形容词用。\n【其他选项】B complete 语义近、语感成立，属于「说得出但不背固定块」的语感派干扰；高考语料里「胡说八道」的标准表达是 utter nonsense，complete 更常与 failure、lack 搭配。C sheer 语义近，sheer nonsense 勉强说得通，但 sheer 高频搭配是 sheer luck、sheer chance，不与 nonsense 形成高考记忆点。D utterly 属词性词形误判，副词不能作定语，学生把形容词与副词两个形式混记就会掉进这个坑。",
+  "trap_note": "陷阱来源：学生按 utter＝「说出、开口讲」这个最熟的义去理解，压根没想到 utter 还能作形容词，于是改选 complete、sheer，或把副词形式 utterly 填进定语位置。",
+  "tags": ["E1", "E2", "E5", "P4"]
+ }
+]

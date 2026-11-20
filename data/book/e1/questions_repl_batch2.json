@@ -1,0 +1,322 @@
+[
+  {
+    "id": "q_e1_051",
+    "sense_id": "s_address_v_handle",
+    "word_id": "w_address",
+    "carrier": "C1",
+    "module": "E1_熟词僻义",
+    "difficulty": "easy",
+    "expected_accuracy": [0.72, 0.90],
+    "stem": "After months of complaints from parents, the school finally decided to ______ the problem of too much homework, which many teachers had also raised.",
+    "stem_cn": "家长投诉了几个月之后，学校终于决定______作业过重的问题，许多老师此前也提出过这一点。",
+    "options": [
+      {
+        "key": "A",
+        "text": "address",
+        "correct": true,
+        "distractor_reason": null
+      },
+      {
+        "key": "B",
+        "text": "solve",
+        "correct": false,
+        "distractor_reason": "语义近强干扰：solve the problem 字面完全说得通，而且是学生最熟悉的说法，纯语感排不掉。测 E1/E4：本题考的是你知不知道高考语料里「正面对付一个问题与隐患」有一个更贴切的现成词块 address the problem——语感能帮你排除 assess、attend，却排除不了 solve，这正是本题最像考场的干扰点。"
+      },
+      {
+        "key": "C",
+        "text": "assess",
+        "correct": false,
+        "distractor_reason": "语义近 + 词形近（confusable 表内）：assess the problem（评估这个问题）在句中并非绝无道理，学校确实可能先评估再处理；测 E2 一词多义混淆与 E3 形近音近误选，学生把 address 按「演讲、致辞」义排掉之后，最容易改填的就是它。"
+      },
+      {
+        "key": "D",
+        "text": "attend",
+        "correct": false,
+        "distractor_reason": "形近音近干扰（E3）：attend 与 address 共享 addr- 词根、读音相近，attend a meeting 是真实搭配，学生看到「学校决定……」就顺手去 attend。测 E3 形近音近误选，与义项理解无关；attend the problem 并不成搭配。"
+      }
+    ],
+    "explanation": "【考场动作】先圈住动词后面的宾语 the problem of too much homework——这是典型的「问题类名词」（problem / issue / concern / gap / challenge）。address 后面接这一类名词时一律取「处理、解决」义；接 audience、conference、meeting 这类「人、场合」才是「演讲」义。再看主语：主语是 the school（学校这一机构）而不是某个演讲者，演讲义当场出局；「地址」义是名词义，而空格在主语之后、宾语之前，是谓语位置，也出局。两条筛子一过，答案只剩「处理、解决」义。\n【为什么选 A】address the problem 是高考议论文与说明文里的现成词块，意为「处理、解决（问题、隐患）」。句中说学校在家长投诉几个月后终于决定处理作业过重的问题，正是「正面对问题、采取行动」，既不是发表演说，也不是留下地址。\n【其他选项】B solve the problem 语义完全说得通，语感上挑不出错，但它测的是「你知不知道在高考语料里处理问题与隐患有一个更贴切现成的词块 address the problem」，语感能排掉 assess、attend，却排不掉 solve。C assess the problem 讲得通（学校当然可以先评估），assess 与 address 又同在本词 confusable 表内，但评估只是诊断，与 finally decided（终于决定）指向的「动手处理」不合。D attend 与 address 形近音近，attend a meeting 是真实搭配，可 attend the problem 不成搭配，属纯形近误选。",
+    "trap_note": "陷阱来源：学生按 address＝「地址」或「演讲、致辞」的熟悉义去理解，看到主语是学校、宾语是问题就认为 address 讲不通，直接改填 solve；或反其道而行，认定了「处理问题＝solve」，压根没去调出 address the problem 这个词块。",
+    "tags": ["E1", "E4", "E2", "P2", "P4"]
+  },
+  {
+    "id": "q_e1_052",
+    "sense_id": "s_conduct_v_perform",
+    "word_id": "w_conduct",
+    "carrier": "C1",
+    "module": "E1_熟词僻义",
+    "difficulty": "easy",
+    "expected_accuracy": [0.70, 0.92],
+    "stem": "Before the new rules took effect, the research team ______ a survey of more than a thousand households to find out how much water they used.",
+    "stem_cn": "新规生效之前，这个研究小组______了一项覆盖一千多户家庭的调查，以了解他们用掉了多少水。",
+    "options": [
+      {
+        "key": "A",
+        "text": "make",
+        "correct": false,
+        "distractor_reason": "搭配错 + 汉语迁移：受中文「做调查」的直译影响，学生会写出 make a survey；测 E4 固定搭配缺失——英语里 conduct / carry out a survey 才是固定搭配，make 只能搭 make a decision、make a mistake，make a survey 不成习惯说法。"
+      },
+      {
+        "key": "B",
+        "text": "conduct",
+        "correct": true,
+        "distractor_reason": null
+      },
+      {
+        "key": "C",
+        "text": "perform",
+        "correct": false,
+        "distractor_reason": "语义近强干扰：perform a survey（做一项调查）、perform an experiment 在英语中成立，而且 perform 是学生更熟的动词，纯语感排不掉。测 E1/E2：conduct 的「进行、实施」义学生最容易漏掉，perform 一挡就选了它。"
+      },
+      {
+        "key": "D",
+        "text": "confiscate",
+        "correct": false,
+        "distractor_reason": "形近音近干扰（E3）：confiscate 与 conduct 字形只差 conf- / con- 一段、读音相近，且同在本词 confusable 表内。测 E3 形近音近误选——错的是选错了词，与义项理解无关；confiscate a survey 语义更根本不成立。"
+      }
+    ],
+    "explanation": "【考场动作】先定词性：空格在主语 the research team 之后、宾语 a survey 之前，是谓语位置，所以 conduct 取动词义，「行为、举止」那个名词义当场出局。再看宾语类别：survey / research / experiment / interview 属「调查类名词」，conduct 后接这类词就是「开展、进行」；若宾语换成 meeting、ceremony、competition 才是「组织、筹办」，换成 orchestra 才是「指挥」。本句宾语是 survey，答案直接锁定「进行、实施」。\n【为什么选 B】conduct a survey 是高考阅读中科研方法类语料的固定搭配，意为「开展一项调查」。句中说研究小组在新规生效前对一千多户家庭做了问卷调查，正是「进行、实施」的意思。\n【其他选项】A make a survey 受中文「做调查」影响而来，但英语固定说法是 conduct a survey / carry out a survey，make 只能搭配 make a decision、make a mistake，make a survey 不成立。C perform a survey 在英语中确实存在，语感无懈可击，但 perform 多与 experiment、task、operation 搭配，调查类语料里 conduct a survey 才是高考官方表达，而且 perform 只能接「做出来的动作」，接不住 survey 这种「调查活动」。D confiscate 与 conduct 形近音近，是纯形近误选：confiscate 是「查扣、没收」，confiscate a survey 语义根本不成立。",
+    "trap_note": "陷阱来源：学生按 conduct＝「行为、举止」的熟悉义去理解，看到主语是研究小组就认定 conduct 只能作名词，于是改选 perform；或受中文「做调查」的直译影响去填 make，绕开了 conduct a survey 这个词块。",
+    "tags": ["E1", "E4", "E2", "P2", "P4"]
+  },
+  {
+    "id": "q_e1_053",
+    "sense_id": "s_issue_v_publish",
+    "word_id": "w_issue",
+    "carrier": "C1",
+    "module": "E1_熟词僻义",
+    "difficulty": "easy",
+    "expected_accuracy": [0.68, 0.90],
+    "stem": "After months of investigation, the newspaper ______ a detailed report on the old bridge, and the city repaired it within a week.",
+    "stem_cn": "经过数月的调查，该报______了一份关于那座旧桥的详细报道，市里在一周内就把桥修好了。",
+    "options": [
+      {
+        "key": "A",
+        "text": "publish",
+        "correct": false,
+        "distractor_reason": "语义近强干扰：publish a detailed report 完全讲得通，而且 publish 是学生默认的「出版」动词，纯语感排不掉。测 E1：本题真正要的是「你知不知道 issue 还有「发行、出版」的动词用法，而且报刊发布调查报道的现成词块是 issue a report」。"
+      },
+      {
+        "key": "B",
+        "text": "submit",
+        "correct": false,
+        "distractor_reason": "搭配错：submit a report 必须带介词宾语（submit it to the editor / to the authorities），本句空格后直接接 a detailed report，没有 to，结构不成立。测 E4 固定搭配缺失，学生只记半块词块就会被它吸走。"
+      },
+      {
+        "key": "C",
+        "text": "issue",
+        "correct": true,
+        "distractor_reason": null
+      },
+      {
+        "key": "D",
+        "text": "raise",
+        "correct": false,
+        "distractor_reason": "词义错位 + 搭配错：学生按 issue＝「议题、争论点」的熟悉义去理解，遇到「发布一份报告」的语境就顺手找一个「提出」类动词 raise；测 E1 熟词僻义误判与 E4 搭配缺失——英语说 raise an issue / raise a concern，raise a report 根本不成立，报告这类东西不 raise。"
+      }
+    ],
+    "explanation": "【考场动作】先看主语：the newspaper 是媒体机构，说明这里说的是「报刊把一份东西发出去」，动词取「发行、出版」义。再把名词义挡掉：issue 的「议题、争论点」「问题、麻烦」都是名词义，而空格在主语之后、宾语之前，是谓语位置——学生最容易在这里把 issue 整个划掉。最后调词块：issue a report / issue a statement / issue a book 是报刊发布内容的现成搭配，与「发表声明、警告」那一义要靠对象区分：本句的对象是一份调查报道，不是声明或警告。\n【为什么选 C】the newspaper issued a detailed report —— 该报发行（发布）了一份关于旧桥的详细报道。这里的 issue 是动词「发行、出版」，正是这个词最容易被学生忽略的用法；对象是调查报道而非声明、警告，所以取的不是「宣布、公布」那一义。\n【其他选项】A publish a detailed report 语义上完全说得通，纯语感排不掉，它测的正是「你知不知道 issue 还有发行、出版的动词用法，以及报刊发布报道的固定搭配是 issue a report」；语感能帮你排除 raise、submit，却排除不了 publish。B submit a report 必须带介词宾语（submit it to the editor），本句空格后直接接 a detailed report，没有 to，结构不成立。D raise 是学生按 issue＝「议题」义顺手套上来的「提出」类动词，但英语说 raise an issue / raise a concern，raise a report 根本不成立。",
+    "trap_note": "陷阱来源：学生按 issue＝「议题、争论点」或「问题、麻烦」的熟悉义去理解，觉得报纸「提出」报告要用 raise，或者干脆把 issue 当名词划掉；又因 publish 更像「出版」的默认动词而错过 issue 这个真正的动词义。",
+    "tags": ["E1", "E5", "E4", "P2", "P4"]
+  },
+  {
+    "id": "q_e1_054",
+    "sense_id": "s_plant_n_factory",
+    "word_id": "w_plant",
+    "carrier": "C1",
+    "module": "E1_熟词僻义",
+    "difficulty": "easy",
+    "expected_accuracy": [0.70, 0.92],
+    "stem": "Local residents have complained for years about the smoke from the chemical ______ on the edge of the town.",
+    "stem_cn": "当地居民多年来一直在抱怨城镇边缘那家化学______排放的烟尘。",
+    "options": [
+      {
+        "key": "A",
+        "text": "factory",
+        "correct": false,
+        "distractor_reason": "语义近强干扰：chemical factory 完全讲得通，而且 factory 是学生最熟悉的「工厂」用词，纯语感排不掉。测 E1/E4：考的是工业与污染话题里工厂的标准搭配 plant，plant 在这一语境里根本不可能是「植物」。"
+      },
+      {
+        "key": "B",
+        "text": "works",
+        "correct": false,
+        "distractor_reason": "语义近 + 真实搭配：chemical works 是英语里真实存在的说法（偏英式工业语体），字面讲得通，很难一眼排除。测 E2 一词多义混淆：works 指「厂区、设施」这一整体，句中讲的是冒烟的那座具体设施，语料用 plant 更准。"
+      },
+      {
+        "key": "C",
+        "text": "plantation",
+        "correct": false,
+        "distractor_reason": "形近音近 + 词义联想（E3）：plantation 与 plant 同词根、读音同源，学生按 plant＝「植物」的熟悉义去联想，plantation（种植园）是最容易被顺手抓来的一个；测 E3 形近音近误选，化学工业语境里说 chemical plantation 完全不成立。"
+      },
+      {
+        "key": "D",
+        "text": "plant",
+        "correct": true,
+        "distractor_reason": null
+      }
+    ],
+    "explanation": "【考场动作】先看空格前面的定语：chemical（化学的）。高考语料里凡出现 power / chemical / steel / nuclear 这类行业修饰语加 plant，它就锁定「工厂；（发电、炼化等）企业设施」这一义，与「植物」「种植」无关。再看话题信号：smoke、complained、pollution、emissions 一类词出现时，plant 只能读成「工厂」。最后用词性定位：空格在 the chemical ___ 里作名词，动词义「种植、栽种」与「安放、植入」当场出局。\n【为什么选 D】the chemical plant —— 那家化工厂。句中说居民多年来抱怨从它冒出的烟尘，这里 plant 是名词「工厂」，与 power plant、chemical plant 同族，是环保与工业类阅读语料里的固定搭配。\n【其他选项】A chemical factory 字面完全说得通，语感上甚至是学生的第一反应，但它绕开了本题要考的词块：工业与污染话题里说「厂」用 plant。选它的学生多半是不知道 plant 能读成工厂，就近抓了 factory。B chemical works 是英语中真实存在的搭配，讲得通却不贴切：works 指「厂区、设施」这一整体，句中讲的是冒烟的那座具体设施，语料用 plant 更准。C plantation 与 plant 词根相同、读音相近，是典型的形近音近误选；学生按 plant＝「植物」去联想，plantation（种植园）就被顺手抓来，但化工厂绝不说 chemical plantation。",
+    "trap_note": "陷阱来源：学生按 plant＝「植物」去理解，看到 chemical、smoke 这类词仍认定是「绿地、种植园」，于是改选 plantation 或干脆把 plant 排除；又或者看到「工厂」二字就填 factory，跳过了 plant 这个固定搭配。",
+    "tags": ["E1", "E10", "E2", "E3", "P2", "P4"]
+  },
+  {
+    "id": "q_e1_055",
+    "sense_id": "s_represent_v_amount_to",
+    "word_id": "w_represent",
+    "carrier": "C1",
+    "module": "E1_熟词僻义",
+    "difficulty": "easy",
+    "expected_accuracy": [0.68, 0.90],
+    "stem": "Online videos now ______ nearly one third of the time teenagers spend on their phones.",
+    "stem_cn": "如今，网络视频______青少年花在手机上的时间中的大约三分之一。",
+    "options": [
+      {
+        "key": "A",
+        "text": "represent",
+        "correct": true,
+        "distractor_reason": null
+      },
+      {
+        "key": "B",
+        "text": "equal",
+        "correct": false,
+        "distractor_reason": "语义近强干扰：equal 在口语与书面语里都能表示「相当于」，学生看到「三分之一」就顺手填 equal，语感上完全说得通。测 E1/E2：equal 后面通常要接比较对象或接 to，而高考语料里表示「占……的比例」的现成搭配是 represent one third of / represent the equivalent of。"
+      },
+      {
+        "key": "C",
+        "text": "amount",
+        "correct": false,
+        "distractor_reason": "搭配错（E4）：学生知道 amount to 就是「相当于」，所以看到「三分之一」就想填 amount；但 amount 只能作 amount to / amounts to 用，单填 amount 接不上 nearly one third of，结构不成立，只能靠词块记忆排除。"
+      },
+      {
+        "key": "D",
+        "text": "account",
+        "correct": false,
+        "distractor_reason": "搭配错（E4）：account for 可以表示「占（比例）」，是本句最像的另一个搭配；但 account 必须带 for，直接填 account 接不上宾语，句子不成立。测 E4 固定搭配缺失，学生只记半块词块就会掉进来。"
+      }
+    ],
+    "explanation": "【考场动作】先看空格后面接什么：nearly one third of + 数量名词（the time...）。凡是句子里出现 one third of / half of / three months of work 这类数量结构，represent 就取「在数量或价值上等同于」这一义，与「代表某人或某组织」无关。再看主语：主语是 Online videos（事物）而不是人、组织；按义项树走，主语为物 + 后面跟数量，就是「相当于、占」。\n【为什么选 A】represent nearly one third of —— 网络视频占去了青少年手机使用时间的大约三分之一。这正是 represent 的「相当于、占」义，与 represent the equivalent of、represent one third of 同族；「代表某人或某组织」那一义在主语是视频、宾语是时间比例的句子里讲不通。\n【其他选项】B equal 语义上完全说得通，学生看到「三分之一」就填它，纯语感排不掉；但高考语料里说「占……的比例」用 represent one third of，equal 后面习惯接与谁相等或要接 to，本句里它并非唯一成立的读法，却不是语料里的首选。C amount 正是「相当于」那一义的标准词块，可它只能作 amount to 用，单填 amount 接不上 nearly one third of，结构不成立——这是靠词块记忆才能排除的干扰。D account 同样只以 account for 的形式表示「占」，少了 for 就不成句子，学生若只记半块词块就会掉进来。",
+    "trap_note": "陷阱来源：学生按 represent＝「代表某人或某组织」的熟悉义去理解，看到主语是视频、宾语是时间比例就认为 represent 讲不通，转而填 equal；或只记得 amount to / account for 这两个「相当于、占比」的半截词块，写出来的却是接不上宾语的 amount、account。",
+    "tags": ["E1", "E5", "E2", "E4", "P2", "P4"]
+  },
+  {
+    "id": "q_e1_056",
+    "sense_id": "s_consequence_n_importance",
+    "word_id": "w_consequence",
+    "carrier": "C1",
+    "module": "E1_熟词僻义",
+    "difficulty": "mid",
+    "expected_accuracy": [0.42, 0.68],
+    "stem": "The order of the questions in the test paper is of little ______ to the candidates, who can answer them in any sequence they prefer.",
+    "stem_cn": "试卷上题目的顺序对考生来说并不______，他们可以按自己偏好的任何次序作答。",
+    "options": [
+      {
+        "key": "A",
+        "text": "importance",
+        "correct": false,
+        "distractor_reason": "语义近强干扰：of little importance to sb 完全讲得通，学生按「重要不重要」这一层意思就能填进去，纯语感排不掉。测 E1 熟词僻义：这一空考的不是「consequence 等于重要」，而是 of little consequence 这个固定词块；按「结果、后果」义把 consequence 划掉的学生，反而会改选它。"
+      },
+      {
+        "key": "B",
+        "text": "consequence",
+        "correct": true,
+        "distractor_reason": null
+      },
+      {
+        "key": "C",
+        "text": "effect",
+        "correct": false,
+        "distractor_reason": "搭配错（E4）：effect 表示「影响」时固定说 of little effect on sth，介词是 on 而不是 to，本句空格后面是 to the candidates，结构不成立。测 E4 固定搭配缺失，学生把 effect 当成「后果」随手填上。"
+      },
+      {
+        "key": "D",
+        "text": "outcome",
+        "correct": false,
+        "distractor_reason": "词义错位 + 搭配错：outcome 是「结果、结局」义的近义替换，学生按熟悉义思考时最容易抓它；测 E1/E2 一词多义混淆——英语说 the outcome of the test，不说 of little outcome to sb，属于把「无关紧要」误当成「结果不大」。"
+      }
+    ],
+    "explanation": "【考场动作】先看空前的固定框架：is of little ___ to sb。英语里凡出现 of little / of no / of great / of much + ___ + to sb，就把「无关紧要、要紧不要紧」这组固定搭配调出来，对应词是 consequence（of little consequence / of no consequence / of great consequence），而不是「结果」。再看后半句 who can answer them in any sequence they prefer：题目的次序对考生无所谓，谈的正是这件事的轻重，不是它带来了什么结果。\n【为什么选 B】of little consequence to the candidates —— 对考生来说无关紧要。consequence 在这里取的是「重要性、紧要性」义，与 of no consequence、of great consequence 同族；「结果、结局」那一义在本句讲不通，因为句意谈的是这件事重不重要，而不是它产生了什么结果。\n【其他选项】A importance 语义上完全说得通，of little importance to sb 是正常英语，纯语感排不掉；但它考的不是 importance 这个词，而是 of little consequence 这个固定词块——按「结果、后果」义把 consequence 划掉的学生，反而会改选它，这正是本题要防的坑。C effect 表示影响时固定说 of little effect on sth，介词是 on，本句空格后是 to，结构不成立。D outcome 是「结果、结局」义的近义替换，正是学生按熟悉义思考时最容易抓来的一个；但英语说 the outcome of the test，不说 of little outcome to sb，属于把「无关紧要」误读成「结果不大」。",
+    "trap_note": "陷阱来源：学生按 consequence＝「结果、结局」的熟悉义去理解，看到「题目顺序」就认为 result / outcome 一类的词才对，把 consequence 整个划掉、改填 importance 或 outcome；或根本没调出 of little consequence 这个词块，只把「重要不重要」交给 importance。",
+    "tags": ["E1", "E6", "E4", "P2", "P4"]
+  },
+  {
+    "id": "q_e1_057",
+    "sense_id": "s_measure_n_criterion",
+    "word_id": "w_measure",
+    "carrier": "C1",
+    "module": "E1_熟词僻义",
+    "difficulty": "mid",
+    "expected_accuracy": [0.40, 0.70],
+    "stem": "The number of hours a team spends in training is not a true ______ of its ability to succeed in the market.",
+    "stem_cn": "一支队伍在训练上花多少小时，并不能真实地______它在市场上取得成功的能力。",
+    "options": [
+      {
+        "key": "A",
+        "text": "test",
+        "correct": false,
+        "distractor_reason": "语义近强干扰：a true test of its ability 完全讲得通，学生看到「并不能真实反映」就顺手填 test，纯语感排不掉。测 E1/E2：test 偏「一次具体的考验」，本题问的是长期衡量的尺度，语料用 a measure of。"
+      },
+      {
+        "key": "B",
+        "text": "indicator",
+        "correct": false,
+        "distractor_reason": "语义近：an indicator of its ability 也讲得通，indicator 常被学生当成「标准、指标」的通用词。测 E1 熟词僻义：本题要的是高考语料里的固定块 a measure of success / a measure of ability，而不是泛化的「指标」。"
+      },
+      {
+        "key": "C",
+        "text": "measure",
+        "correct": true,
+        "distractor_reason": null
+      },
+      {
+        "key": "D",
+        "text": "measurement",
+        "correct": false,
+        "distractor_reason": "词形近（E3）：measurement 与 measure 同词根、读音相近，学生看到「衡量」就顺手想到名词化形式；测 E3 形近音近与词形误选——measurement 多指测出来的数值与尺寸，a measurement of ability 在高考语料里基本不出现。"
+      }
+    ],
+    "explanation": "【考场动作】先看空前的框架：a true ___ of。名词 measure 后面接 of + 抽象名词，就是「衡量…的尺度、标准」（a measure of success / ability / progress）；如果 of 后面接的是 length、weight、height、temperature 这类物理量，那才是「尺寸、量度」。再排除两个近义结构：measure 的复数 measures + to do sth 是「措施、办法」，与本题无关；动词 measure 接 impact / effect 才是「衡量、评估」，本题空格在 a true ___ of 的名词位置上。\n【为什么选 C】not a true measure of its ability to succeed —— 训练时长并不能真实地衡量一支队伍在市场上成功的能力。measure 在这里是名词「衡量…的尺度、标准」，与 a measure of success 同族；「尺寸、量度」那一义在本句讲不通，因为句中要比的不是长度重量，而是能力。\n【其他选项】A a true test of its ability 完全讲得通，语感上挑不出错，但 test 指「一次具体的考验」，本题问的是长期衡量的尺度，语料用 a measure of ability。B an indicator of its ability 也讲得通，indicator 是学生眼中的通用「指标」词，可高考议论文里表示「衡量某方面的尺度」固定用 a measure of，不用 indicator。D measurement 与 measure 同词根、读音相近，是纯词形误选：measurement 多指测出来的数值与尺寸，a measurement of ability 在高考语料里基本不出现。",
+    "trap_note": "陷阱来源：学生按 measure＝「测量尺寸」的熟悉义去理解，看到「训练小时数」就认定是长度重量一类的量度，把 a measure of ability 这个词块整个漏掉，改填 test 或 indicator；或受词形影响去填 measurement。",
+    "tags": ["E1", "E2", "E5", "P2", "P4"]
+  },
+  {
+    "id": "q_e1_058",
+    "sense_id": "s_swing_v_turn",
+    "word_id": "w_swing",
+    "carrier": "C1",
+    "module": "E1_熟词僻义",
+    "difficulty": "mid",
+    "expected_accuracy": [0.38, 0.68],
+    "stem": "After the reform was passed, the balance of power in the industry ______ sharply towards the smaller companies.",
+    "stem_cn": "改革通过之后，该行业的权力天平______，明显地倒向那些规模较小的公司。",
+    "options": [
+      {
+        "key": "A",
+        "text": "shift",
+        "correct": false,
+        "distractor_reason": "语义近强干扰：the balance of power shifted sharply towards the smaller companies 完全成立，shift 是学生最熟的「转移、转变」动词，纯语感排不掉。测 E1：本题要认的是 swing 取「转向、转变」这一义，语料里的现成搭配是 swing towards / the balance swings。"
+      },
+      {
+        "key": "B",
+        "text": "tip",
+        "correct": false,
+        "distractor_reason": "语义近 + 真实搭配：tip the balance（使天平倾斜）是英语里真实存在的说法，the balance tipped towards the smaller companies 也讲得通。测 E2 一词多义混淆：tip 偏「使天平倾斜」，swing 偏「大幅转向」，两者都能配 the balance of power。"
+      },
+      {
+        "key": "C",
+        "text": "sway",
+        "correct": false,
+        "distractor_reason": "形近音近 + 义近（E3）：sway 与 swing 读音相近、意思都是「摆动」，学生想到 swing 的「摇动」义就会转去选它。测 E3 形近音近误选：sway towards 表示「倾向、倒向」，本句能通，但它不是本空要考的词。"
+      },
+      {
+        "key": "D",
+        "text": "swing",
+        "correct": true,
+        "distractor_reason": null
+      }
+    ],
+    "explanation": "【考场动作】先定主语：the balance of power（权力天平）。主语是 the balance / public opinion / the result 这类「局势、舆论」时，swing 取「转向、转变」义；主语换成 the rope / the door / his arm 这类实物才是「摆动、摇动」。本句说的是改革之后形势倒向谁，只能读成「转向」。再调词块：swing towards / swing against / the balance swings 是高考语料里现成的说法。\n【为什么选 D】the balance of power swung sharply towards the smaller companies —— 权力天平明显倒向规模较小的公司。这里 swing 是「转向、转变」，与 swing against、swing to the other side 同族；「摆动、摇动」那一义在「权力天平倒向谁」的语境里根本讲不通。\n【其他选项】A shift sharply towards 完全成立，而且是学生看到「倒向」时的第一反应，纯语感排不掉；题里要认的恰恰是 swing 这个能配 the balance of power 的动词，A 只能靠语感排除、不能靠搭配排除——这正是本题最难的地方。B tip the balance 是真实搭配，字面也讲得通，但它强调「使天平倾斜」这一动作，语境里说「形势大幅倒向」时语料用 swing。C sway 与 swing 读音相近、都是「摆动」义，属于形近音近误选；sway towards 讲「倾向、倒向」虽然能通，但不是本题要考的词。",
+    "trap_note": "陷阱来源：学生按 swing＝「摆动、摇动」的熟悉义去理解，看到「天平、倒向」也只想到「荡来荡去」，于是把 swing 划掉改填 shift、tip；或受 sway 的音近干扰选了 sway，把「形势的转向」误读成「立场的摇摆」。",
+    "tags": ["E1", "E7", "E2", "E3", "P2", "P4"]
+  }
+]

@@ -1,0 +1,754 @@
+[
+ {
+  "word_id": "w_address",
+  "headword": "address",
+  "ipa": "/əˈdres/",
+  "level": "T1",
+  "pos": [
+   "v",
+   "n"
+  ],
+  "target_sense": {
+   "sense_id": "s_address_v_handle",
+   "text": "处理、解决（问题、差距、隐患）",
+   "sense_level": "S2",
+   "error_mech": [
+    "E1"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "演讲、致辞",
+    "地址"
+   ],
+   "example": {
+    "en": "The new policy was introduced to address the widening gap between rich and poor.",
+    "zh": "新政策的出台是为了应对贫富之间日益扩大的差距。",
+    "source": "仿真例句 · 高考阅读议论文高频句式",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "address a problem",
+    "address the issue",
+    "address a concern",
+    "address the challenge"
+   ]
+  },
+  "old_sense": {
+   "sense_id": "s_address_v_handle",
+   "text": "处理、解决（问题、差距、隐患）"
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_address_v_handle",
+    "text": "处理、解决（问题、差距、隐患）",
+    "sense_level": "S2",
+    "is_trap": true,
+    "trap_of": [
+     "演讲、致辞",
+     "地址"
+    ]
+   },
+   {
+    "sense_id": "s_address_v_speech",
+    "text": "向…发表演说；向…讲话",
+    "sense_level": "S2",
+    "is_trap": false,
+    "trap_of": []
+   },
+   {
+    "sense_id": "s_address_v_title",
+    "text": "称呼、称谓（叫作某称呼）",
+    "sense_level": "S3",
+    "is_trap": true,
+    "trap_of": [
+     "演讲（addressed the audience）",
+     "地址"
+    ]
+   },
+   {
+    "sense_id": "s_address_n_speech",
+    "text": "演讲、致辞（发表的演说）",
+    "sense_level": "S3",
+    "is_trap": true,
+    "trap_of": [
+     "地址"
+    ]
+   },
+   {
+    "sense_id": "s_address_n_location",
+    "text": "地址；门牌号；收件地址",
+    "sense_level": "S1",
+    "is_trap": false,
+    "trap_of": []
+   }
+  ],
+  "confusable": [
+   "addressee",
+   "assess",
+   "addresses"
+  ],
+  "word_family": [
+   "address",
+   "addressee",
+   "addressable"
+  ],
+  "notes": "考场判断法：① 动词后面接 issue / problem / concern / gap / challenge 这类「问题类」名词 → 必是「处理、解决」义；② 接 audience / conference / meeting 这类「人、场合」→ 才是「演讲」义；③ 出现 deliver an address 或 address sb as → 分别是「致辞」与「称呼」；④ 整句是「请留下地址」这类行政语境 → 名词「地址」义。写作里表达「解决问题」优先用 address the problem，这是高考官方搭配，不要用 solve、handle 去顶替。",
+  "assigned_carrier": "C1",
+  "assigned_difficulty": "easy",
+  "replaces_question_id": "q_106"
+ },
+ {
+  "word_id": "w_conduct",
+  "headword": "conduct",
+  "ipa": "/kənˈdʌkt/",
+  "level": "T1",
+  "pos": [
+   "n",
+   "v"
+  ],
+  "target_sense": {
+   "sense_id": "s_conduct_v_perform",
+   "text": "进行、实施（调查与实验）",
+   "sense_level": "S2",
+   "error_mech": [
+    "E1"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "行为、举止"
+   ],
+   "example": {
+    "en": "The research team conducted a survey among students from different schools last term.",
+    "zh": "该研究团队上学期在来自不同学校的学生中开展了一项调查。",
+    "source": "仿真例句 · 高考阅读科研方法类高频句式",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "conduct a survey",
+    "conduct research",
+    "conduct an experiment",
+    "conduct an interview"
+   ]
+  },
+  "old_sense": {
+   "sense_id": "s_conduct_v_perform",
+   "text": "进行、实施（调查与实验）"
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_conduct_n_behavior",
+    "text": "行为方式、举止；操行",
+    "sense_level": "S1",
+    "is_trap": false,
+    "trap_of": []
+   },
+   {
+    "sense_id": "s_conduct_v_perform",
+    "text": "进行、实施（调查与实验）",
+    "sense_level": "S2",
+    "is_trap": true,
+    "trap_of": [
+     "行为、举止"
+    ]
+   },
+   {
+    "sense_id": "s_conduct_v_organize",
+    "text": "组织、筹办（活动与比赛）",
+    "sense_level": "S2",
+    "is_trap": true,
+    "trap_of": [
+     "行为、举止"
+    ]
+   },
+   {
+    "sense_id": "s_conduct_v_lead",
+    "text": "指挥、带领（乐队或队伍）",
+    "sense_level": "S3",
+    "is_trap": true,
+    "trap_of": [
+     "行为、举止"
+    ]
+   },
+   {
+    "sense_id": "s_conduct_v_oneself",
+    "text": "（conduct oneself）表现、举止",
+    "sense_level": "S4",
+    "is_trap": true,
+    "trap_of": [
+     "行为、举止"
+    ]
+   }
+  ],
+  "confusable": [
+   "conduit",
+   "confiscate",
+   "contract",
+   "deduct"
+  ],
+  "word_family": [
+   "conduct",
+   "conductor",
+   "conductive",
+   "conduction"
+  ],
+  "notes": "考场判断法：① 先定词性：出现在主语位置（the team conducts a survey）→ 动词义；出现在名词位置（his conduct was acceptable）→ 「行为、举止」义；② 动词后面接 survey / research / experiment / study / interview 这类「调查类名词」→ 「进行、实施」；接 a meeting / a ceremony / a competition → 「组织、筹办」；接 an orchestra / a choir → 「指挥」；③ conduct a survey 与 carry out a survey 意思相同，但高考语料更常用 conduct；④ conduct oneself「表现、举止」是固定搭配，只能整块记。",
+  "assigned_carrier": "C1",
+  "assigned_difficulty": "easy",
+  "replaces_question_id": "q_008"
+ },
+ {
+  "word_id": "w_issue",
+  "headword": "issue",
+  "ipa": "/ˈɪʃu:/",
+  "level": "T1",
+  "pos": [
+   "n",
+   "v"
+  ],
+  "target_sense": {
+   "sense_id": "s_issue_v_publish",
+   "text": "发行、出版（报刊、杂志）",
+   "sense_level": "S3",
+   "error_mech": [
+    "E1",
+    "E5"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "议题、争论点（有争议的重要话题）",
+    "问题、麻烦、隐患"
+   ],
+   "example": {
+    "en": "The magazine began to issue a special report on learning styles every year.",
+    "zh": "该杂志开始每年发行一份关于学习方式的特别报告。",
+    "source": "仿真例句 · 高考媒介与出版类话题",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "issue a report",
+    "issue a statement",
+    "issue a book",
+    "issue an order"
+   ]
+  },
+  "old_sense": {
+   "sense_id": "s_issue_v_publish",
+   "text": "发行、出版（报刊、杂志）"
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_issue_v_publish",
+    "text": "发行、出版（报刊、杂志）",
+    "sense_level": "S3",
+    "is_trap": true,
+    "trap_of": [
+     "议题、争论点（有争议的重要话题）",
+     "问题、麻烦、隐患"
+    ]
+   },
+   {
+    "sense_id": "s_issue_v_announce",
+    "text": "宣布、公布（声明、警告）",
+    "sense_level": "S4",
+    "is_trap": true,
+    "trap_of": [
+     "议题、争论点（有争议的重要话题）",
+     "问题、麻烦、隐患"
+    ]
+   },
+   {
+    "sense_id": "s_issue_n_topic",
+    "text": "议题、争论点（有争议的重要话题）",
+    "sense_level": "S1",
+    "is_trap": false,
+    "trap_of": []
+   },
+   {
+    "sense_id": "s_issue_n_problem",
+    "text": "问题、麻烦、隐患",
+    "sense_level": "S2",
+    "is_trap": true,
+    "trap_of": [
+     "议题、争论点（有争议的重要话题）"
+    ]
+   }
+  ],
+  "confusable": [
+   "tissue",
+   "issuing",
+   "matter"
+  ],
+  "word_family": [
+   "issue",
+   "issuing",
+   "issued",
+   "issuer"
+  ],
+  "notes": "考场判断法：① 主语是媒体、学校、机构（the magazine issued / the school issued）→ 动词义「发行、发布」，学生最容易在这里把 issue 想成名词「议题」；② 名词前有 major / controversial → 「议题、争论点」；③ 前有 a minor / no 修饰 → 「问题、麻烦、隐患」，多指具体毛病。",
+  "assigned_carrier": "C1",
+  "assigned_difficulty": "easy",
+  "replaces_question_id": "q_058"
+ },
+ {
+  "word_id": "w_plant",
+  "headword": "plant",
+  "ipa": "/plɑːnt/",
+  "level": "T1",
+  "pos": [
+   "n",
+   "v"
+  ],
+  "target_sense": {
+   "sense_id": "s_plant_n_factory",
+   "text": "工厂；（发电、炼化等）企业设施",
+   "sense_level": "S3",
+   "error_mech": [
+    "E1",
+    "E10"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "植物",
+    "种植"
+   ],
+   "example": {
+    "en": "The power plant near the river has promised to cut its emissions before the end of the decade.",
+    "zh": "河边的发电站已承诺在本十年结束前削减其排放。",
+    "source": "仿真例句 · 高考环保与能源话题高频句式",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "power plant",
+    "chemical plant",
+    "steel plant",
+    "nuclear plant"
+   ]
+  },
+  "old_sense": {
+   "sense_id": "s_plant_n_factory",
+   "text": "工厂；（发电、炼化等）企业设施"
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_plant_n_growth",
+    "text": "植物；草木等生物体",
+    "sense_level": "S1",
+    "is_trap": false,
+    "trap_of": []
+   },
+   {
+    "sense_id": "s_plant_v_grow",
+    "text": "种植、栽种（作物、树木）",
+    "sense_level": "S2",
+    "is_trap": false,
+    "trap_of": []
+   },
+   {
+    "sense_id": "s_plant_n_factory",
+    "text": "工厂；（发电、炼化等）企业设施",
+    "sense_level": "S3",
+    "is_trap": true,
+    "trap_of": [
+     "植物",
+     "种植"
+    ]
+   },
+   {
+    "sense_id": "s_plant_v_place",
+    "text": "安放、放置；植入（想法、猜疑）",
+    "sense_level": "S3",
+    "is_trap": true,
+    "trap_of": [
+     "种植"
+    ]
+   }
+  ],
+  "confusable": [
+   "planet",
+   "planter",
+   "plantation",
+   "plenty"
+  ],
+  "word_family": [
+   "plant",
+   "plantation",
+   "planter",
+   "plantable"
+  ],
+  "notes": "考场判断法：① 看 plant 前面有没有 power / chemical / steel / nuclear 这类行业修饰语，有就直接锁定「工厂、发电站」；② 看 plant 后面接的是 seeds / crops / trees（活的东西）还是 suspicion / an idea / a flag（想法、猜疑），前者是「种植」，后者是「安放、植入」；③ 话题涉及 pollution / emission / environment 时，plant 只能读成「工厂」，不能读成「植物」。",
+  "assigned_carrier": "C1",
+  "assigned_difficulty": "easy",
+  "replaces_question_id": "q_122"
+ },
+ {
+  "word_id": "w_represent",
+  "headword": "represent",
+  "ipa": "/ˌreprɪˈzent/",
+  "level": "T1",
+  "pos": [
+   "v"
+  ],
+  "target_sense": {
+   "sense_id": "s_represent_v_amount_to",
+   "text": "在数量或价值上等同于",
+   "sense_level": "S3",
+   "error_mech": [
+    "E1",
+    "E5"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "代表某人或某组织"
+   ],
+   "example": {
+    "en": "One extra ticket represents a full day of waiting for many passengers.",
+    "zh": "对许多乘客来说，多一张票就相当于多等一整天。",
+    "source": "仿真例句 · 高考阅读数据与比较类高频句式",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "represent the equivalent of",
+    "represent three months of work",
+    "represent one third of",
+    "amount to"
+   ]
+  },
+  "old_sense": {
+   "sense_id": "s_represent_v_amount_to",
+   "text": "在数量或价值上等同于"
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_represent_v_represent",
+    "text": "代表；代表某人或某组织",
+    "sense_level": "S1",
+    "is_trap": false,
+    "trap_of": []
+   },
+   {
+    "sense_id": "s_represent_v_symbolize",
+    "text": "象征、体现（某种意义）",
+    "sense_level": "S2",
+    "is_trap": true,
+    "trap_of": [
+     "代表某人或某组织"
+    ]
+   },
+   {
+    "sense_id": "s_represent_v_amount_to",
+    "text": "在数量或价值上等同于",
+    "sense_level": "S3",
+    "is_trap": true,
+    "trap_of": [
+     "代表某人或某组织"
+    ]
+   },
+   {
+    "sense_id": "s_represent_v_depict",
+    "text": "描绘、表现（以绘画或影像）",
+    "sense_level": "S3",
+    "is_trap": true,
+    "trap_of": [
+     "代表某人或某组织"
+    ]
+   }
+  ],
+  "confusable": [
+   "presentation",
+   "representative",
+   "repress",
+   "replace"
+  ],
+  "word_family": [
+   "represent",
+   "representation",
+   "representative",
+   "representative"
+  ],
+  "notes": "考场判断法：① 先看主语是人、组织还是物：主语是人或组织（two students were chosen to represent…）→ 「代表」；主语是物或抽象概念（the lotus…）→ 「象征、体现」；② 后面跟数字或数量（represent half of the cost）→ 「相当于、占」；③ 出现 in the form of 或 in the painting 时是「以…形式呈现」；④ 注意 representative 是形容词或名词（代表、代表人物），represent 才是动词，别把 representative of 当成 represent。",
+  "assigned_carrier": "C1",
+  "assigned_difficulty": "easy",
+  "replaces_question_id": "q_030"
+ },
+ {
+  "word_id": "w_consequence",
+  "headword": "consequence",
+  "ipa": "/ˈkɒnsɪkwəns/",
+  "level": "T1",
+  "pos": [
+   "n",
+   "adv"
+  ],
+  "target_sense": {
+   "sense_id": "s_consequence_n_importance",
+   "text": "重要性、紧要性",
+   "sense_level": "S3",
+   "error_mech": [
+    "E1",
+    "E6"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "结果、结局（某种行为带来的）"
+   ],
+   "example": {
+    "en": "Whether the meeting goes ahead is of little consequence to the rest of the plan.",
+    "zh": "会议是否照常举行，对计划的其他部分无关紧要。",
+    "source": "仿真例句 · 高考阅读高频句式",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "of little consequence",
+    "of no consequence",
+    "of great consequence",
+    "of much consequence"
+   ]
+  },
+  "old_sense": {
+   "sense_id": "s_consequence_n_importance",
+   "text": "重要性、紧要性"
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_consequence_n_result",
+    "text": "结果、结局（某种行为带来的）",
+    "sense_level": "S1",
+    "is_trap": false,
+    "trap_of": []
+   },
+   {
+    "sense_id": "s_consequence_n_importance",
+    "text": "重要性、紧要性",
+    "sense_level": "S3",
+    "is_trap": true,
+    "trap_of": [
+     "结果、结局（某种行为带来的）"
+    ]
+   },
+   {
+    "sense_id": "s_consequence_adv_therefore",
+    "text": "因此、所以（in consequence）",
+    "sense_level": "S4",
+    "is_trap": true,
+    "trap_of": [
+     "结果、结局（某种行为带来的）"
+    ]
+   }
+  ],
+  "confusable": [
+   "consequent",
+   "consequently",
+   "sequence"
+  ],
+  "word_family": [
+   "consequence",
+   "consequent",
+   "consequently",
+   "sequel"
+  ],
+  "notes": "考场判断法：① 前面有 the / its 且后面接 of + 从句 → 「结果、后果」；② 句中出现 of little / no / great consequence → 是「重要性、紧要性」，绝不译成「后果」；③ 看到 in consequence 单独作状语 → 相当于 therefore，是逻辑连接词，按「因此」读，不要当成名词。",
+  "assigned_carrier": "C1",
+  "assigned_difficulty": "mid",
+  "replaces_question_id": "q_046"
+ },
+ {
+  "word_id": "w_measure",
+  "headword": "measure",
+  "ipa": "/ˈmeʒə(r)/",
+  "level": "T1",
+  "pos": [
+   "n",
+   "v"
+  ],
+  "target_sense": {
+   "sense_id": "s_measure_n_criterion",
+   "text": "衡量…的尺度、标准",
+   "sense_level": "S3",
+   "error_mech": [
+    "E1",
+    "E2"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "尺寸、量度"
+   ],
+   "example": {
+    "en": "Exam scores are a useful measure of progress, but they are not the whole story.",
+    "zh": "考试成绩是衡量进步的有用尺度，但它不是全部。",
+    "source": "仿真例句 · 高考议论文高频句式",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "a measure of success",
+    "a measure of ability",
+    "not a measure of real progress",
+    "measure up to the standard"
+   ]
+  },
+  "old_sense": {
+   "sense_id": "s_measure_n_criterion",
+   "text": "衡量…的尺度、标准"
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_measure_v_measure",
+    "text": "测量、量（长度、重量、面积）",
+    "sense_level": "S1",
+    "is_trap": false,
+    "trap_of": []
+   },
+   {
+    "sense_id": "s_measure_n_step",
+    "text": "措施、办法（take measures to do）",
+    "sense_level": "S2",
+    "is_trap": true,
+    "trap_of": [
+     "尺寸、量度"
+    ]
+   },
+   {
+    "sense_id": "s_measure_n_size",
+    "text": "尺寸、量度（a measure of length）",
+    "sense_level": "S2",
+    "is_trap": true,
+    "trap_of": [
+     "措施、办法"
+    ]
+   },
+   {
+    "sense_id": "s_measure_n_criterion",
+    "text": "衡量…的尺度、标准",
+    "sense_level": "S3",
+    "is_trap": true,
+    "trap_of": [
+     "尺寸、量度"
+    ]
+   },
+   {
+    "sense_id": "s_measure_v_assess",
+    "text": "衡量、评估（影响与成效）",
+    "sense_level": "S3",
+    "is_trap": true,
+    "trap_of": [
+     "测量尺寸"
+    ]
+   }
+  ],
+  "confusable": [
+   "measurement",
+   "meter",
+   "measurable",
+   "meat"
+  ],
+  "word_family": [
+   "measure",
+   "measurement",
+   "measurable",
+   "measured"
+  ],
+  "notes": "考场判断法：① 先看单复数：measures（复数）+ to do sth → 「措施、办法」，这是高考最常考的搭配；② 看到 a measure of，后面是 length / weight / height / temperature → 「尺寸、量度」，是 success / ability / progress → 「衡量…的尺度」；③ 动词 measure 接 impact / effect / performance → 「衡量、评估」，不是「测量尺寸」；④ 注意 take measures to do sth 是应用文写作的固定搭配，后接动词原形，不要写成 take measures to doing。",
+  "assigned_carrier": "C1",
+  "assigned_difficulty": "mid",
+  "replaces_question_id": "q_016"
+ },
+ {
+  "word_id": "w_swing",
+  "headword": "swing",
+  "ipa": "/swɪŋ/",
+  "level": "T1",
+  "pos": [
+   "n",
+   "v"
+  ],
+  "target_sense": {
+   "sense_id": "s_swing_v_turn",
+   "text": "转向、转变（形势与舆论）",
+   "sense_level": "S2",
+   "error_mech": [
+    "E1",
+    "E7"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "摆动、摇动"
+   ],
+   "example": {
+    "en": "Public opinion swung sharply against the plan as soon as the news broke.",
+    "zh": "消息一传出，公众舆论就迅速转向反对该计划。",
+    "source": "仿真例句 · 高考阅读社会与议论文高频句式",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "swing against",
+    "swing to the other side",
+    "the balance swings",
+    "swing wildly"
+   ]
+  },
+  "old_sense": {
+   "sense_id": "s_swing_v_turn",
+   "text": "转向、转变（形势与舆论）"
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_swing_v_move",
+    "text": "摆动、摇动；来回摆动",
+    "sense_level": "S1",
+    "is_trap": false,
+    "trap_of": []
+   },
+   {
+    "sense_id": "s_swing_v_turn",
+    "text": "转向、转变（形势与舆论）",
+    "sense_level": "S2",
+    "is_trap": true,
+    "trap_of": [
+     "摆动、摇动"
+    ]
+   },
+   {
+    "sense_id": "s_swing_n_change",
+    "text": "大幅转变、转向（a swing in the balance）",
+    "sense_level": "S3",
+    "is_trap": true,
+    "trap_of": [
+     "摆动、摇动"
+    ]
+   },
+   {
+    "sense_id": "s_swing_v_hit",
+    "text": "挥击、猛打",
+    "sense_level": "S3",
+    "is_trap": true,
+    "trap_of": [
+     "摆动、摇动"
+    ]
+   },
+   {
+    "sense_id": "s_swing_n_playground",
+    "text": "秋千（复数 swings）",
+    "sense_level": "S2",
+    "is_trap": true,
+    "trap_of": [
+     "大幅转变、转向"
+    ]
+   }
+  ],
+  "confusable": [
+   "switch",
+   "sweep",
+   "swivel",
+   "swipe"
+  ],
+  "word_family": [
+   "swing",
+   "swinging",
+   "swinger",
+   "swing"
+  ],
+  "notes": "考场判断法：① 先看主语：the rope / the door / his arm → 「摆动」；the balance / public opinion / the result → 「转向、转变」；② 看到 swing at sb 或 swing a bat → 「挥击、猛打」；③ 看到 a swing in the balance / a swing in mood → 名词「大幅转变」；④ 注意词形 swing-swung-swung 是语法填空高频，名词复数 swings 是「秋千」，别当成动词第三人称。",
+  "assigned_carrier": "C1",
+  "assigned_difficulty": "mid",
+  "replaces_question_id": "q_034"
+ }
+]

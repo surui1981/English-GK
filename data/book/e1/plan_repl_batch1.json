@@ -1,0 +1,749 @@
+[
+ {
+  "word_id": "w_account",
+  "headword": "account",
+  "ipa": "/əˈkaʊnt/",
+  "level": "T1",
+  "pos": [
+   "n",
+   "v",
+   "phrase"
+  ],
+  "target_sense": {
+   "sense_id": "s_account_v_explain",
+   "text": "（account for）解释、说明原因",
+   "sense_level": "S2",
+   "error_mech": [
+    "E1",
+    "E4"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "账户、账目"
+   ],
+   "example": {
+    "en": "The storm is thought to account for most of the damage to the old bridge.",
+    "zh": "人们认为风暴是旧桥大部分损毁的原因。",
+    "source": "仿真例句 · 高考阅读因果分析类高频句式",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "account for the delay",
+    "account for the difference",
+    "this accounts for",
+    "how do you account for"
+   ]
+  },
+  "old_sense": {
+   "sense_id": "s_account_v_explain",
+   "text": "（account for）解释、说明原因"
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_account_v_proportion",
+    "text": "（account for）占（比例）、构成",
+    "sense_level": "S2",
+    "is_trap": true,
+    "trap_of": [
+     "账户、账目"
+    ]
+   },
+   {
+    "sense_id": "s_account_v_explain",
+    "text": "（account for）解释、说明原因",
+    "sense_level": "S2",
+    "is_trap": true,
+    "trap_of": [
+     "账户、账目"
+    ]
+   },
+   {
+    "sense_id": "s_account_n_report",
+    "text": "记述、描述（an account of）",
+    "sense_level": "S3",
+    "is_trap": true,
+    "trap_of": [
+     "账户、账目"
+    ]
+   },
+   {
+    "sense_id": "s_account_n_ledger",
+    "text": "账户、账目",
+    "sense_level": "S1",
+    "is_trap": false,
+    "trap_of": []
+   },
+   {
+    "sense_id": "s_account_phrase_on_account_of",
+    "text": "（on account of）因为、由于",
+    "sense_level": "S4",
+    "is_trap": true,
+    "trap_of": [
+     "账户、账目"
+    ]
+   }
+  ],
+  "confusable": [
+   "count",
+   "counter",
+   "discount",
+   "accountant"
+  ],
+  "word_family": [
+   "account",
+   "accountant",
+   "accountable",
+   "accountability"
+  ],
+  "notes": "考场判断法：① account for 是高考超高频词块，必须整块记，后面跟百分数（account for 40%）是「占比」，跟名词短语（account for the delay）是「解释原因」；② 看到 the / this + account of（a detailed account of）→ 「记述、描述」；③ 看到 bank / online / open an account → 「账户」；④ on account of = 因为，不是「关于账户」，这个介词短语最容易误读。",
+  "assigned_carrier": "C1",
+  "assigned_difficulty": "easy",
+  "replaces_question_id": "q_038"
+ },
+ {
+  "word_id": "w_capacity",
+  "headword": "capacity",
+  "ipa": "/kəˈpæsəti/",
+  "level": "T1",
+  "pos": [
+   "n"
+  ],
+  "target_sense": {
+   "sense_id": "s_capacity_n_ability",
+   "text": "能力、才能（做某事的本领）",
+   "sense_level": "S3",
+   "error_mech": [
+    "E1",
+    "E2"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "容量、容积",
+    "产能、生产能力"
+   ],
+   "example": {
+    "en": "Reading widely gives young people the capacity to think about problems in a wider context.",
+    "zh": "广泛阅读使年轻人有能力在更宏观的背景下思考问题。",
+    "source": "仿真例句 · 高考阅读议论文高频句式",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "the capacity to do sth",
+    "have the capacity for",
+    "human capacity",
+    "a capacity for learning"
+   ]
+  },
+  "old_sense": {
+   "sense_id": "s_capacity_n_ability",
+   "text": "能力、才能（做某事的本领）"
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_capacity_n_ability",
+    "text": "能力、才能（做某事的本领）",
+    "sense_level": "S3",
+    "is_trap": true,
+    "trap_of": [
+     "容量、容积",
+     "产能、生产能力"
+    ]
+   },
+   {
+    "sense_id": "s_capacity_n_volume",
+    "text": "容量、容积（能容纳的量）",
+    "sense_level": "S1",
+    "is_trap": false,
+    "trap_of": []
+   },
+   {
+    "sense_id": "s_capacity_n_role",
+    "text": "以…的身份、资格（充当…的身份）",
+    "sense_level": "S4",
+    "is_trap": true,
+    "trap_of": [
+     "能力、才能",
+     "容量、容积"
+    ]
+   },
+   {
+    "sense_id": "s_capacity_n_output",
+    "text": "产能、生产能力（系统可产出的规模）",
+    "sense_level": "S2",
+    "is_trap": true,
+    "trap_of": [
+     "容量、容积"
+    ]
+   }
+  ],
+  "confusable": [
+   "capable",
+   "capability",
+   "capture"
+  ],
+  "word_family": [
+   "capacity",
+   "capable",
+   "capability",
+   "capacitate"
+  ],
+  "notes": "考场判断法：① 先看 capacity 前面有没有 the 加上「人」：the capacity to do sth 是「做…的能力」，读成「容量」就全错；② 看到 in the capacity of sb 一律译成「以…的身份」，这是语法填空的固定考点，不能直译成「有能力」；③ 出现 full / seating / storage 是「容量」，出现 production 是「产能」，三者不可混读。",
+  "assigned_carrier": "C1",
+  "assigned_difficulty": "easy",
+  "replaces_question_id": "q_042"
+ },
+ {
+  "word_id": "w_critical",
+  "headword": "critical",
+  "ipa": "/ˈkrɪtɪkl/",
+  "level": "T1",
+  "pos": [
+   "adj"
+  ],
+  "target_sense": {
+   "sense_id": "s_critical_adj_essential",
+   "text": "至关重要的、决定性的（be critical to）",
+   "sense_level": "S2",
+   "error_mech": [
+    "E1",
+    "E4"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "批判的"
+   ],
+   "example": {
+    "en": "Clean water is critical to the health of every community in the region.",
+    "zh": "清洁的水对该地区每个社区的健康都至关重要。",
+    "source": "仿真例句 · 高考阅读说明文高频句式",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "be critical to",
+    "be critical for",
+    "a critical part",
+    "play a critical role"
+   ]
+  },
+  "old_sense": {
+   "sense_id": "s_critical_adj_essential",
+   "text": "至关重要的、决定性的（be critical to）"
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_critical_adj_critical",
+    "text": "批判的；批评的（be critical of）",
+    "sense_level": "S1",
+    "is_trap": false,
+    "trap_of": []
+   },
+   {
+    "sense_id": "s_critical_adj_essential",
+    "text": "至关重要的、决定性的（be critical to）",
+    "sense_level": "S2",
+    "is_trap": true,
+    "trap_of": [
+     "批判的"
+    ]
+   },
+   {
+    "sense_id": "s_critical_adj_serious",
+    "text": "危急的、危重的（critical condition）",
+    "sense_level": "S3",
+    "is_trap": true,
+    "trap_of": [
+     "批判的"
+    ]
+   },
+   {
+    "sense_id": "s_critical_adj_review",
+    "text": "评论界的；评论性的（critical acclaim）",
+    "sense_level": "S3",
+    "is_trap": true,
+    "trap_of": [
+     "批判的"
+    ]
+   }
+  ],
+  "confusable": [
+   "crucial",
+   "critic",
+   "critique",
+   "critically"
+  ],
+  "word_family": [
+   "critical",
+   "critic",
+   "criticize",
+   "criticism",
+   "critique"
+  ],
+  "notes": "考场判断法：① 先看介词：be critical of → 「对…持批评态度」；be critical to / for → 「对…至关重要」；② 看到 critical + condition / moment / stage / situation → 「危急的、危重的」，不是「批判的」；③ 看到 critical acclaim 或 critical reviews → 「评论界的（好评）」；④ 注意 be critical to do 与 be critical for sth 的区别：前者是「必须做某事」，后者是「对某物重要」。",
+  "assigned_carrier": "C1",
+  "assigned_difficulty": "easy",
+  "replaces_question_id": "q_012"
+ },
+ {
+  "word_id": "w_nerve",
+  "headword": "nerve",
+  "ipa": "/nɜ:v/",
+  "level": "T1",
+  "pos": [
+   "n",
+   "v"
+  ],
+  "target_sense": {
+   "sense_id": "s_nerve_n_courage",
+   "text": "勇气、胆量（敢做某事）",
+   "sense_level": "S3",
+   "error_mech": [
+    "E1",
+    "E4"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "神经"
+   ],
+   "example": {
+    "en": "It takes real nerve to speak up when the whole class is watching.",
+    "zh": "全班都在看着的时候敢开口，需要真正的勇气。",
+    "source": "仿真例句 · 高考完形填空高频句式",
+    "carrier": "C2"
+   },
+   "collocations": [
+    "have the nerve to do",
+    "lose one's nerve",
+    "pluck up the nerve",
+    "the nerve to try"
+   ]
+  },
+  "old_sense": {
+   "sense_id": "s_nerve_n_courage",
+   "text": "勇气、胆量（敢做某事）"
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_nerve_n_fibre",
+    "text": "神经（人体内的传导组织）",
+    "sense_level": "S1",
+    "is_trap": false,
+    "trap_of": []
+   },
+   {
+    "sense_id": "s_nerve_n_courage",
+    "text": "勇气、胆量（敢做某事）",
+    "sense_level": "S3",
+    "is_trap": true,
+    "trap_of": [
+     "神经"
+    ]
+   },
+   {
+    "sense_id": "s_nerve_v_irritate",
+    "text": "使…恼火、刺激（让人烦躁）",
+    "sense_level": "S4",
+    "is_trap": true,
+    "trap_of": [
+     "神经（字面义）"
+    ]
+   },
+   {
+    "sense_id": "s_nerve_v_embolden",
+    "text": "使鼓起勇气、给…壮胆",
+    "sense_level": "S4",
+    "is_trap": true,
+    "trap_of": [
+     "神经（字面义）",
+     "勇气（名词义）"
+    ]
+   }
+  ],
+  "confusable": [
+   "nervous",
+   "nurture",
+   "sneak"
+  ],
+  "word_family": [
+   "nerve",
+   "nervous",
+   "nervously",
+   "nerveless"
+  ],
+  "notes": "考场判断法：① 语境里出现 body / brain / muscle / pain / damaged → 神经义；② 出现 have the nerve to do、lose one's nerve、pluck up one's nerve → 勇气义，一律搭配 one's nerve 或 to do；③ get on sb's nerves 是「让某人烦躁」，不是「神经上的」；④ nerve 单数多指神经或勇气，nerves 复数多指情绪上的紧张。",
+  "assigned_carrier": "C1",
+  "assigned_difficulty": "easy",
+  "replaces_question_id": "q_104"
+ },
+ {
+  "word_id": "w_principle",
+  "headword": "principle",
+  "ipa": "/ˈprɪnsəpl/",
+  "level": "T1",
+  "pos": [
+   "n",
+   "phrase"
+  ],
+  "target_sense": {
+   "sense_id": "s_principle_n_scientific",
+   "text": "原理、法则（科学原理）",
+   "sense_level": "S3",
+   "error_mech": [
+    "E1",
+    "E10"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "道德原则、准则"
+   ],
+   "example": {
+    "en": "The machine works on a simple principle that engineers discovered long ago.",
+    "zh": "这台机器基于工程师很久以前发现的一个简单原理运作。",
+    "source": "仿真例句 · 高考科普说明类高频句式",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "a scientific principle",
+    "the principle of supply and demand",
+    "basic scientific principles",
+    "an underlying principle"
+   ]
+  },
+  "old_sense": {
+   "sense_id": "s_principle_n_scientific",
+   "text": "原理、法则（科学原理）"
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_principle_n_rule",
+    "text": "原则、准则（做事的依据）",
+    "sense_level": "S1",
+    "is_trap": false,
+    "trap_of": []
+   },
+   {
+    "sense_id": "s_principle_n_moral",
+    "text": "道德准则、操守",
+    "sense_level": "S2",
+    "is_trap": true,
+    "trap_of": [
+     "科学原理"
+    ]
+   },
+   {
+    "sense_id": "s_principle_n_scientific",
+    "text": "原理、法则（科学原理）",
+    "sense_level": "S3",
+    "is_trap": true,
+    "trap_of": [
+     "道德原则、准则"
+    ]
+   },
+   {
+    "sense_id": "s_principle_phrase_in_principle",
+    "text": "（in principle）原则上",
+    "sense_level": "S4",
+    "is_trap": true,
+    "trap_of": [
+     "凭原则（on principle）"
+    ]
+   },
+   {
+    "sense_id": "s_principle_phrase_on_principle",
+    "text": "（on principle）凭原则做事",
+    "sense_level": "S4",
+    "is_trap": true,
+    "trap_of": [
+     "原则上（in principle）"
+    ]
+   }
+  ],
+  "confusable": [
+   "principal",
+   "principally",
+   "privilege",
+   "rule"
+  ],
+  "word_family": [
+   "principle",
+   "principled",
+   "principal"
+  ],
+  "notes": "考场判断法：① 先看领域：科学、技术、物理语境 → 「原理、法则」；道德、人格、诚信语境 → 「道德准则」；学校、制度、规则语境 → 「原则、准则」；② 注意两组介词必须整块记：in principle = 原则上，on principle = 凭原则做事，the principle of = …的原则；③ on the principle that 后面接整句，是「以…为原则」；④ principle（原则）≠ principal（主要的／校长），后者拼写多一个字母，含义完全不同，属于 E3 形近误判高发点。",
+  "assigned_carrier": "C1",
+  "assigned_difficulty": "easy",
+  "replaces_question_id": "q_028"
+ },
+ {
+  "word_id": "w_charge",
+  "headword": "charge",
+  "ipa": "/tʃɑ:dʒ/",
+  "level": "T1",
+  "pos": [
+   "n",
+   "v"
+  ],
+  "target_sense": {
+   "sense_id": "s_charge_v_accuse",
+   "text": "控告、以某罪名指控（某人）",
+   "sense_level": "S2",
+   "error_mech": [
+    "E1",
+    "E4"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "收费"
+   ],
+   "example": {
+    "en": "He was charged with cheating, but he was later cleared of all blame.",
+    "zh": "他被指控作弊，但后来洗清了所有嫌疑。",
+    "source": "仿真例句 · 高考阅读社会法治类高频句式",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "be charged with",
+    "charge sb with sth",
+    "face a charge",
+    "be charged with fraud"
+   ]
+  },
+  "old_sense": {
+   "sense_id": "s_charge_v_accuse",
+   "text": "控告、以某罪名指控（某人）"
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_charge_v_accuse",
+    "text": "控告、以某罪名指控（某人）",
+    "sense_level": "S2",
+    "is_trap": true,
+    "trap_of": [
+     "收费"
+    ]
+   },
+   {
+    "sense_id": "s_charge_n_responsibility",
+    "text": "掌管、负责（in charge of）",
+    "sense_level": "S4",
+    "is_trap": true,
+    "trap_of": [
+     "费用、收费"
+    ]
+   },
+   {
+    "sense_id": "s_charge_v_take_on",
+    "text": "承担、负责（某项任务）",
+    "sense_level": "S2",
+    "is_trap": true,
+    "trap_of": [
+     "收费"
+    ]
+   },
+   {
+    "sense_id": "s_charge_v_rush",
+    "text": "猛冲；扑上去",
+    "sense_level": "S3",
+    "is_trap": true,
+    "trap_of": [
+     "收费"
+    ]
+   },
+   {
+    "sense_id": "s_charge_v_fee",
+    "text": "收费；给…充电",
+    "sense_level": "S1",
+    "is_trap": false,
+    "trap_of": []
+   }
+  ],
+  "confusable": [
+   "discharge",
+   "charger",
+   "charm",
+   "change"
+  ],
+  "word_family": [
+   "charge",
+   "discharge",
+   "charger",
+   "recharge",
+   "charity"
+  ],
+  "notes": "考场判断法：① 先看介词和搭配：in charge of / take charge of → 「掌管、负责」；be charged with + 罪名 → 「指控」；be charged with + 任务 → 「承担、负责」；② charge sb for sth 是「向某人收费」，charge sb with sth 是「指控某人」，for 与 with 不能互换；③ free of charge 是唯一不表示「负责／指控」的搭配，意思是「免费」；④ 看到 charge at / charge into 就是「猛冲」，不是「收费」。",
+  "assigned_carrier": "C1",
+  "assigned_difficulty": "mid",
+  "replaces_question_id": "q_006"
+ },
+ {
+  "word_id": "w_flat",
+  "headword": "flat",
+  "ipa": "/flæt/",
+  "level": "T1",
+  "pos": [
+   "adj",
+   "n"
+  ],
+  "target_sense": {
+   "sense_id": "s_flat_adj_plain",
+   "text": "平淡乏味的、没劲的",
+   "sense_level": "S2",
+   "error_mech": [
+    "E1",
+    "E2"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "平坦的、水平的"
+   ],
+   "example": {
+    "en": "His voice was so flat that nobody in the audience could tell whether he was excited or not.",
+    "zh": "他的语调如此平淡，听众里没有一个人能看出他到底兴奋与否。",
+    "source": "仿真例句 · 高考记叙与描写类高频",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "a flat voice",
+    "a flat story",
+    "a flat atmosphere",
+    "fall flat"
+   ]
+  },
+  "old_sense": {
+   "sense_id": "s_flat_adj_plain",
+   "text": "平淡乏味的、没劲的"
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_flat_adj_plain",
+    "text": "平淡乏味的、没劲的",
+    "sense_level": "S2",
+    "is_trap": true,
+    "trap_of": [
+     "平坦的、水平的"
+    ]
+   },
+   {
+    "sense_id": "s_flat_adj_level",
+    "text": "平坦的、水平的",
+    "sense_level": "S1",
+    "is_trap": false,
+    "trap_of": []
+   },
+   {
+    "sense_id": "s_flat_n_apartment",
+    "text": "公寓（单元房）",
+    "sense_level": "S3",
+    "is_trap": true,
+    "trap_of": [
+     "平坦的、水平的",
+     "平淡乏味的、没劲的"
+    ]
+   },
+   {
+    "sense_id": "s_flat_adj_uniform",
+    "text": "划一的、不分等级的（费率）",
+    "sense_level": "S4",
+    "is_trap": true,
+    "trap_of": [
+     "平坦的、水平的"
+    ]
+   }
+  ],
+  "confusable": [
+   "flatter",
+   "float",
+   "fleet"
+  ],
+  "word_family": [
+   "flat",
+   "flatly",
+   "flatten",
+   "flatter",
+   "flatness"
+  ],
+  "notes": "考场判断法：① 修饰 story / voice / atmosphere / joke → 形容词「平淡乏味的」，这是完形里 flat 的主要用法；② 修饰 plain / surface / land → 「平坦的、水平的」；③ 前面有 a / the 并指住处（a studio flat）→ 名词「公寓」；④ 修饰 rate / fee → 固定搭配「划一的」。flat 全靠后面接的名词分辨。",
+  "assigned_carrier": "C1",
+  "assigned_difficulty": "mid",
+  "replaces_question_id": "q_054"
+ },
+ {
+  "word_id": "w_prove",
+  "headword": "prove",
+  "ipa": "/pru:v/",
+  "level": "T1",
+  "pos": [
+   "v"
+  ],
+  "target_sense": {
+   "sense_id": "s_prove_v_manifest",
+   "text": "展现、显出（某种品质或实力）",
+   "sense_level": "S2",
+   "error_mech": [
+    "E2",
+    "E8"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "证明、证实（需要证据的语境）"
+   ],
+   "example": {
+    "en": "The young athlete proved her courage by finishing the race despite the injury.",
+    "zh": "这位年轻运动员不顾伤病跑完全程，展现了勇气。",
+    "source": "仿真例句 · 高考阅读人物类高频句式",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "prove one's worth",
+    "prove oneself",
+    "prove his ability",
+    "prove true"
+   ]
+  },
+  "old_sense": {
+   "sense_id": "s_prove_v_manifest",
+   "text": "展现、显出（某种品质或实力）"
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_prove_v_confirm",
+    "text": "证明、证实（用证据说明命题成立）",
+    "sense_level": "S1",
+    "is_trap": false,
+    "trap_of": []
+   },
+   {
+    "sense_id": "s_prove_v_manifest",
+    "text": "展现、显出（某种品质或实力）",
+    "sense_level": "S2",
+    "is_trap": true,
+    "trap_of": [
+     "证明、证实（需要证据的语境）"
+    ]
+   },
+   {
+    "sense_id": "s_prove_v_turn_out",
+    "text": "结果证明是、原来是",
+    "sense_level": "S3",
+    "is_trap": true,
+    "trap_of": [
+     "证明、证实（拿证据去验证的读法）"
+    ]
+   }
+  ],
+  "confusable": [
+   "improve",
+   "approve",
+   "proof"
+  ],
+  "word_family": [
+   "prove",
+   "proven",
+   "proved",
+   "proof"
+  ],
+  "notes": "考场判断法：① 先看宾语是不是「命题、说法、理论」——是则是「证明、证实」；② 宾语是人或品质（courage、ability、oneself）→ 「展现、显出」；③ 后面是 to be 加名词或形容词，或者 prove 加形容词（prove difficult / prove useful），结果是「结果是…、原来是…」，不必真有证据；④ 语法填空里 prove to be 是不加 to 不加 be 的高频结构，只写 prove 拿不到分。",
+  "assigned_carrier": "C1",
+  "assigned_difficulty": "mid",
+  "replaces_question_id": "q_100"
+ }
+]

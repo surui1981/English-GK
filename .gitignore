@@ -1,0 +1,23 @@
+# macOS 系统文件
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.venv/
+venv/
+
+# 编辑器 / IDE
+.vscode/
+.idea/
+*.swp
+
+# 临时分析目录（保留本机，不入库）
+research/
+
+# 注意：本仓库为 Private，允许入库教材原文件与素材库。
+# 若将来转为 Public，必须先移除以下内容（见 README「版权与合规红线」）：
+#   *.doc  *.docx  *.xls  新人教单词默写卡片/
+#   data/word_material.json  data/textbook_lexicon.json  data/legacy_lexicon.json

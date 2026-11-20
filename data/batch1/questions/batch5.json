@@ -1,0 +1,1882 @@
+[
+ {
+  "id": "q_161",
+  "sense_id": "s_contest_v_compete",
+  "word_id": "w_contest",
+  "carrier": "C1",
+  "module": "E6_语境推断失败",
+  "difficulty": "hard",
+  "expected_accuracy": [
+   0.15,
+   0.45
+  ],
+  "stem": "None of the five young teams had won the title before, yet each of them ______ the championship with a mixture of confidence and nerves.",
+  "stem_cn": "这五支年轻队此前谁也没有拿过冠军，如今却都怀着紧张与自信去争夺这项冠军头衔。",
+  "options": [
+   {
+    "key": "A",
+    "text": "defend",
+    "correct": false,
+    "distractor_reason": "「卫冕」义的干扰。defend the championship 是真实搭配，语法与语义都成立，学生看到 teams…championship 很容易想到守擂；测 E6 语境推断：句首 None of them had won the title before 说的是「从未夺冠」，守擂的前提不成立。"
+   },
+   {
+    "key": "B",
+    "text": "contest",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "C",
+    "text": "compete",
+    "correct": false,
+    "distractor_reason": "语义最近但结构错。compete for / in the championship 才是搭配，本句没有介词，compete the championship 不成立；测 E4 搭配记忆：认不认识 contest the championship 这一整块。"
+   },
+   {
+    "key": "D",
+    "text": "challenge",
+    "correct": false,
+    "distractor_reason": "「质疑、对抗」义的干扰，challenge the championship 语法能站住，语感也说得通；测 E6：challenge 暗含已有对手要挑战，而语境是首次参赛、靠团队去拼，不是去挑战在位者。"
+   }
+  ],
+  "explanation": "【考场动作】先看宾语：the championship 是「可以争取的名位」，接名次、奖项、冠军的动词才可能是「参加竞逐」；接说法、决定才是「提出异议」。再读句首 None of them had won the title before，「从未夺冠」直接排掉「卫冕」。\n【为什么选 B】contest the championship 与 contest for the title 是高考语料的标准说法，指竞逐冠军；句中写的是一群首次参赛的年轻人带着紧张与自信去拼这个头衔。\n【其他选项】A defend the championship 是「卫冕」，语法与语义都成立，可它要求已持有头衔，与「从未夺冠」矛盾；C compete 必须配 for 或 in，本句无介词，属搭配错；D challenge the championship 预设已有对手，与「首次参赛」的线索不符。",
+  "trap_note": "陷阱来源：学生把 contest 一律读成「赛事、比赛」或「质疑」，看到 championship 就滑向 defend、challenge 这类同方向动词；或者在「参赛」与「提出异议」之间摇摆，落进 compete 这类只差介词的搭配错。",
+  "tags": [
+   "E6",
+   "P2",
+   "P4"
+  ]
+ },
+ {
+  "id": "q_162",
+  "sense_id": "s_contest_v_dispute",
+  "word_id": "w_contest",
+  "carrier": "C2",
+  "module": "E2_一词多义混淆",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "Several parents ______ the teacher's decision to cancel the reading test, arguing that the marking had been far too lenient.",
+  "stem_cn": "几位家长质疑老师取消阅读测试的决定，认为评分实在太宽松。",
+  "options": [
+   {
+    "key": "A",
+    "text": "reject",
+    "correct": false,
+    "distractor_reason": "语义近的干扰。reject the decision 读起来完全说得通，但 reject 的习惯宾语是 offer / proposal / application 这类「提议、申请」，「否决一个决定」不是它的固定搭配。测 E4 搭配缺失。"
+   },
+   {
+    "key": "B",
+    "text": "question",
+    "correct": false,
+    "distractor_reason": "语义最近、语感全通的干扰，question the decision 在英语里成立，纯语感排不掉；测 E2：学生是否知道 contest 接「决定、说法」时是「提出异议」义，而不是把 contest 理解成「比赛」后另找近义词。"
+   },
+   {
+    "key": "C",
+    "text": "oppose",
+    "correct": false,
+    "distractor_reason": "语义近（反对），oppose the teacher's decision 语法与语感都成立；测高考实际用词：对别人的决定、说法提出异议固定用 contest the decision / contest a claim，oppose 偏「公开反对某个做法」。"
+   },
+   {
+    "key": "D",
+    "text": "contest",
+    "correct": true,
+    "distractor_reason": null
+   }
+  ],
+  "explanation": "【考场动作】先圈宾语：the teacher's decision 属于「决定、说法」这类抽象内容，后面用 of 引导具体理由（arguing that…），这类宾语都指向「提出异议」义。再看语境：家长在公开质疑老师的处理，不是法庭上起诉，也不是两队比赛。\n【为什么选 D】contest the decision 意为「对……的决定提出异议」，与后半句 arguing that the marking had been far too lenient 正好构成「质疑—理由」的结构。\n【其他选项】A reject 语义近但搭配不对，它的固定宾语是 offer / proposal / application；B question 语感完全说得通，纯语感排不掉，只能靠 contest the decision 这一高考常用块定输赢；C oppose 同样成立，但高考语料中对「决定、说法」提出异议固定用 contest。",
+  "trap_note": "陷阱来源：学生把 contest 一律读成「比赛、赛事」，于是在「质疑决定」这个语境里退到 question、oppose、reject 这些泛化说法，丢掉 contest the decision / contest a claim 这一整块。",
+  "tags": [
+   "E2",
+   "P2",
+   "P4"
+  ]
+ },
+ {
+  "id": "q_163",
+  "sense_id": "s_exchange_n_interaction",
+  "word_id": "w_exchange",
+  "carrier": "C5",
+  "module": "E5_词性词形误判",
+  "difficulty": "hard",
+  "expected_accuracy": [
+   0.15,
+   0.45
+  ],
+  "stem": "Through a student ______ with a partner school abroad, she spent a year teaching in a small village far from home.",
+  "stem_cn": "通过与海外一所合作学校的交流项目，她在远离家乡的小村子里教了一年书。",
+  "options": [
+   {
+    "key": "A",
+    "text": "exchanged",
+    "correct": false,
+    "distractor_reason": "词形误判：学生把 exchange 当动词填成过去式／形容词，a student exchanged 后面缺中心语，句子结构立不住。测 E5 词性词形：a student 后面要接名词作定语。"
+   },
+   {
+    "key": "B",
+    "text": "programme",
+    "correct": false,
+    "distractor_reason": "语义近、语感完全说得通（a student programme 也可指「学生项目」）；测 E4 搭配：「交换生项目」固定说 a student exchange / exchange students，programme 只能泛指项目，考场要的是这一整块。"
+   },
+   {
+    "key": "C",
+    "text": "exchange",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "D",
+    "text": "swap",
+    "correct": false,
+    "distractor_reason": "同义干扰：swap 与 exchange 都可译作「交换」，但 swap 指两件具体实物对调，a student swap 讲不通；这里交换的是人和学制，必须落到名词词块上。测 E4 搭配缺失。"
+   }
+  ],
+  "explanation": "【考场动作】先定词性：空格在 a student ___ 里，a student 后面必须接名词作定语，动词、形容词填不进来。再看搭配：前面是 student，后面是 with a partner school abroad，讲的是「学生之间的交流项目」，这要整块背。\n【为什么选 C】a student exchange 与 exchange students 是高考语料的固定说法，指学生互派的交流项目；句中的 she 正是通过这个项目在国外教了一年书。\n【其他选项】A exchanged 是动词过去式兼形容词，作定语时缺中心语，结构直接塌；B programme 语感全通，a student programme 也讲得通，但「交换生项目」固定用 a student exchange，programme 只是泛指项目；D swap 指两件实物对调，a student swap 不成搭配。",
+  "trap_note": "陷阱来源：学生把 exchange 当成动词（a student exchanged）或同根形容词（exchangeable），填不进名词位置；也容易用 programme、swap 这类泛化说法绕开 a student exchange 这一固定词块。",
+  "tags": [
+   "E5",
+   "P4",
+   "P8"
+  ]
+ },
+ {
+  "id": "q_164",
+  "sense_id": "s_exchange_n_trade",
+  "word_id": "w_exchange",
+  "carrier": "C3",
+  "module": "E4_固定搭配缺失",
+  "difficulty": "hard",
+  "expected_accuracy": [
+   0.15,
+   0.45
+  ],
+  "stem": "Tourists are advised to check the ______ rate before they travel, because it can change sharply within a single day.",
+  "stem_cn": "建议旅游者出行前查看______汇率，因为一天之内就可能大幅变动。",
+  "options": [
+   {
+    "key": "A",
+    "text": "exchange",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "B",
+    "text": "current",
+    "correct": false,
+    "distractor_reason": "语义近、搭配也成立：the current rate 指「当前价」，语感完全说得通，纯语感排不掉；测 E4 固定块：the exchange rate 才是「两种货币之间的比价」，current 只说明「现在的」。"
+   },
+   {
+    "key": "C",
+    "text": "official",
+    "correct": false,
+    "distractor_reason": "语义近、语法也成立：the official rate 是「官方价／官方汇率」，是必须靠搭配记忆才能排掉的干扰项；测 E4：高考语料写「汇率」固定用 the exchange rate，official 只是限定「官方发布」。"
+   },
+   {
+    "key": "D",
+    "text": "currency",
+    "correct": false,
+    "distractor_reason": "词汇联想错误：the currency rate 不是英语搭配，「货币与货币之间的比价」在高考语料里就是 the exchange rate；测 E4 整块记忆，currency 与 exchange 不能同位使用。"
+   }
+  ],
+  "explanation": "【考场动作】先看空格的位置：the ___ rate，中间必须能直接放在 the 和 rate 之间，说明它要和 rate 组成一个固定的「汇率」词块。再看语境：一天之内就大幅变动、临行前才需要查的对象，只能是两种货币之间的比价。\n【为什么选 A】the exchange rate 是「汇率」的高考固定搭配（the exchange rate changed / rose / fell），必须整块记；此处 exchange 义为「兑换、汇兑」。\n【其他选项】B the current rate 语法与语义都成立，语感排不掉，但它只说「当前价」，没点明是货币比价；C the official rate 同样成立，纯语感更排除不了，只能靠 the exchange rate 这一固定块定输赢；D the currency rate 不是英语搭配，currency 与 exchange 不能同位。",
+  "trap_note": "陷阱来源：学生把「汇率」直译成 the currency rate、the money rate；或者用 current、official 这类只修饰「当前／官方」的形容词顶替固定词块 the exchange rate。",
+  "tags": [
+   "E4",
+   "P4",
+   "P2"
+  ]
+ },
+ {
+  "id": "q_165",
+  "sense_id": "s_abandon_phrase_oneself_to",
+  "word_id": "w_abandon",
+  "carrier": "C3",
+  "module": "E4_固定搭配缺失",
+  "difficulty": "hard",
+  "expected_accuracy": [
+   0.15,
+   0.45
+  ],
+  "stem": "In her deep grief she ______ herself to sorrow, refusing to speak to anyone for weeks.",
+  "stem_cn": "她深陷哀伤，放纵自己沉溺于悲恸，几周都不肯跟任何人说话。",
+  "options": [
+   {
+    "key": "A",
+    "text": "indulged",
+    "correct": false,
+    "distractor_reason": "搭配错：indulge oneself in sth 的介词是 in，indulged herself to sorrow 不成立。学生按「放纵」的语感选词却写错介词。测 E4 固定搭配。"
+   },
+   {
+    "key": "B",
+    "text": "abandoned",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "C",
+    "text": "devoted",
+    "correct": false,
+    "distractor_reason": "结构成立、语义偏正面：devote oneself to sth 是真实搭配，语感说得通，但它表示「致力于、献身于」，与 grief、sorrow 这类消极情绪不搭；测 E8 情感色彩加 E4 整块记忆。"
+   },
+   {
+    "key": "D",
+    "text": "abandons",
+    "correct": false,
+    "distractor_reason": "词形时态错：主语是过去时，谓语应用 abandoned（过去式与过去分词同形，且只有一个 n）；测 E5 词形拼写与变形。"
+   }
+  ],
+  "explanation": "【考场动作】先看句型：she ___ herself to …，中间夹着反身代词 herself，后面固定跟介词 to，这是不能拆的整块。再看 to 后面：sorrow 是情绪名词，与 grief、despair 同类，情绪词一出现就是「放纵自己沉溺于」义。\n【为什么选 B】abandon oneself to grief / despair 是固定搭配，指放纵自己沉溺于某种情绪；后半句 refusing to speak to anyone for weeks 正是沉溺的表现。\n【其他选项】A indulged 结构错，indulge oneself 后面接 in；C devoted 结构成立但色彩是「致力于、献身于」的正面意义，用在悲伤上不合语境，考场固定用 abandon oneself to；D abandons 是第三人称单数，句中主语为过去时，应用 abandoned（过去式与过去分词同形，只有一个 n）。",
+  "trap_note": "陷阱来源：学生只知道 abandon＝放弃，遇到 to + 情绪就换词；或写出 indulge oneself in、devote oneself to 这类结构相近但介词与色彩都不对的搭配；也可能把 abandoned 拼成 abandonned。",
+  "tags": [
+   "E4",
+   "P4",
+   "P8"
+  ]
+ },
+ {
+  "id": "q_166",
+  "sense_id": "s_abandon_v_leave",
+  "word_id": "w_abandon",
+  "carrier": "C1",
+  "module": "E1_熟词僻义",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "When the car broke down on the empty road, the driver had to ______ it and walk to the nearest village.",
+  "stem_cn": "车在空荡的路上抛锚后，驾驶员只能弃车步行到最近的村子。",
+  "options": [
+   {
+    "key": "A",
+    "text": "abandon",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "B",
+    "text": "leave",
+    "correct": false,
+    "distractor_reason": "语义近、句子完全说得通（had to leave it and walk to…），纯语感排不掉；测 E1：高考语料写「弃车」固定用 abandon the car / abandon a vehicle，leave 只是「离开」，没有把车丢下不管的意思。"
+   },
+   {
+    "key": "C",
+    "text": "quit",
+    "correct": false,
+    "distractor_reason": "学生按 abandon＝give up 的口语替身顺手写 quit；测 E1 熟词僻义加 E4 搭配：quit 的宾语是工作、课程、戒烟这类「主动不干」，接不了抛锚的车。"
+   },
+   {
+    "key": "D",
+    "text": "desert",
+    "correct": false,
+    "distractor_reason": "义近干扰：desert 也是「抛弃」，词义很近；但它的宾语只能是人、伙伴、故土，抛锚的车不是能被离弃的对象。测 E1：先圈宾语类别再定词义。"
+   }
+  ],
+  "explanation": "【考场动作】先圈宾语：it 指那辆在空路上抛锚的车。再看后半句 walk to the nearest village —— 人走了，车留在原地，这正是「弃下、撇下」的画面，而不是「放弃一个计划」。\n【为什么选 A】abandon the car / abandon a vehicle 是高考语料写「抛锚后弃车」的标准搭配，abandoned 作形容词时也是「被遗弃的」，与句意互证。\n【其他选项】B leave 语感完全说得通，纯语感排不掉，但 leave 只是「离开」，不含「丢下不管」的意味，考场要靠 abandon the car 这一整块；C quit 是 abandon＝give up 的口语替身，固定宾语是工作、课程、戒烟，接不了车；D desert 意思很近，但宾语只能是人、伙伴、故土。",
+  "trap_note": "陷阱来源：学生把 abandon 一律读成「放弃（计划、想法）」，于是套上 quit、give up 这类同义说法；或按「抛弃」义选 desert，忽略宾语是一辆抛锚的车。",
+  "tags": [
+   "E1",
+   "P2",
+   "P4"
+  ]
+ },
+ {
+  "id": "q_167",
+  "sense_id": "s_accuse_phrase_be_accused_of",
+  "word_id": "w_accuse",
+  "carrier": "C3",
+  "module": "E4_固定搭配缺失",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "The two students were ______ of copying the answers from the internet, and the school decided to punish them.",
+  "stem_cn": "两名学生被指控从网上抄袭答案，学校决定处罚他们。",
+  "options": [
+   {
+    "key": "A",
+    "text": "blamed",
+    "correct": false,
+    "distractor_reason": "搭配错：blame sb for sth 的介词是 for，were blamed of copying 不成立；学生把 accuse 的 of 和 blame 的 for 混用。测 E4 介词搭配。"
+   },
+   {
+    "key": "B",
+    "text": "suspected",
+    "correct": false,
+    "distractor_reason": "语义最近、完全说得通（were suspected of copying 是标准搭配），纯语感排不掉；测 E4 整块记忆与语境判断：后文 school decided to punish them 说明已是指控而非仅仅怀疑，考场固定用 be accused of。"
+   },
+   {
+    "key": "C",
+    "text": "charged",
+    "correct": false,
+    "distractor_reason": "搭配错：charge sb with sth（或 charge sb with an offence）用的是 with，接 of + 动名词的结构不成立；测 E4 介词与结构分辨。"
+   },
+   {
+    "key": "D",
+    "text": "accused",
+    "correct": true,
+    "distractor_reason": null
+   }
+  ],
+  "explanation": "【考场动作】先看句型：were ___ of + 动名词，是被动结构加介词短语，属于必须整块背的形式。再看 of 后面：copying the answers 是具体行为，属于可以被正式指控的内容。\n【为什么选 D】be accused of doing sth 是高考语料的标准结构（be accused of cheating / of theft / of lying），被指控的内容用动名词 carrying，句中正是 copying。\n【其他选项】A blamed 结构错，blame 的介词是 for；B suspected 语义几乎相同、语法也成立，纯语感排不掉，但后文「学校决定处罚他们」说明事情已到指控这一步，考场问「被控告什么」固定用 be accused of；C charged 介词是 with（charge sb with an offence），接不上 of + 动名词。",
+  "trap_note": "陷阱来源：学生把 of 换成 for（blame sb for sth）或 with（charge sb with sth）；也容易用 suspected of 这一语义几乎相同的结构顶替 be accused of，丢掉「正式指控」这一层。",
+  "tags": [
+   "E4",
+   "P4",
+   "P2"
+  ]
+ },
+ {
+  "id": "q_168",
+  "sense_id": "s_accuse_v_criticize",
+  "word_id": "w_accuse",
+  "carrier": "C1",
+  "module": "E1_熟词僻义",
+  "difficulty": "hard",
+  "expected_accuracy": [
+   0.15,
+   0.45
+  ],
+  "stem": "Many readers ______ the newspaper of filling its pages with sensational stories instead of reporting the facts carefully.",
+  "stem_cn": "许多读者指责这家报纸塞满耸人听闻的故事，而不认真核查事实。",
+  "options": [
+   {
+    "key": "A",
+    "text": "blame",
+    "correct": false,
+    "distractor_reason": "语义近、语感全通（责怪这家报纸），但固定搭配是 blame sb for sth，介词必须是 for，blame sb of 直接崩掉。测 E4 搭配缺失加 E1 义项判断。"
+   },
+   {
+    "key": "B",
+    "text": "charge",
+    "correct": false,
+    "distractor_reason": "承载 accuse 最熟悉的那层「法庭指控」义（charge sb with sth），学生会顺手写它；测 E1：语境是舆论批评而非起诉，且 charge 后面是 with，接不上 of。"
+   },
+   {
+    "key": "C",
+    "text": "accuse",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "D",
+    "text": "criticize",
+    "correct": false,
+    "distractor_reason": "语义近（批评这家报纸的做法），语法与语感都成立，但 criticize sb for sth 同样要求 for；测 E4 介词分辨：只有 accuse 后面能接 of。"
+   }
+  ],
+  "explanation": "【考场动作】先圈宾语：the newspaper 是一家报纸、一种做法，不是某个具体的人；再圈介词 of。再看全句语境：读者在公开批评媒体的办报方式，属于舆论语境，不是法庭语境。\n【为什么选 C】accuse sb of doing sth 既能接「机构、做法」，也能接具体内容（accuse the company of cheating），这里的 of 后接动名词短语，正是「指责某种做法」的用法。\n【其他选项】A blame 语义最近、语感全通，但固定搭配是 blame sb for sth；B charge 是 accuse 的法庭义（charge sb with sth），本句是舆论批评，且 with 接不上；D criticize 意思也近，可它同样要求 for 介词，只有 accuse 后面能接 of。",
+  "trap_note": "陷阱来源：学生只记得 accuse＝正式指控，以为它只能带人，于是改用 charge；或者按「责怪」的语感选了 blame、criticize，却没意识到这两个词的介词是 for 而不是 of。",
+  "tags": [
+   "E1",
+   "P4",
+   "P2"
+  ]
+ },
+ {
+  "id": "q_169",
+  "sense_id": "s_anticipate_phrase_it_is_anticipated",
+  "word_id": "w_anticipate",
+  "carrier": "C3",
+  "module": "E7_逻辑连接词误用",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "It is ______ that the number of people working from home will keep growing, as more companies offer flexible working arrangements.",
+  "stem_cn": "______，随着更多公司提供灵活的工作安排，居家办公的人数还将持续增长。",
+  "options": [
+   {
+    "key": "A",
+    "text": "anticipated",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "B",
+    "text": "argued",
+    "correct": false,
+    "distractor_reason": "逻辑方向不同：it is argued that 表示「有人提出这一观点、且存在争议」，说话人自己不站队；本句是说话人依据趋势作出中性预测。测 E7 报道动词的语义方向。"
+   },
+   {
+    "key": "C",
+    "text": "confirmed",
+    "correct": false,
+    "distractor_reason": "逻辑方向相反：it is confirmed that 是「已经得到证实」，而从句 will keep growing 说的是尚未发生的将来趋势。测 E7：看清「已证实」与「据预计」在时间与确定性上的差别。"
+   },
+   {
+    "key": "D",
+    "text": "suspected",
+    "correct": false,
+    "distractor_reason": "逻辑关系不同：it is suspected that 是「有人怀疑、并不相信」，与句中「越来越多」的正面趋势和 as… 的理由结构都不搭。测 E7 报道动词的判断方向。"
+   }
+  ],
+  "explanation": "【考场动作】先看框架：It is + 过去分词 + that 从句，这类被动报道句要求分词与从句的逻辑关系一致。再看从句：will keep growing 是对未来趋势的判断，事情还没发生；后半句 as more companies offer… 是给出预测的依据。\n【为什么选 A】it is anticipated that… 是「据预计、人们预料」的固定块，用于对趋势作中性预测，与从句的 will keep growing 完全吻合。\n【其他选项】B argued 是「有人提出观点、存在争议」，说话人不作判断；C confirmed 是「已经证实」，方向正好相反——从句说的是还没发生的事；D suspected 是「有人怀疑」，对趋势作否定判断，与句意相反。四个词形体都像，只有把报道动词的语义方向分清才能选对。",
+  "trap_note": "陷阱来源：学生只认 anticipate＝预料的主词用法，看到 It is ___ that 就随手填 expect、estimate；同时分不清 argued（存疑）、confirmed（已证实）、suspected（怀疑）与「预计」之间的逻辑方向差异。",
+  "tags": [
+   "E7",
+   "P4",
+   "P6"
+  ]
+ },
+ {
+  "id": "q_170",
+  "sense_id": "s_anticipate_v_look_forward",
+  "word_id": "w_anticipate",
+  "carrier": "C1",
+  "module": "E1_熟词僻义",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "Many students ______ meeting their old teachers again after years away, and some of them have already booked the journey home.",
+  "stem_cn": "许多学生盼望能与阔别多年的老师再见，有些人已经订好了回家的车票。",
+  "options": [
+   {
+    "key": "A",
+    "text": "foresee",
+    "correct": false,
+    "distractor_reason": "语义近、语法也通（foresee meeting them），但它偏「事先看出」，多带不好的预兆，与「盼望重逢」的色彩不符。测 E1 熟词僻义加 E8 色彩判断。"
+   },
+   {
+    "key": "B",
+    "text": "anticipate",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "C",
+    "text": "expect",
+    "correct": false,
+    "distractor_reason": "语义最近、后面接动名词完全合法，是 anticipate 最熟悉的那个义，纯语感排不掉；测 E1：anticipate 接动名词＝「期待、盼望」，是高考语料的固定词块，不能用泛化的 expect 顶替。"
+   },
+   {
+    "key": "D",
+    "text": "long",
+    "correct": false,
+    "distractor_reason": "语义近（渴望），long 后面必须接 for 或 to do（long for sth / long to do sth），接不上动名词。测 E4 搭配与结构。"
+   }
+  ],
+  "explanation": "【考场动作】先看空格后面的成分：meeting 是动名词。anticipate 后面接动名词时是「期待、盼望」，带主观愿望色彩；接 that 从句或名词（problems、results）才是中性的「预料」。再看语境：后文 already booked the journey home 说明是「盼着」，不是冷静推算。\n【为什么选 B】anticipate doing sth 是高考语料的固定搭配，与 expect doing 不同；「已经订好回家的车票」正是盼望重逢的表现。\n【其他选项】A foresee 意思近、语法也通，但偏「事先看出（多带坏消息）」，与「盼望」的色彩不符；C expect 后面接动名词完全合法，是最容易被选中的一项，纯语感排不掉——考点就在于 anticipate 接动名词＝「期待、盼望」这一层；D long 意思也近，但必须接 for 或 to do。",
+  "trap_note": "陷阱来源：学生把 anticipate 一律读成中性的「预料」，于是选 expect、foresee；或按「渴望」的语感写 long，却忽略了 long for / long to do 的结构要求。",
+  "tags": [
+   "E1",
+   "P2",
+   "P4"
+  ]
+ },
+ {
+  "id": "q_171",
+  "sense_id": "s_apart_phrase_apart_from",
+  "word_id": "w_apart",
+  "carrier": "C3",
+  "module": "E7_逻辑连接词误用",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "______ a few minor slips in spelling, her composition was well organized and easy to follow.",
+  "stem_cn": "除了几个拼写上的小错，她的作文结构清楚、条理易懂。",
+  "options": [
+   {
+    "key": "A",
+    "text": "Separate from",
+    "correct": false,
+    "distractor_reason": "语义近、逻辑关系不同：separate from 是「A 与 B 在空间上分开」，接的是地点、事物，不表达「除…之外其余如何」的排除关系。测 E7 逻辑连接词的语义方向。"
+   },
+   {
+    "key": "B",
+    "text": "Rather than",
+    "correct": false,
+    "distractor_reason": "逻辑方向相反：rather than 表示「而不是」，填进去整句会读成「而不是她的拼写小错，她的作文条理清楚」，关系正好拧反。测 E7 方向相反的连接词。"
+   },
+   {
+    "key": "C",
+    "text": "Apart from",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "D",
+    "text": "But for",
+    "correct": false,
+    "distractor_reason": "逻辑关系不同：but for + 名词短语是「要不是因为」，后面要接与事实相反的结果从句；本句讲的是「除…之外其余都好」，不是假设。测 E7 逻辑连接词的语义方向。"
+   }
+  ],
+  "explanation": "【考场动作】先看空格后面接的是什么：a few minor slips in spelling 是「被排除的那一项」，空格必须表示「除…之外，其余情况如何」的排除关系。再看从句 her composition was well organized…，除掉这一项之后其余都好，这正是 apart from 的用法。\n【为什么选 C】apart from 是「除…之外」的固定词块（apart from that / apart from these），后面接被排除的那一项，从句说其余部分的情况，结构完全吻合。\n【其他选项】A separate from 是「与…分开」，属空间关系，接地点或事物；B rather than 表「而不是」，把整句逻辑方向拧反；D but for 表「要不是因为」，后面要接与事实相反的结果，不能用来引出「其余都好」的补充说明。",
+  "trap_note": "陷阱来源：学生只按「除了」的直译去配词，把 apart from 与 separate from、rather than、but for 混用，没有看清空格后面是被排除项、后面从句说的是其余部分这一结构关系。",
+  "tags": [
+   "E7",
+   "P4",
+   "P8"
+  ]
+ },
+ {
+  "id": "q_172",
+  "sense_id": "s_apart_adv_broken",
+  "word_id": "w_apart",
+  "carrier": "C1",
+  "module": "E1_熟词僻义",
+  "difficulty": "hard",
+  "expected_accuracy": [
+   0.15,
+   0.45
+  ],
+  "stem": "The old wooden chair fell ______ the moment he sat down on it, and he had to lean against the wall.",
+  "stem_cn": "那把旧木椅他刚一坐下就散架了，他只好靠在墙上。",
+  "options": [
+   {
+    "key": "A",
+    "text": "down",
+    "correct": false,
+    "distractor_reason": "fall down 是真实搭配（人或整座楼倒下），语感说得通；测 E1 熟词僻义：fall down 不表示「结构坏了」，主语换成椅子也不成立，正确词块是 fall apart＝散架。"
+   },
+   {
+    "key": "B",
+    "text": "off",
+    "correct": false,
+    "distractor_reason": "fall off 也是真实搭配（从高处掉下来），学生会顺手写上；测 E4 搭配：fall off 后面必须接掉下来的东西（fall off the chair），本句后面跟的是 the moment 时间状语，结构接不上。"
+   },
+   {
+    "key": "C",
+    "text": "away",
+    "correct": false,
+    "distractor_reason": "fall away 是真实搭配（逐渐减少、褪色、远去），语感并不荒谬；测 E1 语境推断：句中结果是椅子坏掉，不是数量减少或颜色褪去，靠主语与结果可以排掉。"
+   },
+   {
+    "key": "D",
+    "text": "apart",
+    "correct": true,
+    "distractor_reason": null
+   }
+  ],
+  "explanation": "【考场动作】先看主语和结果：主语是 a chair，结果是「结构坏了」，不是人倒下、不是从高处掉落。再判断它属于哪个动词短语块：fall apart / come apart＝散架、裂开；fall down＝倒下；fall off＝从高处掉下；fall away＝逐渐减少。\n【为什么选 D】fall apart 是「（结构）散架、裂成碎块」的固定说法，与后面 he had to lean against the wall 的狼狈完全对应。\n【其他选项】A fall down 语法与语感都成立，可它指人倒下或楼倒塌，不表示散架；B fall off 后面必须接掉下来的东西，本句后面跟的是时间状语 the moment，结构接不上；C fall away 指逐渐减少或褪色，与椅子坏掉不是一回事。",
+  "trap_note": "陷阱来源：学生把 apart 一律读成「分开、隔开」，于是按语感选 fall down、fall off、fall away 这些同样真实的动词短语，没有锁定 fall apart＝散架这一整块。",
+  "tags": [
+   "E1",
+   "P4",
+   "P8"
+  ]
+ },
+ {
+  "id": "q_173",
+  "sense_id": "s_assemble_v_form",
+  "word_id": "w_assemble",
+  "carrier": "C1",
+  "module": "E6_语境推断失败",
+  "difficulty": "hard",
+  "expected_accuracy": [
+   0.15,
+   0.45
+  ],
+  "stem": "The school ______ a working group of teachers and parents to work out a reading plan for the coming term.",
+  "stem_cn": "学校组建了一个由教师和家长组成的工作小组，为下学期制定阅读计划。",
+  "options": [
+   {
+    "key": "A",
+    "text": "gather",
+    "correct": false,
+    "distractor_reason": "承载 assemble 的另一义项「集合」：gather a working group 语法能成立、语感也通，但 gather 讲人聚到一处，与「把人力组织成一个小组」方向不同。测 E6 语境推断。"
+   },
+   {
+    "key": "B",
+    "text": "assemble",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "C",
+    "text": "bring together",
+    "correct": false,
+    "distractor_reason": "语义近、句子完全说得通（the school brought together a working group…），纯语感排不掉；测高考实际用词：组建工作组／委员会固定用 assemble a working group / assemble a committee，bring together 只是泛化说法。"
+   },
+   {
+    "key": "D",
+    "text": "collect",
+    "correct": false,
+    "distractor_reason": "搭配错：collect 的宾语是 data、evidence、information 这类资料；assemble 虽有「收集、汇总」义，但那一义不接人，也不接「小组」。测 E2 一词多义混淆。"
+   }
+  ],
+  "explanation": "【考场动作】先看宾语：a working group of teachers and parents 是「一个被建立起来的组织单位」，动词后面要有「组建」的意味。再看语境：学校是把分散的老师和家长组织起来去 work out a plan，不是让已经存在的人「聚到某个地方」。\n【为什么选 B】assemble a working group / assemble a committee 是高考语料写「组建团队、委员会」的标准说法，比 gather 更强调「拼成一个整体」。\n【其他选项】A gather 是「聚集」，强调人到齐，与「组建」方向不同；C bring together 语感完全说得通，纯语感排不掉，但高考语料写「组建小组／委员会」固定用 assemble，bring together 只是泛化说法；D collect 的宾语是资料、数据，接不了「小组」，虽然 assemble 也有「收集、汇总」义，但那一义不搭人。",
+  "trap_note": "陷阱来源：学生把 assemble 一律读成「集合」，于是按 gather、bring together 的语感作答；或者看到 assemble 就想到「收集资料」的义项，用 collect 去顶。",
+  "tags": [
+   "E6",
+   "P2",
+   "P4"
+  ]
+ },
+ {
+  "id": "q_174",
+  "sense_id": "s_assemble_v_put_together",
+  "word_id": "w_assemble",
+  "carrier": "C1",
+  "module": "E1_熟词僻义",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "Each wooden toy in the shop is carefully ______ from small parts, so no two of them are exactly alike.",
+  "stem_cn": "店里的每一件木头玩具都是用小零件仔细拼装而成的，所以没有两件是完全一样的。",
+  "options": [
+   {
+    "key": "A",
+    "text": "assembled",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "B",
+    "text": "gathered",
+    "correct": false,
+    "distractor_reason": "熟词僻义陷阱：gather 是 assemble 最熟悉的「集合」义，gathered from small parts 语法通、语感也通，但 gather 表示聚拢，不是把零件拼成一个整体。测 E1 熟词僻义。"
+   },
+   {
+    "key": "C",
+    "text": "collected",
+    "correct": false,
+    "distractor_reason": "另一真实义项（收集、汇总）：assemble＝collect 的义项被搬来，collect 的宾语是资料、数据，接不了零件。测 E2 一词多义混淆。"
+   },
+   {
+    "key": "D",
+    "text": "put together",
+    "correct": false,
+    "distractor_reason": "语义近、句子完全说得通（is carefully put together from small parts），纯语感排不掉；测高考实际用词：实物拼装固定用 assemble / be assembled by hand，put together 只是泛化说法。"
+   }
+  ],
+  "explanation": "【考场动作】先看介词：from small parts 表明动作是把零件「拼成一个整体」，不是把材料「收集起来」。再看谓语：is carefully ___ 用被动，说明成品是被拼出来的，主语是玩具。\n【为什么选 A】assemble the parts / assemble a model / is assembled by hand 是高考语料写「组装、装配」的标准说法，和后半句 no two of them are exactly alike 的「每件都是拼出来的」互证。\n【其他选项】B gathered 是 assemble 最熟悉的「集合」义被搬过来，语法通、语感也通，可它表示聚拢；C collected 是 assemble 的「收集、汇总」义，宾语是资料、数据，接不了零件；D put together 语义完全说得通，纯语感排不掉，但实物拼装在高考语料里固定用 assemble 一词。",
+  "trap_note": "陷阱来源：学生把 assemble 读成「集合」，用 gathered 顶替；或按「收集」义选 collected，忽略了 from small parts 提示的「拼装」动作。",
+  "tags": [
+   "E1",
+   "P4",
+   "P8"
+  ]
+ },
+ {
+  "id": "q_175",
+  "sense_id": "s_assign_v_set_work",
+  "word_id": "w_assign",
+  "carrier": "C4",
+  "module": "E3_形近音近混淆",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "Notice: To keep up with the course, everyone will ______ two pages of reading and a brief summary every week.",
+  "stem_cn": "通知：为跟上课程进度，每人每周将______两页阅读材料并写一份简短摘要。",
+  "options": [
+   {
+    "key": "A",
+    "text": "assess",
+    "correct": false,
+    "distractor_reason": "形近音近最强干扰：assess 与 assign 共享 ass- 词根、读音也近，学生容易把「布置任务」误记成「评估」，而 assess the reading 甚至能讲成「评估阅读情况」。测 E3 形近音近与义项联想。"
+   },
+   {
+    "key": "B",
+    "text": "associate",
+    "correct": false,
+    "distractor_reason": "形近干扰：associate 与 assign 同为 ass- 词根开头，视觉上易混；但 associate a task with… 是「把任务与…联系起来」，接不上空格后面的 two pages of reading。测 E3 形近音近加搭配判断。"
+   },
+   {
+    "key": "C",
+    "text": "resign",
+    "correct": false,
+    "distractor_reason": "尾音形近：resign 与 assign 结尾同为 -ign，resign 在高考里高频（辞去职务），学生会顺手写出；但语义是「辞职」，与每周给学生的安排毫无关系。测 E3 形近音近。"
+   },
+   {
+    "key": "D",
+    "text": "assign",
+    "correct": true,
+    "distractor_reason": null
+   }
+  ],
+  "explanation": "【考场动作】先看宾语：two pages of reading and a brief summary 是「作业、阅读材料」，动词后面接这类东西才可能是「布置」；再看语境，动作在老师对学生这一侧。\n【为什么选 D】assign homework / assign a reading 是高考语料的固定搭配，给学生布置任务就用 assign sth to sb。\n【其他选项】A assess 与 assign 共享 ass- 词根、读音也近，assess the reading 还能讲成「评估阅读」，是最容易误选的一项，考点在 assign 是「布置」不是「评估」；B associate 同样共享 ass- 词根，但 associate a task with… 接不上后面的 two pages of reading；C resign 与 assign 尾音相同，resign 是「辞职」，与安排学生毫无关系。",
+  "trap_note": "陷阱来源：学生被 assign 的词形带偏，选了 ass- 开头的 assess、associate 或尾音相同的 resign；也有人把 assign 停在「分配经费」那一层，忽略宾语是阅读材料时应读「布置」。",
+  "tags": [
+   "E3",
+   "P4",
+   "P8"
+  ]
+ },
+ {
+  "id": "q_176",
+  "sense_id": "s_assign_v_allocate",
+  "word_id": "w_assign",
+  "carrier": "C3",
+  "module": "E4_固定搭配缺失",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "The head teacher will ______ a classroom to each new class and announce the arrangement on Friday.",
+  "stem_cn": "校长将给每个新班分配一间教室，并于周五公布安排。",
+  "options": [
+   {
+    "key": "A",
+    "text": "allot",
+    "correct": false,
+    "distractor_reason": "语义近、搭配也成立：allot sth to sb 是真实搭配，语感完全说得通，纯语感排不掉；测 E4 搭配记忆：高考语料写「分配教室、经费、任务」固定用 assign a room / assign a budget，allot 只是近义说法。"
+   },
+   {
+    "key": "B",
+    "text": "lend",
+    "correct": false,
+    "distractor_reason": "语义近、语法成立：lend sth to sb 是标准结构，学生会按「借给」的字面义顺手选它；测 E4：lend 是「借出、以后要还」，校长给班级的是长期归属，不是借用。"
+   },
+   {
+    "key": "C",
+    "text": "assign",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "D",
+    "text": "distribute",
+    "correct": false,
+    "distractor_reason": "语法成立（distribute sth to sb），但 distribute 的习惯宾语是钱、传单、食物这类可分发的实体，「分配教室」这个动作不这样说。测 E4 搭配缺失。"
+   }
+  ],
+  "explanation": "【考场动作】先圈宾语和介词：a classroom 是物，to each new class 说明动作是「把物分派给一方」，结构固定为 assign sth to sb。再看语境：校长给每个班定下教室，这是长期归属，不是临时借用。\n【为什么选 C】assign a room / assign a classroom / assign a budget 是高考语料写「分派、分配」的固定搭配，assign sth to sb 的语序方向要记牢。\n【其他选项】A allot 意思几乎相同、搭配也成立，纯语感排不掉，只能靠 assign a room 这一高考常用块定输赢；B lend 语法没问题，但 lend 是「借出、以后要还」，与学校给班级的长期归属不符；D distribute 的习惯宾语是钱、传单、食物这类可分发的实体，「分配教室」不这样说。",
+  "trap_note": "陷阱来源：学生只记得 assign＝「指派、委派某人」，于是选 lend、allot 这类「分给」的近义说法；没有意识到宾语是物、介词是 to 时 assign 本身就是「分配」，而且 assign a room 是固定块。",
+  "tags": [
+   "E4",
+   "P4",
+   "P2"
+  ]
+ },
+ {
+  "id": "q_177",
+  "sense_id": "s_captain_n_pilot",
+  "word_id": "w_captain",
+  "carrier": "C2",
+  "module": "E2_一词多义混淆",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "After circling in the thick cloud for an hour, the ______ of the aircraft finally asked the cabin crew to explain the delay to the passengers.",
+  "stem_cn": "在厚重的云层里盘旋了一个小时后，______终于请乘务组向乘客解释延误原因。",
+  "options": [
+   {
+    "key": "A",
+    "text": "captain",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "B",
+    "text": "pilot",
+    "correct": false,
+    "distractor_reason": "语义近、几乎重合：pilot 确实指飞机驾驶员，the pilot of the aircraft 语法与语感都通，纯语感排不掉；测 E2：这里要的是「机长」这一职务称呼（the captain of the aircraft / the flight captain），pilot 只指操纵飞机的驾驶员。"
+   },
+   {
+    "key": "C",
+    "text": "skipper",
+    "correct": false,
+    "distractor_reason": "承载 captain 的另一真实义项「船长」：skipper 是船长的口语说法，在航海语境里完全成立；测 E2 一词多义混淆，语境线索（aircraft、cabin crew、delay）锁死在航空，锁定机长义。"
+   },
+   {
+    "key": "D",
+    "text": "commander",
+    "correct": false,
+    "distractor_reason": "语义近（指挥官），the commander 语法与语感都通；测场景线索：高考语料里 commander 指军队指挥官，与民航客机、与乘务组说明延误的场景不搭。"
+   }
+  ],
+  "explanation": "【考场动作】先找场景线索：cloud、aircraft、cabin crew、delay 四个词一起出现，锁定航空场景。再看空格的指称：前面是 the，后面跟 of the aircraft，说明要填「这架飞机上的某个职务」，captain of the aircraft 是固定说法。\n【为什么选 A】captain of the aircraft / the flight captain 指机长，与「盘旋—延误—向乘客解释」的航空语境完全一致。\n【其他选项】B pilot 意思与机长几乎重合，语感排不掉，但 pilot 指操纵飞机的驾驶员，而 the captain of the aircraft 是职务称呼；C skipper 承载的是「船长」这一真实义项，航海语境内完全成立，语境却是飞机；D commander 语法与语感都通，可它在高考语料里指军队指挥官，场景线索对不上。",
+  "trap_note": "陷阱来源：学生把 captain 一律读成「队长、船长」，或者干脆用 pilot、commander 这类泛称顶替，忽略了 aircraft、cabin crew 这组把场景锁死在航空的线索。",
+  "tags": [
+   "E2",
+   "P2",
+   "P4"
+  ]
+ },
+ {
+  "id": "q_178",
+  "sense_id": "s_captain_n_ship_master",
+  "word_id": "w_captain",
+  "carrier": "C1",
+  "module": "E1_熟词僻义",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "The ______ of the fishing boat ordered the crew to lower the nets when the sea turned rough.",
+  "stem_cn": "海况转差时，渔船______命令船员把渔网收下来。",
+  "options": [
+   {
+    "key": "A",
+    "text": "skipper",
+    "correct": false,
+    "distractor_reason": "语义近、意思完全对得上：the skipper of the fishing boat 语法通、语感也通，纯语感排不掉；测 E4 整块记忆：高考语料写「船长」固定用 captain（the captain of the ship / a ship captain），skipper 偏口语。"
+   },
+   {
+    "key": "B",
+    "text": "captain",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "C",
+    "text": "master",
+    "correct": false,
+    "distractor_reason": "语义近（旧式或法律语域的船主）：the master of the fishing boat 语法与语感都成立，但那是旧时或法律用语，现代高考语料说船上负责人用 captain。测 E4 搭配缺失。"
+   },
+   {
+    "key": "D",
+    "text": "leader",
+    "correct": false,
+    "distractor_reason": "熟词僻义陷阱：学生只认 captain＝队长／领头人，顺手就选 leader；the leader of the fishing boat 语感居然也通，但船上负责人这一职务在英语里称 captain，不称 leader。测 E1 熟词僻义加 E6 语境推断。"
+   }
+  ],
+  "explanation": "【考场动作】先找场景线索：fishing boat、crew、nets、sea turned rough 全是航海信息，遇到船只词就直接锁定「船长」，不要一律读成「队长」。再看结构：the ___ of the fishing boat，指的是船上的负责人。\n【为什么选 B】the captain of the ship / a ship captain 是高考语料写「船长」的标准说法，与 ordered the crew 这样的船上指挥动作一致。\n【其他选项】A skipper 是船长的口语说法，意思完全对得上，语感排不掉，但那是口语体，考场固定用 captain；C master 在旧式或法律语域里指船主，今天的高考语料不用它写「船长」；D leader 是学生按 captain＝队长／领头人时顺手写的词，语义上勉强说得通，可船上负责人的职务名不是 leader。",
+  "trap_note": "陷阱来源：学生把 captain 一律当成「队长」，于是找 leader、skipper 这类同义说法；没有抓住 boats、crew、nets 这组把场景锁在海上的线索。",
+  "tags": [
+   "E1",
+   "P2",
+   "P4"
+  ]
+ },
+ {
+  "id": "q_179",
+  "sense_id": "s_conflict_phrase_conflict_of_interest",
+  "word_id": "w_conflict",
+  "carrier": "C3",
+  "module": "E4_固定搭配缺失",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "The judge withdrew from the case after it was reported that she had a ______ of interest in the outcome of the trial.",
+  "stem_cn": "有报道称这位法官与审判结果存在利害关系，随后她退出了这起案件。",
+  "options": [
+   {
+    "key": "A",
+    "text": "point",
+    "correct": false,
+    "distractor_reason": "搭配成立、语感通：a point of interest 是标准说法（兴趣点、关注点），纯语感排不掉；测 E4：这个法律概念固定用 a conflict of interest，point 只能指「关注点」，不是「利害关系」。"
+   },
+   {
+    "key": "B",
+    "text": "matter",
+    "correct": false,
+    "distractor_reason": "搭配成立、语感通：a matter of interest 是现成说法（引人关注的事），与 a ___ of interest 的结构完全吻合；测 E4 整块记忆：利益冲突只能译成 a conflict of interest，拆开逐字译就会错。"
+   },
+   {
+    "key": "C",
+    "text": "case",
+    "correct": false,
+    "distractor_reason": "语法通、字面像「一个有趣的案例」，语义方向却偏题：语境讲的是法官与案件结果有利害关系，属「利益冲突」，不是「案例」。测 E6 语境推断失败。"
+   },
+   {
+    "key": "D",
+    "text": "conflict",
+    "correct": true,
+    "distractor_reason": null
+   }
+  ],
+  "explanation": "【考场动作】先看情境：judge、withdrew from the case、outcome of the trial 说明这是法律与公职语境，说的不是「感兴趣的事」而是「利害关系」。再把空格连同 of interest 一起记：a conflict of interest 必须整块背。\n【为什么选 D】a conflict of interest 是「利益冲突」的法律固定说法，be in / have a conflict of interest 都是现成搭配，与「退出案件」吻合。\n【其他选项】A a point of interest 与 B a matter of interest 都成立、语感全通，纯语感排不掉，只能靠 a conflict of interest 这一整块定输赢；C a case of interest 语法通、字面像「有趣的案例」，但语境讲的是法官与结果有利害关系，方向是「利益」不是「案例」。",
+  "trap_note": "陷阱来源：学生看到 of interest 就往 point、matter 上靠，把「利益冲突」拆成「兴趣点」，没有把 a conflict of interest 当成一个不可拆的整体。",
+  "tags": [
+   "E4",
+   "P4",
+   "P8"
+  ]
+ },
+ {
+  "id": "q_180",
+  "sense_id": "s_conflict_n_inconsistency",
+  "word_id": "w_conflict",
+  "carrier": "C2",
+  "module": "E2_一词多义混淆",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "Investigators found a ______ between the two witness statements, and neither version could be supported by evidence.",
+  "stem_cn": "调查人员发现两份证人陈述之间存在矛盾，而两种说法都拿不出证据支持。",
+  "options": [
+   {
+    "key": "A",
+    "text": "disagreement",
+    "correct": false,
+    "distractor_reason": "语义近、语法成立：a disagreement between the witness statements 读得通，但 disagreement 指「意见不合」，是主体之间的分歧，而这里是两份陈述在事实层面互相排斥。测 E2 一词多义混淆。"
+   },
+   {
+    "key": "B",
+    "text": "clash",
+    "correct": false,
+    "distractor_reason": "承载 conflict 的另一真实义项「冲突、对立」：clash between A and B 是真实搭配，语感说得通，可语境讲的是两说互斥而不是两方对峙。测 E2 一词多义混淆。"
+   },
+   {
+    "key": "C",
+    "text": "conflict",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "D",
+    "text": "contradiction",
+    "correct": false,
+    "distractor_reason": "语义近、非常贴切：a contradiction between the two accounts 完全成立，是必须靠语料搭配记忆才能排掉的强干扰项；测 E4：高考描述「两说互相矛盾」固定用 conflict between accounts / a conflict of evidence，contradiction 更多用于「自相矛盾」。"
+   }
+  ],
+  "explanation": "【考场动作】先看主语：witness statements、neither version could be supported，说明冲突发生在「两份说法」之间，是事实层面的矛盾，不是两方对峙。再看搭配：a conflict between accounts 是新闻里的现成说法。\n【为什么选 C】conflict 在这里指「（两种说法、证据之间的）矛盾、分歧」，与后半句 neither version could be supported 互证。\n【其他选项】A disagreement 语感通，但指人之间的意见不合，而这里是两份陈述互相排斥；B clash 承载 conflict 的另一真实义项「冲突、对立」，可语境讲的是两说互斥；D contradiction 意思几乎一样、搭配也成立，要靠语料记忆才能排掉——高考写「两说互相矛盾」固定用 conflict between accounts。",
+  "trap_note": "陷阱来源：学生把 conflict 一律读成「争执、武装冲突」，于是选 clash、disagreement；或按「矛盾」的字面义选 contradiction，忽略 conflict between accounts / a conflict of evidence 这一固定说法。",
+  "tags": [
+   "E2",
+   "P2",
+   "P4"
+  ]
+ },
+ {
+  "id": "q_181",
+  "sense_id": "s_defeat_v_frustrate",
+  "word_id": "w_defeat",
+  "carrier": "C1",
+  "module": "E6_语境推断失败",
+  "difficulty": "hard",
+  "expected_accuracy": [
+   0.15,
+   0.45
+  ],
+  "stem": "Bad weather and endless delays ______ every plan the volunteers had made for holding the outdoor show that summer.",
+  "stem_cn": "恶劣的天气和没完没了的延误，把志愿者们为那个夏天举办露天演出所做的每一个计划都打碎了。",
+  "options": [
+   {
+    "key": "A",
+    "text": "defeat",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "B",
+    "text": "frustrate",
+    "correct": false,
+    "distractor_reason": "语义近、结构和语感都成立（frustrate every plan），是必须靠语料搭配记忆才能排掉的强干扰项；测 E6：高考语料写「使计划落空」固定用 defeat the plan / defeat expectations，frustrate 更常接人。"
+   },
+   {
+    "key": "C",
+    "text": "cancel",
+    "correct": false,
+    "distractor_reason": "语义近但与上下文矛盾：cancel 指主动取消还没执行的安排，而句中的计划 the volunteers had made 已经做好了，是被外力打散的，不是自己取消。测 E6 语境推断失败。"
+   },
+   {
+    "key": "D",
+    "text": "beat",
+    "correct": false,
+    "distractor_reason": "承载 defeat 的「击败」义：bad weather beat every plan 读起来像「打败」，可宾语是计划时 beat 根本不成立。测 E2 义项误判，这是把 defeat 一律读成「击败」的学生会选的项。"
+   }
+  ],
+  "explanation": "【考场动作】先圈宾语：every plan the volunteers had made —— 宾语是「计划」，不是对手或队伍，所以不可能是「击败」。再看定语 the volunteers had made：计划已经做好了，是被外力打散的，不是被取消的。\n【为什么选 A】defeat the plan / defeat one's hopes / defeat expectations 是高考语料写「使（希望、计划）落空」的固定说法，与 bad weather and endless delays 这两个外因对应。\n【其他选项】B frustrate 意思几乎一样、结构和语感都成立，纯语感排不掉，只能靠 defeat the plan 这一固定块定输赢；C cancel 与上下文矛盾——cancel 是主动取消还没做的事，而这里的计划「已经做好」；D beat 承载「击败」义，宾语换成计划时根本不成立。",
+  "trap_note": "陷阱来源：学生把 defeat 一律读成「击败」，于是选 beat、cancel；或者用 frustrate 这类语义等价的词顶替，没有记住 defeat the plan / defeat expectations 这一高考常用搭配。",
+  "tags": [
+   "E6",
+   "P4",
+   "P2"
+  ]
+ },
+ {
+  "id": "q_182",
+  "sense_id": "s_defeat_v_beat",
+  "word_id": "w_defeat",
+  "carrier": "C4",
+  "module": "E3_形近音近混淆",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "Dear Coach, if we win three more matches this season, our club will ______ the title another club has held for two years.",
+  "stem_cn": "尊敬的教练，如果本赛季我们再赢三场比赛，本俱乐部就能______那家俱乐部已经保持了两年的冠军头衔。",
+  "options": [
+   {
+    "key": "A",
+    "text": "defend",
+    "correct": false,
+    "distractor_reason": "卫冕义（confusable 列表词）：defend the title 是真实搭配，前面「已经保持两年」这句话也很能引出守擂的念头，语感极像；测语境推断：卫冕的前提是头衔已在自己手里，而这里冠军在 another club 手里，这是主动攻擂。"
+   },
+   {
+    "key": "B",
+    "text": "beat",
+    "correct": false,
+    "distractor_reason": "语义近：beat the champions 是真实搭配，语感也说得通；测搭配与语体：高考书信、新闻语域写「夺得冠军」固定用 defeat the championship，beat 更偏口语体育报道。"
+   },
+   {
+    "key": "C",
+    "text": "defect",
+    "correct": false,
+    "distractor_reason": "形近音近：defect 与 defeat 共享 def- 词根，但 defect 意为「叛离、离开组织」且是不及物动词（defect from an organization），接不了宾语。测 E3 形近音近与词性判断。"
+   },
+   {
+    "key": "D",
+    "text": "defeat",
+    "correct": true,
+    "distractor_reason": null
+   }
+  ],
+  "explanation": "【考场动作】先看语境：the title another club has held for two years —— 冠军在别人手里，所以是「赢下」而非「守住」。再判断词块：defeat the title 是「夺得」，defend the title 是「卫冕」。\n【为什么选 D】defeat the title / defeat the championship 是高考语料写「夺得冠军」的标准说法，前面 if we win three more matches 就是主动争取。\n【其他选项】A defend the title 是真实搭配，「已被别人保持两年」很能引出守擂的念头，考点是卫冕要求头衔已在自己手里，这里冠军在别人手里；B beat the champions 也成立，可高考语域写「夺冠」固定用 defeat；C defect 与 defeat 共享 def- 词根，但它是「叛离」且不及物，接不了宾语。",
+  "trap_note": "陷阱来源：学生把 defeat 一律读成「卫冕／守住」，或与 beat、defect 混；没有抓住「冠军在别人手里」这一语境线索，丢掉 defeat the title / defeat the championship 这一固定块。",
+  "tags": [
+   "E3",
+   "P4",
+   "P8"
+  ]
+ },
+ {
+  "id": "q_183",
+  "sense_id": "s_dominate_adj_dominant",
+  "word_id": "w_dominate",
+  "carrier": "C5",
+  "module": "E5_词性词形误判",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "Half the hillside had turned brown, and only a few ______ plants were left to hold the soil together with their stubborn roots.",
+  "stem_cn": "半边山坡已经枯黄，只剩少数占主导地位的植物，用它们倔强的根把土壤紧紧抓住。",
+  "options": [
+   {
+    "key": "A",
+    "text": "dominate",
+    "correct": false,
+    "distractor_reason": "词性误判：dominate 是动词原形，不能直接作定语修饰 plants，只能作谓语（these plants dominate the hillside）。测 E5 动词与形容词的分工。"
+   },
+   {
+    "key": "B",
+    "text": "dominant",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "C",
+    "text": "principal",
+    "correct": false,
+    "distractor_reason": "语义近、语感通：principal plants 语法成立，意思也接近「主要的」；测 E4 整块记忆：高考语料写「占主导地位的物种、力量、地位」固定用 dominant species / the dominant force。"
+   },
+   {
+    "key": "D",
+    "text": "dominantly",
+    "correct": false,
+    "distractor_reason": "词形后缀误判：dominantly 是副词，只能修饰动词，作定语位置立刻不成立；测 E5 副词与形容词的分辨，兼测拼写后缀。"
+   }
+  ],
+  "explanation": "【考场动作】先定词性：空格在名词短语里作定语，后面紧跟名词 plants，所以要形容词，不能填动词原形或副词。再看语义：a few ___ plants 与后文 hold the soil together 呼应，说明这些植物在群落中「占主导地位」，不是泛泛的「主要的」。\n【为什么选 B】dominant 是形容词「占主导地位的、居首位的」，dominant species / a dominant position 是高考语料的高频搭配。\n【其他选项】A dominate 是动词原形，a few dominate plants 结构不成立；C principal 语法与语感都通，意思也接近，但高考语料写「占主导地位的物种、力量、地位」固定用 dominant，principal 只说「主要的」；D dominantly 是副词，只能修饰动词，作定语位置立刻不成立。",
+  "trap_note": "陷阱来源：学生把动词 dominate 直接填进定语位置，或被 dominantly、principal 这些同根近形词带偏，没有先判断空格要的是形容词，再在「占主导地位的」这一义上落位。",
+  "tags": [
+   "E5",
+   "P6",
+   "P2"
+  ]
+ },
+ {
+  "id": "q_184",
+  "sense_id": "s_dominate_v_control_mind",
+  "word_id": "w_dominate",
+  "carrier": "C1",
+  "module": "E1_熟词僻义",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "In many exam situations, the candidate is so ______ by anxiety that simple questions are suddenly difficult to answer.",
+  "stem_cn": "在许多考试情境中，候选者被焦虑支配得那么厉害，连简单的问题都突然难以作答。",
+  "options": [
+   {
+    "key": "A",
+    "text": "controlled",
+    "correct": false,
+    "distractor_reason": "语义近、搭配也成立（controlled by anxiety 语法通），但 control 强调的是人为主动「控制」，与情绪自行压倒心思的情境不符。测 E1 熟词僻义加 E8 语气判断。"
+   },
+   {
+    "key": "B",
+    "text": "possessed",
+    "correct": false,
+    "distractor_reason": "语义近、搭配完全成立（possessed by anxiety 是极常见的说法），纯语感排不掉；测 E4 整块记忆：高考语料写「心思被情绪支配」固定用 be dominated by anxiety / dominated by fear。"
+   },
+   {
+    "key": "C",
+    "text": "dominated",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "D",
+    "text": "ruled",
+    "correct": false,
+    "distractor_reason": "语义近、ruled by anxiety 也是真实搭配，语感完全通；测搭配记忆与色彩：ruled 的色彩是「主宰、统治」，而 be dominated by 正好对应「情绪左右思绪」这一高考常用说法。"
+   }
+  ],
+  "explanation": "【考场动作】先看结构：is so ___ by anxiety，是被动加介词短语，空格填过去分词。再看与 by 短语的搭配：高考语料写「心思被情绪支配」固定用 be dominated by fear / by anxiety 这一整块。\n【为什么选 C】dominated by anxiety 意为「被焦虑支配」，与后半句 simple questions are suddenly difficult to answer 的因果关系吻合。\n【其他选项】A controlled by anxiety 语法与语感都成立，可它强调人为主动「控制」，与情绪自行压倒心思不符；B possessed by anxiety 是极常见的说法，纯语感排不掉，只能靠 be dominated by 这一固定块定输赢；D ruled by anxiety 同样成立、语感全通，考点仍是高考语料对「被情绪支配」的固定说法 dominate。",
+  "trap_note": "陷阱来源：学生把 dominate 只当成「主导市场、占据地位」，于是改用 controlled、possessed、ruled 这类同样能带的词，没有锁定 be dominated by anxiety 这一固定搭配。",
+  "tags": [
+   "E1",
+   "P4",
+   "P2"
+  ]
+ },
+ {
+  "id": "q_185",
+  "sense_id": "s_elegant_adj_refined",
+  "word_id": "w_elegant",
+  "carrier": "C2",
+  "module": "E2_一词多义混淆",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "The old building had been restored with ______ woodwork that the craftsmen had carved by hand over three summers.",
+  "stem_cn": "那栋老楼修复后装上了雅致考究的木雕，匠人们花了三个夏天一刀一刀刻出来。",
+  "options": [
+   {
+    "key": "A",
+    "text": "elegant",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "B",
+    "text": "graceful",
+    "correct": false,
+    "distractor_reason": "承载 elegant 的另一真实义项「优雅得体」：那是修饰举止、动作的义项，学生按「优雅」顺手套过来。测 E2 一词多义混淆，语境里 hand-carved woodwork 讲的是工艺讲究，不是举止。"
+   },
+   {
+    "key": "C",
+    "text": "ornate",
+    "correct": false,
+    "distractor_reason": "语义近、语感完全通：ornate woodwork 指装饰繁复华丽的木雕，纯语感排不掉；测 E4 整块记忆：高考语料写「雅致考究」固定用 elegant，ornate 的色彩偏浓重华饰。"
+   },
+   {
+    "key": "D",
+    "text": "ingenious",
+    "correct": false,
+    "distractor_reason": "承载 elegant 的另一真实义项「简洁巧妙」：ingenious woodwork 讲「精妙的设计与工艺」，语感也说得通；测 E2：语境说的是雕刻考究，不是设计巧妙。"
+   }
+  ],
+  "explanation": "【考场动作】先看被修饰的东西：woodwork，后面有 carved by hand over three summers，说明讲的是手工雕刻出来的、工艺讲究的装饰。再定义项：修饰器物时 elegant 是「雅致考究的」，修饰举止时才是「优雅得体」，修饰方案时是「简洁巧妙」。\n【为什么选 A】elegant furniture / an elegant design 是高考语料写「雅致考究」的搭配，hand-carved woodwork 正是这种讲究的器物工艺。\n【其他选项】B graceful 承载的是 elegant 的另一义项「优雅得体的」，那是修饰举止、动作的，hand-carved woodwork 讲的是工艺讲究；C ornate 语感完全说得通、语义也近，但色彩是繁复华丽，与「考究」方向不同；D ingenious 承载「简洁巧妙」义，指设计精妙，与雕刻工艺不对位。",
+  "trap_note": "陷阱来源：学生把 elegant 固定读成「优雅」，于是选 graceful；或按「精妙」义选 ingenious，忽略了被修饰的是器物工艺，只能落在「雅致考究」这一义项上。",
+  "tags": [
+   "E2",
+   "P4",
+   "P2"
+  ]
+ },
+ {
+  "id": "q_186",
+  "sense_id": "s_elegant_adj_smart",
+  "word_id": "w_elegant",
+  "carrier": "C1",
+  "module": "E1_熟词僻义",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "The young engineer found such a ______ way to solve the problem that his method needed only a few lines of code.",
+  "stem_cn": "那位年轻工程师找到了一种极其简洁巧妙的解法，他的办法只需要几行代码。",
+  "options": [
+   {
+    "key": "A",
+    "text": "ingenious",
+    "correct": false,
+    "distractor_reason": "语义最近、句子完全说得通（such an ingenious way to solve the problem），是必须靠搭配记忆才能排掉的强干扰项；测 E6：高考语料写「方案简洁巧妙」固定用 an elegant solution / an elegant approach，ingenious 虽然也通，却不是这块的固定用词。"
+   },
+   {
+    "key": "B",
+    "text": "graceful",
+    "correct": false,
+    "distractor_reason": "熟词僻义陷阱：学生只记得 elegant＝优雅漂亮，就去找同义的 graceful，可 a graceful way 讲的是「优雅的方式」，与「几行代码就解决」的巧妙不搭。测 E1 熟词僻义。"
+   },
+   {
+    "key": "C",
+    "text": "efficient",
+    "correct": false,
+    "distractor_reason": "语义近、语感通（such an efficient way to solve the problem）：测 E6 语境推断：efficient 说的是「效率高、省时」，与「简洁而巧妙」不是一回事，后半句 few lines of code 讲的是简与巧。"
+   },
+   {
+    "key": "D",
+    "text": "elegant",
+    "correct": true,
+    "distractor_reason": null
+   }
+  ],
+  "explanation": "【考场动作】先看被修饰的对象：way（办法、方法），不是人、不是服饰，所以 elegant 不可能是「优雅得体」义。再看语境：后面 his method needed only a few lines of code，说明这个办法「简洁而巧妙」，不是「漂亮」也不是「省时」。\n【为什么选 D】an elegant solution / an elegant approach 在高考语料里正是「简洁巧妙的办法」，与 few lines of code 的线索互证。\n【其他选项】A ingenious 意思几乎相同、句子完全说得通，纯语感排不掉，只能靠 an elegant solution 这一高考常用搭配定输赢；B graceful 是学生只认「优雅」时的顺手选择，可 way 用 graceful 不搭；C efficient 语感也通，但它说的是「效率高」，与「简洁而巧妙」不是一回事。",
+  "trap_note": "陷阱来源：学生只记得 elegant＝「优雅、漂亮」，于是被 graceful、ingenious、efficient 这些近义或近形词带走，没有根据被修饰对象（办法）与后文线索锁定「简洁巧妙」这一义项。",
+  "tags": [
+   "E1",
+   "P2",
+   "P4"
+  ]
+ },
+ {
+  "id": "q_187",
+  "sense_id": "s_emerge_phrase_emerge_from",
+  "word_id": "w_emerge",
+  "carrier": "C3",
+  "module": "E4_固定搭配缺失",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "As the water level dropped, an old wooden bridge slowly ______ from the mud and the silt that had hidden it for years.",
+  "stem_cn": "水位下降后，一座被淤泥泥沙掩埋多年的老木桥慢慢显露了出来。",
+  "options": [
+   {
+    "key": "A",
+    "text": "rose",
+    "correct": false,
+    "distractor_reason": "语义近、搭配也成立（rose from the mud 是「从…中升起、出现」的真实说法），语感完全说得通；测 E4：高考语料写「从掩埋或困境中显现」固定用 emerge from the ruins / emerge from the sea。"
+   },
+   {
+    "key": "B",
+    "text": "emerged",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "C",
+    "text": "surfaced",
+    "correct": false,
+    "distractor_reason": "语义近（浮现义，与 emerge 同层）：surfaced 是「浮出水面」的真实搭配；测 E2 一词多义混淆：emerge 强调从遮蔽中显现，surfaced 专指浮上水面这一动作，语境里露出的是桥不是浮体。"
+   },
+   {
+    "key": "D",
+    "text": "escaped",
+    "correct": false,
+    "distractor_reason": "搭配错：escape from 后面接的是危险、囚禁、追捕这类对象，接 the mud 讲不通。测 E4 搭配缺失。"
+   }
+  ],
+  "explanation": "【考场动作】先看介词短语 from the mud and the silt that had hidden it：from 后面是「遮蔽物」，所以动词是「从遮蔽中显现」。再看主语：an old wooden bridge 是物件，之前被埋着，不是逃亡者。\n【为什么选 B】emerge from the ruins / emerge from the sea / emerge from the darkness 是高考语料写「从…中显现」的固定说法，与水位下降后木桥露出来完全对应。\n【其他选项】A rose from the mud 搭配成立、语感全通，但 rise from 偏「升起、起势」，没有「被遮蔽的东西显露出来」这一层；C surfaced 是「浮上水面」，与 emerge 的「显现」接近，可这里不是水面而是淤泥；D escape from 后面接危险、囚禁、追捕这类对象，接 the mud 讲不通。",
+  "trap_note": "陷阱来源：学生把 emerge 当成泛泛的「出现」，用 rose、surfaced 这类同层动词顶替；或者看到 from 就套 escape from，忽略了「被遮蔽物盖住」这一语境线索。",
+  "tags": [
+   "E4",
+   "P4",
+   "P8"
+  ]
+ },
+ {
+  "id": "q_188",
+  "sense_id": "s_emerge_v_rise",
+  "word_id": "w_emerge",
+  "carrier": "C1",
+  "module": "E1_熟词僻义",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "After months of training and several failures, she finally ______ as the strongest candidate in the final round.",
+  "stem_cn": "经过数月训练和几次失败后，她最终在最后一轮中脱颖而出，成为最有力的候选人。",
+  "options": [
+   {
+    "key": "A",
+    "text": "appeared",
+    "correct": false,
+    "distractor_reason": "熟词僻义陷阱：emerge 最熟悉的那层是「出现、显现」，学生按这层去找近义词就会选 appeared；测 E1：appear as 不是这个用法，语境讲的是在竞争中胜出、成为某身份。"
+   },
+   {
+    "key": "B",
+    "text": "rose",
+    "correct": false,
+    "distractor_reason": "语义近：rise 也有「崛起、崭露头角」的意思，可固定说法是 rise to the top，rise as 后面不接身份；测 E4 搭配缺失。"
+   },
+   {
+    "key": "C",
+    "text": "emerged",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "D",
+    "text": "stood out",
+    "correct": false,
+    "distractor_reason": "语义近、句子完全说得通（she finally stood out as the strongest candidate），纯语感排不掉；测 E6：emerge as 强调在竞争中最终胜出、成为某身份，与 training、failures、the final round 的比赛线索呼应，stood out 只说「引人注目」。"
+   }
+  ],
+  "explanation": "【考场动作】先看固定结构：as + 身份（the strongest candidate），这是「成为某身份」的位置，emerge as the winner 是现成说法。再看语境：training、failures、the final round 全是竞争线索。\n【为什么选 C】emerge as the winner / emerge as the top choice 是高考语料写「崭露头角、最终胜出」的标准搭配，与前文的 training、failures 铺垫吻合。\n【其他选项】A appeared 是学生按 emerge 最熟悉那层「出现」找的近义词，可 appear as 不是这个用法；B rose 意思接近，可 rise as 后面不接身份，固定说法是 rise to the top；D stood out 语义与语感都通，纯语感排不掉，但它只说「引人注目」，没有「胜出」的结果义。",
+  "trap_note": "陷阱来源：学生把 emerge 只当成「出现」，于是选 appeared；或者按「崛起」的语感写 rose、stood out，忽略了 emerge as + 身份这一固定结构与语境里的竞争线索。",
+  "tags": [
+   "E1",
+   "P2",
+   "P4"
+  ]
+ },
+ {
+  "id": "q_189",
+  "sense_id": "s_facilitate_phrase_doing",
+  "word_id": "w_facilitate",
+  "carrier": "C4",
+  "module": "E3_形近音近混淆",
+  "difficulty": "hard",
+  "expected_accuracy": [
+   0.15,
+   0.45
+  ],
+  "stem": "Notice: A new online system is now in use to ______ the exchange of information between teachers and parents.",
+  "stem_cn": "通知：学校已启用一套新的在线系统，用来______教师与家长之间的信息交流。",
+  "options": [
+   {
+    "key": "A",
+    "text": "facilitate",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "B",
+    "text": "facility",
+    "correct": false,
+    "distractor_reason": "形近音近加词性误判：facility 与 facilitate 共享 fac- 词根、读音也近，但 facility 是名词「设施、便利」，作谓语不成立；测 E3 形近音近与 E5 词性分辨。"
+   },
+   {
+    "key": "C",
+    "text": "fascinate",
+    "correct": false,
+    "distractor_reason": "形近音近：fascinate 与 facilitate 同为 fac- 开头、-ate 结尾，fascinate sb 是真实搭配（使人着迷），学生会顺手写上；测 E3：语境要的是「让交流更方便」，fascinate the exchange of information 不成立。"
+   },
+   {
+    "key": "D",
+    "text": "fabricate",
+    "correct": false,
+    "distractor_reason": "形近音近：fabricate 与 facilitate 读音相近、词根首音相同，但它是「捏造（故事、证据）」，放进语境变成「捏造信息交流」，意思完全相反。测 E3 形近音近与义项判断。"
+   }
+  ],
+  "explanation": "【考场动作】先看结构：空格后面接 the exchange of information（信息交流这件事），动词后面要接「事物」而不是人。再记搭配：facilitate 后面只能接名词或动名词，不能接 sb to do，这一块要整块背。\n【为什么选 A】facilitate the exchange of information 是高考语料写「使…更方便、更顺畅」的标准搭配，与通知要表达的「让家校沟通更省事」一致。\n【其他选项】B facility 与 facilitate 共享 fac- 词根、读音也近，但它是名词「设施」，作谓语不成立，测 E3 形近音近加 E5 词性分辨；C fascinate 同为 fac- 开头、-ate 结尾，fascinate sb 是真实搭配（使人着迷），可它讲的是「吸引」，与「更方便」不是一回事；D fabricate 读音相近，义为「捏造」，放进语境变成「捏造信息交流」，意思完全相反。",
+  "trap_note": "陷阱来源：学生被 fac- 词根带偏，在 facility、fascinate、fabricate 之间乱选；没有抓住 facilitate 后面只能接名词或动名词、以及 facilitate the exchange of 这一整块。",
+  "tags": [
+   "E3",
+   "P4",
+   "P6"
+  ]
+ },
+ {
+  "id": "q_190",
+  "sense_id": "s_facilitate_v_make_easier",
+  "word_id": "w_facilitate",
+  "carrier": "C2",
+  "module": "E2_一词多义混淆",
+  "difficulty": "hard",
+  "expected_accuracy": [
+   0.15,
+   0.45
+  ],
+  "stem": "Turning the old market square into a pedestrian zone ______ the flow of traffic and makes the shops easier to reach.",
+  "stem_cn": "把老集市广场改成步行区，______了车流，也使这些店铺更容易到达。",
+  "options": [
+   {
+    "key": "A",
+    "text": "promote",
+    "correct": false,
+    "distractor_reason": "承载 facilitate 的另一真实义项「促进、推动」：promote 后面接 communication、cooperation、growth 这类抽象进程，「促进车流」在语感上勉强讲得通，可语境说的是街区更顺畅、店铺更好到达。测 E2 一词多义混淆。"
+   },
+   {
+    "key": "B",
+    "text": "accelerate",
+    "correct": false,
+    "distractor_reason": "语义近、搭配也成立（accelerate the flow of traffic 是真实说法），纯语感排不掉；测 E6：后半句 makes the shops easier to reach 的落点是「更方便」，不是「更快」，判断锚点在后半句。"
+   },
+   {
+    "key": "C",
+    "text": "worsen",
+    "correct": false,
+    "distractor_reason": "与上下文方向相反：改步行区正是为了让街面更顺畅，worsen the flow of traffic 与后半句 easier to reach 自相矛盾。测 E7 逻辑方向判断。"
+   },
+   {
+    "key": "D",
+    "text": "facilitate",
+    "correct": true,
+    "distractor_reason": null
+   }
+  ],
+  "explanation": "【考场动作】先看宾语：the flow of traffic 是「车流是否顺畅」这一具体事务，不是 communication 这类抽象进程。再看后半句 easier to reach——判断锚点是「更方便」，不是「更快」。\n【为什么选 D】facilitate the flow of traffic / facilitate access 是高考语料写「使…更方便、更顺畅」的固定搭配，与后半句互证。\n【其他选项】A promote 承载的是 facilitate 的另一义项「促进、推动」，它的宾语应是合作、增长、沟通这类抽象进程，「促进车流」不合语境；B accelerate the flow of traffic 搭配成立、语感全通，纯语感排不掉，但 accelerate 说的是「更快」，落点却是「更方便到达」；C worsen 与上下文完全相反，改步行区正是为了让街面更顺畅。",
+  "trap_note": "陷阱来源：学生把 facilitate 一律读成「促进」，于是选 promote；或按「让车流更快」的语感选 accelerate，忽略了后半句 easier to reach 这个「更方便」的判断锚点。",
+  "tags": [
+   "E2",
+   "P2",
+   "P4"
+  ]
+ },
+ {
+  "id": "q_191",
+  "sense_id": "s_nation_phrase_united_nations",
+  "word_id": "w_nation",
+  "carrier": "C3",
+  "module": "E4_固定搭配缺失",
+  "difficulty": "hard",
+  "expected_accuracy": [
+   0.15,
+   0.45
+  ],
+  "stem": "After the Second World War a new international body was set up, and the ______ has since helped many countries recover from floods and droughts.",
+  "stem_cn": "第二次世界大战后，一个新的国际机构成立了，此后一直帮助许多国家从洪水和干旱中恢复。",
+  "options": [
+   {
+    "key": "A",
+    "text": "United States",
+    "correct": false,
+    "distractor_reason": "专名混淆：这是另一个以 United 开头的固定专名，学生看到 the ___ 就顺手填上；测 E4 整块记忆：语境讲的是帮助各国灾后恢复的国际机构，不是某一个国家。"
+   },
+   {
+    "key": "B",
+    "text": "United Nations",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "C",
+    "text": "United Countries",
+    "correct": false,
+    "distractor_reason": "搭配错：把 Nations 直译成「Countries」，英语里根本没有 the United Countries；国际组织的专名固定是 the United Nations。测 E4 搭配缺失。"
+   },
+   {
+    "key": "D",
+    "text": "United Nation",
+    "correct": false,
+    "distractor_reason": "词形与单复数错：学生按「一个联合的组织＝单数」想当然写出 the United Nation，可这个专名固定用复数 the United Nations。测 E4 整块记忆。"
+   }
+  ],
+  "explanation": "【考场动作】先把专名当整体记：the ______ 是机构名，必须整块认出来。再看语境线索：an international body、helped many countries recover from floods and droughts——是跨国机构，不是某个国家。\n【为什么选 B】the United Nations 是「联合国」的固定专名，United Nations officials 是现成搭配，与「国际机构帮助多国灾后恢复」吻合。\n【其他选项】A the United States 是另一个以 United 开头的专名，学生容易顺手填上，可它是一个国家；C the United Countries 是把 Nations 直译成「国家们」，英语里根本没有这个专名；D the United Nation 是按「一个联合的组织＝单数」写的，固定写法是复数形式。",
+  "trap_note": "陷阱来源：学生看到 the United 就想到 the United States，或把 Nations 直译成 Countries、按「单数机构」写成 the United Nation，没有把 the United Nations 当成一个不可拆的专名整体记住。",
+  "tags": [
+   "E4",
+   "P4",
+   "P6"
+  ]
+ },
+ {
+  "id": "q_192",
+  "sense_id": "s_nation_n_citizens",
+  "word_id": "w_nation",
+  "carrier": "C1",
+  "module": "E1_熟词僻义",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "The government hopes that the whole ______ will join the campaign, because a river can only be cleaned by those who live beside it.",
+  "stem_cn": "政府希望全国人民都加入这次行动，因为一条河只能靠住在河边的人来清理。",
+  "options": [
+   {
+    "key": "A",
+    "text": "country",
+    "correct": false,
+    "distractor_reason": "语义近、语法成立：the whole country will join the campaign 也能表示「全国」，语感完全说得通；测 E1：the nation 指「全体国民」这一群人，the country 侧重国土与政权，后半句 those who live beside it 提示的是住在河边的国民。"
+   },
+   {
+    "key": "B",
+    "text": "society",
+    "correct": false,
+    "distractor_reason": "语义近、语法通：the whole society will join the campaign 语感也成立；测 E1：society 说的是「社会」这个整体，不是「这个国家的全体国民」，所指层级不同。"
+   },
+   {
+    "key": "C",
+    "text": "nation",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "D",
+    "text": "state",
+    "correct": false,
+    "distractor_reason": "语义偏差：state 指国家或州政权（a Western state），the whole state will join 指国家机器参与行动，不是国民自己参与。测 E1 义项辨析。"
+   }
+  ],
+  "explanation": "【考场动作】先看后半句的线索：because a river can only be cleaned by those who live beside it —— 强调「住在河边的人」，也就是「国民」。再判断 the whole ___ 的所指：是一个人群整体，而不是国土或政权。\n【为什么选 C】the nation 单独作主语时指「全国国民」（the nation as a whole / the whole nation），与后半句 those who live beside it 正好对上。\n【其他选项】A the whole country 语法成立、语感也通，可 country 侧重国土与政权，而语境说的是「住在河边的国民」；B society 指「社会」这个整体，不是「全体国民」；D state 指国家或州的政权，the whole state will join 讲的是国家机器参与行动，不是国民自己。",
+  "trap_note": "陷阱来源：学生把 nation 一律译成「国家」，于是写 the whole country、the whole state，忽略了 the nation 单独作主语时指「全国国民」这一层，也没有抓住 those who live beside it 的提示。",
+  "tags": [
+   "E1",
+   "P2",
+   "P4"
+  ]
+ },
+ {
+  "id": "q_193",
+  "sense_id": "s_reform_n_change",
+  "word_id": "w_reform",
+  "carrier": "C5",
+  "module": "E5_词性词形误判",
+  "difficulty": "hard",
+  "expected_accuracy": [
+   0.15,
+   0.45
+  ],
+  "stem": "After months of argument and frustration, the school finally introduced a major ______ that changed the way teachers marked papers, and everyone felt relieved.",
+  "stem_cn": "经过几个月的争论与折腾，学校终于推出了一项重大______，改变了老师批改试卷的方式，大家都松了口气。",
+  "options": [
+   {
+    "key": "A",
+    "text": "reform",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "B",
+    "text": "change",
+    "correct": false,
+    "distractor_reason": "语义近、句子完全说得通（introduced a major change that changed the way…），纯语感排不掉；测 E4 整块记忆：高考语料写「制度改革」固定用 a major reform，change 太泛，没有「体制变革」的意味。"
+   },
+   {
+    "key": "C",
+    "text": "reformed",
+    "correct": false,
+    "distractor_reason": "词形与词性误判：reformed 是过去式或形容词「被改革的」，a major reformed 后面缺中心语，句子结构不成立。测 E5 词形与词性分辨。"
+   },
+   {
+    "key": "D",
+    "text": "reformation",
+    "correct": false,
+    "distractor_reason": "词形与义项误判：reformation 多指思想或教派层面的「改良运动」，不是一项具体的制度措施；测 E5 词形加 E6 语境推断，语境讲的是学校改评判办法。"
+   }
+  ],
+  "explanation": "【考场动作】先定词性：空格在 a major ___ that changed… 里面，a major 后面要接名词作中心语。再看语境：school introduced… teachers marked papers，讲的是对制度的改革，是一项具体的措施。\n【为什么选 A】a major reform 是高考语料写「一项改革措施」的标准说法，reform the system 与 a major reform 互相印证，改革的对象正是学校的评判方式。\n【其他选项】B change 意思近、句子完全说得通，纯语感排不掉，但高考语料写「制度改革」固定用 a major reform，change 太泛；C reformed 是过去式或形容词，a major reformed 缺中心语，结构不成立；D reformation 多指思想或教派层面的改良运动，不指一项具体的制度措施。",
+  "trap_note": "陷阱来源：学生把 reform 一律当成动词，看到 introduced 就用 change 顶；或误填 reformed、reformation 这类同根词形，没有分辨动词、名词与形容词的不同分工。",
+  "tags": [
+   "E5",
+   "P4",
+   "P8"
+  ]
+ },
+ {
+  "id": "q_194",
+  "sense_id": "s_reform_phrase_reform_and_opening_up",
+  "word_id": "w_reform",
+  "carrier": "C3",
+  "module": "E4_固定搭配缺失",
+  "difficulty": "hard",
+  "expected_accuracy": [
+   0.15,
+   0.45
+  ],
+  "stem": "Since the start of ______, people in China's small coastal towns have had far more choices in daily life.",
+  "stem_cn": "自______以来，中国沿海小城镇的人们在日常生活中的选择多了许多。",
+  "options": [
+   {
+    "key": "A",
+    "text": "reform and opening",
+    "correct": false,
+    "distractor_reason": "词块被拆散：opening-up 才是带连字符的复合词，单独用 opening 表达不出「对外开放」这一层意思；测 E4 整块记忆，改革开放不可拆。"
+   },
+   {
+    "key": "B",
+    "text": "reform and openness",
+    "correct": false,
+    "distractor_reason": "直译干扰：openness 是抽象名词「开放性、坦率」，不是高考语料里的 opening-up；测 E4 搭配缺失，测试的是这一名称的固定写法。"
+   },
+   {
+    "key": "C",
+    "text": "reforms and openings",
+    "correct": false,
+    "distractor_reason": "词形与复数错：改革开放是固定的专名，不加复数，「各项改革与开放措施」应用 measures；测 E5 词形。"
+   },
+   {
+    "key": "D",
+    "text": "reform and opening-up",
+    "correct": true,
+    "distractor_reason": null
+   }
+  ],
+  "explanation": "【考场动作】先把这一块当整体记：reform and opening-up 是带连字符的固定复合词，中间不能拆，也不能换成别的词性。再看语境：since the start of…、far more choices in daily life，讲的是一整套持续的国家政策过程。\n【为什么选 D】reform and opening-up 是「改革开放」的标准写法，since reform and opening-up 都是现成搭配，与「选择多了许多」吻合。\n【其他选项】A reform and opening 把复合词拆散，opening 单独表达不出「对外开放」这一层；B reform and openness 是直译干扰，openness 是抽象名词「开放性」，不是高考语料里的 opening-up；C reforms and openings 复数与词形都错，固定名称不加复数，「各项措施」应用 measures。",
+  "trap_note": "陷阱来源：学生按字面把 opening-up 拆成 opening 或直译成 openness，忘了「改革开放」是一个带连字符、不可拆的固定名称；也容易误加复数。",
+  "tags": [
+   "E4",
+   "P4",
+   "P8"
+  ]
+ },
+ {
+  "id": "q_195",
+  "sense_id": "s_category_phrase_different_category",
+  "word_id": "w_category",
+  "carrier": "C1",
+  "module": "E6_语境推断失败",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "Writing a research paper is in a different ______ altogether from answering a multiple-choice question, and the two require very different skills.",
+  "stem_cn": "写研究论文与做多项选择题完全是另一回事，两者所需的能力也大不相同。",
+  "options": [
+   {
+    "key": "A",
+    "text": "class",
+    "correct": false,
+    "distractor_reason": "语义近、搭配也成立（in a different class 意为「不在一个层次上」），语感完全说得通；测 E4 整块记忆：高考语料写「完全不是一回事」固定用 in a different category altogether。"
+   },
+   {
+    "key": "B",
+    "text": "category",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "C",
+    "text": "league",
+    "correct": false,
+    "distractor_reason": "语义近：in a different league altogether 是英语里现成的说法，比喻「不在一个层级」，语感极像；测 E4：这是偏口语的比喻，读写语域的固定表达仍是 in a different category altogether。"
+   },
+   {
+    "key": "D",
+    "text": "field",
+    "correct": false,
+    "distractor_reason": "语义近、搭配也成立（in a different field 指「在另一个领域」），纯语感排不掉；测 E6：语境说的是两件事不可比、所需技能不同，不是「领域不同」。"
+   }
+  ],
+  "explanation": "【考场动作】先看语境：the two require very different skills，说明两者根本不可比，是「完全不是一回事」。再判断词块：in a different category 是高考语料里「不可同日而语」的固定说法。\n【为什么选 B】in a different category altogether 意为「完全是另一回事」，与后面 very different skills 互证。\n【其他选项】A in a different class 意思相近、搭配也成立，语感排不掉，但高考语料写「完全不是一回事」固定用 in a different category；C in a different league altogether 是现成的口语比喻，语感极像，却不是高考语域的固定表达；D in a different field 指「在另一个领域」，可语境讲的是两件事不可比，不是领域不同。",
+  "trap_note": "陷阱来源：学生把 category 当成「种类」硬译，看到「不同」就选 class、field、league 这些同层说法；没有抓住 altogether 与 very different skills 这两个把语义锁在「不可比」的线索。",
+  "tags": [
+   "E6",
+   "P2",
+   "P4"
+  ]
+ },
+ {
+  "id": "q_196",
+  "sense_id": "s_category_n_grade",
+  "word_id": "w_category",
+  "carrier": "C1",
+  "module": "E1_熟词僻义",
+  "difficulty": "hard",
+  "expected_accuracy": [
+   0.15,
+   0.45
+  ],
+  "stem": "Houses in the area are sold in three separate price ______, and most buyers look at the lowest one first.",
+  "stem_cn": "这一带的房子分三个不同的价格______出售，多数买家先看最低的那一档。",
+  "options": [
+   {
+    "key": "A",
+    "text": "levels",
+    "correct": false,
+    "distractor_reason": "语义近、语法成立（three separate price levels 指三个价位），语感完全说得通，纯语感排不掉；测 E4 整块记忆：高考语料写「级别、档次」固定用 price categories / the top category。"
+   },
+   {
+    "key": "B",
+    "text": "brackets",
+    "correct": false,
+    "distractor_reason": "语义近、搭配也成立（price brackets 指价格区间、档次），是必须靠搭配记忆才能排掉的干扰项；测 E4：高考语料写「按高低排出的等次」用 category，brackets 多出现在 income brackets 这类「收入区间」的说法里。"
+   },
+   {
+    "key": "C",
+    "text": "categories",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "D",
+    "text": "ranges",
+    "correct": false,
+    "distractor_reason": "语法成立、语义近（price ranges 指价格区间），但 ranges 讲的是一段价格幅度的高低，不是「分出来的档次」；测 E6 语境推断：语境最关键的是 the lowest one，说明是排出来的等次。"
+   }
+  ],
+  "explanation": "【考场动作】先看空格的位置：three separate price ___，three 表示数，后面必须接复数名词。再看语境：most buyers look at the lowest one first ——「最低的那一档」说明是按高低排出的等次。\n【为什么选 C】price categories 与 the top category / the lowest category 是高考语料写「级别、档次」的固定说法，与 lowest one 对上。\n【其他选项】A three separate price levels 语法成立、语感全通，是必须靠搭配记忆才能排掉的强干扰——高考写「档次」固定用 price categories；B price brackets 也成立，可它多见于 income brackets 这类「收入区间」的说法里；D price ranges 讲的是一段价格区间的幅度，语境强调的却是分出来的等次。",
+  "trap_note": "陷阱来源：学生把 category 一律读成「类别」，于是按「价位、档次」的语感写 levels、ranges、brackets，忽略了三档并存的语境线索和 price categories 这一固定说法。",
+  "tags": [
+   "E1",
+   "P4",
+   "P2"
+  ]
+ },
+ {
+  "id": "q_197",
+  "sense_id": "s_convey_v_evoke",
+  "word_id": "w_convey",
+  "carrier": "C2",
+  "module": "E8_情感色彩误判",
+  "difficulty": "hard",
+  "expected_accuracy": [
+   0.15,
+   0.45
+  ],
+  "stem": "Low music and soft lighting ______ a sense of calm that made even the busiest visitors relax.",
+  "stem_cn": "低低的音乐和柔和的灯光______出一种宁静感，让最忙乱的访客也放松下来。",
+  "options": [
+   {
+    "key": "A",
+    "text": "convey",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "B",
+    "text": "create",
+    "correct": false,
+    "distractor_reason": "语义近、搭配完全成立（create a sense of calm 是标准说法），纯语感排不掉；测 E8：主语是音乐与灯光，它们不是「制造」出这种感觉，而是把它「传达出」给访客，考场固定用 convey a sense of。"
+   },
+   {
+    "key": "C",
+    "text": "radiate",
+    "correct": false,
+    "distractor_reason": "色彩不合：radiate 带「向外散发、热情洋溢」的褒义强色彩，用在低音乐、柔灯光的静谧布置上过强；测 E8 情感色彩与语气强度误判。"
+   },
+   {
+    "key": "D",
+    "text": "express",
+    "correct": false,
+    "distractor_reason": "语义近但主语不合：express 的宾语通常是说话人自己的情感（express one's feelings），由布景来「表达」在英语里不成立。测 E4 搭配缺失。"
+   }
+  ],
+  "explanation": "【考场动作】先看宾语：a sense of calm 是「感觉、印象」这类抽象名词，正对 convey a sense of 这一整块。再看主语：Low music and soft lighting 是环境，它们把这种「感觉」传给访客。\n【为什么选 A】convey a sense of calm / convey warmth 是高考语料的固定搭配，意思是「传达出、使人感到」，与后面 made even the busiest visitors relax 互证。\n【其他选项】B create a sense of calm 是标准说法、语感全通，纯语感排不掉，但主语是音乐和灯光，它们不是「制造」感觉，而是「传达出」它；C radiate 的色彩偏「热情洋溢地散发」，用在静谧的灯光与低音乐上过强，是 E8 色彩误判；D express 的宾语通常是自己表达的情感，由布景来表达不成立。",
+  "trap_note": "陷阱来源：学生把 convey 一律读成「表达想法」，于是改用 create、express；或忽略 radiate 的褒义强色彩，用在安静柔和的布景上。",
+  "tags": [
+   "E8",
+   "P4",
+   "P2"
+  ]
+ },
+ {
+  "id": "q_198",
+  "sense_id": "s_convey_v_transport",
+  "word_id": "w_convey",
+  "carrier": "C1",
+  "module": "E1_熟词僻义",
+  "difficulty": "hard",
+  "expected_accuracy": [
+   0.15,
+   0.45
+  ],
+  "stem": "Electric carts now ______ goods from the back warehouse to the front counter, saving the workers hours of carrying.",
+  "stem_cn": "如今电动小车把货物从后仓运到前柜台，省下搬运工好几个小时。",
+  "options": [
+   {
+    "key": "A",
+    "text": "transport",
+    "correct": false,
+    "distractor_reason": "语义近、几乎同义（transport goods 是真实说法），纯语感排不掉；测 E4 整块记忆：高考语料写「运送货物、乘客、物资」固定用 convey goods / convey supplies / convey passengers。"
+   },
+   {
+    "key": "B",
+    "text": "express",
+    "correct": false,
+    "distractor_reason": "熟词僻义陷阱：convey 最熟悉的那层是「表达、传达想法」，学生按这层理解就会把 convey 排除，改写 express；可 express 的宾语是信息、情感，接 goods 不通。测 E1 加 E4 搭配。"
+   },
+   {
+    "key": "C",
+    "text": "carry",
+    "correct": false,
+    "distractor_reason": "语义近、口语化：carry goods from… 是现成说法，语感也通；测 E6 语境推断：这里是用小车在仓库与柜台之间「运送」，高考语料写这类运输固定用 convey。"
+   },
+   {
+    "key": "D",
+    "text": "convey",
+    "correct": true,
+    "distractor_reason": null
+   }
+  ],
+  "explanation": "【考场动作】先看宾语：goods 是实物，不是信息、情感，所以是「运送」义不是「表达」义。再看语境：electric carts… from the back warehouse to the front counter，货物由载具搬到另一处。\n【为什么选 D】convey goods / convey supplies 是高考语料写「运送」的固定搭配，与主语 electric carts 和 saving the workers hours of carrying 对应。\n【其他选项】A transport 意思几乎相同、搭配也成立，纯语感排不掉，只能靠 convey goods 定输赢；B express 是学生按 convey＝表达这层义项时才会写的词，可它宾语是信息、情感，接 goods 不通；C carry goods 是现成的口语说法，语感也通，但语境是「用小车在仓库与柜台之间运送」，高考语料固定用 convey。",
+  "trap_note": "陷阱来源：学生把 convey 一律读成「表达、传达」，于是按「搬运」的语感选 transport、carry；或者反其道而行用 express 去填，忽略宾语是 goods 这一判断锚点。",
+  "tags": [
+   "E1",
+   "P4",
+   "P2"
+  ]
+ },
+ {
+  "id": "q_199",
+  "sense_id": "s_spectacular_n_spectacle",
+  "word_id": "w_spectacular",
+  "carrier": "C4",
+  "module": "E3_形近音近混淆",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "If you can join only one event of the festival, come to the opening show; it will be a ______ that nobody will ever forget.",
+  "stem_cn": "如果只能参加艺术节的一项活动，就来开场演出吧；那将是一场令人难忘的盛况。",
+  "options": [
+   {
+    "key": "A",
+    "text": "spectator",
+    "correct": false,
+    "distractor_reason": "形近音近：spectator 与 spectacle 共享 spectat- 词根，读音也近；测 E3：spectator 是「观众」，单数放在 a ___ 后讲不通，而且语义正好错位——这里要的是「场面」而不是「看场面的人」。"
+   },
+   {
+    "key": "B",
+    "text": "spectacle",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "C",
+    "text": "spectacular",
+    "correct": false,
+    "distractor_reason": "词形与词性干扰：spectacular 作形容词是「壮观的」，直接放在 a ___ 后面缺中心语；作名词时英语写 a spectacle。测 E5 词形与词性分辨。"
+   },
+   {
+    "key": "D",
+    "text": "spectrum",
+    "correct": false,
+    "distractor_reason": "形近：spectrum 与 spectacle 共享 spectr- 词根，义为「光谱、范围」，与「盛况、场面」毫无关系。测 E3 形近音近。"
+   }
+  ],
+  "explanation": "【考场动作】先看空格的结构：a ___，冠词 a 后面要接名词；再看语义：it will be a…that nobody will ever forget，指的是一场「场面、盛况」，不是做某件事的人。\n【为什么选 B】a spectacle / the spectacle / watch the spectacle 是高考语料写「壮观场面、盛况」的固定说法，与 that nobody will ever forget 的评价吻合。\n【其他选项】A spectator 与 spectacle 共享 spectat- 词根，读音也近，但它是「观众」，单数放在 a ___ 后讲不通，语义也正好错位；C spectacular 是形容词「壮观的」，a spectacular 后面缺中心语，作名词时英语写 a spectacle；D spectrum 共享 spectr- 词根，义为「光谱、范围」，与「盛况」毫无关系。",
+  "trap_note": "陷阱来源：学生被 spec- 词根带偏，在 spectator、spectrum 之间乱选；或把形容词 spectacular 直接填进 a ___ 后面，没有记住作名词的固定写法是 a spectacle。",
+  "tags": [
+   "E3",
+   "P4",
+   "P6"
+  ]
+ },
+ {
+  "id": "q_200",
+  "sense_id": "s_spectacular_adj_stunning",
+  "word_id": "w_spectacular",
+  "carrier": "C2",
+  "module": "E2_一词多义混淆",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.35,
+   0.75
+  ],
+  "stem": "The little girl's dance at the school show was so ______ that even the judges looked up from their notes and applauded.",
+  "stem_cn": "小女孩在学校汇演上的舞蹈精彩至极，连评委都抬起头来鼓掌。",
+  "options": [
+   {
+    "key": "A",
+    "text": "magnificent",
+    "correct": false,
+    "distractor_reason": "承载另一真实义项（壮观、宏伟）：magnificent 在中文里也译「出色」，修饰表演语感相当接近；测 E2：语境是「演出精彩、令人赞叹」而不是「场面盛大华丽」，高考语料写演出固定用 a spectacular performance。"
+   },
+   {
+    "key": "B",
+    "text": "splendid",
+    "correct": false,
+    "distractor_reason": "同样是「壮丽的」义项，语感几乎一样，纯语感排不掉；测 E2 一词多义混淆：splendid 偏「辉煌华丽」，与 so…that even the judges applauded 的赞叹义不完全重合。"
+   },
+   {
+    "key": "C",
+    "text": "spectacular",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "D",
+    "text": "graceful",
+    "correct": false,
+    "distractor_reason": "义项走偏：graceful 是「优雅的」，与「出色」和「壮观」都不同，是学生慌乱时随手抓的词。测 E6 语境推断失败。"
+   }
+  ],
+  "explanation": "【考场动作】先看被修饰的对象：dance、performance——是「演出、表现」，不是 scenery、view 这类景象。再看语境：so…that even the judges looked up and applauded，强调的是「演出极为出色」，不是「场面壮观盛大」。\n【为什么选 C】a spectacular performance / spectacular results 是高考语料写「惊人的、极为出色的」的标准搭配，与后半句互证。\n【其他选项】A magnificent 中文也译「出色」，修饰表演语感相当接近，可它在英语里偏「宏伟、华丽」，高考语料写演出出色固定用 spectacular performance；B splendid 也是「壮丽的」义项，语感几乎一样，考点是同一个词的义项分工；D graceful 是「优雅的」，与本句的「出色、惊艳」都不同，属于慌乱时的随手误选。",
+  "trap_note": "陷阱来源：学生把 spectacular 一律读成「壮观、宏伟」，于是选 magnificent、splendid；或者抓住 dance 就选 graceful，没有根据被修饰对象（演出）和后半句的赞叹语气锁定「极为出色的」这一义项。",
+  "tags": [
+   "E2",
+   "P2",
+   "P4"
+  ]
+ }
+]

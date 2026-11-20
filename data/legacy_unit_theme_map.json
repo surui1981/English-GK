@@ -1,0 +1,1094 @@
+{
+ "_meta": {
+  "version": "1.0",
+  "unit_count": 40,
+  "note": "旧课标(2007)单元主题，按实际词汇反推。该课标已退役，此表仅用于词库覆盖、释义改写参照与主题检索，不用于资料电商主题包。"
+ },
+ "units": [
+  {
+   "unit_id": "必修1 1",
+   "book": "必修1",
+   "unit": "1",
+   "unit_title": "旧课标 必修1 Unit 1",
+   "theme_name": "T-校园生活与自我调整",
+   "theme_tags": [
+    "校园",
+    "朋友",
+    "情绪",
+    "日常"
+   ],
+   "word_count": 62,
+   "multi_sense_count": 19,
+   "phrase_count": 19,
+   "multi_sense_ratio": 0.306,
+   "sample_words": [
+    "survey",
+    "add up",
+    "upset",
+    "ignore",
+    "calm",
+    "calm (...) down",
+    "have got to",
+    "concern"
+   ],
+   "commercial_role": "旧课标单元（已退役，仅作词库覆盖与释义参照，不做主题包）"
+  },
+  {
+   "unit_id": "必修1 2",
+   "book": "必修1",
+   "unit": "2",
+   "unit_title": "旧课标 必修1 Unit 2",
+   "theme_name": "T-出行方式与旅途见闻",
+   "theme_tags": [
+    "交通",
+    "出行",
+    "异域风情",
+    "旅行"
+   ],
+   "word_count": 60,
+   "multi_sense_count": 19,
+   "phrase_count": 8,
+   "multi_sense_ratio": 0.317,
+   "sample_words": [
+    "subway",
+    "elevator",
+    "petrol",
+    "gas",
+    "official",
+    "voyage",
+    "conquer",
+    "because of"
+   ],
+   "commercial_role": "旧课标单元（已退役，仅作词库覆盖与释义参照，不做主题包）"
+  },
+  {
+   "unit_id": "必修1 3",
+   "book": "必修1",
+   "unit": "3",
+   "unit_title": "旧课标 必修1 Unit 3",
+   "theme_name": "T-旅行方式与说服表达",
+   "theme_tags": [
+    "旅行",
+    "路线",
+    "媒体",
+    "沟通"
+   ],
+   "word_count": 59,
+   "multi_sense_count": 13,
+   "phrase_count": 8,
+   "multi_sense_ratio": 0.22,
+   "sample_words": [
+    "journal",
+    "transport",
+    "prefer",
+    "disadvantage",
+    "fare",
+    "route",
+    "Mekong",
+    "flow"
+   ],
+   "commercial_role": "旧课标单元（已退役，仅作词库覆盖与释义参照，不做主题包）"
+  },
+  {
+   "unit_id": "必修1 4",
+   "book": "必修1",
+   "unit": "4",
+   "unit_title": "旧课标 必修1 Unit 4",
+   "theme_name": "T-自然灾害与应急处置",
+   "theme_tags": [
+    "自然灾害",
+    "地震",
+    "预警",
+    "救援"
+   ],
+   "word_count": 53,
+   "multi_sense_count": 19,
+   "phrase_count": 6,
+   "multi_sense_ratio": 0.358,
+   "sample_words": [
+    "earthquake",
+    "quake",
+    "right away",
+    "well",
+    "crack",
+    "smelly",
+    "farmyard",
+    "pipe"
+   ],
+   "commercial_role": "旧课标单元（已退役，仅作词库覆盖与释义参照，不做主题包）"
+  },
+  {
+   "unit_id": "必修1 5",
+   "book": "必修1",
+   "unit": "5",
+   "unit_title": "旧课标 必修1 Unit 5",
+   "theme_name": "T-名人品格与人生智慧",
+   "theme_tags": [
+    "名人",
+    "品格",
+    "宽容",
+    "自我认知"
+   ],
+   "word_count": 75,
+   "multi_sense_count": 15,
+   "phrase_count": 19,
+   "multi_sense_ratio": 0.2,
+   "sample_words": [
+    "Nelson Mandela",
+    "quality",
+    "warm-hearted",
+    "mean",
+    "active",
+    "generous",
+    "easy-going",
+    "self"
+   ],
+   "commercial_role": "旧课标单元（已退役，仅作词库覆盖与释义参照，不做主题包）"
+  },
+  {
+   "unit_id": "必修2 1",
+   "book": "必修2",
+   "unit": "1",
+   "unit_title": "旧课标 必修2 Unit 1",
+   "theme_name": "T-文化遗产与文明传承",
+   "theme_tags": [
+    "文化遗产",
+    "文物",
+    "文明交流"
+   ],
+   "word_count": 68,
+   "multi_sense_count": 14,
+   "phrase_count": 19,
+   "multi_sense_ratio": 0.206,
+   "sample_words": [
+    "cultural",
+    "relic",
+    "rare",
+    "valuable",
+    "survive",
+    "vase",
+    "dynasty",
+    "Taj Mahal"
+   ],
+   "commercial_role": "旧课标单元（已退役，仅作词库覆盖与释义参照，不做主题包）"
+  },
+  {
+   "unit_id": "必修2 2",
+   "book": "必修2",
+   "unit": "2",
+   "unit_title": "旧课标 必修2 Unit 2",
+   "theme_name": "T-奥林匹克与体育精神",
+   "theme_tags": [
+    "奥林匹克",
+    "竞技",
+    "古希腊"
+   ],
+   "word_count": 51,
+   "multi_sense_count": 15,
+   "phrase_count": 5,
+   "multi_sense_ratio": 0.294,
+   "sample_words": [
+    "ancient",
+    "compete",
+    "competitor",
+    "take part in",
+    "medal",
+    "stand for",
+    "mascot",
+    "Pausanias"
+   ],
+   "commercial_role": "旧课标单元（已退役，仅作词库覆盖与释义参照，不做主题包）"
+  },
+  {
+   "unit_id": "必修2 3",
+   "book": "必修2",
+   "unit": "3",
+   "unit_title": "旧课标 必修2 Unit 3",
+   "theme_name": "T-信息科技与计算演进",
+   "theme_tags": [
+    "计算机",
+    "科技",
+    "信息处理"
+   ],
+   "word_count": 70,
+   "multi_sense_count": 15,
+   "phrase_count": 10,
+   "multi_sense_ratio": 0.214,
+   "sample_words": [
+    "abacus",
+    "calculator",
+    "PC(=personal computer)",
+    "laptop",
+    "PDA",
+    "analytical",
+    "calculate",
+    "universal"
+   ],
+   "commercial_role": "旧课标单元（已退役，仅作词库覆盖与释义参照，不做主题包）"
+  },
+  {
+   "unit_id": "必修2 4",
+   "book": "必修2",
+   "unit": "4",
+   "unit_title": "旧课标 必修2 Unit 4",
+   "theme_name": "T-生物多样性与物种保护",
+   "theme_tags": [
+    "野生动物",
+    "栖息地",
+    "濒危"
+   ],
+   "word_count": 66,
+   "multi_sense_count": 16,
+   "phrase_count": 12,
+   "multi_sense_ratio": 0.242,
+   "sample_words": [
+    "wildlife",
+    "protection",
+    "wild",
+    "habitat",
+    "threaten",
+    "decrease",
+    "endanger",
+    "die out"
+   ],
+   "commercial_role": "旧课标单元（已退役，仅作词库覆盖与释义参照，不做主题包）"
+  },
+  {
+   "unit_id": "必修2 5",
+   "book": "必修2",
+   "unit": "5",
+   "unit_title": "旧课标 必修2 Unit 5",
+   "theme_name": "T-音乐类型与表演艺术",
+   "theme_tags": [
+    "音乐",
+    "流派",
+    "表演"
+   ],
+   "word_count": 61,
+   "multi_sense_count": 16,
+   "phrase_count": 14,
+   "multi_sense_ratio": 0.262,
+   "sample_words": [
+    "classical",
+    "roll",
+    "rock'n'roll (rock-and-roll)",
+    "orchestra",
+    "rap",
+    "folk",
+    "jazz",
+    "choral"
+   ],
+   "commercial_role": "旧课标单元（已退役，仅作词库覆盖与释义参照，不做主题包）"
+  },
+  {
+   "unit_id": "必修3 1",
+   "book": "必修3",
+   "unit": "1",
+   "unit_title": "旧课标 必修3 Unit 1",
+   "theme_name": "T-传统节日与农事收获",
+   "theme_tags": [
+    "节日",
+    "民俗",
+    "丰收"
+   ],
+   "word_count": 82,
+   "multi_sense_count": 26,
+   "phrase_count": 18,
+   "multi_sense_ratio": 0.317,
+   "sample_words": [
+    "take place",
+    "beauty",
+    "harvest",
+    "celebration",
+    "starve",
+    "origin",
+    "religious",
+    "seasonal"
+   ],
+   "commercial_role": "旧课标单元（已退役，仅作词库覆盖与释义参照，不做主题包）"
+  },
+  {
+   "unit_id": "必修3 2",
+   "book": "必修3",
+   "unit": "2",
+   "unit_title": "旧课标 必修3 Unit 2",
+   "theme_name": "T-饮食结构与营养健康",
+   "theme_tags": [
+    "饮食",
+    "营养",
+    "食品"
+   ],
+   "word_count": 71,
+   "multi_sense_count": 15,
+   "phrase_count": 12,
+   "multi_sense_ratio": 0.211,
+   "sample_words": [
+    "diet",
+    "spaghetti",
+    "nut",
+    "muscle",
+    "protective",
+    "bean",
+    "pea",
+    "cucumber"
+   ],
+   "commercial_role": "旧课标单元（已退役，仅作词库覆盖与释义参照，不做主题包）"
+  },
+  {
+   "unit_id": "必修3 3",
+   "book": "必修3",
+   "unit": "3",
+   "unit_title": "旧课标 必修3 Unit 3",
+   "theme_name": "T-人物传记与成长经历",
+   "theme_tags": [
+    "传记",
+    "成长",
+    "文学"
+   ],
+   "word_count": 66,
+   "multi_sense_count": 22,
+   "phrase_count": 14,
+   "multi_sense_ratio": 0.333,
+   "sample_words": [
+    "Mark Twain",
+    "birthplace",
+    "Florida",
+    "bring up",
+    "Hannibal",
+    "Missouri",
+    "Mississippi",
+    "novel"
+   ],
+   "commercial_role": "旧课标单元（已退役，仅作词库覆盖与释义参照，不做主题包）"
+  },
+  {
+   "unit_id": "必修3 4",
+   "book": "必修3",
+   "unit": "4",
+   "unit_title": "旧课标 必修3 Unit 4",
+   "theme_name": "T-宇宙探索与科学发现",
+   "theme_tags": [
+    "天文",
+    "宇宙",
+    "科学"
+   ],
+   "word_count": 70,
+   "multi_sense_count": 12,
+   "phrase_count": 17,
+   "multi_sense_ratio": 0.171,
+   "sample_words": [
+    "astronomy",
+    "astronomer",
+    "solar",
+    "system",
+    "solar system",
+    "religion",
+    "theory",
+    "Big Bang"
+   ],
+   "commercial_role": "旧课标单元（已退役，仅作词库覆盖与释义参照，不做主题包）"
+  },
+  {
+   "unit_id": "必修3 5",
+   "book": "必修3",
+   "unit": "5",
+   "unit_title": "旧课标 必修3 Unit 5",
+   "theme_name": "T-加拿大与多元文化",
+   "theme_tags": [
+    "加拿大",
+    "地理",
+    "多元文化"
+   ],
+   "word_count": 76,
+   "multi_sense_count": 16,
+   "phrase_count": 12,
+   "multi_sense_ratio": 0.211,
+   "sample_words": [
+    "multicultural",
+    "quiz",
+    "Canadian",
+    "Vancouver",
+    "Toronto",
+    "Calgary",
+    "Ottawa",
+    "beaver"
+   ],
+   "commercial_role": "旧课标单元（已退役，仅作词库覆盖与释义参照，不做主题包）"
+  },
+  {
+   "unit_id": "必修4 1",
+   "book": "必修4",
+   "unit": "1",
+   "unit_title": "旧课标 必修4 Unit 1",
+   "theme_name": "T-社会服务与公益事业",
+   "theme_tags": [
+    "社会",
+    "福利",
+    "公益"
+   ],
+   "word_count": 59,
+   "multi_sense_count": 21,
+   "phrase_count": 15,
+   "multi_sense_ratio": 0.356,
+   "sample_words": [
+    "achievement",
+    "Joan of Arc",
+    "Elizabeth Fry",
+    "Quaker",
+    "welfare",
+    "project",
+    "instituite",
+    "China Welfare Institute"
+   ],
+   "commercial_role": "旧课标单元（已退役，仅作词库覆盖与释义参照，不做主题包）"
+  },
+  {
+   "unit_id": "必修4 2",
+   "book": "必修4",
+   "unit": "2",
+   "unit_title": "旧课标 必修4 Unit 2",
+   "theme_name": "T-农业科技与粮食产量",
+   "theme_tags": [
+    "农业",
+    "粮食",
+    "科技"
+   ],
+   "word_count": 57,
+   "multi_sense_count": 19,
+   "phrase_count": 8,
+   "multi_sense_ratio": 0.333,
+   "sample_words": [
+    "statistic",
+    "sunburnt",
+    "struggle",
+    "decade",
+    "super",
+    "hybrid",
+    "output",
+    "strain"
+   ],
+   "commercial_role": "旧课标单元（已退役，仅作词库覆盖与释义参照，不做主题包）"
+  },
+  {
+   "unit_id": "必修4 3",
+   "book": "必修4",
+   "unit": "3",
+   "unit_title": "旧课标 必修4 Unit 3",
+   "theme_name": "T-幽默语言与喜剧艺术",
+   "theme_tags": [
+    "幽默",
+    "语言",
+    "喜剧"
+   ],
+   "word_count": 75,
+   "multi_sense_count": 12,
+   "phrase_count": 10,
+   "multi_sense_ratio": 0.16,
+   "sample_words": [
+    "humour",
+    "punchline",
+    "verbal",
+    "nonverbal",
+    "mime",
+    "Charlie Chaplin",
+    "Edward Lear",
+    "comedy"
+   ],
+   "commercial_role": "旧课标单元（已退役，仅作词库覆盖与释义参照，不做主题包）"
+  },
+  {
+   "unit_id": "必修4 4",
+   "book": "必修4",
+   "unit": "4",
+   "unit_title": "旧课标 必修4 Unit 4",
+   "theme_name": "T-集体生活与人际交往",
+   "theme_tags": [
+    "宿舍",
+    "集体",
+    "人际"
+   ],
+   "word_count": 56,
+   "multi_sense_count": 7,
+   "phrase_count": 9,
+   "multi_sense_ratio": 0.125,
+   "sample_words": [
+    "drunk",
+    "statement",
+    "greet",
+    "represent",
+    "association",
+    "dormitory",
+    "canteen",
+    "flight"
+   ],
+   "commercial_role": "旧课标单元（已退役，仅作词库覆盖与释义参照，不做主题包）"
+  },
+  {
+   "unit_id": "必修4 5",
+   "book": "必修4",
+   "unit": "5",
+   "unit_title": "旧课标 必修4 Unit 5",
+   "theme_name": "T-娱乐产业与流行文化",
+   "theme_tags": [
+    "娱乐",
+    "迪士尼",
+    "美国文化"
+   ],
+   "word_count": 57,
+   "multi_sense_count": 5,
+   "phrase_count": 8,
+   "multi_sense_ratio": 0.088,
+   "sample_words": [
+    "theme",
+    "Camelot",
+    "central",
+    "central Park",
+    "Dollywood",
+    "various",
+    "cartoon",
+    "be famous for"
+   ],
+   "commercial_role": "旧课标单元（已退役，仅作词库覆盖与释义参照，不做主题包）"
+  },
+  {
+   "unit_id": "必修5 1",
+   "book": "必修5",
+   "unit": "1",
+   "unit_title": "旧课标 必修5 Unit 1",
+   "theme_name": "T-医学突破与科学精神",
+   "theme_tags": [
+    "医学",
+    "科学",
+    "贡献"
+   ],
+   "word_count": 71,
+   "multi_sense_count": 29,
+   "phrase_count": 11,
+   "multi_sense_ratio": 0.408,
+   "sample_words": [
+    "engine",
+    "steam engine",
+    "characteristec",
+    "radium",
+    "put forward",
+    "theory",
+    "infect",
+    "infectious"
+   ],
+   "commercial_role": "旧课标单元（已退役，仅作词库覆盖与释义参照，不做主题包）"
+  },
+  {
+   "unit_id": "必修5 2",
+   "book": "必修5",
+   "unit": "2",
+   "unit_title": "旧课标 必修5 Unit 2",
+   "theme_name": "T-英国地理与国家认同",
+   "theme_tags": [
+    "英国",
+    "地理",
+    "国家"
+   ],
+   "word_count": 74,
+   "multi_sense_count": 20,
+   "phrase_count": 19,
+   "multi_sense_ratio": 0.27,
+   "sample_words": [
+    "unite",
+    "kingdom",
+    "the United Kingdom",
+    "consist",
+    "consist of",
+    "London Heathrow",
+    "River Avon",
+    "River Thames"
+   ],
+   "commercial_role": "旧课标单元（已退役，仅作词库覆盖与释义参照，不做主题包）"
+  },
+  {
+   "unit_id": "必修5 3",
+   "book": "必修5",
+   "unit": "3",
+   "unit_title": "旧课标 必修5 Unit 3",
+   "theme_name": "T-旅行见闻与定居生活",
+   "theme_tags": [
+    "旅行",
+    "居住",
+    "城市"
+   ],
+   "word_count": 67,
+   "multi_sense_count": 19,
+   "phrase_count": 10,
+   "multi_sense_ratio": 0.284,
+   "sample_words": [
+    "vehicle",
+    "carriage",
+    "mud",
+    "bathroom",
+    "temple",
+    "private",
+    "location",
+    "settlement"
+   ],
+   "commercial_role": "旧课标单元（已退役，仅作词库覆盖与释义参照，不做主题包）"
+  },
+  {
+   "unit_id": "必修5 4",
+   "book": "必修5",
+   "unit": "4",
+   "unit_title": "旧课标 必修5 Unit 4",
+   "theme_name": "T-职业世界与工作态度",
+   "theme_tags": [
+    "职业",
+    "记者",
+    "职场"
+   ],
+   "word_count": 54,
+   "multi_sense_count": 20,
+   "phrase_count": 4,
+   "multi_sense_ratio": 0.37,
+   "sample_words": [
+    "occupation",
+    "reporter",
+    "assignment",
+    "profession",
+    "professional",
+    "photograph",
+    "photographer",
+    "colleague"
+   ],
+   "commercial_role": "旧课标单元（已退役，仅作词库覆盖与释义参照，不做主题包）"
+  },
+  {
+   "unit_id": "必修5 5",
+   "book": "必修5",
+   "unit": "5",
+   "unit_title": "旧课标 必修5 Unit 5",
+   "theme_name": "T-急救处置与健康护理",
+   "theme_tags": [
+    "急救",
+    "伤病",
+    "护理"
+   ],
+   "word_count": 66,
+   "multi_sense_count": 18,
+   "phrase_count": 7,
+   "multi_sense_ratio": 0.273,
+   "sample_words": [
+    "aid",
+    "first aid",
+    "fall ill",
+    "illness",
+    "injury",
+    "bleed",
+    "sprain",
+    "ankle"
+   ],
+   "commercial_role": "旧课标单元（已退役，仅作词库覆盖与释义参照，不做主题包）"
+  },
+  {
+   "unit_id": "选修6 1",
+   "book": "选修6",
+   "unit": "1",
+   "unit_title": "旧课标 选修6 Unit 1",
+   "theme_name": "T-雕塑艺术与审美追求",
+   "theme_tags": [
+    "雕塑",
+    "艺术",
+    "审美"
+   ],
+   "word_count": 54,
+   "multi_sense_count": 13,
+   "phrase_count": 7,
+   "multi_sense_ratio": 0.241,
+   "sample_words": [
+    "realistic",
+    "abstract",
+    "sculpture",
+    "gallery",
+    "belief",
+    "consequent",
+    "consequently",
+    "aim"
+   ],
+   "commercial_role": "旧课标单元（已退役，仅作词库覆盖与释义参照，不做主题包）"
+  },
+  {
+   "unit_id": "选修6 2",
+   "book": "选修6",
+   "unit": "2",
+   "unit_title": "旧课标 选修6 Unit 2",
+   "theme_name": "T-诗歌韵律与情感表达",
+   "theme_tags": [
+    "诗歌",
+    "韵律",
+    "情感"
+   ],
+   "word_count": 54,
+   "multi_sense_count": 12,
+   "phrase_count": 3,
+   "multi_sense_ratio": 0.222,
+   "sample_words": [
+    "poem",
+    "poetry",
+    "recite",
+    "aspect",
+    "convey",
+    "emotion",
+    "nursery",
+    "rhyme"
+   ],
+   "commercial_role": "旧课标单元（已退役，仅作词库覆盖与释义参照，不做主题包）"
+  },
+  {
+   "unit_id": "选修6 3",
+   "book": "选修6",
+   "unit": "3",
+   "unit_title": "旧课标 选修6 Unit 3",
+   "theme_name": "T-健康生活与压力管理",
+   "theme_tags": [
+    "健康",
+    "压力",
+    "青春期"
+   ],
+   "word_count": 63,
+   "multi_sense_count": 7,
+   "phrase_count": 12,
+   "multi_sense_ratio": 0.111,
+   "sample_words": [
+    "cigarette",
+    "alcohol",
+    "fitness",
+    "sex",
+    "sexual",
+    "stress",
+    "stressfou",
+    "adolescent"
+   ],
+   "commercial_role": "旧课标单元（已退役，仅作词库覆盖与释义参照，不做主题包）"
+  },
+  {
+   "unit_id": "选修6 4",
+   "book": "选修6",
+   "unit": "4",
+   "unit_title": "旧课标 选修6 Unit 4",
+   "theme_name": "T-新能源与气候问题",
+   "theme_tags": [
+    "能源",
+    "温室效应",
+    "气候"
+   ],
+   "word_count": 61,
+   "multi_sense_count": 11,
+   "phrase_count": 12,
+   "multi_sense_ratio": 0.18,
+   "sample_words": [
+    "renewable",
+    "greenhouse",
+    "Fahrenheit",
+    "compare",
+    "compare to",
+    "come about",
+    "Sophie",
+    "Armstrong"
+   ],
+   "commercial_role": "旧课标单元（已退役，仅作词库覆盖与释义参照，不做主题包）"
+  },
+  {
+   "unit_id": "选修6 5",
+   "book": "选修6",
+   "unit": "5",
+   "unit_title": "旧课标 选修6 Unit 5",
+   "theme_name": "T-火山地震与自然灾害",
+   "theme_tags": [
+    "火山",
+    "地质",
+    "灾害"
+   ],
+   "word_count": 61,
+   "multi_sense_count": 9,
+   "phrase_count": 9,
+   "multi_sense_ratio": 0.148,
+   "sample_words": [
+    "volcano",
+    "volcanology",
+    "volcanologist",
+    "erupt",
+    "eruption",
+    "ash",
+    "crater",
+    "lava"
+   ],
+   "commercial_role": "旧课标单元（已退役，仅作词库覆盖与释义参照，不做主题包）"
+  },
+  {
+   "unit_id": "选修7 1",
+   "book": "选修7",
+   "unit": "1",
+   "unit_title": "旧课标 选修7 Unit 1",
+   "theme_name": "T-残障保障与生命尊严",
+   "theme_tags": [
+    "残障",
+    "保障",
+    "励志"
+   ],
+   "word_count": 59,
+   "multi_sense_count": 11,
+   "phrase_count": 6,
+   "multi_sense_ratio": 0.186,
+   "sample_words": [
+    "disability",
+    "disabled",
+    "eyesight",
+    "Rada",
+    "drum",
+    "Barry",
+    "Sally",
+    "movie"
+   ],
+   "commercial_role": "旧课标单元（已退役，仅作词库覆盖与释义参照，不做主题包）"
+  },
+  {
+   "unit_id": "选修7 2",
+   "book": "选修7",
+   "unit": "2",
+   "unit_title": "旧课标 选修7 Unit 2",
+   "theme_name": "T-科幻想象与幻想文学",
+   "theme_tags": [
+    "科幻",
+    "漫画",
+    "幻想"
+   ],
+   "word_count": 56,
+   "multi_sense_count": 22,
+   "phrase_count": 8,
+   "multi_sense_ratio": 0.393,
+   "sample_words": [
+    "fiction",
+    "cartoon",
+    "desire",
+    "Isaac",
+    "satisfaction",
+    "Larry",
+    "test out",
+    "Claire"
+   ],
+   "commercial_role": "旧课标单元（已退役，仅作词库覆盖与释义参照，不做主题包）"
+  },
+  {
+   "unit_id": "选修7 3",
+   "book": "选修7",
+   "unit": "3",
+   "unit_title": "旧课标 选修7 Unit 3",
+   "theme_name": "T-海洋生物与鲸类保护",
+   "theme_tags": [
+    "海洋",
+    "鲸鱼",
+    "生态"
+   ],
+   "word_count": 71,
+   "multi_sense_count": 25,
+   "phrase_count": 8,
+   "multi_sense_ratio": 0.352,
+   "sample_words": [
+    "snorkel",
+    "aquarium",
+    "anecdote",
+    "Clancy",
+    "baleen",
+    "baleen whale",
+    "annual",
+    "miagration"
+   ],
+   "commercial_role": "旧课标单元（已退役，仅作词库覆盖与释义参照，不做主题包）"
+  },
+  {
+   "unit_id": "选修7 4",
+   "book": "选修7",
+   "unit": "4",
+   "unit_title": "旧课标 选修7 Unit 4",
+   "theme_name": "T-南太平洋岛国与人文地理",
+   "theme_tags": [
+    "巴布亚",
+    "岛国",
+    "人文"
+   ],
+   "word_count": 61,
+   "multi_sense_count": 19,
+   "phrase_count": 10,
+   "multi_sense_ratio": 0.311,
+   "sample_words": [
+    "Papua",
+    "hear from",
+    "(be) dying to",
+    "bucket",
+    "bubble",
+    "come across",
+    "relevant",
+    "Pidgin"
+   ],
+   "commercial_role": "旧课标单元（已退役，仅作词库覆盖与释义参照，不做主题包）"
+  },
+  {
+   "unit_id": "选修7 5",
+   "book": "选修7",
+   "unit": "5",
+   "unit_title": "旧课标 选修7 Unit 5",
+   "theme_name": "T-大学生活与校园适应",
+   "theme_tags": [
+    "大学",
+    "校园",
+    "适应"
+   ],
+   "word_count": 46,
+   "multi_sense_count": 11,
+   "phrase_count": 11,
+   "multi_sense_ratio": 0.239,
+   "sample_words": [
+    "adjust to",
+    "keep it up",
+    "fit in",
+    "board",
+    "cafeteria",
+    "lecture",
+    "qualification",
+    "preparaton"
+   ],
+   "commercial_role": "旧课标单元（已退役，仅作词库覆盖与释义参照，不做主题包）"
+  },
+  {
+   "unit_id": "选修8 1",
+   "book": "选修8",
+   "unit": "1",
+   "unit_title": "旧课标 选修8 Unit 1",
+   "theme_name": "T-地理大发现与文明扩张",
+   "theme_tags": [
+    "地理",
+    "探险",
+    "历史"
+   ],
+   "word_count": 59,
+   "multi_sense_count": 11,
+   "phrase_count": 10,
+   "multi_sense_ratio": 0.186,
+   "sample_words": [
+    "illustrate",
+    "strait",
+    "the Bering",
+    "Alaska",
+    "means",
+    "by means of …",
+    "prehistoric",
+    "slavery"
+   ],
+   "commercial_role": "旧课标单元（已退役，仅作词库覆盖与释义参照，不做主题包）"
+  },
+  {
+   "unit_id": "选修8 2",
+   "book": "选修8",
+   "unit": "2",
+   "unit_title": "旧课标 选修8 Unit 2",
+   "theme_name": "T-基因科技与克隆伦理",
+   "theme_tags": [
+    "基因",
+    "克隆",
+    "科技伦理"
+   ],
+   "word_count": 60,
+   "multi_sense_count": 17,
+   "phrase_count": 9,
+   "multi_sense_ratio": 0.283,
+   "sample_words": [
+    "clone",
+    "strawberry",
+    "identical",
+    "differ",
+    "exact",
+    "commercial",
+    "straightforward",
+    "procedure"
+   ],
+   "commercial_role": "旧课标单元（已退役，仅作词库覆盖与释义参照，不做主题包）"
+  },
+  {
+   "unit_id": "选修8 3",
+   "book": "选修8",
+   "unit": "3",
+   "unit_title": "旧课标 选修8 Unit 3",
+   "theme_name": "T-交通发明与工程史",
+   "theme_tags": [
+    "交通",
+    "发明",
+    "工程"
+   ],
+   "word_count": 41,
+   "multi_sense_count": 12,
+   "phrase_count": 10,
+   "multi_sense_ratio": 0.293,
+   "sample_words": [
+    "discovery",
+    "amphibious",
+    "Stephenson",
+    "George Stephenson",
+    "patent",
+    "call up",
+    "now and then",
+    "distinguish"
+   ],
+   "commercial_role": "旧课标单元（已退役，仅作词库覆盖与释义参照，不做主题包）"
+  },
+  {
+   "unit_id": "选修8 4",
+   "book": "选修8",
+   "unit": "4",
+   "unit_title": "旧课标 选修8 Unit 4",
+   "theme_name": "T-戏剧改编与语言学习",
+   "theme_tags": [
+    "戏剧",
+    "改编",
+    "语言"
+   ],
+   "word_count": 68,
+   "multi_sense_count": 20,
+   "phrase_count": 13,
+   "multi_sense_ratio": 0.294,
+   "sample_words": [
+    "Pygmalion",
+    "George Bernard",
+    "adaptation",
+    "plot",
+    "professor",
+    "Higgins",
+    "phonetics",
+    "colonel"
+   ],
+   "commercial_role": "旧课标单元（已退役，仅作词库覆盖与释义参照，不做主题包）"
+  },
+  {
+   "unit_id": "选修8 5",
+   "book": "选修8",
+   "unit": "5",
+   "unit_title": "旧课标 选修8 Unit 5",
+   "theme_name": "T-考古发现与文明溯源",
+   "theme_tags": [
+    "考古",
+    "文物",
+    "文明"
+   ],
+   "word_count": 58,
+   "multi_sense_count": 17,
+   "phrase_count": 3,
+   "multi_sense_ratio": 0.293,
+   "sample_words": [
+    "identify",
+    "alternative",
+    "household",
+    "Pharaoh",
+    "archaeology",
+    "archaeological",
+    "archaeologist",
+    "tentative"
+   ],
+   "commercial_role": "旧课标单元（已退役，仅作词库覆盖与释义参照，不做主题包）"
+  }
+ ]
+}

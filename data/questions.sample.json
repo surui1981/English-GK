@@ -1,0 +1,190 @@
+{
+  "_meta": {
+    "version": "1.0",
+    "note": "拾词训练题样例 · 严格遵循 docs/词汇教研体系v1.md §5 六条训练质量标准",
+    "copyright_rule": "题干例句一律为仿真例句，禁止标注真题出处",
+    "design_rules": [
+      "标准1 真实语境：题干为仿真真题句子，标注 carrier",
+      "标准2 干扰项有错因：每个错误项必须标注 distractor_reason，不得凑数",
+      "标准3 可反向归因：每题绑定 sense_id 与 error_mech",
+      "标准4 难度分布：easy/mid/hard 按 15/55/30 配比",
+      "标准5 解析给考场动作：explanation 必须包含判断方法而非纯词义",
+      "标准6 错误率监控：expected_accuracy 为命题时的预期区间，供上线后复审"
+    ],
+    "count": 8
+  },
+  "questions": [
+    {
+      "id": "q_001",
+      "sense_id": "s_address_v_handle",
+      "word_id": "w_address",
+      "carrier": "C1",
+      "module": "E1_熟词僻义",
+      "difficulty": "mid",
+      "expected_accuracy": [0.35, 0.75],
+      "stem": "The new policy was introduced to ______ the widening gap between rich and poor in the region.",
+      "stem_cn": "新政策的出台是为了 ______ 该地区贫富差距的扩大。",
+      "options": [
+        { "key": "A", "text": "address", "correct": true, "distractor_reason": null },
+        { "key": "B", "text": "solve", "distractor_reason": "语义近但非高考实际用词，测「是否知道高考偏好 address」" },
+        { "key": "C", "text": "handle", "distractor_reason": "同义干扰，测「address 是否会被误判为不可用」" },
+        { "key": "D", "text": "attend", "distractor_reason": "共享词根 attend，测形近音近误判（E3）" }
+      ],
+      "explanation": "【考场动作】address 后若接 gap / problem / issue / concern 这类「问题类」名词，动词义几乎必然是「处理、解决」。读完选项先看介词搭配：address the gap ✅、solve the gap ❌（solve a problem ✅ 但 solve the gap 不地道）、attend the gap ❌。\n【为什么选 address】高考真题与真题风格语料中，address the gap/issue/problem 是固定搭配，命题人正是拿 solve/handle 来做干扰——但它们在同义度上完全成立，语境也说得通，所以只靠语义排除不掉。必须靠搭配记忆来定。这就是为什么这个知识点单独成一类题。",
+      "trap_note": "陷阱来源：学生看到 address 第一反应是名词「地址」，于是排除它，选了 solve。实际考的是动词义。",
+      "tags": ["E1", "E3", "P4"]
+    },
+    {
+      "id": "q_002",
+      "sense_id": "s_appreciate_v_realize",
+      "word_id": "w_appreciate",
+      "carrier": "C1",
+      "module": "E1_熟词僻义",
+      "difficulty": "hard",
+      "expected_accuracy": [0.25, 0.65],
+      "stem": "Only after the results came out did she ______ how far the project had actually fallen behind.",
+      "stem_cn": "直到结果出来，她才 ______ 这个项目实际上落后了多远。",
+      "options": [
+        { "key": "A", "text": "appreciate", "correct": true, "distractor_reason": null },
+        { "key": "B", "text": "replenish", "distractor_reason": "拼写相似（-ish），测 E3 形近" },
+        { "key": "C", "text": "anticipate", "distractor_reason": "语义近但搭配不搭，测「是否知道 appreciate 的语境义」" },
+        { "key": "D", "text": "gratify", "distractor_reason": "语义关联（感激），测学生是否会退回熟悉义" }
+      ],
+      "explanation": "【考场动作】appreciate 后面接的是「how far…fallen behind」这种「事实/状况」，不是人。若接的是人的帮助（I appreciate your help）才是「感激」。所以看到 appreciate + 抽象状况 → 「意识到」。\n【干扰项设计说明】anticipate 也是「预料」，语义上并非完全不通，纯粹靠语感容易选它。但 appreciate 强调「事后才意识到」，与 only after…did she 的过去时态结构严丝合缝——这个时间线索是本题的真正钥匙。",
+      "trap_note": "陷阱来源：学生默认 appreciate = 感激 + 欣赏，直接排除。",
+      "tags": ["E1", "E2", "E6"]
+    },
+    {
+      "id": "q_003",
+      "sense_id": "s_interest_n_loan",
+      "word_id": "w_interest",
+      "carrier": "C1",
+      "module": "E1_熟词僻义",
+      "difficulty": "mid",
+      "expected_accuracy": [0.30, 0.70],
+      "stem": "With interest ______ rising across Europe, many young families are putting off their plans to buy a home.",
+      "stem_cn": "随着欧洲各地的利息 ______，许多年轻家庭推迟了购房计划。",
+      "options": [
+        { "key": "A", "text": "rate", "correct": true, "distractor_reason": null },
+        { "key": "B", "text": "rates", "distractor_reason": "单复数干扰，测语法细节识别能力" },
+        { "key": "C", "text": "rates'", "distractor_reason": "与 B 同型的所有格干扰，测细节" },
+        { "key": "D", "text": "rate's", "distractor_reason": "错误的所有格形式，测「是否知道 interest rate 无所有格」" }
+      ],
+      "explanation": "【考场动作】interest rate = 利率，是固定搭配，中间不加's。这道题的设计目的不是考 interest 的义项，而是**用语境强制学生认出「利息」这个义项**——因为只要认出 interest = 利息，学生就会去回忆「利率」的英文搭配，答案自动浮现。如果学生坚持 interest = 兴趣，这四个选项全都无法搭配，立刻暴露问题。\n【考点价值】这是「熟词僻义」的另一种考法：不是直接问词义，而是把陷阱义放进一个只有该义项才说得通的语境里，让语感代替背词表发挥作用。",
+      "trap_note": "陷阱来源：学生如果认定 interest 是「兴趣」，会发现四个选项都不通——这正是题目设计的探针。",
+      "tags": ["E1", "E9"]
+    },
+    {
+      "id": "q_004",
+      "sense_id": "s_account_v_explain",
+      "word_id": "w_account",
+      "carrier": "C1",
+      "module": "E4_固定搭配",
+      "difficulty": "mid",
+      "expected_accuracy": [0.40, 0.80],
+      "stem": "According to the survey, students who exercise regularly ______ for nearly 30% of their weekly stress.",
+      "stem_cn": "调查显示 regularly 运动的学生占其每周压力的近 30%。",
+      "options": [
+        { "key": "A", "text": "account", "correct": true, "distractor_reason": null },
+        { "key": "B", "text": "account for", "distractor_reason": "把词块拆开单独填 account，测「是否理解 account for 不可拆」" },
+        { "key": "C", "text": "take up", "distractor_reason": "同为「占据比例」类词块但语境不搭" },
+        { "key": "D", "text": "make up", "distractor_reason": "同为「占比」类词块，测 E4 词块辨析" }
+      ],
+      "explanation": "【考场动作】「某事占某物的百分之几」= account for。整块记，一秒定位。\n【易错提醒】注意题干里 accounts for 已经有 for 了——这是语法填空的常见设计陷阱。如果你把 account for 整块填进去，会变成 accounts for account for。\n【词块辨析】take up 是「开始从事/占据时间空间」，make up 是「编造/组成」，只有 account for 能表示「占比」。",
+      "trap_note": "陷阱来源：account 单独作「解释」讲，学生填入 account 就以为是「解释」义，其实缺了 for 就完全不成句。",
+      "tags": ["E4", "E1"]
+    },
+    {
+      "id": "q_005",
+      "sense_id": "s_subject_adj_prone",
+      "word_id": "w_subject",
+      "carrier": "C3",
+      "module": "E5_词性词形",
+      "difficulty": "hard",
+      "expected_accuracy": [0.25, 0.60],
+      "stem": "Teenagers who spend too long on short-video apps are especially ______ to the influence of online commentators.",
+      "stem_cn": "花过多时间在短视频应用上的青少年尤其 ______ 网上评论员的影响。",
+      "options": [
+        { "key": "A", "text": "subject", "correct": true, "distractor_reason": null },
+        { "key": "B", "text": "subjected", "distractor_reason": "be subjected to = 遭受（被动、已发生），测「是否分清 be subject to 与 be subjected to」" },
+        { "key": "C", "text": "subjective", "distractor_reason": "词根共享，测 E3 形近" },
+        { "key": "D", "text": "subjecting", "distractor_reason": "现在分词，测 E5 词形判断" }
+      ],
+      "explanation": "【考场动作】这是语法填空的经典设计：空格前是 are especially，填形容词。be subject to = 易于受到…的（形容词性，描述一种持续的倾向性）；be subjected to = 遭受…的（被动语态，强调已发生的不幸遭遇）。\n【本题考点价值】真正考的不是一个词义，而是**两个形近结构的辨析**（E5 + E1 双考点）。are especially ______ to 提示这是「状态描述」，不是「事件叙述」，所以填 subject。\n【延伸】如果你在读后续写里写 teenagers who are subjected to peer pressure 也没错——但那说的是「已经遭受」，语义更重。",
+      "trap_note": "陷阱来源：学生只背了 subject = 科目/主题，完全看不到还能当形容词；或把 subjected 当成「被……的」，忽略 are already 的提示。",
+      "tags": ["E1", "E5", "E3"]
+    },
+    {
+      "id": "q_006",
+      "sense_id": "s_sound_adj_solid",
+      "word_id": "w_sound",
+      "carrier": "C2",
+      "module": "E1_熟词僻义",
+      "difficulty": "mid",
+      "expected_accuracy": [0.35, 0.75],
+      "stem": "His reasoning was ______ enough to convince the judges, even though few had heard of the case before.",
+      "stem_cn": "他的论证足够 ______ 以说服评委，尽管此前很少有人听说过这个案子。",
+      "options": [
+        { "key": "A", "text": "sound", "correct": true, "distractor_reason": null },
+        { "key": "B", "text": "soundly", "distractor_reason": "副词版（soundly asleep），测 E5 词性误判" },
+        { "key": "C", "text": "soundless", "distractor_reason": "词缀干扰，测形近" },
+        { "key": "D", "text": "resounding", "distractor_reason": "同源词但义为「轰动的」，语义方向不同" }
+      ],
+      "explanation": "【考场动作】sound 直接修饰名词 reasoning（论证），→ 形容词「严谨的、站得住脚的」。这是高考论证类文章的常客：a sound argument / sound reasoning / a sound decision。\n【B 选项怎么排】soundly 是副词，不能修饰 reasoning。这里是 E5 词性考点，难度高于纯义项题——设计上故意加入同词根不同词性的干扰项。",
+      "trap_note": "陷阱来源：学生看到 sound 只会想到「声音」，于是全部排除；或被 soundly 干扰。",
+      "tags": ["E1", "E5"]
+    },
+    {
+      "id": "q_007",
+      "sense_id": "s_address_v_speech",
+      "word_id": "w_address",
+      "carrier": "C2",
+      "module": "E2_一词多义",
+      "difficulty": "hard",
+      "expected_accuracy": [0.25, 0.60],
+      "stem": "Rising at the podium, the young lawyer ______ the assembly for three full minutes without a single note.",
+      "stem_cn": "年轻律师站起身，在讲台上向与会者发表了整整三分钟的演说，全程没有看任何笔记。",
+      "options": [
+        { "key": "A", "text": "addressed", "correct": true, "distractor_reason": null },
+        { "key": "B", "text": "addressing", "distractor_reason": "词形干扰，测 E5" },
+        { "key": "C", "text": "address", "correct": false, "distractor_reason": "原形，测时态判断" },
+        { "key": "D", "text": "addresses", "distractor_reason": "第三人称单数，测主谓一致（与 a young lawyer 矛盾）" }
+      ],
+      "explanation": "【考场动作】三个线索同时锁定「演讲」义：(1) Rising at the podium 站在讲台上；(2) the assembly 与会者；(3) for three full minutes 长时间连续发言。\n【考点价值】本题专门测 E2——同一个词的多个义项在完形填空中的**语境选择**。上一题（q_001）考的是 address 的「处理」义，本题考「演讲」义。两题相邻放置，学生能立刻感知：同一词在不同语境下要选不同义项，这正是「一词多义」的真正训练方式。",
+      "trap_note": "陷阱来源：学生看到 address 就想到「处理问题」，于是排除；但语境里根本没有 issue/problem。",
+      "tags": ["E2", "E1", "E5"]
+    },
+    {
+      "id": "q_008",
+      "sense_id": "s_mean_adj_mean",
+      "word_id": "w_mean",
+      "carrier": "C2",
+      "module": "E2_一词多义",
+      "difficulty": "mid",
+      "expected_accuracy": [0.35, 0.75],
+      "stem": "Too ______ to share even his old bread with the stray cat outside the gate, the boy waited silently in the corner.",
+      "stem_cn": "那个男孩太 ______ ，连门外流浪猫的旧面包都不肯分享，就默默待在角落里。",
+      "options": [
+        { "key": "A", "text": "mean", "correct": true, "distractor_reason": null },
+        { "key": "B", "text": "meaningless", "distractor_reason": "共享词根，测 E3 形近 + E2 义项" },
+        { "key": "C", "text": "meaning", "distractor_reason": "词形干扰，测 E5" },
+        { "key": "D", "text": "lowly", "distractor_reason": "语义偏差（卑微的），测排除合理性" }
+      ],
+      "explanation": "【考场动作】too ___ to do 是高考完形的固定结构。空格后接 to share……，说明填的形容词描述人的品性，且带贬义色彩 → 吝啬的。\n【搭配线索】mean about money / too mean to share 是高频搭配。而 meaningless 是「无意义的」，不能接 too…to 结构描述人。\n【与 E3 的联动】mean / meaningful / meaningless 三兄弟在完形里互为干扰项，必须成组掌握。",
+      "trap_note": "陷阱来源：学生认为 mean 只有「意味着」一个义项，看到 too ___ to 结构直接排除。",
+      "tags": ["E2", "E1", "E3"]
+    }
+  ],
+  "module_meta": [
+    { "code": "E1", "name": "熟词僻义专项", "error_mech": "熟词僻义误判", "question_count": 12, "paywall_position": 4, "commercial_role": "首次付费主入口" },
+    { "code": "E2", "name": "一词多义辨析", "error_mech": "一词多义混淆", "question_count": 10, "paywall_position": null, "commercial_role": "会员权益" },
+    { "code": "E3", "name": "形近音近对比", "error_mech": "形近/音近词混淆", "question_count": 8, "paywall_position": null, "commercial_role": "会员权益" },
+    { "code": "E4", "name": "固定搭配词块", "error_mech": "固定搭配缺失", "question_count": 10, "paywall_position": null, "commercial_role": "会员 + 资料电商" },
+    { "code": "E5", "name": "词性词形转换", "error_mech": "词性/词形误判", "question_count": 10, "paywall_position": null, "commercial_role": "会员权益" },
+    { "code": "E6", "name": "语境推断", "error_mech": "语境推断失败", "question_count": 8, "paywall_position": null, "commercial_role": "会员权益" },
+    { "code": "E7", "name": "逻辑连接词", "error_mech": "逻辑连接词误用", "question_count": 8, "paywall_position": null, "commercial_role": "会员权益" },
+    { "code": "E8", "name": "情感态度词", "error_mech": "情感色彩误判", "question_count": 8, "paywall_position": null, "commercial_role": "会员权益" },
+    { "code": "E9", "name": "拼写听写", "error_mech": "拼写变形错误", "question_count": 10, "paywall_position": null, "commercial_role": "免费引流" },
+    { "code": "E10", "name": "主题词包", "error_mech": "主题词汇缺失", "question_count": 20, "paywall_position": null, "commercial_role": "资料电商" }
+  ]
+}

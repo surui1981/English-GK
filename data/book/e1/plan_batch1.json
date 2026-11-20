@@ -1,0 +1,699 @@
+[
+ {
+  "word_id": "w_access",
+  "headword": "access",
+  "ipa": "/ˈækses/",
+  "level": "T1",
+  "pos": [
+   "n",
+   "v"
+  ],
+  "target_sense": {
+   "sense_id": "s_access_v_use_resource",
+   "text": "使用、获取（资源与设施）",
+   "sense_level": "S3",
+   "error_mech": [
+    "E1"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "通道、入口"
+   ],
+   "example": {
+    "en": "Students should be able to access the books and equipment they need in the school library.",
+    "zh": "学生应当能够使用他们在学校图书馆需要的书籍和设备。",
+    "source": "仿真例句 · 高考阅读教育与资源类高频句式",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "access resources",
+    "access facilities",
+    "access services",
+    "be easily accessed"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_access_n_passage",
+    "text": "通道、入口；进入的途径",
+    "sense_level": "S1",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_access_n_opportunity",
+    "text": "接近…的机会；使用…的权利",
+    "sense_level": "S4",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_access_v_use_system",
+    "text": "访问、进入（系统或数据库）",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_access_v_use_resource",
+    "text": "使用、获取（资源与设施）",
+    "sense_level": "S3",
+    "is_trap": true
+   }
+  ],
+  "confusable": [
+   "assess",
+   "excess",
+   "success",
+   "accessible"
+  ],
+  "word_family": [
+   "access",
+   "accessible",
+   "accessibility",
+   "accession"
+  ],
+  "notes": "考场判断法：① 先看后面是介词 to 还是直接跟宾语：access to sth = 「接近…的机会／使用…的权利」，这是高考最常考的搭配，必须整块记 have access to education / have access to information；② access 后直接跟 system / database / network / file，是「访问、进入」的技术义；③ access 后接 resources / facilities / services，是「使用、获取」；④ 出现 equal access、access to education 这类社会话题时，access 一律是「机会、权利」，不是「通道」。",
+  "assigned_carrier": "C2",
+  "assigned_difficulty": "hard",
+  "replaces_question_id": "q_004"
+ },
+ {
+  "word_id": "w_cover",
+  "headword": "cover",
+  "ipa": "/ˈkʌvə/",
+  "level": "T1",
+  "pos": [
+   "n",
+   "v"
+  ],
+  "target_sense": {
+   "sense_id": "s_cover_n_front",
+   "text": "封面、封底（书刊杂志的一页）",
+   "sense_level": "S3",
+   "error_mech": [
+    "E1"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "覆盖、遮盖"
+   ],
+   "example": {
+    "en": "Her photograph appeared on the front cover of a well-known travel magazine.",
+    "zh": "她的照片出现在一本畅销旅游杂志的封面上。",
+    "source": "仿真例句 · 高考阅读传媒类话题高频句式",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "on the cover of",
+    "the front cover",
+    "a magazine cover",
+    "cover story"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_cover_v_include",
+    "text": "涵盖、包括（含…内容）",
+    "sense_level": "S1",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_cover_v_report",
+    "text": "报道、采访（新闻、赛事）",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_cover_v_pay",
+    "text": "支付、承担（费用）",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_cover_v_shield",
+    "text": "覆盖、遮盖（盖住表面）",
+    "sense_level": "S2",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_cover_n_front",
+    "text": "封面、封底（书刊杂志的一页）",
+    "sense_level": "S3",
+    "is_trap": true
+   }
+  ],
+  "confusable": [
+   "discover",
+   "covert",
+   "hover",
+   "recover"
+  ],
+  "word_family": [
+   "cover",
+   "discover",
+   "recovery",
+   "uncover"
+  ],
+  "notes": "考场判断法：① 主语是人（journalists、reporters、the newspaper）且宾语是会议、赛事、事件 → 「报道」；② 宾语是 money / costs / fees / expenses → 「支付、承担费用」；③ 宾语是 topics / aspects / students / a wide range of → 「涵盖」；④ 看到 the cover of a magazine → 名词「封面」；另有固定词块 cover for sb＝「顶替」，别当成「覆盖某人」。",
+  "assigned_carrier": "C2",
+  "assigned_difficulty": "hard",
+  "replaces_question_id": null
+ },
+ {
+  "word_id": "w_former",
+  "headword": "former",
+  "ipa": "/ˈfɔ:mə(r)/",
+  "level": "T1",
+  "pos": [
+   "adj",
+   "n"
+  ],
+  "target_sense": {
+   "sense_id": "s_former_adj_first_of_two",
+   "text": "两者之中前一个的",
+   "sense_level": "S3",
+   "error_mech": [
+    "E1",
+    "E2",
+    "E4"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "以前的、先前的"
+   ],
+   "example": {
+    "en": "Of the two proposals, the former is cheaper while the latter is easier to carry out.",
+    "zh": "这两个提案中，前者成本更低，而后者更容易实施。",
+    "source": "仿真例句 · 高考比较结构高频句式",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "the former",
+    "the latter",
+    "the former ... the latter"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_former_adj_previous",
+    "text": "以前的、先前的",
+    "sense_level": "S1",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_former_adj_first_of_two",
+    "text": "两者之中前一个的",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_former_n_founder",
+    "text": "创始人、创办者",
+    "sense_level": "S3",
+    "is_trap": true
+   }
+  ],
+  "confusable": [
+   "formal",
+   "latter",
+   "form"
+  ],
+  "word_family": [
+   "former",
+   "formerly",
+   "latter",
+   "forewarn"
+  ],
+  "notes": "考场判断法：① 句中出现 the former 一定与 the latter 成对使用，译成「前者 / 后者」，绝不译成「以前的」——这是七选五与完形的高频坑；② 修饰人（former workers / former champion）才是「以前的、先前的」；③ 前面有 the 且指「创办人」（the formers of the movement）→ 名词义「创始人」，这是它最冷僻的一层。",
+  "assigned_carrier": "C2",
+  "assigned_difficulty": "hard",
+  "replaces_question_id": null
+ },
+ {
+  "word_id": "w_conflict",
+  "headword": "conflict",
+  "ipa": "/ˈkɒnflɪkt/",
+  "level": "T2",
+  "pos": [
+   "n",
+   "v",
+   "phrase"
+  ],
+  "target_sense": {
+   "sense_id": "s_conflict_v_clash",
+   "text": "抵触、互不相容（conflict with）",
+   "sense_level": "S3",
+   "error_mech": [
+    "E1",
+    "E5"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "冲突、争执（武装冲突、双方对立）"
+   ],
+   "example": {
+    "en": "These two accounts of the same event conflict with each other in several important details.",
+    "zh": "关于同一事件的这两份说法在几个关键细节上互相抵触。",
+    "source": "仿真例句 · 高考阅读比对与论证类高频句式",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "conflict with",
+    "directly conflict",
+    "the two versions conflict",
+    "conflict with one's interests"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_conflict_n_dispute",
+    "text": "冲突、争执（武装冲突、双方对立）",
+    "sense_level": "S1",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_conflict_n_inconsistency",
+    "text": "矛盾、分歧（两种说法、证据之间）",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_conflict_v_clash",
+    "text": "抵触、互不相容（conflict with）",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_conflict_phrase_conflict_of_interest",
+    "text": "（a conflict of interest）利益冲突",
+    "sense_level": "S4",
+    "is_trap": true
+   }
+  ],
+  "confusable": [
+   "confuse",
+   "friction",
+   "dispute",
+   "conflicting"
+  ],
+  "word_family": [
+   "conflict",
+   "conflicting",
+   "conflicted",
+   "conflictive"
+  ],
+  "notes": "考场判断法：① 先看是名词还是动词：动词 conflict 后面几乎必跟 with（conflict with），意思是「与…抵触、不相容」；② 名词看宾语：a conflict between two sides / armed conflict → 冲突、战争；a conflict between two accounts / a conflict of evidence → 矛盾、分歧，译成「两说互相矛盾」而不是「战争」；③ a conflict of interest 必须整块背，译「利益冲突」，不能拆开逐字译；④ 阅读里主语常是 evidence / statements / versions，这时 conflict 一律是「矛盾」，不是「争执」。",
+  "assigned_carrier": "C4",
+  "assigned_difficulty": "mid",
+  "replaces_question_id": null
+ },
+ {
+  "word_id": "w_facilitate",
+  "headword": "facilitate",
+  "ipa": "/fəˈsɪlɪteɪt/",
+  "level": "T2",
+  "pos": [
+   "v",
+   "phrase"
+  ],
+  "target_sense": {
+   "sense_id": "s_facilitate_v_help_person",
+   "text": "帮（某人）做得更容易（facilitate sb's work）",
+   "sense_level": "S3",
+   "error_mech": [
+    "E1",
+    "E6"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "促进、推动（沟通、协作的展开）"
+   ],
+   "example": {
+    "en": "Digital notes greatly facilitate the work of teachers who prepare lessons for large classes.",
+    "zh": "数字化笔记极大地便利了为大批量班级备课的教师的工作。",
+    "source": "仿真例句 · 高考阅读教师与教学类高频句式",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "facilitate sb's work",
+    "facilitate communication with patients",
+    "facilitate learning",
+    "facilitate research"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_facilitate_v_promote",
+    "text": "促进、推动（沟通、协作的展开）",
+    "sense_level": "S1",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_facilitate_v_make_easier",
+    "text": "使…更方便、更顺手（把事做起来更容易）",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_facilitate_v_help_person",
+    "text": "帮（某人）做得更容易（facilitate sb's work）",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_facilitate_phrase_doing",
+    "text": "（facilitate doing）后面只能接动名词",
+    "sense_level": "S4",
+    "is_trap": true
+   }
+  ],
+  "confusable": [
+   "facility",
+   "facile",
+   "fabricate",
+   "fascinate"
+  ],
+  "word_family": [
+   "facilitate",
+   "facilitation",
+   "facility",
+   "facile"
+  ],
+  "notes": "考场判断法：① 看宾语：抽象进程（communication / cooperation / integration / growth）→ 「促进、推动」；具体的事（access / the flow of traffic / the exchange of information）→ 「使…更方便、更顺畅」；人（facilitate sb's work）→ 「让某人做起来更容易」；② 结构上后面只能跟动名词：facilitate communication 是对的，facilitate sb to communicate 是错的，要表达「帮某人做」就写 facilitate sb's doing；③ 看到 facilitate 后面接名词而不是 doing，先问自己「这件事是不是变得更顺手了」；④ 写作里说「促进交流」用 facilitate communication，比 promote communication 更贴语境。",
+  "assigned_carrier": "C5",
+  "assigned_difficulty": "mid",
+  "replaces_question_id": null
+ },
+ {
+  "word_id": "w_phase",
+  "headword": "phase",
+  "ipa": "/feɪz/",
+  "level": "T1",
+  "pos": [
+   "n",
+   "v"
+  ],
+  "target_sense": {
+   "sense_id": "s_phase_v_step",
+   "text": "分阶段进行、逐步推进",
+   "sense_level": "S4",
+   "error_mech": [
+    "E4"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "阶段（名词义）"
+   ],
+   "example": {
+    "en": "The cleanup of the river will be carried out in phases to reduce traffic trouble.",
+    "zh": "河道清理将分阶段进行，以减少交通干扰。",
+    "source": "仿真例句 · 高考应用文写作可复用",
+    "carrier": "C4"
+   },
+   "collocations": [
+    "in phases",
+    "phase by phase",
+    "be carried out in phases",
+    "in three phases"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_phase_n_stage",
+    "text": "阶段、时期（事物发展的一个段落）",
+    "sense_level": "S1",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_phase_n_signal",
+    "text": "相位（波形、信号、电波的位相）",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_phase_v_step",
+    "text": "分阶段进行、逐步推进",
+    "sense_level": "S4",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_phase_v_phase_out",
+    "text": "逐步淘汰、逐步停用",
+    "sense_level": "S4",
+    "is_trap": true
+   }
+  ],
+  "confusable": [
+   "phrase",
+   "faze",
+   "face"
+  ],
+  "word_family": [
+   "phase",
+   "phased",
+   "phasing"
+  ],
+  "notes": "考场判断法：① 看到 in phases / phase by phase，固定读成「逐步、分阶段地」，整块背下来；② phase out 是「逐步淘汰」，别拆成「淘汰一个阶段」；③ 只有语境里出现 wave / signal / current 这些物理词，才可能读成「相位」；④ 其余一律是「阶段、时期」，搭配记 a phase of 和 in this phase。",
+  "assigned_carrier": "C3",
+  "assigned_difficulty": "mid",
+  "replaces_question_id": null
+ },
+ {
+  "word_id": "w_result",
+  "headword": "result",
+  "ipa": "/rɪˈzʌlt/",
+  "level": "T1",
+  "pos": [
+   "n",
+   "v",
+   "adv"
+  ],
+  "target_sense": {
+   "sense_id": "s_result_v_derive",
+   "text": "源于、起因于（由…而发生）",
+   "sense_level": "S3",
+   "error_mech": [
+    "E1",
+    "E4",
+    "E2"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "导致、造成"
+   ],
+   "example": {
+    "en": "Much of the anxiety students feel before an exam results from constant comparison with classmates.",
+    "zh": "学生考前的大部分焦虑源于不断与同学攀比。",
+    "source": "仿真例句 · 高考完形填空教育话题高频句式",
+    "carrier": "C2"
+   },
+   "collocations": [
+    "result from",
+    "result from doing sth",
+    "largely result from",
+    "which results from"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_result_n_outcome",
+    "text": "结果、结局；（实验的）成果",
+    "sense_level": "S1",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_result_v_cause",
+    "text": "导致、造成（引起某种后果）",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_result_v_derive",
+    "text": "源于、起因于（由…而发生）",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_result_adv_as_a_result",
+    "text": "因此、由此；（as a result of）由于",
+    "sense_level": "S4",
+    "is_trap": true
+   }
+  ],
+  "confusable": [
+   "resultant",
+   "resulting",
+   "resolve",
+   "consequence"
+  ],
+  "word_family": [
+   "result",
+   "resultant",
+   "resulting",
+   "resultantly"
+  ],
+  "notes": "考场判断法：① 只看介词：result in + 名词或 doing 是「导致」，result from + 名词是「源于」，方向不能反；② as a result of + 名词是「由于」，后面接原因；as a result（不接 of）是「因此」，后面接结果；③ 记口诀：from 后面是源头，in 后面是去处。完形填空最常考的就是把 result in 与 result from 读反。",
+  "assigned_carrier": "C3",
+  "assigned_difficulty": "mid",
+  "replaces_question_id": null
+ },
+ {
+  "word_id": "w_spectacular",
+  "headword": "spectacular",
+  "ipa": "/spekˈtækjələ(r)/",
+  "level": "T2",
+  "pos": [
+   "adj",
+   "n"
+  ],
+  "target_sense": {
+   "sense_id": "s_spectacular_phrase_spectacular_success",
+   "text": "（a spectacular success）巨大的成功、了不起的成绩",
+   "sense_level": "S4",
+   "error_mech": [
+    "E4",
+    "E2"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "壮观、宏伟的（景象、场面、风景）"
+   ],
+   "example": {
+    "en": "The school's reading programme has proved a spectacular success, and more students now read outside class.",
+    "zh": "学校的阅读计划被证明取得了巨大成功，现在有更多学生在课外阅读。",
+    "source": "仿真例句 · 高考阅读教育与评价类高频句式",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "a spectacular success",
+    "prove a spectacular success",
+    "an outright spectacular success",
+    "a spectacular commercial success"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_spectacular_adj_grand",
+    "text": "壮观、宏伟的（景象、场面、风景）",
+    "sense_level": "S1",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_spectacular_adj_stunning",
+    "text": "惊人的、极为出色的（成功、演出）",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_spectacular_n_spectacle",
+    "text": "壮观场面、盛况（a spectacular）",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_spectacular_phrase_spectacular_success",
+    "text": "（a spectacular success）巨大的成功、了不起的成绩",
+    "sense_level": "S4",
+    "is_trap": true
+   }
+  ],
+  "confusable": [
+   "spectator",
+   "spectrum",
+   "speculate",
+   "spectacle"
+  ],
+  "word_family": [
+   "spectacular",
+   "spectacle",
+   "spectator",
+   "spectacularly"
+  ],
+  "notes": "考场判断法：① 先看它修饰什么：修饰 scenery / view / sight / scene / fireworks → 「壮观、宏伟的」；修饰 success / performance / result / achievement → 「惊人的、极为出色的」，这时不能译成「壮观的」；② 看到 the spectacle / a spectacular 作名词 → 「壮观场面、盛况」，spectacle 本身也常作名词「壮观景象、奇观」；③ 固定词块 a spectacular success 记成「巨大的成功」，不要拆开；④ 它本身不含「成功」的意思，翻译时要靠宾语决定，别一律译「壮观的」。",
+  "assigned_carrier": "C6",
+  "assigned_difficulty": "mid",
+  "replaces_question_id": null
+ },
+ {
+  "word_id": "w_value",
+  "headword": "value",
+  "ipa": "/ˈvæljuː/",
+  "level": "T1",
+  "pos": [
+   "n",
+   "v"
+  ],
+  "target_sense": {
+   "sense_id": "s_value_n_belief",
+   "text": "价值观；人们信奉的原则",
+   "sense_level": "S2",
+   "error_mech": [
+    "E1",
+    "E5"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "价值、价钱"
+   ],
+   "example": {
+    "en": "Many schools now teach traditional values alongside modern ones and let students compare them.",
+    "zh": "如今许多学校把传统价值观与现代价值观一起教授，让学生自行比较。",
+    "source": "仿真例句 · 高考阅读文化话题高频句式",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "core values",
+    "family values",
+    "moral values",
+    "values education"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_value_n_worth",
+    "text": "价值、价钱；重要性",
+    "sense_level": "S1",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_value_v_appreciate",
+    "text": "重视、看重；给予高度评价",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_value_n_belief",
+    "text": "价值观；人们信奉的原则",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_value_n_use",
+    "text": "益处、用处；对…的重要性",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_value_v_estimate",
+    "text": "估价、给…定价（value at）",
+    "sense_level": "S3",
+    "is_trap": true
+   }
+  ],
+  "confusable": [
+   "values",
+   "virtue",
+   "evaluate",
+   "valve"
+  ],
+  "word_family": [
+   "value",
+   "valuable",
+   "valuation",
+   "evaluate",
+   "devalue"
+  ],
+  "notes": "考场判断法：① place / put value on sth，是「重视、看重」；② values 出现复数且前面有 moral / core / traditional，是「价值观」，不是「价格」；③ be of great value to sb，to 后面是人，是「对…很有价值、很有用」；④ value sth at + 金额，是「估价」；⑤ 谈价钱、性价比（good value for money）时才是名词「价值、价格」。应用文写「重视时间」用 place a high value on time。",
+  "assigned_carrier": "C4",
+  "assigned_difficulty": "mid",
+  "replaces_question_id": null
+ }
+]

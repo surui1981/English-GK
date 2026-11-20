@@ -1,0 +1,696 @@
+[
+ {
+  "word_id": "w_case",
+  "headword": "case",
+  "ipa": "/keɪs/",
+  "level": "T1",
+  "pos": [
+   "n",
+   "phrase"
+  ],
+  "target_sense": {
+   "sense_id": "s_case_n_legal",
+   "text": "案件；诉讼案",
+   "sense_level": "S2",
+   "error_mech": [
+    "E1"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "情况、事例"
+   ],
+   "example": {
+    "en": "The police are still looking for clues after the case was closed last month.",
+    "zh": "该案上月结案后，警方仍在寻找线索。",
+    "source": "仿真例句 · 高考阅读社会法治类高频句式",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "a murder case",
+    "close a case",
+    "the case against sb",
+    "case history"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_case_n_situation",
+    "text": "情况；事态；情形",
+    "sense_level": "S1",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_case_n_legal",
+    "text": "案件；诉讼案",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_case_n_medical",
+    "text": "病例；病人个案",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_case_n_example",
+    "text": "例子；典型案例",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_case_phrase_in_case",
+    "text": "（in case）万一；以防万一",
+    "sense_level": "S4",
+    "is_trap": true
+   }
+  ],
+  "confusable": [
+   "casual",
+   "cause",
+   "cash",
+   "caste"
+  ],
+  "word_family": [
+   "case",
+   "casual",
+   "casually",
+   "casualty",
+   "suitcase"
+  ],
+  "notes": "考场判断法：① 先看 case 是单独的名词还是固定词块的一部分——in case / in that case / in any case 三块必须整块记，意思分别是「万一」「既然如此」「无论如何」；② 单独的名词 case，看它后面的介词搭配：of murder / of theft → 案件，of flu / of TB → 病例，study / in point → 案例；③ 注意 in case 后面跟完整句子，不能加 the（the case is different）；④ in that case 的 that 是指示代词，in any case 的 any 是泛指，两者不能互换。",
+  "assigned_carrier": "C2",
+  "assigned_difficulty": "hard",
+  "replaces_question_id": null
+ },
+ {
+  "word_id": "w_current",
+  "headword": "current",
+  "ipa": "/ˈkʌrənt/",
+  "level": "T1",
+  "pos": [
+   "adj",
+   "n"
+  ],
+  "target_sense": {
+   "sense_id": "s_current_n_water",
+   "text": "水流、洋流（有方向的水流）",
+   "sense_level": "S3",
+   "error_mech": [
+    "E1",
+    "E10"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "当前的、现行的"
+   ],
+   "example": {
+    "en": "Warm currents carry heat away from the equator and towards the northern seas every year.",
+    "zh": "暖流每年都把热量从赤道带往北部海域。",
+    "source": "仿真例句 · 高考地理与科普类阅读",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "a warm current",
+    "ocean currents",
+    "the current is strong",
+    "against the current"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_current_n_water",
+    "text": "水流、洋流（有方向的水流）",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_current_n_electric",
+    "text": "电流（电学中的电流）",
+    "sense_level": "S4",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_current_adj_now",
+    "text": "当前的、现行的",
+    "sense_level": "S1",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_current_n_affairs",
+    "text": "时事、时政（current affairs）",
+    "sense_level": "S2",
+    "is_trap": true
+   }
+  ],
+  "confusable": [
+   "currency",
+   "currently",
+   "accurate"
+  ],
+  "word_family": [
+   "current",
+   "currently",
+   "currency",
+   "currant"
+  ],
+  "notes": "考场判断法：① 前面有 the 且后面接名词（the current situation / the current price）→ 形容词「当前的」；② 上下文出现 ocean / warm / river / flow → 名词「水流、洋流」；③ 出现 electric / direct / battery / voltage → 名词「电流」；④ 固定块 current affairs = 时事，写作里可直接用。",
+  "assigned_carrier": "C2",
+  "assigned_difficulty": "hard",
+  "replaces_question_id": null
+ },
+ {
+  "word_id": "w_impact",
+  "headword": "impact",
+  "ipa": "/ˈɪmpækt/",
+  "level": "T1",
+  "pos": [
+   "n",
+   "v"
+  ],
+  "target_sense": {
+   "sense_id": "s_impact_n_collision",
+   "text": "撞击、冲击（物体相撞的那一下）",
+   "sense_level": "S3",
+   "error_mech": [
+    "E1",
+    "E10"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "影响、作用"
+   ],
+   "example": {
+    "en": "The impact of the heavy door left a deep dent in the wooden wall.",
+    "zh": "沉重门的撞击在木墙上留下了一个深深的凹痕。",
+    "source": "仿真例句 · 高考阅读记叙类高频句式",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "the impact of the crash",
+    "a powerful impact",
+    "the impact on the surface",
+    "absorb the impact"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_impact_n_effect",
+    "text": "影响、作用（对某事产生作用）",
+    "sense_level": "S1",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_impact_v_affect",
+    "text": "对…产生影响（动词义）",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_impact_n_collision",
+    "text": "撞击、冲击（物体相撞的那一下）",
+    "sense_level": "S3",
+    "is_trap": true
+   }
+  ],
+  "confusable": [
+   "affect",
+   "effect",
+   "impart",
+   "impair"
+  ],
+  "word_family": [
+   "impact",
+   "impactful",
+   "unaffected"
+  ],
+  "notes": "考场判断法：① impact 后面跟 on，或前面出现 have / make，一律先读成「影响」，再看词性；② 只有句子在讲物体相撞相砸（car、storm、meteorite、debris），才读「撞击、冲击」；③ 名词用 a huge impact on sth，动词用 impact sth，中间不加介词 on，介词误加是语法填空高频错点。",
+  "assigned_carrier": "C2",
+  "assigned_difficulty": "hard",
+  "replaces_question_id": null
+ },
+ {
+  "word_id": "w_contest",
+  "headword": "contest",
+  "ipa": "/ˈkɒntest/",
+  "level": "T2",
+  "pos": [
+   "n",
+   "v"
+  ],
+  "target_sense": {
+   "sense_id": "s_contest_n_dispute",
+   "text": "争议、纷争（对立主张之争）",
+   "sense_level": "S3",
+   "error_mech": [
+    "E1",
+    "E5"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "赛事、比赛活动"
+   ],
+   "example": {
+    "en": "What the report calls real progress is still a matter of contest among scholars.",
+    "zh": "报告所谓的真正进步，在学者之间仍是有争议的事。",
+    "source": "仿真例句 · 高考阅读评论与质疑类高频句式",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "a matter of contest",
+    "in contest with sb",
+    "beyond contest",
+    "the contest between two views"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_contest_n_competition",
+    "text": "赛事、比赛活动",
+    "sense_level": "S1",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_contest_v_dispute",
+    "text": "对…提出异议、质疑（说法、决定）",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_contest_v_compete",
+    "text": "参加竞逐、争取（名次、奖项、职位）",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_contest_n_dispute",
+    "text": "争议、纷争（对立主张之争）",
+    "sense_level": "S3",
+    "is_trap": true
+   }
+  ],
+  "confusable": [
+   "contrast",
+   "context",
+   "content",
+   "protest"
+  ],
+  "word_family": [
+   "contest",
+   "contestant",
+   "contention",
+   "contested"
+  ],
+  "notes": "考场判断法：① 先看它作名词还是动词——作名词且前面有 a singing / writing / beauty contest 这类修饰，就是「赛事、比赛活动」；② 动词后面接的是「说法、决定、结果、权利」这类抽象内容（contest a claim / contest the decision）→ 必是「质疑、提出异议」，不是「参加比赛」；③ 动词后面接的是「名次、奖项、职位、冠军」这类可以争取的名位（contest for the title / contest the championship）→ 才是「参加竞逐」；④ 出现 a matter of contest 这类固定说法时，译成「争议之事」，别译成「比赛」。",
+  "assigned_carrier": "C4",
+  "assigned_difficulty": "mid",
+  "replaces_question_id": null
+ },
+ {
+  "word_id": "w_nature",
+  "headword": "nature",
+  "ipa": "/ˈneɪtʃə/",
+  "level": "T1",
+  "pos": [
+   "n",
+   "adv"
+  ],
+  "target_sense": {
+   "sense_id": "s_nature_adv_in_nature",
+   "text": "本质上、其实（in nature）",
+   "sense_level": "S4",
+   "error_mech": [
+    "E4"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "在大自然中（in nature 作状语）"
+   ],
+   "example": {
+    "en": "The two languages are different in form but very close in nature.",
+    "zh": "这两种语言在形式上不同，但本质十分接近。",
+    "source": "仿真例句 · 高考阅读比较类高频句式",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "in nature",
+    "in nature a form of",
+    "different in nature"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_nature_n_natural",
+    "text": "自然、大自然（自然界及其景观）",
+    "sense_level": "S1",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_nature_n_disposition",
+    "text": "本性、天性（人固有的倾向）",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_nature_n_character",
+    "text": "性质、特征（事物的本质）",
+    "sense_level": "S2",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_nature_adv_in_nature",
+    "text": "本质上、其实（in nature）",
+    "sense_level": "S4",
+    "is_trap": true
+   }
+  ],
+  "confusable": [
+   "natural",
+   "nurture",
+   "mature",
+   "naive"
+  ],
+  "word_family": [
+   "nature",
+   "natural",
+   "naturally",
+   "supernatural"
+  ],
+  "notes": "考场判断法：① 主语是 human beings / children，或者 it is human nature to do → 锁定「天性、本性」；② 前面出现 the，接 the nature of the problem、the nature of the work → 是「性质、本质」；③ 出现 in nature 单独作状语（in nature a form of ...）→ 是「本质上」；④ 其余讲山川、树林、环保的才是「自然、大自然」。",
+  "assigned_carrier": "C2",
+  "assigned_difficulty": "mid",
+  "replaces_question_id": null
+ },
+ {
+  "word_id": "w_power",
+  "headword": "power",
+  "ipa": "/ˈpaʊə(r)/",
+  "level": "T1",
+  "pos": [
+   "n",
+   "v"
+  ],
+  "target_sense": {
+   "sense_id": "s_power_n_capacity",
+   "text": "能力；做某事的能力",
+   "sense_level": "S3",
+   "error_mech": [
+    "E1",
+    "E2"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "权力、势力"
+   ],
+   "example": {
+    "en": "The power to change a habit lies in making the new choice easier.",
+    "zh": "改变一种习惯的能力在于让新的选择更容易。",
+    "source": "仿真例句 · 高考阅读与写作议论文高频句式",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "the power to do sth",
+    "the power of imagination",
+    "have the power to",
+    "the power to persuade"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_power_n_strength",
+    "text": "力量、能量",
+    "sense_level": "S1",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_power_n_authority",
+    "text": "权力、势力；政治影响",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_power_n_capacity",
+    "text": "能力；做某事的能力",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_power_n_electricity",
+    "text": "电力、供电；电源",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_power_v_drive",
+    "text": "驱动、给…供电",
+    "sense_level": "S3",
+    "is_trap": true
+   }
+  ],
+  "confusable": [
+   "privilege",
+   "right",
+   "powder",
+   "praise"
+  ],
+  "word_family": [
+   "power",
+   "powerful",
+   "powerless",
+   "powerfully"
+  ],
+  "notes": "考场判断法：① 先判断语境属哪一类：政治与国际话题 → 「权力、势力」；能源与自然话题 → 「电力、能量」；个人能力话题 → the power to do sth = 「做某事的能力」；② 看到 electric power / power supply / power cut 一律是电力义；③ power 表「力量」时是不可数名词，但 a power station、powers 是别的词；④ 高考常把 power 与 right 放在一起考：power 是「能力、权力」，right 是「权利、正确」，方向相反不要互换。",
+  "assigned_carrier": "C3",
+  "assigned_difficulty": "mid",
+  "replaces_question_id": null
+ },
+ {
+  "word_id": "w_seek",
+  "headword": "seek",
+  "ipa": "/si:k/",
+  "level": "T1",
+  "pos": [
+   "v"
+  ],
+  "target_sense": {
+   "sense_id": "s_seek_v_shelter",
+   "text": "寻找、觅得（住处、庇护、治疗）",
+   "sense_level": "S2",
+   "error_mech": [
+    "E2"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "寻求、设法获得（抽象义）"
+   ],
+   "example": {
+    "en": "After the flood, many families sought shelter in the local community hall.",
+    "zh": "洪水过后，许多家庭在当地的社区大厅找到了栖身之处。",
+    "source": "仿真例句 · 高考阅读灾情类高频句式",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "seek shelter",
+    "seek refuge",
+    "seek treatment",
+    "seek a job"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_seek_v_obtain",
+    "text": "寻求、设法得到（帮助、许可、信息）",
+    "sense_level": "S1",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_seek_v_attempt",
+    "text": "试图、力图（想做某事）",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_seek_v_shelter",
+    "text": "寻找、觅得（住处、庇护、治疗）",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_seek_v_pursue",
+    "text": "追求（目标、成功、幸福）",
+    "sense_level": "S2",
+    "is_trap": false
+   }
+  ],
+  "confusable": [
+   "search",
+   "pursue",
+   "chase"
+  ],
+  "word_family": [
+   "seek",
+   "seeker",
+   "sought"
+  ],
+  "notes": "考场判断法：① 后面接不定式（seek to do）立刻锁定「试图、力图」，别当成「想要做」；② 后面接 help / advice / permission / support 这类「可获得的资源」是「寻求、设法得到」；③ 后面接 shelter / refuge / treatment / job 这类「要找到的东西」是「寻找、觅得」；④ 后面接 success / happiness / fame 这类「长期想要的状态」是「追求」。seek 是书面语，语法填空里 seek to do 的不定式漏掉 to 就整空错。",
+  "assigned_carrier": "C3",
+  "assigned_difficulty": "mid",
+  "replaces_question_id": null
+ },
+ {
+  "word_id": "w_spot",
+  "headword": "spot",
+  "ipa": "/spɒt/",
+  "level": "T1",
+  "pos": [
+   "n",
+   "v"
+  ],
+  "target_sense": {
+   "sense_id": "s_spot_n_mark",
+   "text": "斑点、污点",
+   "sense_level": "S3",
+   "error_mech": [
+    "E1",
+    "E2"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "地点、场所"
+   ],
+   "example": {
+    "en": "There were dark spots on the wall, which the workers knew had been left by the damp.",
+    "zh": "墙上有几处深色斑点，工人们知道那是受潮留下的。",
+    "source": "仿真例句 · 高考记叙与描写类",
+    "carrier": "C5"
+   },
+   "collocations": [
+    "dark spots",
+    "a spot of dirt",
+    "spots on the surface",
+    "spotless"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_spot_v_detect",
+    "text": "发现、察觉（问题、异常）",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_spot_n_place",
+    "text": "地点、场所",
+    "sense_level": "S1",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_spot_n_mark",
+    "text": "斑点、污点",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_spot_v_recognize",
+    "text": "认出、辨出（人群中的某人）",
+    "sense_level": "S3",
+    "is_trap": true
+   }
+  ],
+  "confusable": [
+   "spoil",
+   "spout",
+   "spotted"
+  ],
+  "word_family": [
+   "spot",
+   "spotted",
+   "spotless",
+   "spotlight"
+  ],
+  "notes": "考场判断法：① 后面接的是 problem / mistake / difference 这类「问题类」名词 → 动词「发现、察觉」；② 后面接的是人（sb / a friend）→ 「认出、辨出」；③ 前面有 a / the 并指一处风景 → 名词「地点、场所」；④ 形容墙、皮肤上的印迹 → 名词「斑点、污点」。spot 作动词是完形里的常客。",
+  "assigned_carrier": "C3",
+  "assigned_difficulty": "mid",
+  "replaces_question_id": null
+ },
+ {
+  "word_id": "w_volume",
+  "headword": "volume",
+  "ipa": "/ˈvɒlju:m/",
+  "level": "T1",
+  "pos": [
+   "n",
+   "phrase"
+  ],
+  "target_sense": {
+   "sense_id": "s_volume_n_space",
+   "text": "体积、容积",
+   "sense_level": "S2",
+   "error_mech": [
+    "E2"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "音量"
+   ],
+   "example": {
+    "en": "The new design increases the volume of the room without changing its walls.",
+    "zh": "新设计在不改动墙壁的情况下增加了房间的体积。",
+    "source": "仿真例句 · 高考说明与设计类高频句式",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "the volume of the room",
+    "the volume of water",
+    "reduce the volume",
+    "a large volume"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_volume_n_quantity",
+    "text": "量、数量、总量",
+    "sense_level": "S1",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_volume_n_space",
+    "text": "体积、容积",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_volume_n_sound",
+    "text": "音量（turn up the volume）",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_volume_n_book",
+    "text": "（成套书籍的）其中一卷",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_volume_phrase_large_volume_of",
+    "text": "（a large volume of）大量的",
+    "sense_level": "S4",
+    "is_trap": true
+   }
+  ],
+  "confusable": [
+   "value",
+   "volunteer",
+   "voluntary",
+   "vault"
+  ],
+  "word_family": [
+   "volume",
+   "volumetric",
+   "voluminous"
+  ],
+  "notes": "考场判断法：① 先找搭配：turn up / turn down the volume → 「音量」；Volume Two / in three volumes → 「一卷」；a large volume of data → 「大量」；the volume of water → 「体积、容积」；② volume of sales / trading volume → 「交易量、销量」；③ 注意 volume 表「量」时不可数，但 a volume of（大量）后面要接可数名词复数；④ 别把 volume 与 value（价值）、volunteer（志愿者）混为一谈。",
+  "assigned_carrier": "C4",
+  "assigned_difficulty": "mid",
+  "replaces_question_id": null
+ }
+]

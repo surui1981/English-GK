@@ -1,0 +1,1772 @@
+{
+ "_meta": {
+  "batch": 4,
+  "count": 40,
+  "spec": "docs/首批100词精修规范.md",
+  "gold_standard": "docs/首批100词精修规范.md §6.2"
+ },
+ "questions": [
+  {
+   "id": "q_121",
+   "word_id": "w_plant",
+   "headword": "plant",
+   "sense_id": "s_plant_v_place",
+   "sense_text": "安放、放置；植入（想法、猜疑）",
+   "sense_level": "S3",
+   "is_trap": true,
+   "trap_of": [
+    "种植"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E2"
+   ],
+   "module": "E2_一词多义混淆",
+   "module_code": "E2",
+   "difficulty": "hard",
+   "expected_accuracy": [
+    0.15,
+    0.45
+   ],
+   "carrier": "C2",
+   "collocations": [
+    "plant an idea",
+    "plant suspicion",
+    "plant a flag",
+    "plant a doubt"
+   ],
+   "confusable": [
+    "planet",
+    "planter",
+    "plantation",
+    "plenty"
+   ],
+   "notes": "考场判断法：① 看 plant 前面有没有 power / chemical / steel / nuclear 这类行业修饰语，有就直接锁定「工厂、发电站」；② 看 plant 后面接的是 seeds / crops / trees（活的东西）还是 suspicion / an idea / a flag（想法、猜疑），前者是「种植」，后者是「安放、植入」；③ 话题涉及 pollution / emission / environment 时，plant 只能读成「工厂」，不能读成「植物」。",
+   "example": {
+    "en": "His parents planted the idea of becoming a doctor in his mind when he was still a child.",
+    "zh": "父母在他还是个孩子的时候，就在他心里植入了当医生的念头。",
+    "source": "仿真例句 · 高考读后续写人物描写高频句式",
+    "carrier": "C5"
+   },
+   "design_hint": "考同一词的另一义项：干扰项是该词另一个真实存在的义项"
+  },
+  {
+   "id": "q_122",
+   "word_id": "w_plant",
+   "headword": "plant",
+   "sense_id": "s_plant_v_grow",
+   "sense_text": "种植、栽种（作物、树木）",
+   "sense_level": "S2",
+   "is_trap": false,
+   "trap_of": [],
+   "sense_error_mech": [
+    "E1",
+    "E2"
+   ],
+   "module": "E1_熟词僻义",
+   "module_code": "E1",
+   "difficulty": "easy",
+   "expected_accuracy": [
+    0.65,
+    0.95
+   ],
+   "carrier": "C1",
+   "collocations": [
+    "plant crops",
+    "plant seeds",
+    "plant rice",
+    "plant trees"
+   ],
+   "confusable": [
+    "planet",
+    "planter",
+    "plantation",
+    "plenty"
+   ],
+   "notes": "考场判断法：① 看 plant 前面有没有 power / chemical / steel / nuclear 这类行业修饰语，有就直接锁定「工厂、发电站」；② 看 plant 后面接的是 seeds / crops / trees（活的东西）还是 suspicion / an idea / a flag（想法、猜疑），前者是「种植」，后者是「安放、植入」；③ 话题涉及 pollution / emission / environment 时，plant 只能读成「工厂」，不能读成「植物」。",
+   "example": {
+    "en": "The farmers in this valley plant wheat twice a year and leave the fields fallow in winter.",
+    "zh": "山谷里的农民一年种两茬小麦，冬天让田地休耕。",
+    "source": "仿真例句 · 高考完形填空农业话题高频句式",
+    "carrier": "C2"
+   },
+   "design_hint": "考熟词僻义：干扰项按学生最熟悉的那个义项设置，正解是本义项"
+  },
+  {
+   "id": "q_123",
+   "word_id": "w_point",
+   "headword": "point",
+   "sense_id": "s_point_v_direct",
+   "sense_text": "指向；表明、指出",
+   "sense_level": "S2",
+   "is_trap": true,
+   "trap_of": [
+    "点、细部",
+    "打分"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E6"
+   ],
+   "module": "E6_语境推断失败",
+   "module_code": "E6",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C1",
+   "collocations": [
+    "point to",
+    "point at",
+    "point out",
+    "point to a decline"
+   ],
+   "confusable": [
+    "pint",
+    "pointless",
+    "pioneer",
+    "appoint"
+   ],
+   "notes": "考场判断法：① point 后面接 of view / of mine / a valid one，是「观点、看法」，不要译成「点」；② point 后面接 to（point to the evidence / point to a decline）是动词「指向、表明」，表示具体方位用 at，表示抽象趋势用 to；③ 出现 the point of doing / miss the point / make the point，一律按「要点、用意」理解；④ 写作里表达「观点」固定写 point of view，不要写 viewpoint of。",
+   "example": {
+    "en": "Recent data points to a steady decline in the number of young people who smoke.",
+    "zh": "最新数据显示，吸烟的年轻人数量在稳步下降。",
+    "source": "仿真例句 · 高考阅读数据说明类高频句式",
+    "carrier": "C1"
+   },
+   "design_hint": "考语境推断：干扰项字面讲得通但与上下文线索矛盾"
+  },
+  {
+   "id": "q_124",
+   "word_id": "w_point",
+   "headword": "point",
+   "sense_id": "s_point_n_view",
+   "sense_text": "观点、看法；论点、理由",
+   "sense_level": "S3",
+   "is_trap": true,
+   "trap_of": [
+    "点、细部",
+    "分数"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E2"
+   ],
+   "module": "E1_熟词僻义",
+   "module_code": "E1",
+   "difficulty": "hard",
+   "expected_accuracy": [
+    0.15,
+    0.45
+   ],
+   "carrier": "C1",
+   "collocations": [
+    "point of view",
+    "make a point",
+    "a valid point",
+    "on this point"
+   ],
+   "confusable": [
+    "pint",
+    "pointless",
+    "pioneer",
+    "appoint"
+   ],
+   "notes": "考场判断法：① point 后面接 of view / of mine / a valid one，是「观点、看法」，不要译成「点」；② point 后面接 to（point to the evidence / point to a decline）是动词「指向、表明」，表示具体方位用 at，表示抽象趋势用 to；③ 出现 the point of doing / miss the point / make the point，一律按「要点、用意」理解；④ 写作里表达「观点」固定写 point of view，不要写 viewpoint of。",
+   "example": {
+    "en": "He made a strong point that online learning should never fully replace the classroom.",
+    "zh": "他提出了一个有力的观点：线上学习永远不该完全取代课堂。",
+    "source": "仿真例句 · 高考应用文与议论文观点表达高频句式",
+    "carrier": "C4"
+   },
+   "design_hint": "考熟词僻义：干扰项按学生最熟悉的那个义项设置，正解是本义项"
+  },
+  {
+   "id": "q_125",
+   "word_id": "w_present",
+   "headword": "present",
+   "sense_id": "s_present_adj_attend",
+   "sense_text": "出席的；在场的（参加会议的）",
+   "sense_level": "S3",
+   "is_trap": true,
+   "trap_of": [
+    "目前的、当前的",
+    "礼物"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E5"
+   ],
+   "module": "E5_词性词形误判",
+   "module_code": "E5",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C5",
+   "collocations": [
+    "be present at",
+    "be present for",
+    "present in class",
+    "be present when"
+   ],
+   "confusable": [
+    "preset",
+    "presently",
+    "represent",
+    "attendance"
+   ],
+   "notes": "考场判断法：① present 后面接 problem / difficulty / challenge，是动词「呈现、带来（问题）」，问题是自己冒出来的；② present sth to sb，to 后面是人或会议，意为「把…呈递、提出」；③ be present at the meeting，at 后接活动场合，是「出席」，此时不能读成「目前的」；④ at present / the present situation 才是「目前」。语法填空中 Present with… 是「目前有」，present 分词作状语（Present in…, the app…）按「目前的、当前的」理解。",
+   "example": {
+    "en": "All the members were present at the meeting, although two of them arrived late.",
+    "zh": "所有成员都出席了会议，尽管有两人迟到了。",
+    "source": "仿真例句 · 高考完形填空校园话题高频句式",
+    "carrier": "C2"
+   },
+   "design_hint": "考词性或词形变化（-ed/-ing/名词化/形容词↔名词），干扰项用同一词根的另一词性"
+  },
+  {
+   "id": "q_126",
+   "word_id": "w_present",
+   "headword": "present",
+   "sense_id": "s_present_v_offer",
+   "sense_text": "呈现、提出；向…呈递",
+   "sense_level": "S2",
+   "is_trap": true,
+   "trap_of": [
+    "出席的",
+    "目前的"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E2"
+   ],
+   "module": "E1_熟词僻义",
+   "module_code": "E1",
+   "difficulty": "hard",
+   "expected_accuracy": [
+    0.15,
+    0.45
+   ],
+   "carrier": "C1",
+   "collocations": [
+    "present sth to sb",
+    "present a report",
+    "present an idea",
+    "present evidence"
+   ],
+   "confusable": [
+    "preset",
+    "presently",
+    "represent",
+    "attendance"
+   ],
+   "notes": "考场判断法：① present 后面接 problem / difficulty / challenge，是动词「呈现、带来（问题）」，问题是自己冒出来的；② present sth to sb，to 后面是人或会议，意为「把…呈递、提出」；③ be present at the meeting，at 后接活动场合，是「出席」，此时不能读成「目前的」；④ at present / the present situation 才是「目前」。语法填空中 Present with… 是「目前有」，present 分词作状语（Present in…, the app…）按「目前的、当前的」理解。",
+   "example": {
+    "en": "She presented her findings to the committee last Thursday and answered every question calmly.",
+    "zh": "上周四她把研究结果提交给委员会，并冷静地回答了每一个问题。",
+    "source": "仿真例句 · 高考阅读议论文高频句式",
+    "carrier": "C4"
+   },
+   "design_hint": "考熟词僻义：干扰项按学生最熟悉的那个义项设置，正解是本义项"
+  },
+  {
+   "id": "q_127",
+   "word_id": "w_result",
+   "headword": "result",
+   "sense_id": "s_result_adv_as_a_result",
+   "sense_text": "因此、由此；（as a result of）由于",
+   "sense_level": "S4",
+   "is_trap": true,
+   "trap_of": [
+    "源于、起因于"
+   ],
+   "sense_error_mech": [
+    "E4",
+    "E7"
+   ],
+   "module": "E7_逻辑连接词误用",
+   "module_code": "E7",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C3",
+   "collocations": [
+    "as a result",
+    "as a result of",
+    "as a direct result",
+    "with the result that"
+   ],
+   "confusable": [
+    "resultant",
+    "resulting",
+    "resolve",
+    "consequence"
+   ],
+   "notes": "考场判断法：① 只看介词：result in + 名词或 doing 是「导致」，result from + 名词是「源于」，方向不能反；② as a result of + 名词是「由于」，后面接原因；as a result（不接 of）是「因此」，后面接结果；③ 记口诀：from 后面是源头，in 后面是去处。完形填空最常考的就是把 result in 与 result from 读反。",
+   "example": {
+    "en": "As a result of the heavy rain, several village roads were closed for two days.",
+    "zh": "由于大雨，村里几条道路封闭了两天。",
+    "source": "仿真例句 · 高考语法填空高频句式",
+    "carrier": "C3"
+   },
+   "design_hint": "考逻辑连接词的语义方向：干扰项用方向相反或关系不同的连接词"
+  },
+  {
+   "id": "q_128",
+   "word_id": "w_result",
+   "headword": "result",
+   "sense_id": "s_result_n_outcome",
+   "sense_text": "结果、结局；（实验的）成果",
+   "sense_level": "S1",
+   "is_trap": false,
+   "trap_of": [],
+   "sense_error_mech": [],
+   "module": "E3_形近音近混淆",
+   "module_code": "E3",
+   "difficulty": "easy",
+   "expected_accuracy": [
+    0.65,
+    0.95
+   ],
+   "carrier": "C6",
+   "collocations": [
+    "the result of",
+    "as a result",
+    "a satisfactory result",
+    "come up with a result"
+   ],
+   "confusable": [
+    "resultant",
+    "resulting",
+    "resolve",
+    "consequence"
+   ],
+   "notes": "考场判断法：① 只看介词：result in + 名词或 doing 是「导致」，result from + 名词是「源于」，方向不能反；② as a result of + 名词是「由于」，后面接原因；as a result（不接 of）是「因此」，后面接结果；③ 记口诀：from 后面是源头，in 后面是去处。完形填空最常考的就是把 result in 与 result from 读反。",
+   "example": {
+    "en": "The result of the experiment surprised even the team that had designed it.",
+    "zh": "实验的结果甚至让设计它的团队都吃了一惊。",
+    "source": "仿真例句 · 高考阅读说明文高频句式",
+    "carrier": "C1"
+   },
+   "design_hint": "干扰项必须取自该词的 confusable 形近/音近列表，正确项与干扰项共享词根或音节"
+  },
+  {
+   "id": "q_129",
+   "word_id": "w_right",
+   "headword": "right",
+   "sense_id": "s_right_adj_suitable",
+   "sense_text": "恰当的、合适的；最妥帖的",
+   "sense_level": "S3",
+   "is_trap": true,
+   "trap_of": [
+    "正确的、对的"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E2"
+   ],
+   "module": "E2_一词多义混淆",
+   "module_code": "E2",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C2",
+   "collocations": [
+    "the right way",
+    "the right person",
+    "the right choice",
+    "right for sb"
+   ],
+   "confusable": [
+    "rite",
+    "write",
+    "bright",
+    "rigid"
+   ],
+   "notes": "考场判断法：① the right to do sth、human rights 中的 right 是名词「权利」，不是「右边、正确」；② right 后直接跟名词（the right way / the right person / the right choice）是形容词「恰当的」，比 correct 更强调「合适」；③ be right / feel right / look right 才是「正确的」；④ right now / right away / right across from 是副词「正好、立刻」。应用文表达「有权做某事」固定写 the right to do sth。",
+   "example": {
+    "en": "Years of experience alone do not make him the right person for the job.",
+    "zh": "仅凭多年经验并不能使他成为这份工作的合适人选。",
+    "source": "仿真例句 · 高考完形填空职场话题高频句式",
+    "carrier": "C2"
+   },
+   "design_hint": "考同一词的另一义项：干扰项是该词另一个真实存在的义项"
+  },
+  {
+   "id": "q_130",
+   "word_id": "w_right",
+   "headword": "right",
+   "sense_id": "s_right_adv_exactly",
+   "sense_text": "正好、恰好；（right now）立刻",
+   "sense_level": "S3",
+   "is_trap": true,
+   "trap_of": [
+    "正确的、对的"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E5"
+   ],
+   "module": "E1_熟词僻义",
+   "module_code": "E1",
+   "difficulty": "hard",
+   "expected_accuracy": [
+    0.15,
+    0.45
+   ],
+   "carrier": "C1",
+   "collocations": [
+    "right now",
+    "right away",
+    "right in front of",
+    "right across from"
+   ],
+   "confusable": [
+    "rite",
+    "write",
+    "bright",
+    "rigid"
+   ],
+   "notes": "考场判断法：① the right to do sth、human rights 中的 right 是名词「权利」，不是「右边、正确」；② right 后直接跟名词（the right way / the right person / the right choice）是形容词「恰当的」，比 correct 更强调「合适」；③ be right / feel right / look right 才是「正确的」；④ right now / right away / right across from 是副词「正好、立刻」。应用文表达「有权做某事」固定写 the right to do sth。",
+   "example": {
+    "en": "The new library stands right across from the school gate, so students can reach it in a minute.",
+    "zh": "新图书馆正好在校门对面，学生一分钟就能走到。",
+    "source": "仿真例句 · 高考应用文日常场景高频句式",
+    "carrier": "C4"
+   },
+   "design_hint": "考熟词僻义：干扰项按学生最熟悉的那个义项设置，正解是本义项"
+  },
+  {
+   "id": "q_131",
+   "word_id": "w_sense",
+   "headword": "sense",
+   "sense_id": "s_sense_v_make_sense_of",
+   "sense_text": "理解、弄懂（读懂、领会）",
+   "sense_level": "S4",
+   "is_trap": true,
+   "trap_of": [
+    "讲得通、有道理（make sense）"
+   ],
+   "sense_error_mech": [
+    "E4",
+    "E2"
+   ],
+   "module": "E4_固定搭配缺失",
+   "module_code": "E4",
+   "difficulty": "hard",
+   "expected_accuracy": [
+    0.15,
+    0.45
+   ],
+   "carrier": "C3",
+   "collocations": [
+    "make sense of",
+    "hard to make sense of",
+    "make some sense of",
+    "make no sense of"
+   ],
+   "confusable": [
+    "sensitive",
+    "sensible",
+    "sensory",
+    "sentence"
+   ],
+   "notes": "考场判断法：① a + 抽象名词（belonging / responsibility / achievement / purpose）构成 a sense of…，是「意识、观念」，不是「感觉」也不是「意义」；② in this / in a sense 是「意义、含义」；③ make sense 后面不接宾语，是「讲得通、有道理」；make sense of + 宾语是「理解、弄懂」，两个短语必须整块背；④ a sixth sense / sense of smell 才是「感官」义。语法填空最爱考 make sense of。",
+   "example": {
+    "en": "It took me several careful readings to make sense of the passage, but the argument finally became clear.",
+    "zh": "我仔细读了好几遍才弄懂这段话，但那个论点最终清晰起来。",
+    "source": "仿真例句 · 高考阅读高频句式",
+    "carrier": "C1"
+   },
+   "design_hint": "考固定搭配：干扰项须能接在同一结构下但搭配错"
+  },
+  {
+   "id": "q_132",
+   "word_id": "w_sense",
+   "headword": "sense",
+   "sense_id": "s_sense_n_awareness",
+   "sense_text": "意识、观念；意识到的体会",
+   "sense_level": "S2",
+   "is_trap": true,
+   "trap_of": [
+    "感觉、感官",
+    "意义、含义"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E2"
+   ],
+   "module": "E2_一词多义混淆",
+   "module_code": "E2",
+   "difficulty": "hard",
+   "expected_accuracy": [
+    0.15,
+    0.45
+   ],
+   "carrier": "C2",
+   "collocations": [
+    "a sense of belonging",
+    "a sense of responsibility",
+    "a sense of purpose",
+    "a sense of achievement"
+   ],
+   "confusable": [
+    "sensitive",
+    "sensible",
+    "sensory",
+    "sentence"
+   ],
+   "notes": "考场判断法：① a + 抽象名词（belonging / responsibility / achievement / purpose）构成 a sense of…，是「意识、观念」，不是「感觉」也不是「意义」；② in this / in a sense 是「意义、含义」；③ make sense 后面不接宾语，是「讲得通、有道理」；make sense of + 宾语是「理解、弄懂」，两个短语必须整块背；④ a sixth sense / sense of smell 才是「感官」义。语法填空最爱考 make sense of。",
+   "example": {
+    "en": "Students develop a stronger sense of belonging when they take part in school activities together.",
+    "zh": "当学生们一起参加校园活动时，会形成更强烈的归属感。",
+    "source": "仿真例句 · 高考阅读校园话题高频句式",
+    "carrier": "C1"
+   },
+   "design_hint": "考同一词的另一义项：干扰项是该词另一个真实存在的义项"
+  },
+  {
+   "id": "q_133",
+   "word_id": "w_sound",
+   "headword": "sound",
+   "sense_id": "s_sound_v_seem",
+   "sense_text": "听起来；给人…的感觉",
+   "sense_level": "S2",
+   "is_trap": true,
+   "trap_of": [
+    "声音、声响"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E6"
+   ],
+   "module": "E6_语境推断失败",
+   "module_code": "E6",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C1",
+   "collocations": [
+    "sound good",
+    "sound like",
+    "sound familiar",
+    "sound terrible"
+   ],
+   "confusable": [
+    "soup",
+    "surround",
+    "sounded",
+    "sauce"
+   ],
+   "notes": "考场判断法：① sound 后直接跟名词（advice / argument / reasoning / decision / judgment），是形容词「可靠的、站得住脚的」；② sound health / sound condition 是「健全的」；③ sound + 形容词或 sound like，是动词「听起来」；④ sound asleep 是副词「完全地、充分地」，不是「声音」。写应用文表达「睡得很沉」只能写 sound asleep。",
+   "example": {
+    "en": "That sounds like a reasonable plan, though we should check the cost before we agree.",
+    "zh": "那听起来是个合理的计划，不过我们答应前还是该核实一下成本。",
+    "source": "仿真例句 · 高考应用文口语化表达高频句式",
+    "carrier": "C4"
+   },
+   "design_hint": "考语境推断：干扰项字面讲得通但与上下文线索矛盾"
+  },
+  {
+   "id": "q_134",
+   "word_id": "w_sound",
+   "headword": "sound",
+   "sense_id": "s_sound_adj_reliable",
+   "sense_text": "可靠的、站得住脚的（论证、判断）",
+   "sense_level": "S2",
+   "is_trap": true,
+   "trap_of": [
+    "声音、声响"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E2"
+   ],
+   "module": "E2_一词多义混淆",
+   "module_code": "E2",
+   "difficulty": "hard",
+   "expected_accuracy": [
+    0.15,
+    0.45
+   ],
+   "carrier": "C2",
+   "collocations": [
+    "a sound argument",
+    "sound reasoning",
+    "sound judgment",
+    "a sound decision"
+   ],
+   "confusable": [
+    "soup",
+    "surround",
+    "sounded",
+    "sauce"
+   ],
+   "notes": "考场判断法：① sound 后直接跟名词（advice / argument / reasoning / decision / judgment），是形容词「可靠的、站得住脚的」；② sound health / sound condition 是「健全的」；③ sound + 形容词或 sound like，是动词「听起来」；④ sound asleep 是副词「完全地、充分地」，不是「声音」。写应用文表达「睡得很沉」只能写 sound asleep。",
+   "example": {
+    "en": "Their conclusion sounded reasonable, but the evidence behind it was far from sound.",
+    "zh": "他们的结论听上去合情合理，但其背后的证据远不扎实。",
+    "source": "仿真例句 · 高考阅读议论文高频句式",
+    "carrier": "C1"
+   },
+   "design_hint": "考同一词的另一义项：干扰项是该词另一个真实存在的义项"
+  },
+  {
+   "id": "q_135",
+   "word_id": "w_stand",
+   "headword": "stand",
+   "sense_id": "s_stand_v_support",
+   "sense_text": "维护、支持（为…挺身而出）",
+   "sense_level": "S4",
+   "is_trap": true,
+   "trap_of": [
+    "代表、象征",
+    "站立"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E4"
+   ],
+   "module": "E3_形近音近混淆",
+   "module_code": "E3",
+   "difficulty": "hard",
+   "expected_accuracy": [
+    0.15,
+    0.45
+   ],
+   "carrier": "C6",
+   "collocations": [
+    "stand up for sb",
+    "stand up for a friend",
+    "stand up for your rights",
+    "stand up to"
+   ],
+   "confusable": [
+    "standard",
+    "stanza",
+    "stare",
+    "undertake"
+   ],
+   "notes": "考场判断法：① stand + for：后面接符号、缩写、机构，是「代表、象征」（stand for the Olympic Games）；后面接负面行为（won't stand for such rudeness），是「容忍、容许」；② stand + out 是不及物用法，意为「突出、显眼」，后面常接 from / among；③ stand + up + for + 人，多一个 up，意为「维护、支持（他人）」，与 stand for 的「代表」完全不同；④ 主语是「物 + 地点」时是「坐落、矗立」。完形里这四个短语义各考各的，不能只背一个。",
+   "example": {
+    "en": "Few of her colleagues were willing to stand up for her when the criticism began.",
+    "zh": "批评开始的时候，她的同事中很少有人愿意站出来支持她。",
+    "source": "仿真例句 · 高考完形填空高频句式",
+    "carrier": "C2"
+   },
+   "design_hint": "干扰项必须取自该词的 confusable 形近/音近列表，正确项与干扰项共享词根或音节"
+  },
+  {
+   "id": "q_136",
+   "word_id": "w_stand",
+   "headword": "stand",
+   "sense_id": "s_stand_v_represent",
+   "sense_text": "代表、象征；意味着",
+   "sense_level": "S2",
+   "is_trap": true,
+   "trap_of": [
+    "站立",
+    "容忍、忍受"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E4",
+    "E2"
+   ],
+   "module": "E4_固定搭配缺失",
+   "module_code": "E4",
+   "difficulty": "hard",
+   "expected_accuracy": [
+    0.15,
+    0.45
+   ],
+   "carrier": "C3",
+   "collocations": [
+    "stand for",
+    "stand for the Olympic Games",
+    "stand for freedom",
+    "stand for something"
+   ],
+   "confusable": [
+    "standard",
+    "stanza",
+    "stare",
+    "undertake"
+   ],
+   "notes": "考场判断法：① stand + for：后面接符号、缩写、机构，是「代表、象征」（stand for the Olympic Games）；后面接负面行为（won't stand for such rudeness），是「容忍、容许」；② stand + out 是不及物用法，意为「突出、显眼」，后面常接 from / among；③ stand + up + for + 人，多一个 up，意为「维护、支持（他人）」，与 stand for 的「代表」完全不同；④ 主语是「物 + 地点」时是「坐落、矗立」。完形里这四个短语义各考各的，不能只背一个。",
+   "example": {
+    "en": "The three colours on the flag stand for the three ideals written in the school song.",
+    "zh": "旗帜上的三种颜色象征着校歌里唱到的三种理想。",
+    "source": "仿真例句 · 高考阅读文化话题高频句式",
+    "carrier": "C1"
+   },
+   "design_hint": "考固定搭配：干扰项须能接在同一结构下但搭配错"
+  },
+  {
+   "id": "q_137",
+   "word_id": "w_state",
+   "headword": "state",
+   "sense_id": "s_state_v_declare",
+   "sense_text": "陈述、说明；正式声明",
+   "sense_level": "S3",
+   "is_trap": true,
+   "trap_of": [
+    "状况、状态",
+    "国家；（美国）州"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E5",
+    "E2"
+   ],
+   "module": "E5_词性词形误判",
+   "module_code": "E5",
+   "difficulty": "hard",
+   "expected_accuracy": [
+    0.15,
+    0.45
+   ],
+   "carrier": "C5",
+   "collocations": [
+    "state that",
+    "state the reasons",
+    "as stated earlier",
+    "it is stated that"
+   ],
+   "confusable": [
+    "statue",
+    "statement",
+    "status",
+    "estate"
+   ],
+   "notes": "考场判断法：① state 后面接 that 从句或 the reasons，是动词「陈述、说明」，主语常是专家、发言人；② 前面有 in 或 the state of，是名词「状况、状态」（in a poor state, the state of the environment）；③ 主语是国家名或美国州名，是「国家、州」；④ state-of-the-art 放在名词前作定语，意为「最先进的水准」。写作里表达「环境状况」写 the state of the environment，不要写 the environment condition。",
+   "example": {
+    "en": "The scientist stated clearly that the data did not support the earlier conclusion.",
+    "zh": "这位科学家明确表示，数据并不支持先前的结论。",
+    "source": "仿真例句 · 高考完形填空高频句式",
+    "carrier": "C2"
+   },
+   "design_hint": "考词性或词形变化（-ed/-ing/名词化/形容词↔名词），干扰项用同一词根的另一词性"
+  },
+  {
+   "id": "q_138",
+   "word_id": "w_state",
+   "headword": "state",
+   "sense_id": "s_state_n_condition",
+   "sense_text": "状况、状态；情势",
+   "sense_level": "S3",
+   "is_trap": true,
+   "trap_of": [
+    "国家；（美国）州"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E2"
+   ],
+   "module": "E1_熟词僻义",
+   "module_code": "E1",
+   "difficulty": "hard",
+   "expected_accuracy": [
+    0.15,
+    0.45
+   ],
+   "carrier": "C1",
+   "collocations": [
+    "in a poor state",
+    "the state of the environment",
+    "state of mind",
+    "in a state of shock"
+   ],
+   "confusable": [
+    "statue",
+    "statement",
+    "status",
+    "estate"
+   ],
+   "notes": "考场判断法：① state 后面接 that 从句或 the reasons，是动词「陈述、说明」，主语常是专家、发言人；② 前面有 in 或 the state of，是名词「状况、状态」（in a poor state, the state of the environment）；③ 主语是国家名或美国州名，是「国家、州」；④ state-of-the-art 放在名词前作定语，意为「最先进的水准」。写作里表达「环境状况」写 the state of the environment，不要写 the environment condition。",
+   "example": {
+    "en": "The old bridge is in a poor state and may have to be closed for repairs.",
+    "zh": "那座旧桥状况很差，可能必须关闭维修。",
+    "source": "仿真例句 · 高考阅读说明文高频句式",
+    "carrier": "C1"
+   },
+   "design_hint": "考熟词僻义：干扰项按学生最熟悉的那个义项设置，正解是本义项"
+  },
+  {
+   "id": "q_139",
+   "word_id": "w_subject",
+   "headword": "subject",
+   "sense_id": "s_subject_adj_prone",
+   "sense_text": "易受…的；须经…批准的",
+   "sense_level": "S3",
+   "is_trap": true,
+   "trap_of": [
+    "主题、话题",
+    "科目、学科"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E4",
+    "E5"
+   ],
+   "module": "E4_固定搭配缺失",
+   "module_code": "E4",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C3",
+   "collocations": [
+    "be subject to",
+    "be subject to approval",
+    "be subject to change",
+    "be subject to strict rules"
+   ],
+   "confusable": [
+    "subjective",
+    "object",
+    "project",
+    "subsidy"
+   ],
+   "notes": "考场判断法：① be subject to + 名词（approval / change / stress）且没有过去分词，是形容词「易受…的、须经…的」；② be subjected to + 名词（abuse / pressure / treatment）用了 be + 过去分词，是被动「遭受」；③ the subject of / on the subject of 是「主题、话题」；④ 校园课程语境（my favourite subject）才是「科目」；⑤ 君主与人民的关系语境（the king and his subjects）是「臣民」。语法填空常考 subject to 与 subjected to 的分词区别。",
+   "example": {
+    "en": "Teenagers are particularly subject to peer pressure when they choose their subjects.",
+    "zh": "在选科的时候，青少年尤其容易受到同伴压力的影响。",
+    "source": "仿真例句 · 高考语法填空高频句式",
+    "carrier": "C3"
+   },
+   "design_hint": "考固定搭配：干扰项须能接在同一结构下但搭配错"
+  },
+  {
+   "id": "q_140",
+   "word_id": "w_subject",
+   "headword": "subject",
+   "sense_id": "s_subject_n_subordinate",
+   "sense_text": "臣民、被统治的人",
+   "sense_level": "S3",
+   "is_trap": true,
+   "trap_of": [
+    "主题、话题",
+    "科目、学科"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E5"
+   ],
+   "module": "E1_熟词僻义",
+   "module_code": "E1",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C1",
+   "collocations": [
+    "his subjects",
+    "the subjects of a state",
+    "a loyal subject",
+    "the king's subjects"
+   ],
+   "confusable": [
+    "subjective",
+    "object",
+    "project",
+    "subsidy"
+   ],
+   "notes": "考场判断法：① be subject to + 名词（approval / change / stress）且没有过去分词，是形容词「易受…的、须经…的」；② be subjected to + 名词（abuse / pressure / treatment）用了 be + 过去分词，是被动「遭受」；③ the subject of / on the subject of 是「主题、话题」；④ 校园课程语境（my favourite subject）才是「科目」；⑤ 君主与人民的关系语境（the king and his subjects）是「臣民」。语法填空常考 subject to 与 subjected to 的分词区别。",
+   "example": {
+    "en": "In those years the king ruled his subjects with a firm but fair hand.",
+    "zh": "在那些年月里，君主以坚定而公正的方式统治着他的臣民。",
+    "source": "仿真例句 · 高考读后续写历史故事高频句式",
+    "carrier": "C5"
+   },
+   "design_hint": "考熟词僻义：干扰项按学生最熟悉的那个义项设置，正解是本义项"
+  },
+  {
+   "id": "q_141",
+   "word_id": "w_treat",
+   "headword": "treat",
+   "sense_id": "s_treat_v_regard",
+   "sense_text": "把…视为、看作（treat as）",
+   "sense_level": "S4",
+   "is_trap": true,
+   "trap_of": [
+    "治疗、医治",
+    "对待、看待"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E4",
+    "E2"
+   ],
+   "module": "E4_固定搭配缺失",
+   "module_code": "E4",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C3",
+   "collocations": [
+    "treat sth as",
+    "treat sb as",
+    "treat A as not B",
+    "treat sth as a serious problem"
+   ],
+   "confusable": [
+    "threat",
+    "treaty",
+    "tree",
+    "trend"
+   ],
+   "notes": "考场判断法：① treat 后面跟 to + 食物或地点（treat sb to dinner），是「请客、招待」，介词只能用 to，写成 treat sb for sth 直接错；② treat A as B，as 是关键信号，意为「把…视为」；③ treat 后接人 + 副词（treat sb well / badly / seriously），是「对待、看待」；④ treat 后接 for + 病名，或句中出现 doctor / hospital，是「治疗」。",
+   "example": {
+    "en": "Many people still treat online learning as a second choice rather than a real alternative.",
+    "zh": "许多人仍把线上学习当作次选，而不是真正的替代方案。",
+    "source": "仿真例句 · 高考阅读议论文高频句式",
+    "carrier": "C1"
+   },
+   "design_hint": "考固定搭配：干扰项须能接在同一结构下但搭配错"
+  },
+  {
+   "id": "q_142",
+   "word_id": "w_treat",
+   "headword": "treat",
+   "sense_id": "s_treat_v_entertain",
+   "sense_text": "请客、招待（主动请对方吃饭）",
+   "sense_level": "S3",
+   "is_trap": true,
+   "trap_of": [
+    "对待、看待",
+    "治疗、医治"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E4"
+   ],
+   "module": "E1_熟词僻义",
+   "module_code": "E1",
+   "difficulty": "hard",
+   "expected_accuracy": [
+    0.15,
+    0.45
+   ],
+   "carrier": "C1",
+   "collocations": [
+    "treat sb to sth",
+    "treat sb to dinner",
+    "treat sb to a meal",
+    "treat sb to a movie"
+   ],
+   "confusable": [
+    "threat",
+    "treaty",
+    "tree",
+    "trend"
+   ],
+   "notes": "考场判断法：① treat 后面跟 to + 食物或地点（treat sb to dinner），是「请客、招待」，介词只能用 to，写成 treat sb for sth 直接错；② treat A as B，as 是关键信号，意为「把…视为」；③ treat 后接人 + 副词（treat sb well / badly / seriously），是「对待、看待」；④ treat 后接 for + 病名，或句中出现 doctor / hospital，是「治疗」。",
+   "example": {
+    "en": "After the exam, my friends treated us all to a big dinner at the noodle shop.",
+    "zh": "考试之后，朋友们请我们在面馆吃了一顿丰盛的晚餐。",
+    "source": "仿真例句 · 高考完形填空校园话题高频句式",
+    "carrier": "C2"
+   },
+   "design_hint": "考熟词僻义：干扰项按学生最熟悉的那个义项设置，正解是本义项"
+  },
+  {
+   "id": "q_143",
+   "word_id": "w_value",
+   "headword": "value",
+   "sense_id": "s_value_v_estimate",
+   "sense_text": "估价、给…定价（value at）",
+   "sense_level": "S3",
+   "is_trap": true,
+   "trap_of": [
+    "重视、看重"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E5",
+    "E2"
+   ],
+   "module": "E5_词性词形误判",
+   "module_code": "E5",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C5",
+   "collocations": [
+    "value sth at",
+    "highly valued",
+    "value the assets",
+    "valued at millions"
+   ],
+   "confusable": [
+    "values",
+    "virtue",
+    "evaluate",
+    "valve"
+   ],
+   "notes": "考场判断法：① place / put value on sth，是「重视、看重」；② values 出现复数且前面有 moral / core / traditional，是「价值观」，不是「价格」；③ be of great value to sb，to 后面是人，是「对…很有价值、很有用」；④ value sth at + 金额，是「估价」；⑤ 谈价钱、性价比（good value for money）时才是名词「价值、价格」。应用文写「重视时间」用 place a high value on time。",
+   "example": {
+    "en": "Collectors valued the painting at several million dollars after the long restoration.",
+    "zh": "经过漫长的修复后，收藏家们给这幅画估价为数百万美元。",
+    "source": "仿真例句 · 高考阅读财经话题高频句式",
+    "carrier": "C1"
+   },
+   "design_hint": "考词性或词形变化（-ed/-ing/名词化/形容词↔名词），干扰项用同一词根的另一词性"
+  },
+  {
+   "id": "q_144",
+   "word_id": "w_value",
+   "headword": "value",
+   "sense_id": "s_value_n_worth",
+   "sense_text": "价值、价钱；重要性",
+   "sense_level": "S1",
+   "is_trap": false,
+   "trap_of": [],
+   "sense_error_mech": [],
+   "module": "E3_形近音近混淆",
+   "module_code": "E3",
+   "difficulty": "easy",
+   "expected_accuracy": [
+    0.65,
+    0.95
+   ],
+   "carrier": "C6",
+   "collocations": [
+    "market value",
+    "the value of doing sth",
+    "great value for money",
+    "add value to"
+   ],
+   "confusable": [
+    "values",
+    "virtue",
+    "evaluate",
+    "valve"
+   ],
+   "notes": "考场判断法：① place / put value on sth，是「重视、看重」；② values 出现复数且前面有 moral / core / traditional，是「价值观」，不是「价格」；③ be of great value to sb，to 后面是人，是「对…很有价值、很有用」；④ value sth at + 金额，是「估价」；⑤ 谈价钱、性价比（good value for money）时才是名词「价值、价格」。应用文写「重视时间」用 place a high value on time。",
+   "example": {
+    "en": "The old house has little market value, but its meaning to the family is priceless.",
+    "zh": "这栋老房子几乎没有市场价值，但它对家人的意义却无法估量。",
+    "source": "仿真例句 · 高考阅读高频句式",
+    "carrier": "C1"
+   },
+   "design_hint": "干扰项必须取自该词的 confusable 形近/音近列表，正确项与干扰项共享词根或音节"
+  },
+  {
+   "id": "q_145",
+   "word_id": "w_develop",
+   "headword": "develop",
+   "sense_id": "s_develop_v_process",
+   "sense_text": "冲洗（胶片、照片）",
+   "sense_level": "S3",
+   "is_trap": true,
+   "trap_of": [
+    "发展、进步"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E5"
+   ],
+   "module": "E3_形近音近混淆",
+   "module_code": "E3",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C4",
+   "collocations": [
+    "develop film",
+    "develop a photograph",
+    "develop the negatives"
+   ],
+   "confusable": [
+    "deployment",
+    "development",
+    "envelope",
+    "deplete"
+   ],
+   "notes": "考场判断法：① develop 后面接 habit / interest / reputation，是「养成、发展出」；② 接 cold / disease / symptoms，是「患上」；③ 接 film / photograph，是「冲洗」；④ 接 into（develop into a serious problem），是「发展成、变成」；⑤ 宾语是城市、技术、经济这类，才是「发展、开发」。语法填空常考现在分词作状语（Developing rapidly, the company…），按「正在发展的」理解。",
+   "example": {
+    "en": "He developed the film at home before showing the pictures to the class.",
+    "zh": "他在把照片给全班看之前，先在家里把胶片冲洗了出来。",
+    "source": "仿真例句 · 高考读后续写校园活动高频句式",
+    "carrier": "C5"
+   },
+   "design_hint": "干扰项必须取自该词的 confusable 形近/音近列表，正确项与干扰项共享词根或音节"
+  },
+  {
+   "id": "q_146",
+   "word_id": "w_develop",
+   "headword": "develop",
+   "sense_id": "s_develop_v_habit",
+   "sense_text": "养成、发展出（习惯、兴趣）",
+   "sense_level": "S2",
+   "is_trap": true,
+   "trap_of": [
+    "发展、进步"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E2"
+   ],
+   "module": "E2_一词多义混淆",
+   "module_code": "E2",
+   "difficulty": "hard",
+   "expected_accuracy": [
+    0.15,
+    0.45
+   ],
+   "carrier": "C2",
+   "collocations": [
+    "develop a habit of",
+    "develop an interest in",
+    "develop a reputation",
+    "develop skills"
+   ],
+   "confusable": [
+    "deployment",
+    "development",
+    "envelope",
+    "deplete"
+   ],
+   "notes": "考场判断法：① develop 后面接 habit / interest / reputation，是「养成、发展出」；② 接 cold / disease / symptoms，是「患上」；③ 接 film / photograph，是「冲洗」；④ 接 into（develop into a serious problem），是「发展成、变成」；⑤ 宾语是城市、技术、经济这类，才是「发展、开发」。语法填空常考现在分词作状语（Developing rapidly, the company…），按「正在发展的」理解。",
+   "example": {
+    "en": "She developed a habit of reading before bed during her first year at university.",
+    "zh": "她在上大学第一年养成了睡前阅读的习惯。",
+    "source": "仿真例句 · 高考完形填空高频句式",
+    "carrier": "C2"
+   },
+   "design_hint": "考同一词的另一义项：干扰项是该词另一个真实存在的义项"
+  },
+  {
+   "id": "q_147",
+   "word_id": "w_practice",
+   "headword": "practice",
+   "sense_id": "s_practice_n_custom",
+   "sense_text": "惯例、习俗；通行的做法",
+   "sense_level": "S3",
+   "is_trap": true,
+   "trap_of": [
+    "练习、训练"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E2"
+   ],
+   "module": "E3_形近音近混淆",
+   "module_code": "E3",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C4",
+   "collocations": [
+    "common practice",
+    "standard practice",
+    "usual practice",
+    "general practice"
+   ],
+   "confusable": [
+    "practise",
+    "practitioner",
+    "practical",
+    "premise"
+   ],
+   "notes": "考场判断法：① practice 前面有 common / standard / usual，是「惯例、做法」，不是「练习」；② in practice 意为「实际上」（= in reality），不是「在练习中」；③ 后面接 doing（practice speaking English），是动词「练习」；④ medical / legal 语境（medical practice, in clinical practice）是「业务、行医执业」；⑤ 应用文表达「这是一种普遍做法」固定写 It is common practice to do sth，不要写成 common practice of doing。",
+   "example": {
+    "en": "It is common practice for students to review their notes the night before an important test.",
+    "zh": "在重要考试前一晚复习笔记是学生们的普遍做法。",
+    "source": "仿真例句 · 高考应用文写作高频句式",
+    "carrier": "C4"
+   },
+   "design_hint": "干扰项必须取自该词的 confusable 形近/音近列表，正确项与干扰项共享词根或音节"
+  },
+  {
+   "id": "q_148",
+   "word_id": "w_practice",
+   "headword": "practice",
+   "sense_id": "s_practice_v_perform",
+   "sense_text": "练习、演练（技艺、发言）",
+   "sense_level": "S2",
+   "is_trap": false,
+   "trap_of": [],
+   "sense_error_mech": [
+    "E2"
+   ],
+   "module": "E2_一词多义混淆",
+   "module_code": "E2",
+   "difficulty": "easy",
+   "expected_accuracy": [
+    0.65,
+    0.95
+   ],
+   "carrier": "C2",
+   "collocations": [
+    "practice doing sth",
+    "practice a skill",
+    "practice what you preach",
+    "practise speaking"
+   ],
+   "confusable": [
+    "practise",
+    "practitioner",
+    "practical",
+    "premise"
+   ],
+   "notes": "考场判断法：① practice 前面有 common / standard / usual，是「惯例、做法」，不是「练习」；② in practice 意为「实际上」（= in reality），不是「在练习中」；③ 后面接 doing（practice speaking English），是动词「练习」；④ medical / legal 语境（medical practice, in clinical practice）是「业务、行医执业」；⑤ 应用文表达「这是一种普遍做法」固定写 It is common practice to do sth，不要写成 common practice of doing。",
+   "example": {
+    "en": "Students who practice writing every day usually make visible progress within a month.",
+    "zh": "每天练习写作的学生通常在一个月内就能看到明显进步。",
+    "source": "仿真例句 · 高考完形填空学习话题高频句式",
+    "carrier": "C2"
+   },
+   "design_hint": "考同一词的另一义项：干扰项是该词另一个真实存在的义项"
+  },
+  {
+   "id": "q_149",
+   "word_id": "w_division",
+   "headword": "division",
+   "sense_id": "s_division_n_math",
+   "sense_text": "除法；（做除法的运算）",
+   "sense_level": "S3",
+   "is_trap": true,
+   "trap_of": [
+    "分开、划分"
+   ],
+   "sense_error_mech": [
+    "E5",
+    "E1"
+   ],
+   "module": "E5_词性词形误判",
+   "module_code": "E5",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C5",
+   "collocations": [
+    "long division",
+    "division sign",
+    "simple division",
+    "by division"
+   ],
+   "confusable": [
+    "divide",
+    "divisor",
+    "diverse",
+    "vision"
+   ],
+   "notes": "考场判断法：① 先看介词组合：between / within 后面是人或群体，是「分歧、不和」；② 前面有 business / sales / marketing / finance 这类行业名，是「部门、科室」；③ 后面接 labour（the division of labour），是「分工」；④ 数学语境（long division, division sign），是「除法」；⑤ 其余「把…分成」的语境才是「分开、划分」。别把 division 一律读成「分开」，高考里读成「分歧、部门」更常见。",
+   "example": {
+    "en": "Pupils usually learn long division only after they have mastered basic multiplication.",
+    "zh": "学生通常在掌握基本乘法之后才学长除法。",
+    "source": "仿真例句 · 高考阅读校园与数学话题高频句式",
+    "carrier": "C1"
+   },
+   "design_hint": "考词性或词形变化（-ed/-ing/名词化/形容词↔名词），干扰项用同一词根的另一词性"
+  },
+  {
+   "id": "q_150",
+   "word_id": "w_division",
+   "headword": "division",
+   "sense_id": "s_division_ph_labour",
+   "sense_text": "分工；劳动的分工（labour）",
+   "sense_level": "S4",
+   "is_trap": true,
+   "trap_of": [
+    "分开、划分",
+    "部门、科室"
+   ],
+   "sense_error_mech": [
+    "E4",
+    "E1"
+   ],
+   "module": "E4_固定搭配缺失",
+   "module_code": "E4",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C3",
+   "collocations": [
+    "the division of labour",
+    "a division of labour",
+    "specialization and division of labour"
+   ],
+   "confusable": [
+    "divide",
+    "divisor",
+    "diverse",
+    "vision"
+   ],
+   "notes": "考场判断法：① 先看介词组合：between / within 后面是人或群体，是「分歧、不和」；② 前面有 business / sales / marketing / finance 这类行业名，是「部门、科室」；③ 后面接 labour（the division of labour），是「分工」；④ 数学语境（long division, division sign），是「除法」；⑤ 其余「把…分成」的语境才是「分开、划分」。别把 division 一律读成「分开」，高考里读成「分歧、部门」更常见。",
+   "example": {
+    "en": "Specialization grows because the division of labour lets each worker master a smaller set of skills.",
+    "zh": "分工让每个工人只需掌握更少的技能，专业化因此不断加深。",
+    "source": "仿真例句 · 高考阅读经济与社会话题高频句式",
+    "carrier": "C1"
+   },
+   "design_hint": "考固定搭配：干扰项须能接在同一结构下但搭配错"
+  },
+  {
+   "id": "q_151",
+   "word_id": "w_suspend",
+   "headword": "suspend",
+   "sense_id": "s_suspend_v_contain",
+   "sense_text": "使悬浮；（微粒）浮在空气中",
+   "sense_level": "S3",
+   "is_trap": true,
+   "trap_of": [
+    "悬挂、吊挂"
+   ],
+   "sense_error_mech": [
+    "E5",
+    "E1"
+   ],
+   "module": "E5_词性词形误判",
+   "module_code": "E5",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C5",
+   "collocations": [
+    "remain suspended",
+    "suspended in the air",
+    "suspended particles",
+    "suspended in water"
+   ],
+   "confusable": [
+    "suspense",
+    "suspension",
+    "suspender",
+    "inspect"
+   ],
+   "notes": "考场判断法：① 宾语是计划、服务、业务、判决这类「正在进行的事」，是「暂停、中止、推迟」，这是高考最常考的义项；② 宾语是灯、画、布帘等具体物，且后面有 from（suspend a lamp from the ceiling），是「悬挂」；③ 主语是人且出现在机构场景（a player was suspended / an official was suspended），是「停职、除名」；④ 宾语是颗粒、尘埃（remain suspended in the air），是「悬浮」。写应用文表达「暂停服务」固定写 suspend service。",
+   "example": {
+    "en": "Fine particles remain suspended in the air long after the spray is released.",
+    "zh": "喷雾释放后很久，细小颗粒仍悬浮在空气中。",
+    "source": "仿真例句 · 高考阅读科普类高频句式",
+    "carrier": "C1"
+   },
+   "design_hint": "考词性或词形变化（-ed/-ing/名词化/形容词↔名词），干扰项用同一词根的另一词性"
+  },
+  {
+   "id": "q_152",
+   "word_id": "w_suspend",
+   "headword": "suspend",
+   "sense_id": "s_suspend_v_postpone",
+   "sense_text": "中止、推迟；让进行中的事停下",
+   "sense_level": "S2",
+   "is_trap": true,
+   "trap_of": [
+    "悬挂、吊挂"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E2"
+   ],
+   "module": "E1_熟词僻义",
+   "module_code": "E1",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C1",
+   "collocations": [
+    "suspend the plan",
+    "suspend operations",
+    "suspend service",
+    "suspend a launch"
+   ],
+   "confusable": [
+    "suspense",
+    "suspension",
+    "suspender",
+    "inspect"
+   ],
+   "notes": "考场判断法：① 宾语是计划、服务、业务、判决这类「正在进行的事」，是「暂停、中止、推迟」，这是高考最常考的义项；② 宾语是灯、画、布帘等具体物，且后面有 from（suspend a lamp from the ceiling），是「悬挂」；③ 主语是人且出现在机构场景（a player was suspended / an official was suspended），是「停职、除名」；④ 宾语是颗粒、尘埃（remain suspended in the air），是「悬浮」。写应用文表达「暂停服务」固定写 suspend service。",
+   "example": {
+    "en": "The launch of the new line was suspended while engineers checked the design once more.",
+    "zh": "工程师再次核查设计期间，新线的投产被暂停。",
+    "source": "仿真例句 · 高考阅读经济与科技话题高频句式",
+    "carrier": "C1"
+   },
+   "design_hint": "考熟词僻义：干扰项按学生最熟悉的那个义项设置，正解是本义项"
+  },
+  {
+   "id": "q_153",
+   "word_id": "w_criterion",
+   "headword": "criterion",
+   "sense_id": "s_criterion_n_criteria",
+   "sense_text": "多项指标汇总清单（复数 criteria）",
+   "sense_level": "S3",
+   "is_trap": true,
+   "trap_of": [
+    "单数 criterion（学生误写 criterions）"
+   ],
+   "sense_error_mech": [
+    "E9",
+    "E5"
+   ],
+   "module": "E5_词性词形误判",
+   "module_code": "E5",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C5",
+   "collocations": [
+    "criteria were set",
+    "the criteria listed",
+    "on these criteria",
+    "meet all the criteria"
+   ],
+   "confusable": [
+    "criteria",
+    "criterions",
+    "critical",
+    "critic"
+   ],
+   "notes": "考场判断法：① 看到 criterion 先数数：单数 a criterion for… 是「一项标准、判据」，复数必须写 criteria，绝不能写 criterions；② 句子在谈评分、评估、数据（the criteria for measuring performance），是「指标、评判尺度」，不是抽象的「原则」；③ 谈人生、道德、价值判断（a criterion for a good life），是抽象的标准、尺度。应用文写评选标准用 criteria for (doing) sth。",
+   "example": {
+    "en": "Several criteria were published in advance so that no one could argue about them later.",
+    "zh": "多项标准事先公布，这样日后谁也无法再为此争论。",
+    "source": "仿真例句 · 高考应用文写作高频句式",
+    "carrier": "C4"
+   },
+   "design_hint": "考词性或词形变化（-ed/-ing/名词化/形容词↔名词），干扰项用同一词根的另一词性"
+  },
+  {
+   "id": "q_154",
+   "word_id": "w_criterion",
+   "headword": "criterion",
+   "sense_id": "s_criterion_n_measure",
+   "sense_text": "指标、判据；可衡量的尺度",
+   "sense_level": "S3",
+   "is_trap": true,
+   "trap_of": [
+    "抽象的原则与准则"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E2"
+   ],
+   "module": "E1_熟词僻义",
+   "module_code": "E1",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C1",
+   "collocations": [
+    "criteria for measuring",
+    "selection criteria",
+    "performance criteria",
+    "evaluation criteria"
+   ],
+   "confusable": [
+    "criteria",
+    "criterions",
+    "critical",
+    "critic"
+   ],
+   "notes": "考场判断法：① 看到 criterion 先数数：单数 a criterion for… 是「一项标准、判据」，复数必须写 criteria，绝不能写 criterions；② 句子在谈评分、评估、数据（the criteria for measuring performance），是「指标、评判尺度」，不是抽象的「原则」；③ 谈人生、道德、价值判断（a criterion for a good life），是抽象的标准、尺度。应用文写评选标准用 criteria for (doing) sth。",
+   "example": {
+    "en": "The criteria for measuring progress must be set before the project begins, not afterwards.",
+    "zh": "衡量进展的指标必须在项目开始之前确定，而不是事后。",
+    "source": "仿真例句 · 高考语法填空高频句式",
+    "carrier": "C3"
+   },
+   "design_hint": "考熟词僻义：干扰项按学生最熟悉的那个义项设置，正解是本义项"
+  },
+  {
+   "id": "q_155",
+   "word_id": "w_exploit",
+   "headword": "exploit",
+   "sense_id": "s_exploit_v_profit",
+   "sense_text": "压榨、不道德地榨取他人劳动",
+   "sense_level": "S3",
+   "is_trap": true,
+   "trap_of": [
+    "利用、充分发挥"
+   ],
+   "sense_error_mech": [
+    "E8",
+    "E1"
+   ],
+   "module": "E8_情感色彩误判",
+   "module_code": "E8",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C2",
+   "collocations": [
+    "exploit workers",
+    "exploit cheap labour",
+    "exploit sb's trust",
+    "exploit the poor"
+   ],
+   "confusable": [
+    "explore",
+    "exploration",
+    "explosive",
+    "plot"
+   ],
+   "notes": "考场判断法：① 宾语是 energy / oil / coal / natural resources，是「开发、开采」；② 宾语是 advantages / potential / every opportunity，是「充分利用」；③ 主语是人或公司、宾语是 workers / cheap labour，且全句在批评，是贬义「剥削」，这是 E8 情感色彩考点；④ 宾语是具体的壮举（a remarkable exploit），是名词「功绩」。读到 exploit 不要一律想成贬义「剥削」。",
+   "example": {
+    "en": "The workers complained that the farm was exploiting cheap labour to cut its costs.",
+    "zh": "工人们抱怨这家农场在剥削廉价劳动力以压低成本。",
+    "source": "仿真例句 · 高考阅读社会与劳动话题高频句式",
+    "carrier": "C1"
+   },
+   "design_hint": "考褒贬色彩/语气强度：干扰项用色彩相反的近义词"
+  },
+  {
+   "id": "q_156",
+   "word_id": "w_exploit",
+   "headword": "exploit",
+   "sense_id": "s_exploit_n_achievement",
+   "sense_text": "功绩、壮举；了不起的成就",
+   "sense_level": "S3",
+   "is_trap": true,
+   "trap_of": [
+    "利用、充分发挥"
+   ],
+   "sense_error_mech": [
+    "E5",
+    "E1"
+   ],
+   "module": "E1_熟词僻义",
+   "module_code": "E1",
+   "difficulty": "hard",
+   "expected_accuracy": [
+    0.15,
+    0.45
+   ],
+   "carrier": "C1",
+   "collocations": [
+    "a remarkable exploit",
+    "a bold exploit",
+    "an outstanding exploit",
+    "a heroic exploit"
+   ],
+   "confusable": [
+    "explore",
+    "exploration",
+    "explosive",
+    "plot"
+   ],
+   "notes": "考场判断法：① 宾语是 energy / oil / coal / natural resources，是「开发、开采」；② 宾语是 advantages / potential / every opportunity，是「充分利用」；③ 主语是人或公司、宾语是 workers / cheap labour，且全句在批评，是贬义「剥削」，这是 E8 情感色彩考点；④ 宾语是具体的壮举（a remarkable exploit），是名词「功绩」。读到 exploit 不要一律想成贬义「剥削」。",
+   "example": {
+    "en": "The crossing of the frozen river was a remarkable exploit for the two young explorers.",
+    "zh": "穿越那条结冰的河流，对这两位年轻探险者来说是一项了不起的壮举。",
+    "source": "仿真例句 · 高考读后续写故事类高频句式",
+    "carrier": "C5"
+   },
+   "design_hint": "考熟词僻义：干扰项按学生最熟悉的那个义项设置，正解是本义项"
+  },
+  {
+   "id": "q_157",
+   "word_id": "w_utter",
+   "headword": "utter",
+   "sense_id": "s_utter_v_cry",
+   "sense_text": "发出（叫声、声音）",
+   "sense_level": "S4",
+   "is_trap": true,
+   "trap_of": [
+    "说出、开口讲",
+    "完全的、彻底的"
+   ],
+   "sense_error_mech": [
+    "E4",
+    "E1"
+   ],
+   "module": "E4_固定搭配缺失",
+   "module_code": "E4",
+   "difficulty": "hard",
+   "expected_accuracy": [
+    0.15,
+    0.45
+   ],
+   "carrier": "C3",
+   "collocations": [
+    "utter a cry",
+    "utter a scream",
+    "utter a sound",
+    "utter a groan"
+   ],
+   "confusable": [
+    "utterance",
+    "utterly",
+    "mutter",
+    "utter"
+   ],
+   "notes": "考场判断法：① 先看词性：前面带冠词或不定冠词（an utter failure / utter nonsense），是形容词「完全的、彻底的」，不能译成「说出」；② 后面接 words / a cry / a warning / no sound，是动词「说出、发出」，注意 utter no sound 是「一声不吭」；③ 宾语是 doubt / opinion / complaint，是「表达、吐露」；④ 诗歌文学语境里的 utter 多半是「发出声音」的动作描写。写作里形容「胡言乱语」写 utter nonsense。",
+   "example": {
+    "en": "A faint cry was uttered somewhere in the dark, and everyone in the room fell silent.",
+    "zh": "黑暗中某处传来一声微弱的叫喊，屋里每个人都沉默了。",
+    "source": "仿真例句 · 高考读后续写场景描写高频句式",
+    "carrier": "C5"
+   },
+   "design_hint": "考固定搭配：干扰项须能接在同一结构下但搭配错"
+  },
+  {
+   "id": "q_158",
+   "word_id": "w_utter",
+   "headword": "utter",
+   "sense_id": "s_utter_v_express",
+   "sense_text": "表达、吐露（想法、意见）",
+   "sense_level": "S3",
+   "is_trap": true,
+   "trap_of": [
+    "说出、开口讲"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E2"
+   ],
+   "module": "E2_一词多义混淆",
+   "module_code": "E2",
+   "difficulty": "hard",
+   "expected_accuracy": [
+    0.15,
+    0.45
+   ],
+   "carrier": "C2",
+   "collocations": [
+    "utter an opinion",
+    "utter a doubt",
+    "utter a complaint",
+    "utter no word of praise"
+   ],
+   "confusable": [
+    "utterance",
+    "utterly",
+    "mutter",
+    "utter"
+   ],
+   "notes": "考场判断法：① 先看词性：前面带冠词或不定冠词（an utter failure / utter nonsense），是形容词「完全的、彻底的」，不能译成「说出」；② 后面接 words / a cry / a warning / no sound，是动词「说出、发出」，注意 utter no sound 是「一声不吭」；③ 宾语是 doubt / opinion / complaint，是「表达、吐露」；④ 诗歌文学语境里的 utter 多半是「发出声音」的动作描写。写作里形容「胡言乱语」写 utter nonsense。",
+   "example": {
+    "en": "She was careful never to utter a word of complaint, even when the work was exhausting.",
+    "zh": "即使工作累人，她也从不吐露一句抱怨。",
+    "source": "仿真例句 · 高考完形填空人物性格话题高频句式",
+    "carrier": "C2"
+   },
+   "design_hint": "考同一词的另一义项：干扰项是该词另一个真实存在的义项"
+  },
+  {
+   "id": "q_159",
+   "word_id": "w_bond",
+   "headword": "bond",
+   "sense_id": "s_bond_v_strengthen",
+   "sense_text": "建立、加强（信任、情感）联系",
+   "sense_level": "S3",
+   "is_trap": true,
+   "trap_of": [
+    "纽带、联系"
+   ],
+   "sense_error_mech": [
+    "E5",
+    "E1"
+   ],
+   "module": "E5_词性词形误判",
+   "module_code": "E5",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C5",
+   "collocations": [
+    "bond with sb",
+    "bond over sth",
+    "bonded by a common interest",
+    "bonding moment"
+   ],
+   "confusable": [
+    "band",
+    "bound",
+    "bonded",
+    "bold"
+   ],
+   "notes": "考场判断法：① 句中提到 issue / sell / interest rate / government，且主语是机构，是金融义「债券」；② 主语是人、后面接 with sb，是「纽带、情感联系」；③ 动词 bond with sb / bond over sth，是「建立、增强（信任）关系」，主语常是共同经历或活动；④ 注意 bond 既是名词也是动词，语法填空常在名词与动词之间转换。",
+   "example": {
+    "en": "Working on the project together bonded the two classes far more closely than any lecture could.",
+    "zh": "一起做项目让两个班的关系比任何讲座都紧密得多。",
+    "source": "仿真例句 · 高考完形填空校园话题高频句式",
+    "carrier": "C2"
+   },
+   "design_hint": "考词性或词形变化（-ed/-ing/名词化/形容词↔名词），干扰项用同一词根的另一词性"
+  },
+  {
+   "id": "q_160",
+   "word_id": "w_bond",
+   "headword": "bond",
+   "sense_id": "s_bond_n_financial",
+   "sense_text": "债券；有息债权凭证",
+   "sense_level": "S3",
+   "is_trap": true,
+   "trap_of": [
+    "纽带、联系"
+   ],
+   "sense_error_mech": [
+    "E2",
+    "E10"
+   ],
+   "module": "E1_熟词僻义",
+   "module_code": "E1",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C1",
+   "collocations": [
+    "government bonds",
+    "issue bonds",
+    "bond market",
+    "a ten-year bond"
+   ],
+   "confusable": [
+    "band",
+    "bound",
+    "bonded",
+    "bold"
+   ],
+   "notes": "考场判断法：① 句中提到 issue / sell / interest rate / government，且主语是机构，是金融义「债券」；② 主语是人、后面接 with sb，是「纽带、情感联系」；③ 动词 bond with sb / bond over sth，是「建立、增强（信任）关系」，主语常是共同经历或活动；④ 注意 bond 既是名词也是动词，语法填空常在名词与动词之间转换。",
+   "example": {
+    "en": "The city issued bonds to pay for the new hospital and the school gym.",
+    "zh": "该市发行债券来支付新医院和学校体育馆的建造费用。",
+    "source": "仿真例句 · 高考阅读财经话题高频句式",
+    "carrier": "C1"
+   },
+   "design_hint": "考熟词僻义：干扰项按学生最熟悉的那个义项设置，正解是本义项"
+  }
+ ]
+}

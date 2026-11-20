@@ -1,0 +1,632 @@
+[
+ {
+  "word_id": "w_contrast",
+  "headword": "contrast",
+  "ipa": "/ˈkɒntrɑ:st/",
+  "level": "T1",
+  "pos": [
+   "n",
+   "v",
+   "phrase"
+  ],
+  "target_sense": {
+   "sense_id": "s_contrast_v_differ",
+   "text": "与…截然不同、形成反差",
+   "sense_level": "S3",
+   "error_mech": [
+    "E1",
+    "E6"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "对比、对照"
+   ],
+   "example": {
+    "en": "The final result contrasts sharply with what most of the people had expected.",
+    "zh": "最终结果与大多数人的预期形成鲜明反差。",
+    "source": "仿真例句 · 高考阅读数据与结论类高频句式",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "contrast sharply with",
+    "contrast with expectations",
+    "stand in contrast to"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_contrast_n_comparison",
+    "text": "对比、对照；差异",
+    "sense_level": "S1",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_contrast_v_compare",
+    "text": "把…进行对比（A 与 B）",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_contrast_v_differ",
+    "text": "与…截然不同、形成反差",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_contrast_phrase_by_contrast",
+    "text": "（by contrast）相比之下",
+    "sense_level": "S4",
+    "is_trap": true
+   }
+  ],
+  "confusable": [
+   "contract",
+   "contact",
+   "contrastive",
+   "contest"
+  ],
+  "word_family": [
+   "contrast",
+   "contrastive",
+   "contrasting",
+   "contrary"
+  ],
+  "notes": "考场判断法：① 先圈介词：by contrast（相比之下，后面常跟完整句子）vs in contrast to / in contrast with（与…形成对比，后面必须接比较对象），两组必须整块记；② 动词 contrast A with B 是「把 A 与 B 作对比」；③ 若 with 后面接的是预期、说法这类内容（contrast with expectations），就是「与…截然不同」；④ 不要把 contrast（对比）与 compare（比较）、compare with（与…相比）混为一谈。",
+  "assigned_carrier": "C2",
+  "assigned_difficulty": "hard",
+  "replaces_question_id": null
+ },
+ {
+  "word_id": "w_firm",
+  "headword": "firm",
+  "ipa": "/fɜ:m/",
+  "level": "T1",
+  "pos": [
+   "adj",
+   "n"
+  ],
+  "target_sense": {
+   "sense_id": "s_firm_n_company",
+   "text": "公司、商号、企业",
+   "sense_level": "S3",
+   "error_mech": [
+    "E1",
+    "E10"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "坚定的、坚决的（信念、立场）",
+    "结实的、坚固的（地基、支撑）"
+   ],
+   "example": {
+    "en": "A growing number of graduates now choose to work for a large international firm.",
+    "zh": "越来越多的毕业生选择进入大型国际公司工作。",
+    "source": "仿真例句 · 高考就业与职场类话题",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "a large firm",
+    "a consulting firm",
+    "the firm has decided",
+    "a well-known firm"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_firm_adj_resolute",
+    "text": "坚定的、坚决的（信念、立场）",
+    "sense_level": "S1",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_firm_adj_solid",
+    "text": "结实的、坚固的（地基、支撑）",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_firm_n_company",
+    "text": "公司、商号、企业",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_firm_adj_fixed",
+    "text": "固定的、不可更动的（价格）",
+    "sense_level": "S4",
+    "is_trap": true
+   }
+  ],
+  "confusable": [
+   "form",
+   "farm",
+   "confirm"
+  ],
+  "word_family": [
+   "firm",
+   "firmly",
+   "firmness",
+   "confirm",
+   "affirm"
+  ],
+  "notes": "考场判断法：① firm 后面跟 belief / decision / support / commitment 这类信念类名词 → 形容词「坚定的」；② 跟 ground / foundation / grip 这类接触类名词 → 形容词「结实的」；③ 前面有 a / the 且指一个组织（a large firm）→ 名词「公司」；④ 修饰 price / offer / date → 固定搭配义「固定的、板上钉钉的」。",
+  "assigned_carrier": "C2",
+  "assigned_difficulty": "hard",
+  "replaces_question_id": null
+ },
+ {
+  "word_id": "w_assign",
+  "headword": "assign",
+  "ipa": "/əˈsaɪn/",
+  "level": "T2",
+  "pos": [
+   "v"
+  ],
+  "target_sense": {
+   "sense_id": "s_assign_v_appoint",
+   "text": "指派、委派（某人担任某职、做某事）",
+   "sense_level": "S2",
+   "error_mech": [
+    "E1",
+    "E2"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "分配、分派（任务、房间、经费）"
+   ],
+   "example": {
+    "en": "The head coach assigned two experienced players to lead the younger team this season.",
+    "zh": "主教练指派了两名经验丰富的球员本赛季带领年轻队。",
+    "source": "仿真例句 · 高考阅读体育与团队类高频句式",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "assign sb to a task",
+    "assign sb to lead",
+    "assign a teacher to a class",
+    "assign sb a duty"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_assign_v_allocate",
+    "text": "分配、分派（任务、房间、经费）",
+    "sense_level": "S1",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_assign_v_appoint",
+    "text": "指派、委派（某人担任某职、做某事）",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_assign_v_set_work",
+    "text": "布置（作业、任务、阅读材料）",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_assign_v_blame",
+    "text": "把…归因于、把责任归于",
+    "sense_level": "S3",
+    "is_trap": true
+   }
+  ],
+  "confusable": [
+   "assist",
+   "assess",
+   "resign",
+   "associate"
+  ],
+  "word_family": [
+   "assign",
+   "assignment",
+   "assignable",
+   "reassign"
+  ],
+  "notes": "考场判断法：① 先看宾语是「物」还是「人」：物（tasks / rooms / time / money）→ 「分配」；人（a teacher / him / two players）→ 「指派、委派」；② 宾语是「作业、任务、阅读材料」→ 「布置」；③ 宾语是 cause / blame / responsibility → 「把…归因于、把责任归于」，这是学术评论里的高频用法；④ 固定语序：assign sth to sb（把事派给人）与 assign sb to sth（把人派到事上）方向相反，介词决定谁给谁，不能互换。",
+  "assigned_carrier": "C4",
+  "assigned_difficulty": "mid",
+  "replaces_question_id": null
+ },
+ {
+  "word_id": "w_exchange",
+  "headword": "exchange",
+  "ipa": "/ɪksˈtʃeɪndʒ/",
+  "level": "T2",
+  "pos": [
+   "n",
+   "v"
+  ],
+  "target_sense": {
+   "sense_id": "s_exchange_v_converse",
+   "text": "交谈、互致（言语、目光、问候）",
+   "sense_level": "S3",
+   "error_mech": [
+    "E1",
+    "E2"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "互换、交换（礼物、号码、意见）"
+   ],
+   "example": {
+    "en": "Two strangers exchanged a few words at the bus stop before going their separate ways.",
+    "zh": "两位陌生人在公交站台上交谈了几句，然后各走各路。",
+    "source": "仿真例句 · 高考记叙与场景描写类高频句式",
+    "carrier": "C5"
+   },
+   "collocations": [
+    "exchange words",
+    "exchange glances",
+    "exchange greetings",
+    "exchange blows"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_exchange_v_swap",
+    "text": "互换、交换（礼物、号码、意见）",
+    "sense_level": "S1",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_exchange_n_interaction",
+    "text": "交流、往来（人、项目、看法）",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_exchange_n_trade",
+    "text": "交易、外币兑换（买卖）",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_exchange_v_converse",
+    "text": "交谈、互致（言语、目光、问候）",
+    "sense_level": "S3",
+    "is_trap": true
+   }
+  ],
+  "confusable": [
+   "change",
+   "switch",
+   "alternate",
+   "exchangeable"
+  ],
+  "word_family": [
+   "exchange",
+   "exchangeable",
+   "exchanger",
+   "exchanged"
+  ],
+  "notes": "考场判断法：① 先看宾语：实物（gifts / presents / phone numbers / seats）→ 「互换」；言语、目光（words / glances / greetings）→ 「交谈、互致」；② 名词 exchange 前面有 a student / cultural / international → 「交流、往来（项目、人）」；③ 看到 rate / currency / foreign → 「汇率、外币兑换」，这一块必须整块记；④ in exchange for（以…换取）后面接被换出去的东西，in return（作为回报）后面接得到的东西，两个介词短语的位置不能互换。",
+  "assigned_carrier": "C5",
+  "assigned_difficulty": "mid",
+  "replaces_question_id": null
+ },
+ {
+  "word_id": "w_particular",
+  "headword": "particular",
+  "ipa": "/pəˈtɪkjələ(r)/",
+  "level": "T1",
+  "pos": [
+   "adj",
+   "n",
+   "phrase"
+  ],
+  "target_sense": {
+   "sense_id": "s_particular_adj_fastidious",
+   "text": "过分挑剔的、对细节要求苛刻的（be particular about）",
+   "sense_level": "S3",
+   "error_mech": [
+    "E1",
+    "E4"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "特定的、具体的"
+   ],
+   "example": {
+    "en": "She is very particular about her food and rarely eats outside on weekends.",
+    "zh": "她对吃的东西很讲究，周末也很少在外面吃饭。",
+    "source": "仿真例句 · 高考应用文与人物描写类高频句式",
+    "carrier": "C4"
+   },
+   "collocations": [
+    "be particular about",
+    "particular about food",
+    "too particular to please"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_particular_adj_specific",
+    "text": "专指某事的、具体而明确的",
+    "sense_level": "S1",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_particular_adj_fastidious",
+    "text": "过分挑剔的、对细节要求苛刻的（be particular about）",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_particular_adj_special",
+    "text": "格外突出的、异乎寻常的",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_particular_n_details",
+    "text": "细节、详情（particulars）",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_particular_phrase_in_particular",
+    "text": "（in particular）尤其、特别是",
+    "sense_level": "S4",
+    "is_trap": true
+   }
+  ],
+  "confusable": [
+   "partly",
+   "part",
+   "specially",
+   "particularity"
+  ],
+  "word_family": [
+   "particular",
+   "particularly",
+   "particularity",
+   "party"
+  ],
+  "notes": "考场判断法：① 先圈搭配：be particular about sth → 「对…讲究、挑剔」；in particular → 「尤其、特别是」；particulars（复数名词）→ 「详情、细项」；② 看到 in this particular case / on that particular day → 「特定的、具体的」；③ be particular about 后接名词或动名词（about being on time），不接动词不定式；④ particular 的核心义是「特定的」，但高考最爱考的是「挑剔的」和「in particular」，这两块必须整块背。",
+  "assigned_carrier": "C2",
+  "assigned_difficulty": "mid",
+  "replaces_question_id": null
+ },
+ {
+  "word_id": "w_reform",
+  "headword": "reform",
+  "ipa": "/rɪˈfɔ:m/",
+  "level": "T2",
+  "pos": [
+   "v",
+   "n",
+   "phrase"
+  ],
+  "target_sense": {
+   "sense_id": "s_reform_v_correct",
+   "text": "改正、纠正（坏习惯、错误做法）",
+   "sense_level": "S3",
+   "error_mech": [
+    "E1",
+    "E6"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "改革、变革（制度、教育、系统）"
+   ],
+   "example": {
+    "en": "The young man tried hard to reform his ways before the court agreed to let him go.",
+    "zh": "在法庭同意放他走之前，这年轻人努力改过自新。",
+    "source": "仿真例句 · 高考记叙与人物转变类高频句式",
+    "carrier": "C5"
+   },
+   "collocations": [
+    "reform oneself",
+    "reform one's ways",
+    "reform bad habits",
+    "reform the bad habits"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_reform_v_change_system",
+    "text": "改革、变革（制度、教育、系统）",
+    "sense_level": "S1",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_reform_n_change",
+    "text": "改革（名词用法；一项改革措施）",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_reform_v_correct",
+    "text": "改正、纠正（坏习惯、错误做法）",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_reform_phrase_reform_and_opening_up",
+    "text": "（reform and opening-up）改革开放",
+    "sense_level": "S4",
+    "is_trap": true
+   }
+  ],
+  "confusable": [
+   "conform",
+   "inform",
+   "perform",
+   "refine"
+  ],
+  "word_family": [
+   "reform",
+   "reformer",
+   "reformation",
+   "reformatory"
+  ],
+  "notes": "考场判断法：① 先看它是动词还是名词：动词后面直接跟宾语（reform the system / reform education）→ 「改革、变革」；名词前面有 the / a / major（a major reform / the reform）→ 「改革（措施）」；② 看宾语是什么：制度、学校、体制、工资 → 「改革、变革」；自己的坏习惯、错误做法、处世方式 → 「改正、矫正」，这一处最容易被误判；③ 看到 Reform and Opening-up 要整块背，译「改革开放」；④ 写作里说「改革某项制度」用 reform the system，比 change the system 更贴高考语料。",
+  "assigned_carrier": "C6",
+  "assigned_difficulty": "mid",
+  "replaces_question_id": null
+ },
+ {
+  "word_id": "w_sound",
+  "headword": "sound",
+  "ipa": "/saʊnd/",
+  "level": "T1",
+  "pos": [
+   "n",
+   "adj",
+   "v",
+   "adv"
+  ],
+  "target_sense": {
+   "sense_id": "s_sound_adj_healthy",
+   "text": "健全的；身体状况良好的",
+   "sense_level": "S3",
+   "error_mech": [
+    "E1",
+    "E10"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "声音、声响"
+   ],
+   "example": {
+    "en": "The doctor said she was in sound health and needed no further treatment that year.",
+    "zh": "医生说她身体状况良好，那一年不需要进一步治疗。",
+    "source": "仿真例句 · 高考阅读健康话题高频句式",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "sound health",
+    "in sound condition",
+    "sound fitness",
+    "a sound body"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_sound_n_noise",
+    "text": "声音、声响；耳朵听到的振动",
+    "sense_level": "S1",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_sound_adj_reliable",
+    "text": "可靠的、站得住脚的（论证、判断）",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_sound_adj_healthy",
+    "text": "健全的；身体状况良好的",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_sound_v_seem",
+    "text": "听起来；给人…的感觉",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_sound_adv_fully",
+    "text": "充分地、彻底地（sound asleep）",
+    "sense_level": "S3",
+    "is_trap": true
+   }
+  ],
+  "confusable": [
+   "soup",
+   "surround",
+   "sounded",
+   "sauce"
+  ],
+  "word_family": [
+   "sound",
+   "soundly",
+   "resound",
+   "sounding"
+  ],
+  "notes": "考场判断法：① sound 后直接跟名词（advice / argument / reasoning / decision / judgment），是形容词「可靠的、站得住脚的」；② sound health / sound condition 是「健全的」；③ sound + 形容词或 sound like，是动词「听起来」；④ sound asleep 是副词「完全地、充分地」，不是「声音」。写应用文表达「睡得很沉」只能写 sound asleep。",
+  "assigned_carrier": "C3",
+  "assigned_difficulty": "mid",
+  "replaces_question_id": null
+ },
+ {
+  "word_id": "w_utter",
+  "headword": "utter",
+  "ipa": "/ˈʌtə(r)/",
+  "level": "T2",
+  "pos": [
+   "v",
+   "adj"
+  ],
+  "target_sense": {
+   "sense_id": "s_utter_adj_complete",
+   "text": "彻底的、绝顶的；毫无道理的",
+   "sense_level": "S2",
+   "error_mech": [
+    "E1",
+    "E5"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "说出、开口讲"
+   ],
+   "example": {
+    "en": "His explanation sounded like utter nonsense, and no one in the room took it seriously.",
+    "zh": "他的解释听上去完全是胡说八道，屋里没人当真。",
+    "source": "仿真例句 · 高考阅读议论文高频句式",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "utter nonsense",
+    "utter failure",
+    "utter darkness",
+    "utter stranger"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_utter_v_speak",
+    "text": "说出、开口讲（话、名字）",
+    "sense_level": "S1",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_utter_v_express",
+    "text": "表达、吐露（想法、意见）",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_utter_v_cry",
+    "text": "发出（叫声、声音）",
+    "sense_level": "S4",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_utter_adj_complete",
+    "text": "彻底的、绝顶的；毫无道理的",
+    "sense_level": "S2",
+    "is_trap": true
+   }
+  ],
+  "confusable": [
+   "utterance",
+   "utterly",
+   "mutter",
+   "utter"
+  ],
+  "word_family": [
+   "utter",
+   "utterance",
+   "utterly"
+  ],
+  "notes": "考场判断法：① 先看词性：前面带冠词或不定冠词（an utter failure / utter nonsense），是形容词「完全的、彻底的」，不能译成「说出」；② 后面接 words / a cry / a warning / no sound，是动词「说出、发出」，注意 utter no sound 是「一声不吭」；③ 宾语是 doubt / opinion / complaint，是「表达、吐露」；④ 诗歌文学语境里的 utter 多半是「发出声音」的动作描写。写作里形容「胡言乱语」写 utter nonsense。",
+  "assigned_carrier": "C6",
+  "assigned_difficulty": "mid",
+  "replaces_question_id": null
+ }
+]

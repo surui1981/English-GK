@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>拾词 · 教材词表分析</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --canvas:#f7f5f0;--card:#fff;--ink:#14171e;--ink-2:#3a4256;--ink-3:#7c7a72;
+  --line:#e9e3d6;--line-soft:#f2efe8;
+  --primary:#2f6f5e;--primary-deep:#1e4a3e;--primary-tint:#eaf3f0;
+  --accent:#c97b3f;--accent-tint:#faf1e8;
+  --danger:#b06367;--danger-tint:#faf0f0;
+  --gold:#b8892b;--gold-tint:#fbf4e4;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Outfit','Noto Sans SC','PingFang SC','Hiragino Sans GB',sans-serif;
+  background:var(--canvas);color:var(--ink);font-size:14px;line-height:1.6;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
+  background:radial-gradient(600px 300px at 8% -5%,rgba(47,111,94,.06),transparent 60%),
+             radial-gradient(500px 280px at 95% 3%,rgba(201,123,63,.055),transparent 60%)}
+.wrap{max-width:1140px;margin:0 auto;padding:0 24px 80px;position:relative;z-index:1}
+svg{display:block}
+::selection{background:var(--primary);color:#fff}
+header{padding:52px 0 38px;border-bottom:1px solid var(--line);margin-bottom:44px}
+.eyebrow{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;color:var(--primary);text-transform:uppercase;margin-bottom:14px}
+h1{font-size:36px;line-height:1.2;font-weight:700;letter-spacing:-.025em;max-width:18em}
+h1 em{font-style:normal;color:var(--primary)}
+.lede{margin-top:16px;font-size:15.5px;color:var(--ink-2);max-width:46em;line-height:1.75}
+.meta{display:flex;gap:9px;flex-wrap:wrap;margin-top:24px}
+.chip{display:inline-flex;align-items:center;gap:6px;font-size:12px;padding:5px 11px;border-radius:99px;background:#fff;border:1px solid var(--line);color:var(--ink-2)}
+.chip.acc{background:var(--primary-tint);border-color:#cfe3dc;color:var(--primary-deep)}
+section{margin-bottom:52px}
+.sec-head{display:flex;align-items:baseline;gap:13px;margin-bottom:7px;flex-wrap:wrap}
+h2{font-size:24px;font-weight:700;letter-spacing:-.02em}
+.sec-n{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--primary);letter-spacing:.1em}
+.sec-desc{color:var(--ink-2);margin-bottom:24px;max-width:48em;font-size:13.5px}
+h3{font-size:15px;font-weight:700;letter-spacing:-.01em;margin-bottom:4px}
+.grid{display:grid;gap:15px}.g2{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;box-shadow:0 2px 8px rgba(20,23,30,.035)}
+.card p{font-size:13px;color:var(--ink-2);line-height:1.65}.card p b{color:var(--ink)}
+.kpi{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px 18px}
+.kpi .l{font-size:11.5px;color:var(--ink-3);margin-bottom:5px}
+.kpi b{font-family:'Outfit',sans-serif;font-size:27px;font-weight:700;letter-spacing:-.03em;display:block;line-height:1.1}
+.kpi .d{font-size:11.5px;color:var(--ink-3);margin-top:5px}
+.kpi .d.up{color:var(--primary-deep);font-weight:600}
+.kpi .d.warn{color:var(--danger);font-weight:600}
+.bench{display:grid;grid-template-columns:150px 1fr 54px;gap:12px;align-items:center;padding:5px 0}
+.bench-label{font-size:12.5px;color:var(--ink-2)}
+.bench-track{height:17px;background:var(--line-soft);border-radius:5px;overflow:hidden}
+.bench-fill{height:100%;border-radius:5px;background:var(--primary)}
+.bench-val{font-family:'Outfit',sans-serif;font-size:12.5px;font-weight:600;text-align:right}
+.bench.hot .bench-fill{background:var(--accent)}.bench.hot .bench-val{color:var(--accent)}
+.tbl{width:100%;border-collapse:collapse;font-size:12.5px;background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.tbl th{text-align:left;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);font-weight:600;padding:11px 13px;background:#faf9f5;border-bottom:1px solid var(--line)}
+.tbl td{padding:9px 13px;border-bottom:1px solid var(--line-soft);color:var(--ink-2);vertical-align:middle}
+.tbl tr:last-child td{border-bottom:none}
+.tbl td.num{font-family:'Outfit',sans-serif;font-weight:600;color:var(--ink);text-align:right}
+.tbl .mono{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--primary)}
+.pill{display:inline-block;font-size:10.5px;font-weight:600;padding:2px 8px;border-radius:99px}
+.pill.hot{background:var(--accent-tint);color:var(--accent)}
+.pill.mid{background:var(--gold-tint);color:var(--gold)}
+.pill.low{background:var(--line-soft);color:var(--ink-3)}
+.warnbox{background:var(--danger-tint);border:1px solid #e8d5d6;border-radius:14px;padding:18px 20px}
+.warnbox h3{color:var(--danger);margin-bottom:9px;display:flex;align-items:center;gap:8px}
+.warnbox p{font-size:13px;color:var(--ink-2);line-height:1.7}
+.warnbox ul{list-style:none;display:flex;flex-direction:column;gap:6px;margin-top:10px}
+.warnbox li{font-size:12.5px;color:var(--ink-2);padding-left:17px;position:relative}
+.warnbox li::before{content:"";position:absolute;left:3px;top:8px;width:5px;height:5px;border-radius:99px;background:var(--danger)}
+.okbox{background:var(--primary-tint);border:1px solid #cfe3dc;border-radius:14px;padding:18px 20px}
+.okbox h3{color:var(--primary-deep);margin-bottom:9px}
+.okbox p{font-size:13px;color:var(--ink-2);line-height:1.7}
+.okbox ul{list-style:none;display:flex;flex-direction:column;gap:6px;margin-top:10px}
+.okbox li{font-size:12.5px;color:var(--ink-2);padding-left:17px;position:relative}
+.okbox li::before{content:"";position:absolute;left:3px;top:8px;width:5px;height:5px;border-radius:99px;background:var(--primary)}
+.grid36{display:grid;grid-template-columns:repeat(6,1fr);gap:9px}
+.ucard{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px;cursor:pointer;transition:all .18s;text-align:left;display:block;width:100%}
+.ucard:hover{border-color:var(--primary);transform:translateY(-2px);box-shadow:0 6px 16px -6px rgba(47,111,94,.28)}
+.ucard .uid{font-family:'JetBrains Mono',monospace;font-size:9.5px;color:var(--ink-3);margin-bottom:3px}
+.ucard h4{font-size:12px;font-weight:600;line-height:1.35;margin-bottom:8px;color:var(--ink);min-height:32px}
+.ucard .row{display:flex;align-items:center;gap:6px;margin-bottom:5px}
+.ucard .row span{font-size:10px;color:var(--ink-3);width:22px;flex:none}
+.ucard .row .track{flex:1;height:6px;background:var(--line-soft);border-radius:3px;overflow:hidden}
+.ucard .row .track i{display:block;height:100%;border-radius:3px;background:var(--primary)}
+.ucard.hot .row .track i{background:var(--accent)}
+.ucard .row b{font-family:'Outfit',sans-serif;font-size:10.5px;font-weight:600;width:18px;text-align:right}
+.detail{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;margin-top:14px}
+.detail h3{font-size:17px;margin-bottom:3px}
+.detail .sub{font-size:12.5px;color:var(--ink-3);margin-bottom:16px}
+.tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px}
+.tags span{font-size:11px;background:var(--primary-tint);color:var(--primary-deep);padding:3px 9px;border-radius:99px}
+.sample{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.sample code{font-family:'Outfit','Noto Sans SC',monospace;font-size:12px;background:var(--line-soft);padding:3px 9px;border-radius:7px;color:var(--ink-2)}
+.dual{display:grid;grid-template-columns:1fr auto 1fr;gap:16px;align-items:center;margin-top:6px}
+.track-box{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px}
+.track-box.a{border-top:3px solid var(--gold)}
+.track-box.b{border-top:3px solid var(--primary)}
+.track-box h4{font-size:14px;font-weight:700;margin-bottom:4px}
+.track-box .role{font-size:11.5px;color:var(--ink-3);margin-bottom:10px}
+.track-box ul{list-style:none;display:flex;flex-direction:column;gap:5px}
+.track-box li{font-size:12px;color:var(--ink-2);padding-left:14px;position:relative}
+.track-box li::before{content:"";position:absolute;left:2px;top:7px;width:4px;height:4px;border-radius:99px;background:var(--ink-3)}
+.arrow{font-family:'Outfit',sans-serif;font-size:20px;color:var(--primary);font-weight:600}
+footer{border-top:1px solid var(--line);padding-top:24px;font-size:12px;color:var(--ink-3);line-height:1.75}
+code.m{font-family:'JetBrains Mono',monospace;font-size:11px;background:#fff;border:1px solid var(--line);padding:1px 5px;border-radius:5px}
+@media(max-width:980px){.g4,.g3,.grid36{grid-template-columns:repeat(3,1fr)}.dual{grid-template-columns:1fr}.arrow{text-align:center;transform:rotate(90deg)}}
+@media(max-width:640px){.wrap{padding:0 16px 56px}h1{font-size:27px}header{padding:32px 0 26px;margin-bottom:34px}
+  .g2,.g3,.g4,.grid36{grid-template-columns:1fr 1fr}.bench{grid-template-columns:96px 1fr 44px;gap:8px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="eyebrow">拾词 · 教材词表分析 · A 轨接入</div>
+  <h1>教材词表是<em>教学底座</em>，不是<em>考试底座</em></h1>
+  <p class="lede">
+    这份《新人教高中单词表全七册》提供了 2595 词条、36 个单元、5416 个义项——是极好的教学素材。
+    但实测发现它与高考考点存在<strong>结构性错位</strong>：它按「课文首次出现」组织，而高考按「反复考查」组织。
+    这份分析决定了词库要怎么建、内容从哪来、以及哪些内容不能直接用。
+  </p>
+  <div class="meta">
+    <span class="chip acc">2595 词条</span>
+    <span class="chip">36 单元</span>
+    <span class="chip">5416 义项</span>
+    <span class="chip">445 短语词块</span>
+    <span class="chip">797 多义词</span>
+    <span class="chip">95% 音标覆盖</span>
+  </div>
+</header>
+
+<section>
+  <div class="sec-head"><span class="sec-n">01</span><h2>它给了我们什么</h2></div>
+  <p class="sec-desc">这份表的价值在于<b>结构</b>，而不是词表本身。</p>
+  <div class="grid g4" style="margin-bottom:18px">
+    <div class="kpi"><div class="l">单元结构</div><b>36</b><div class="d up">主题维现成骨架</div></div>
+    <div class="kpi"><div class="l">多义词（≥3义项）</div><b>797</b><div class="d up">熟词僻义候选池</div></div>
+    <div class="kpi"><div class="l">短语 / 词块</div><b>445</b><div class="d up">无需拆分，直接可用</div></div>
+    <div class="kpi"><div class="l">义项总量</div><b>5,416</b><div class="d up">义项树结构来源</div></div>
+  </div>
+  <div class="card">
+    <h3>各册分布</h3>
+    <p style="margin:6px 0 14px">选修一的多义密度显著高于必修——<b>越到高年级，词越少但义项越密</b>，这正是熟词僻义的土壤。</p>
+    <table class="tbl">
+      <thead><tr><th>册</th><th>单元</th><th>词条</th><th>多义词</th><th>多义密度</th><th>短语</th></tr></thead>
+      <tbody id="bookTbl"></tbody>
+    </table>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head"><span class="sec-n">02</span><h2>它不能提供什么</h2></div>
+  <p class="sec-desc">这是本次分析最重要的结论——它直接否决了「拿教材词表当产品词库」这个最省事的方案。</p>
+  <div class="grid g2" style="margin-bottom:16px">
+    <div class="warnbox">
+      <h3><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m15 9-6 6M9 9l6 6"/></svg>熟词僻义重灾区，教材表没收录</h3>
+      <p>我们精修过的 13 个 T1 样例词，教材表只收录 <b>3 个</b>，缺失 <b>9 个</b>：</p>
+      <ul>
+        <li><b>缺失：</b>address · interest · subject · sound · mean · bear · cover · develop · plant</li>
+      </ul>
+      <p style="margin-top:12px">而这 9 个恰好是熟词僻义专项的核心弹药。</p>
+    </div>
+    <div class="warnbox">
+      <h3><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m15 9-6 6M9 9l6 6"/></svg>高考核心搭配，教材表只收录 1/3</h3>
+      <p>抽查 18 个高考最核心的固定搭配，教材表收录 6 个：</p>
+      <ul>
+        <li><b>收录：</b>take advantage of · due to · lead to · adapt to · prevent…from… · be responsible for</li>
+        <li><b>缺失：</b>be subject to · account for · in addition to · instead of · be aware of · as a result of · make up for · be based on · be similar to · be willing to do · be supposed to · be committed to</li>
+      </ul>
+    </div>
+  </div>
+  <div class="okbox">
+    <h3>根本原因</h3>
+    <p>教材按<b>首次出现</b>组织（跟着课文走），高考按<b>反复考查</b>组织（跟着考点走）。</p>
+    <p style="margin-top:8px">教材教 <code class="m">teenage</code> 时并不教 <code class="m">address</code> 的「处理」义——因为课文里根本没这个用法。学生跟着教材学三年，考场上照样栽在这 9 个词上。</p>
+    <p style="margin-top:8px"><b>产品结论：教材词表不能作为词库来源直接上线，必须自建高考考纲词库（以真题复现频次排序）。</b>教材表的价值是「教什么、什么顺序、什么主题」，而不是「考什么」。</p>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head"><span class="sec-n">03</span><h2>36 单元 · 主题包地图</h2></div>
+  <p class="sec-desc">每个卡片是一个主题包候选。条形长度表示多义词占比——<b>橙色高亮的是熟词僻义富矿单元</b>，点开看词表样例。点击任意卡片查看该单元详情。</p>
+  <div class="grid36" id="unitGrid"></div>
+  <div class="detail" id="uDetail" style="display:none"></div>
+</section>
+
+<section>
+  <div class="sec-head"><span class="sec-n">04</span><h2>富矿定位</h2></div>
+  <p class="sec-desc">按多义密度排序，前五个单元共 <b>121 个高密度多义词</b>——这是熟词僻义专项的第一批弹药，且教材已给出义项骨架，教研成本最低。</p>
+  <div class="grid g2">
+    <div class="card">
+      <h3>多义密度 TOP 8</h3>
+      <p style="margin:6px 0 12px">多义词占比越高，该单元越适合直接改造成熟词僻义专项题。</p>
+      <div id="richBars"></div>
+    </div>
+    <div class="card">
+      <h3>内容生产优先序</h3>
+      <p style="margin:6px 0 12px">按投入产出比排序，决定 C1 阶段先做什么。</p>
+      <div id="priority"></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head"><span class="sec-n">05</span><h2>双轨制内容来源</h2></div>
+  <p class="sec-desc">每一类内容都必须明确它的来源轨道与版权状态。这是本项目最容易踩线的地方。</p>
+  <div class="dual">
+    <div class="track-box a">
+      <h4>A 轨 · 教学底座</h4>
+      <div class="role">来源：新人教版单元词表 · 已机械转换完成</div>
+      <ul>
+        <li>词形与音标（事实信息）</li>
+        <li>教材释义 <b style="color:var(--danger)">⚠ 商业使用需改写措辞</b></li>
+        <li>单元归属与主题包顺序</li>
+        <li>词块清单（445 个整块短语）</li>
+        <li>义项拆分骨架（5416 义项）</li>
+      </ul>
+    </div>
+    <div class="arrow">→</div>
+    <div class="track-box b">
+      <h4>B 轨 · 考试底座</h4>
+      <div class="role">来源：自建考纲词库 · 全部自研</div>
+      <ul>
+        <li>真题复现频次与 T1–T4 分层</li>
+        <li>义项层级 S1–S4</li>
+        <li>失分机制 E1–E10</li>
+        <li>陷阱义标记与错误直觉</li>
+        <li>仿真例句 + 搭配 + 题目</li>
+      </ul>
+    </div>
+  </div>
+  <div class="card" style="margin-top:14px">
+    <h3>合并规则</h3>
+    <p style="margin-top:8px">以 <code class="m">headword</code> 为关联键，两轨合并为同一 id 的完整词条。三条硬规则：</p>
+    <p style="margin-top:8px"><b>① A 轨缺失的高频词必须从 B 轨补入</b>，不得因教材未收录就判定为超纲。<br>
+    <b>② A 轨的 <code class="m">definition_raw</code> 仅内部参考</b>，对外释义必须改写。<br>
+    <b>③ A 轨 <code class="m">is_phrase=true</code> 的词强制走 P4 词块策略</b>，不拆成单词学习。</p>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head"><span class="sec-n">06</span><h2>加速作用</h2></div>
+  <p class="sec-desc">教材表不是「替代」了内容工作，而是把它从 100 分钟压到 50–60 分钟。</p>
+  <div class="grid g3">
+    <div class="card"><h3>单条 T1 耗时</h3><p style="margin-top:6px">从 <b>100 分钟</b>降到 <b>50–60 分钟</b>——义项骨架和词块清单由教材提供，教研只做「标 S 层级 / 标陷阱 / 写例句 / 出题」四步。</p></div>
+    <div class="card"><h3>主题包零成本起步</h3><p style="margin-top:6px">36 个单元天然对应用户认知中的「第几单元」，包装、排序、进度对齐全部零成本。可直接支撑 <b>¥19–39/包</b> 的资料电商产品线。</p></div>
+    <div class="card"><h3>第一批弹药</h3><p style="margin-top:6px">797 多义词 + 445 词块 = <b>1242 个现成素材</b>，全部直接命中 E1 熟词僻义与 E4 固定搭配两大机制。</p></div>
+  </div>
+  <div class="card" style="margin-top:15px">
+    <h3>产出文件</h3>
+    <p style="margin-top:8px">转换脚本：<code class="m">tools/build_lexicon.py</code>（源文件更新后重跑即可）</p>
+    <p style="margin-top:6px"><code class="m">data/textbook_lexicon.json</code> — 2595 词条，含单元/主题/词性/义项拆分/短语标记 · <b>待人工标注 6 个教研字段</b></p>
+    <p style="margin-top:6px"><code class="m">data/unit_theme_map.json</code> — 36 单元 → 主题包映射，含多义密度与高考话题匹配</p>
+    <p style="margin-top:6px"><code class="m">data/stats.json</code> — 覆盖统计，用于内容配比决策</p>
+  </div>
+</section>
+
+<footer>
+  <b>拾词 · 教材词表分析</b> · 源文件《新人教高中单词表全七册精装版.xls》（2596 行 / 5 列 / 36 单元）<br>
+  规范依据：<code class="m">docs/词汇教研体系v1.md</code> §1.5 教材词表的真相 · §维度7 主题维 · §维度8 内容来源三轨制 · §8.3 教材词表接入流程<br>
+  延伸阅读：已补录 2007 旧课标表并合并为统一素材库（3912 词条），见 <a href="双来源素材库分析.html">双来源素材库分析</a>与 <code class="m">docs/词汇教研体系v1.md</code> §1.5.2.3 / §1.5.4<br>
+  结论前置：<b>教材词表不能直接作为产品词库</b>，必须自建高考考纲词库；教材表的真正价值是主题维骨架与词块素材。
+</footer>
+</div>
+
+<script>
+const DATA = {"s":{"total_words":2595,"total_units":36,"phrase_count":445,"single_word_count":2150,"multi_sense_ge3":797,"multi_sense_ge4":109,"sense_count_dist":{"1":682,"2":1116,"3":688,"4":107,"5":2},"pos_dist":{"n":1076,"other":741,"vt":143,"adj":129,"n&vt":85,"vt&n":51,"vi&vt":48,"vt&vi":42,"vi":37,"adv":29,"v":28,"n&vi":21,"adj&n":20,"v&n":20,"n&v":20,"abbr":15,"vi&n":14,"n&adj":13,"n&vi&vt":10,"vi&vt&n":9,"prep":9,"n&vt&vi":6,"vt&vi&n":5,"vt&v":4,"adv&adj":2,"adj&adv":2,"adj&v":2,"v&vt":2,"conj":2,"adj&vi&vt":1,"adj&vi":1,"n&adv":1,"conj&n":1,"vi&adj":1,"vi&modal&v":1,"adv&prep":1,"vi&v":1,"vi&v&vt":1,"v&vi":1},"by_book":{"必修1":363,"必修2":389,"必修3":447,"选修1":370,"选修2":378,"选修3":352,"选修4":296},"no_ipa":75,"total_senses":5416,"candidate_trap_words":797,"candidate_phrase_words":445,"gk_gap_estimate":905},"b":[{"b":"必修1","u":6,"w":363,"ms":104,"ph":68},{"b":"必修2","u":5,"w":389,"ms":95,"ph":70},{"b":"必修3","u":5,"w":447,"ms":127,"ph":100},{"b":"选修1","u":5,"w":370,"ms":146,"ph":47},{"b":"选修2","u":5,"w":378,"ms":98,"ph":65},{"b":"选修3","u":5,"w":352,"ms":125,"ph":56},{"b":"选修4","u":5,"w":297,"ms":102,"ph":39}],"u":[{"i":"必修1 1.0","t":"必修一 U1 Teenage Life","th":"T-校园生活与自我介绍","g":["校园生活","自我介绍","人际交流"],"n":54,"ms":15,"mr":0.278,"ph":10,"sm":["exchange","lecture","registration","register","sex","female","male","nationality"]},{"i":"必修1 2.0","t":"必修一 U2 Sports and Fitness","th":"T-学习成长与课外活动","g":["学习","成长","社团活动"],"n":54,"ms":11,"mr":0.204,"ph":8,"sm":["teenage","teenager","ballet","volunteer","debate","prefer","prefer ... to ...","content"]},{"i":"必修1 3.0","t":"必修一 U3 Travel Around the World","th":"T-旅行与世界探索","g":["旅行","世界遗产","文化交流"],"n":69,"ms":17,"mr":0.246,"ph":17,"sm":["castle","apply","apply for","visa","rent","pack","amazing","amazed"]},{"i":"必修1 4.0","t":"必修一 U4 Natural Disasters","th":"T-体育运动与健康意志","g":["运动","体育精神","团队合作"],"n":59,"ms":18,"mr":0.305,"ph":16,"sm":["fitness","soccer","stadium","boxing","badminton","marathon","event","come along"]},{"i":"必修1 5.0","t":"必修一 U5 Languages Around the World","th":"T-自然灾害与生存自救","g":["自然灾害","环境保护","应急避险"],"n":73,"ms":22,"mr":0.301,"ph":11,"sm":["disaster","tornado","drought","landslide","slide","tsunami","flood","volcanic eruption"]},{"i":"必修1 6.0","t":"必修一 U6 At Work","th":"T-语言文字与历史文化","g":["语言","文字","历史文化遗产"],"n":54,"ms":21,"mr":0.389,"ph":6,"sm":["billion","native","attitude","reference","refer","refer to","system","despite"]},{"i":"必修2 1.0","t":"必修二 U1 Cultural Heritage","th":"T-文化遗产与保护","g":["文化遗产","遗产保护","传统文化"],"n":89,"ms":24,"mr":0.27,"ph":16,"sm":["heritage","creatively","creative","temple","relic","mount","former","clue"]},{"i":"必修2 2.0","t":"必修二 U2 Wildlife Protection","th":"T-生物多样性与野生动物","g":["生物多样性","濒危物种","生态保护"],"n":85,"ms":20,"mr":0.235,"ph":18,"sm":["poster","illegal","illegally","hunt","hunter","immediately","species","shark"]},{"i":"必修2 3.0","t":"必修二 U3 The Internet","th":"T-网络媒体与信息安全","g":["互联网","网络素养","信息甄别"],"n":63,"ms":17,"mr":0.27,"ph":12,"sm":["blog","blog post","blogger","engine","search engine","chat","stream","identity"]},{"i":"必修2 4.0","t":"必修二 U4 History and Traditions","th":"T-历史文化与哲学智慧","g":["历史人物","哲学","传统美德"],"n":76,"ms":21,"mr":0.276,"ph":11,"sm":["Confucius","mansion","cemetery","philosophy","descendant","individual","heel","Achilles' heel"]},{"i":"必修2 5.0","t":"必修二 U5 Music","th":"T-音乐与艺术创作","g":["音乐","艺术","创作与表演"],"n":76,"ms":13,"mr":0.171,"ph":13,"sm":["classical","hip-hop","techno","energy","soul","bagpipes","stringed","stringed instrument"]},{"i":"必修3 1.0","t":"必修三 U1 Festivals and Celebrations","th":"T-传统节日与民俗","g":["传统节日","民俗","文化传承"],"n":101,"ms":29,"mr":0.287,"ph":21,"sm":["lantern","carnival","costume","dress ... up","march","congratulation","congratulate","riddle"]},{"i":"必修3 2.0","t":"必修三 U2 Morals and Virtues","th":"T-道德品质与职业伦理","g":["道德","职业伦理","医德与责任"],"n":94,"ms":24,"mr":0.255,"ph":19,"sm":["moral","virtue","dilemma","moral dilemma","faint","illustrate","precious","entrust"]},{"i":"必修3 3.0","t":"必修三 U3 Diverse Cultures","th":"T-多元文化与美国社会","g":["多元文化","移民","社会生活"],"n":81,"ms":24,"mr":0.296,"ph":21,"sm":["diverse","diversity","fortune","fortune cookie","gumbo","nachos","chip","cheese"]},{"i":"必修3 4.0","t":"必修三 U4 Space Exploration","th":"T-航天科技与探索精神","g":["航天","科技","探索与奉献"],"n":91,"ms":23,"mr":0.253,"ph":19,"sm":["astronaut","procedure","mental","cm","intelligent","rocket","gravity","frontier"]},{"i":"必修3 5.0","t":"必修三 U5 The Value of Money","th":"T-金钱观与人生价值","g":["金钱","价值观","人生选择"],"n":80,"ms":27,"mr":0.338,"ph":20,"sm":["basis","on the basis of","loan","take out a loan","plastic","apologise","ignore","in return"]},{"i":"选修1 1.0","t":"选择性必修一 U1 People of Achievement","th":"T-医学成就与科学精神","g":["医学","科学发现","科学家精神"],"n":81,"ms":23,"mr":0.284,"ph":13,"sm":["physiology","artemisinin","crucial","malaria","vital","committed","commit","commit oneself to do"]},{"i":"选修1 2.0","t":"选择性必修一 U2 Looking into the Future","th":"T-智能生活与科技设备","g":["科技","智能家居","生活便利"],"n":78,"ms":22,"mr":0.282,"ph":11,"sm":["phrase","persuade","switch","switch on","switch off","distant","secure","knob"]},{"i":"选修1 3.0","t":"选择性必修一 U3 Fascinating Parks","th":"T-国家公园与自然保护","g":["国家公园","自然保护","人与自然"],"n":71,"ms":38,"mr":0.535,"ph":10,"sm":["buffet","cloth","edge","valley","vast","glacier","reindeer","territory"]},{"i":"选修1 4.0","t":"选择性必修一 U4 Body Language","th":"T-身体语言与非言语沟通","g":["肢体语言","人际沟通","文化差异"],"n":72,"ms":27,"mr":0.375,"ph":8,"sm":["interaction","vary","appropriate","by contrast","approve","demonstrate","gesture","witness"]},{"i":"选修1 5.0","t":"选择性必修一 U5 Working the Land","th":"T-粮食安全与农业科技","g":["粮食","农业","可持续发展"],"n":68,"ms":36,"mr":0.529,"ph":5,"sm":["hybrid","devote","devote ... to","shortage","tackle","crisis","boost","yield"]},{"i":"选修2 1.0","t":"选择性必修二 U1 A Healthy Life","th":"T-传染病防控与公共卫生","g":["传染病","防控","公共卫生"],"n":83,"ms":30,"mr":0.361,"ph":15,"sm":["cholera","severe","diarrhoea","dehydration","frustrated","once and for all","contradictory","infection"]},{"i":"选修2 2.0","t":"选择性必修二 U2 The Changing World","th":"T-留学适应与跨文化","g":["留学","跨文化适应","自我成长"],"n":77,"ms":24,"mr":0.312,"ph":14,"sm":["complex","recall","qualification","qualify","ambition","ambitious","adaptation","comfort"]},{"i":"选修2 3.0","t":"选择性必修二 U3 Food and Culture","th":"T-饮食文化与美食","g":["饮食","美食","中西文化差异"],"n":69,"ms":11,"mr":0.159,"ph":11,"sm":["cuisine","prior","prior to","consist","consist of","pepper","recipe","bold"]},{"i":"选修2 4.0","t":"选择性必修二 U4 History of Transport","th":"T-自然奇观与探险","g":["自然奇观","探险","旅行"],"n":72,"ms":12,"mr":0.167,"ph":14,"sm":["airline","bay","craft","antique","pleasant","arise","massive","literally"]},{"i":"选修2 5.0","t":"选择性必修二 U5 Scenic Spots","th":"T-急救医学与健康防护","g":["急救","医学","健康防护"],"n":77,"ms":21,"mr":0.273,"ph":11,"sm":["technique","leaflet","organ","toxin","ray","sense of touch","radiation","acid"]},{"i":"选修3 1.0","t":"选择性必修三 U1 Fascinating Parks","th":"T-美术与艺术鉴赏","g":["美术","艺术鉴赏","审美"],"n":85,"ms":27,"mr":0.318,"ph":16,"sm":["precise","precisely","Christianity","realistic","realism","realist","primitive","two-dimensional"]},{"i":"选修3 2.0","t":"选择性必修三 U2 The Body Language","th":"T-健康生活与成瘾防治","g":["健康","成瘾","医学与心理"],"n":56,"ms":19,"mr":0.339,"ph":11,"sm":["tobacco","alcohol","abuse","physical","dominate","repeatedly","psychology","cue"]},{"i":"选修3 3.0","t":"选择性必修三 U3 Green Energy","th":"T-环境治理与可持续发展","g":["环境","气候","可持续发展"],"n":62,"ms":27,"mr":0.435,"ph":5,"sm":["graph","emission","melt","starve","seal","ecology","release","methane"]},{"i":"选修3 4.0","t":"选择性必修三 U4 Astronomy","th":"T-航海冒险与坚韧品格","g":["冒险","坚韧","品格"],"n":73,"ms":21,"mr":0.288,"ph":14,"sm":["adversity","wage","bitter","expedition","endurance","vigour","turn sb. down","qualified"]},{"i":"选修3 5.0","t":"选择性必修三 U5 Water","th":"T-诗歌韵律与文学欣赏","g":["诗歌","韵律","文学鉴赏"],"n":76,"ms":31,"mr":0.408,"ph":10,"sm":["drama","sorrow","imagery","literary","rhyme","rhythm","nursery","nursery rhyme"]},{"i":"选修4 1.0","t":"选择性必修四 U1 Working the Land","th":"T-科幻文学与道德想象","g":["科幻","想象力","道德思考"],"n":65,"ms":26,"mr":0.4,"ph":12,"sm":["fiction","science fiction","test out","bonus","more like","ridiculous","integrity","dignity"]},{"i":"选修4 2.0","t":"选择性必修四 U2 Literature","th":"T-国家地理与标志景观","g":["地理","地标","文化符号"],"n":64,"ms":15,"mr":0.234,"ph":9,"sm":["iconic","foundation","political","didgeridoo","located","equator","koala","barbecue"]},{"i":"选修4 3.0","t":"选择性必修四 U3 Contrast","th":"T-海洋文明与航海史","g":["海洋","航海","文明交流"],"n":42,"ms":19,"mr":0.452,"ph":5,"sm":["tale","merchant","set sail","extend","negotiate","fleet","behold","league"]},{"i":"选修4 4.0","t":"选择性必修四 U4 Why the Parent Is Dominant","th":"T-居家生活与日常物品","g":["居家","生活常识","人与物"],"n":62,"ms":20,"mr":0.323,"ph":5,"sm":["parcel","jam","mail","secondary","clay","dust","dusty","weed"]},{"i":"选修4 5.0","t":"选择性必修四 U5 On the Road","th":"T-职业探索与职场角色","g":["职业","职场","能力与性格"],"n":64,"ms":22,"mr":0.344,"ph":8,"sm":["bounce","bounce around","aptitude","head start","scenario","lawyer","assemble","drawer"]}]};
+
+// --- 册分布表 ---
+const bt = document.getElementById('bookTbl');
+bt.innerHTML = DATA.b.map(b => {
+  const dens = (b.ms / b.w * 100).toFixed(0);
+  const cls = dens >= 26 ? 'hot' : dens >= 20 ? 'mid' : 'low';
+  return `<tr>
+    <td><b>${b.b}</b></td>
+    <td class="num">${b.u}</td>
+    <td class="num">${b.w}</td>
+    <td class="num">${b.ms}</td>
+    <td><span class="pill ${cls}">${dens}%</span></td>
+    <td class="num">${b.ph}</td></tr>`;
+}).join('');
+
+// --- 单元网格 ---
+const grid = document.getElementById('unitGrid');
+const maxMs = Math.max(...DATA.u.map(u => u.mr));
+grid.innerHTML = DATA.u.map((u, i) => {
+  const hot = u.mr >= 0.33;
+  return `<button class="ucard${hot ? ' hot' : ''}" data-i="${i}">
+    <div class="uid">${u.i}</div>
+    <h4>${u.th.replace('T-', '')}</h4>
+    <div class="row"><span>多义</span><div class="track"><i style="width:${u.mr / maxMs * 100}%"></i></div><b>${Math.round(u.mr*100)}%</b></div>
+    <div class="row"><span>词数</span><div class="track"><i style="width:${u.n / 101 * 100}%"></i></div><b>${u.n}</b></div>
+    <div class="row"><span>短语</span><div class="track"><i style="width:${u.ph / 21 * 100}%"></i></div><b>${u.ph}</b></div>
+  </button>`;
+}).join('');
+
+// --- 单元详情 ---
+const det = document.getElementById('uDetail');
+grid.querySelectorAll('.ucard').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const u = DATA.u[+btn.dataset.i];
+    det.style.display = 'block';
+    det.innerHTML = `
+      <h3>${u.th}</h3>
+      <div class="sub">${u.i} · ${u.t}</div>
+      <div class="tags">${u.g.map(g => `<span>${g}</span>`).join('')}</div>
+      <div class="grid g4" style="margin-bottom:16px">
+        <div class="kpi"><div class="l">词条</div><b>${u.n}</b></div>
+        <div class="kpi"><div class="l">多义词</div><b>${u.ms}</b><div class="d up">占比 ${Math.round(u.mr*100)}%</div></div>
+        <div class="kpi"><div class="l">短语词块</div><b>${u.ph}</b></div>
+        <div class="kpi"><div class="l">熟词僻义评级</div><b>${u.mr >= 0.33 ? '富矿' : u.mr >= 0.22 ? '中等' : '一般'}</b></div>
+      </div>
+      <h3 style="font-size:13px;margin-bottom:4px">词表样例</h3>
+      <div class="sample">${u.sm.map(s => `<code>${s}</code>`).join('')}</div>`;
+    det.scrollIntoView({behavior:'smooth', block:'nearest'});
+  });
+});
+
+// --- 富矿榜 ---
+const rich = [...DATA.u].sort((a,b) => b.mr - a.mr).slice(0,8);
+document.getElementById('richBars').innerHTML = rich.map(u => `
+  <div class="bench hot">
+    <span class="bench-label">${u.th.replace('T-','').slice(0,10)}</span>
+    <div class="bench-track"><div class="bench-fill" style="width:${u.mr/maxMs*100}%"></div></div>
+    <span class="bench-val">${Math.round(u.mr*100)}%</span>
+  </div>`).join('');
+
+// --- 生产优先序 ---
+const PRI = [
+  ['1', '教材多义词（≥3义项）', '797', '直接命中 E1，义项骨架现成，教研成本最低', 'hot'],
+  ['2', '教材短语 / 词块', '445', '直接命中 E4，整块已给，无需拆分', 'hot'],
+  ['3', '教材高频动词与形容词', '~400', '命中 E1 / E2 / E5', 'mid'],
+  ['4', '教材外高考高频词', '~900', '必须自建，工作量最大，差异化也最大', 'low']
+];
+document.getElementById('priority').innerHTML = PRI.map(p => `
+  <div style="display:flex;gap:11px;align-items:flex-start;padding:10px 0;border-bottom:1px solid var(--line-soft)">
+    <span class="pill ${p[4]}" style="flex:none;margin-top:2px">${p[0]}</span>
+    <div style="flex:1;min-width:0">
+      <div style="font-size:13px;font-weight:600">${p[1]}</div>
+      <div style="font-size:11.5px;color:var(--ink-3);margin-top:2px">${p[3]}</div>
+    </div>
+    <b style="font-family:'Outfit',sans-serif;font-size:15px;flex:none">${p[2]}</b>
+  </div>`).join('');
+</script>
+</body>
+</html>

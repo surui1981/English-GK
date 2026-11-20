@@ -1,0 +1,638 @@
+[
+ {
+  "word_id": "w_concern",
+  "headword": "concern",
+  "ipa": "/kənˈsɜ:n/",
+  "level": "T1",
+  "pos": [
+   "v",
+   "n"
+  ],
+  "target_sense": {
+   "sense_id": "s_concern_n_care",
+   "text": "关切之事、值得关注的问题",
+   "sense_level": "S3",
+   "error_mech": [
+    "E1",
+    "E2"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "忧虑、担心的情绪"
+   ],
+   "example": {
+    "en": "Safety on the road has become a growing concern for families with young children.",
+    "zh": "道路安全已日益成为家有幼儿的家庭关注的问题。",
+    "source": "仿真例句 · 高考社会类阅读高频",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "a growing concern",
+    "a major concern",
+    "a public concern",
+    "of great concern"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_concern_v_relate",
+    "text": "涉及、关系到（与某事有关）",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_concern_n_care",
+    "text": "关切之事、值得关注的问题",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_concern_v_worry",
+    "text": "使…感到担忧、挂念",
+    "sense_level": "S1",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_concern_n_worry",
+    "text": "忧虑、担心的情绪",
+    "sense_level": "S2",
+    "is_trap": false
+   }
+  ],
+  "confusable": [
+   "concerning",
+   "consensus",
+   "conscience"
+  ],
+  "word_family": [
+   "concern",
+   "concerned",
+   "concerning",
+   "concernment"
+  ],
+  "notes": "考场判断法：① 看到 as far as … is concerned 或句首的 concerning，必是「涉及、关系到」，按「就…而言」翻译，与「担心」无关；② 名词前有 a major / a growing 修饰时，指的是「值得关注的事」这一事物，不是情绪；③ 后面接人（concern sb）或出现 with concern，才落到「担忧」的感情色彩上。",
+  "assigned_carrier": "C2",
+  "assigned_difficulty": "hard",
+  "replaces_question_id": null
+ },
+ {
+  "word_id": "w_effect",
+  "headword": "effect",
+  "ipa": "/ɪˈfekt/",
+  "level": "T1",
+  "pos": [
+   "n",
+   "v",
+   "phrase"
+  ],
+  "target_sense": {
+   "sense_id": "s_effect_n_side",
+   "text": "副作用（side effects）",
+   "sense_level": "S3",
+   "error_mech": [
+    "E1"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "效果、效力"
+   ],
+   "example": {
+    "en": "Long-term use of the device may bring side effects that are hard to ignore.",
+    "zh": "长期使用这种设备可能带来难以忽视的副作用。",
+    "source": "仿真例句 · 高考阅读健康与科技类高频句式",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "side effects",
+    "adverse effects",
+    "have no side effects",
+    "serious side effects"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_effect_n_influence",
+    "text": "影响、作用（have an effect on）",
+    "sense_level": "S1",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_effect_n_effectiveness",
+    "text": "效果、效力（药效、法律效力）",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_effect_n_side",
+    "text": "副作用（side effects）",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_effect_v_bring_about",
+    "text": "实现、促成（变革）",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_effect_phrase_in_effect",
+    "text": "（in effect）实际上；实质上",
+    "sense_level": "S4",
+    "is_trap": true
+   }
+  ],
+  "confusable": [
+   "affect",
+   "effective",
+   "efficient",
+   "effort"
+  ],
+  "word_family": [
+   "effect",
+   "effective",
+   "effectively",
+   "effectiveness",
+   "affect"
+  ],
+  "notes": "考场判断法：① 先定词性再加搭配：have an effect on = 有影响；take effect / come into effect = 生效；side effects = 副作用；in effect = 实际上；② affect 是动词「影响」，effect 是名词「影响」，看到 have a great ___ on，空格后是 on，必须填名词 effect；③ 作动词的 effect（to effect a change）只出现在正式语体，表示「促成、实现」，不要与 affect 混用；④ 读句子时先找 effect 前面有没有 a / the / this 这类限定词，有就是名词义。",
+  "assigned_carrier": "C2",
+  "assigned_difficulty": "hard",
+  "replaces_question_id": null
+ },
+ {
+  "word_id": "w_minor",
+  "headword": "minor",
+  "ipa": "/ˈmaɪnə(r)/",
+  "level": "T1",
+  "pos": [
+   "adj",
+   "n",
+   "v"
+  ],
+  "target_sense": {
+   "sense_id": "s_minor_v_minor_in",
+   "text": "兼修、辅修（minor in art）",
+   "sense_level": "S3",
+   "error_mech": [
+    "E3",
+    "E4"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "主修（major in）"
+   ],
+   "example": {
+    "en": "He majors in computer science and minors in art, which he hopes will help him design better apps.",
+    "zh": "他主修计算机科学，辅修艺术，希望这能帮助他设计出更好的应用。",
+    "source": "仿真例句 · 高考阅读校园与升学类高频句式",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "minor in",
+    "major in",
+    "a minor in art",
+    "minor and major"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_minor_adj_unimportant",
+    "text": "不重要的、无关紧要的",
+    "sense_level": "S1",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_minor_adj_slight",
+    "text": "程度较轻的（伤势、事故）",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_minor_n_juvenile",
+    "text": "未成年人（法律意义）",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_minor_v_minor_in",
+    "text": "兼修、辅修（minor in art）",
+    "sense_level": "S3",
+    "is_trap": true
+   }
+  ],
+  "confusable": [
+   "major",
+   "minimum",
+   "minute",
+   "miner"
+  ],
+  "word_family": [
+   "minor",
+   "minority",
+   "minimize",
+   "minuscule"
+  ],
+  "notes": "考场判断法：① 先看修饰的对象：修饰 problem / role / detail / issue → 「次要的、不重要的」；修饰 injury / accident / damage → 「轻微的」；② 看到 the minor 或 minors 作名词 → 「未成年人」，这是法律义，跟大小无关；③ major in 是主修，minor in 是辅修、兼修，两个词只差一个字母，含义相反，看到 ___ in economics 要先判断说的是谁；④ minor 与 major、minimum、minute 构成形近对比组，必须打包记。",
+  "assigned_carrier": "C2",
+  "assigned_difficulty": "hard",
+  "replaces_question_id": null
+ },
+ {
+  "word_id": "w_division",
+  "headword": "division",
+  "ipa": "/dɪˈvɪʒn/",
+  "level": "T2",
+  "pos": [
+   "n",
+   "phr"
+  ],
+  "target_sense": {
+   "sense_id": "s_division_n_disagreement",
+   "text": "分歧、不和；（群体的）分裂",
+   "sense_level": "S2",
+   "error_mech": [
+    "E1",
+    "E2"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "分开、划分"
+   ],
+   "example": {
+    "en": "Deep divisions between the two sides made the negotiation almost impossible to continue.",
+    "zh": "双方之间深深的分歧使谈判几乎无法继续。",
+    "source": "仿真例句 · 高考完形填空高频句式",
+    "carrier": "C2"
+   },
+   "collocations": [
+    "a deep division",
+    "division between",
+    "political divisions",
+    "division within the team"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_division_n_separation",
+    "text": "把整体拆成若干部分；由此形成的结果",
+    "sense_level": "S1",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_division_n_disagreement",
+    "text": "分歧、不和；（群体的）分裂",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_division_n_unit",
+    "text": "部门、科室；下设机构",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_division_n_math",
+    "text": "除法；（做除法的运算）",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_division_ph_labour",
+    "text": "分工；劳动的分工（labour）",
+    "sense_level": "S4",
+    "is_trap": true
+   }
+  ],
+  "confusable": [
+   "divide",
+   "divisor",
+   "diverse",
+   "vision"
+  ],
+  "word_family": [
+   "division",
+   "divide",
+   "divisor",
+   "divided",
+   "dividend"
+  ],
+  "notes": "考场判断法：① 先看介词组合：between / within 后面是人或群体，是「分歧、不和」；② 前面有 business / sales / marketing / finance 这类行业名，是「部门、科室」；③ 后面接 labour（the division of labour），是「分工」；④ 数学语境（long division, division sign），是「除法」；⑤ 其余「把…分成」的语境才是「分开、划分」。别把 division 一律读成「分开」，高考里读成「分歧、部门」更常见。",
+  "assigned_carrier": "C5",
+  "assigned_difficulty": "mid",
+  "replaces_question_id": null
+ },
+ {
+  "word_id": "w_order",
+  "headword": "order",
+  "ipa": "/ˈɔːdə/",
+  "level": "T1",
+  "pos": [
+   "n",
+   "v"
+  ],
+  "target_sense": {
+   "sense_id": "s_order_v_command",
+   "text": "命令、指示（让某人做某事）",
+   "sense_level": "S3",
+   "error_mech": [
+    "E1",
+    "E4"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "订购（order a ticket）",
+    "顺序、次序"
+   ],
+   "example": {
+    "en": "The teacher ordered the students to leave the classroom at once without further question.",
+    "zh": "老师命令学生立刻离开教室，不得多问。",
+    "source": "仿真例句 · 高考完形填空高频句式",
+    "carrier": "C2"
+   },
+   "collocations": [
+    "order sb to do",
+    "order sb about",
+    "give orders to sb",
+    "obey an order"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_order_n_sequence",
+    "text": "顺序、次序（事物排列的先后）",
+    "sense_level": "S1",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_order_n_peace",
+    "text": "秩序、良好状态（社会或环境的常态）",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_order_v_command",
+    "text": "命令、指示（让某人做某事）",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_order_v_book",
+    "text": "订购、预订（商品、机票、书）",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_order_phrase_in_order_to",
+    "text": "为了、以便（为了做某事）",
+    "sense_level": "S4",
+    "is_trap": true
+   }
+  ],
+  "confusable": [
+   "border",
+   "ordinary",
+   "disorder",
+   "reorder"
+  ],
+  "word_family": [
+   "order",
+   "ordered",
+   "disorder",
+   "reorder",
+   "orderly"
+  ],
+  "notes": "考场判断法：① 看到 in order to do，立刻锁定「为了」，别当成「按…顺序」；② 动词后面跟人并带 to do 或 about → 「命令、指示」；后面跟商品、机票、书 → 「订购」；③ 名词前有 keep / maintain / restore → 「秩序」，这是社会类文章的高频词；④ 名词接 the order of → 「顺序」。order 的名词义（命令、秩序、顺序）与动词义（命令、订购）都要分清，order sb to do 和 order a ticket 意思完全不同。",
+  "assigned_carrier": "C2",
+  "assigned_difficulty": "mid",
+  "replaces_question_id": null
+ },
+ {
+  "word_id": "w_rate",
+  "headword": "rate",
+  "ipa": "/reɪt/",
+  "level": "T1",
+  "pos": [
+   "n",
+   "v"
+  ],
+  "target_sense": {
+   "sense_id": "s_rate_n_price",
+   "text": "价格、收费标准（房价、费率）",
+   "sense_level": "S4",
+   "error_mech": [
+    "E1",
+    "E4"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "比率、比例（增速、发生率等）",
+    "速度、速率（移动的快慢）"
+   ],
+   "example": {
+    "en": "Hotels in seaside cities usually raise their rates during the busy summer holiday season.",
+    "zh": "海滨城市的酒店通常在暑期旺季提高房价。",
+    "source": "仿真例句 · 高考旅行与消费类话题",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "hotel rates",
+    "the rate of pay",
+    "a reduced rate",
+    "the standard rate"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_rate_v_rank",
+    "text": "评价、评定（等级、名次、价值）",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_rate_n_ratio",
+    "text": "比率、比例（增速、发生率等）",
+    "sense_level": "S1",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_rate_n_speed",
+    "text": "速度、速率（移动的快慢）",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_rate_n_price",
+    "text": "价格、收费标准（房价、费率）",
+    "sense_level": "S4",
+    "is_trap": true
+   }
+  ],
+  "confusable": [
+   "ratio",
+   "fare",
+   "rank"
+  ],
+  "word_family": [
+   "rate",
+   "ratio",
+   "rated",
+   "rating",
+   "rational"
+  ],
+  "notes": "考场判断法：① 句子的主语是人（teachers rate students highly）→ 动词义「评价、评级」，别按「比率」读；② 后面接 of + growth / birth / success → 名词「比率」；③ 出现 at the rate of / at a steady rate → 「速度、速率」；④ 修饰 pay / hotel / price → 「价格、收费标准」。",
+  "assigned_carrier": "C3",
+  "assigned_difficulty": "mid",
+  "replaces_question_id": null
+ },
+ {
+  "word_id": "w_settle",
+  "headword": "settle",
+  "ipa": "/ˈsetl/",
+  "level": "T1",
+  "pos": [
+   "v"
+  ],
+  "target_sense": {
+   "sense_id": "s_settle_v_resolve",
+   "text": "解决、处理（争端、纠纷）",
+   "sense_level": "S2",
+   "error_mech": [
+    "E1",
+    "E2"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "定居、落户、安家"
+   ],
+   "example": {
+    "en": "The two neighbours finally settled their long disagreement about the wall they shared.",
+    "zh": "两位邻居终于就他们共用的那面墙达成了和解。",
+    "source": "仿真例句 · 高考记叙与社会话题",
+    "carrier": "C5"
+   },
+   "collocations": [
+    "settle a dispute",
+    "settle a conflict",
+    "settle the matter",
+    "settle differences"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_settle_v_resolve",
+    "text": "解决、处理（争端、纠纷）",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_settle_v_decide",
+    "text": "敲定、确定（时间、价格、方案）",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_settle_v_calm",
+    "text": "安顿下来、平静下来",
+    "sense_level": "S4",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_settle_v_reside",
+    "text": "定居、落户、安家",
+    "sense_level": "S1",
+    "is_trap": false
+   }
+  ],
+  "confusable": [
+   "shuttle",
+   "saddle",
+   "selection"
+  ],
+  "word_family": [
+   "settle",
+   "settled",
+   "settlement",
+   "settling"
+  ],
+  "notes": "考场判断法：① 宾语是 dispute / conflict / difference 这类「争端类」→ 「解决、和解」；② 宾语是 date / price / details 这类「事务类」→ 「敲定、确定」；③ 后面不接宾语或跟 in / into → 「定居、安顿」，settle down 这个固定块是「安顿下来、平静下来」，别按「解决」读。",
+  "assigned_carrier": "C3",
+  "assigned_difficulty": "mid",
+  "replaces_question_id": null
+ },
+ {
+  "word_id": "w_suspect",
+  "headword": "suspect",
+  "ipa": "/səˈspekt/",
+  "level": "T1",
+  "pos": [
+   "v",
+   "n",
+   "adj"
+  ],
+  "target_sense": {
+   "sense_id": "s_suspect_v_believe",
+   "text": "猜想、料想（觉得可能）",
+   "sense_level": "S2",
+   "error_mech": [
+    "E1",
+    "E2"
+   ],
+   "is_trap": true,
+   "trap_of": [
+    "怀疑、觉得…有嫌疑"
+   ],
+   "example": {
+    "en": "I suspect that the real reason for her silence lies in what happened last summer.",
+    "zh": "我猜想她沉默的真正原因在于去年夏天发生的事。",
+    "source": "仿真例句 · 高考叙事与推测类高频",
+    "carrier": "C1"
+   },
+   "collocations": [
+    "I suspect that",
+    "suspect sb to be",
+    "strongly suspect"
+   ]
+  },
+  "all_senses": [
+   {
+    "sense_id": "s_suspect_v_doubt",
+    "text": "怀疑、觉得…有嫌疑",
+    "sense_level": "S1",
+    "is_trap": false
+   },
+   {
+    "sense_id": "s_suspect_v_believe",
+    "text": "猜想、料想（觉得可能）",
+    "sense_level": "S2",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_suspect_n_person",
+    "text": "嫌疑人、嫌疑犯",
+    "sense_level": "S3",
+    "is_trap": true
+   },
+   {
+    "sense_id": "s_suspect_adj_doubtful",
+    "text": "可疑的、令人起疑的",
+    "sense_level": "S3",
+    "is_trap": true
+   }
+  ],
+  "confusable": [
+   "suspicion",
+   "suspicious",
+   "suspend"
+  ],
+  "word_family": [
+   "suspect",
+   "suspicion",
+   "suspicious",
+   "unsuspected"
+  ],
+  "notes": "考场判断法：① suspect 后面接 of + 人或 that 从句且涉及「罪行」→ 「怀疑有嫌疑」；② suspect that 后面说的是自己不确定的事 → 「猜想、料想」，语气是中性推测；③ 冠词 the + suspect 且指人 → 名词「嫌疑人」；④ 修饰 motive / excuse / package → 形容词「可疑的」。suspect 横跨 v / n / adj 三种词性，先定词性再定义项。",
+  "assigned_carrier": "C4",
+  "assigned_difficulty": "mid",
+  "replaces_question_id": null
+ }
+]

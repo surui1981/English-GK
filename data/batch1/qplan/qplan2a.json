@@ -1,0 +1,827 @@
+{
+ "_meta": {
+  "batch": "22a",
+  "count": 20,
+  "spec": "docs/首批100词精修规范.md",
+  "gold_standard": "docs/首批100词精修规范.md §6.2"
+ },
+ "questions": [
+  {
+   "id": "q_041",
+   "word_id": "w_capacity",
+   "headword": "capacity",
+   "sense_id": "s_capacity_n_ability",
+   "sense_text": "能力、才能（做某事的本领）",
+   "sense_level": "S3",
+   "is_trap": true,
+   "trap_of": [
+    "容量、容积",
+    "产能、生产能力"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E2"
+   ],
+   "module": "E3_形近音近混淆",
+   "module_code": "E3",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C3",
+   "collocations": [
+    "the capacity to do sth",
+    "have the capacity for",
+    "human capacity",
+    "a capacity for learning"
+   ],
+   "confusable": [
+    "capable",
+    "capability",
+    "capture"
+   ],
+   "notes": "考场判断法：① 先看 capacity 前面有没有 the 加上「人」：the capacity to do sth 是「做…的能力」，读成「容量」就全错；② 看到 in the capacity of sb 一律译成「以…的身份」，这是语法填空的固定考点，不能直译成「有能力」；③ 出现 full / seating / storage 是「容量」，出现 production 是「产能」，三者不可混读。",
+   "example": {
+    "en": "Reading widely gives young people the capacity to think about problems in a wider context.",
+    "zh": "广泛阅读使年轻人有能力在更宏观的背景下思考问题。",
+    "source": "仿真例句 · 高考阅读议论文高频句式",
+    "carrier": "C1"
+   },
+   "design_hint": "干扰项必须取自该词的 confusable 形近/音近列表，正确项与干扰项共享词根或音节"
+  },
+  {
+   "id": "q_042",
+   "word_id": "w_capacity",
+   "headword": "capacity",
+   "sense_id": "s_capacity_n_volume",
+   "sense_text": "容量、容积（能容纳的量）",
+   "sense_level": "S1",
+   "is_trap": false,
+   "trap_of": [],
+   "sense_error_mech": [],
+   "module": "E1_熟词僻义",
+   "module_code": "E1",
+   "difficulty": "easy",
+   "expected_accuracy": [
+    0.65,
+    0.95
+   ],
+   "carrier": "C1",
+   "collocations": [
+    "seating capacity",
+    "storage capacity",
+    "at full capacity",
+    "the capacity of a bottle"
+   ],
+   "confusable": [
+    "capable",
+    "capability",
+    "capture"
+   ],
+   "notes": "考场判断法：① 先看 capacity 前面有没有 the 加上「人」：the capacity to do sth 是「做…的能力」，读成「容量」就全错；② 看到 in the capacity of sb 一律译成「以…的身份」，这是语法填空的固定考点，不能直译成「有能力」；③ 出现 full / seating / storage 是「容量」，出现 production 是「产能」，三者不可混读。",
+   "example": {
+    "en": "The new stadium has a seating capacity of tens of thousands, far more than the old one in the city centre.",
+    "zh": "这座新体育场可容纳数万名观众，比市中心那座旧馆多得多。",
+    "source": "仿真例句 · 高考说明文数据类高频",
+    "carrier": "C1"
+   },
+   "design_hint": "考熟词僻义：干扰项按学生最熟悉的那个义项设置，正解是本义项"
+  },
+  {
+   "id": "q_043",
+   "word_id": "w_concern",
+   "headword": "concern",
+   "sense_id": "s_concern_v_relate",
+   "sense_text": "涉及、关系到（与某事有关）",
+   "sense_level": "S3",
+   "is_trap": true,
+   "trap_of": [
+    "使…感到担忧、挂念",
+    "关心、在意"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E4"
+   ],
+   "module": "E4_固定搭配缺失",
+   "module_code": "E4",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C1",
+   "collocations": [
+    "as far as sb is concerned",
+    "concerning",
+    "be concerned with",
+    "concern oneself with"
+   ],
+   "confusable": [
+    "concerning",
+    "consensus",
+    "conscience"
+   ],
+   "notes": "考场判断法：① 看到 as far as … is concerned 或句首的 concerning，必是「涉及、关系到」，按「就…而言」翻译，与「担心」无关；② 名词前有 a major / a growing 修饰时，指的是「值得关注的事」这一事物，不是情绪；③ 后面接人（concern sb）或出现 with concern，才落到「担忧」的感情色彩上。",
+   "example": {
+    "en": "As far as the local economy is concerned, the new policy has brought few benefits.",
+    "zh": "就当地经济而言，这项新政策带来的好处很少。",
+    "source": "仿真例句 · 高考阅读高频句式",
+    "carrier": "C1"
+   },
+   "design_hint": "考固定搭配：干扰项须能接在同一结构下但搭配错"
+  },
+  {
+   "id": "q_044",
+   "word_id": "w_concern",
+   "headword": "concern",
+   "sense_id": "s_concern_n_worry",
+   "sense_text": "忧虑、担心的情绪",
+   "sense_level": "S2",
+   "is_trap": false,
+   "trap_of": [],
+   "sense_error_mech": [
+    "E2"
+   ],
+   "module": "E2_一词多义混淆",
+   "module_code": "E2",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C2",
+   "collocations": [
+    "with concern",
+    "out of concern for",
+    "show concern",
+    "deep concern"
+   ],
+   "confusable": [
+    "concerning",
+    "consensus",
+    "conscience"
+   ],
+   "notes": "考场判断法：① 看到 as far as … is concerned 或句首的 concerning，必是「涉及、关系到」，按「就…而言」翻译，与「担心」无关；② 名词前有 a major / a growing 修饰时，指的是「值得关注的事」这一事物，不是情绪；③ 后面接人（concern sb）或出现 with concern，才落到「担忧」的感情色彩上。",
+   "example": {
+    "en": "She looked at the old photograph with obvious concern, as if she had lost something precious.",
+    "zh": "她带着明显的忧虑看着那张旧照片，仿佛失去了什么珍贵的东西。",
+    "source": "仿真例句 · 高考记叙与描写类",
+    "carrier": "C5"
+   },
+   "design_hint": "考同一词的另一义项：干扰项是该词另一个真实存在的义项"
+  },
+  {
+   "id": "q_045",
+   "word_id": "w_consequence",
+   "headword": "consequence",
+   "sense_id": "s_consequence_adv_therefore",
+   "sense_text": "因此、所以（in consequence）",
+   "sense_level": "S4",
+   "is_trap": true,
+   "trap_of": [
+    "结果、结局（某种行为带来的）"
+   ],
+   "sense_error_mech": [
+    "E7",
+    "E1"
+   ],
+   "module": "E1_熟词僻义",
+   "module_code": "E1",
+   "difficulty": "hard",
+   "expected_accuracy": [
+    0.15,
+    0.45
+   ],
+   "carrier": "C1",
+   "collocations": [
+    "in consequence",
+    "in consequence of",
+    "as a consequence"
+   ],
+   "confusable": [
+    "consequent",
+    "consequently",
+    "sequence"
+   ],
+   "notes": "考场判断法：① 前面有 the / its 且后面接 of + 从句 → 「结果、后果」；② 句中出现 of little / no / great consequence → 是「重要性、紧要性」，绝不译成「后果」；③ 看到 in consequence 单独作状语 → 相当于 therefore，是逻辑连接词，按「因此」读，不要当成名词。",
+   "example": {
+    "en": "The road was blocked for repairs; in consequence, several classes were delayed that afternoon.",
+    "zh": "道路因维修被封锁，因此那天下午有几节课推迟了。",
+    "source": "仿真例句 · 高考逻辑连接高频句式",
+    "carrier": "C1"
+   },
+   "design_hint": "考熟词僻义：干扰项按学生最熟悉的那个义项设置，正解是本义项"
+  },
+  {
+   "id": "q_046",
+   "word_id": "w_consequence",
+   "headword": "consequence",
+   "sense_id": "s_consequence_n_result",
+   "sense_text": "结果、结局（某种行为带来的）",
+   "sense_level": "S1",
+   "is_trap": false,
+   "trap_of": [],
+   "sense_error_mech": [],
+   "module": "E1_熟词僻义",
+   "module_code": "E1",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C1",
+   "collocations": [
+    "the consequences of doing sth",
+    "serious consequences",
+    "a consequence of",
+    "unintended consequences"
+   ],
+   "confusable": [
+    "consequent",
+    "consequently",
+    "sequence"
+   ],
+   "notes": "考场判断法：① 前面有 the / its 且后面接 of + 从句 → 「结果、后果」；② 句中出现 of little / no / great consequence → 是「重要性、紧要性」，绝不译成「后果」；③ 看到 in consequence 单独作状语 → 相当于 therefore，是逻辑连接词，按「因此」读，不要当成名词。",
+   "example": {
+    "en": "Few people can predict all the consequences of such a sudden change in daily routine.",
+    "zh": "很少有人能预想到日常作息如此突变会带来的所有后果。",
+    "source": "仿真例句 · 高考阅读议论文高频句式",
+    "carrier": "C1"
+   },
+   "design_hint": "考熟词僻义：干扰项按学生最熟悉的那个义项设置，正解是本义项"
+  },
+  {
+   "id": "q_047",
+   "word_id": "w_content",
+   "headword": "content",
+   "sense_id": "s_content_adj_satisfied",
+   "sense_text": "满足的、知足的（be content with）",
+   "sense_level": "S3",
+   "is_trap": true,
+   "trap_of": [
+    "内容、实质",
+    "目录（书刊的篇目清单）"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E5"
+   ],
+   "module": "E5_词性词形误判",
+   "module_code": "E5",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C4",
+   "collocations": [
+    "be content with",
+    "be content to do",
+    "content oneself with"
+   ],
+   "confusable": [
+    "contest",
+    "context",
+    "contend"
+   ],
+   "notes": "考场判断法：① 先看它前面有没有 be：be content with / to do 是形容词「满足的」，而名词 content 不与 be 连用；② the content of a message 是「内容」，the contents of a book 永远带 s，是「目录」；③ 食品、健康类语境里出现 high / low + content，一律读作「含量」。另记词形链 content（内容）→ contented（满意的）→ contentment（满足）。",
+   "example": {
+    "en": "He seemed content with the simple life he had chosen for himself.",
+    "zh": "他似乎对自己选择的简朴生活感到满足。",
+    "source": "仿真例句 · 高考人物描述类高频",
+    "carrier": "C1"
+   },
+   "design_hint": "考词性或词形变化（-ed/-ing/名词化/形容词↔名词），干扰项用同一词根的另一词性"
+  },
+  {
+   "id": "q_048",
+   "word_id": "w_content",
+   "headword": "content",
+   "sense_id": "s_content_n_subject",
+   "sense_text": "内容、实质（所表达的东西）",
+   "sense_level": "S1",
+   "is_trap": false,
+   "trap_of": [],
+   "sense_error_mech": [],
+   "module": "E1_熟词僻义",
+   "module_code": "E1",
+   "difficulty": "easy",
+   "expected_accuracy": [
+    0.65,
+    0.95
+   ],
+   "carrier": "C1",
+   "collocations": [
+    "the content of a message",
+    "digital content",
+    "the content of a speech",
+    "online content"
+   ],
+   "confusable": [
+    "contest",
+    "context",
+    "contend"
+   ],
+   "notes": "考场判断法：① 先看它前面有没有 be：be content with / to do 是形容词「满足的」，而名词 content 不与 be 连用；② the content of a message 是「内容」，the contents of a book 永远带 s，是「目录」；③ 食品、健康类语境里出现 high / low + content，一律读作「含量」。另记词形链 content（内容）→ contented（满意的）→ contentment（满足）。",
+   "example": {
+    "en": "The content of the message was too short to be taken seriously.",
+    "zh": "这条信息的内容太短，不值得当真。",
+    "source": "仿真例句 · 高考应用文与阅读高频",
+    "carrier": "C4"
+   },
+   "design_hint": "考熟词僻义：干扰项按学生最熟悉的那个义项设置，正解是本义项"
+  },
+  {
+   "id": "q_049",
+   "word_id": "w_current",
+   "headword": "current",
+   "sense_id": "s_current_n_electric",
+   "sense_text": "电流（电学中的电流）",
+   "sense_level": "S4",
+   "is_trap": true,
+   "trap_of": [
+    "当前的、现行的"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E4"
+   ],
+   "module": "E4_固定搭配缺失",
+   "module_code": "E4",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C1",
+   "collocations": [
+    "electric current",
+    "direct current",
+    "a strong current",
+    "current flows through"
+   ],
+   "confusable": [
+    "currency",
+    "currently",
+    "accurate"
+   ],
+   "notes": "考场判断法：① 前面有 the 且后面接名词（the current situation / the current price）→ 形容词「当前的」；② 上下文出现 ocean / warm / river / flow → 名词「水流、洋流」；③ 出现 electric / direct / battery / voltage → 名词「电流」；④ 固定块 current affairs = 时事，写作里可直接用。",
+   "example": {
+    "en": "The device draws a small current from the battery to power its screen.",
+    "zh": "这个装置从电池中抽取很小的电流来驱动屏幕。",
+    "source": "仿真例句 · 高考科技类说明文",
+    "carrier": "C1"
+   },
+   "design_hint": "考固定搭配：干扰项须能接在同一结构下但搭配错"
+  },
+  {
+   "id": "q_050",
+   "word_id": "w_current",
+   "headword": "current",
+   "sense_id": "s_current_adj_now",
+   "sense_text": "当前的、现行的",
+   "sense_level": "S1",
+   "is_trap": false,
+   "trap_of": [],
+   "sense_error_mech": [],
+   "module": "E2_一词多义混淆",
+   "module_code": "E2",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C2",
+   "collocations": [
+    "the current situation",
+    "the current price",
+    "in the current year",
+    "the current system"
+   ],
+   "confusable": [
+    "currency",
+    "currently",
+    "accurate"
+   ],
+   "notes": "考场判断法：① 前面有 the 且后面接名词（the current situation / the current price）→ 形容词「当前的」；② 上下文出现 ocean / warm / river / flow → 名词「水流、洋流」；③ 出现 electric / direct / battery / voltage → 名词「电流」；④ 固定块 current affairs = 时事，写作里可直接用。",
+   "example": {
+    "en": "The current situation is far more complicated than it was a decade ago.",
+    "zh": "当前的情况比十年前复杂得多。",
+    "source": "仿真例句 · 高考阅读议论文高频句式",
+    "carrier": "C1"
+   },
+   "design_hint": "考同一词的另一义项：干扰项是该词另一个真实存在的义项"
+  },
+  {
+   "id": "q_051",
+   "word_id": "w_firm",
+   "headword": "firm",
+   "sense_id": "s_firm_adj_fixed",
+   "sense_text": "固定的、不可更动的（价格）",
+   "sense_level": "S4",
+   "is_trap": true,
+   "trap_of": [
+    "公司、商号、企业"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E4"
+   ],
+   "module": "E4_固定搭配缺失",
+   "module_code": "E4",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C1",
+   "collocations": [
+    "a firm price",
+    "a firm offer",
+    "a firm date",
+    "a firm commitment"
+   ],
+   "confusable": [
+    "form",
+    "farm",
+    "confirm"
+   ],
+   "notes": "考场判断法：① firm 后面跟 belief / decision / support / commitment 这类信念类名词 → 形容词「坚定的」；② 跟 ground / foundation / grip 这类接触类名词 → 形容词「结实的」；③ 前面有 a / the 且指一个组织（a large firm）→ 名词「公司」；④ 修饰 price / offer / date → 固定搭配义「固定的、板上钉钉的」。",
+   "example": {
+    "en": "The travel agency offered us a firm price for the whole journey, with no extra charges.",
+    "zh": "旅行社为整段行程给了我们一个固定价格，没有任何额外费用。",
+    "source": "仿真例句 · 高考应用文写作高频",
+    "carrier": "C4"
+   },
+   "design_hint": "考固定搭配：干扰项须能接在同一结构下但搭配错"
+  },
+  {
+   "id": "q_052",
+   "word_id": "w_firm",
+   "headword": "firm",
+   "sense_id": "s_firm_adj_solid",
+   "sense_text": "结实的、坚固的（地基、支撑）",
+   "sense_level": "S2",
+   "is_trap": true,
+   "trap_of": [
+    "公司、商号、企业",
+    "坚定的、坚决的（信念、立场）"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E2"
+   ],
+   "module": "E2_一词多义混淆",
+   "module_code": "E2",
+   "difficulty": "hard",
+   "expected_accuracy": [
+    0.15,
+    0.45
+   ],
+   "carrier": "C2",
+   "collocations": [
+    "a firm foundation",
+    "firm ground",
+    "a firm grip",
+    "set firm"
+   ],
+   "confusable": [
+    "form",
+    "farm",
+    "confirm"
+   ],
+   "notes": "考场判断法：① firm 后面跟 belief / decision / support / commitment 这类信念类名词 → 形容词「坚定的」；② 跟 ground / foundation / grip 这类接触类名词 → 形容词「结实的」；③ 前面有 a / the 且指一个组织（a large firm）→ 名词「公司」；④ 修饰 price / offer / date → 固定搭配义「固定的、板上钉钉的」。",
+   "example": {
+    "en": "The bridge stands on firm concrete foundations built to survive the heaviest floods.",
+    "zh": "这座桥建立在坚固的混凝土基础上，能够承受最严重的洪水。",
+    "source": "仿真例句 · 高考说明文与建筑类话题",
+    "carrier": "C1"
+   },
+   "design_hint": "考同一词的另一义项：干扰项是该词另一个真实存在的义项"
+  },
+  {
+   "id": "q_053",
+   "word_id": "w_flat",
+   "headword": "flat",
+   "sense_id": "s_flat_adj_uniform",
+   "sense_text": "划一的、不分等级的（费率）",
+   "sense_level": "S4",
+   "is_trap": true,
+   "trap_of": [
+    "平坦的、水平的"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E4"
+   ],
+   "module": "E4_固定搭配缺失",
+   "module_code": "E4",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C1",
+   "collocations": [
+    "a flat rate",
+    "a flat fee",
+    "a flat charge",
+    "pay a flat monthly fee"
+   ],
+   "confusable": [
+    "flatter",
+    "float",
+    "fleet"
+   ],
+   "notes": "考场判断法：① 修饰 story / voice / atmosphere / joke → 形容词「平淡乏味的」，这是完形里 flat 的主要用法；② 修饰 plain / surface / land → 「平坦的、水平的」；③ 前面有 a / the 并指住处（a studio flat）→ 名词「公寓」；④ 修饰 rate / fee → 固定搭配「划一的」。flat 全靠后面接的名词分辨。",
+   "example": {
+    "en": "Members pay one flat monthly fee, and there is no charge for extra training sessions.",
+    "zh": "会员每月只交一笔统一费用，额外培训课不再另外收费。",
+    "source": "仿真例句 · 高考应用文写作高频",
+    "carrier": "C4"
+   },
+   "design_hint": "考固定搭配：干扰项须能接在同一结构下但搭配错"
+  },
+  {
+   "id": "q_054",
+   "word_id": "w_flat",
+   "headword": "flat",
+   "sense_id": "s_flat_adj_level",
+   "sense_text": "平坦的、水平的",
+   "sense_level": "S1",
+   "is_trap": false,
+   "trap_of": [],
+   "sense_error_mech": [],
+   "module": "E1_熟词僻义",
+   "module_code": "E1",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C1",
+   "collocations": [
+    "a flat plain",
+    "a flat surface",
+    "lay sth flat",
+    "flat land"
+   ],
+   "confusable": [
+    "flatter",
+    "float",
+    "fleet"
+   ],
+   "notes": "考场判断法：① 修饰 story / voice / atmosphere / joke → 形容词「平淡乏味的」，这是完形里 flat 的主要用法；② 修饰 plain / surface / land → 「平坦的、水平的」；③ 前面有 a / the 并指住处（a studio flat）→ 名词「公寓」；④ 修饰 rate / fee → 固定搭配「划一的」。flat 全靠后面接的名词分辨。",
+   "example": {
+    "en": "The old town is built on a flat plain where the wind never stops.",
+    "zh": "这座古镇建在一片平坦的平原上，那里风从未停歇。",
+    "source": "仿真例句 · 高考地理与写景类",
+    "carrier": "C1"
+   },
+   "design_hint": "考熟词僻义：干扰项按学生最熟悉的那个义项设置，正解是本义项"
+  },
+  {
+   "id": "q_055",
+   "word_id": "w_former",
+   "headword": "former",
+   "sense_id": "s_former_n_founder",
+   "sense_text": "创始人、创办者",
+   "sense_level": "S3",
+   "is_trap": true,
+   "trap_of": [
+    "以前的、先前的"
+   ],
+   "sense_error_mech": [
+    "E1",
+    "E5"
+   ],
+   "module": "E5_词性词形误判",
+   "module_code": "E5",
+   "difficulty": "hard",
+   "expected_accuracy": [
+    0.15,
+    0.45
+   ],
+   "carrier": "C4",
+   "collocations": [
+    "the founders of",
+    "one of the formers",
+    "the formers of the company"
+   ],
+   "confusable": [
+    "formal",
+    "latter",
+    "form"
+   ],
+   "notes": "考场判断法：① 句中出现 the former 一定与 the latter 成对使用，译成「前者 / 后者」，绝不译成「以前的」——这是七选五与完形的高频坑；② 修饰人（former workers / former champion）才是「以前的、先前的」；③ 前面有 the 且指「创办人」（the formers of the movement）→ 名词义「创始人」，这是它最冷僻的一层。",
+   "example": {
+    "en": "One of the formers of the movement once said that education should start where people live.",
+    "zh": "该运动的创始人之一曾说，教育应当从人们生活的地方开始。",
+    "source": "仿真例句 · 高考历史与文化类阅读",
+    "carrier": "C1"
+   },
+   "design_hint": "考词性或词形变化（-ed/-ing/名词化/形容词↔名词），干扰项用同一词根的另一词性"
+  },
+  {
+   "id": "q_056",
+   "word_id": "w_former",
+   "headword": "former",
+   "sense_id": "s_former_adj_previous",
+   "sense_text": "以前的、先前的",
+   "sense_level": "S1",
+   "is_trap": false,
+   "trap_of": [],
+   "sense_error_mech": [],
+   "module": "E2_一词多义混淆",
+   "module_code": "E2",
+   "difficulty": "easy",
+   "expected_accuracy": [
+    0.65,
+    0.95
+   ],
+   "carrier": "C2",
+   "collocations": [
+    "former colleagues",
+    "a former champion",
+    "a former president",
+    "in former times"
+   ],
+   "confusable": [
+    "formal",
+    "latter",
+    "form"
+   ],
+   "notes": "考场判断法：① 句中出现 the former 一定与 the latter 成对使用，译成「前者 / 后者」，绝不译成「以前的」——这是七选五与完形的高频坑；② 修饰人（former workers / former champion）才是「以前的、先前的」；③ 前面有 the 且指「创办人」（the formers of the movement）→ 名词义「创始人」，这是它最冷僻的一层。",
+   "example": {
+    "en": "Many of the factory's former workers now work in smaller local businesses.",
+    "zh": "这家工厂许多原来的工人如今在本地的小企业工作。",
+    "source": "仿真例句 · 高考社会与就业类阅读",
+    "carrier": "C1"
+   },
+   "design_hint": "考同一词的另一义项：干扰项是该词另一个真实存在的义项"
+  },
+  {
+   "id": "q_057",
+   "word_id": "w_issue",
+   "headword": "issue",
+   "sense_id": "s_issue_n_problem",
+   "sense_text": "问题、麻烦、隐患",
+   "sense_level": "S2",
+   "is_trap": true,
+   "trap_of": [
+    "议题、争论点（有争议的重要话题）"
+   ],
+   "sense_error_mech": [
+    "E2",
+    "E6"
+   ],
+   "module": "E6_语境推断失败",
+   "module_code": "E6",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C1",
+   "collocations": [
+    "a minor issue",
+    "no issue at all",
+    "a technical issue",
+    "an issue with"
+   ],
+   "confusable": [
+    "tissue",
+    "issuing",
+    "matter"
+   ],
+   "notes": "考场判断法：① 主语是媒体、学校、机构（the magazine issued / the school issued）→ 动词义「发行、发布」，学生最容易在这里把 issue 想成名词「议题」；② 名词前有 major / controversial → 「议题、争论点」；③ 前有 a minor / no 修饰 → 「问题、麻烦、隐患」，多指具体毛病。",
+   "example": {
+    "en": "Sleeping late is not a serious issue, but it does affect your performance in class.",
+    "zh": "晚睡不是个严重的问题，但确实会影响你在课堂上的表现。",
+    "source": "仿真例句 · 高考健康与校园类阅读",
+    "carrier": "C1"
+   },
+   "design_hint": "考语境推断：干扰项字面讲得通但与上下文线索矛盾"
+  },
+  {
+   "id": "q_058",
+   "word_id": "w_issue",
+   "headword": "issue",
+   "sense_id": "s_issue_n_topic",
+   "sense_text": "议题、争论点（有争议的重要话题）",
+   "sense_level": "S1",
+   "is_trap": false,
+   "trap_of": [],
+   "sense_error_mech": [],
+   "module": "E1_熟词僻义",
+   "module_code": "E1",
+   "difficulty": "easy",
+   "expected_accuracy": [
+    0.65,
+    0.95
+   ],
+   "carrier": "C1",
+   "collocations": [
+    "a major issue",
+    "raise an issue",
+    "a controversial issue",
+    "address an issue"
+   ],
+   "confusable": [
+    "tissue",
+    "issuing",
+    "matter"
+   ],
+   "notes": "考场判断法：① 主语是媒体、学校、机构（the magazine issued / the school issued）→ 动词义「发行、发布」，学生最容易在这里把 issue 想成名词「议题」；② 名词前有 major / controversial → 「议题、争论点」；③ 前有 a minor / no 修饰 → 「问题、麻烦、隐患」，多指具体毛病。",
+   "example": {
+    "en": "How to keep a balance between study and rest remains a much discussed issue.",
+    "zh": "如何平衡学习与休息仍是一个备受讨论的议题。",
+    "source": "仿真例句 · 高考议论文高频句式",
+    "carrier": "C1"
+   },
+   "design_hint": "考熟词僻义：干扰项按学生最熟悉的那个义项设置，正解是本义项"
+  },
+  {
+   "id": "q_059",
+   "word_id": "w_major",
+   "headword": "major",
+   "sense_id": "s_major_v_study",
+   "sense_text": "主修、专攻（major in）",
+   "sense_level": "S4",
+   "is_trap": true,
+   "trap_of": [
+    "主要的、重大的（占主导的）"
+   ],
+   "sense_error_mech": [
+    "E5",
+    "E4"
+   ],
+   "module": "E3_形近音近混淆",
+   "module_code": "E3",
+   "difficulty": "mid",
+   "expected_accuracy": [
+    0.35,
+    0.75
+   ],
+   "carrier": "C3",
+   "collocations": [
+    "major in sth",
+    "major in English",
+    "major in computer science"
+   ],
+   "confusable": [
+    "minor",
+    "majority",
+    "senior"
+   ],
+   "notes": "考场判断法：① major 后面接 part / share / portion 这类表示「份额」的词，译成「大部分」，不是「主要的」；② 接 factor / concern / role / change 这类抽象名词才是「主要的、重大的」；③ 前面有 my / his / her 且指学业方向 → 名词「主修专业」；④ 后面带 in + 学科名 → 动词「主修」。major 与 minor 是一组必背的形近对比。",
+   "example": {
+    "en": "He majored in computer science but spent most of his spare time writing short stories.",
+    "zh": "他主修计算机科学，却把大部分业余时间用来写短篇小说。",
+    "source": "仿真例句 · 高考校园与写作类话题",
+    "carrier": "C4"
+   },
+   "design_hint": "干扰项必须取自该词的 confusable 形近/音近列表，正确项与干扰项共享词根或音节"
+  },
+  {
+   "id": "q_060",
+   "word_id": "w_major",
+   "headword": "major",
+   "sense_id": "s_major_adj_main",
+   "sense_text": "主要的、重大的（占主导的）",
+   "sense_level": "S1",
+   "is_trap": false,
+   "trap_of": [],
+   "sense_error_mech": [],
+   "module": "E1_熟词僻义",
+   "module_code": "E1",
+   "difficulty": "easy",
+   "expected_accuracy": [
+    0.65,
+    0.95
+   ],
+   "carrier": "C1",
+   "collocations": [
+    "a major concern",
+    "a major factor",
+    "a major role",
+    "a major change"
+   ],
+   "confusable": [
+    "minor",
+    "majority",
+    "senior"
+   ],
+   "notes": "考场判断法：① major 后面接 part / share / portion 这类表示「份额」的词，译成「大部分」，不是「主要的」；② 接 factor / concern / role / change 这类抽象名词才是「主要的、重大的」；③ 前面有 my / his / her 且指学业方向 → 名词「主修专业」；④ 后面带 in + 学科名 → 动词「主修」。major 与 minor 是一组必背的形近对比。",
+   "example": {
+    "en": "Cost is a major concern for any family that plans to study abroad.",
+    "zh": "对任何计划出国留学的家庭来说，费用都是一个主要的顾虑。",
+    "source": "仿真例句 · 高考阅读高频句式",
+    "carrier": "C1"
+   },
+   "design_hint": "考熟词僻义：干扰项按学生最熟悉的那个义项设置，正解是本义项"
+  }
+ ]
+}

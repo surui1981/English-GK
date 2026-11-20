@@ -1,0 +1,85 @@
+{
+ "_meta": {
+  "generated_by": "tools/analyze_textbook_fragment.py",
+  "hypothesis": "教材词表记录的是「该单元用到的义项」，而非完整词条"
+ },
+ "a_sense_count": {
+  "both_source_words": 1087,
+  "tb2019_mean_senses": 2.26,
+  "tb2007_mean_senses": 2.33,
+  "tb2007_fewer_than_2019": 299,
+  "tb2007_more_than_2019": 293,
+  "equal": 495,
+  "tb2007_fewer_ratio": 27.5
+ },
+ "b_set_relation": {
+  "compared": 1086,
+  "tb2007_subset_of_2019": 226,
+  "tb2019_subset_of_2007": 65,
+  "neither_contains_other": 795,
+  "completely_disjoint": 384,
+  "subset_ratio": 26.8,
+  "mean_jaccard": 0.306
+ },
+ "c_core_sense_coverage": {
+  "words_with_core_defined": 363,
+  "tb2019_contains_core": 257,
+  "tb2019_misses_core": 106,
+  "tb2007_contains_core": 157,
+  "tb2007_misses_core": 206,
+  "tb2007_miss_rate": 56.7,
+  "tb2007_miss_examples": [
+   "state",
+   "object",
+   "figure",
+   "effect",
+   "supply",
+   "minor",
+   "particular",
+   "account",
+   "content",
+   "flat",
+   "firm",
+   "current",
+   "false",
+   "option",
+   "input",
+   "access",
+   "appeal",
+   "capacity",
+   "challenge",
+   "characteristic",
+   "concern",
+   "conduct",
+   "conflict",
+   "contrast",
+   "crisis",
+   "critical",
+   "decline",
+   "demand",
+   "display",
+   "estimate"
+  ]
+ },
+ "d_pos_coverage": {
+  "tb2019_pos_count_dist": {
+   "0": 195,
+   "1": 733,
+   "2": 159
+  },
+  "tb2007_pos_count_dist": {
+   "0": 79,
+   "1": 846,
+   "2": 161,
+   "3": 1
+  },
+  "tb2007_single_pos_ratio": 85.1,
+  "tb2019_single_pos_ratio": 85.4
+ },
+ "e_legacy_occurrences": {
+  "legacy_entries": 2405,
+  "distinct_headwords": 2404,
+  "entries_in_multi_unit_words": 2,
+  "note": "同一词在旧课标不同单元各记一条，条数 > 唯一词形数即为多单元复现"
+ }
+}

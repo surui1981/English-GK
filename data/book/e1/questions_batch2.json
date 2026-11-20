@@ -1,0 +1,433 @@
+[
+ {
+  "id": "q_e1_010",
+  "sense_id": "s_case_n_legal",
+  "word_id": "w_case",
+  "carrier": "C2",
+  "module": "E1_熟词僻义",
+  "difficulty": "hard",
+  "expected_accuracy": [
+   0.22,
+   0.42
+  ],
+  "stem": "The family had waited years for the murder ______ to be reopened, and last week the newspaper reported that a fresh team would review the old evidence.",
+  "stem_cn": "这个家庭等了很多年，希望这桩谋杀案能______；上周，报纸报道说，一支新的专案组将重新审查原有证据。",
+  "options": [
+   {
+    "key": "A",
+    "text": "trial",
+    "correct": false,
+    "distractor_reason": "语义近：审判与案件同属刑事程序环节，英语里 murder trial、the trial 就发生在谋杀案之后，学生看到「谋杀＋司法」就顺手填它。测 E2 一词多义混淆：语境说证据才刚要重审、案子还没开庭，这一义项撑不起 to be reopened。"
+   },
+   {
+    "key": "B",
+    "text": "case",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "C",
+    "text": "charge",
+    "correct": false,
+    "distractor_reason": "语义近：charge 是「指控、起诉」，the charge against the shopkeeper 这类说法在英语里完全讲得通，学生会把 case 与 charge 当同一件事。测 E1 熟词僻义＋E4 搭配缺失：指控只会被撤销或撤回，不会被「重新开启」，高考语料讲悬案重启固定用 reopen a case。"
+   },
+   {
+    "key": "D",
+    "text": "cause",
+    "correct": false,
+    "distractor_reason": "形近音近（E3）：case 与 cause 首音节相同、字形相近，背短语时最容易串。测 E3 形近音近误判：the murder cause to be reopened 根本不成搭配，属纯视觉误选，与义项理解无关。"
+   }
+  ],
+  "explanation": "【考场动作】先圈住空前的限定语 the murder 和空后的谓语 to be reopened：能被「重新开启」的是尚在调查中的办案卷宗——英语里 reopen 的对象是 case，而不是指控或庭审。再看语境：a fresh team would review the old evidence 说明案子还停在侦查阶段，根本没进过法庭，于是 trial 被挡在外面；charge（指控）只会被撤销，不会被重启；cause 与 case 音近但根本搭不上 the murder cause to be reopened。\n【为什么选 B】the murder case to be reopened 是新闻与法律语境里讲悬案的固定说法。句意是这桩谋杀案将重新调查，新专案组重审旧证据，空格只能取 case 的法律义「案件、诉讼案」，不是「情况、事例」。\n【其他选项】A trial 是「审判」，语境说证据还没查完就要重审，若已开庭就不存在「重开庭审」这一步；C charge 是「指控」，语义近但语用方向相反——charge 会被 drop 掉，case 才会被 reopen，这是高考语料的固定分工；D cause 与 case 形近音近，是纯形近误选，cause 不能与 the murder 和 to be reopened 搭配。",
+  "trap_note": "陷阱来源：学生按 case＝「情况、事例」的泛化义去理解，看到 murder 就想「凶杀事件」而不敢选 case；或把 case 与 charge（指控）、trial（审判）混为一谈，只凭语感挑一个听起来像法律词的。",
+  "tags": [
+   "E1",
+   "E2",
+   "E3",
+   "P4"
+  ]
+ },
+ {
+  "id": "q_e1_011",
+  "sense_id": "s_current_n_water",
+  "word_id": "w_current",
+  "carrier": "C2",
+  "module": "E1_熟词僻义",
+  "difficulty": "hard",
+  "expected_accuracy": [
+   0.18,
+   0.4
+  ],
+  "stem": "Fishermen here say the warm ______ that runs along the coast brings fish to the shore earlier each spring than it used to.",
+  "stem_cn": "这里的渔民说，沿着海岸流动的那股______每年春天都能更早把鱼带到岸边。",
+  "options": [
+   {
+    "key": "A",
+    "text": "water",
+    "correct": false,
+    "distractor_reason": "语义近：warm water 是英语里完全说得通的说法，学生看到 warm 就想到「暖水」，再顺势填进去。测 E1 熟词僻义：把「暖流」这个流动体换成了温水这种状态性物质，句子读着顺却不是题目要的那个义项。"
+   },
+   {
+    "key": "B",
+    "text": "stream",
+    "correct": false,
+    "distractor_reason": "语义近：stream 就是「水流、小河」，学生按「沿着海岸流动的水」这个泛化画面选它。测 E2 一词多义混淆＋E1：stream 专指内陆的细流与水道，指海里的洋流时英语说 current，学生只凭「水流」这一层意思就把它填上。"
+   },
+   {
+    "key": "C",
+    "text": "current",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "D",
+    "text": "currency",
+    "correct": false,
+    "distractor_reason": "形近音近（E3）：current 与 currency 首音节相同、背词时最容易串，current 也是高考里常与 currency（货币）放在一起辨析的一对。测 E3 形近音近误判：the warm currency that runs along the coast 完全不成搭配，属纯视觉误选。"
+   }
+  ],
+  "explanation": "【考场动作】先看空前的定语 warm 和空后的 that 从句：能被 warm 修饰、又能像「一股沿着海岸跑的水」那样作主语的名词，在英语里固定是 current（洋流）。只要上下文出现 ocean / warm / coast / runs along，就锁定「水流、洋流」义；电流义被 electric、direct、voltage 这些词挡住，时事义则必须写成 current affairs。再用搭配筛：warm current 是高考科普类语料的现成块。\n【为什么选 C】句意是那股沿海岸流动的暖流使鱼群比往年更早靠岸，current 在这里是名词「洋流」，与 ocean currents、a warm current 同族。\n【其他选项】A warm water 语义近也能读通，但 warm water 说的是「温水」这一状态物质，句子要的是一个持续流动、带来鱼汛的流动体；B stream 讲得通却对象错，stream 指内陆的细流小河，指海里的暖流时英语固定用 current；D currency 与 current 形近音近，是纯形近误选，货币不可能沿着海岸流动。",
+  "trap_note": "陷阱来源：学生按 current＝「当前的、现行的」去理解，看到「渔民、暖、海岸」仍不敢用名词义；或按 water、stream 的泛化「水流」义去选，把 current 这个固定块漏掉。",
+  "tags": [
+   "E1",
+   "E3",
+   "P2"
+  ]
+ },
+ {
+  "id": "q_e1_012",
+  "sense_id": "s_impact_n_collision",
+  "word_id": "w_impact",
+  "carrier": "C2",
+  "module": "E1_熟词僻义",
+  "difficulty": "hard",
+  "expected_accuracy": [
+   0.2,
+   0.44
+  ],
+  "stem": "The doctor's report described the ______ on the boy's head as the cause of his months of memory loss, and no one was ever charged.",
+  "stem_cn": "医生的报告把男孩头部受到的那______描述成他数月失忆的原因，但始终没有人因此被起诉。",
+  "options": [
+   {
+    "key": "A",
+    "text": "injury",
+    "correct": false,
+    "distractor_reason": "语义近：injury 就是「伤害」，口语里的 the injury on his head 学生也听得懂，便按「撞击造成的伤」直接选它。测 E2 一词多义混淆：书面固定搭配是 an injury to the head，介词要用 to，这一项要靠搭配记忆才排得掉。"
+   },
+   {
+    "key": "B",
+    "text": "effect",
+    "correct": false,
+    "distractor_reason": "语义近：effect 是「影响、效果」，the effect on the boy's head 在语义上完全讲得通，学生正是抱着 impact＝「影响」的熟义才会选它。测 E1 熟词僻义：本题考的是撞击的那一下本身，effect 只表示事后留下的作用。"
+   },
+   {
+    "key": "C",
+    "text": "impair",
+    "correct": false,
+    "distractor_reason": "形近音近（E3）：impair 与 impact 共享前缀 imp-、字形极近，背词时最易互相顶替。测 E3 形近音近误判：impair 是动词「损害」，the impair on the boy's head 根本不成搭配，属纯视觉误选。"
+   },
+   {
+    "key": "D",
+    "text": "impact",
+    "correct": true,
+    "distractor_reason": null
+   }
+  ],
+  "explanation": "【考场动作】先看空后那半句 as the cause of his months of memory loss：能造成数月失忆的，是头上挨的那一下「撞击」，不是撞击之后留下的痕迹，也不是泛泛的「影响」。再看介词：on the boy's head 这种位置，impact、effect、mark 都能接，injury 不行（应是 an injury to the head）；最后把纯形近的 impair 排掉，答案就锁定在 impact 的「撞击」义，而不是它最常见的「影响」义。\n【为什么选 D】the impact on the boy's head 指落在头部的那次撞击，正因为这一下才导致长期失忆，impact 与 as the cause of 构成直接的因果链；这是 impact 的「撞击、冲击」义，与 the impact of the crash、a powerful impact 同族。\n【其他选项】A injury 语义最近，但书面固定搭配是 an injury to the head，介词一错即出局；B effect 是「影响」，正是学生按熟义选中的那一项，它只能表示撞击造成的后果，撑不起「造成失忆」这个动作本身；C impair 与 impact 形近音近，是纯形近误选，impair 作动词也不能放在 the ______ on 之后。",
+  "trap_note": "陷阱来源：学生按 impact＝「影响、作用」的熟悉义去理解，一看到「头部、原因」就选 effect，或干脆不敢选 impact；也容易被 impact 与 impair 的形近词带偏。",
+  "tags": [
+   "E1",
+   "E2",
+   "E3",
+   "P4"
+  ]
+ },
+ {
+  "id": "q_e1_013",
+  "sense_id": "s_contest_n_dispute",
+  "word_id": "w_contest",
+  "carrier": "C4",
+  "module": "E1_熟词僻义",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.45,
+   0.72
+  ],
+  "stem": "I am writing to suggest that our school newspaper add a column on the issue, because how much screen time teenagers should get is a matter of ______.",
+  "stem_cn": "我写信是想建议校报就此增设一个专栏，因为青少年每天该用多少屏幕时间目前是一个______的问题。",
+  "options": [
+   {
+    "key": "A",
+    "text": "conflict",
+    "correct": false,
+    "distractor_reason": "语义近：conflict 是「冲突、对抗」，a matter of conflict 在英语里也讲得通，学生把两方对立直接等同于冲突。测 E2 一词多义混淆：语境里双方只是在报上各自陈词、并未闹到对立冲突，conflict 的语气过重。"
+   },
+   {
+    "key": "B",
+    "text": "concern",
+    "correct": false,
+    "distractor_reason": "语义近：a matter of concern 是高考语料里的现成搭配，意思接近「值得关注的事」，学生看到 issue 就顺手填它。测 E1 熟词僻义：concern 说的是「关切、担心」，不是双方各执一词的「争议」，方向不一样。"
+   },
+   {
+    "key": "C",
+    "text": "contest",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "D",
+    "text": "protest",
+    "correct": false,
+    "distractor_reason": "形近音近（E3）：contest 与 protest 同为 pro- 开头、尾音相近，背短语时极易串。测 E3 形近音近误判：protest 是「抗议」这种公开行动，a matter of protest 讲的是有人闹事，与「双方在报上亮明观点」完全不对。"
+   }
+  ],
+  "explanation": "【考场动作】先抓住空前的固定框架 a matter of —— 这是判断 contest 义项的硬锚点：a matter of contest 是个整体，意思是「有争议之事」；a matter of concern、a matter of conflict 虽然也是英语里说得通的搭配，但它们各自带着「关切」和「冲突」的限定。再回看语境：双方把各自的论点都写了出来，是主张对撞，不是谁向谁抗议，也不是关系破裂。\n【为什么选 C】句意是「青少年该用多少屏幕时间至今没有定论」，两种主张互不相让，正是 contest 的「争议、纷争」义；此处 contest 作名词，不作「赛事、比赛」讲。\n【其他选项】A conflict 语义近，但 conflict 指局面上的对抗与破裂，语境里两方仍能各写各的文章、只谈各自主张，冲突语气过重；B concern 是「值得担心的事」，a matter of concern 讲的是忧心之处，与「双方论战、尚无定论」不是一回事；D protest 与 contest 形近音近，属纯形近误选，且 protest 指上街抗议一类的行动，与在报上各抒己见不搭。",
+  "trap_note": "陷阱来源：学生按 contest＝「赛事、比赛」的熟悉义去理解，看到两方观点对立就往「争夺、比赛」想，不敢选 contest；或按「冲突、抗议」的联想把 conflict、protest 顶上去。",
+  "tags": [
+   "E1",
+   "E2",
+   "E3",
+   "P4"
+  ]
+ },
+ {
+  "id": "q_e1_014",
+  "sense_id": "s_nature_adv_in_nature",
+  "word_id": "w_nature",
+  "carrier": "C2",
+  "module": "E1_熟词僻义",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.42,
+   0.7
+  ],
+  "stem": "Although the two versions look almost the same on paper, they are different in ______, and the change in the last line matters most.",
+  "stem_cn": "虽然这两个版本在纸面上看起来几乎一样，但它们在______上存在差别，而最后一行的那处改动最为关键。",
+  "options": [
+   {
+    "key": "A",
+    "text": "nature",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "B",
+    "text": "fact",
+    "correct": false,
+    "distractor_reason": "语义近：fact 是「事实」，学生按「事实上两者确有差别」这个意思来想，就把它填进 different in 的空里。测 E1 熟词僻义＋E4 搭配缺失：different in fact 在英语里根本不成立，能进这个框架的是 nature 这类表示性质的名词。"
+   },
+   {
+    "key": "C",
+    "text": "value",
+    "correct": false,
+    "distractor_reason": "语义近：value 是「价值」，the difference in value 讲得通，学生把「本质差别」理解成「价值高低」。测 E2 一词多义混淆：同一首诗的两个版本谈不上谁价值更高，语境锁定的是性质、手法之差，value 一项只能靠上下文排除。"
+   },
+   {
+    "key": "D",
+    "text": "size",
+    "correct": false,
+    "distractor_reason": "语义近：size 是「大小、体量」，different in size 是英语常见搭配，学生看到两个版本就先想到篇幅长短。测 E6 语境推断失败：语境明说两个版本「看起来几乎一样」，体量上的差别根本不存在，这处矛盾是排掉它的关键。"
+   }
+  ],
+  "explanation": "【考场动作】先看空前的框架 different in —— 能进这个框架的是表示「性质、类别」的名词，而高考语料里这块固定搭配就是 different in nature（本质上不同）。再看语境：两个版本「在纸面上看起来几乎一样」，差别不可能在长短体量上，也谈不上价值高低，差别只能落在性质、手法这类「本质」上；特别提醒，这里的 in nature 是整块，意思是「在本质上」，不是「在大自然中」。\n【为什么选 A】different in nature = 本质上不同。句意是纸面相似而性质、手法有别，所以 nature 在这里取「性质、本质」义，与形容词 natural 同源，都是「本性、实质」这一层。\n【其他选项】B fact 与 different in 构不成搭配，学生按「事实上确有差别」想当然填入，是词块缺失；C value 在「同一首诗的两个版本」语境下讲不通，不存在价值高低之别；D size 与「看起来几乎一样」直接矛盾，属语境推断失败。",
+  "trap_note": "陷阱来源：学生把 nature 当成名词「大自然」或「天性」去理解，看到 different in 就找不到词填；或把 in nature 整块读成「在大自然中」，忽略了此处「本质上」的意思。",
+  "tags": [
+   "E1",
+   "E2",
+   "E4",
+   "P2"
+  ]
+ },
+ {
+  "id": "q_e1_015",
+  "sense_id": "s_power_n_capacity",
+  "word_id": "w_power",
+  "carrier": "C3",
+  "module": "E1_熟词僻义",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.4,
+   0.7
+  ],
+  "stem": "The young manager won the respect of his team, and he always said that it was the ______ of keeping his temper in difficult meetings.",
+  "stem_cn": "这位年轻经理赢得了团队的敬重，他总说靠的是自己在困难会议上沉住气的那股______。",
+  "options": [
+   {
+    "key": "A",
+    "text": "ability",
+    "correct": false,
+    "distractor_reason": "语义近：ability 就是「能力」，the ability to keep his temper 完全讲得通，学生按「能力」这一层意思填它。测 E4 固定搭配缺失＋E5 词性词形误判：ability 后面只能接 to do 或 in doing，接不上 of keeping，语法一过就出局。"
+   },
+   {
+    "key": "B",
+    "text": "skill",
+    "correct": false,
+    "distractor_reason": "语义近：skill 是「本领、技巧」，the skill of keeping his temper 也说得通，学生把「沉住气」当成一种可学的技巧。测 E2 一词多义混淆：语境强调的是那股让人赢得敬重的力量与定力，不是可以模仿的操作手法。"
+   },
+   {
+    "key": "C",
+    "text": "powder",
+    "correct": false,
+    "distractor_reason": "形近音近（E3）：powder 与 power 字形几乎相同、读音相近，是高考里最常放在一起辨析的一对。测 E3 形近音近误判：powder 是「粉末、药粉」，it was the powder of keeping his temper 根本不成搭配，属纯视觉误选。"
+   },
+   {
+    "key": "D",
+    "text": "power",
+    "correct": true,
+    "distractor_reason": null
+   }
+  ],
+  "explanation": "【考场动作】先把语法筛子架起来：空格在 was the ___ of keeping… 这样的框架里，后面接的是动名词 keeping，所以填进去的必须是能带 of doing 的名词——ability、skill 都要换成 to do 或 in doing 才成立，只有 power 能直接进 of doing。然后回到义项：power 这个词学生最熟的是「权力、势力」，但那义项在「沉住气赢得敬重」这里讲不通，它取的是「力量、做某事的能力」这一层，与 the power to do sth、the power of imagination 同族。\n【为什么选 D】it was the power of keeping his temper = 靠的是沉住气的那股力量。这句话里 power 说的是一个人内在的力量与定力，正是它赢得了队友的敬重。\n【其他选项】A ability 语义最贴近，但 the ability of keeping his temper 结构不成立，英语说 the ability to keep his temper，语法加搭配双重出局；B skill 指本领与技巧，把「定力」降格成了「操作手法」，与「赢得敬重」的分量不匹配；C powder 与 power 形近音近，纯形近误选，语义完全不通。",
+  "trap_note": "陷阱来源：学生按 power＝「权力、势力」的熟悉义去理解，觉得「沉住气」谈不上权力就改填 ability；或被 power 与 powder 的形近音近带偏。",
+  "tags": [
+   "E1",
+   "E2",
+   "E3",
+   "P4"
+  ]
+ },
+ {
+  "id": "q_e1_016",
+  "sense_id": "s_seek_v_shelter",
+  "word_id": "w_seek",
+  "carrier": "C3",
+  "module": "E1_熟词僻义",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.38,
+   0.72
+  ],
+  "stem": "When the river burst its banks, the local schools were turned into temporary homes, and hundreds of families had to ______ shelter there for weeks.",
+  "stem_cn": "河水冲破堤坝后，本地学校被改成了临时住所，数百户人家不得不______在那里栖身，好几个星期。",
+  "options": [
+   {
+    "key": "A",
+    "text": "look for",
+    "correct": false,
+    "distractor_reason": "语义近：look for shelter 是日常口语里完全说得通的「找地方躲」，学生按「找」这一层意思就填它。测 E1 熟词僻义：高考语料中「寻求庇护、安置」固定用 seek shelter，口语化的 look for 不是这道题要考的表达。"
+   },
+   {
+    "key": "B",
+    "text": "seek",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "C",
+    "text": "search",
+    "correct": false,
+    "distractor_reason": "形近音近兼义近（E3）：search 与 seek 同为 se- 开头、意思都是「找」，背词时最易互替。测 E3 形近音近误判＋E4 搭配缺失：search 必须带介词（search for shelter），空后直接接 shelter 时 search 不成立。"
+   },
+   {
+    "key": "D",
+    "text": "find",
+    "correct": false,
+    "distractor_reason": "语义近：find shelter 是英语里最常见的说法之一，字面完全讲得通。测 E2 一词多义混淆：find 强调偶然撞上、已经拿到结果，语境是走投无路的家庭在等安置，强调的是寻求庇护这一过程与求助色彩。"
+   }
+  ],
+  "explanation": "【考场动作】先看空后的宾语：shelter（庇护处、栖身之所）是「要找到的具体落脚点」，不是 help、permission 这类可求得的资源，所以 seek 在这里取「寻找、觅得」义。再把语法筛子架起来：had to 后面接动词原形，空后直接跟名词，动词后面不能再加介词——这一条把 search 挡在门外。最后回到高考语料：讲灾难后人群寻求庇护安顿，这一块固定用 seek shelter（seek refuge、seek treatment 同族）。\n【为什么选 B】had to seek shelter there 意为「不得不在那里寻求栖身之所」，与洪水后学校被改成临时住所的语境严丝合缝，seek 在此是「寻找、觅得住处与庇护」。\n【其他选项】A look for 语感完全说得通，但那是口语化的「找」，高考语料中「寻求庇护、安置」用的是 seek shelter 这个固定块；C search 与 seek 形近音近，可它必须带 for 才成立（search for shelter），此处结构不通；D find 强调已经找到的结果，不带寻求、求助的语用色彩，与「走投无路、只能去求一处容身之所」的处境不合。",
+  "trap_note": "陷阱来源：学生按 seek＝「寻求抽象目标（help、permission、success）」的熟悉义去理解，觉得 shelter 只是一处地方而改填 look for、find；或被 search 的形近音近带偏。",
+  "tags": [
+   "E1",
+   "E2",
+   "E3",
+   "P4"
+  ]
+ },
+ {
+  "id": "q_e1_017",
+  "sense_id": "s_spot_n_mark",
+  "word_id": "w_spot",
+  "carrier": "C3",
+  "module": "E1_熟词僻义",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.45,
+   0.75
+  ],
+  "stem": "Damp had crept into the old house, and by morning dark ______ had covered the ceiling, so the family soon moved out.",
+  "stem_cn": "潮气已经渗进这栋老房子，到了早上，天花板上已经布满了深色的______，于是这家人很快就搬走了。",
+  "options": [
+   {
+    "key": "A",
+    "text": "stains",
+    "correct": false,
+    "distractor_reason": "语义近：stain 是「污渍」，dark stains 讲得通，学生按「墙上一块块脏印子」的直觉选它。测 E1 熟词僻义：stain 多指大片、带具体来源的污渍（油渍、酒渍），而高考语料讲霉点是 dark spots 这一颗一颗的斑点。"
+   },
+   {
+    "key": "B",
+    "text": "marks",
+    "correct": false,
+    "distractor_reason": "语义近：mark 是「痕迹」，dark marks on the wall 完全是英语现成说法，学生按「痕迹」这一层意思就填它。测 E2 一词多义混淆：mark 泛指一切印迹、不含点状信息，语境说的是潮气造成的一颗颗霉点。"
+   },
+   {
+    "key": "C",
+    "text": "spots",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "D",
+    "text": "spotted",
+    "correct": false,
+    "distractor_reason": "形近兼词形错（E5/E3）：spotted 与 spot 同族、字形极近，背词时最容易误填。测 E5 词性词形误判：空格前有 dark、后接 had covered 作主语，要的是复数名词；spotted 是形容词，不能作主语，这一项靠语法就能排掉。"
+   }
+  ],
+  "explanation": "【考场动作】先做语法筛选：空格后是 had covered，主语必须是复数名词，所以 spot 要变成 spots。再看语境线索：damp、ceiling、旧房子、受潮——指向的是潮气造成的一颗颗霉点，高考语料固定用 dark spots；而 stain 多半搭配具体来源（oil stains、wine stains），mark 泛指一切痕迹、不带点状信息。最后把 spotted 这个形容词形式排掉，答案就唯一。\n【为什么选 C】dark spots had covered the ceiling = 天花板上布满了深色的斑点（霉点），这里 spot 取「斑点、污点」义，与 spots on the surface、a spot of dirt 同族，而不是「地点、场所」或动词「发现、察觉」。\n【其他选项】A stains 是「污渍」，字面讲得通，但 stain 强调成片的、带来源的污渍，与一颗颗的点状霉点不是一回事；B marks 是「痕迹」，语义泛，读起来通顺却丢掉了点状特征，要靠语境记忆排除；D spotted 是形容词，作主语不合语法，属词形与形近双重误选。",
+  "trap_note": "陷阱来源：学生按 spot＝「地点、场所」的熟悉义去理解，看到墙面就想到「某处」，改填 mark 之类；或把 spot 的形容词形式 spotted 误填进名词空。",
+  "tags": [
+   "E1",
+   "E2",
+   "E5",
+   "P4"
+  ]
+ },
+ {
+  "id": "q_e1_018",
+  "sense_id": "s_volume_n_space",
+  "word_id": "w_volume",
+  "carrier": "C4",
+  "module": "E1_熟词僻义",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.4,
+   0.7
+  ],
+  "stem": "I am writing to ask whether the school could buy a bigger tank for the lab, because the old tank has a ______ too small for our samples.",
+  "stem_cn": "我写信是想询问学校能否为实验室换一只更大的水箱，因为旧水箱的______太小，装不下我们现有的样品。",
+  "options": [
+   {
+    "key": "A",
+    "text": "capacity",
+    "correct": false,
+    "distractor_reason": "语义近：capacity 是「容量、容积」，the capacity of the tank 完全讲得通，学生按「能装多少」这一层意思就选它。测 E2 一词多义混淆：capacity 偏承载量与容纳能力，语境要的是器皿所占空间的体积。"
+   },
+   {
+    "key": "B",
+    "text": "volume",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "C",
+    "text": "weight",
+    "correct": false,
+    "distractor_reason": "语义近：weight 是「重量」，中文里「体积」与「重量」本就常被混为一谈，学生顺手就填它。测 E1 熟词僻义＋E2：体积决定装不装得下，重量决定沉不沉，语境说「装不下样品」，与重量毫无关系。"
+   },
+   {
+    "key": "D",
+    "text": "value",
+    "correct": false,
+    "distractor_reason": "形近音近（E3）：volume 与 value 同为 v 开头、读音相近，都是高考里常放在一起辨析的一对。测 E3 形近音近误判：value 是「价值」，谈的是水箱值多少钱，与容量大小完全是两回事。"
+   }
+  ],
+  "explanation": "【考场动作】先看语境给的动作是什么：句子说旧水箱「装不下」样品，决定这件事的是器皿占的空间有多大——即体积、容积；重量讲的是沉不沉，价值讲的是值多少钱，都对不上。再把高频固定词块调出来：the volume of the tank、the volume of water、reduce the volume 都是谈容积；音量义则固定在 turn up the volume。\n【为什么选 B】the old tank has a volume too small for our samples ——旧水箱的容积太小，装不下我们现有的样品。这里 volume 取的是「体积、容积」义，正是这个词条在说明与科技类语料里的用法。\n【其他选项】A capacity 语义最接近，讲「能装多少」的容量，英语也说得通，但 capacity 更偏承载量与容纳能力，语境要的空间体积只有 volume 能准；C weight 与「装不下样品」矛盾，属把体积与重量混同的中文式误读；D value 与 volume 形近音近，是纯形近误选，价值高低与装不装得下毫无关系。",
+  "trap_note": "陷阱来源：学生按 volume＝「音量」的熟悉义去理解，觉得谈空间与音量无关就改填 capacity；或受中文「体积／重量」不分的影响误选 weight。",
+  "tags": [
+   "E1",
+   "E2",
+   "E3",
+   "P4"
+  ]
+ }
+]

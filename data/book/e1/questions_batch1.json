@@ -1,0 +1,362 @@
+[
+  {
+    "id": "q_e1_001",
+    "sense_id": "s_access_v_use_resource",
+    "word_id": "w_access",
+    "carrier": "C2",
+    "module": "E1_熟词僻义",
+    "difficulty": "hard",
+    "expected_accuracy": [0.20, 0.40],
+    "stem": "The new online service lets teachers in remote villages ______ the same books and teaching materials as their colleagues in the city.",
+    "stem_cn": "这项新的在线服务让偏远乡村的老师能够______与城市同事相同的书籍和教学资料。",
+    "options": [
+      {
+        "key": "A",
+        "text": "access",
+        "correct": true,
+        "distractor_reason": null
+      },
+      {
+        "key": "B",
+        "text": "use",
+        "correct": false,
+        "distractor_reason": "语义近干扰。use the same books and teaching materials 字面完全说得通，纯语感排不掉；学生一旦把 access 按「通道、入口」义排除，最先想到的就是它。测 E1 熟词僻义误判。"
+      },
+      {
+        "key": "C",
+        "text": "obtain",
+        "correct": false,
+        "distractor_reason": "语义近干扰：obtain materials 在英语中成立，讲得通。测 E2 一词多义混淆——obtain 偏「把实物拿到手」，access 在语料里专指「调取、取用已在别处的资源」，只能靠搭配记忆定夺。"
+      },
+      {
+        "key": "D",
+        "text": "assess",
+        "correct": false,
+        "distractor_reason": "形近音近干扰：与 access 共享 ac- 词根、读音相近（本词 confusable 表内），且 assess the teaching materials（评估资料是否适用）在这句里也讲得通。测 E3 形近音近误选，与义项理解无关。"
+      }
+    ],
+    "explanation": "【考场动作】先圈空后的宾语：the same books and teaching materials，属于「资源类名词」。access 后面不带 to 而直接接 books / materials / resources / facilities / services 时，考的是「使用、获取（资源与设施）」；一旦空格后出现 to（access to the library），那才是「接近…的机会／使用…的权利」，是另一个义项，本句不是。再看句意：服务让乡村老师「取得到、用得上」城市老师手头有的资料，强调的是「调取资源」，不是「使用自己已有的东西」。\n【为什么选 A】access resources / access materials 是高考阅读里关于教育均衡与资源共享语料的固定表达，意为「得以使用、取到（不在手边的）资源」。本句正是要说明新的在线服务让偏远乡村的老师能获取与城市老师相同的书籍和教学资料；「通道、入口」义在这里根本讲不通。\n【其他选项】B use 语感上完全说得通，但 use 强调「使用已经在手的东西」，而句中的资料要靠服务去「调到」；按「通道」义排除 access 的学生最容易掉进这个坑。C obtain 讲得通，却偏「把实物拿到手」，access 在高考语料里指「取用共享资源」，这个搭配必须整块背。D assess 与 access 拼写读音都近，属于纯形近误选；assess 在这里是「评估资料是否适用」，与「让老师用上资料」的意图不合。",
+    "trap_note": "陷阱来源：学生按 access＝「通道、入口」去理解，觉得 access books 不成搭配，转而选 use；或反向地，把 access 固定想成「访问系统」，认不出它也能接 books、materials 这类资源。",
+    "tags": ["E1", "E2", "E3", "P2", "P4"]
+  },
+  {
+    "id": "q_e1_002",
+    "sense_id": "s_cover_n_front",
+    "word_id": "w_cover",
+    "carrier": "C2",
+    "module": "E1_熟词僻义",
+    "difficulty": "hard",
+    "expected_accuracy": [0.18, 0.42],
+    "stem": "The photograph of the mountain village appeared on the ______ of the magazine, and readers began writing to ask about the place.",
+    "stem_cn": "那张山村的照片登在了杂志的______上，读者们开始写信询问那个地方。",
+    "options": [
+      {
+        "key": "A",
+        "text": "cover",
+        "correct": true,
+        "distractor_reason": null
+      },
+      {
+        "key": "B",
+        "text": "front",
+        "correct": false,
+        "distractor_reason": "语义近 + 搭配错：学生把 cover 拆成 front cover 的一半而选 front，on the front of the magazine 字面能懂却不是高考语料里的表达。测 E1 熟词僻义与 E4 搭配缺失。"
+      },
+      {
+        "key": "C",
+        "text": "back",
+        "correct": false,
+        "distractor_reason": "语义近 + 真实搭配：on the back of the magazine（封底／背面）是真实说法，语感上挑不出错。测 E1：按 cover＝「覆盖、遮盖」推理的学生会转而选它，必须靠 on the cover of 这个词块定输赢。"
+      },
+      {
+        "key": "D",
+        "text": "covert",
+        "correct": false,
+        "distractor_reason": "形近音近干扰：covert 与 cover 拼写、读音都接近（confusable 表内）。测 E3 形近音近误选——错的是选错了词形，与义项理解无关。"
+      }
+    ],
+    "explanation": "【考场动作】先看介词 on：介词 on 出现在出版、媒体语境里，连接的是书刊的版面名词（on the cover of / on page 12），这是靠「介词＋固定版面词块」定位的路子。再看空格所在的结构 on the ______ of the magazine：这里必须是名词，而动词 cover（覆盖、遮盖）要自己带宾语，装不进这个位置，于是「覆盖」义被直接排除，答案只能在「版面名词」里找。\n【为什么选 A】cover 在 on the cover of a magazine / a book 中是名词，指书刊杂志的一页，即封面、封底。一张照片「出现在杂志封面上」正是这句话要表达的意思；cover 同时满足「名词版面」和「on the…of」两个条件，是这里唯一成立的高考用词。\n【其他选项】B front 在语义上最接近（封面确实在最前面），但英语要写 front cover 或直接 the cover，写成 on the front of the magazine 属把词块拆开的搭配错，学生往往是把 cover 的意思自动翻译成 front 才会选它。C back 字面完全讲得通（on the back of a magazine 即封底），但照片登的是封面而不是封底，而且题目要考的正是 cover 这个词块本身；按「cover＝覆盖、遮盖」义去推理的学生最容易选它。D covert 与 cover 拼写读音都近，属于纯形近误选；covert 是「隐蔽的」，跟版面位置毫无关系。",
+    "trap_note": "陷阱来源：学生按 cover＝「覆盖、遮盖」去理解，觉得 on the ___ of 装不下动词 cover，于是改选 front 或 back；或看到照片就直接想到「图片」，忽略了考的是封面这个词块。",
+    "tags": ["E1", "E3", "E4", "P2", "P4"]
+  },
+  {
+    "id": "q_e1_003",
+    "sense_id": "s_former_adj_first_of_two",
+    "word_id": "w_former",
+    "carrier": "C2",
+    "module": "E1_熟词僻义",
+    "difficulty": "hard",
+    "expected_accuracy": [0.15, 0.38],
+    "stem": "Of the two designs, the ______ is cheaper and easier to make, while the latter is more attractive to buyers.",
+    "stem_cn": "在这两个方案中，______更便宜也更容易做出来，而后者对买家更有吸引力。",
+    "options": [
+      {
+        "key": "A",
+        "text": "former",
+        "correct": true,
+        "distractor_reason": null
+      },
+      {
+        "key": "B",
+        "text": "first",
+        "correct": false,
+        "distractor_reason": "语义近干扰：the first is cheaper and easier to make 完全讲得通，纯语感排不掉；学生不知道 former 的「前者」义时，会用序数词 first 顶替。测 E1 熟词僻义与 E4 词块缺失。"
+      },
+      {
+        "key": "C",
+        "text": "previous",
+        "correct": false,
+        "distractor_reason": "语义近 + 陷阱义：previous 是「以前的、先前的」，正是 former 最容易被顶替的那层含义；the previous 在句中勉强可读成「前一个」，因此很难凭语感排除。测 E1 熟词僻义误判。"
+      },
+      {
+        "key": "D",
+        "text": "latter",
+        "correct": false,
+        "distractor_reason": "形近音近对调：former 与 latter 是一组词，学生看到句末的 latter 就顺手把空格也填成 latter；这样一句里出现两个 the latter，指代混乱。测 E3 形近误选与 E2 一词多义混淆。"
+      }
+    ],
+    "explanation": "【考场动作】盯住句末的 the latter：英语里 the former 与 the latter 是一对固定搭档，前者指先提到的那一个，后者指后提到的那一个。只要看到 latter，就要去句中找与它成对的 former——这是完形和七选五里最省力的词块定位法。再反向检查句首：Of the two designs 说明比较的是眼前这两个方案，没有时间先后，所以 former 在这里不能读成「以前的」。\n【为什么选 A】本句先摆出两个方案，the former 指先摆出的那一个，也就是更便宜、更容易做出来的那一个；the latter 指后摆出的那个，即对买家更有吸引力的那个。former 的「两者之中前一个的」这一义，正是本句要考的熟词僻义。\n【其他选项】B first 语感上完全说得通，the first 指「第一个方案」，但它只是普通序数说法，还原不了 former／latter 这一对固定词块；按「以前的那个」去理解 former 的学生多半会用 first 顶替。C previous 既能读成「以前的」，又能勉强读成「前一个」，但本句比较的是两个现成方案，没有时间线索；former／latter 必须整块记。D latter 是形近音近的对调误选，填进去会让同一个 the latter 在一句中出现两次，指代混乱，逻辑立刻不通。",
+    "trap_note": "陷阱来源：学生按 former＝「以前的、先前的」去理解，认为句末已经出现 latter 就不该再出现 former，于是填 first 或 previous；或把 former／latter 一组词记反，直接选 latter。",
+    "tags": ["E1", "E2", "E3", "E4", "P2", "P4"]
+  },
+  {
+    "id": "q_e1_004",
+    "sense_id": "s_conflict_v_clash",
+    "word_id": "w_conflict",
+    "carrier": "C4",
+    "module": "E1_熟词僻义",
+    "difficulty": "mid",
+    "expected_accuracy": [0.45, 0.70],
+    "stem": "We regret to inform you that the dates on your application form ______ with the dates printed on your passport, so we are unable to process your registration.",
+    "stem_cn": "我们很遗憾地通知您：申请表上的日期与您护照上打印的日期______，因此我们无法为您办理注册。",
+    "options": [
+      {
+        "key": "A",
+        "text": "conflict",
+        "correct": true,
+        "distractor_reason": null
+      },
+      {
+        "key": "B",
+        "text": "clash",
+        "correct": false,
+        "distractor_reason": "语义近且完全讲得通：clash with the dates 字面顺、语气也像正式通知；学生按 conflict＝「武装冲突、双方争执」义排除后，最可能改选它。测 E1 熟词僻义误判。"
+      },
+      {
+        "key": "C",
+        "text": "disagree",
+        "correct": false,
+        "distractor_reason": "语义近：disagree with 字面讲得通，学生想表达「两份材料对不上」时不会觉得它有问题；测 E1 熟词僻义与语域判断——这里是无生命的信息对不上，不是人与人的意见分歧。"
+      },
+      {
+        "key": "D",
+        "text": "conflicting",
+        "correct": false,
+        "distractor_reason": "形近音近 + 词性词形：conflicting 与 conflict 同词根（confusable 表内），学生知道它表示「互相冲突的」就想直接填进来；测 E5 词性词形判断——空格处要的是谓语动词，conflicting 不能单独作谓语。"
+      }
+    ],
+    "explanation": "【考场动作】先看主语：the dates on your application form 与 the dates printed on your passport，都是「两份材料里的日期」，是无生命的信息，不是人也不是军队。所以动词义不能取「冲突、争执」，只能是「抵触、不相容」这一层。再看搭配：conflict with 是固定搭配，后面跟另一方，把 conflict with／conflict between 整块记住，看到「甲与乙不相符」就直接调用它。\n【为什么选 A】conflict with 在这里指两份记录在关键信息上互不相容，也就是「日期对不上」，与后半句 so we are unable to process your registration 逻辑吻合——正因为材料互相抵触才办不了手续。这是 conflict 的熟词僻义层用法，不是「双方争执、武装冲突」。\n【其他选项】B clash 语义最接近，clash with 在英语里也成立，但 clash 偏物理碰撞、语气偏轻，正式通知里描述两份材料不一致，语料固定用 conflict with。C disagree 字面讲得通，然而 disagree with 说的是人跟人的看法不合，这里冲突的两方是两份表格上的日期，语域对不上。D conflicting 与 conflict 同词根，学生看到它表示「互相冲突的」就想填；可空格处要的是谓语动词，conflicting 不能单独作谓语，这是词性词形的失分。",
+    "trap_note": "陷阱来源：学生按 conflict＝「冲突、争执（武装冲突、双方对立）」去理解，看到两份表格就以为该说「双方争执」，于是排除正确项改选 clash；或被 conflicting 的形近词形带走。",
+    "tags": ["E1", "E2", "E3", "E5", "P2", "P4"]
+  },
+  {
+    "id": "q_e1_005",
+    "sense_id": "s_facilitate_v_help_person",
+    "word_id": "w_facilitate",
+    "carrier": "C5",
+    "module": "E1_熟词僻义",
+    "difficulty": "mid",
+    "expected_accuracy": [0.40, 0.72],
+    "stem": "By printing a route map for every team, the guide ______ the volunteers' work, and the young hikers reached the top well before sunset.",
+    "stem_cn": "为每支队伍打印一张路线图后，向导______志愿者们的工作，年轻徒步者很早就赶在日落前登上了山顶。",
+    "options": [
+      {
+        "key": "A",
+        "text": "facilitate",
+        "correct": true,
+        "distractor_reason": null
+      },
+      {
+        "key": "B",
+        "text": "simplify",
+        "correct": false,
+        "distractor_reason": "语义近且讲得通：simplify the volunteers' work 字面顺、语境也通；学生按 facilitate＝「促进、推动（沟通、协作的展开）」义觉得「促进工作」别扭，就改用更「安全」的 simplify。测 E1 熟词僻义误判。"
+      },
+      {
+        "key": "C",
+        "text": "aid",
+        "correct": false,
+        "distractor_reason": "语义近：aid the volunteers' work 讲得通，aid 就是「帮助」；学生认为 facilitate 只能带抽象进程、不带人的工作时，就选它。测 E1 熟词僻义与 E4 搭配辨析。"
+      },
+      {
+        "key": "D",
+        "text": "fascinate",
+        "correct": false,
+        "distractor_reason": "形近音近：fascinate 与 facilitate 共享 fac- 词根、读音相近（confusable 表内），而 fascinate 恰好也是「使人着迷」，容易顺手选中。测 E3 形近音近误选，与义项无关。"
+      }
+    ],
+    "explanation": "【考场动作】先圈出空后的宾语：the volunteers' work（某人的工作）。facilitate 后面接「某人的工作、某件事、某个动作」时，意思是「让这件事做起来更容易」，固定搭配是 facilitate sb's work、facilitate doing；后面只能接名词或动名词，接 sb to do 是错的。再看因果：给每支队伍打印路线图，是把难度降下来，让志愿者带路这件事更顺手，而不是改变做法或补人手——由此锁定「使…更容易」这一层。\n【为什么选 A】facilitate the volunteers' work 意为「让志愿者们的工作更容易」，与前半句「打印路线图」构成因果，正是 facilitate 的「帮某人做得更容易」义。若把 facilitate 只理解成「促进、推动」，就会误以为它只能带 communication、cooperation 这类抽象进程，反而错过这句真正想考的用法。\n【其他选项】B simplify 字面完全说得通，simplify the volunteers' work 也能用，但 simplify 说的是「简化做法、把任务改造得简单」，而这里只是把现成路线标清楚，难度下降、工作方式没变，属于 facilitate 的「做得更容易」。C aid 讲得通，aid their work 表示「提供帮助」，可 facilitate sb's work 才是这一语境的高考固定搭配，aid 在阅读里多接人（aid sb / aid sb in doing）。D fascinate 与 facilitate 拼写读音都近，属于纯形近误选；fascinate 是「使着迷」，与「把事情做得更顺手」无关。",
+    "trap_note": "陷阱来源：学生按 facilitate＝「促进、推动（沟通、协作的展开）」去理解，觉得它不能接「某人的工作」，于是改选 simplify 或 aid；或被同根的 fascinate 带偏。",
+    "tags": ["E1", "E3", "E4", "E6", "P2", "P4"]
+  },
+  {
+    "id": "q_e1_006",
+    "sense_id": "s_phase_v_step",
+    "word_id": "w_phase",
+    "carrier": "C3",
+    "module": "E1_熟词僻义",
+    "difficulty": "mid",
+    "expected_accuracy": [0.38, 0.68],
+    "stem": "The repair of the old bridge will be carried out in ______, so the road can stay open to traffic throughout the work.",
+    "stem_cn": "老桥的维修将______进行，因此施工期间这条路仍可对车辆开放。",
+    "options": [
+      {
+        "key": "A",
+        "text": "phases",
+        "correct": true,
+        "distractor_reason": null
+      },
+      {
+        "key": "B",
+        "text": "steps",
+        "correct": false,
+        "distractor_reason": "语义近 + 真实搭配：carried out in steps（一步步进行）在英语里完全讲得通，语感排不掉；学生只把 phase 认作「阶段、时期」的名词，就用 steps 顶替。测 E1 熟词僻义与 E4 固定词块缺失。"
+      },
+      {
+        "key": "C",
+        "text": "phase",
+        "correct": false,
+        "distractor_reason": "搭配错 + 词形错：in phase 不成立，介词 in 后面要用复数 phases（in three phases）；测 E4 固定搭配缺失与 E5 词形判断。"
+      },
+      {
+        "key": "D",
+        "text": "phasing",
+        "correct": false,
+        "distractor_reason": "词性结构错：in phasing 讲不通，「分阶段进行」在介词 in 之后要用名词复数，动名词只出现在 by phasing 这类结构里；测 E5 词性误判。"
+      }
+    ],
+    "explanation": "【考场动作】先看介词：in 后面接名词作方式状语，且句子讲的是「把一件大工程拆成若干段落推进」，所以空格是名词复数。再把固定词块 in phases／in three phases／phase by phase 整块背下来：看到「分阶段、逐步推进」就调用它，这一步能同时排掉单数与动名词。\n【为什么选 A】The repair of the old bridge will be carried out in phases 意为「维修将分阶段进行」，与后半句 so the road can stay open to traffic 逻辑吻合——只有拆成若干段推进，才能保证施工期间交通不受影响。这里考的是 phase 的「分阶段进行、逐步推进」义及其固定搭配。\n【其他选项】B steps 在英语中完全讲得通（carried out in steps），但它考的不是泛化的「一步步做」，而是 in phases 这个高考固定词块；学生若只把 phase 记成「阶段、时期」，就想不起这个搭配。C phase 是词形陷阱：in phase 不成立，介词后必须用复数 phases。D phasing 是词性陷阱：in phasing 讲不通，动名词只出现在 by phasing 这类结构中，填错了连「分阶段」的语义也一起落空。",
+    "trap_note": "陷阱来源：学生按 phase＝「阶段、时期（名词）」去理解，觉得 in 后面就该是「阶段」这个普通名词，于是填 steps；或只认得单数 phase 与动名词 phasing，填不出复数形式的 in phases。",
+    "tags": ["E1", "E4", "E5", "P2", "P4"]
+  },
+  {
+    "id": "q_e1_007",
+    "sense_id": "s_result_v_derive",
+    "word_id": "w_result",
+    "carrier": "C3",
+    "module": "E1_熟词僻义",
+    "difficulty": "mid",
+    "expected_accuracy": [0.35, 0.65],
+    "stem": "According to the report, the accident ______ poor lighting and a lack of warning signs at the crossing.",
+    "stem_cn": "根据报告，这起事故______照明不足和路口缺少警示标志。",
+    "options": [
+      {
+        "key": "A",
+        "text": "resulted from",
+        "correct": true,
+        "distractor_reason": null
+      },
+      {
+        "key": "B",
+        "text": "resulted in",
+        "correct": false,
+        "distractor_reason": "语义近 + 搭配方向错：resulted in poor lighting 意为「造成了照明不足」，与句中主语是事故、宾语是原因的事实恰好颠倒；测 E4 固定搭配缺失（from 是源头，in 是去处）。"
+      },
+      {
+        "key": "C",
+        "text": "arose from",
+        "correct": false,
+        "distractor_reason": "语义近且完全讲得通：arose from 是现成的同义说法，语感上挑不出错。测 E1 熟词僻义与语料用词习惯——高考语料里讲「源于」固定用 result from。"
+      },
+      {
+        "key": "D",
+        "text": "result from",
+        "correct": false,
+        "distractor_reason": "词形词性错：主句是过去时间（According to the report, the accident …），空格处需用过去式；测 E5 词形与时态判断。"
+      }
+    ],
+    "explanation": "【考场动作】先看介词方向：result from 后面跟的是原因（源头），result in 后面跟的是结果（去处），口诀是「from 后面是源头，in 后面是去处」。本句主语是 the accident（结果），后面接 poor lighting and a lack of warning signs（原因），所以是「事故源于照明不足」，必须用 result from。再看时态：报告讲的是已发生的事，动词用过去式 resulted。\n【为什么选 A】According to the report, the accident resulted from poor lighting and a lack of warning signs 意为「据报告，这起事故源于照明不足和路口缺少警示标志」，正是 result from「源于、起因于」这一义，信息关系是「原因在前、结果在后」，与句子完全吻合。\n【其他选项】B resulted in 是方向反的强干扰：result in 后面跟的应是结果，「事故造成了照明不足」说不通，介词一换语义就颠倒，这是本词条最常考的一类错。C arose from 语义完全说得通，是现成的同义说法，纯语感排除不掉；但高考语料讲「某事源于某因」固定用 result from，这个搭配必须整块背。D result from 是词形与时态陷阱：主句用的是过去时间，空格处要填 resulted from，主谓一致不允许用原形。",
+    "trap_note": "陷阱来源：学生按 result＝「导致、造成」去理解，把介词选成 in；或只认得 result in / result from 两条搭配却把方向记反，误以为 from 后面跟的是结果。",
+    "tags": ["E1", "E2", "E4", "E5", "P2", "P4"]
+  },
+  {
+    "id": "q_e1_008",
+    "sense_id": "s_spectacular_phrase_spectacular_success",
+    "word_id": "w_spectacular",
+    "carrier": "C6",
+    "module": "E1_熟词僻义",
+    "difficulty": "mid",
+    "expected_accuracy": [0.40, 0.70],
+    "stem": "So many people came to the sports day that it turned out to be a ______, and three other schools have asked to join next year.",
+    "stem_cn": "来参加运动日的人如此之多，以至于它最终取得了______，另外三所学校也要求明年加入。",
+    "options": [
+      {
+        "key": "A",
+        "text": "spectacular success",
+        "correct": true,
+        "distractor_reason": null
+      },
+      {
+        "key": "B",
+        "text": "spectacular sight",
+        "correct": false,
+        "distractor_reason": "同词异义干扰：spectacular sight（壮观的景象）字面完全讲得通，学生按 spectacular＝「壮观、宏伟的」去理解就会选它。测 E1 熟词僻义误判——需靠后文线索锁定「成功」。"
+      },
+      {
+        "key": "C",
+        "text": "major spectacle",
+        "correct": false,
+        "distractor_reason": "义近干扰：major spectacle（盛大的场面）语感顺、语体也像新闻；学生若按「场面盛大」方向想就选它。测 E1 熟词僻义与 E6 语境推断——后文说别的学校要求加入，讲的是活动办得成功，不是场面好看。"
+      },
+      {
+        "key": "D",
+        "text": "complete success",
+        "correct": false,
+        "distractor_reason": "语义近：complete success 字面与语境都讲得通，语感排不掉；测 E1 熟词僻义与 E4 词块记忆——a spectacular success 是高考语料里的固定搭配。"
+      }
+    ],
+    "explanation": "【考场动作】先看后半句给出的线索：three other schools have asked to join next year——别的学校要求加入，说明这个活动本身「办得好、受欢迎」，所以空格要的是「成功」这一层，而不是「场面壮观」。再看搭配：spectacular 修饰 success 时指「惊人的、极为出色的」，a spectacular success 是固定搭配，要整块记。\n【为什么选 A】a spectacular success 意为「巨大的成功、了不起的成绩」，与前半句 So many people came（人多到超预期）和后半句别的学校要求加入形成完整因果：正因为活动大获成功，才会有人想加入。spectacular 在这里不是「壮观的」，而是「惊人的、极为出色的」，这是本词条最熟的一层义之外的熟词僻义层。\n【其他选项】B spectacular sight 字面完全讲得通，但那是「壮观的景象」，属于 spectacular 最熟的一层义；按「壮观」义去读，后文的「三所学校要求加入」就解释不通了。C major spectacle 是义近干扰，语体像新闻、语感顺，可它说的是场面盛大，仍然接不上「别的学校要求加入」这个结果。D complete success 语义与语境都讲得通，纯语感排不掉，但本模块考的是 spectacular 这个词的搭配：a spectacular success 是高考语料里的固定说法，complete success 只是泛化的替换。",
+    "trap_note": "陷阱来源：学生按 spectacular＝「壮观、宏伟的（景象、场面、风景）」去理解，觉得运动日人多自然联想到「场面壮观」，于是选 spectacular sight 或 major spectacle；或用 complete success 这类泛化说法顶替固定搭配。",
+    "tags": ["E1", "E2", "E4", "E6", "P2", "P4"]
+  },
+  {
+    "id": "q_e1_009",
+    "sense_id": "s_value_n_belief",
+    "word_id": "w_value",
+    "carrier": "C4",
+    "module": "E1_熟词僻义",
+    "difficulty": "mid",
+    "expected_accuracy": [0.45, 0.72],
+    "stem": "Our school newsletter this month is about family traditions, and we would like to explain why students should know the ______ their grandparents held dear.",
+    "stem_cn": "本期校报的主题是家庭传统，我们想说明为什么学生应该了解祖辈所珍视的______。",
+    "options": [
+      {
+        "key": "A",
+        "text": "values",
+        "correct": true,
+        "distractor_reason": null
+      },
+      {
+        "key": "B",
+        "text": "principles",
+        "correct": false,
+        "distractor_reason": "语义近且完全讲得通：principles their grandparents held dear 字面顺、语体也匹配；学生想表达「祖辈信奉的原则」时不会觉得它有问题。测 E1 熟词僻义与 E4 词块记忆——values（复数）指价值观。"
+      },
+      {
+        "key": "C",
+        "text": "prices",
+        "correct": false,
+        "distractor_reason": "搭配错 + 陷阱义：只有按 value＝「价值、价钱」去理解才会选它；price 只能谈买卖，「祖辈所珍视的价钱」讲不通。测 E1 熟词僻义误判。"
+      },
+      {
+        "key": "D",
+        "text": "virtues",
+        "correct": false,
+        "distractor_reason": "形近 + 义近：virtues 与 values 词尾 -ues 相同（confusable 表内），且「祖辈珍视的德行」也讲得通。测 E3 形近误选与 E2 一词多义混淆。"
+      }
+    ],
+    "explanation": "【考场动作】先看复数形式和搭配：value 作「价值观」义时几乎总是复数 values，前面常配 moral / core / family / traditional，构成 moral values、family values、core values 这些整块词；跟价钱、买卖连用时才是「价值、价格」。再看语境：本句讲家庭传统、祖辈信奉的东西，落点是「人们信奉的原则」，不是价钱，也不是单个人的品德。\n【为什么选 A】the values their grandparents held dear 意为「祖辈所珍视的价值观」，与校报主题 family traditions 完全一致，也与后半句 why students should know（学生为什么应该了解）构成「传承」这层意思。values（复数）在高考语料中就是「价值观」，family values 是常见搭配。\n【其他选项】B principles 语义与语境都讲得通，是很强的干扰，但本模块考的是 value 这个词：价值观的固定表达是 values，不是泛泛的 principles，学生若只会用同义词说明，就绕过了考点。C prices 只能出现在买卖语境，「祖辈所珍视的价钱」根本讲不通，选它说明仍按「价值＝价钱」这一层理解。D virtues 与 values 词形相近，「祖辈珍视的德行」也说得通，属于形近加义近的复合干扰；但 virtue 讲的是个人品德，values 讲的是一套被信奉的原则与观念，层次并不相同。",
+    "trap_note": "陷阱来源：学生按 value＝「价值、价钱」去理解，看到「祖辈」就想成遗产或价格，于是排除正确项；或用 principles、virtues 这类同义近形词顶替，根本没认出 values 的「价值观」义。",
+    "tags": ["E1", "E2", "E3", "E4", "P2", "P4"]
+  }
+]

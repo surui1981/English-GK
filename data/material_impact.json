@@ -1,0 +1,2807 @@
+{
+ "_meta": {
+  "generated_by": "tools/analyze_material.py",
+  "purpose": "量化旧课标补录对高频分层与首批 100 词名单的影响",
+  "material_version": "2.0"
+ },
+ "curated_coverage": {
+  "total_candidates": 570,
+  "in_tb2019": 156,
+  "in_tb2007": 34,
+  "in_both": 173,
+  "in_neither": 207,
+  "by_tier": {
+   "T1": {
+    "candidates": 211,
+    "in_tb2019": 32,
+    "in_tb2007": 21,
+    "in_both": 58,
+    "in_neither": 100,
+    "covered_total": 111,
+    "coverage_rate": 52.6
+   },
+   "T2": {
+    "candidates": 359,
+    "in_tb2019": 124,
+    "in_tb2007": 13,
+    "in_both": 115,
+    "in_neither": 107,
+    "covered_total": 252,
+    "coverage_rate": 70.2
+   }
+  }
+ },
+ "t1_gap": {
+  "t1_candidates": 211,
+  "before_tb2019_only": 90,
+  "after_both_sources": 111,
+  "newly_anchored_by_tb2007": 21,
+  "newly_anchored_words": [
+   "express",
+   "lie",
+   "mean",
+   "note",
+   "object",
+   "pull",
+   "recognize",
+   "require",
+   "result",
+   "scheme",
+   "section",
+   "sign",
+   "solve",
+   "state",
+   "statement",
+   "succeed",
+   "support",
+   "survey",
+   "trade",
+   "value",
+   "vote"
+  ],
+  "still_missing": 100,
+  "still_missing_words": [
+   "address",
+   "bear",
+   "care",
+   "cause",
+   "count",
+   "cover",
+   "develop",
+   "draw",
+   "drive",
+   "drop",
+   "environment",
+   "fail",
+   "fair",
+   "follow",
+   "grow",
+   "hold",
+   "interest",
+   "introduce",
+   "judgment",
+   "keep",
+   "key",
+   "lead",
+   "leave",
+   "light",
+   "live",
+   "look",
+   "make",
+   "match",
+   "meet",
+   "method",
+   "mind",
+   "miss",
+   "nature",
+   "need",
+   "offer",
+   "open",
+   "order",
+   "own",
+   "pass",
+   "pay",
+   "pick",
+   "plant",
+   "point",
+   "practice",
+   "present",
+   "push",
+   "put",
+   "raise",
+   "reach",
+   "read",
+   "realize",
+   "receive",
+   "record",
+   "refuse",
+   "remain",
+   "report",
+   "rest",
+   "return",
+   "right",
+   "rise",
+   "role",
+   "rule",
+   "run",
+   "search",
+   "sense",
+   "serve",
+   "service",
+   "set",
+   "shape",
+   "share",
+   "show",
+   "sound",
+   "spare",
+   "spend",
+   "spirit",
+   "stand",
+   "standard",
+   "stay",
+   "stick",
+   "subject",
+   "suggest",
+   "take",
+   "taste",
+   "term",
+   "test",
+   "touch",
+   "treat",
+   "trust",
+   "try",
+   "turn",
+   "unit",
+   "use",
+   "visit",
+   "voice",
+   "wait",
+   "waste",
+   "watch",
+   "wear",
+   "welcome",
+   "work"
+  ],
+  "missing_rate_before": 57.3,
+  "missing_rate_after": 47.4
+ },
+ "strong_trap": {
+  "candidates": 102,
+  "in_tb2019": 26,
+  "in_tb2007": 9,
+  "in_both": 37,
+  "in_neither": 30,
+  "coverage_rate": 70.6,
+  "missing_count": 30
+ },
+ "batch1_impact": {
+  "total": 100,
+  "current_track_a": 78,
+  "current_track_b": 22,
+  "source_track_dist": {
+   "both": 45,
+   "tb2019": 33,
+   "none": 18,
+   "tb2007": 4
+  },
+  "frozen": true,
+  "selection_drift": {
+   "frozen_count": 100,
+   "current_count": 100,
+   "dropped": [
+    "apart",
+    "captain",
+    "characteristic",
+    "convey",
+    "facilitate",
+    "former",
+    "gap",
+    "nation",
+    "range"
+   ],
+   "added": [
+    "decline",
+    "discipline",
+    "estimate",
+    "feature",
+    "forward",
+    "master",
+    "refer",
+    "stress",
+    "survive"
+   ],
+   "order_changed": true,
+   "note": "首批 100 词名单已冻结（词条 + 配套题绑定其上）。教材释义解析器修正会改变教材 sense_count，从而让排序变化 9 个词。本阶段不改名单：该差异归入第二批选词输入，如要改须重做对应词条与配套题。"
+  },
+  "per_word": [
+   {
+    "seq": 1,
+    "headword": "case",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 6,
+    "sense_count_2019": 4,
+    "sense_count_2007": 3,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 4,
+     "curated_senses": 5,
+     "covered": 2,
+     "ratio": 0.4
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 3,
+     "curated_senses": 5,
+     "covered": 3,
+     "ratio": 0.6
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 2,
+    "headword": "access",
+    "current_track": "A",
+    "source_track": "tb2019",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 4,
+    "sense_count_2019": 4,
+    "sense_count_2007": null,
+    "sources": [
+     "tb2019"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 4,
+     "curated_senses": 4,
+     "covered": 4,
+     "ratio": 1.0
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 3,
+    "headword": "charge",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 6,
+    "sense_count_2019": 4,
+    "sense_count_2007": 4,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 4,
+     "curated_senses": 5,
+     "covered": 2,
+     "ratio": 0.4
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 4,
+     "curated_senses": 5,
+     "covered": 1,
+     "ratio": 0.2
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 4,
+    "headword": "conduct",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 8,
+    "sense_count_2019": 4,
+    "sense_count_2007": 4,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 4,
+     "curated_senses": 5,
+     "covered": 3,
+     "ratio": 0.6
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 4,
+     "curated_senses": 5,
+     "covered": 1,
+     "ratio": 0.2
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 5,
+    "headword": "contrast",
+    "current_track": "A",
+    "source_track": "tb2019",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 2,
+    "sense_count_2019": 4,
+    "sense_count_2007": null,
+    "sources": [
+     "tb2019"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 4,
+     "curated_senses": 4,
+     "covered": 2,
+     "ratio": 0.5
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 6,
+    "headword": "critical",
+    "current_track": "A",
+    "source_track": "tb2019",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 3,
+    "sense_count_2019": 3,
+    "sense_count_2007": null,
+    "sources": [
+     "tb2019"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 0,
+     "ratio": 0.0
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 7,
+    "headword": "effect",
+    "current_track": "A",
+    "source_track": "tb2019",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 3,
+    "sense_count_2019": 3,
+    "sense_count_2007": null,
+    "sources": [
+     "tb2019"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 5,
+     "covered": 2,
+     "ratio": 0.4
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 8,
+    "headword": "measure",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 8,
+    "sense_count_2019": 4,
+    "sense_count_2007": 6,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 4,
+     "curated_senses": 5,
+     "covered": 2,
+     "ratio": 0.4
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 6,
+     "curated_senses": 5,
+     "covered": 4,
+     "ratio": 0.8
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 9,
+    "headword": "minor",
+    "current_track": "A",
+    "source_track": "tb2019",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 3,
+    "sense_count_2019": 3,
+    "sense_count_2007": null,
+    "sources": [
+     "tb2019"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 0,
+     "ratio": 0.0
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 10,
+    "headword": "observe",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 5,
+    "sense_count_2019": 3,
+    "sense_count_2007": 3,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 2,
+     "ratio": 0.5
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 2,
+     "ratio": 0.5
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 11,
+    "headword": "particular",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 6,
+    "sense_count_2019": 3,
+    "sense_count_2007": 4,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 5,
+     "covered": 0,
+     "ratio": 0.0
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 4,
+     "curated_senses": 5,
+     "covered": 2,
+     "ratio": 0.4
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 12,
+    "headword": "position",
+    "current_track": "A",
+    "source_track": "tb2019",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 3,
+    "sense_count_2019": 3,
+    "sense_count_2007": null,
+    "sources": [
+     "tb2019"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 5,
+     "covered": 3,
+     "ratio": 0.6
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 13,
+    "headword": "power",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 5,
+    "sense_count_2019": 3,
+    "sense_count_2007": 3,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 5,
+     "covered": 1,
+     "ratio": 0.2
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 3,
+     "curated_senses": 5,
+     "covered": 3,
+     "ratio": 0.6
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 14,
+    "headword": "principle",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 4,
+    "sense_count_2019": 3,
+    "sense_count_2007": 3,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 5,
+     "covered": 4,
+     "ratio": 0.8
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 3,
+     "curated_senses": 5,
+     "covered": 4,
+     "ratio": 0.8
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 15,
+    "headword": "represent",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 3,
+    "sense_count_2019": 3,
+    "sense_count_2007": 2,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 2,
+     "ratio": 0.5
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 2,
+     "curated_senses": 4,
+     "covered": 2,
+     "ratio": 0.5
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 16,
+    "headword": "setting",
+    "current_track": "A",
+    "source_track": "tb2019",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 3,
+    "sense_count_2019": 3,
+    "sense_count_2007": null,
+    "sources": [
+     "tb2019"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 1,
+     "ratio": 0.25
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 17,
+    "headword": "swing",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 5,
+    "sense_count_2019": 3,
+    "sense_count_2007": 4,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 5,
+     "covered": 0,
+     "ratio": 0.0
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 4,
+     "curated_senses": 5,
+     "covered": 2,
+     "ratio": 0.4
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 18,
+    "headword": "volume",
+    "current_track": "A",
+    "source_track": "tb2019",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 3,
+    "sense_count_2019": 3,
+    "sense_count_2007": null,
+    "sources": [
+     "tb2019"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 5,
+     "covered": 4,
+     "ratio": 0.8
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 19,
+    "headword": "account",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 7,
+    "sense_count_2019": 2,
+    "sense_count_2007": 6,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 2,
+     "curated_senses": 5,
+     "covered": 2,
+     "ratio": 0.4
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 6,
+     "curated_senses": 5,
+     "covered": 1,
+     "ratio": 0.2
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 20,
+    "headword": "appeal",
+    "current_track": "A",
+    "source_track": "tb2019",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 3,
+    "sense_count_2019": 3,
+    "sense_count_2007": null,
+    "sources": [
+     "tb2019"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 5,
+     "covered": 3,
+     "ratio": 0.6
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 21,
+    "headword": "capacity",
+    "current_track": "A",
+    "source_track": "tb2019",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 2,
+    "sense_count_2019": 2,
+    "sense_count_2007": null,
+    "sources": [
+     "tb2019"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 2,
+     "curated_senses": 4,
+     "covered": 3,
+     "ratio": 0.75
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 22,
+    "headword": "concern",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 7,
+    "sense_count_2019": 2,
+    "sense_count_2007": 6,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 2,
+     "curated_senses": 4,
+     "covered": 1,
+     "ratio": 0.25
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 6,
+     "curated_senses": 4,
+     "covered": 3,
+     "ratio": 0.75
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 23,
+    "headword": "consequence",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 3,
+    "sense_count_2019": 2,
+    "sense_count_2007": 3,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 2,
+     "curated_senses": 3,
+     "covered": 1,
+     "ratio": 0.33
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 3,
+     "curated_senses": 3,
+     "covered": 1,
+     "ratio": 0.33
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 24,
+    "headword": "content",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 5,
+    "sense_count_2019": 2,
+    "sense_count_2007": 3,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 2,
+     "curated_senses": 4,
+     "covered": 1,
+     "ratio": 0.25
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 1,
+     "ratio": 0.25
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 25,
+    "headword": "current",
+    "current_track": "A",
+    "source_track": "tb2019",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 3,
+    "sense_count_2019": 3,
+    "sense_count_2007": null,
+    "sources": [
+     "tb2019"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 2,
+     "ratio": 0.5
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 26,
+    "headword": "firm",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 5,
+    "sense_count_2019": 2,
+    "sense_count_2007": 3,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 2,
+     "curated_senses": 4,
+     "covered": 1,
+     "ratio": 0.25
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 0,
+     "ratio": 0.0
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 27,
+    "headword": "flat",
+    "current_track": "A",
+    "source_track": "tb2019",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 3,
+    "sense_count_2019": 3,
+    "sense_count_2007": null,
+    "sources": [
+     "tb2019"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 2,
+     "ratio": 0.5
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 28,
+    "headword": "former",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 3,
+    "sense_count_2019": 2,
+    "sense_count_2007": 2,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 2,
+     "curated_senses": 3,
+     "covered": 1,
+     "ratio": 0.33
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 2,
+     "curated_senses": 3,
+     "covered": 1,
+     "ratio": 0.33
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 29,
+    "headword": "issue",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 6,
+    "sense_count_2019": 3,
+    "sense_count_2007": 3,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 1,
+     "ratio": 0.25
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 0,
+     "ratio": 0.0
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 30,
+    "headword": "major",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 4,
+    "sense_count_2019": 3,
+    "sense_count_2007": 1,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 0,
+     "ratio": 0.0
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 1,
+     "curated_senses": 4,
+     "covered": 1,
+     "ratio": 0.25
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 31,
+    "headword": "rate",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 4,
+    "sense_count_2019": 3,
+    "sense_count_2007": 2,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 1,
+     "ratio": 0.25
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 2,
+     "curated_senses": 4,
+     "covered": 2,
+     "ratio": 0.5
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 32,
+    "headword": "settle",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 7,
+    "sense_count_2019": 2,
+    "sense_count_2007": 6,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 2,
+     "curated_senses": 4,
+     "covered": 1,
+     "ratio": 0.25
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 6,
+     "curated_senses": 4,
+     "covered": 2,
+     "ratio": 0.5
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 33,
+    "headword": "shift",
+    "current_track": "A",
+    "source_track": "tb2019",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 3,
+    "sense_count_2019": 3,
+    "sense_count_2007": null,
+    "sources": [
+     "tb2019"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 1,
+     "ratio": 0.25
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 34,
+    "headword": "spot",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 7,
+    "sense_count_2019": 3,
+    "sense_count_2007": 5,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 1,
+     "ratio": 0.25
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 5,
+     "curated_senses": 4,
+     "covered": 4,
+     "ratio": 1.0
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 35,
+    "headword": "suspect",
+    "current_track": "A",
+    "source_track": "tb2019",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 3,
+    "sense_count_2019": 3,
+    "sense_count_2007": null,
+    "sources": [
+     "tb2019"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 1,
+     "ratio": 0.25
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 36,
+    "headword": "assumption",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T1",
+    "trap_strength": 2,
+    "sense_count_merged": 4,
+    "sense_count_2019": 3,
+    "sense_count_2007": 2,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 3,
+     "covered": 1,
+     "ratio": 0.33
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 2,
+     "curated_senses": 3,
+     "covered": 1,
+     "ratio": 0.33
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 37,
+    "headword": "characteristic",
+    "current_track": "A",
+    "source_track": "tb2019",
+    "tier": "T1",
+    "trap_strength": 2,
+    "sense_count_merged": 3,
+    "sense_count_2019": 3,
+    "sense_count_2007": null,
+    "sources": [
+     "tb2019"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 3,
+     "covered": 2,
+     "ratio": 0.67
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 38,
+    "headword": "emphasis",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T1",
+    "trap_strength": 2,
+    "sense_count_merged": 3,
+    "sense_count_2019": 3,
+    "sense_count_2007": 1,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 3,
+     "covered": 1,
+     "ratio": 0.33
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 1,
+     "curated_senses": 3,
+     "covered": 1,
+     "ratio": 0.33
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 39,
+    "headword": "gap",
+    "current_track": "A",
+    "source_track": "tb2019",
+    "tier": "T1",
+    "trap_strength": 2,
+    "sense_count_merged": 3,
+    "sense_count_2019": 3,
+    "sense_count_2007": null,
+    "sources": [
+     "tb2019"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 3,
+     "ratio": 0.75
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 40,
+    "headword": "input",
+    "current_track": "A",
+    "source_track": "tb2019",
+    "tier": "T1",
+    "trap_strength": 2,
+    "sense_count_merged": 4,
+    "sense_count_2019": 4,
+    "sense_count_2007": null,
+    "sources": [
+     "tb2019"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 4,
+     "curated_senses": 4,
+     "covered": 3,
+     "ratio": 0.75
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 41,
+    "headword": "pattern",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T1",
+    "trap_strength": 2,
+    "sense_count_merged": 4,
+    "sense_count_2019": 3,
+    "sense_count_2007": 3,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 2,
+     "ratio": 0.5
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 2,
+     "ratio": 0.5
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 42,
+    "headword": "replace",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T1",
+    "trap_strength": 2,
+    "sense_count_merged": 5,
+    "sense_count_2019": 3,
+    "sense_count_2007": 3,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 3,
+     "ratio": 0.75
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 2,
+     "ratio": 0.5
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 43,
+    "headword": "seek",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T1",
+    "trap_strength": 2,
+    "sense_count_merged": 5,
+    "sense_count_2019": 3,
+    "sense_count_2007": 3,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 2,
+     "ratio": 0.5
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 1,
+     "ratio": 0.25
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 44,
+    "headword": "view",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T1",
+    "trap_strength": 2,
+    "sense_count_merged": 9,
+    "sense_count_2019": 3,
+    "sense_count_2007": 7,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 5,
+     "covered": 2,
+     "ratio": 0.4
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 7,
+     "curated_senses": 5,
+     "covered": 2,
+     "ratio": 0.4
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 45,
+    "headword": "challenge",
+    "current_track": "A",
+    "source_track": "tb2019",
+    "tier": "T1",
+    "trap_strength": 2,
+    "sense_count_merged": 3,
+    "sense_count_2019": 3,
+    "sense_count_2007": null,
+    "sources": [
+     "tb2019"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 3,
+     "ratio": 0.75
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 46,
+    "headword": "impact",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T1",
+    "trap_strength": 2,
+    "sense_count_merged": 5,
+    "sense_count_2019": 2,
+    "sense_count_2007": 3,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 2,
+     "curated_senses": 3,
+     "covered": 0,
+     "ratio": 0.0
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 3,
+     "curated_senses": 3,
+     "covered": 1,
+     "ratio": 0.33
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 47,
+    "headword": "indicate",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T1",
+    "trap_strength": 2,
+    "sense_count_merged": 6,
+    "sense_count_2019": 3,
+    "sense_count_2007": 4,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 3,
+     "covered": 2,
+     "ratio": 0.67
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 4,
+     "curated_senses": 3,
+     "covered": 2,
+     "ratio": 0.67
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 48,
+    "headword": "occupy",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T1",
+    "trap_strength": 2,
+    "sense_count_merged": 3,
+    "sense_count_2019": 2,
+    "sense_count_2007": 3,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 2,
+     "curated_senses": 4,
+     "covered": 2,
+     "ratio": 0.5
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 3,
+     "ratio": 0.75
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 49,
+    "headword": "phase",
+    "current_track": "A",
+    "source_track": "tb2019",
+    "tier": "T1",
+    "trap_strength": 2,
+    "sense_count_merged": 2,
+    "sense_count_2019": 2,
+    "sense_count_2007": null,
+    "sources": [
+     "tb2019"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 2,
+     "curated_senses": 4,
+     "covered": 2,
+     "ratio": 0.5
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 50,
+    "headword": "prove",
+    "current_track": "A",
+    "source_track": "tb2019",
+    "tier": "T1",
+    "trap_strength": 2,
+    "sense_count_merged": 2,
+    "sense_count_2019": 2,
+    "sense_count_2007": null,
+    "sources": [
+     "tb2019"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 2,
+     "curated_senses": 3,
+     "covered": 3,
+     "ratio": 1.0
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 51,
+    "headword": "range",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T1",
+    "trap_strength": 2,
+    "sense_count_merged": 5,
+    "sense_count_2019": 3,
+    "sense_count_2007": 3,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 2,
+     "ratio": 0.5
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 1,
+     "ratio": 0.25
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 52,
+    "headword": "nerve",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 2,
+    "sense_count_2019": 1,
+    "sense_count_2007": 2,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 1,
+     "curated_senses": 4,
+     "covered": 1,
+     "ratio": 0.25
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 2,
+     "curated_senses": 4,
+     "covered": 2,
+     "ratio": 0.5
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 53,
+    "headword": "address",
+    "current_track": "B",
+    "source_track": "none",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 0,
+    "sense_count_2019": null,
+    "sense_count_2007": null,
+    "sources": [],
+    "suggestion": "维持 B（教材锚点不完整，义项树仍须自建）"
+   },
+   {
+    "seq": 54,
+    "headword": "bear",
+    "current_track": "B",
+    "source_track": "none",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 0,
+    "sense_count_2019": null,
+    "sense_count_2007": null,
+    "sources": [],
+    "suggestion": "维持 B（教材锚点不完整，义项树仍须自建）"
+   },
+   {
+    "seq": 55,
+    "headword": "cover",
+    "current_track": "B",
+    "source_track": "none",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 0,
+    "sense_count_2019": null,
+    "sense_count_2007": null,
+    "sources": [],
+    "suggestion": "维持 B（教材锚点不完整，义项树仍须自建）"
+   },
+   {
+    "seq": 56,
+    "headword": "interest",
+    "current_track": "B",
+    "source_track": "none",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 0,
+    "sense_count_2019": null,
+    "sense_count_2007": null,
+    "sources": [],
+    "suggestion": "维持 B（教材锚点不完整，义项树仍须自建）"
+   },
+   {
+    "seq": 57,
+    "headword": "mean",
+    "current_track": "B",
+    "source_track": "tb2007",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 3,
+    "sense_count_2019": null,
+    "sense_count_2007": 3,
+    "sources": [
+     "tb2007"
+    ],
+    "anchor_coverage_2007": {
+     "raw_senses": 3,
+     "curated_senses": 5,
+     "covered": 1,
+     "ratio": 0.2
+    },
+    "suggestion": "维持 B（教材锚点不完整，义项树仍须自建）"
+   },
+   {
+    "seq": 58,
+    "headword": "mind",
+    "current_track": "B",
+    "source_track": "none",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 0,
+    "sense_count_2019": null,
+    "sense_count_2007": null,
+    "sources": [],
+    "suggestion": "维持 B（教材锚点不完整，义项树仍须自建）"
+   },
+   {
+    "seq": 59,
+    "headword": "nature",
+    "current_track": "B",
+    "source_track": "none",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 0,
+    "sense_count_2019": null,
+    "sense_count_2007": null,
+    "sources": [],
+    "suggestion": "维持 B（教材锚点不完整，义项树仍须自建）"
+   },
+   {
+    "seq": 60,
+    "headword": "order",
+    "current_track": "B",
+    "source_track": "none",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 0,
+    "sense_count_2019": null,
+    "sense_count_2007": null,
+    "sources": [],
+    "suggestion": "维持 B（教材锚点不完整，义项树仍须自建）"
+   },
+   {
+    "seq": 61,
+    "headword": "plant",
+    "current_track": "B",
+    "source_track": "none",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 0,
+    "sense_count_2019": null,
+    "sense_count_2007": null,
+    "sources": [],
+    "suggestion": "维持 B（教材锚点不完整，义项树仍须自建）"
+   },
+   {
+    "seq": 62,
+    "headword": "point",
+    "current_track": "B",
+    "source_track": "none",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 0,
+    "sense_count_2019": null,
+    "sense_count_2007": null,
+    "sources": [],
+    "suggestion": "维持 B（教材锚点不完整，义项树仍须自建）"
+   },
+   {
+    "seq": 63,
+    "headword": "present",
+    "current_track": "B",
+    "source_track": "none",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 0,
+    "sense_count_2019": null,
+    "sense_count_2007": null,
+    "sources": [],
+    "suggestion": "维持 B（教材锚点不完整，义项树仍须自建）"
+   },
+   {
+    "seq": 64,
+    "headword": "result",
+    "current_track": "B",
+    "source_track": "tb2007",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 1,
+    "sense_count_2019": null,
+    "sense_count_2007": 1,
+    "sources": [
+     "tb2007"
+    ],
+    "anchor_coverage_2007": {
+     "raw_senses": 1,
+     "curated_senses": 4,
+     "covered": 1,
+     "ratio": 0.25
+    },
+    "suggestion": "维持 B（教材锚点不完整，义项树仍须自建）"
+   },
+   {
+    "seq": 65,
+    "headword": "right",
+    "current_track": "B",
+    "source_track": "none",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 0,
+    "sense_count_2019": null,
+    "sense_count_2007": null,
+    "sources": [],
+    "suggestion": "维持 B（教材锚点不完整，义项树仍须自建）"
+   },
+   {
+    "seq": 66,
+    "headword": "sense",
+    "current_track": "B",
+    "source_track": "none",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 0,
+    "sense_count_2019": null,
+    "sense_count_2007": null,
+    "sources": [],
+    "suggestion": "维持 B（教材锚点不完整，义项树仍须自建）"
+   },
+   {
+    "seq": 67,
+    "headword": "sound",
+    "current_track": "B",
+    "source_track": "none",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 0,
+    "sense_count_2019": null,
+    "sense_count_2007": null,
+    "sources": [],
+    "suggestion": "维持 B（教材锚点不完整，义项树仍须自建）"
+   },
+   {
+    "seq": 68,
+    "headword": "stand",
+    "current_track": "B",
+    "source_track": "none",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 0,
+    "sense_count_2019": null,
+    "sense_count_2007": null,
+    "sources": [],
+    "suggestion": "维持 B（教材锚点不完整，义项树仍须自建）"
+   },
+   {
+    "seq": 69,
+    "headword": "state",
+    "current_track": "B",
+    "source_track": "tb2007",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 2,
+    "sense_count_2019": null,
+    "sense_count_2007": 2,
+    "sources": [
+     "tb2007"
+    ],
+    "anchor_coverage_2007": {
+     "raw_senses": 2,
+     "curated_senses": 4,
+     "covered": 1,
+     "ratio": 0.25
+    },
+    "suggestion": "维持 B（教材锚点不完整，义项树仍须自建）"
+   },
+   {
+    "seq": 70,
+    "headword": "subject",
+    "current_track": "B",
+    "source_track": "none",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 0,
+    "sense_count_2019": null,
+    "sense_count_2007": null,
+    "sources": [],
+    "suggestion": "维持 B（教材锚点不完整，义项树仍须自建）"
+   },
+   {
+    "seq": 71,
+    "headword": "treat",
+    "current_track": "B",
+    "source_track": "none",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 0,
+    "sense_count_2019": null,
+    "sense_count_2007": null,
+    "sources": [],
+    "suggestion": "维持 B（教材锚点不完整，义项树仍须自建）"
+   },
+   {
+    "seq": 72,
+    "headword": "value",
+    "current_track": "B",
+    "source_track": "tb2007",
+    "tier": "T1",
+    "trap_strength": 3,
+    "sense_count_merged": 2,
+    "sense_count_2019": null,
+    "sense_count_2007": 2,
+    "sources": [
+     "tb2007"
+    ],
+    "anchor_coverage_2007": {
+     "raw_senses": 2,
+     "curated_senses": 5,
+     "covered": 1,
+     "ratio": 0.2
+    },
+    "suggestion": "维持 B（教材锚点不完整，义项树仍须自建）"
+   },
+   {
+    "seq": 73,
+    "headword": "develop",
+    "current_track": "B",
+    "source_track": "none",
+    "tier": "T1",
+    "trap_strength": 2,
+    "sense_count_merged": 0,
+    "sense_count_2019": null,
+    "sense_count_2007": null,
+    "sources": [],
+    "suggestion": "维持 B（教材锚点不完整，义项树仍须自建）"
+   },
+   {
+    "seq": 74,
+    "headword": "practice",
+    "current_track": "B",
+    "source_track": "none",
+    "tier": "T1",
+    "trap_strength": 2,
+    "sense_count_merged": 0,
+    "sense_count_2019": null,
+    "sense_count_2007": null,
+    "sources": [],
+    "suggestion": "维持 B（教材锚点不完整，义项树仍须自建）"
+   },
+   {
+    "seq": 75,
+    "headword": "division",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T2",
+    "trap_strength": 3,
+    "sense_count_merged": 9,
+    "sense_count_2019": 4,
+    "sense_count_2007": 5,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 4,
+     "curated_senses": 5,
+     "covered": 0,
+     "ratio": 0.0
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 5,
+     "curated_senses": 5,
+     "covered": 3,
+     "ratio": 0.6
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 76,
+    "headword": "suspend",
+    "current_track": "A",
+    "source_track": "tb2019",
+    "tier": "T2",
+    "trap_strength": 3,
+    "sense_count_merged": 4,
+    "sense_count_2019": 4,
+    "sense_count_2007": null,
+    "sources": [
+     "tb2019"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 4,
+     "curated_senses": 4,
+     "covered": 2,
+     "ratio": 0.5
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 77,
+    "headword": "criterion",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T2",
+    "trap_strength": 3,
+    "sense_count_merged": 5,
+    "sense_count_2019": 3,
+    "sense_count_2007": 2,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 3,
+     "covered": 0,
+     "ratio": 0.0
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 2,
+     "curated_senses": 3,
+     "covered": 2,
+     "ratio": 0.67
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 78,
+    "headword": "exploit",
+    "current_track": "A",
+    "source_track": "tb2019",
+    "tier": "T2",
+    "trap_strength": 3,
+    "sense_count_merged": 3,
+    "sense_count_2019": 3,
+    "sense_count_2007": null,
+    "sources": [
+     "tb2019"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 0,
+     "ratio": 0.0
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 79,
+    "headword": "utter",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T2",
+    "trap_strength": 3,
+    "sense_count_merged": 5,
+    "sense_count_2019": 3,
+    "sense_count_2007": 2,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 1,
+     "ratio": 0.25
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 2,
+     "curated_senses": 4,
+     "covered": 0,
+     "ratio": 0.0
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 80,
+    "headword": "bond",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T2",
+    "trap_strength": 3,
+    "sense_count_merged": 5,
+    "sense_count_2019": 3,
+    "sense_count_2007": 4,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 3,
+     "covered": 0,
+     "ratio": 0.0
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 4,
+     "curated_senses": 3,
+     "covered": 2,
+     "ratio": 0.67
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 81,
+    "headword": "contest",
+    "current_track": "A",
+    "source_track": "tb2019",
+    "tier": "T2",
+    "trap_strength": 3,
+    "sense_count_merged": 3,
+    "sense_count_2019": 3,
+    "sense_count_2007": null,
+    "sources": [
+     "tb2019"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 1,
+     "ratio": 0.25
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 82,
+    "headword": "exchange",
+    "current_track": "A",
+    "source_track": "tb2019",
+    "tier": "T2",
+    "trap_strength": 2,
+    "sense_count_merged": 4,
+    "sense_count_2019": 4,
+    "sense_count_2007": null,
+    "sources": [
+     "tb2019"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 4,
+     "curated_senses": 4,
+     "covered": 3,
+     "ratio": 0.75
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 83,
+    "headword": "abandon",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T2",
+    "trap_strength": 2,
+    "sense_count_merged": 4,
+    "sense_count_2019": 3,
+    "sense_count_2007": 3,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 2,
+     "ratio": 0.5
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 2,
+     "ratio": 0.5
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 84,
+    "headword": "accuse",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T2",
+    "trap_strength": 2,
+    "sense_count_merged": 4,
+    "sense_count_2019": 3,
+    "sense_count_2007": 3,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 3,
+     "covered": 1,
+     "ratio": 0.33
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 3,
+     "curated_senses": 3,
+     "covered": 3,
+     "ratio": 1.0
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 85,
+    "headword": "anticipate",
+    "current_track": "A",
+    "source_track": "tb2019",
+    "tier": "T2",
+    "trap_strength": 2,
+    "sense_count_merged": 3,
+    "sense_count_2019": 3,
+    "sense_count_2007": null,
+    "sources": [
+     "tb2019"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 2,
+     "ratio": 0.5
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 86,
+    "headword": "apart",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T2",
+    "trap_strength": 2,
+    "sense_count_merged": 5,
+    "sense_count_2019": 3,
+    "sense_count_2007": 2,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 5,
+     "covered": 1,
+     "ratio": 0.2
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 2,
+     "curated_senses": 5,
+     "covered": 0,
+     "ratio": 0.0
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 87,
+    "headword": "assemble",
+    "current_track": "A",
+    "source_track": "tb2019",
+    "tier": "T2",
+    "trap_strength": 2,
+    "sense_count_merged": 4,
+    "sense_count_2019": 4,
+    "sense_count_2007": null,
+    "sources": [
+     "tb2019"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 4,
+     "curated_senses": 4,
+     "covered": 2,
+     "ratio": 0.5
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 88,
+    "headword": "assign",
+    "current_track": "A",
+    "source_track": "tb2019",
+    "tier": "T2",
+    "trap_strength": 2,
+    "sense_count_merged": 3,
+    "sense_count_2019": 3,
+    "sense_count_2007": null,
+    "sources": [
+     "tb2019"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 2,
+     "ratio": 0.5
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 89,
+    "headword": "captain",
+    "current_track": "A",
+    "source_track": "tb2019",
+    "tier": "T2",
+    "trap_strength": 2,
+    "sense_count_merged": 3,
+    "sense_count_2019": 3,
+    "sense_count_2007": null,
+    "sources": [
+     "tb2019"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 2,
+     "ratio": 0.5
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 90,
+    "headword": "conflict",
+    "current_track": "A",
+    "source_track": "tb2019",
+    "tier": "T2",
+    "trap_strength": 2,
+    "sense_count_merged": 3,
+    "sense_count_2019": 4,
+    "sense_count_2007": null,
+    "sources": [
+     "tb2019"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 4,
+     "curated_senses": 4,
+     "covered": 4,
+     "ratio": 1.0
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 91,
+    "headword": "defeat",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T2",
+    "trap_strength": 2,
+    "sense_count_merged": 6,
+    "sense_count_2019": 4,
+    "sense_count_2007": 4,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 4,
+     "curated_senses": 4,
+     "covered": 4,
+     "ratio": 1.0
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 4,
+     "curated_senses": 4,
+     "covered": 2,
+     "ratio": 0.5
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 92,
+    "headword": "dominate",
+    "current_track": "A",
+    "source_track": "tb2019",
+    "tier": "T2",
+    "trap_strength": 2,
+    "sense_count_merged": 3,
+    "sense_count_2019": 3,
+    "sense_count_2007": null,
+    "sources": [
+     "tb2019"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 2,
+     "ratio": 0.5
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 93,
+    "headword": "elegant",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T2",
+    "trap_strength": 2,
+    "sense_count_merged": 5,
+    "sense_count_2019": 3,
+    "sense_count_2007": 3,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 0,
+     "ratio": 0.0
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 0,
+     "ratio": 0.0
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 94,
+    "headword": "emerge",
+    "current_track": "A",
+    "source_track": "tb2019",
+    "tier": "T2",
+    "trap_strength": 2,
+    "sense_count_merged": 3,
+    "sense_count_2019": 3,
+    "sense_count_2007": null,
+    "sources": [
+     "tb2019"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 2,
+     "ratio": 0.5
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 95,
+    "headword": "facilitate",
+    "current_track": "A",
+    "source_track": "tb2019",
+    "tier": "T2",
+    "trap_strength": 2,
+    "sense_count_merged": 3,
+    "sense_count_2019": 3,
+    "sense_count_2007": null,
+    "sources": [
+     "tb2019"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 1,
+     "ratio": 0.25
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 96,
+    "headword": "nation",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T2",
+    "trap_strength": 2,
+    "sense_count_merged": 3,
+    "sense_count_2019": 3,
+    "sense_count_2007": 3,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 3,
+     "ratio": 0.75
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 3,
+     "ratio": 0.75
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 97,
+    "headword": "reform",
+    "current_track": "A",
+    "source_track": "tb2019",
+    "tier": "T2",
+    "trap_strength": 2,
+    "sense_count_merged": 3,
+    "sense_count_2019": 4,
+    "sense_count_2007": null,
+    "sources": [
+     "tb2019"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 4,
+     "curated_senses": 4,
+     "covered": 4,
+     "ratio": 1.0
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 98,
+    "headword": "category",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T2",
+    "trap_strength": 2,
+    "sense_count_merged": 3,
+    "sense_count_2019": 2,
+    "sense_count_2007": 3,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 2,
+     "curated_senses": 4,
+     "covered": 1,
+     "ratio": 0.25
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 3,
+     "curated_senses": 4,
+     "covered": 1,
+     "ratio": 0.25
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 99,
+    "headword": "convey",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T2",
+    "trap_strength": 2,
+    "sense_count_merged": 4,
+    "sense_count_2019": 2,
+    "sense_count_2007": 2,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 2,
+     "curated_senses": 4,
+     "covered": 1,
+     "ratio": 0.25
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 2,
+     "curated_senses": 4,
+     "covered": 3,
+     "ratio": 0.75
+    },
+    "suggestion": "维持 A"
+   },
+   {
+    "seq": 100,
+    "headword": "spectacular",
+    "current_track": "A",
+    "source_track": "both",
+    "tier": "T2",
+    "trap_strength": 2,
+    "sense_count_merged": 4,
+    "sense_count_2019": 2,
+    "sense_count_2007": 2,
+    "sources": [
+     "tb2019",
+     "tb2007"
+    ],
+    "anchor_coverage_2019": {
+     "raw_senses": 2,
+     "curated_senses": 4,
+     "covered": 0,
+     "ratio": 0.0
+    },
+    "anchor_coverage_2007": {
+     "raw_senses": 2,
+     "curated_senses": 4,
+     "covered": 0,
+     "ratio": 0.0
+    },
+    "suggestion": "维持 A"
+   }
+  ]
+ },
+ "batch2_candidates": {
+  "note": "人工判定为 T1/T2 且 trap_strength≥2、但不在首批 100 词内、且仅在旧课标表有锚点的词。它们是第二批的优先候选：教材有释义底稿可参照，但仍需自建六维义项树。",
+  "count": 30,
+  "words": [
+   {
+    "headword": "lie",
+    "tier": "T1",
+    "trap_strength": 3,
+    "trap": "lie in（在于）；lie on（位于）；动词义：撒谎",
+    "core": "躺；位于",
+    "note": "三个义项完全不同",
+    "sense_count_2007": 3,
+    "unit_title_2007": "旧课标 必修3 Unit 2"
+   },
+   {
+    "headword": "object",
+    "tier": "T1",
+    "trap_strength": 3,
+    "trap": "动词义：反对（object to）；名词义：目标、目的",
+    "core": "物体；宾语",
+    "note": "object to doing 结构在议论文出现",
+    "sense_count_2007": 2,
+    "unit_title_2007": "旧课标 选修8 Unit 2"
+   },
+   {
+    "headword": "scheme",
+    "tier": "T1",
+    "trap_strength": 3,
+    "trap": "名词义：方案、计划（色彩/图案义非高考重点）",
+    "core": "计划",
+    "note": "a pension scheme 是社会类文章核心",
+    "sense_count_2007": 2,
+    "unit_title_2007": "旧课标 必修5 Unit 5"
+   },
+   {
+    "headword": "succeed",
+    "tier": "T1",
+    "trap_strength": 3,
+    "trap": "succeed in doing（成功做到）—— 介词 in 不可省",
+    "core": "成功；接替",
+    "note": "接替义 succeed sb 是 E2 考点",
+    "sense_count_2007": 3,
+    "unit_title_2007": "旧课标 必修2 Unit 4"
+   },
+   {
+    "headword": "express",
+    "tier": "T1",
+    "trap_strength": 2,
+    "trap": "express concern（表达）",
+    "core": "表达",
+    "note": "搭配是应用文高频",
+    "sense_count_2007": 4,
+    "unit_title_2007": "旧课标 必修1 Unit 4"
+   },
+   {
+    "headword": "note",
+    "tier": "T1",
+    "trap_strength": 2,
+    "trap": "动词义：注意到（note that）；名词义：票据、音调",
+    "core": "笔记；注意",
+    "note": "take note of / it is worth noting",
+    "sense_count_2007": 3,
+    "unit_title_2007": "旧课标 必修5 Unit 4"
+   },
+   {
+    "headword": "pull",
+    "tier": "T1",
+    "trap_strength": 2,
+    "trap": "pull together（齐心协力）；pull out（撤出）",
+    "core": "拉",
+    "note": "团队类文章高频",
+    "sense_count_2007": 3,
+    "unit_title_2007": "旧课标 必修3 Unit 4"
+   },
+   {
+    "headword": "recognize",
+    "tier": "T1",
+    "trap_strength": 2,
+    "trap": "动词义：承认（recognize that）；认出",
+    "core": "认出",
+    "note": "承认义在议论文出现",
+    "sense_count_2007": 3,
+    "unit_title_2007": "旧课标 必修1 Unit 2"
+   },
+   {
+    "headword": "require",
+    "tier": "T1",
+    "trap_strength": 2,
+    "trap": "require sb to do（不用 to be done）",
+    "core": "需要；要求",
+    "note": "主动被动语态转换是高频错点",
+    "sense_count_2007": 3,
+    "unit_title_2007": "旧课标 必修5 Unit 3"
+   },
+   {
+    "headword": "section",
+    "tier": "T1",
+    "trap_strength": 2,
+    "trap": "名词义：部分、部门、区域（section of the population）",
+    "core": "章节",
+    "note": "搭配是应用文高频",
+    "sense_count_2007": 2,
+    "unit_title_2007": "旧课标 必修5 Unit 4"
+   },
+   {
+    "headword": "sign",
+    "tier": "T1",
+    "trap_strength": 2,
+    "trap": "动词义：签署、示意；名词义：标志、迹象",
+    "core": "符号",
+    "note": "sign a contract 是应用文高频",
+    "sense_count_2007": 3,
+    "unit_title_2007": "旧课标 必修3 Unit 2"
+   },
+   {
+    "headword": "solve",
+    "tier": "T1",
+    "trap_strength": 2,
+    "trap": "solve a problem（解决）",
+    "core": "解决",
+    "note": "与 settle 构成辨析组",
+    "sense_count_2007": 2,
+    "unit_title_2007": "旧课标 必修2 Unit 3"
+   },
+   {
+    "headword": "statement",
+    "tier": "T1",
+    "trap_strength": 2,
+    "trap": "名词义：声明、陈述；账单",
+    "core": "陈述",
+    "note": "make a statement 是完形高频",
+    "sense_count_2007": 2,
+    "unit_title_2007": "旧课标 必修4 Unit 4"
+   },
+   {
+    "headword": "support",
+    "tier": "T1",
+    "trap_strength": 2,
+    "trap": "名词义：支撑、支撑物；support for（对…的支持）",
+    "core": "支持",
+    "note": "搭配是社会类文章高频",
+    "sense_count_2007": 2,
+    "unit_title_2007": "旧课标 必修4 Unit 1"
+   },
+   {
+    "headword": "survey",
+    "tier": "T1",
+    "trap_strength": 2,
+    "trap": "conduct/carry out a survey（开展调查）",
+    "core": "调查",
+    "note": "动词与 conduct 构成搭配组",
+    "sense_count_2007": 2,
+    "unit_title_2007": "旧课标 必修1 Unit 1"
+   },
+   {
+    "headword": "trade",
+    "tier": "T1",
+    "trap_strength": 2,
+    "trap": "名词义：行业（the trade）；动词义：做交易（trade in）",
+    "core": "贸易",
+    "note": "trade off 是经济类文章高频",
+    "sense_count_2007": 3,
+    "unit_title_2007": "旧课标 必修5 Unit 4"
+   },
+   {
+    "headword": "vote",
+    "tier": "T1",
+    "trap_strength": 2,
+    "trap": "vote for/against（投票赞成/反对）",
+    "core": "投票",
+    "note": "搭配是时政类文章高频",
+    "sense_count_2007": 5,
+    "unit_title_2007": "旧课标 必修1 Unit 5"
+   },
+   {
+    "headword": "overlook",
+    "tier": "T2",
+    "trap_strength": 3,
+    "trap": "动词义：忽视、没看到",
+    "core": "俯瞰",
+    "note": "义项跨度大是 E1 富矿",
+    "sense_count_2007": 4,
+    "unit_title_2007": "旧课标 选修8 Unit 4"
+   },
+   {
+    "headword": "accumulate",
+    "tier": "T2",
+    "trap_strength": 2,
+    "trap": "accumulate wealth/evidence（积累）",
+    "core": "积累",
+    "note": "经济与科研类文章高频",
+    "sense_count_2007": 2,
+    "unit_title_2007": "旧课标 选修8 Unit 2"
+   },
+   {
+    "headword": "compass",
+    "tier": "T2",
+    "trap_strength": 2,
+    "trap": "名词义：范围、界限（beyond the compass）",
+    "core": "指南针",
+    "note": "比喻义较少考",
+    "sense_count_2007": 3,
+    "unit_title_2007": "旧课标 选修6 Unit 2"
+   },
+   {
+    "headword": "compromise",
+    "tier": "T2",
+    "trap_strength": 2,
+    "trap": "compromise with（妥协）",
+    "core": "妥协",
+    "note": "搭配在社会类文章出现",
+    "sense_count_2007": 2,
+    "unit_title_2007": "旧课标 选修8 Unit 4"
+   },
+   {
+    "headword": "deliberately",
+    "tier": "T2",
+    "trap_strength": 2,
+    "trap": "副词义：故意地",
+    "core": "故意地",
+    "note": "情感色彩是 E8 考点",
+    "sense_count_2007": 1,
+    "unit_title_2007": "旧课标 必修5 Unit 4"
+   },
+   {
+    "headword": "enrich",
+    "tier": "T2",
+    "trap_strength": 2,
+    "trap": "enrich one's life（丰富）",
+    "core": "使富裕",
+    "note": "搭配在文化类文章出现",
+    "sense_count_2007": 3,
+    "unit_title_2007": "旧课标 必修1 Unit 2"
+   },
+   {
+    "headword": "equip",
+    "tier": "T2",
+    "trap_strength": 2,
+    "trap": "equip sb with（使具备）",
+    "core": "装备",
+    "note": "搭配是语法填空高频",
+    "sense_count_2007": 2,
+    "unit_title_2007": "旧课标 必修4 Unit 2"
+   },
+   {
+    "headword": "foster",
+    "tier": "T2",
+    "trap_strength": 2,
+    "trap": "foster cooperation（培养/促进）",
+    "core": "养育",
+    "note": "搭配是作文高频",
+    "sense_count_2007": 1,
+    "unit_title_2007": "旧课标 选修6 Unit 4"
+   },
+   {
+    "headword": "significance",
+    "tier": "T2",
+    "trap_strength": 2,
+    "trap": "of great significance（意义重大的）",
+    "core": "重要性",
+    "note": "作文高分表达",
+    "sense_count_2007": 4,
+    "unit_title_2007": "旧课标 选修8 Unit 5"
+   },
+   {
+    "headword": "squeeze",
+    "tier": "T2",
+    "trap_strength": 2,
+    "trap": "squeeze into（挤进）；cost-of-living squeeze",
+    "core": "挤",
+    "note": "搭配是社会类文章高频",
+    "sense_count_2007": 3,
+    "unit_title_2007": "旧课标 必修5 Unit 5"
+   },
+   {
+    "headword": "substitute",
+    "tier": "T2",
+    "trap_strength": 2,
+    "trap": "substitute for（代替）",
+    "core": "替代",
+    "note": "搭配是语法填空高频",
+    "sense_count_2007": 3,
+    "unit_title_2007": "旧课标 选修7 Unit 5"
+   },
+   {
+    "headword": "swap",
+    "tier": "T2",
+    "trap_strength": 2,
+    "trap": "swap A for B（交换）",
+    "core": "交换",
+    "note": "搭配在口语类文章出现",
+    "sense_count_2007": 1,
+    "unit_title_2007": "旧课标 必修1 Unit 1"
+   },
+   {
+    "headword": "undertake",
+    "tier": "T2",
+    "trap_strength": 2,
+    "trap": "undertake a task（承担）",
+    "core": "承诺",
+    "note": "搭配是语法填空高频",
+    "sense_count_2007": 3,
+    "unit_title_2007": "旧课标 选修8 Unit 2"
+   }
+  ]
+ },
+ "material_health": {
+  "word_count": 3912,
+  "single_word": 3114,
+  "phrase": 798,
+  "total_senses": 9270,
+  "multi_sense_ge3": 1459,
+  "no_ipa": 819,
+  "zero_sense": 1,
+  "culture_marked": 355,
+  "annotation_pending": 3912
+ }
+}

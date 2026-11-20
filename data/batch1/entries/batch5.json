@@ -1,0 +1,2621 @@
+[
+ {
+  "id": "w_contest",
+  "headword": "contest",
+  "ipa": "/ˈkɒntest/",
+  "level": "T2",
+  "pos": [
+   "n",
+   "v"
+  ],
+  "strategies": [
+   "P2",
+   "P4",
+   "P8"
+  ],
+  "carriers": [
+   "C1",
+   "C2",
+   "C4"
+  ],
+  "senses": [
+   {
+    "sense_id": "s_contest_n_competition",
+    "text": "赛事、比赛活动",
+    "sense_level": "S1",
+    "error_mech": [],
+    "is_trap": false,
+    "trap_of": [],
+    "example": {
+     "en": "She won first prize in a writing contest that was open to students from all over the country.",
+     "zh": "她在一项面向全国学生的写作比赛中获得了一等奖。",
+     "source": "仿真例句 · 高考阅读校园与活动类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "a writing contest",
+     "enter a contest",
+     "hold a contest",
+     "win a contest"
+    ]
+   },
+   {
+    "sense_id": "s_contest_v_dispute",
+    "text": "对…提出异议、质疑（说法、决定）",
+    "sense_level": "S2",
+    "error_mech": [
+     "E1",
+     "E2"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "赛事、比赛活动"
+    ],
+    "example": {
+     "en": "Several experts contested the conclusion that the method was reliable under all conditions.",
+     "zh": "几位专家对该方法在一切条件下都可靠这一结论提出了异议。",
+     "source": "仿真例句 · 高考阅读学术争议类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "contest a claim",
+     "contest the decision",
+     "contest the results",
+     "a contested decision"
+    ]
+   },
+   {
+    "sense_id": "s_contest_v_compete",
+    "text": "参加竞逐、争取（名次、奖项、职位）",
+    "sense_level": "S3",
+    "error_mech": [
+     "E1",
+     "E6"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "对…提出异议、质疑"
+    ],
+    "example": {
+     "en": "Only three teams contested the final round, and each of them had trained for months.",
+     "zh": "只有三支队伍角逐决赛回合，每一支都训练了数月。",
+     "source": "仿真例句 · 高考阅读体育与竞赛类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "contest for the title",
+     "contest the championship",
+     "contest for the first prize",
+     "contest the election"
+    ]
+   },
+   {
+    "sense_id": "s_contest_n_dispute",
+    "text": "争议、纷争（对立主张之争）",
+    "sense_level": "S3",
+    "error_mech": [
+     "E1",
+     "E5"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "赛事、比赛活动"
+    ],
+    "example": {
+     "en": "What the report calls real progress is still a matter of contest among scholars.",
+     "zh": "报告所谓的真正进步，在学者之间仍是有争议的事。",
+     "source": "仿真例句 · 高考阅读评论与质疑类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "a matter of contest",
+     "in contest with sb",
+     "beyond contest",
+     "the contest between two views"
+    ]
+   }
+  ],
+  "confusable": [
+   "contrast",
+   "context",
+   "content",
+   "protest"
+  ],
+  "word_family": [
+   "contest",
+   "contestant",
+   "contention",
+   "contested"
+  ],
+  "notes": "考场判断法：① 先看它作名词还是动词——作名词且前面有 a singing / writing / beauty contest 这类修饰，就是「赛事、比赛活动」；② 动词后面接的是「说法、决定、结果、权利」这类抽象内容（contest a claim / contest the decision）→ 必是「质疑、提出异议」，不是「参加比赛」；③ 动词后面接的是「名次、奖项、职位、冠军」这类可以争取的名位（contest for the title / contest the championship）→ 才是「参加竞逐」；④ 出现 a matter of contest 这类固定说法时，译成「争议之事」，别译成「比赛」。",
+  "quiz_ids": []
+ },
+ {
+  "id": "w_exchange",
+  "headword": "exchange",
+  "ipa": "/ɪksˈtʃeɪndʒ/",
+  "level": "T2",
+  "pos": [
+   "n",
+   "v"
+  ],
+  "strategies": [
+   "P2",
+   "P4",
+   "P8"
+  ],
+  "carriers": [
+   "C1",
+   "C2",
+   "C4"
+  ],
+  "senses": [
+   {
+    "sense_id": "s_exchange_v_swap",
+    "text": "互换、交换（礼物、号码、意见）",
+    "sense_level": "S1",
+    "error_mech": [],
+    "is_trap": false,
+    "trap_of": [],
+    "example": {
+     "en": "The two classmates exchanged phone numbers so that they could keep in touch after graduation.",
+     "zh": "两位同学互换了电话号码，好在毕业后还能保持联系。",
+     "source": "仿真例句 · 高考阅读校园生活类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "exchange gifts",
+     "exchange phone numbers",
+     "exchange information",
+     "exchange places"
+    ]
+   },
+   {
+    "sense_id": "s_exchange_n_interaction",
+    "text": "交流、往来（人、项目、看法）",
+    "sense_level": "S2",
+    "error_mech": [
+     "E1",
+     "E5"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "互换、交换（礼物、号码、意见）"
+    ],
+    "example": {
+     "en": "She spent a year abroad on a student exchange that changed the way she looked at learning.",
+     "zh": "她通过交换生项目在国外待了一年，这改变了她看待学习的方式。",
+     "source": "仿真例句 · 高考阅读教育与交流类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "a student exchange",
+     "a cultural exchange",
+     "exchange students",
+     "in exchange for"
+    ]
+   },
+   {
+    "sense_id": "s_exchange_n_trade",
+    "text": "交易、外币兑换（买卖）",
+    "sense_level": "S3",
+    "error_mech": [
+     "E1",
+     "E4"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "交流、往来（人、项目、看法）"
+    ],
+    "example": {
+     "en": "The exchange rate changed so quickly that many travellers exchanged their money only on the day they returned.",
+     "zh": "汇率变动太快，许多旅行者只在回国当天才去兑换货币。",
+     "source": "仿真例句 · 高考阅读经济与旅行类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "the exchange rate",
+     "currency exchange",
+     "foreign exchange",
+     "a foreign exchange student"
+    ]
+   },
+   {
+    "sense_id": "s_exchange_v_converse",
+    "text": "交谈、互致（言语、目光、问候）",
+    "sense_level": "S3",
+    "error_mech": [
+     "E1",
+     "E2"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "互换、交换（礼物、号码、意见）"
+    ],
+    "example": {
+     "en": "Two strangers exchanged a few words at the bus stop before going their separate ways.",
+     "zh": "两位陌生人在公交站台上交谈了几句，然后各走各路。",
+     "source": "仿真例句 · 高考记叙与场景描写类高频句式",
+     "carrier": "C5"
+    },
+    "collocations": [
+     "exchange words",
+     "exchange glances",
+     "exchange greetings",
+     "exchange blows"
+    ]
+   }
+  ],
+  "confusable": [
+   "change",
+   "switch",
+   "alternate",
+   "exchangeable"
+  ],
+  "word_family": [
+   "exchange",
+   "exchangeable",
+   "exchanger",
+   "exchanged"
+  ],
+  "notes": "考场判断法：① 先看宾语：实物（gifts / presents / phone numbers / seats）→ 「互换」；言语、目光（words / glances / greetings）→ 「交谈、互致」；② 名词 exchange 前面有 a student / cultural / international → 「交流、往来（项目、人）」；③ 看到 rate / currency / foreign → 「汇率、外币兑换」，这一块必须整块记；④ in exchange for（以…换取）后面接被换出去的东西，in return（作为回报）后面接得到的东西，两个介词短语的位置不能互换。",
+  "quiz_ids": []
+ },
+ {
+  "id": "w_abandon",
+  "headword": "abandon",
+  "ipa": "/əˈbændən/",
+  "level": "T2",
+  "pos": [
+   "v",
+   "phrase"
+  ],
+  "strategies": [
+   "P2",
+   "P4",
+   "P8"
+  ],
+  "carriers": [
+   "C1",
+   "C2",
+   "C4"
+  ],
+  "senses": [
+   {
+    "sense_id": "s_abandon_v_give_up",
+    "text": "放弃（计划、尝试、想法）",
+    "sense_level": "S1",
+    "error_mech": [],
+    "is_trap": false,
+    "trap_of": [],
+    "example": {
+     "en": "The team decided to abandon the project when it became clear that the cost would keep rising.",
+     "zh": "当团队意识到成本会不断上升时，决定放弃这个项目。",
+     "source": "仿真例句 · 高考阅读决策与项目类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "abandon a plan",
+     "abandon an attempt",
+     "abandon the idea",
+     "abandon hope"
+    ]
+   },
+   {
+    "sense_id": "s_abandon_v_desert",
+    "text": "抛弃、离弃（人、故土、伙伴）",
+    "sense_level": "S2",
+    "error_mech": [
+     "E1",
+     "E2"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "放弃（计划、尝试、想法）"
+    ],
+    "example": {
+     "en": "The charity helps children who have been abandoned by parents unable to support them.",
+     "zh": "这家慈善机构帮助那些被无力抚养的父母遗弃的孩子。",
+     "source": "仿真例句 · 高考阅读社会救助类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "abandon one's family",
+     "abandon his hometown",
+     "abandon a baby",
+     "feel abandoned"
+    ]
+   },
+   {
+    "sense_id": "s_abandon_v_leave",
+    "text": "弃下、撇下（抛锚的车、行李）",
+    "sense_level": "S3",
+    "error_mech": [
+     "E1",
+     "E6"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "放弃（计划、尝试、想法）"
+    ],
+    "example": {
+     "en": "When the car broke down on the empty road, the driver had to abandon it and walk to the nearest village.",
+     "zh": "车在空荡的路上抛锚后，驾驶员只能弃车步行到最近的村子。",
+     "source": "仿真例句 · 高考记叙与旅途困境类高频句式",
+     "carrier": "C5"
+    },
+    "collocations": [
+     "abandon the car",
+     "abandon the luggage",
+     "abandon a vehicle",
+     "abandon ship"
+    ]
+   },
+   {
+    "sense_id": "s_abandon_phrase_oneself_to",
+    "text": "（abandon oneself to）放纵自己沉溺于（某种情绪）",
+    "sense_level": "S4",
+    "error_mech": [
+     "E4",
+     "E1"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "放弃（计划、尝试、想法）"
+    ],
+    "example": {
+     "en": "In her grief she abandoned herself to sorrow and refused to speak to anyone for weeks.",
+     "zh": "悲痛之中，她放纵自己沉溺于哀伤，几周不肯跟任何人说话。",
+     "source": "仿真例句 · 高考记叙与情感描写类高频句式",
+     "carrier": "C5"
+    },
+    "collocations": [
+     "abandon oneself to grief",
+     "abandon oneself to despair",
+     "abandon oneself to pleasure",
+     "abandon oneself to anger"
+    ]
+   }
+  ],
+  "confusable": [
+   "abundant",
+   "desert",
+   "quit",
+   "embarrass"
+  ],
+  "word_family": [
+   "abandon",
+   "abandoned",
+   "abandonment",
+   "abandoning"
+  ],
+  "notes": "考场判断法：① 先圈宾语：plan / attempt / idea / hope → 「放弃」；children / family / hometown → 「抛弃、离弃」；a broken car / luggage → 「弃下、撇下」；② 看到 abandon oneself to + 情绪（grief / despair / anger）→ 「沉溺于」，是一整块固定搭配，后面必须接名词或动名词；③ 看到 abandoned 形容词（an abandoned car / an abandoned child）时，意思仍是「被遗弃的」，可以用它反过来判断动词是「弃下」还是「抛弃」；④ 语法填空常考变形：abandon 的过去式与过去分词都是 abandoned，拼写中只有一个 n，不要写成 abandonned。",
+  "quiz_ids": []
+ },
+ {
+  "id": "w_accuse",
+  "headword": "accuse",
+  "ipa": "/əˈkju:z/",
+  "level": "T2",
+  "pos": [
+   "v",
+   "phrase"
+  ],
+  "strategies": [
+   "P2",
+   "P4",
+   "P8"
+  ],
+  "carriers": [
+   "C1",
+   "C2",
+   "C4"
+  ],
+  "senses": [
+   {
+    "sense_id": "s_accuse_v_charge",
+    "text": "指控、控告（某人做了某事）",
+    "sense_level": "S1",
+    "error_mech": [],
+    "is_trap": false,
+    "trap_of": [],
+    "example": {
+     "en": "The manager was accused of hiding the records when the auditors asked to see them.",
+     "zh": "当审计人员要求查看记录时，经理被指控隐瞒了记录。",
+     "source": "仿真例句 · 高考阅读社会法治类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "accuse sb of theft",
+     "accuse sb of cheating",
+     "accuse sb of doing sth",
+     "accuse sb of lying"
+    ]
+   },
+   {
+    "sense_id": "s_accuse_v_criticize",
+    "text": "指责、抨击（某种做法、作风）",
+    "sense_level": "S2",
+    "error_mech": [
+     "E1",
+     "E2"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "指控、控告（某人做了某事）"
+    ],
+    "example": {
+     "en": "Parents often accuse the school system of failing to give their children enough attention.",
+     "zh": "家长常指责学校制度没能给孩子足够的关注。",
+     "source": "仿真例句 · 高考阅读教育与舆论类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "accuse the system of failing",
+     "accuse a practice of being unfair",
+     "accuse sb of ignoring",
+     "accuse the company of cheating"
+    ]
+   },
+   {
+    "sense_id": "s_accuse_phrase_be_accused_of",
+    "text": "（be accused of）被告发、被指责于",
+    "sense_level": "S4",
+    "error_mech": [
+     "E4",
+     "E5"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "指控、控告（某人做了某事）"
+    ],
+    "example": {
+     "en": "Three men were accused of breaking into the laboratory, but the evidence against them was weak.",
+     "zh": "三人被指控闯入实验室，但针对他们的证据并不充分。",
+     "source": "仿真例句 · 高考阅读社会新闻类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "be accused of cheating",
+     "be accused of theft",
+     "be accused of murder",
+     "be accused of lying"
+    ]
+   }
+  ],
+  "confusable": [
+   "charge",
+   "blame",
+   "condemn",
+   "accusation"
+  ],
+  "word_family": [
+   "accuse",
+   "accused",
+   "accusation",
+   "accuser"
+  ],
+  "notes": "考场判断法：① 先分宾语：后面接「人」并且用 of → 「指控、控告」；后面接「制度、做法、作风」这类东西（accuse the school system of failing）→ 「指责、批评」，前者是法庭语境，后者是舆论语境；② 介词只能用 of：accuse sb of theft / of cheating 是对的，accuse sb for theft 是错的；跟 for 搭配的是 blame sb for sth；③ be accused of 后面必须用动名词（being accused of cheating），不能用动词原形；④ 写作里 accuse 要带具体内容（accuse sb of breaking the rules），光写 accuse sb 会被判为搭配不完整。",
+  "quiz_ids": []
+ },
+ {
+  "id": "w_anticipate",
+  "headword": "anticipate",
+  "ipa": "/ænˈtɪsɪpeɪt/",
+  "level": "T2",
+  "pos": [
+   "v",
+   "phrase"
+  ],
+  "strategies": [
+   "P2",
+   "P4",
+   "P6"
+  ],
+  "carriers": [
+   "C1",
+   "C2",
+   "C3"
+  ],
+  "senses": [
+   {
+    "sense_id": "s_anticipate_v_expect",
+    "text": "预料、预期（某事会发生）",
+    "sense_level": "S1",
+    "error_mech": [],
+    "is_trap": false,
+    "trap_of": [],
+    "example": {
+     "en": "The researchers anticipated that the results might differ from those of the earlier trial.",
+     "zh": "研究人员预料结果可能与早前试验的不同。",
+     "source": "仿真例句 · 高考阅读学术与数据类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "anticipate that...",
+     "anticipate problems",
+     "as anticipated",
+     "widely anticipated"
+    ]
+   },
+   {
+    "sense_id": "s_anticipate_v_look_forward",
+    "text": "期待、盼望（后面接动名词）",
+    "sense_level": "S2",
+    "error_mech": [
+     "E1",
+     "E5"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "预料、预期（某事会发生）"
+    ],
+    "example": {
+     "en": "We anticipate having more free time once the new term begins, so we have already planned a trip.",
+     "zh": "新学期开始后我们期待有更多空闲时间，因此已经规划了一次旅行。",
+     "source": "仿真例句 · 高考写作与阅读期待类高频句式",
+     "carrier": "C4"
+    },
+    "collocations": [
+     "anticipate doing sth",
+     "anticipate the pleasure of",
+     "we anticipate that",
+     "anticipate a bright future"
+    ]
+   },
+   {
+    "sense_id": "s_anticipate_v_prepare_for",
+    "text": "事先想到、预先考虑（为…作准备）",
+    "sense_level": "S3",
+    "error_mech": [
+     "E1",
+     "E6"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "期待、盼望（后面接动名词）"
+    ],
+    "example": {
+     "en": "Good writers anticipate the needs of their readers and adjust the length of each paragraph.",
+     "zh": "好的写作者会预先想到读者的需求，并调整每段的长度。",
+     "source": "仿真例句 · 高考阅读写作方法类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "anticipate the needs of",
+     "anticipate difficulties",
+     "anticipate changes",
+     "anticipate the demand"
+    ]
+   },
+   {
+    "sense_id": "s_anticipate_phrase_it_is_anticipated",
+    "text": "（it is anticipated that）据预计、人们预料",
+    "sense_level": "S4",
+    "error_mech": [
+     "E4",
+     "E7"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "预料、预期（某事会发生）"
+    ],
+    "example": {
+     "en": "It is anticipated that the number of online learners will continue to rise in the coming years.",
+     "zh": "预计在未来几年，线上学习者的数量还将继续增长。",
+     "source": "仿真例句 · 高考阅读数据与趋势类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "it is anticipated that",
+     "it is widely anticipated",
+     "as it is anticipated",
+     "it is anticipated that sales will"
+    ]
+   }
+  ],
+  "confusable": [
+   "expect",
+   "hope",
+   "foresee",
+   "eager"
+  ],
+  "word_family": [
+   "anticipate",
+   "anticipation",
+   "anticipated",
+   "anticipatory"
+  ],
+  "notes": "考场判断法：① 看后面跟什么成分：跟 that 从句或名词（problems / changes / results）→ 「预料、预期」，是中性预测；跟动名词 doing（anticipate doing sth）→ 「期待、盼望」，带主观愿望色彩；② 结构上 anticipate 后面只能跟动名词，不能说 anticipate to do sth；③ 宾语是「需求、困难、变化」这类需要提前准备的东西（anticipate the needs / anticipate difficulties）→ 「预先想到」义；④ 看到句首 It is anticipated that… → 「据预计」，整块背，不要拆开逐字译。",
+  "quiz_ids": []
+ },
+ {
+  "id": "w_apart",
+  "headword": "apart",
+  "ipa": "/əˈpɑ:t/",
+  "level": "T2",
+  "pos": [
+   "adv",
+   "phrase"
+  ],
+  "strategies": [
+   "P2",
+   "P4",
+   "P8"
+  ],
+  "carriers": [
+   "C1",
+   "C2",
+   "C3"
+  ],
+  "senses": [
+   {
+    "sense_id": "s_apart_adv_separated",
+    "text": "分开地、彼此隔开（相隔一段距离）",
+    "sense_level": "S1",
+    "error_mech": [],
+    "is_trap": false,
+    "trap_of": [],
+    "example": {
+     "en": "The two villages lie several miles apart, and the road between them is often closed by snow.",
+     "zh": "两个村子相隔数英里，中间的道路常被大雪封闭。",
+     "source": "仿真例句 · 高考阅读旅行与自然类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "far apart",
+     "miles apart",
+     "well apart",
+     "apart from each other"
+    ]
+   },
+   {
+    "sense_id": "s_apart_adv_broken",
+    "text": "散架、裂成碎块（结构坏了）",
+    "sense_level": "S2",
+    "error_mech": [
+     "E1",
+     "E2"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "分开地、彼此隔开（相隔一段距离）"
+    ],
+    "example": {
+     "en": "The old wooden chair fell apart the moment he sat down on it.",
+     "zh": "他刚一坐下，那把旧木椅就散架了。",
+     "source": "仿真例句 · 高考记叙与生活细节类高频句式",
+     "carrier": "C5"
+    },
+    "collocations": [
+     "fall apart",
+     "come apart",
+     "fall to pieces",
+     "the roof came apart"
+    ]
+   },
+   {
+    "sense_id": "s_apart_phrase_set_apart",
+    "text": "（set sb/sth apart）使突出、与众不同",
+    "sense_level": "S3",
+    "error_mech": [
+     "E1",
+     "E4"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "分开地、彼此隔开（相隔一段距离）"
+    ],
+    "example": {
+     "en": "What set her apart from the other runners was her steady pace in the last kilometre.",
+     "zh": "让她与其他跑者拉开差距的是最后一公里稳健的配速。",
+     "source": "仿真例句 · 高考阅读人物与特点类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "set sb apart from",
+     "set apart from",
+     "set it apart",
+     "set the school apart"
+    ]
+   },
+   {
+    "sense_id": "s_apart_phrase_apart_from",
+    "text": "（apart from）除…之外；与…相隔",
+    "sense_level": "S4",
+    "error_mech": [
+     "E4",
+     "E7"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "分开地、彼此隔开（相隔一段距离）"
+    ],
+    "example": {
+     "en": "Apart from a few minor errors, her answer was clear and complete enough to earn full marks.",
+     "zh": "除了几处小错误，她的答案清楚又完整，足以拿满分。",
+     "source": "仿真例句 · 高考阅读与评价类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "apart from that",
+     "apart from these",
+     "quite apart from",
+     "apart from each other"
+    ]
+   },
+   {
+    "sense_id": "s_apart_phrase_tear_apart",
+    "text": "（tear sth apart）撕碎、拆散",
+    "sense_level": "S4",
+    "error_mech": [
+     "E4",
+     "E1"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "散架、裂成碎块（结构坏了）"
+    ],
+    "example": {
+     "en": "The old letter had been torn apart by careless hands long before anyone found it.",
+     "zh": "在有人发现它之前，这封旧信早已被粗心的人撕成了碎片。",
+     "source": "仿真例句 · 高考记叙与悬念类高频句式",
+     "carrier": "C5"
+    },
+    "collocations": [
+     "tear sth apart",
+     "tear apart the family",
+     "torn apart",
+     "tear the paper apart"
+    ]
+   }
+  ],
+  "confusable": [
+   "separate",
+   "a part",
+   "apartment",
+   "partly"
+  ],
+  "word_family": [
+   "apart",
+   "apartment",
+   "apartness",
+   "depart"
+  ],
+  "notes": "考场判断法：① apart 是副词，不单独作形容词用，看到 people apart / the two towns apart 一律按「彼此隔开」理解；② 判断它属于哪个词块：fall apart / come apart → 散架、裂开；tear apart → 撕碎、拆散；set apart → 使突出、使与众不同；apart from → 除…之外；③ apart from 有两种读法：后面接「除了它以外一切都还好」的一整件事 → 「除…之外」，后面接地点或距离 → 「与…相隔」；④ far apart、miles apart 中间必须有形容词或数词，不能只说 they apart。",
+  "quiz_ids": []
+ },
+ {
+  "id": "w_assemble",
+  "headword": "assemble",
+  "ipa": "/əˈsembl/",
+  "level": "T2",
+  "pos": [
+   "v"
+  ],
+  "strategies": [
+   "P2",
+   "P4",
+   "P8"
+  ],
+  "carriers": [
+   "C1",
+   "C2",
+   "C4"
+  ],
+  "senses": [
+   {
+    "sense_id": "s_assemble_v_gather",
+    "text": "集合、聚到一处（人群来到某地）",
+    "sense_level": "S1",
+    "error_mech": [],
+    "is_trap": false,
+    "trap_of": [],
+    "example": {
+     "en": "All the students assembled in the playground when the fire alarm went off.",
+     "zh": "火警响起时，所有学生都集合到了操场上。",
+     "source": "仿真例句 · 高考阅读校园与安全类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "assemble in the hall",
+     "assemble outside",
+     "assemble before",
+     "the crowd assembled"
+    ]
+   },
+   {
+    "sense_id": "s_assemble_v_put_together",
+    "text": "组装、装配（机器、零件）",
+    "sense_level": "S2",
+    "error_mech": [
+     "E1",
+     "E2"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "集合、聚到一处（人群来到某地）"
+    ],
+    "example": {
+     "en": "The frame of the bike is assembled by hand, which is why each one costs so much more.",
+     "zh": "这辆自行车的车架是手工组装的，因此每一辆都贵得多。",
+     "source": "仿真例句 · 高考说明与制造类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "assemble the parts",
+     "assemble a model",
+     "fully assembled",
+     "assemble a machine"
+    ]
+   },
+   {
+    "sense_id": "s_assemble_v_form",
+    "text": "组建、召集（团队、委员会）",
+    "sense_level": "S3",
+    "error_mech": [
+     "E1",
+     "E6"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "集合、聚到一处（人群来到某地）"
+    ],
+    "example": {
+     "en": "The teachers assembled a small group of parents to discuss the new reading plan.",
+     "zh": "老师们召集了一小组家长来讨论新的阅读计划。",
+     "source": "仿真例句 · 高考阅读校园与家校类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "assemble a team",
+     "assemble a committee",
+     "assemble a group of experts",
+     "assemble a working group"
+    ]
+   },
+   {
+    "sense_id": "s_assemble_v_collect",
+    "text": "收集、汇总（资料、数据、证据）",
+    "sense_level": "S3",
+    "error_mech": [
+     "E1",
+     "E10"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "集合、聚到一处（人群来到某地）"
+    ],
+    "example": {
+     "en": "Researchers from different universities assembled evidence from hundreds of published studies before drawing their conclusion.",
+     "zh": "来自不同大学的研究者在得出结论前汇总了数百项已发表研究中的证据。",
+     "source": "仿真例句 · 高考阅读科研与研究类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "assemble evidence",
+     "assemble data",
+     "assemble a collection",
+     "assemble the facts"
+    ]
+   }
+  ],
+  "confusable": [
+   "resemble",
+   "gather",
+   "assimilate",
+   "collective"
+  ],
+  "word_family": [
+   "assemble",
+   "assembly",
+   "assembler",
+   "disassemble"
+  ],
+  "notes": "考场判断法：① 看宾语：parts / frame / machine / model → 「组装、装配」；a team / a committee / a working group → 「组建、召集」；evidence / data / information → 「收集、汇总」；② 主语是一群人、句子讲「大家聚到某个地方」（The students assembled in the hall）→ 才是「集合、聚集」；讲「把人力组织起来」时是「组建」，不是「集合」；③ 讲实物拼装的句子多用被动或完成时（has been fully assembled / is assembled by hand）；④ assemble 比 gather 更强调「拼成一个整体」，写作里组建团队用 assemble a team。",
+  "quiz_ids": []
+ },
+ {
+  "id": "w_assign",
+  "headword": "assign",
+  "ipa": "/əˈsaɪn/",
+  "level": "T2",
+  "pos": [
+   "v"
+  ],
+  "strategies": [
+   "P2",
+   "P4",
+   "P8"
+  ],
+  "carriers": [
+   "C1",
+   "C2",
+   "C4"
+  ],
+  "senses": [
+   {
+    "sense_id": "s_assign_v_allocate",
+    "text": "分配、分派（任务、房间、经费）",
+    "sense_level": "S1",
+    "error_mech": [],
+    "is_trap": false,
+    "trap_of": [],
+    "example": {
+     "en": "The teacher assigned each student a different topic so that the final report would cover more ground.",
+     "zh": "老师给每个学生分了不同的题目，好让最终的报告涵盖更广的内容。",
+     "source": "仿真例句 · 高考阅读课堂与任务类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "assign a task",
+     "assign a room",
+     "assign a budget",
+     "assign roles"
+    ]
+   },
+   {
+    "sense_id": "s_assign_v_appoint",
+    "text": "指派、委派（某人担任某职、做某事）",
+    "sense_level": "S2",
+    "error_mech": [
+     "E1",
+     "E2"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "分配、分派（任务、房间、经费）"
+    ],
+    "example": {
+     "en": "The head coach assigned two experienced players to lead the younger team this season.",
+     "zh": "主教练指派了两名经验丰富的球员本赛季带领年轻队。",
+     "source": "仿真例句 · 高考阅读体育与团队类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "assign sb to a task",
+     "assign sb to lead",
+     "assign a teacher to a class",
+     "assign sb a duty"
+    ]
+   },
+   {
+    "sense_id": "s_assign_v_set_work",
+    "text": "布置（作业、任务、阅读材料）",
+    "sense_level": "S3",
+    "error_mech": [
+     "E1",
+     "E4"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "分配、分派（任务、房间、经费）"
+    ],
+    "example": {
+     "en": "The teacher assigned a short writing task for the weekend and collected the results on Monday.",
+     "zh": "老师布置了一个周末的短写作任务，并在周一收齐了结果。",
+     "source": "仿真例句 · 高考阅读校园与学习类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "assign homework",
+     "assign a writing task",
+     "assign work",
+     "assign reading"
+    ]
+   },
+   {
+    "sense_id": "s_assign_v_blame",
+    "text": "把…归因于、把责任归于",
+    "sense_level": "S3",
+    "error_mech": [
+     "E1",
+     "E6"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "分配、分派（任务、房间、经费）"
+    ],
+    "example": {
+     "en": "Few readers would assign the rise in online shopping to any single cause.",
+     "zh": "很少有读者会把网购的兴起归因于某一种单一原因。",
+     "source": "仿真例句 · 高考阅读评论与归因类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "assign the blame",
+     "assign a cause",
+     "assign responsibility to sb",
+     "assign the rise to"
+    ]
+   }
+  ],
+  "confusable": [
+   "assist",
+   "assess",
+   "resign",
+   "associate"
+  ],
+  "word_family": [
+   "assign",
+   "assignment",
+   "assignable",
+   "reassign"
+  ],
+  "notes": "考场判断法：① 先看宾语是「物」还是「人」：物（tasks / rooms / time / money）→ 「分配」；人（a teacher / him / two players）→ 「指派、委派」；② 宾语是「作业、任务、阅读材料」→ 「布置」；③ 宾语是 cause / blame / responsibility → 「把…归因于、把责任归于」，这是学术评论里的高频用法；④ 固定语序：assign sth to sb（把事派给人）与 assign sb to sth（把人派到事上）方向相反，介词决定谁给谁，不能互换。",
+  "quiz_ids": []
+ },
+ {
+  "id": "w_captain",
+  "headword": "captain",
+  "ipa": "/ˈkæptɪn/",
+  "level": "T2",
+  "pos": [
+   "n"
+  ],
+  "strategies": [
+   "P2",
+   "P4",
+   "P8"
+  ],
+  "carriers": [
+   "C1",
+   "C2",
+   "C4"
+  ],
+  "senses": [
+   {
+    "sense_id": "s_captain_n_team_leader",
+    "text": "队长（球队、班级的领头人）",
+    "sense_level": "S1",
+    "error_mech": [],
+    "is_trap": false,
+    "trap_of": [],
+    "example": {
+     "en": "The captain of the school basketball team practised with the newcomers every Monday afternoon.",
+     "zh": "校篮球队队长每周一下午都和新队员一起训练。",
+     "source": "仿真例句 · 高考阅读体育与校园类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "team captain",
+     "the captain of the team",
+     "captain the side",
+     "a national captain"
+    ]
+   },
+   {
+    "sense_id": "s_captain_n_ship_master",
+    "text": "船长（船上负责人）",
+    "sense_level": "S2",
+    "error_mech": [
+     "E1",
+     "E2"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "队长（球队、班级的领头人）"
+    ],
+    "example": {
+     "en": "The captain of the fishing boat decided to turn back when the waves grew higher than usual.",
+     "zh": "渔船船长见海浪比往常更高，决定掉头返航。",
+     "source": "仿真例句 · 高考阅读海洋与职业类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "the captain of the ship",
+     "a ship captain",
+     "captain the vessel",
+     "captain and crew"
+    ]
+   },
+   {
+    "sense_id": "s_captain_n_pilot",
+    "text": "机长（飞机驾驶员）",
+    "sense_level": "S3",
+    "error_mech": [
+     "E1",
+     "E2"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "队长（球队、班级的领头人）",
+     "船长（船上负责人）"
+    ],
+    "example": {
+     "en": "The flight captain explained that the landing had been delayed by strong winds near the airport.",
+     "zh": "机长解释说，起降延误是由于机场附近风力强劲。",
+     "source": "仿真例句 · 高考阅读交通与职业类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "the flight captain",
+     "captain of the plane",
+     "captain the aircraft",
+     "an experienced captain"
+    ]
+   },
+   {
+    "sense_id": "s_captain_n_leader",
+    "text": "行业领军人物、领头人",
+    "sense_level": "S3",
+    "error_mech": [
+     "E1",
+     "E6"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "队长（球队、班级的领头人）"
+    ],
+    "example": {
+     "en": "Known as a captain of the industry, he guided the company through years of difficulty.",
+     "zh": "他被称为业界领军人物，带领公司度过了多年的难关。",
+     "source": "仿真例句 · 高考阅读人物与人物评价类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "captain of industry",
+     "a captain of industry",
+     "the captain of a ship",
+     "captain the team"
+    ]
+   }
+  ],
+  "confusable": [
+   "capable",
+   "capture",
+   "chaplain",
+   "cap"
+  ],
+  "word_family": [
+   "captain",
+   "captaincy",
+   "captainship"
+  ],
+  "notes": "考场判断法：① 先找场景线索：跟着 team / side / players / squad → 运动队队长；跟着 ship / vessel / boat / crew → 船长；跟着 plane / flight / cockpit → 机长；② 看到 a fishing boat、a cargo ship 这类船只词，直接锁定船长义，不要一律读成「队长」；③ 看到 flight / cockpit / landing 语境就是机长；④ 句首大写的 Captain 作称呼时是对船长的尊称，不表示能力高低。",
+  "quiz_ids": []
+ },
+ {
+  "id": "w_conflict",
+  "headword": "conflict",
+  "ipa": "/ˈkɒnflɪkt/",
+  "level": "T2",
+  "pos": [
+   "n",
+   "v",
+   "phrase"
+  ],
+  "strategies": [
+   "P2",
+   "P4",
+   "P8"
+  ],
+  "carriers": [
+   "C1",
+   "C2",
+   "C4"
+  ],
+  "senses": [
+   {
+    "sense_id": "s_conflict_n_dispute",
+    "text": "冲突、争执（武装冲突、双方对立）",
+    "sense_level": "S1",
+    "error_mech": [],
+    "is_trap": false,
+    "trap_of": [],
+    "example": {
+     "en": "The two regions have been in conflict for years, and peace talks have been held several times.",
+     "zh": "这两个地区冲突多年，和平谈判已经举行过多次。",
+     "source": "仿真例句 · 高考阅读社会与历史类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "armed conflict",
+     "a conflict between",
+     "come into conflict",
+     "a local conflict"
+    ]
+   },
+   {
+    "sense_id": "s_conflict_n_inconsistency",
+    "text": "矛盾、分歧（两种说法、证据之间）",
+    "sense_level": "S2",
+    "error_mech": [
+     "E1",
+     "E2"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "冲突、争执（武装冲突、双方对立）"
+    ],
+    "example": {
+     "en": "There is a clear conflict between the two accounts of what happened that evening.",
+     "zh": "关于那天晚上发生了什么，两种说法之间存在明显矛盾。",
+     "source": "仿真例句 · 高考阅读证据与推理类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "a conflict between accounts",
+     "a conflict of evidence",
+     "an internal conflict",
+     "conflicting versions"
+    ]
+   },
+   {
+    "sense_id": "s_conflict_v_clash",
+    "text": "抵触、互不相容（conflict with）",
+    "sense_level": "S3",
+    "error_mech": [
+     "E1",
+     "E5"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "冲突、争执（武装冲突、双方对立）"
+    ],
+    "example": {
+     "en": "These two accounts of the same event conflict with each other in several important details.",
+     "zh": "关于同一事件的这两份说法在几个关键细节上互相抵触。",
+     "source": "仿真例句 · 高考阅读比对与论证类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "conflict with",
+     "directly conflict",
+     "the two versions conflict",
+     "conflict with one's interests"
+    ]
+   },
+   {
+    "sense_id": "s_conflict_phrase_conflict_of_interest",
+    "text": "（a conflict of interest）利益冲突",
+    "sense_level": "S4",
+    "error_mech": [
+     "E4",
+     "E10"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "冲突、争执（武装冲突、双方对立）"
+    ],
+    "example": {
+     "en": "The official stepped down after it was reported that she faced a conflict of interest in awarding the contract.",
+     "zh": "有报道称她在授予合同一事上面临利益冲突后，这位官员辞去了职务。",
+     "source": "仿真例句 · 高考阅读社会与诚信类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "a conflict of interest",
+     "be in a conflict of interest",
+     "a potential conflict of interest",
+     "without any conflict of interest"
+    ]
+   }
+  ],
+  "confusable": [
+   "confuse",
+   "friction",
+   "dispute",
+   "conflicting"
+  ],
+  "word_family": [
+   "conflict",
+   "conflicting",
+   "conflicted",
+   "conflictive"
+  ],
+  "notes": "考场判断法：① 先看是名词还是动词：动词 conflict 后面几乎必跟 with（conflict with），意思是「与…抵触、不相容」；② 名词看宾语：a conflict between two sides / armed conflict → 冲突、战争；a conflict between two accounts / a conflict of evidence → 矛盾、分歧，译成「两说互相矛盾」而不是「战争」；③ a conflict of interest 必须整块背，译「利益冲突」，不能拆开逐字译；④ 阅读里主语常是 evidence / statements / versions，这时 conflict 一律是「矛盾」，不是「争执」。",
+  "quiz_ids": []
+ },
+ {
+  "id": "w_defeat",
+  "headword": "defeat",
+  "ipa": "/dɪˈfi:t/",
+  "level": "T2",
+  "pos": [
+   "v",
+   "n",
+   "phrase"
+  ],
+  "strategies": [
+   "P2",
+   "P4",
+   "P8"
+  ],
+  "carriers": [
+   "C1",
+   "C2",
+   "C4"
+  ],
+  "senses": [
+   {
+    "sense_id": "s_defeat_v_beat",
+    "text": "击败、战胜（对手、队伍）",
+    "sense_level": "S1",
+    "error_mech": [],
+    "is_trap": false,
+    "trap_of": [],
+    "example": {
+     "en": "The visitors defeated the home team in the last minute of a closely fought match.",
+     "zh": "在一场势均力敌的比赛最后一分钟，客队击败了主队。",
+     "source": "仿真例句 · 高考阅读体育与赛事类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "defeat sb",
+     "defeat the enemy",
+     "defeat the champions",
+     "defeat a team"
+    ]
+   },
+   {
+    "sense_id": "s_defeat_n_loss",
+    "text": "失败、败北（一场败仗）",
+    "sense_level": "S2",
+    "error_mech": [
+     "E1",
+     "E5"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "击败、战胜（对手、队伍）"
+    ],
+    "example": {
+     "en": "The defeat was painful, but the players still believed they had a chance next season.",
+     "zh": "这场失败令人痛苦，但队员们仍相信下个赛季还有机会。",
+     "source": "仿真例句 · 高考记叙与体育精神类高频句式",
+     "carrier": "C5"
+    },
+    "collocations": [
+     "a heavy defeat",
+     "suffer a defeat",
+     "a crushing defeat",
+     "the defeat of the team"
+    ]
+   },
+   {
+    "sense_id": "s_defeat_v_frustrate",
+    "text": "使（希望、计划）落空、挫败（努力）",
+    "sense_level": "S3",
+    "error_mech": [
+     "E1",
+     "E6"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "击败、战胜（对手、队伍）"
+    ],
+    "example": {
+     "en": "A series of delays defeated all our plans for finishing the work before the holiday.",
+     "zh": "一连串延误让我们假期前完成工作的计划全部落空。",
+     "source": "仿真例句 · 高考阅读计划与结果类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "defeat the purpose",
+     "defeat one's hopes",
+     "defeat their efforts",
+     "defeat expectations"
+    ]
+   },
+   {
+    "sense_id": "s_defeat_phrase_be_defeated_by",
+    "text": "（be defeated by）被…击败",
+    "sense_level": "S4",
+    "error_mech": [
+     "E4",
+     "E5"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "失败、败北（一场败仗）"
+    ],
+    "example": {
+     "en": "The champion was defeated by a young player who had never won a professional match.",
+     "zh": "这位冠军被一名从未赢过职业比赛的年轻选手击败。",
+     "source": "仿真例句 · 高考阅读体育与人物类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "be defeated by",
+     "be narrowly defeated",
+     "be defeated in the final",
+     "be easily defeated"
+    ]
+   }
+  ],
+  "confusable": [
+   "defect",
+   "defend",
+   "defective",
+   "defeatist"
+  ],
+  "word_family": [
+   "defeat",
+   "defeated",
+   "defeater",
+   "defeatism"
+  ],
+  "notes": "考场判断法：① 先看是动词还是名词：动词 defeat 后面直接跟被击败的对象（they defeated their rivals）→ 「击败」；名词 a defeat / suffer a defeat → 「失败、败北」；② 宾语是 hope / plan / purpose / expectations → 「使落空、使破灭」，不是「击败」；③ 被动式 be defeated by 后面接对手，be defeated in 后面接比赛项目（They were defeated in the final），两个介词指向不同，别混；④ 注意 defeated 还能作形容词（a defeated team 被击败的队伍），语法填空考变形时不要写成 defeat。",
+  "quiz_ids": []
+ },
+ {
+  "id": "w_dominate",
+  "headword": "dominate",
+  "ipa": "/ˈdɒmɪneɪt/",
+  "level": "T2",
+  "pos": [
+   "v",
+   "adj"
+  ],
+  "strategies": [
+   "P2",
+   "P4",
+   "P6"
+  ],
+  "carriers": [
+   "C1",
+   "C2",
+   "C3"
+  ],
+  "senses": [
+   {
+    "sense_id": "s_dominate_v_lead",
+    "text": "主导、支配（占据主导地位、控制局面）",
+    "sense_level": "S1",
+    "error_mech": [],
+    "is_trap": false,
+    "trap_of": [],
+    "example": {
+     "en": "A few large companies dominate the market, leaving small shops very little room to grow.",
+     "zh": "少数几家大公司主导着市场，留给小店的发展空间很小。",
+     "source": "仿真例句 · 高考阅读经济与市场类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "dominate the market",
+     "dominate the industry",
+     "dominate the discussion",
+     "dominate the landscape"
+    ]
+   },
+   {
+    "sense_id": "s_dominate_adj_dominant",
+    "text": "占主导地位的、居首位的（多写作 dominant）",
+    "sense_level": "S2",
+    "error_mech": [
+     "E5",
+     "E1"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "主导、支配（占据主导地位、控制局面）"
+    ],
+    "example": {
+     "en": "Protecting the dominant species is essential if the whole ecosystem is to survive.",
+     "zh": "要保护整个生态系统得以存活，保护占主导地位的物种至关重要。",
+     "source": "仿真例句 · 高考语法填空词形转换高频句式",
+     "carrier": "C3"
+    },
+    "collocations": [
+     "a dominant position",
+     "a dominant role",
+     "the dominant force",
+     "play a dominant part"
+    ]
+   },
+   {
+    "sense_id": "s_dominate_v_overlook",
+    "text": "俯瞰、居高临下（城堡、山川）",
+    "sense_level": "S3",
+    "error_mech": [
+     "E1",
+     "E6"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "主导、支配（占据主导地位、控制局面）"
+    ],
+    "example": {
+     "en": "The old stone tower dominates the whole valley and can be seen from miles away.",
+     "zh": "这座古老石塔俯瞰整个山谷，几英里外都能看见。",
+     "source": "仿真例句 · 高考阅读自然与风光类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "dominate the valley",
+     "dominate the skyline",
+     "dominate the view",
+     "a castle dominating the town"
+    ]
+   },
+   {
+    "sense_id": "s_dominate_v_control_mind",
+    "text": "支配、左右（心思、情绪）",
+    "sense_level": "S3",
+    "error_mech": [
+     "E1",
+     "E8"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "主导、支配（占据主导地位、控制局面）"
+    ],
+    "example": {
+     "en": "Anxiety dominated his thoughts throughout the long night before the final exam.",
+     "zh": "最终考试前漫长的一夜，焦虑一直左右着他的思绪。",
+     "source": "仿真例句 · 高考阅读人物与心理类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "dominated by fear",
+     "dominate his thoughts",
+     "dominated by anxiety",
+     "dominate the mood"
+    ]
+   }
+  ],
+  "confusable": [
+   "domestic",
+   "demonstrate",
+   "donate",
+   "nominate"
+  ],
+  "word_family": [
+   "dominate",
+   "dominant",
+   "dominance",
+   "predominant"
+  ],
+  "notes": "考场判断法：① 先分词性：动词 dominate 后面必须带宾语（the market / the discussion），形容词放在名词前（a dominant position）；语法填空里看到 ___ position / ___ role 要填 dominant，不能填 dominate；② 宾语是「行业、市场、话题、局面」→ 「主导、支配」；宾语是「城堡、山脉、建筑物」且有从高处看的画面 → 「俯瞰、居高临下」；③ 宾语是心思、情绪（dominated by anxiety）→ 「支配、左右」；④ 写作里说「某公司主导市场」用 dominate the market，比 control the market 更贴高考语料。",
+  "quiz_ids": []
+ },
+ {
+  "id": "w_elegant",
+  "headword": "elegant",
+  "ipa": "/ˈelɪgənt/",
+  "level": "T2",
+  "pos": [
+   "adj"
+  ],
+  "strategies": [
+   "P2",
+   "P4",
+   "P8"
+  ],
+  "carriers": [
+   "C1",
+   "C2",
+   "C4"
+  ],
+  "senses": [
+   {
+    "sense_id": "s_elegant_adj_graceful",
+    "text": "优雅得体、有教养的（举止、风度）",
+    "sense_level": "S1",
+    "error_mech": [],
+    "is_trap": false,
+    "trap_of": [],
+    "example": {
+     "en": "She greeted the guests with an elegant nod that put everyone at ease.",
+     "zh": "她以优雅的点头向客人致意，让每个人都放松下来。",
+     "source": "仿真例句 · 高考阅读人物与举止类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "an elegant manner",
+     "an elegant woman",
+     "elegant behaviour",
+     "an elegant bow"
+    ]
+   },
+   {
+    "sense_id": "s_elegant_adj_smart",
+    "text": "简洁巧妙的（方案、思路、论证）",
+    "sense_level": "S2",
+    "error_mech": [
+     "E1",
+     "E2"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "优雅得体、有教养的（举止、风度）"
+    ],
+    "example": {
+     "en": "The teacher praised the student for an elegant solution that solved the problem in three steps.",
+     "zh": "老师称赞这名学生，因为他的方案巧妙简洁，三步就解决了问题。",
+     "source": "仿真例句 · 高考阅读教育与评价类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "an elegant solution",
+     "an elegant argument",
+     "an elegant proof",
+     "an elegant approach"
+    ]
+   },
+   {
+    "sense_id": "s_elegant_adj_refined",
+    "text": "雅致考究的（服饰、建筑、器物）",
+    "sense_level": "S3",
+    "error_mech": [
+     "E1",
+     "E2"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "优雅得体、有教养的（举止、风度）"
+    ],
+    "example": {
+     "en": "The hall was filled with elegant furniture and tall windows looking out over the lake.",
+     "zh": "大厅里摆满了雅致考究的家具，高高的窗户望出去就是湖面。",
+     "source": "仿真例句 · 高考阅读文化与空间类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "elegant furniture",
+     "an elegant design",
+     "elegant decorations",
+     "an elegant dress"
+    ]
+   },
+   {
+    "sense_id": "s_elegant_adj_writing",
+    "text": "文笔优美、措辞凝练的（文章、语言）",
+    "sense_level": "S3",
+    "error_mech": [
+     "E1",
+     "E6"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "雅致考究的（服饰、建筑、器物）"
+    ],
+    "example": {
+     "en": "His elegant description of the small village won praise from the editors.",
+     "zh": "他对那个小村庄优美的描述赢得了编辑们的称赞。",
+     "source": "仿真例句 · 高考阅读写作与评论类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "elegant writing",
+     "elegant wording",
+     "an elegant style",
+     "elegant prose"
+    ]
+   }
+  ],
+  "confusable": [
+   "eligible",
+   "graceful",
+   "grand",
+   "elegy"
+  ],
+  "word_family": [
+   "elegant",
+   "elegance",
+   "elegantly",
+   "inelegant"
+  ],
+  "notes": "考场判断法：① 先看被修饰的是什么：修饰人、举止、动作（an elegant woman / an elegant manner）→ 「优雅得体的」；修饰方案、思路、证明（an elegant solution / an elegant argument）→ 「简洁巧妙的」，高考里 elegant solution 就是「巧妙的办法」，不能只译成「漂亮的」；② 修饰服饰、家具、建筑（elegant furniture / an elegant design）→ 「雅致考究的」；③ 修饰文章、措辞（elegant writing / elegant wording）→ 「文笔优美、凝练的」；④ elegant 只能修饰「美而巧」的事物，用来形容笨拙、粗糙的方案在英语里不成立。",
+  "quiz_ids": []
+ },
+ {
+  "id": "w_emerge",
+  "headword": "emerge",
+  "ipa": "/iˈmɜ:dʒ/",
+  "level": "T2",
+  "pos": [
+   "v",
+   "phrase"
+  ],
+  "strategies": [
+   "P2",
+   "P4",
+   "P8"
+  ],
+  "carriers": [
+   "C1",
+   "C2",
+   "C3"
+  ],
+  "senses": [
+   {
+    "sense_id": "s_emerge_v_appear",
+    "text": "出现、显露（人或物现出来）",
+    "sense_level": "S1",
+    "error_mech": [],
+    "is_trap": false,
+    "trap_of": [],
+    "example": {
+     "en": "A narrow path emerged from the grass and led towards the top of the hill.",
+     "zh": "一条窄窄的小路从草丛中显现出来，通向山顶。",
+     "source": "仿真例句 · 高考阅读自然与写景类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "emerge from the darkness",
+     "emerge from the sea",
+     "emerge from the ruins",
+     "emerge into view"
+    ]
+   },
+   {
+    "sense_id": "s_emerge_v_surface",
+    "text": "浮现、显露出来（真相、迹象、趋势）",
+    "sense_level": "S2",
+    "error_mech": [
+     "E1",
+     "E2"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "出现、显露（人或物现出来）"
+    ],
+    "example": {
+     "en": "As more data came in, a clear pattern emerged that surprised the whole research team.",
+     "zh": "随着更多数据到手，一个清晰的模式浮现出来，令整个研究团队都很惊讶。",
+     "source": "仿真例句 · 高考阅读科研与数据类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "a pattern emerges",
+     "the truth emerges",
+     "evidence emerged",
+     "a trend emerges"
+    ]
+   },
+   {
+    "sense_id": "s_emerge_v_rise",
+    "text": "崭露头角、最终胜出（emerge as）",
+    "sense_level": "S3",
+    "error_mech": [
+     "E1",
+     "E6"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "出现、显露（人或物现出来）"
+    ],
+    "example": {
+     "en": "She emerged as the strongest candidate after the final round of the interview.",
+     "zh": "最后一轮面试结束后，她成为最有力的候选人。",
+     "source": "仿真例句 · 高考阅读人物与选拔类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "emerge as the winner",
+     "emerge as a leader",
+     "emerge as the top choice",
+     "emerge from the competition"
+    ]
+   },
+   {
+    "sense_id": "s_emerge_phrase_emerge_from",
+    "text": "（emerge from）从…中显现；摆脱…出来",
+    "sense_level": "S4",
+    "error_mech": [
+     "E4",
+     "E6"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "出现、显露（人或物现出来）"
+    ],
+    "example": {
+     "en": "The city slowly emerged from a long period of decline after the new policy took effect.",
+     "zh": "新政策生效后，这座城市慢慢从长期的萧条中走了出来。",
+     "source": "仿真例句 · 高考阅读社会与发展类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "emerge from a crisis",
+     "emerge from the darkness",
+     "emerge from the ruins",
+     "emerge from the sea"
+    ]
+   }
+  ],
+  "confusable": [
+   "merge",
+   "immerse",
+   "submerge",
+   "emergency"
+  ],
+  "word_family": [
+   "emerge",
+   "emergent",
+   "emergence",
+   "emergency"
+  ],
+  "notes": "考场判断法：① 先看后面有没有 from：emerge from + 出处（the sea / the darkness / the ruins）→ 「从…中显现」；emerge from + 困境（emerge from a crisis / a difficult period）→ 「摆脱、走出来」；② 主语是抽象事物（a pattern / a trend / evidence / the truth emerges）→ 「浮现、显露出来」，不是「从暗处走出」；③ 看到 emerge as + 身份（emerge as the winner / emerge as a leader）→ 「崭露头角、最终成为」，as 后面一定接身份或角色；④ emerge 是不及物动词，中间不能夹宾语，不能写 emerge sth。",
+  "quiz_ids": []
+ },
+ {
+  "id": "w_facilitate",
+  "headword": "facilitate",
+  "ipa": "/fəˈsɪlɪteɪt/",
+  "level": "T2",
+  "pos": [
+   "v",
+   "phrase"
+  ],
+  "strategies": [
+   "P2",
+   "P4",
+   "P6"
+  ],
+  "carriers": [
+   "C1",
+   "C2",
+   "C3"
+  ],
+  "senses": [
+   {
+    "sense_id": "s_facilitate_v_promote",
+    "text": "促进、推动（沟通、协作的展开）",
+    "sense_level": "S1",
+    "error_mech": [],
+    "is_trap": false,
+    "trap_of": [],
+    "example": {
+     "en": "Small group discussions can facilitate communication between students who rarely meet otherwise.",
+     "zh": "小组讨论能促进那些平时很少见面的学生之间的交流。",
+     "source": "仿真例句 · 高考阅读教育与交流类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "facilitate communication",
+     "facilitate cooperation",
+     "facilitate the process",
+     "facilitate the transition"
+    ]
+   },
+   {
+    "sense_id": "s_facilitate_v_make_easier",
+    "text": "使…更方便、更顺手（把事做起来更容易）",
+    "sense_level": "S2",
+    "error_mech": [
+     "E1",
+     "E2"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "促进、推动（沟通、协作的展开）"
+    ],
+    "example": {
+     "en": "The new design facilitates the flow of traffic through the narrow market street.",
+     "zh": "新设计使车流在这条狭窄的市街上更顺畅。",
+     "source": "仿真例句 · 高考阅读城市与交通类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "facilitate access",
+     "facilitate the flow of",
+     "facilitate the exchange of",
+     "greatly facilitates"
+    ]
+   },
+   {
+    "sense_id": "s_facilitate_v_help_person",
+    "text": "帮（某人）做得更容易（facilitate sb's work）",
+    "sense_level": "S3",
+    "error_mech": [
+     "E1",
+     "E6"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "促进、推动（沟通、协作的展开）"
+    ],
+    "example": {
+     "en": "Digital notes greatly facilitate the work of teachers who prepare lessons for large classes.",
+     "zh": "数字化笔记极大地便利了为大批量班级备课的教师的工作。",
+     "source": "仿真例句 · 高考阅读教师与教学类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "facilitate sb's work",
+     "facilitate communication with patients",
+     "facilitate learning",
+     "facilitate research"
+    ]
+   },
+   {
+    "sense_id": "s_facilitate_phrase_doing",
+    "text": "（facilitate doing）后面只能接动名词",
+    "sense_level": "S4",
+    "error_mech": [
+     "E4",
+     "E5"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "促进、推动（沟通、协作的展开）"
+    ],
+    "example": {
+     "en": "The course is designed to facilitate the writing of clear academic reports.",
+     "zh": "这门课程旨在让学术报告写得更加清晰明了。",
+     "source": "仿真例句 · 高考阅读课程与写作类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "facilitate doing sth",
+     "facilitate sb's doing sth",
+     "to facilitate the exchange",
+     "facilitate communication"
+    ]
+   }
+  ],
+  "confusable": [
+   "facility",
+   "facile",
+   "fabricate",
+   "fascinate"
+  ],
+  "word_family": [
+   "facilitate",
+   "facilitation",
+   "facility",
+   "facile"
+  ],
+  "notes": "考场判断法：① 看宾语：抽象进程（communication / cooperation / integration / growth）→ 「促进、推动」；具体的事（access / the flow of traffic / the exchange of information）→ 「使…更方便、更顺畅」；人（facilitate sb's work）→ 「让某人做起来更容易」；② 结构上后面只能跟动名词：facilitate communication 是对的，facilitate sb to communicate 是错的，要表达「帮某人做」就写 facilitate sb's doing；③ 看到 facilitate 后面接名词而不是 doing，先问自己「这件事是不是变得更顺手了」；④ 写作里说「促进交流」用 facilitate communication，比 promote communication 更贴语境。",
+  "quiz_ids": []
+ },
+ {
+  "id": "w_nation",
+  "headword": "nation",
+  "ipa": "/ˈneɪʃn/",
+  "level": "T2",
+  "pos": [
+   "n",
+   "phrase"
+  ],
+  "strategies": [
+   "P2",
+   "P4",
+   "P6"
+  ],
+  "carriers": [
+   "C1",
+   "C2",
+   "C4"
+  ],
+  "senses": [
+   {
+    "sense_id": "s_nation_n_country",
+    "text": "国家（政治意义上的独立国家）",
+    "sense_level": "S1",
+    "error_mech": [],
+    "is_trap": false,
+    "trap_of": [],
+    "example": {
+     "en": "The island nation depends heavily on fishing and on the few tourists who arrive by boat.",
+     "zh": "这个岛国严重依赖渔业，以及乘船到来的少数游客。",
+     "source": "仿真例句 · 高考阅读地理与经济类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "a developed nation",
+     "an island nation",
+     "a wealthy nation",
+     "the whole nation"
+    ]
+   },
+   {
+    "sense_id": "s_nation_n_people",
+    "text": "民族（共享身份与文化的人群）",
+    "sense_level": "S2",
+    "error_mech": [
+     "E1",
+     "E2"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "国家（政治意义上的独立国家）"
+    ],
+    "example": {
+     "en": "The country is home to a nation of skilled craftsmen whose craft has been handed down for generations.",
+     "zh": "这个国家生活着一群手艺精湛的工匠，他们的手艺代代相传。",
+     "source": "仿真例句 · 高考阅读文化与传统类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "a nation of readers",
+     "a proud nation",
+     "the whole nation",
+     "one nation"
+    ]
+   },
+   {
+    "sense_id": "s_nation_n_citizens",
+    "text": "国民、民众（the nation 指全体国民）",
+    "sense_level": "S3",
+    "error_mech": [
+     "E1",
+     "E5"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "国家（政治意义上的独立国家）"
+    ],
+    "example": {
+     "en": "The government hopes that the whole nation will take part in the clean-up campaign.",
+     "zh": "政府希望全国人民都参加这次清洁行动。",
+     "source": "仿真例句 · 高考阅读环保与公共事务类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "the nation as a whole",
+     "the whole nation",
+     "the nation should",
+     "serve the nation"
+    ]
+   },
+   {
+    "sense_id": "s_nation_phrase_united_nations",
+    "text": "（the United Nations）联合国",
+    "sense_level": "S4",
+    "error_mech": [
+     "E4",
+     "E10"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "国家（政治意义上的独立国家）"
+    ],
+    "example": {
+     "en": "The United Nations has called on governments to protect the rights of children in crisis areas.",
+     "zh": "联合国呼吁各国政府保护危机地区儿童的权利。",
+     "source": "仿真例句 · 高考阅读国际与组织类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "the United Nations",
+     "a United Nations report",
+     "United Nations officials",
+     "under the United Nations"
+    ]
+   }
+  ],
+  "confusable": [
+   "national",
+   "nature",
+   "native",
+   "nationwide"
+  ],
+  "word_family": [
+   "nation",
+   "national",
+   "nationwide",
+   "international"
+  ],
+  "notes": "考场判断法：① 先看后置修饰：修饰国家、地理（an island nation / a wealthy nation）→ 「国家」；修饰人群、共同身份（a nation of readers / a proud nation）→ 「民族、群体」；② the nation 单独作主语时指「全国国民」，译成「全国人民」，不要译成「这个国家」；③ 看到 United Nations 必须整块记，译「联合国」，是大写专名，不是「联合的国家们」；④ country 侧重国土与政权，nation 侧重「有共同身份与文化的人群」，所以一个国家可以是一个不大的民族。",
+  "quiz_ids": []
+ },
+ {
+  "id": "w_reform",
+  "headword": "reform",
+  "ipa": "/rɪˈfɔ:m/",
+  "level": "T2",
+  "pos": [
+   "v",
+   "n",
+   "phrase"
+  ],
+  "strategies": [
+   "P2",
+   "P4",
+   "P8"
+  ],
+  "carriers": [
+   "C1",
+   "C2",
+   "C4"
+  ],
+  "senses": [
+   {
+    "sense_id": "s_reform_v_change_system",
+    "text": "改革、变革（制度、教育、系统）",
+    "sense_level": "S1",
+    "error_mech": [],
+    "is_trap": false,
+    "trap_of": [],
+    "example": {
+     "en": "The school decided to reform its timetable so that every student could choose at least two activities.",
+     "zh": "学校决定改革课程表，以便每个学生都能至少选择两项活动。",
+     "source": "仿真例句 · 高考阅读教育与制度类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "reform the system",
+     "reform education",
+     "reform the tax system",
+     "reform and modernize"
+    ]
+   },
+   {
+    "sense_id": "s_reform_n_change",
+    "text": "改革（名词用法；一项改革措施）",
+    "sense_level": "S2",
+    "error_mech": [
+     "E5",
+     "E1"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "改革、变革（制度、教育、系统）"
+    ],
+    "example": {
+     "en": "The new plan is a serious reform that will change the way the service is delivered.",
+     "zh": "新方案是一项重大改革，将会改变服务的提供方式。",
+     "source": "仿真例句 · 高考阅读政策与社会类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "a major reform",
+     "the reform of",
+     "carry out reform",
+     "economic reform"
+    ]
+   },
+   {
+    "sense_id": "s_reform_v_correct",
+    "text": "改正、纠正（坏习惯、错误做法）",
+    "sense_level": "S3",
+    "error_mech": [
+     "E1",
+     "E6"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "改革、变革（制度、教育、系统）"
+    ],
+    "example": {
+     "en": "The young man tried hard to reform his ways before the court agreed to let him go.",
+     "zh": "在法庭同意放他走之前，这年轻人努力改过自新。",
+     "source": "仿真例句 · 高考记叙与人物转变类高频句式",
+     "carrier": "C5"
+    },
+    "collocations": [
+     "reform oneself",
+     "reform one's ways",
+     "reform bad habits",
+     "reform the bad habits"
+    ]
+   },
+   {
+    "sense_id": "s_reform_phrase_reform_and_opening_up",
+    "text": "（reform and opening-up）改革开放",
+    "sense_level": "S4",
+    "error_mech": [
+     "E4",
+     "E10"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "改革、变革（制度、教育、系统）"
+    ],
+    "example": {
+     "en": "Reform and opening-up has brought new choices to people in the small coastal towns as well.",
+     "zh": "改革开放也给沿海小城镇的人们带来了新的选择。",
+     "source": "仿真例句 · 高考写作与中国发展类高频句式",
+     "carrier": "C4"
+    },
+    "collocations": [
+     "reform and opening-up",
+     "since reform and opening-up",
+     "China's reform and opening-up",
+     "the reform and opening-up process"
+    ]
+   }
+  ],
+  "confusable": [
+   "conform",
+   "inform",
+   "perform",
+   "refine"
+  ],
+  "word_family": [
+   "reform",
+   "reformer",
+   "reformation",
+   "reformatory"
+  ],
+  "notes": "考场判断法：① 先看它是动词还是名词：动词后面直接跟宾语（reform the system / reform education）→ 「改革、变革」；名词前面有 the / a / major（a major reform / the reform）→ 「改革（措施）」；② 看宾语是什么：制度、学校、体制、工资 → 「改革、变革」；自己的坏习惯、错误做法、处世方式 → 「改正、矫正」，这一处最容易被误判；③ 看到 Reform and Opening-up 要整块背，译「改革开放」；④ 写作里说「改革某项制度」用 reform the system，比 change the system 更贴高考语料。",
+  "quiz_ids": []
+ },
+ {
+  "id": "w_category",
+  "headword": "category",
+  "ipa": "/ˈkætəgəri/",
+  "level": "T2",
+  "pos": [
+   "n",
+   "phrase"
+  ],
+  "strategies": [
+   "P2",
+   "P4",
+   "P8"
+  ],
+  "carriers": [
+   "C1",
+   "C2",
+   "C3"
+  ],
+  "senses": [
+   {
+    "sense_id": "s_category_n_class",
+    "text": "类别、门类（对事物的划分）",
+    "sense_level": "S1",
+    "error_mech": [],
+    "is_trap": false,
+    "trap_of": [],
+    "example": {
+     "en": "The report divides the waste into four categories, each of which can be recycled in a different way.",
+     "zh": "这份报告把废弃物分成四类，每一类都可以用不同的方式回收。",
+     "source": "仿真例句 · 高考阅读数据与分类类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "a category of",
+     "four categories of",
+     "one broad category",
+     "classified into categories"
+    ]
+   },
+   {
+    "sense_id": "s_category_n_grade",
+    "text": "级别、档次（按高低排出的等次）",
+    "sense_level": "S2",
+    "error_mech": [
+     "E1",
+     "E2"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "类别、门类（对事物的划分）"
+    ],
+    "example": {
+     "en": "The two designs are in completely different price categories, so they cannot be compared directly.",
+     "zh": "这两种设计完全处于不同的价格档次，因此无法直接比较。",
+     "source": "仿真例句 · 高考阅读经济与消费类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "the top category",
+     "the lowest category",
+     "price categories",
+     "in a different category"
+    ]
+   },
+   {
+    "sense_id": "s_category_phrase_different_category",
+    "text": "（in a different category）完全不是一回事、不可同日而语",
+    "sense_level": "S3",
+    "error_mech": [
+     "E1",
+     "E6"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "类别、门类（对事物的划分）"
+    ],
+    "example": {
+     "en": "Compared with the short answer, writing a novel is in a different category altogether.",
+     "zh": "与简答题相比，写小说完全是另一回事。",
+     "source": "仿真例句 · 高考阅读比较与思辨类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "in a different category altogether",
+     "in a different category",
+     "a different category of challenge",
+     "put sth in a different category"
+    ]
+   },
+   {
+    "sense_id": "s_category_phrase_fall_into",
+    "text": "（fall into the category of）归入…之列、属于…类",
+    "sense_level": "S4",
+    "error_mech": [
+     "E4",
+     "E6"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "类别、门类（对事物的划分）"
+    ],
+    "example": {
+     "en": "Many ordinary activities fall into the category of learning once you look at them closely.",
+     "zh": "仔细看的话，许多日常活动其实都属于学习的范畴。",
+     "source": "仿真例句 · 高考阅读学习与思考类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "fall into the category of",
+     "fall into a category",
+     "fall into one of the categories",
+     "falls into the category of being"
+    ]
+   }
+  ],
+  "confusable": [
+   "class",
+   "catalogue",
+   "categorize",
+   "cater"
+  ],
+  "word_family": [
+   "category",
+   "categorize",
+   "categorization",
+   "categorical"
+  ],
+  "notes": "考场判断法：① 先看搭配：fall into the category of / be divided into categories → 「归入…类别」，这是高考数据、说明类文章最常见的说法；② 比较句里的 in a different category（altogether）不是「另一个类别」，而是「完全不是一回事」，后面常跟 altogether；③ 看有没有「高低档」的语境（the top category / the lowest category）→ 是「级别、档次」义，不是普通的「种类」；④ category 前面加 a 或 the，说明指的是一个具体的分类项；泛指「某一类事物」时说 a category of sth，搭配只能用 of。",
+  "quiz_ids": []
+ },
+ {
+  "id": "w_convey",
+  "headword": "convey",
+  "ipa": "/kənˈveɪ/",
+  "level": "T2",
+  "pos": [
+   "v",
+   "phrase"
+  ],
+  "strategies": [
+   "P2",
+   "P4",
+   "P8"
+  ],
+  "carriers": [
+   "C1",
+   "C2",
+   "C4"
+  ],
+  "senses": [
+   {
+    "sense_id": "s_convey_v_express",
+    "text": "表达、传达（想法、情感、意义）",
+    "sense_level": "S1",
+    "error_mech": [],
+    "is_trap": false,
+    "trap_of": [],
+    "example": {
+     "en": "It is hard to convey in writing how much the old city meant to her.",
+     "zh": "那座老城对她意味着什么，很难用文字传达出来。",
+     "source": "仿真例句 · 高考阅读情感与表达类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "convey a meaning",
+     "convey feelings",
+     "convey a message",
+     "convey the impression"
+    ]
+   },
+   {
+    "sense_id": "s_convey_v_transport",
+    "text": "运送、运输（货物、乘客、物资）",
+    "sense_level": "S2",
+    "error_mech": [
+     "E1",
+     "E2"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "表达、传达（想法、情感、意义）"
+    ],
+    "example": {
+     "en": "Small electric carts now convey goods from the warehouse to the front of the shop.",
+     "zh": "小型电动货车现在把货物从仓库运到店门口。",
+     "source": "仿真例句 · 高考阅读物流与商业类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "convey goods",
+     "convey passengers",
+     "convey luggage",
+     "convey supplies"
+    ]
+   },
+   {
+    "sense_id": "s_convey_v_evoke",
+    "text": "传达出、使人感到（某种印象、气氛）",
+    "sense_level": "S3",
+    "error_mech": [
+     "E1",
+     "E8"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "表达、传达（想法、情感、意义）"
+    ],
+    "example": {
+     "en": "The soft colours of the walls and the warm light convey a sense of calm to every visitor.",
+     "zh": "柔和的墙面颜色和温暖的光线向每位来访者传达出一种宁静感。",
+     "source": "仿真例句 · 高考阅读空间与氛围类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "convey a sense of",
+     "convey warmth",
+     "convey an impression",
+     "convey serenity"
+    ]
+   },
+   {
+    "sense_id": "s_convey_phrase_convey_to",
+    "text": "（convey sth to sb）把…转达给某人",
+    "sense_level": "S4",
+    "error_mech": [
+     "E4",
+     "E6"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "运送、运输（货物、乘客、物资）"
+    ],
+    "example": {
+     "en": "Please convey my apologies to your family for the rude noise we made last night.",
+     "zh": "昨晚我们弄出的响动很失礼，请代我向你的家人致歉。",
+     "source": "仿真例句 · 高考应用文与致歉高频句式",
+     "carrier": "C4"
+    },
+    "collocations": [
+     "convey sth to sb",
+     "convey my apologies to",
+     "convey a message to",
+     "convey thanks to"
+    ]
+   }
+  ],
+  "confusable": [
+   "convince",
+   "convoy",
+   "transport",
+   "survey"
+  ],
+  "word_family": [
+   "convey",
+   "conveyance",
+   "conveyor",
+   "conveyer"
+  ],
+  "notes": "考场判断法：① 先看宾语是「信息、情感、意思」还是「货物、乘客、物资」：前者是「表达、传达」，后者是「运送、运输」；② 看到 convey a sense of / convey warmth / convey an impression → 「传达出、使人感到」，宾语是抽象的感觉或印象；③ 看到 convey sth to sb（convey my apologies to your family）→ 是「转达、捎带给某人」，介词 to 不能省，也不能换成 for；④ 注意 convey 不与 convince（说服）混：convince sb of sth / convince sb to do sth，意思完全不一样。",
+  "quiz_ids": []
+ },
+ {
+  "id": "w_spectacular",
+  "headword": "spectacular",
+  "ipa": "/spekˈtækjələ(r)/",
+  "level": "T2",
+  "pos": [
+   "adj",
+   "n"
+  ],
+  "strategies": [
+   "P2",
+   "P4",
+   "P6"
+  ],
+  "carriers": [
+   "C1",
+   "C2",
+   "C4"
+  ],
+  "senses": [
+   {
+    "sense_id": "s_spectacular_adj_grand",
+    "text": "壮观、宏伟的（景象、场面、风景）",
+    "sense_level": "S1",
+    "error_mech": [],
+    "is_trap": false,
+    "trap_of": [],
+    "example": {
+     "en": "From the top of the hill, visitors can watch the spectacular waterfall crashing into the pool below.",
+     "zh": "从山顶上，游客可以看到壮观的瀑布飞泻直落入下方水潭。",
+     "source": "仿真例句 · 高考阅读自然与景观类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "a spectacular view",
+     "spectacular scenery",
+     "a spectacular waterfall",
+     "spectacular displays"
+    ]
+   },
+   {
+    "sense_id": "s_spectacular_adj_stunning",
+    "text": "惊人的、极为出色的（成功、演出）",
+    "sense_level": "S2",
+    "error_mech": [
+     "E1",
+     "E2"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "壮观、宏伟的（景象、场面、风景）"
+    ],
+    "example": {
+     "en": "The young team put on a spectacular performance that no one in the crowd would forget.",
+     "zh": "年轻队献上了一场令人难忘的精彩表演，观众中没有一个人会忘记。",
+     "source": "仿真例句 · 高考阅读表演与赛事类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "a spectacular success",
+     "spectacular results",
+     "a spectacular performance",
+     "spectacular achievement"
+    ]
+   },
+   {
+    "sense_id": "s_spectacular_n_spectacle",
+    "text": "壮观场面、盛况（a spectacular）",
+    "sense_level": "S3",
+    "error_mech": [
+     "E1",
+     "E5"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "壮观、宏伟的（景象、场面、风景）"
+    ],
+    "example": {
+     "en": "The opening ceremony of the games was a spectacle that a large number of people watched on screen.",
+     "zh": "运动会的开幕式是一场盛况，众多观众通过屏幕观看了它。",
+     "source": "仿真例句 · 高考阅读体育与仪式类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "a spectacle",
+     "the spectacle",
+     "watch the spectacle",
+     "a nightly spectacle"
+    ]
+   },
+   {
+    "sense_id": "s_spectacular_phrase_spectacular_success",
+    "text": "（a spectacular success）巨大的成功、了不起的成绩",
+    "sense_level": "S4",
+    "error_mech": [
+     "E4",
+     "E2"
+    ],
+    "is_trap": true,
+    "trap_of": [
+     "壮观、宏伟的（景象、场面、风景）"
+    ],
+    "example": {
+     "en": "The school's reading programme has proved a spectacular success, and more students now read outside class.",
+     "zh": "学校的阅读计划被证明取得了巨大成功，现在有更多学生在课外阅读。",
+     "source": "仿真例句 · 高考阅读教育与评价类高频句式",
+     "carrier": "C1"
+    },
+    "collocations": [
+     "a spectacular success",
+     "prove a spectacular success",
+     "an outright spectacular success",
+     "a spectacular commercial success"
+    ]
+   }
+  ],
+  "confusable": [
+   "spectator",
+   "spectrum",
+   "speculate",
+   "spectacle"
+  ],
+  "word_family": [
+   "spectacular",
+   "spectacle",
+   "spectator",
+   "spectacularly"
+  ],
+  "notes": "考场判断法：① 先看它修饰什么：修饰 scenery / view / sight / scene / fireworks → 「壮观、宏伟的」；修饰 success / performance / result / achievement → 「惊人的、极为出色的」，这时不能译成「壮观的」；② 看到 the spectacle / a spectacular 作名词 → 「壮观场面、盛况」，spectacle 本身也常作名词「壮观景象、奇观」；③ 固定词块 a spectacular success 记成「巨大的成功」，不要拆开；④ 它本身不含「成功」的意思，翻译时要靠宾语决定，别一律译「壮观的」。",
+  "quiz_ids": []
+ }
+]

@@ -1,0 +1,69 @@
+{
+ "material_word_count": 3912,
+ "source_tb2019_entries": 2595,
+ "source_tb2007_entries": 2405,
+ "in_both_sources": 1087,
+ "only_tb2019": 1508,
+ "only_tb2007": 1317,
+ "new_from_tb2007": 1317,
+ "phrase_count": 798,
+ "single_word_count": 3114,
+ "total_senses": 9270,
+ "multi_sense_ge3": 1459,
+ "multi_sense_ge4": 643,
+ "no_ipa": 819,
+ "ipa_both_source_words": 1087,
+ "ipa_gap_in_both_sources": 176,
+ "ipa_filled_by_other_source": 176,
+ "ipa_filled_from_2019": 176,
+ "ipa_filled_from_2007": 0,
+ "culture_marked": 355,
+ "sense_count_dist": {
+  "0": 1,
+  "1": 1128,
+  "2": 1324,
+  "3": 816,
+  "4": 348,
+  "5": 177,
+  "6": 76,
+  "7": 28,
+  "8": 10,
+  "9": 3,
+  "10": 1
+ },
+ "sense_count_dist_tb2019_only": {
+  "1": 501,
+  "2": 618,
+  "3": 335,
+  "4": 54
+ },
+ "sense_count_dist_tb2007_only": {
+  "0": 1,
+  "1": 579,
+  "2": 512,
+  "3": 176,
+  "4": 36,
+  "5": 11,
+  "6": 2
+ },
+ "by_book_2019": {
+  "必修1": 363,
+  "必修2": 389,
+  "必修3": 447,
+  "选修1": 370,
+  "选修2": 378,
+  "选修3": 352,
+  "选修4": 296
+ },
+ "by_book_2007": {
+  "必修1": 309,
+  "必修2": 316,
+  "必修3": 364,
+  "必修4": 304,
+  "必修5": 300,
+  "选修6": 270,
+  "选修7": 275,
+  "选修8": 267
+ },
+ "unit_count_total": 76
+}

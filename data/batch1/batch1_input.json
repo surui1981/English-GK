@@ -1,0 +1,747 @@
+{
+ "_meta": {
+  "batch": 1,
+  "batches_total": 5,
+  "word_count": 20,
+  "spec": "docs/首批100词精修规范.md",
+  "gold_standard": "docs/首批100词精修规范.md §6",
+  "instruction": "对本批 20 个词条逐条按六维体系精修，输出 JSON 数组"
+ },
+ "words": [
+  {
+   "seq": 1,
+   "id": "w_case",
+   "headword": "case",
+   "track": "A",
+   "tier": "T1",
+   "trap_strength": 3,
+   "trap_hint": "固定块：in case / in any case / in that case；名词义：情况、实例",
+   "core_hint": "案例；病例",
+   "note": "虚拟语气 in case 是语法填空固定考点",
+   "score": 172,
+   "seed": {
+    "ipa": "/keɪs/",
+    "pos": [
+     "n"
+    ],
+    "pos_raw": "n",
+    "sense_count": 4,
+    "senses_raw": [
+     "盒",
+     "箱",
+     "情况",
+     "案件"
+    ],
+    "definition_raw": "n.盒;箱;情况;案件",
+    "book": "必修2",
+    "unit": "3.0",
+    "unit_id": "必修2 3.0",
+    "unit_title_raw": "必修二 U3 The Internet",
+    "theme": "T-网络媒体与信息安全",
+    "theme_tags": [
+     "互联网",
+     "网络素养",
+     "信息甄别"
+    ],
+    "source": "新人教版(2019)必修1-3/选择性必修1-4 单元词表"
+   }
+  },
+  {
+   "seq": 2,
+   "id": "w_access",
+   "headword": "access",
+   "track": "A",
+   "tier": "T1",
+   "trap_strength": 3,
+   "trap_hint": "名词义：使用权、接近的机会（have access to）",
+   "core_hint": "通道；进入",
+   "note": "access to education 是社会类文章核心",
+   "score": 168,
+   "seed": {
+    "ipa": "/ˈækses/",
+    "pos": [
+     "n"
+    ],
+    "pos_raw": "n",
+    "sense_count": 3,
+    "senses_raw": [
+     "通道",
+     "机会 vt.进入",
+     "使用"
+    ],
+    "definition_raw": "n.通道;机会 vt.进入;使用",
+    "book": "必修2",
+    "unit": "3.0",
+    "unit_id": "必修2 3.0",
+    "unit_title_raw": "必修二 U3 The Internet",
+    "theme": "T-网络媒体与信息安全",
+    "theme_tags": [
+     "互联网",
+     "网络素养",
+     "信息甄别"
+    ],
+    "source": "新人教版(2019)必修1-3/选择性必修1-4 单元词表"
+   }
+  },
+  {
+   "seq": 3,
+   "id": "w_charge",
+   "headword": "charge",
+   "track": "A",
+   "tier": "T1",
+   "trap_strength": 3,
+   "trap_hint": "名词义：指控、控告；职责（be in charge of）；动词义：收费、充电",
+   "core_hint": "收费",
+   "note": "in charge of / take charge of / free of charge 三义常混",
+   "score": 168,
+   "seed": {
+    "ipa": "/tʃɑ:dʒ/",
+    "pos": [
+     "n"
+    ],
+    "pos_raw": "n",
+    "sense_count": 3,
+    "senses_raw": [
+     "收费",
+     "指控 vt.收费",
+     "控告"
+    ],
+    "definition_raw": "n.收费;指控 vt.收费;控告",
+    "book": "必修2",
+    "unit": "4.0",
+    "unit_id": "必修2 4.0",
+    "unit_title_raw": "必修二 U4 History and Traditions",
+    "theme": "T-历史文化与哲学智慧",
+    "theme_tags": [
+     "历史人物",
+     "哲学",
+     "传统美德"
+    ],
+    "source": "新人教版(2019)必修1-3/选择性必修1-4 单元词表"
+   }
+  },
+  {
+   "seq": 4,
+   "id": "w_conduct",
+   "headword": "conduct",
+   "track": "A",
+   "tier": "T1",
+   "trap_strength": 3,
+   "trap_hint": "动词义：进行、实施（conduct a survey/experiment）",
+   "core_hint": "行为（名词）",
+   "note": "conduct research 是学术类文章核心",
+   "score": 168,
+   "seed": {
+    "ipa": "/kənˈdʌkt/",
+    "pos": [
+     "n"
+    ],
+    "pos_raw": "n",
+    "sense_count": 3,
+    "senses_raw": [
+     "行为",
+     "举止 vt.组织",
+     "安排"
+    ],
+    "definition_raw": "n.行为;举止 vt.组织;安排",
+    "book": "必修2",
+    "unit": "1.0",
+    "unit_id": "必修2 1.0",
+    "unit_title_raw": "必修二 U1 Cultural Heritage",
+    "theme": "T-文化遗产与保护",
+    "theme_tags": [
+     "文化遗产",
+     "遗产保护",
+     "传统文化"
+    ],
+    "source": "新人教版(2019)必修1-3/选择性必修1-4 单元词表"
+   }
+  },
+  {
+   "seq": 5,
+   "id": "w_contrast",
+   "headword": "contrast",
+   "track": "A",
+   "tier": "T1",
+   "trap_strength": 3,
+   "trap_hint": "in contrast to（与…形成对比）",
+   "core_hint": "对比",
+   "note": "by contrast 是高频对比信号词",
+   "score": 168,
+   "seed": {
+    "ipa": "/ˈkɒntrɑ:st/",
+    "pos": [
+     "n"
+    ],
+    "pos_raw": "n",
+    "sense_count": 3,
+    "senses_raw": [
+     "对比",
+     "对照 vt.对比",
+     "对照"
+    ],
+    "definition_raw": "n.对比;对照 vt.对比;对照",
+    "book": "必修2",
+    "unit": "1.0",
+    "unit_id": "必修2 1.0",
+    "unit_title_raw": "必修二 U1 Cultural Heritage",
+    "theme": "T-文化遗产与保护",
+    "theme_tags": [
+     "文化遗产",
+     "遗产保护",
+     "传统文化"
+    ],
+    "source": "新人教版(2019)必修1-3/选择性必修1-4 单元词表"
+   }
+  },
+  {
+   "seq": 6,
+   "id": "w_critical",
+   "headword": "critical",
+   "track": "A",
+   "tier": "T1",
+   "trap_strength": 3,
+   "trap_hint": "形容词义：关键的、危急的；批判的",
+   "core_hint": "批判的",
+   "note": "critical to/for 是搭配高频",
+   "score": 168,
+   "seed": {
+    "ipa": "/ˈkrɪtɪkl/",
+    "pos": [],
+    "pos_raw": "other",
+    "sense_count": 3,
+    "senses_raw": [
+     "a.严重的",
+     "关键的",
+     "批判性的"
+    ],
+    "definition_raw": "a.严重的;关键的;批判性的",
+    "book": "选修1",
+    "unit": "2.0",
+    "unit_id": "选修1 2.0",
+    "unit_title_raw": "选择性必修一 U2 Looking into the Future",
+    "theme": "T-智能生活与科技设备",
+    "theme_tags": [
+     "科技",
+     "智能家居",
+     "生活便利"
+    ],
+    "source": "新人教版(2019)必修1-3/选择性必修1-4 单元词表"
+   }
+  },
+  {
+   "seq": 7,
+   "id": "w_effect",
+   "headword": "effect",
+   "track": "A",
+   "tier": "T1",
+   "trap_strength": 3,
+   "trap_hint": "名词义：效果（have an effect on）；in effect（实际上）；副作用",
+   "core_hint": "影响",
+   "note": "affect/effect 的词性差异是 E1/E5 双考点",
+   "score": 168,
+   "seed": {
+    "ipa": "/ɪˈfekt/",
+    "pos": [
+     "n"
+    ],
+    "pos_raw": "n",
+    "sense_count": 3,
+    "senses_raw": [
+     "影响",
+     "结果",
+     "效果"
+    ],
+    "definition_raw": "n.影响;结果;效果",
+    "book": "必修1",
+    "unit": "5.0",
+    "unit_id": "必修1 5.0",
+    "unit_title_raw": "必修一 U5 Languages Around the World",
+    "theme": "T-自然灾害与生存自救",
+    "theme_tags": [
+     "自然灾害",
+     "环境保护",
+     "应急避险"
+    ],
+    "source": "新人教版(2019)必修1-3/选择性必修1-4 单元词表"
+   }
+  },
+  {
+   "seq": 8,
+   "id": "w_measure",
+   "headword": "measure",
+   "track": "A",
+   "tier": "T1",
+   "trap_strength": 3,
+   "trap_hint": "名词义：措施、办法（take measures to）",
+   "core_hint": "测量",
+   "note": "take measures to do 是应用文与作文必备",
+   "score": 168,
+   "seed": {
+    "ipa": "/ˈmeʒə(r)/",
+    "pos": [
+     "n"
+    ],
+    "pos_raw": "n",
+    "sense_count": 3,
+    "senses_raw": [
+     "措施",
+     "方法 vt.测量",
+     "度量"
+    ],
+    "definition_raw": "n.措施;方法 vt.测量;度量",
+    "book": "必修2",
+    "unit": "2.0",
+    "unit_id": "必修2 2.0",
+    "unit_title_raw": "必修二 U2 Wildlife Protection",
+    "theme": "T-生物多样性与野生动物",
+    "theme_tags": [
+     "生物多样性",
+     "濒危物种",
+     "生态保护"
+    ],
+    "source": "新人教版(2019)必修1-3/选择性必修1-4 单元词表"
+   }
+  },
+  {
+   "seq": 9,
+   "id": "w_minor",
+   "headword": "minor",
+   "track": "A",
+   "tier": "T1",
+   "trap_strength": 3,
+   "trap_hint": "形容词义：次要的、不重要的；minor in（主修）",
+   "core_hint": "未成年人",
+   "note": "与 major 构成形近对比组",
+   "score": 168,
+   "seed": {
+    "ipa": "/ˈmaɪnə(r)/",
+    "pos": [],
+    "pos_raw": "other",
+    "sense_count": 3,
+    "senses_raw": [
+     "a.较小的",
+     "次要的",
+     "轻微的"
+    ],
+    "definition_raw": "a.较小的;次要的;轻微的",
+    "book": "选修2",
+    "unit": "5.0",
+    "unit_id": "选修2 5.0",
+    "unit_title_raw": "选择性必修二 U5 Scenic Spots",
+    "theme": "T-急救医学与健康防护",
+    "theme_tags": [
+     "急救",
+     "医学",
+     "健康防护"
+    ],
+    "source": "新人教版(2019)必修1-3/选择性必修1-4 单元词表"
+   }
+  },
+  {
+   "seq": 10,
+   "id": "w_observe",
+   "headword": "observe",
+   "track": "A",
+   "tier": "T1",
+   "trap_strength": 3,
+   "trap_hint": "动词义：遵守（observe the rules）；观察到",
+   "core_hint": "观察",
+   "note": "遵守义在规则类文章高频",
+   "score": 168,
+   "seed": {
+    "ipa": "/əbˈzɜ:v/",
+    "pos": [
+     "v"
+    ],
+    "pos_raw": "vt",
+    "sense_count": 3,
+    "senses_raw": [
+     "观察(到)",
+     "注视",
+     "遵守"
+    ],
+    "definition_raw": "vt.观察(到);注视;遵守",
+    "book": "必修2",
+    "unit": "2.0",
+    "unit_id": "必修2 2.0",
+    "unit_title_raw": "必修二 U2 Wildlife Protection",
+    "theme": "T-生物多样性与野生动物",
+    "theme_tags": [
+     "生物多样性",
+     "濒危物种",
+     "生态保护"
+    ],
+    "source": "新人教版(2019)必修1-3/选择性必修1-4 单元词表"
+   }
+  },
+  {
+   "seq": 11,
+   "id": "w_particular",
+   "headword": "particular",
+   "track": "A",
+   "tier": "T1",
+   "trap_strength": 3,
+   "trap_hint": "形容词义：挑剔的（be particular about）；名词义：细节（particulars）",
+   "core_hint": "特定的",
+   "note": "be particular about 在应用文常考",
+   "score": 168,
+   "seed": {
+    "ipa": "/pəˈtɪkjələ(r)/",
+    "pos": [
+     "adj"
+    ],
+    "pos_raw": "adj",
+    "sense_count": 3,
+    "senses_raw": [
+     "特定的",
+     "特别的",
+     "讲究的"
+    ],
+    "definition_raw": "adj.特定的;特别的;讲究的",
+    "book": "必修2",
+    "unit": "3.0",
+    "unit_id": "必修2 3.0",
+    "unit_title_raw": "必修二 U3 The Internet",
+    "theme": "T-网络媒体与信息安全",
+    "theme_tags": [
+     "互联网",
+     "网络素养",
+     "信息甄别"
+    ],
+    "source": "新人教版(2019)必修1-3/选择性必修1-4 单元词表"
+   }
+  },
+  {
+   "seq": 12,
+   "id": "w_position",
+   "headword": "position",
+   "track": "A",
+   "tier": "T1",
+   "trap_strength": 3,
+   "trap_hint": "名词义：立场、职位（take a position on）；动词义：使处于某位置",
+   "core_hint": "位置",
+   "note": "in a position to do 是完形高频",
+   "score": 168,
+   "seed": {
+    "ipa": "/pəˈzɪʃn/",
+    "pos": [
+     "n"
+    ],
+    "pos_raw": "n",
+    "sense_count": 3,
+    "senses_raw": [
+     "位置",
+     "姿态",
+     "职位"
+    ],
+    "definition_raw": "n.位置;姿态;职位",
+    "book": "必修2",
+    "unit": "4.0",
+    "unit_id": "必修2 4.0",
+    "unit_title_raw": "必修二 U4 History and Traditions",
+    "theme": "T-历史文化与哲学智慧",
+    "theme_tags": [
+     "历史人物",
+     "哲学",
+     "传统美德"
+    ],
+    "source": "新人教版(2019)必修1-3/选择性必修1-4 单元词表"
+   }
+  },
+  {
+   "seq": 13,
+   "id": "w_power",
+   "headword": "power",
+   "track": "A",
+   "tier": "T1",
+   "trap_strength": 3,
+   "trap_hint": "名词义：权力、势力；能力（the power to do）",
+   "core_hint": "力量；电力",
+   "note": "power 与 right 是社会类文章辨析组",
+   "score": 168,
+   "seed": {
+    "ipa": "/ˈpaʊə(r)/",
+    "pos": [
+     "n"
+    ],
+    "pos_raw": "n",
+    "sense_count": 3,
+    "senses_raw": [
+     "电力供应",
+     "能量",
+     "力量"
+    ],
+    "definition_raw": "n.电力供应;能量;力量",
+    "book": "必修1",
+    "unit": "5.0",
+    "unit_id": "必修1 5.0",
+    "unit_title_raw": "必修一 U5 Languages Around the World",
+    "theme": "T-自然灾害与生存自救",
+    "theme_tags": [
+     "自然灾害",
+     "环境保护",
+     "应急避险"
+    ],
+    "source": "新人教版(2019)必修1-3/选择性必修1-4 单元词表"
+   }
+  },
+  {
+   "seq": 14,
+   "id": "w_principle",
+   "headword": "principle",
+   "track": "A",
+   "tier": "T1",
+   "trap_strength": 3,
+   "trap_hint": "名词义：原理（科学义）；原则（道德义）",
+   "core_hint": "原则",
+   "note": "on the principle that",
+   "score": 168,
+   "seed": {
+    "ipa": "/ˈprɪnsəpl/",
+    "pos": [
+     "n"
+    ],
+    "pos_raw": "n",
+    "sense_count": 3,
+    "senses_raw": [
+     "道德原则",
+     "法则",
+     "原则"
+    ],
+    "definition_raw": "n.道德原则;法则;原则",
+    "book": "必修3",
+    "unit": "2.0",
+    "unit_id": "必修3 2.0",
+    "unit_title_raw": "必修三 U2 Morals and Virtues",
+    "theme": "T-道德品质与职业伦理",
+    "theme_tags": [
+     "道德",
+     "职业伦理",
+     "医德与责任"
+    ],
+    "source": "新人教版(2019)必修1-3/选择性必修1-4 单元词表"
+   }
+  },
+  {
+   "seq": 15,
+   "id": "w_represent",
+   "headword": "represent",
+   "track": "A",
+   "tier": "T1",
+   "trap_strength": 3,
+   "trap_hint": "represent（代表/体现）；形容词 representative",
+   "core_hint": "代表",
+   "note": "体现义是文化类文章高频",
+   "score": 168,
+   "seed": {
+    "ipa": "/ˌreprɪˈzent/",
+    "pos": [
+     "v"
+    ],
+    "pos_raw": "vt",
+    "sense_count": 3,
+    "senses_raw": [
+     "象征",
+     "代表",
+     "相当于"
+    ],
+    "definition_raw": "vt.象征;代表;相当于",
+    "book": "必修3",
+    "unit": "1.0",
+    "unit_id": "必修3 1.0",
+    "unit_title_raw": "必修三 U1 Festivals and Celebrations",
+    "theme": "T-传统节日与民俗",
+    "theme_tags": [
+     "传统节日",
+     "民俗",
+     "文化传承"
+    ],
+    "source": "新人教版(2019)必修1-3/选择性必修1-4 单元词表"
+   }
+  },
+  {
+   "seq": 16,
+   "id": "w_setting",
+   "headword": "setting",
+   "track": "A",
+   "tier": "T1",
+   "trap_strength": 3,
+   "trap_hint": "名词义：环境、背景、场景设置",
+   "core_hint": "设置",
+   "note": "描写类文本的必备名词",
+   "score": 168,
+   "seed": {
+    "ipa": "/ˈsetɪŋ/",
+    "pos": [
+     "n"
+    ],
+    "pos_raw": "n",
+    "sense_count": 3,
+    "senses_raw": [
+     "环境",
+     "背景",
+     "小说情节背景"
+    ],
+    "definition_raw": "n.环境;背景;小说情节背景",
+    "book": "选修2",
+    "unit": "2.0",
+    "unit_id": "选修2 2.0",
+    "unit_title_raw": "选择性必修二 U2 The Changing World",
+    "theme": "T-留学适应与跨文化",
+    "theme_tags": [
+     "留学",
+     "跨文化适应",
+     "自我成长"
+    ],
+    "source": "新人教版(2019)必修1-3/选择性必修1-4 单元词表"
+   }
+  },
+  {
+   "seq": 17,
+   "id": "w_swing",
+   "headword": "swing",
+   "track": "A",
+   "tier": "T1",
+   "trap_strength": 3,
+   "trap_hint": "a swing in the balance（形势逆转）",
+   "core_hint": "摆动",
+   "note": "比喻义是完形高频",
+   "score": 168,
+   "seed": {
+    "ipa": "/swɪŋ/",
+    "pos": [
+     "v"
+    ],
+    "pos_raw": "v",
+    "sense_count": 3,
+    "senses_raw": [
+     "(使)摆动",
+     "摇摆",
+     "转弯"
+    ],
+    "definition_raw": "v.(使)摆动;摇摆;转弯",
+    "book": "选修1",
+    "unit": "3.0",
+    "unit_id": "选修1 3.0",
+    "unit_title_raw": "选择性必修一 U3 Fascinating Parks",
+    "theme": "T-国家公园与自然保护",
+    "theme_tags": [
+     "国家公园",
+     "自然保护",
+     "人与自然"
+    ],
+    "source": "新人教版(2019)必修1-3/选择性必修1-4 单元词表"
+   }
+  },
+  {
+   "seq": 18,
+   "id": "w_volume",
+   "headword": "volume",
+   "track": "A",
+   "tier": "T1",
+   "trap_strength": 3,
+   "trap_hint": "名词义：音量、卷数；a large volume of（大量的）",
+   "core_hint": "体积",
+   "note": "turn up the volume 是应用文高频",
+   "score": 168,
+   "seed": {
+    "ipa": "/ˈvɒlju:m/",
+    "pos": [
+     "n"
+    ],
+    "pos_raw": "n",
+    "sense_count": 3,
+    "senses_raw": [
+     "量",
+     "体积",
+     "(成套书中)一卷"
+    ],
+    "definition_raw": "n.量;体积;(成套书中)一卷",
+    "book": "选修3",
+    "unit": "3.0",
+    "unit_id": "选修3 3.0",
+    "unit_title_raw": "选择性必修三 U3 Green Energy",
+    "theme": "T-环境治理与可持续发展",
+    "theme_tags": [
+     "环境",
+     "气候",
+     "可持续发展"
+    ],
+    "source": "新人教版(2019)必修1-3/选择性必修1-4 单元词表"
+   }
+  },
+  {
+   "seq": 19,
+   "id": "w_account",
+   "headword": "account",
+   "track": "A",
+   "tier": "T1",
+   "trap_strength": 3,
+   "trap_hint": "名词义：账户、账目；动词义：解释、说明（account for）",
+   "core_hint": "账户",
+   "note": "account for 兼有「占比」「解释」双重义",
+   "score": 164,
+   "seed": {
+    "ipa": "/əˈkaʊnt/",
+    "pos": [
+     "n"
+    ],
+    "pos_raw": "n",
+    "sense_count": 2,
+    "senses_raw": [
+     "账户",
+     "描述"
+    ],
+    "definition_raw": "n.账户;描述",
+    "book": "必修2",
+    "unit": "3.0",
+    "unit_id": "必修2 3.0",
+    "unit_title_raw": "必修二 U3 The Internet",
+    "theme": "T-网络媒体与信息安全",
+    "theme_tags": [
+     "互联网",
+     "网络素养",
+     "信息甄别"
+    ],
+    "source": "新人教版(2019)必修1-3/选择性必修1-4 单元词表"
+   }
+  },
+  {
+   "seq": 20,
+   "id": "w_appeal",
+   "headword": "appeal",
+   "track": "A",
+   "tier": "T1",
+   "trap_strength": 3,
+   "trap_hint": "名词义：吸引力（appeal to）；动词义：呼吁、请求；上诉",
+   "core_hint": "呼吁",
+   "note": "appeal to sb 是应用文与议论文双高频",
+   "score": 164,
+   "seed": {
+    "ipa": "/əˈpi:l/",
+    "pos": [
+     "v"
+    ],
+    "pos_raw": "vi",
+    "sense_count": 2,
+    "senses_raw": [
+     "有吸引力",
+     "呼吁 n.吸引力"
+    ],
+    "definition_raw": "vi.有吸引力;呼吁 n.吸引力",
+    "book": "选修1",
+    "unit": "3.0",
+    "unit_id": "选修1 3.0",
+    "unit_title_raw": "选择性必修一 U3 Fascinating Parks",
+    "theme": "T-国家公园与自然保护",
+    "theme_tags": [
+     "国家公园",
+     "自然保护",
+     "人与自然"
+    ],
+    "source": "新人教版(2019)必修1-3/选择性必修1-4 单元词表"
+   }
+  }
+ ]
+}

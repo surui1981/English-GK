@@ -1,0 +1,32 @@
+{
+ "row_count": 2498,
+ "total_words": 2405,
+ "total_units": 40,
+ "single_word_count": 1987,
+ "phrase_count": 418,
+ "multi_sense_ge3": 612,
+ "multi_sense_ge4": 175,
+ "total_senses": 4876,
+ "no_ipa": 925,
+ "culture_marked": 355,
+ "by_book": {
+  "必修1": 309,
+  "必修2": 316,
+  "必修3": 364,
+  "必修4": 304,
+  "必修5": 300,
+  "选修6": 270,
+  "选修7": 275,
+  "选修8": 267
+ },
+ "sense_count_dist": {
+  "0": 2,
+  "1": 798,
+  "2": 993,
+  "3": 437,
+  "4": 116,
+  "5": 41,
+  "6": 14,
+  "7": 4
+ }
+}

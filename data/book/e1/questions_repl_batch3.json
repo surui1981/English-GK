@@ -1,0 +1,338 @@
+[
+ {
+  "id": "q_e1_059",
+  "sense_id": "s_appeal_n_attraction",
+  "word_id": "w_appeal",
+  "carrier": "C1",
+  "module": "E1_熟词僻义",
+  "difficulty": "easy",
+  "expected_accuracy": [
+   0.68,
+   0.88
+  ],
+  "stem": "The documentary has an immediate ______ to viewers who had never heard of the tiny island it describes.",
+  "stem_cn": "这部纪录片对那些从未听说过它所讲述的那座小岛的观众，有一种天然的______。",
+  "options": [
+   {
+    "key": "A",
+    "text": "call",
+    "correct": false,
+    "distractor_reason": "学生按 appeal＝「呼吁、请求」去理解整句时最可能改选的词：call 正是「呼吁、号召」的常用说法，本句 the ______ to viewers 的位置读作「对观众的号召」也说得通，所以它是最像「正确答案」的干扰项。测 E1 熟词僻义误判——只有认出 appeal＝「吸引力」的学生才会排除它。"
+   },
+   {
+    "key": "B",
+    "text": "attraction",
+    "correct": false,
+    "distractor_reason": "语义最近干扰：the documentary has an immediate attraction to viewers 字面完全说得通，纯语感排不掉。测「学生是否记住谈作品对观众的吸引力时语料固定用 appeal to sb / appeal for sb」——attraction 在高考语料里更常见的落点是「旅游景点」(a tourist attraction) 或物理吸引。"
+   },
+   {
+    "key": "C",
+    "text": "appeal",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "D",
+    "text": "plea",
+    "correct": false,
+    "distractor_reason": "形近音近干扰，取自本词 confusable 表：plea 与 appeal 拼写、读音都相近，而 plea＝恳求、呼吁，正好落在「呼吁」这一方向上。学生若按「呼吁」找词，会在 appeal 与 plea 之间凭读音和词形乱选。测 E3 形近音近误选，与义项理解无关。"
+   }
+  ],
+  "explanation": "【考场动作】先看空格的结构：the documentary has an immediate ______ to viewers，后面是「to + 人」，而且空格在 an immediate 之后，是名词位置。appeal 作名词接 to + 人时是「对某人有吸引力、感染力」；只有当它讲「呼吁」时，后面必须再接动作（appeal to viewers to donate）或接 for + 名词（an appeal for help）。本句 to viewers 后面跟的是 who 引导的定语从句，没有任何动作，所以空格只能读成「吸引力」，不能读成「呼吁」。\n【为什么选 C】appeal to sb（have an appeal for / with sb、wide appeal、immediate appeal）是艺术与文化话题里谈作品打动读者的固定说法，意思是「吸引力、感染力」。本句说纪录片对从没听说过那座小岛的观众有一种立刻发生的吸引力，「呼吁」义在这里根本讲不通。\n【其他选项】A call 读作「呼吁、号召」，是学生按 appeal＝呼吁去理解时最自然改选的词；本句结构里 to viewers 不带动作，叫不出「呼吁」，这是本题最主要的陷阱。B attraction 语义最近，字面完全说得通，但高考语料里谈「作品对观众的吸引力」固定用 appeal to sb / appeal for sb，attraction 更常出现在「旅游景点」或物理吸引的语境。D plea 与 appeal 形近音近，plea＝恳求、呼吁，同属「呼吁」方向，仍是靠读音和词形做的误选。",
+  "trap_note": "陷阱来源：学生按 appeal＝「呼吁、请求」去理解，看见 to viewers 就以为后面该接动作或 for help，转而选 call / plea；或只把 appeal 认作动词「吸引」，想不到它还有名词义「吸引力」。",
+  "tags": [
+   "E1",
+   "E2",
+   "P2",
+   "P4"
+  ]
+ },
+ {
+  "id": "q_e1_060",
+  "sense_id": "s_content_adj_satisfied",
+  "word_id": "w_content",
+  "carrier": "C1",
+  "module": "E1_熟词僻义",
+  "difficulty": "easy",
+  "expected_accuracy": [
+   0.7,
+   0.9
+  ],
+  "stem": "His classmates went on to earn far more, but he never seemed to mind; he was ______ with what he had and asked for nothing more.",
+  "stem_cn": "他的同学们后来挣得比他多得多，可他似乎从不介意；他对自己已有的东西很______，从不奢求更多。",
+  "options": [
+   {
+    "key": "A",
+    "text": "content",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "B",
+    "text": "satisfied",
+    "correct": false,
+    "distractor_reason": "语义最近干扰：be satisfied with what one has 字面完全说得通，学生若不认识 content 的形容词义就会选它。测 E1 熟词僻义误判与 E2 一词多义混淆——satisfy 的着重点是「（期望、要求）得到满足」，而本句说的是不与人比较、满足于现状的「知足」。"
+   },
+   {
+    "key": "C",
+    "text": "contented",
+    "correct": false,
+    "distractor_reason": "词形误判干扰：contented 与 content 同词族，也是「知足的」，学生容易把词族里的两个形容词当成同一个词直接搬进 be ______ with。测 E5 词性词形误判，以及「高考固定搭配是 be content with sth、be contented with 在语料里极少见」这条词块记忆。"
+   },
+   {
+    "key": "D",
+    "text": "comfortable",
+    "correct": false,
+    "distractor_reason": "语义近但义项偏移：be comfortable with 讲得通，意思是「对……习以为常、感到自在」，落在身体和状态上的舒服，与本句「不奢求」的知足心态不是一回事。测 E1 熟词僻义误判——学生把 content 的形容词义记成了「舒服、自在」。"
+   }
+  ],
+  "explanation": "【考场动作】先看空格两边：左边是系动词 was，右边是介词 with 加 what he had。be ______ with 这个结构要表达「满足于已有的」时，高考语料里最整块的固定说法是 be content with sth；而 content 的名词义（内容、实质、含量）根本不与 be 连用，名词义要用 the content of 或 a high content of。所以这里只能是形容词「满足的、知足的」，contented 是它的词族形容词，但高考语料里 be contented with 极少见。\n【为什么选 A】本句说他满足于已有的、从不奢求，正是「知足」的意思，be content with what one has 是阅读理解里最常见的搭配。\n【其他选项】B satisfied 语义最近，be satisfied with what he had 完全说得通，satisfy 的着重点是「期望、要求得到满足」，而本句强调的是不与人比较、满足于现状，加上语料里 be content with what one has 才是现成说法，学生必须靠固定搭配才能定夺。C contented 与 content 同词族，也是「知足的」，但它属于词形层误判：整块要背的是 be content with sth。D comfortable 也讲得通，be comfortable with 是「对……习以为常、感到自在」，说的是身体和状态上的舒服，本句谈的是心态上的知足，两者不能互换。",
+  "trap_note": "陷阱来源：学生按 content＝「内容、实质」或「含量」去理解，看到 be 就不敢选它，改选 satisfied / comfortable；或把词族里的 contented 当成 content 直接搬进 be ______ with 的结构。",
+  "tags": [
+   "E1",
+   "E5",
+   "P2",
+   "P4"
+  ]
+ },
+ {
+  "id": "q_e1_061",
+  "sense_id": "s_major_n_field",
+  "word_id": "w_major",
+  "carrier": "C1",
+  "module": "E1_熟词僻义",
+  "difficulty": "easy",
+  "expected_accuracy": [
+   0.66,
+   0.9
+  ],
+  "stem": "After a year of physics, Zhang Wei switched his ______ to computer science, a choice that finally suited his way of thinking.",
+  "stem_cn": "学了一年物理之后，张伟把自己的______转到了计算机科学，这个选择终于合了他的思维方式。",
+  "options": [
+   {
+    "key": "A",
+    "text": "subject",
+    "correct": false,
+    "distractor_reason": "语义最近干扰：英式英语里 switch one's subject 讲得通（her subject was history 指主修学科），语感上完全说得通，纯语感排不掉。测「高考语料（美式）表示主修专业固定用 major，change one's major 是整块搭配，change one's subject 不成搭配」——这一项必须靠搭配记忆才能定输赢。"
+   },
+   {
+    "key": "B",
+    "text": "major",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "C",
+    "text": "field",
+    "correct": false,
+    "distractor_reason": "语义近干扰：his field 指「他的学术领域」，switch one's field 也讲得通，但 field 与 to computer science 的搭配并不固定，属于泛化说法。测 E2 一词多义混淆——学生知道 major 有「主要的」义，却不知道它还能作名词指主修专业。"
+   },
+   {
+    "key": "D",
+    "text": "minor",
+    "correct": false,
+    "distractor_reason": "形近词族干扰，取自本词 confusable 表：minor 才是「辅修」，major 与 minor 是一组必背的形近对比，学生把两个词记反就会误选。测 E3 形近音近误选，与义项理解无关。"
+   }
+  ],
+  "explanation": "【考场动作】先看空格的名词位置：前面是物主代词 his，后面是介词 to 加学科名。major 作名词时是「主修专业、主修科目」（a major in biology、her major subject、change one's major）；作形容词时它只修饰名词（a major factor），作动词时必须带 in（major in biology）。所以「his ______ to computer science」这个结构里只能填名词 major。\n【为什么选 B】本句说张伟把主修从物理换成计算机科学，学业方向只能由 major 表示；句中没有任何表示「重要、重大」的成分，major 的「主要的、重大的」义在这里讲不通。\n【其他选项】A subject 语义最近，switch one's subject 在英式英语里也讲得通，但那是英式习惯；高考语料（美式）里表示「主修专业」固定用 major，change one's major 才是能整块背的搭配。C field 同样讲得通，his field 指他的学术方向，但 field 与 to computer science 的搭配不固定，属于泛化说法。D minor 是形近干扰，minor 才是「辅修」，major / minor 必须成对记，学生把两者记反就会误选。",
+  "trap_note": "陷阱来源：学生按 major＝「主要的、重大的」去理解，看到 his 后面接 to + 学科名就断定 major 不讲得通，转而选 subject / field；或把 major 与 minor 记反。",
+  "tags": [
+   "E1",
+   "E5",
+   "P2",
+   "P3"
+  ]
+ },
+ {
+  "id": "q_e1_062",
+  "sense_id": "s_position_n_job",
+  "word_id": "w_position",
+  "carrier": "C1",
+  "module": "E1_熟词僻义",
+  "difficulty": "easy",
+  "expected_accuracy": [
+   0.7,
+   0.9
+  ],
+  "stem": "After two years of training in accounting, she was offered a senior ______ in an international trading company.",
+  "stem_cn": "经过两年的会计培训，她得到了在国际贸易公司担任高级______的机会。",
+  "options": [
+   {
+    "key": "A",
+    "text": "post",
+    "correct": false,
+    "distractor_reason": "语义最近干扰：offer a post 是英式英语表示「给一个职位」的固定说法，offered a senior post in a company 字面完全说得通，纯语感排不掉。测「高考语料（美式）表示职位固定用 position，offer a position / hold a position / apply for a position 才是可整块背的词块」。"
+   },
+   {
+    "key": "B",
+    "text": "role",
+    "correct": false,
+    "distractor_reason": "语义近干扰：a senior role 在现代商务英语里确实可以指「高级职位」，语感上完全说得通。测 E2 一词多义混淆——role 在高考语料里更常见的落点是「角色、作用」，说「职位、职务」时语料习惯用 position。"
+   },
+   {
+    "key": "C",
+    "text": "spot",
+    "correct": false,
+    "distractor_reason": "语义近但义项偏移干扰：spot 兼有「一个位子」与「地点、场所」两重意思，与 position 的 S1 义「位置、方位」方向重合。学生按 position＝「位置、方位」去理解整句时最容易顺手选它，测 E1 熟词僻义误判。"
+   },
+   {
+    "key": "D",
+    "text": "position",
+    "correct": true,
+    "distractor_reason": null
+   }
+  ],
+  "explanation": "【考场动作】先看动词：offer / apply for / hold / take up + a ______ 后面跟公司、学校这类机构，是「职位、职务」；若表示「地点、方位」，position 前面一定用 in 或 at（in a position / at the centre），后面不接机构名。所以本句的 position 是名词「职位」义。\n【为什么选 D】offered a senior position in a company 是商务与职场话题的固定说法，指公司里的一个高级职位；句中没有任何表示「方位、站位」的线索，position 的「位置、方位」义讲不通。\n【其他选项】A post 语义最近，offer a post 是英式英语的固定搭配，字面完全说得通，但那是英式习惯用法；高考语料（美式）表示「职位、职务」固定用 position，offer a position / apply for a position / hold a position 才是能整块背的词块。B role 也讲得通，a senior role 在现代商务英语里可以指高级职位，但 role 在高考语料里更常见的落点是「角色、作用」，说职位时习惯用 position。C spot 兼有「位置、场所」的色彩，学生按 position＝「位置、方位」去理解整句时最容易顺手选它，可它指的是一个位子或名额，与公司里的高级职务不是一回事。",
+  "trap_note": "陷阱来源：学生按 position＝「位置、方位」去理解，看到公司、offered 就认为 position 讲不通，转而选 post / role / spot 这类带位置色彩的词。",
+  "tags": [
+   "E1",
+   "E2",
+   "P2",
+   "P4"
+  ]
+ },
+ {
+  "id": "q_e1_063",
+  "sense_id": "s_setting_n_device",
+  "word_id": "w_setting",
+  "carrier": "C1",
+  "module": "E1_熟词僻义",
+  "difficulty": "easy",
+  "expected_accuracy": [
+   0.68,
+   0.9
+  ],
+  "stem": "Teenagers who post everything online rarely check the privacy ______ on their phones before sharing a picture of the place they live.",
+  "stem_cn": "在网上什么都发的青少年，很少会在分享自己住处照片之前，先看一眼手机上的隐私______。",
+  "options": [
+   {
+    "key": "A",
+    "text": "setting",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "B",
+    "text": "level",
+    "correct": false,
+    "distractor_reason": "语义最近干扰：privacy level、brightness level 都讲得通，纯语感排不掉。测「学生是否知道设备上那个可以开关的参数，语料里的固定词是 setting（privacy setting、default setting、the highest setting）」——level 在设备语境里更偏「高度、级别、水平」，属于语感对但考试不选。"
+   },
+   {
+    "key": "C",
+    "text": "option",
+    "correct": false,
+    "distractor_reason": "语义近干扰：the privacy option in the app 讲得通，option 指「可选项之一」。测 E2 一词多义混淆——学生把 setting 只记成泛化的「设置项」概念，用 option 顶替，却没抓住隐私参数这个具体的设定开关。"
+   },
+   {
+    "key": "D",
+    "text": "policy",
+    "correct": false,
+    "distractor_reason": "搭配错干扰：privacy policy 是真实存在的说法，指「隐私政策条款」，本句位置读作「手机上的隐私条款」也说得通；但它是文件而不是设备上能调的参数。测「学生按 setting＝「环境、背景」去理解，否掉 setting 之后改找带 privacy 的词」。"
+   }
+  ],
+  "explanation": "【考场动作】先看介词和话题域：on their phones（设备上），整句在讲手机里可以开关的参数。setting 跟在 device / phone / app / camera / screen 这类词后面时，意思是「设备上的设定、档位」（privacy setting、default setting、the highest setting）；只有出现在 in the setting of，或小说、故事的 setting 里，才是「环境、背景、场合」。本句 on their phones 把词义直接锁死在设备设定上。\n【为什么选 A】check the privacy setting on one's phone 是科技与信息安全话题的固定说法，意思是「查看手机上的隐私设置（开关）」，与本句谈的自拍习惯和隐私风险完全吻合。\n【其他选项】B level 语义最近，privacy level 也能讲通，但设备上那个可以调开的参数，语料里的固定词是 setting，level 更多表示高度、级别或水平，属于「语感对但考试不选」。C option 也讲得通（the privacy option in the app），但 option 指的是若干可选项里的一个，privacy setting 指的是具体的那项隐私设定，层级不同。D policy 是搭配错干扰，privacy policy 确实存在，意思是「隐私政策条款」，属于文件而不是手机上能调的参数；学生若按 setting＝「环境、背景」去理解，会先否掉 setting，再顺手抓住带 privacy 的 policy。",
+  "trap_note": "陷阱来源：学生按 setting＝「环境、背景、场合」去理解，看到手机、隐私就觉得 setting 讲不通，于是改选 level / option / policy 这类带设备或隐私色彩的词。",
+  "tags": [
+   "E1",
+   "E10",
+   "P2",
+   "P4"
+  ]
+ },
+ {
+  "id": "q_e1_064",
+  "sense_id": "s_emphasis_n_stress",
+  "word_id": "w_emphasis",
+  "carrier": "C1",
+  "module": "E1_熟词僻义",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.4,
+   0.7
+  ],
+  "stem": "In 'record', the ______ falls on the first syllable as a noun but on the second as a verb, and mixing them up causes many listening errors.",
+  "stem_cn": "在 record 一词中，作名词时______落在第一个音节上，作动词时则落在第二个音节上；两者混淆会带来许多听力错误。",
+  "options": [
+   {
+    "key": "A",
+    "text": "stress",
+    "correct": false,
+    "distractor_reason": "语义最近干扰：stress 就是「重音」的常用词，the stress falls on the first syllable 字面完全说得通，纯语感排不掉；它同时又是「强调」义的对应词，正好接住「按 emphasis＝强调去理解」这条错路。测 E1 熟词僻义误判与 E2 一词多义混淆。"
+   },
+   {
+    "key": "B",
+    "text": "weight",
+    "correct": false,
+    "distractor_reason": "语义近干扰：语音学里谈音节的显著程度常说 the weight falls on the second syllable，本句位置讲得通。测 E2 一词多义混淆——weight 说的是「分量、权重」，与题目要考的「发音着力点」不是同一说法，必须靠 the emphasis falls on 这一固定搭配才能定夺。"
+   },
+   {
+    "key": "C",
+    "text": "accent",
+    "correct": false,
+    "distractor_reason": "义近形近干扰：accent 是「口音」，与 emphasis 读音相近，容易串；the accent falls on 不成搭配，属语感层面的误选。测 E3 形近音近误选，与义项理解无关。"
+   },
+   {
+    "key": "D",
+    "text": "emphasis",
+    "correct": true,
+    "distractor_reason": null
+   }
+  ],
+  "explanation": "【考场动作】先把话题域圈出来：全句在讲同一个词的两种读法，以及哪个音节更响。谈发音着力点时，emphasis 的意思是「重音、重读」；只有句子在谈作者把重点放在哪个话题上时，emphasis 才是「强调、着重」或「重点、侧重之处」。再记住固定搭配 the emphasis falls on + 音节，这是语料里说「重音落在某音节」的现成说法。\n【为什么选 D】the emphasis falls on the first syllable 是语音与语言常识类文本里的固定说法，意思是「重音落在第一个音节上」，正好解释本句为什么名词 record 与动词 record 的读音不同。\n【其他选项】A stress 语义最接近，stress 就是「重音」，而且它同时是「强调」的对应词，接住了「按 emphasis＝强调去理解」的错路；the stress 习惯说 the stress is on 或 lies on，与 falls on 搭配的固定词是 emphasis。B weight 也讲得通，语音学里谈音节的显著程度常说 the weight falls on the second syllable，但 weight 说的是「分量、权重」，不是这一题要考的「发音着力点」；更关键的是语料里谈读音差异时与 falls on 搭配的固定词是 emphasis。C accent 是义近形近干扰，accent 是「口音」，the accent falls on 不成搭配，属语感层面的误选。",
+  "trap_note": "陷阱来源：学生按 emphasis＝「强调、着重」去理解，把「重音落在某音节」也读成「强调点在某音节」，于是选 stress 这类「强调／重音」两栖的词；或按「重点、侧重之处」义选 weight。",
+  "tags": [
+   "E1",
+   "E2",
+   "P2",
+   "P4"
+  ]
+ },
+ {
+  "id": "q_e1_065",
+  "sense_id": "s_observe_v_celebrate",
+  "word_id": "w_observe",
+  "carrier": "C1",
+  "module": "E1_熟词僻义",
+  "difficulty": "mid",
+  "expected_accuracy": [
+   0.38,
+   0.68
+  ],
+  "stem": "The hundredth anniversary of the school was ______ with a simple ceremony in the old hall, where every former student was welcomed back.",
+  "stem_cn": "学校建校一百周年以一场简朴的仪式在老礼堂______，所有老校友都受邀归来。",
+  "options": [
+   {
+    "key": "A",
+    "text": "celebrated",
+    "correct": false,
+    "distractor_reason": "语义最近干扰：the anniversary was celebrated with a simple ceremony 字面完全说得通，纯语感排不掉，也是学生不认识 observe 这一僻义时的首选。测 E1 熟词僻义误判——本条要认的正是 observe 本身也有「庆祝、纪念」义。"
+   },
+   {
+    "key": "B",
+    "text": "observed",
+    "correct": true,
+    "distractor_reason": null
+   },
+   {
+    "key": "C",
+    "text": "marked",
+    "correct": false,
+    "distractor_reason": "语义近但搭配偏干扰：mark an anniversary 习惯搭配 by（was marked by a simple ceremony），本句用的是 with；学生按「被观察、被遵守」去理解 observe，多半会挑这类半通不通的纪念词。测 E4 固定搭配缺失。"
+   },
+   {
+    "key": "D",
+    "text": "honored",
+    "correct": false,
+    "distractor_reason": "语义近干扰：honor an anniversary 就是「纪念周年」，美式拼写 honored 是高考规范，本句位置读作「以简朴的仪式纪念百年」也完全说得通。测 E1 熟词僻义误判——它是同义词的替补项，只有认出 observe 的纪念义才能排除。"
+   }
+  ],
+  "explanation": "【考场动作】先看主语和介词：主语是周年纪念日，后面是 with + 仪式（with a ceremony / with great ceremony）。英语里说「（节日、周年）被庆祝、被纪念、被照规矩举行」固定用 is observed，这是 observe 除「观察、注视」之外的另一个高频义项；「观察、注视」在这个主语下根本讲不通，「遵守规则」也讲不通。\n【为什么选 B】The anniversary was observed with a simple ceremony 意思是「以一场简朴的仪式纪念这个周年」，与本句校庆、节庆类阅读里的表述一致；observe 在这里不是「观察」，而是「按传统庆祝、纪念」。\n【其他选项】A celebrated 语义最近，也是学生不认识 observe 这一义时的首选，字面完全说得通；但语料里描述节日、周年「被举行、被纪念」的固定说法是 the festival is observed / the anniversary is observed with great ceremony。C marked 语义近但搭配偏，mark an anniversary 习惯搭配 by，本句用的是 with。D honored 也讲得通，honor an anniversary 就是「纪念周年」，美式拼写 honored 是高考规范，它是同义词的替补项，只有认出 observe 的纪念义才能排除。",
+  "trap_note": "陷阱来源：学生按 observe＝「观察、注视」去理解，看到 was ______ with a ceremony 就认为 observe 讲不通，转而选 celebrated / honored 这类同义的庆祝、纪念词。",
+  "tags": [
+   "E1",
+   "E10",
+   "P2",
+   "P4"
+  ]
+ }
+]

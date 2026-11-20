@@ -1,0 +1,3410 @@
+课本	主题	单词	中文	音标
+必修1	Unit 1	survey	n.调查；测验	[sɜː'veɪ]
+必修1	Unit 1	add up	合计	
+必修1	Unit 1	upset	adj.心烦意乱的；不安的；不适的　vt.(upset,upset)使不安；使心烦	[ʌpˈset]
+必修1	Unit 1	ignore	vt.不理睬；忽视	[ɪɡˈnɔː]
+必修1	Unit 1	calm	adj.平静的；镇静的；沉着的　vt.&vi.（使）平静；（使）镇定	[kɑːm]
+必修1	Unit 1	calm (...) down	（使）平静下来；（使）镇定下来	
+必修1	Unit 1	have got to	不得不；必须	
+必修1	Unit 1	concern	vt.（使）担忧；涉及；关系到　n.担心；关注；（利害）关系	[kənˈsɜːn]
+必修1	Unit 1	be concerned about	关心；挂念	
+必修1	Unit 1	walk the dog	遛狗	
+必修1	Unit 1	loose	adj.松的；松开的	[luːs]
+必修1	Unit 1	vet	n.兽医	[vet]
+必修1	Unit 1	go through	经历；经受	
+必修1	Unit 1	Amsterdam	n.阿姆斯特丹（荷兰首都）	
+必修1	Unit 1	Netherlands	n.荷兰（西欧国家）	
+必修1	Unit 1	Jewish	adj.犹太人的；犹太族的	['dʒuːɪʃ]
+必修1	Unit 1	German	n.德国人；德语　adj.德国的；德国人的；德语的	[ˈdʒɜːmən]
+必修1	Unit 1	Nazi	n.纳粹党人　adj.纳粹党的	['nɑːtsi]
+必修1	Unit 1	set down	放下；记下；登记	
+必修1	Unit 1	series	n.连续；系列	[ˈsɪəriːz/ ]
+必修1	Unit 1	a series of	一连串的；一系列；一套	
+必修1	Unit 1	Kitty	n.基蒂（女名）	
+必修1	Unit 1	outdoors	adv.在户外；在野外	[aʊtˈdɔːz]
+必修1	Unit 1	spellbind	vt.(spellbound,spellbound)迷住；迷惑	
+必修1	Unit 1	on purpose	故意	
+必修1	Unit 1	in order to	为了……	
+必修1	Unit 1	dusk	n.黄昏；傍晚	[dʌsk]
+必修1	Unit 1	at dusk	在黄昏时刻	
+必修1	Unit 1	thunder	n.雷；雷声　vi.打雷；雷鸣	[ˈθʌndə]
+必修1	Unit 1	entire	adj.整个的；完全的；全部的	[ɪnˈtaɪə]
+必修1	Unit 1	entirely	adv.完全地；全然地；整个地	
+必修1	Unit 1	power	n.能力；力量；权力	[ˈpaʊdə]
+必修1	Unit 1	face to face	面对面地	
+必修1	Unit 1	curtain	n.窗帘；门帘；幕布	[ˈkɜːt(ə)n]
+必修1	Unit 1	dusty	adj.积满灰尘的	[ˈdʌsti]
+必修1	Unit 1	no longer / not … any longer	不再……	
+必修1	Unit 1	partner	n.伙伴；合作者；合伙人	[ˈpɑːtnə]
+必修1	Unit 1	settle	vi.安家；定居；停留　vt.使定居；安排；解决	[ˈset(ə)l]
+必修1	Unit 1	suffer	vt.&vi.遭受；忍受；经历	[ˈsʌfə]
+必修1	Unit 1	suffer from	遭受；患病	
+必修1	Unit 1	loneliness	n.孤单；寂寞	
+必修1	Unit 1	highway	n.公路；大路；<美>高速公路	[ˈhaɪweɪ]
+必修1	Unit 1	recover	vi.&vt.痊愈；恢复；重新获得	[rɪˈkʌvə]
+必修1	Unit 1	get/be tired of	对……厌烦	
+必修1	Unit 1	pack	vi.&vt.捆扎；包装；打行李　n.小包；包裹	[pæk]
+必修1	Unit 1	pack (sth) up	将（东西）装箱打包	
+必修1	Unit 1	suitcase	n.手提箱；衣箱	[ˈsjuːtkeɪs]
+必修1	Unit 1	Margot	n.玛戈特（女名）	
+必修1	Unit 1	overcoat	n.大衣；外套	[ˈəʊvəkəʊt]
+必修1	Unit 1	teenager	n.十几岁的青少年	[ˈtiːneɪdʒə]
+必修1	Unit 1	get along with	与……相处；进展	
+必修1	Unit 1	gossip	vi.&n.闲话；闲谈	
+必修1	Unit 1	fall in love	相爱；爱上	
+必修1	Unit 1	exactly	adv.确实如此；正是；确切地	[ɪg'zæktli]
+必修1	Unit 1	disagree	vi.不同意	[dɪsəˈɡriː]
+必修1	Unit 1	grateful	adj.感激的；表示谢意的	['greɪtfəl]
+必修1	Unit 1	dislike	n.&vt.不喜欢；厌恶	[dɪsˈlaɪk]
+必修1	Unit 1	join in	参加；加入	
+必修1	Unit 1	tip	n.提示；技巧；尖；尖端；小费　vt.倾斜；翻倒	[tɪp]
+必修1	Unit 1	secondly	adv.第二；其次	
+必修1	Unit 1	swap	vt.交换	[swɒp]
+必修1	Unit 1	item	n.项目；条款　	
+必修1	Unit 2	subway	n.地下人行道；<美>地铁	['sʌbweɪ]
+必修1	Unit 2	elevator	n.电梯；升降机	['elɪveɪtə]
+必修1	Unit 2	petrol	n.<英>汽油（=<美>gasoline）	[ˈpetr(ə)l]
+必修1	Unit 2	gas	n.汽油；气体；煤气；毒气	[ɡæs]
+必修1	Unit 2	official	adj.官方的；正式的；公务的	[əˈfɪʃ(ə)l]
+必修1	Unit 2	voyage	n.航行；航海	[ˈvɒɪɪdʒ]
+必修1	Unit 2	conquer	vt.征服；占领	
+必修1	Unit 2	because of	因为；由于	
+必修1	Unit 2	native	n.本地人；本国人　adj.本国的；本地的	[ˈneɪtɪv]
+必修1	Unit 2	Amy	n.艾米（女名）	
+必修1	Unit 2	come up	走近；上来；提出	
+必修1	Unit 2	apartment	n.<美>公寓住宅；单元住宅	[əˈpɑːtmənt]
+必修1	Unit 2	actually	adv.实际上；事实上	['æktjʊəli]
+必修1	Unit 2	AD	公元	[æd]
+必修1	Unit 2	base	vt.以……为根据　n.基部；基地；基础	[beɪs]
+必修1	Unit 2	at present	现在；目前	
+必修1	Unit 2	gradual	adj.逐渐的；逐步的	[ˈgrædʒʊəl]
+必修1	Unit 2	gradually	adv.逐渐地；逐步地	[ˈɡrædjʊəli]
+必修1	Unit 2	Danish	n.丹麦语　adj.丹麦的；丹麦人的；丹麦语的	
+必修1	Unit 2	enrich	vt.使富裕；充实；改善	
+必修1	Unit 2	vocabulary	n.词汇；词汇量；词表	[vəˈkæbjʊləri]
+必修1	Unit 2	Shakespeare	莎士比亚（英国剧作家，诗人）	
+必修1	Unit 2	make use of	利用；使用	
+必修1	Unit 2	spelling	n.拼写；拼法	[ˈspelɪŋ]
+必修1	Unit 2	Samuel Johnson	塞缪尔·约翰逊（英国作家，批评家）	
+必修1	Unit 2	Noah Webster	诺厄·韦伯斯特（美国词典编纂家）	
+必修1	Unit 2	latter	adj.较后的；后半的；（两者中）后者的	[ˈlætə]
+必修1	Unit 2	identity	n.本身；本体；身份	[aɪˈdentɪti]
+必修1	Unit 2	fluent	adj.流利的；流畅的	[ˈfluːənt]
+必修1	Unit 2	fluently	adv.流利地；流畅地	
+必修1	Unit 2	Singapore	新加坡（东南亚国家）	[ˌsɪŋgəˌpɔː]
+必修1	Unit 2	Malaysia	n.马来西亚（东南亚国家）；马来群岛	[mə'leɪʒə]
+必修1	Unit 2	such as	例如……；像这种的	
+必修1	Unit 2	frequent	adj.频繁的；常见的	[ˈfriːkwənt]
+必修1	Unit 2	frequently	adv.常常；频繁地	
+必修1	Unit 2	usage	n.使用；用法；词语惯用法	
+必修1	Unit 2	command	n.&vt.命令；指令；掌握	[kəˈmɑːnd]
+必修1	Unit 2	request	n.&vt.请求；要求	[rɪˈkwest]
+必修1	Unit 2	dialect	n.方言	
+必修1	Unit 2	expression	n.词语；表示；表达	[ɪks'preʃən]
+必修1	Unit 2	midwestern	adj.中西部的；有中西部特性的	
+必修1	Unit 2	African	adj.非洲的；非洲人的；非洲语言的	[ˈæfrɪkən]
+必修1	Unit 2	Spanish	adj.西班牙的；西班牙人的；西班牙语的　n.西班牙人；西班牙语	[ˈspænɪʃ]
+必修1	Unit 2	play a part (in)	扮演一个角色；参与	
+必修1	Unit 2	eastern	adj.东方的；东部的	[ˈiːst(ə)n]
+必修1	Unit 2	southeastern	adj.东南方的；来自东南的	
+必修1	Unit 2	northwestern	adj.西北方的；来自西北的	
+必修1	Unit 2	recognize	vt.辨认出；承认；公认	[ˈrekəɡnaɪz]
+必修1	Unit 2	lorry	n.<英>卡车(=<美>truck)	[ˈlɒri]
+必修1	Unit 2	Lori	n.罗丽（女名）	
+必修1	Unit 2	Houston	n.休斯顿（美国城市）	
+必修1	Unit 2	Texas	n.德克萨斯州（美国州名）	[ˈteksəs]
+必修1	Unit 2	accent	n.口音；腔调；重音	[ˈæksənt]
+必修1	Unit 2	Buford	n.布福德（姓氏；男名）	
+必修1	Unit 2	Lester	n.莱斯特（姓氏；男名）	
+必修1	Unit 2	catfish	n.鲶鱼	
+必修1	Unit 2	lightning	n.闪电	[ˈlaɪtnɪŋ]
+必修1	Unit 2	straight	adv.直接；挺直　adj.直的；笔直的；正直的	[streɪt]
+必修1	Unit 2	block	n.街区；块；木块；石块	[blɒk]
+必修1	Unit 2	cab	n.出租车　	[kæb]
+必修1	Unit 3	journal	n.日记；杂志；定期刊物	['dʒɜːnəl]
+必修1	Unit 3	transport	n.运送；运输　vt.运送；运输	[trænsˈpɔːt]
+必修1	Unit 3	prefer	vt.更喜欢；选择某事物（而不选择其他事物）	[prɪ'fɜː]
+必修1	Unit 3	disadvantage	n.不利条件；不便之处	[dɪsədˈvɑːntɪdʒ]
+必修1	Unit 3	fare	n.费用	[feə]
+必修1	Unit 3	route	n.路线；路途	[ruːt]
+必修1	Unit 3	Mekong	n.湄公河	
+必修1	Unit 3	flow	vi.流动；流出　n.流动；流量	[fləʊ]
+必修1	Unit 3	ever since	从那以后	
+必修1	Unit 3	persuade	vt.说服；劝说	[ˈpɜːsənəli]
+必修1	Unit 3	cycle	vi.骑自行车	[ˈsaɪk(ə)l]
+必修1	Unit 3	graduate	vi.毕业　n.大学毕业生	['grædjʊeɪt]
+必修1	Unit 3	finally	adv.最后；终于	['faɪnəli]
+必修1	Unit 3	schedule	n.时间表；进度表　vt.为某事安排时间	[ˈʃedjuːl]
+必修1	Unit 3	fond	adj.喜爱的；慈爱的；宠爱的	[fɒnd]
+必修1	Unit 3	be fond of	喜爱；喜欢	
+必修1	Unit 3	shortcoming	n.缺点	[ˈʃɔːtkʌmɪŋ]
+必修1	Unit 3	stubborn	adj.顽固的；固执的	[ˈstʌbən]
+必修1	Unit 3	organize	vt.组织；成立	[ˈɔːgənaɪz]
+必修1	Unit 3	care about	关心；忧虑；惦念	
+必修1	Unit 3	detail	n.细节；详情	[ˈdiːteɪl]
+必修1	Unit 3	source	n.来源；水源	[sɔːs]
+必修1	Unit 3	determine	vt.决定；确定；下定决心	[dɪˈtɜːmɪn]
+必修1	Unit 3	determined	adj.坚决的；有决心的	
+必修1	Unit 3	change one's mind	改变注意	
+必修1	Unit 3	journey	n.旅行；旅程	['dʒɜːni]
+必修1	Unit 3	altitude	n.海拔高度；高处	[ˈæltɪtjuːd]
+必修1	Unit 3	make up one's mind	下决心；决定	
+必修1	Unit 3	give in	投降；屈服；让步	
+必修1	Unit 3	atlas	n.地图；地图集	
+必修1	Unit 3	glacier	n.冰河；冰川	
+必修1	Unit 3	Tibetan	adj.西藏的；藏族的；藏族人的　n.（西）藏语；西藏认；藏族人	
+必修1	Unit 3	rapids	n.急流	
+必修1	Unit 3	valley	n.（山）谷；流域	[ˈvæli]
+必修1	Unit 3	waterfall	n.瀑布	
+必修1	Unit 3	pace	vi.缓慢而行；踱步　n.一步；速度；步调	[peɪs]
+必修1	Unit 3	bend	n.弯；拐角　vt.(bent,bent)使弯曲	[bend]
+必修1	Unit 3	meander	n.(指河流等)蜿蜒缓慢流动	
+必修1	Unit 3	delta	n.三角州	['deltə]
+必修1	Unit 3	attitude	n.态度；看法	[ˈætɪtjuːd]
+必修1	Unit 3	Qomolangma	n.珠穆朗玛峰	
+必修1	Unit 3	boil	vi.（指液体）沸腾；（水）开	[bɒɪl]
+必修1	Unit 3	forecast	n.&vt.预测；预报	[ˈfɔːkɑːst]
+必修1	Unit 3	parcel	n.小包；包裹	[ˈpɑːs(ə)l]
+必修1	Unit 3	insurance	n.保险	[ɪnˈʃʊərəns]
+必修1	Unit 3	wool	n.羊毛；毛织品	[wʊl]
+必修1	Unit 3	as usual	照常	[əz'juːʒʊəl]
+必修1	Unit 3	reliable	adj.可信赖的；可靠的	[rɪˈlaɪəb(ə)l]
+必修1	Unit 3	view	n.风景；视野；观点；见解　vt.观看；注视；考虑	[vjuː]
+必修1	Unit 3	yak	n.牦牛	
+必修1	Unit 3	pillow	n.枕头；枕垫	[pɪl]
+必修1	Unit 3	midnight	n.午夜；子夜	['mɪdnaɪt]
+必修1	Unit 3	at midnight	在午夜	
+必修1	Unit 3	flame	n.火焰；光芒；热情	[fleɪm]
+必修1	Unit 3	beneath	prep.在……下面	[bɪˈniːθ]
+必修1	Unit 3	Laos	n.老挝（东南亚国家）	
+必修1	Unit 3	Laotian	n.老挝人　adj.老挝（人）的	
+必修1	Unit 3	temple	n.庙宇；寺庙	[ˈtemp(ə)l]
+必修1	Unit 3	cave	n.洞穴；地窖　	[keɪv]
+必修1	Unit 4	earthquake	n.地震	['ɜːθkweɪk]
+必修1	Unit 4	quake	n.地震	[kweɪk]
+必修1	Unit 4	right away	立刻；马上	
+必修1	Unit 4	well	n.井	[wel]
+必修1	Unit 4	crack	n.裂缝；噼啦声　vt.&vi.（使）开裂；破裂	[kræk]
+必修1	Unit 4	smelly	adj.发臭的；有臭味的	[ˈsmeli]
+必修1	Unit 4	farmyard	n.农场；农家	
+必修1	Unit 4	pipe	n.管；导管	[paɪp]
+必修1	Unit 4	burst	vi.(burst,burst)爆裂；爆发　n.突然破裂；爆发	[ˈbɜːst]
+必修1	Unit 4	million	n.百万	['mɪljən]
+必修1	Unit 4	event	n.事件；大事	[ɪ'vent]
+必修1	Unit 4	as if	仿佛；好像	[əz'ɪf]
+必修1	Unit 4	at an end	终结；结束	
+必修1	Unit 4	nation	n.民族；国家；国民	[ˈneɪʃ(ə)n]
+必修1	Unit 4	canal	n.运河；水道	[kəˈnæl]
+必修1	Unit 4	steam	n.蒸汽；水汽	[stiːm]
+必修1	Unit 4	dirt	n.污垢；泥土	[dɜːt]
+必修1	Unit 4	ruin	n.废墟；毁灭　vt.使破产；毁灭	[ˈruːɪn]
+必修1	Unit 4	in ruins	严重受损；破败不堪	
+必修1	Unit 4	suffering	n.苦难；痛苦	[ˈsʌfərɪŋ]
+必修1	Unit 4	extremi	adj.极度的	
+必修1	Unit 4	injure	vt.损害；伤害	[ˈɪndʒə]
+必修1	Unit 4	survivor	n.幸存者；生还者；残存物	
+必修1	Unit 4	destroy	vt.破坏；毁坏；消灭	[dɪˈstrɒi]
+必修1	Unit 4	brick	n.砖；砖块	[brɪk]
+必修1	Unit 4	dam	n.水坝；堰堤	[dæm]
+必修1	Unit 4	track	n.轨道；足迹；痕迹	[træk]
+必修1	Unit 4	useless	adj.无用的；无效的；无益的	[ˈjuːslɪs]
+必修1	Unit 4	shock	vt.&vi.（使）震惊；震动　n.休克；打击；震惊	[ʃɒk]
+必修1	Unit 4	rescue	n.&vt.援救；营救	[ˈreskjuː]
+必修1	Unit 4	trap	vt.使陷入困境　n.陷阱；困境	[træp]
+必修1	Unit 4	electricity	n.电；电流；电学	[ɪlekˈtrɪsɪti]
+必修1	Unit 4	disaster	n.灾难；灾祸	[dɪˈzɑːstə]
+必修1	Unit 4	dig out	发现；掘出	
+必修1	Unit 4	bury	vt.埋葬；掩埋；隐藏	[ˈberi]
+必修1	Unit 4	mine	n.矿；矿山；矿井	[maɪn]
+必修1	Unit 4	miner	n.矿工	
+必修1	Unit 4	shelter	n.掩蔽；掩蔽处；避身处	[ˈʃeltə]
+必修1	Unit 4	a (great) number of	许多；大量的	
+必修1	Unit 4	title	n.标题；头衔；资格	[ˈtɪʃuːˌˈtɪsjuː]
+必修1	Unit 4	reporter	n.记者	[rɪˈpɔːtə]
+必修1	Unit 4	bar	n.条；棒；条状物	[bɑː]
+必修1	Unit 4	damage	n.&vt.损失；损害	[ˈdæmɪdʒ]
+必修1	Unit 4	frighten	vt.使惊吓；吓唬	['fraɪtən]
+必修1	Unit 4	frightened	adj.受惊的；受恐吓的	['fraɪtnd]
+必修1	Unit 4	frightening	adj.令人恐惧的	
+必修1	Unit 4	congratulation	n.祝贺；（复数）贺词	[kənˌgrætjʊ'leɪʃən]
+必修1	Unit 4	judge	n.裁判员；法官　vt.断定；判断；判决	[dʒʌdʒ]
+必修1	Unit 4	sincerely	adv.真诚地；真挚地	[sɪn'sɪrli/-'sɪəl-]
+必修1	Unit 4	express	vt.表示；表达　n.快车；速递	[ɪks'pres]
+必修1	Unit 4	outline	n.要点；大纲；轮廓	[ˈaʊtlaɪn]
+必修1	Unit 4	headline	n.报刊的大字标题	[ˈhedlaɪn]
+必修1	Unit 4	cyclist	n.骑自行车的人　	[ˈsaɪklɪst]
+必修1	Unit 5	Nelson Mandela	纳尔逊·曼德拉（前南非共和国总统）	[ˈnelsn mænˈdelə]
+必修1	Unit 5	quality	n.质量；品质；性质	[ˈkwɒlɪti]
+必修1	Unit 5	warm-hearted	adj.热心肠的	[wɔːm-hɑːt]
+必修1	Unit 5	mean	adj.吝啬的；自私的；卑鄙的	[miːn]
+必修1	Unit 5	active	adj.积极的；活跃的	['æktɪv]
+必修1	Unit 5	generous	adj.慷慨的；大方的	[ˈdʒenərəs]
+必修1	Unit 5	easy-going	adj.随和的；温和宽容的	
+必修1	Unit 5	self	n.自我；自身	[self]
+必修1	Unit 5	selfish	adj.自私的	[ˈselfɪʃ]
+必修1	Unit 5	selfless	adj.无私的；忘我的	
+必修1	Unit 5	selflessly	adv.无私地；忘我地	
+必修1	Unit 5	devote	vt.（与to连用）献身；专心于	[dɪˈvəʊt]
+必修1	Unit 5	devoted	adj.忠实的；深爱的	
+必修1	Unit 5	William Tyndale	威廉·廷代尔（英国早期新教改革者）	
+必修1	Unit 5	Bible	n.《圣经》	[ˈbaɪbl/ ]
+必修1	Unit 5	Norman Bethune	诺曼·白求恩（加拿大胸外科医师）	
+必修1	Unit 5	invader	n.侵略者	
+必修1	Unit 5	found	vt.建立；建设	[faʊnd]
+必修1	Unit 5	republic	n.共和国；共和政体	[rɪˈpʌblɪk]
+必修1	Unit 5	principle	n.法则；原则；原理	[ˈprɪnsɪp(ə)l]
+必修1	Unit 5	nationalism	n.民族主义；国家主义	
+必修1	Unit 5	livelihood	n.生计；谋生	
+必修1	Unit 5	Mohandas Gandhi	莫罕达斯·甘地（印度国民大会党领袖）	
+必修1	Unit 5	peaceful	adj.和平的；平静的；安宁的	[ˈpiːsfʊl]
+必修1	Unit 5	giant	adj.巨大的；庞大的	
+必修1	Unit 5	leap	n.飞跃；跳跃	[liːp]
+必修1	Unit 5	mankind	n.人类	[mænˈkaɪnd]
+必修1	Unit 5	Elias	n.伊莱亚斯（男名）	
+必修1	Unit 5	lawyer	n.律师	[ˈlɔːjə]
+必修1	Unit 5	guidance	n.指导；领导	[ˈɡaɪdəns]
+必修1	Unit 5	legal	adj.法律的；依照法律的	[ˈliːɡ(ə)l]
+必修1	Unit 5	fee	n.费（会费、学费等）；酬金	[fiː]
+必修1	Unit 5	passbook	n.南非共和国有色人种的身份证	
+必修1	Unit 5	Johannesburg	n.约翰内斯堡（南非城市）	
+必修1	Unit 5	out of work	失业	
+必修1	Unit 5	hopeful	adj.怀有希望的；有希望的	[ˈhəʊpfʊl]
+必修1	Unit 5	ANC	非国大；非洲人国民大会；非洲民族会议（African National Congress）	
+必修1	Unit 5	youth	n.青年；青年时期	[juːθ]
+必修1	Unit 5	league	同盟；联盟；联合会	[liːɡ]
+必修1	Unit 5	Youth League	青年团	
+必修1	Unit 5	stage	n.舞台；阶段；时期	[steɪdʒ]
+必修1	Unit 5	vote	n.投票；选票；表决　vt.&vi.投票；选举	[vəʊt]
+必修1	Unit 5	attack	vt.进攻；攻击；抨击	[ə'tæk]
+必修1	Unit 5	violence	n.暴力；暴行	[ˈvaɪələns]
+必修1	Unit 5	as a matter of fact	事实上	
+必修1	Unit 5	blow up	使充气；爆炸	
+必修1	Unit 5	equal	adj.相等的；平等的	[ˈiːkw(ə)l]
+必修1	Unit 5	in trouble	在危险、受罚、痛苦、忧虑等的处境中	
+必修1	Unit 5	willing	adj.乐意的；自愿的	[ˈwɪlɪŋ]
+必修1	Unit 5	unfair	adj.不公正的；不公平的	[ʌnˈfeə]
+必修1	Unit 5	turn to	求助于；致力于	
+必修1	Unit 5	quote	n.引用语；语录	[kwəʊt]
+必修1	Unit 5	release	vt.释放；发行	
+必修1	Unit 5	lose heart	丧失勇气或信心	
+必修1	Unit 5	Robben Island	罗本岛	
+必修1	Unit 5	escape	vi.逃脱；逃走；泄露	[ɪ'skeɪp]
+必修1	Unit 5	blanket	n.毛毯；毯子	[ˈblæŋkɪt]
+必修1	Unit 5	educate	vt.教育；训练	[ˈedjʊkeɪt]
+必修1	Unit 5	educated	adj.受过教育的；有教养的	
+必修1	Unit 5	come to power	当权；上台	
+必修1	Unit 5	beg	vi.请求；乞求	[beg]
+必修1	Unit 5	relative	n.亲戚；亲属	['relətɪv]
+必修1	Unit 5	terror	n.恐怖；可怕的人；恐怖时期；恐怖活动	[ˈterə]
+必修1	Unit 5	cruelty	n.残忍；残酷	
+必修1	Unit 5	reward	n.报酬；奖金　vt.酬劳；奖赏	[rɪˈwɔːd]
+必修1	Unit 5	Transkei	n.特兰斯凯（南非东南部一地区）	[træsˈkeɪ]
+必修1	Unit 5	set up	建立；设立	
+必修1	Unit 5	sentence	vt.判决；宣判	[ˈsent(ə)ns]
+必修1	Unit 5	be sentenced to	被判处……（徒刑）	
+必修1	Unit 5	anti -	[前缀] 反；抗；阻	
+必修1	Unit 5	anti - black	adj.反黑人的	
+必修1	Unit 5	Cape Town	开普敦（南非立法首都）	
+必修1	Unit 5	president	n.总统；会长；校长；行长	[ˈprezɪdənt]
+必修1	Unit 5	Nobel Peace Prize	诺贝尔和平奖	
+必修1	Unit 5	opinion	n.意见；看法；主张　	[əˈpɪnjən]
+必修2	Unit 1	cultural	adj.文化的	
+必修2	Unit 1	relic	n.遗物；遗迹；纪念物	
+必修2	Unit 1	rare	adj.稀罕的；稀有的；珍贵的	[reə]
+必修2	Unit 1	valuable	adj.贵重的；有价值的	[ˈvæljʊəb(ə)l]
+必修2	Unit 1	survive	vi.幸免；幸存；生还	[səˈvaɪv]
+必修2	Unit 1	vase	n.花瓶；瓶	[vɑːz]
+必修2	Unit 1	dynasty	n.朝代；王朝	[ˈdɪnəsti]
+必修2	Unit 1	Taj Mahal	泰姬陵	
+必修2	Unit 1	ivory	n.象牙	
+必修2	Unit 1	dragon	n.龙	[ˈdræɡən]
+必修2	Unit 1	amber	n.琥珀；琥珀色	
+必修2	Unit 1	in search of	寻找	
+必修2	Unit 1	Frederick William I	腓特烈·威廉一世（普鲁士国王）	
+必修2	Unit 1	Prussia	n.（史）普鲁士（位于北欧）	
+必修2	Unit 1	amaze	vt.使吃惊；惊讶	[ə'meɪz]
+必修2	Unit 1	amazing	adj.令人吃惊的	[ə'meɪzɪŋ]
+必修2	Unit 1	select	vt.挑选；选择	[sɪˈlekt]
+必修2	Unit 1	honey	n.蜜；蜂蜜	[ˈɒnɪst]
+必修2	Unit 1	design	n.设计；图案；构思　vt.设计；计划；构思	[dɪˈzaɪn]
+必修2	Unit 1	fancy	adj.奇特的；异样的　vt.想象；设想；爱好	[ˈfænsi]
+必修2	Unit 1	style	n.风格；风度；类型	[staɪl]
+必修2	Unit 1	decorate	v.装饰；装修	['dekəreɪt]
+必修2	Unit 1	jewel	n.珠宝；宝石	[ˈdʒuːəl]
+必修2	Unit 1	artist	n.艺术家	['ɑːtɪst]
+必修2	Unit 1	belong	vi.属于；为……的一员	[bɪˈlɒŋ]
+必修2	Unit 1	belong to	属于	
+必修2	Unit 1	Peter the Great	彼得大帝（俄国皇帝）	
+必修2	Unit 1	in return	作为报答；回报	
+必修2	Unit 1	Czar	n.沙皇	
+必修2	Unit 1	troop	n.群；组；军队	[truːp]
+必修2	Unit 1	St Petersberg	圣彼得堡（俄罗斯城市）	
+必修2	Unit 1	reception	n.接待；招待会；接收	[rɪˈsepʃ(ə)n]
+必修2	Unit 1	Catherine Ⅱ	叶卡捷琳娜二世（俄国女皇）	
+必修2	Unit 1	at war	处于交战状态	
+必修2	Unit 1	remove	vt.移动；搬开	[rɪˈmuːv]
+必修2	Unit 1	less than	少于	
+必修2	Unit 1	wooden	adj.木制的	[ˈwʊd(ə)n]
+必修2	Unit 1	doubt	n.怀疑；疑惑　vt.怀疑；不信	[daʊt]
+必修2	Unit 1	Königsberg	n.哥尼斯堡（俄罗斯港市Kaliningrad的旧称）	
+必修2	Unit 1	the Baltic Sea	波罗的海	
+必修2	Unit 1	mystery	n.神秘；神秘的事物	[ˈmɪstəri]
+必修2	Unit 1	former	adj.以前的；从前的	[ˈfɔːmə]
+必修2	Unit 1	worth	prep.值得的；相当于……的价值　n.价值；作用	[wɜːθ]
+必修2	Unit 1	rebuild	vt.重建	[riːˈbɪld]
+必修2	Unit 1	local	adj.本地的；当地的	[ˈləʊk(ə)l]
+必修2	Unit 1	apart	adv.分离地；分别地	[əˈpɑːt]
+必修2	Unit 1	take apart	拆开	
+必修2	Unit 1	Leningrad	n.列宁格勒（苏联城市）	
+必修2	Unit 1	painting	n.绘画；画	['peɪntɪŋ]
+必修2	Unit 1	castle	n.城堡	[ˈkɑːs(ə)l]
+必修2	Unit 1	Windsor Castle	温莎城堡（英国著名城堡）	
+必修2	Unit 1	trial	n.审判；审讯；试验	[ˈtraɪəl]
+必修2	Unit 1	eyewitness	n.目击者；证人	[ˈaɪwɪtnɪs]
+必修2	Unit 1	evidence	n.根据；证据	[ˈevɪdəns]
+必修2	Unit 1	Jan Hasek	简·哈兹克（男名）	
+必修2	Unit 1	Czech Republic	捷克共和国（东欧国家）	
+必修2	Unit 1	explode	vi.爆炸	[ɪks'pləʊd]
+必修2	Unit 1	entrance	n.入口	['entrəns]
+必修2	Unit 1	Hans Braun	汉斯·布朗（男名）	
+必修2	Unit 1	sailor	n.海员；水手；船员	[ˈseɪlə]
+必修2	Unit 1	sink	vi.(sank,sunk;sunk,sunken)下沉；沉下	[sɪŋk]
+必修2	Unit 1	Anna Petrov	安娜·帕特罗夫（女名）	
+必修2	Unit 1	maid	n.少女；女仆	[meɪd]
+必修2	Unit 1	Berlin	n.柏林（德国首都）	[bɜː'lɪn]
+必修2	Unit 1	think highly of	看重；器重	
+必修2	Unit 1	Johann Webber	约翰·韦伯（男名）	
+必修2	Unit 1	informal	adj.非正式的	
+必修2	Unit 1	debate	n.争论；辩论　vi.争论；辩论	[dɪˈbeɪt]
+必修2	Unit 2	ancient	adj.古代的；古老的	[ˈeɪnʃənt]
+必修2	Unit 2	compete	vi.比赛；竞争	[kəmˈpiːt]
+必修2	Unit 2	competitor	n.竞争者	[kəmˈpetɪtə]
+必修2	Unit 2	take part in	参加；参与	
+必修2	Unit 2	medal	n.奖章；勋章；纪念章	[ˈmed(ə)l]
+必修2	Unit 2	stand for	代表；象征；表示	
+必修2	Unit 2	mascot	n.吉祥物	
+必修2	Unit 2	Pausanias	帕萨尼亚斯（男名；古希腊人名）	
+必修2	Unit 2	Greece	n.希腊	[ɡriːs]
+必修2	Unit 2	Greek	adj.希腊（人）的；希腊语的　n.希腊人；希腊语	[ɡriːk]
+必修2	Unit 2	magical	adj.巫术的；魔术的；有魔力的	['mædʒɪkəl]
+必修2	Unit 2	volunteer	n.志愿者；志愿兵　adj.志愿的；义务的	[vɒlənˈtɪə]
+必修2	Unit 2	homeland	n.祖国；本国	[ˈhəʊmlænd]
+必修2	Unit 2	regular	adj.规则的；定期的；常规的	[ˈreɡjʊlə]
+必修2	Unit 2	basis	n.(pl bases)基础；根据	[ˈbeɪsɪs]
+必修2	Unit 2	athlete	n.运动员；运动选手	[ˈæθliːt]
+必修2	Unit 2	admit	vt.&vi.容许；承认；接纳	[ədˈmɪt]
+必修2	Unit 2	slave	n.奴隶	[sleɪv]
+必修2	Unit 2	nowadays	adv.现今；现在	[ˈnaʊədeɪz]
+必修2	Unit 2	gymnastics	n.(pl)体操；体能训练	[dʒɪmˈnæstɪks]
+必修2	Unit 2	athletics	n.(pl)体育运动；竞技	[æθˈletɪks]
+必修2	Unit 2	stadium	n.(露天大型)体育场(pl standiums or stadia)	[ˈsteɪdɪəm]
+必修2	Unit 2	gymnasium (gym)	n.体育馆；健身房	
+必修2	Unit 2	as well	也；又；还	[əz'wel]
+必修2	Unit 2	host	vt.做东；主办；招待　n.主人	[həʊst]
+必修2	Unit 2	responsibility	n.责任；职责	[rɪspɒnsɪˈbɪlɪti]
+必修2	Unit 2	olive	n.橄榄树；橄榄叶；橄榄枝；橄榄色	
+必修2	Unit 2	wreath	n.花圈；花冠；圈状物	
+必修2	Unit 2	replace	vt.取代；替换；代替	[rɪˈpleɪs]
+必修2	Unit 2	motto	n.座右铭；格言；警句	[ˈmɒtəʊ]
+必修2	Unit 2	swift	adj.快的；迅速的	[swɪft]
+必修2	Unit 2	similarity	n.相像性；相似点	
+必修2	Unit 2	Athens	n.雅典（希腊首都）	[ˈæθənz]
+必修2	Unit 2	charge	vt.&vi.收费；控诉　n.费用；主管	[tʃɑːdʒ]
+必修2	Unit 2	physical	adj.物理的；身体的	[ˈfɪzɪk(ə)l]
+必修2	Unit 2	fine	vt.罚款	[faɪn]
+必修2	Unit 2	poster	n.海报；招贴	[ˈpəʊstə]
+必修2	Unit 2	advertise	vt.&vi.做广告；登广告	[ˈædvətaɪz]
+必修2	Unit 2	Atlanta	n.亚特兰大（女名；城市名）	
+必修2	Unit 2	princess	n.公主	
+必修2	Unit 2	glory	n.光荣；荣誉	[ˈɡlɔːri]
+必修2	Unit 2	bargain	vi.讨价还价；讲条件　n.便宜货	[ˈbɑːɡɪn]
+必修2	Unit 2	prince	n.王子	
+必修2	Unit 2	hopeless	adj.没有希望的；绝望的	['həʊplɪsli]
+必修2	Unit 2	Hippomenes	n.希波墨涅斯（男名；古希腊人名）	
+必修2	Unit 2	foolish	adj.愚蠢的；傻的	[ˈfuːlɪʃ]
+必修2	Unit 2	goddess	n.女神	
+必修2	Unit 2	pain	n.疼痛；痛苦	[peɪn]
+必修2	Unit 2	one after another	陆续地；一个接一个地	
+必修2	Unit 2	deserve	vt.&vi.应受（报答或惩罚）；值得	[dɪ'zɜːv]
+必修2	Unit 2	striker	n.敲击者；（足球的）前锋　	['straɪkə]
+必修2	Unit 3	abacus	n.算盘	['æbəkəs]
+必修2	Unit 3	calculator	n.计算器	[ˈkælkjʊleɪtə]
+必修2	Unit 3	PC(=personal computer)	个人电脑；个人计算机	
+必修2	Unit 3	laptop	n.手提电脑	[ˈlæpˌtɒp]
+必修2	Unit 3	PDA	掌上电脑；个人数码助理	
+必修2	Unit 3	analytical	adj.分析的	
+必修2	Unit 3	calculate	vt.计算	[ˈkælkjʊleɪt]
+必修2	Unit 3	universal	adj.宇宙的；普遍的；通用的	[juːnɪˈvɜːs(ə)l]
+必修2	Unit 3	simplify	vt.简化	[ˈsɪmplɪfaɪ]
+必修2	Unit 3	sum	n.总数；算术题；金额	[sʌm]
+必修2	Unit 3	Charles Babbage	查尔斯.巴比奇（英国数学教授）	
+必修2	Unit 3	operator	n.（电脑）操作员；接线员	[ˈɒpəreɪtə]
+必修2	Unit 3	logical	adj.合逻辑的；合情理的	
+必修2	Unit 3	logically	adv.逻辑上；合逻辑地；有条理地	
+必修2	Unit 3	technology	n.工艺；科技；技术	[tekˈnɒlədʒi]
+必修2	Unit 3	technological	adj.科技的	
+必修2	Unit 3	revolution	n.革命	[revəˈluːʃ(ə)n]
+必修2	Unit 3	artificial	adj.人造的；假的	[ɑːtɪˈfɪʃ(ə)l]
+必修2	Unit 3	intelligence	n.智力；聪明；智能	[ɪnˈtelɪdʒəns]
+必修2	Unit 3	intelligent	adj.智能的；聪明的	
+必修2	Unit 3	Alan Turing	艾伦·图灵（英国数学家）	
+必修2	Unit 3	solve	vt.解决；解答	[sɒlv]
+必修2	Unit 3	mathematical	adj.数学的	
+必修2	Unit 3	from … on	从……时起	
+必修2	Unit 3	reality	n.真实；事实；现实	[rɪˈælɪti]
+必修2	Unit 3	designer	n.设计师	
+必修2	Unit 3	personal	adj.私人的；个人的；亲自的	['pɜːsənl]
+必修2	Unit 3	personally	adv.亲自；就个人而言	[ˈpɜːsənəli]
+必修2	Unit 3	tube	n.管；管子；电子管	[tjuːb]
+必修2	Unit 3	transistor	n.晶体管	
+必修2	Unit 3	chip	n.碎片；芯片	[tʃɪp]
+必修2	Unit 3	as a result	结果	
+必修2	Unit 3	total	adj.总的；整个的　n.总数；合计	[ˈtəʊt(ə)l]
+必修2	Unit 3	totally	adv.完全地；整个地	[ˈtɒt(ə)li]
+必修2	Unit 3	so…that…	如此……以致于……	
+必修2	Unit 3	network	n.网络；网状物	[ˈnetwɜːk]
+必修2	Unit 3	web	n.网	[web]
+必修2	Unit 3	application	n.应用；用途；申请	[æplɪˈkeɪʃ(ə)n]
+必修2	Unit 3	finance	n.金融；财经	[ˈfaɪnæns]
+必修2	Unit 3	mobile	n.可移动的；机动的	['məʊbɪl]
+必修2	Unit 3	rocket	n.火箭	[ˈrɒkɪt]
+必修2	Unit 3	explore	vt.&vi.探索；探测；探究	[ɪks'plɔː]
+必修2	Unit 3	Mars	n.火星	[mɑːz]
+必修2	Unit 3	anyhow	adv.（也作anyway）无论如何；即使如此	[ˈenɪhaʊ]
+必修2	Unit 3	goal	n.目标；目的；球门；（进球）得分	[gəʊl]
+必修2	Unit 3	happiness	n.幸福；快乐	[ˈhæpɪnɪs]
+必修2	Unit 3	human race	人类	
+必修2	Unit 3	supporting	adj.支持的；支撑的	
+必修2	Unit 3	download	vt.下载	['daʊnləʊd]
+必修2	Unit 3	programmer	n.程序师；程序员	['prəʊgræmə]
+必修2	Unit 3	virus	n.病毒	[ˈvaɪərəs]
+必修2	Unit 3	android	n.机器人	
+必修2	Unit 3	signal	vt.&vi.发信号　n.信号	[ˈsɪɡn(ə)l]
+必修2	Unit 3	teammate	n.同伴；伙伴	
+必修2	Unit 3	Nagoya	n.名古屋（日本港市）	
+必修2	Unit 3	Seattle	n.西雅图（美国城市）	[sɪˈætl]
+必修2	Unit 3	type	n.类型　vt.&vi.打字	[taɪp]
+必修2	Unit 3	in a way	在某种程度上	
+必修2	Unit 3	coach	n.教练	[kəʊtʃ]
+必修2	Unit 3	arise	vi.(arose,arisen)出现；发生	[əˈraɪz]
+必修2	Unit 3	with the help of	在……的帮助下	
+必修2	Unit 3	electronic	adj.电子的	[ɪlekˈtrɒnɪk]
+必修2	Unit 3	appearance	n.外观；外貌；出现	[əˈpɪərəns]
+必修2	Unit 3	character	n.性格；特点	[ˈkærɪktə]
+必修2	Unit 3	mop	n.拖把　vt.用拖把拖；擦	[mɒp]
+必修2	Unit 3	deal with	处理；安排；对付	
+必修2	Unit 3	watch over	看守；监视	
+必修2	Unit 3	naughty	adj.顽皮的；淘气的	[ˈnɔːti]
+必修2	Unit 3	niece	n.侄女；甥女	[niːs]
+必修2	Unit 3	spoil	vt.损坏；宠坏　	[spɔɪl]
+必修2	Unit 4	wildlife	n.野生动植物	[ˈwaɪldlaɪf]
+必修2	Unit 4	protection	n.保护	[prəˈtekʃ(ə)n]
+必修2	Unit 4	wild	adj.野生的；野的；未开发的；荒凉的	[waɪld]
+必修2	Unit 4	habitat	n.栖息地（动植物的）自然环境	['hæbɪtæt]
+必修2	Unit 4	threaten	vt.&vi.恐吓；威胁	[ˈθretn]
+必修2	Unit 4	decrease	vt.&vi.减少；（使）变小；或变少	[dɪˈkriːs]
+必修2	Unit 4	endanger	vt.危害；使受到危险	
+必修2	Unit 4	die out	灭亡；逐渐消失	
+必修2	Unit 4	loss	n.损失；遗失；丧失	[lɒs]
+必修2	Unit 4	reserve	n.保护区	[rɪˈzɜːv]
+必修2	Unit 4	hunt	vt.&vi.打猎；猎取；搜寻	[hʌnt]
+必修2	Unit 4	zone	n.地域；地带，地区	[zuː]
+必修2	Unit 4	in peace	和平地；和睦地；安祥地	
+必修2	Unit 4	in danger (of)	在危险中；垂危	
+必修2	Unit 4	Daisy	戴茜（女名）	[ˈdeɪziː]
+必修2	Unit 4	species	n.种类；物种	
+必修2	Unit 4	carpet	n.地毯	[ˈkɑːpɪt]
+必修2	Unit 4	respond	vi.回答；响应；作出反应	[rɪˈspekt]
+必修2	Unit 4	distant	adj.远的；远处的	[ˈdɪst(ə)nt]
+必修2	Unit 4	fur	n.毛皮；毛；软毛	[fɜː]
+必修2	Unit 4	antelope	n.羚羊	
+必修2	Unit 4	Zimbabwe	n.津巴布韦（非洲东南部国家）	
+必修2	Unit 4	relief	n.（痛苦或忧虑的）减轻或解除；减轻痛苦的事物	[rɪˈliːf]
+必修2	Unit 4	in relief	如释重负；松了口气	
+必修2	Unit 4	laughter	n.笑；笑声	[ˈlɑːftə]
+必修2	Unit 4	burst into laughter	突然笑起来；大声笑了出来	
+必修2	Unit 4	mercy	n.仁慈；宽恕；怜悯	[ˈmɜːsi]
+必修2	Unit 4	certain	adj.确定的；某一；一定	[ˈsɜːt(ə)n]
+必修2	Unit 4	importance	n.重要（性）	[ɪmˈpɔːt(ə)ns]
+必修2	Unit 4	WWF(World Wildlife Fund)	世界野生生物基金会	
+必修2	Unit 4	rub	vt.擦；摩擦	[rʌb]
+必修2	Unit 4	protect…from	保护……不受……（危害）	
+必修2	Unit 4	mosquito	n.蚊子	[məˈskiːtəʊ]
+必修2	Unit 4	millipede	n.(=millepede)千足虫	
+必修2	Unit 4	insect	n.昆虫	[ˈɪnsekt]
+必修2	Unit 4	contain	vt.包含；容纳；容忍	[kənˈteɪn]
+必修2	Unit 4	powerful	adj.强大的；有力的	[ˈpaʊəfʊl]
+必修2	Unit 4	affect	vt.影响；感动；侵袭	[əˈfekt]
+必修2	Unit 4	attention	n.注意；关注；注意力	[əˈtenʃ(ə)n]
+必修2	Unit 4	pay attention to	注意	
+必修2	Unit 4	appreciate	vt.鉴赏；感激；意识到	[əˈpriːʃɪeɪt]
+必修2	Unit 4	succeed	vi.成功　vt.接替；继任	[səkˈsiːd]
+必修2	Unit 4	Indonesia	n.印度尼西亚（东南亚岛国）	
+必修2	Unit 4	rhino	n.犀牛	
+必修2	Unit 4	secure	adj.安全的；可靠的	[sɪˈkjʊə]
+必修2	Unit 4	income	n.收入	[ˈɪnkʌm]
+必修2	Unit 4	employ	vt.雇用；利用（时间、精力等）	[ɪmˈplɒi]
+必修2	Unit 4	harm	n.&vt.损害；危害	[hɑːm]
+必修2	Unit 4	Milu deer	麋鹿	
+必修2	Unit 4	bite	vt.&vi.(bit,bitten)咬；叮；刺痛	[baɪt]
+必修2	Unit 4	extinction	n.灭绝；消亡	
+必修2	Unit 4	dinosaur	n.恐龙	['daɪnəsɔː]
+必修2	Unit 4	come into being	产生；形成	
+必修2	Unit 4	county	n.县；郡	
+必修2	Unit 4	inspect	vt.检查；视察	[ɪnˈspekt]
+必修2	Unit 4	unexpected	adj.没料到的；意外的	
+必修2	Unit 4	incident	n.事件；事变	[ˈɪnsɪd(ə)nt]
+必修2	Unit 4	dust	n.尘土；尘埃；灰尘	[dʌst]
+必修2	Unit 4	according to	按照；根据……所说	
+必修2	Unit 4	Mauritius	n.毛里求斯（非洲东部岛国）	
+必修2	Unit 4	disappearance	n.消失	[ˌdɪsə'pɪərəns]
+必修2	Unit 4	fierce	adj.猛烈的；凶猛的	[ˈfɪəs]
+必修2	Unit 4	so that	以致于；结果	
+必修2	Unit 4	ending	n.结局；结尾	[ˈendɪŋ]
+必修2	Unit 4	faithfully	adv.忠诚地；忠实地	
+必修2	Unit 4	Colobus monkey	（非洲产）疣猴，髯猴　	
+必修2	Unit 5	classical	adj.古典的；古典文艺的	[ˈklæsɪk(ə)l]
+必修2	Unit 5	roll	vt.&vi.滚动；（使）摇摆　n.摇晃；卷；面包圈；卷形物	[rəʊl]
+必修2	Unit 5	rock'n'roll (rock-and-roll)	摇滚乐	
+必修2	Unit 5	orchestra	n.管弦乐队	[ˈɔːkɪstrə]
+必修2	Unit 5	rap	n.说唱乐	[ræp]
+必修2	Unit 5	folk	adj.民间的	[fəʊk]
+必修2	Unit 5	jazz	n.爵士音乐	[dʒæz]
+必修2	Unit 5	choral	adj.唱诗班的；合唱队的	
+必修2	Unit 5	The Monkees	门基乐队	
+必修2	Unit 5	musician	n.音乐家	[mjuːˈzɪʃ(ə)n]
+必修2	Unit 5	dream of	梦见；梦想，设想	
+必修2	Unit 5	karaoke	n.卡拉OK录音；自动伴奏录音	
+必修2	Unit 5	pretend	vt.假装；假扮	[ˈpreʃə]
+必修2	Unit 5	to be honest	说实在地；实话说	
+必修2	Unit 5	attach	vt.&vi.系上；缚上；附加；连线	[əˈtætʃ]
+必修2	Unit 5	attach … to	认为有（重要性、意义）；附上；连接	
+必修2	Unit 5	form	vt.（使）组成；形成；构成	[fɔːm]
+必修2	Unit 5	fame	n.名声；名望	[feɪm]
+必修2	Unit 5	passer-by	n.过路人；行人	['pɑːsə-baɪ]
+必修2	Unit 5	earn	vt.赚；挣得；获得	[ɜːn]
+必修2	Unit 5	extra	adj.额外的；外加的	['ekstrə]
+必修2	Unit 5	instrument	n.工具；器械；乐器	[ˈɪnstrʊmənt]
+必修2	Unit 5	perform	vt.&vi.表演；履行；执行	[pəˈfɔːm]
+必修2	Unit 5	performance	n.表演；演奏	[pə'fɔːməns]
+必修2	Unit 5	pub	n.酒馆；酒吧	[pʌb]
+必修2	Unit 5	cash	n.现金	[kæʃ]
+必修2	Unit 5	in cash	用现金；有现钱	
+必修2	Unit 5	studio	n.工作室；演播室	[ˈstjuːdɪəʊ]
+必修2	Unit 5	millionaire	n.百万富翁；富豪	[mɪljəˈneə]
+必修2	Unit 5	play jokes on	戏弄	
+必修2	Unit 5	actor	n.男演员；行动者	[ˈæktə]
+必修2	Unit 5	rely	vi.依赖；依靠	[rɪˈlaɪ]
+必修2	Unit 5	rely on	依赖；依靠	
+必修2	Unit 5	broadcast	n.广播；播放　vt.&vi.(broadcast;broadcast)广播；播放	[ˈbrɔːdkɑːst]
+必修2	Unit 5	humorous	adj.幽默的；诙谐的	[ˈhjuːmərəs]
+必修2	Unit 5	familiar	adj.熟悉的；常见的；亲近的	[fəˈmɪlɪə]
+必修2	Unit 5	be/get familiar with	熟悉；与……熟悉起来	
+必修2	Unit 5	or so	大约	
+必修2	Unit 5	break up	打碎；分裂；解体	
+必修2	Unit 5	reunite	vt.再统一；再联合；重聚	
+必修2	Unit 5	attractive	adj.吸引人的；有吸引力的	[əˈtræktɪv]
+必修2	Unit 5	addition	n.加；增加；加法	[əˈdɪʃ(ə)n]
+必修2	Unit 5	in addition	另外；也	
+必修2	Unit 5	sort out	分类	
+必修2	Unit 5	excitement	n.兴奋；刺激	
+必修2	Unit 5	ballad	n.歌谣；情歌；民谣	
+必修2	Unit 5	overnight	adv.在晚上；在夜里；（口）很快；一夜之间	
+必修2	Unit 5	dip	vt.浸；蘸	[dɪp]
+必修2	Unit 5	tadpole	n.蝌蚪	
+必修2	Unit 5	lily	n.百合；百合花	
+必修2	Unit 5	confident	adj.自信的；确信的	[ˈkɒnfɪdənt]
+必修2	Unit 5	Freddy	n.弗雷迪（男名）	
+必修2	Unit 5	brief	adj.简短的；简要的　n.摘要；大纲	[briːf]
+必修2	Unit 5	briefly	adv.简要地；短暂地	
+必修2	Unit 5	devotion	n.投入；热爱	[dɪˈvəʊʃ(ə)n]
+必修2	Unit 5	afterwards	adv.然后；后来	[ˈɑːftəwədz]
+必修2	Unit 5	invitation	n.邀请；招待	[ɪnvɪˈteɪʃ(ə)n]
+必修2	Unit 5	beard	n.胡须	[bɪəd]
+必修2	Unit 5	sensitive	adj.敏感的；易受伤害的；灵敏的	[ˈsensɪtɪv]
+必修2	Unit 5	painful	adj.痛苦的；疼痛的	['peɪnfəl]
+必修2	Unit 5	above all	最重要；首先　	
+必修3	Unit 1	take place	发生	[teɪk//pleɪs]
+必修3	Unit 1	beauty	n.美；美人	[ˈbjuːti]
+必修3	Unit 1	harvest	n.&vt.&vi.收获；收割	['hɑːvɪst]
+必修3	Unit 1	celebration	n.庆祝；祝贺	[selɪˈbreɪʃ(ə)n]
+必修3	Unit 1	starve	vt.＆Vi.使饿死；饿得要死	[stɑːv]
+必修3	Unit 1	origin	n.起源；由来；起因	[ˈɒrɪdʒɪn]
+必修3	Unit 1	religious	adj,虔诚的；宗教上的；信奉宗教的	[rɪˈlɪdʒəs]
+必修3	Unit 1	seasonal	adj.季节的；季节性的	
+必修3	Unit 1	ancestor	n.祖先；祖宗	[ˈænsəstə]
+必修3	Unit 1	Obon	n.（日本）盂兰盆节	
+必修3	Unit 1	grave	n.坟墓；墓地	[greɪv]
+必修3	Unit 1	incense	n.熏香；熏香的烟	
+必修3	Unit 1	in memory of	纪念；追念	
+必修3	Unit 1	Mexico	n.墨西哥（拉丁美洲国家）	[ˈmeksɪkəʊ]
+必修3	Unit 1	feast	n.节日；盛宴	[fiːst]
+必修3	Unit 1	skull	n.头脑；头骨	[skʌl]
+必修3	Unit 1	bone	n.骨；骨头	[bəʊn]
+必修3	Unit 1	Halloween	n.万圣节前夕；诸圣日前夕	['hæləʊ'iːn]
+必修3	Unit 1	belief	n.信任；信心；信仰	[bɪˈliːf]
+必修3	Unit 1	dress up	盛装；打扮；装饰	
+必修3	Unit 1	trick	n.诡计；恶作剧；窍门　vt.欺骗；诈骗	[trɪk]
+必修3	Unit 1	play a trick on	搞恶作剧；诈骗；开玩笑	
+必修3	Unit 1	poet	n.诗人	[ˈpəʊɪt]
+必修3	Unit 1	Columbus Day	哥伦布日	
+必修3	Unit 1	arrival	n.到来；到达；到达者	[əˈraɪv(ə)l]
+必修3	Unit 1	Christopher Columbus	克利斯朵夫·哥伦布(意大利航海家)	
+必修3	Unit 1	gain	vt.获得；得到	[ɡeɪn]
+必修3	Unit 1	independence	n.独立；自主	[ɪndɪˈpendəns]
+必修3	Unit 1	independent	adj.独立的；自主的	[ɪndɪˈpendənt]
+必修3	Unit 1	gather	vt.&vi.&n.集合；聚集；搜集	[ˈɡæðə]
+必修3	Unit 1	agriculture	n.农业；农艺；农学	[ˈæɡrɪkʌltʃə]
+必修3	Unit 1	agricultural	adj.农业的；农艺的	[æɡrɪˈkʌltʃər(ə)l]
+必修3	Unit 1	award	n.奖；奖品　vt.授予；判定	[wɔːd]
+必修3	Unit 1	produce	n.产品；（尤指）农产品	[prə'djuːs]
+必修3	Unit 1	rooster	n.雄禽；公鸡	[ˈruːstə]
+必修3	Unit 1	admire	vt.赞美；钦佩；羡慕	[ədˈmaɪə]
+必修3	Unit 1	energetic	adj.充满活力的；精力充沛的；积极的	[enəˈdʒetɪk]
+必修3	Unit 1	look forward to	期望；期待；盼望	
+必修3	Unit 1	carnival	n.狂欢节；（四旬斋前的）饮宴狂欢；嘉年华（会）	
+必修3	Unit 1	lunar	adj.月的；月亮的；阴历的	
+必修3	Unit 1	Easter	n.（耶稣）复活节	[ˈiːstə]
+必修3	Unit 1	parade	n.游行；阅兵；检阅	
+必修3	Unit 1	day and night	日夜；昼夜；整天	
+必修3	Unit 1	clothing	n.衣服	[ˈkləʊðɪŋ]
+必修3	Unit 1	Christian	n.基督徒；信徒　adj.基督教的；信基督教的	[ˈkrɪstɪən]
+必修3	Unit 1	Jesus	n.耶稣	
+必修3	Unit 1	cherry	n.樱桃；樱桃树	['tʃeri]
+必修3	Unit 1	blossom	n.花　vi.开花	
+必修3	Unit 1	as though	好像	
+必修3	Unit 1	have fun with	玩得开心	
+必修3	Unit 1	custom	n.习惯；风俗	[ˈkʌstəm]
+必修3	Unit 1	worldwide	adj.遍及全世界的；世界性的	[ˈwɜːldwaɪd/ ]
+必修3	Unit 1	rosebud	n.玫瑰花蕾	
+必修3	Unit 1	fool	n.愚人；白痴；受骗者　vt.愚弄；欺骗	[fuːl]
+必修3	Unit 1	necessity	n.必要性；需要	[nɪˈsesɪti]
+必修3	Unit 1	permission	n.许可；允许	[pəˈmɪʃ(ə)n]
+必修3	Unit 1	prediction	n.预言；预报；预告	[prɪ'dɪkʃən]
+必修3	Unit 1	fashion	n.样子；方式；时尚	[ˈfæʃən]
+必修3	Unit 1	Trinidad	n.特立尼达岛	
+必修3	Unit 1	Carla	n.卡拉（女名）	
+必修3	Unit 1	Hari	n.哈利（男名）	
+必修3	Unit 1	parking	n.(汽车等）停放	['pɑːkɪŋ]
+必修3	Unit 1	parking lot	停车场	
+必修3	Unit 1	Valentine's Day	n.圣瓦伦廷节；情人节	
+必修3	Unit 1	turn up	出现；到场	
+必修3	Unit 1	keep one's word	守信用；履行诺言	
+必修3	Unit 1	hold one's breath	屏息；屏气	
+必修3	Unit 1	apologize	vi.道歉；辩白	[əˈpɒlədʒaɪz]
+必修3	Unit 1	drown	vt.＆Vi.溺死；淹死；淹没	[draʊn]
+必修3	Unit 1	sadness	n.悲哀；悲伤	[ˈsædnɪs]
+必修3	Unit 1	obvious	adj.明显的；显而易见的	[ˈɒbvɪəs]
+必修3	Unit 1	wipe	vt.擦；揩；擦去	[waɪp]
+必修3	Unit 1	weave	vt.&vi.（wove，woven）编织；（使）迂回前进	[wiːv]
+必修3	Unit 1	herd	n.兽群；牧群	
+必修3	Unit 1	the Milky Way	银河	
+必修3	Unit 1	magpie	n.喜鹊	
+必修3	Unit 1	weep	n.哭；哭泣　Vi.(wept,wept)哭泣；流泪	[wiːp]
+必修3	Unit 1	announcer	n.广播员；告知者；报幕员	
+必修3	Unit 1	set off	出发；动身；使爆炸	[ˈsetɒf]
+必修3	Unit 1	remind	vt.提醒；使想起	[rɪˈmaɪnd]
+必修3	Unit 1	remind … of …	使……想起……	
+必修3	Unit 1	forgive	vt.(forgave,forgiven)原谅；饶恕　	[fəˈɡɪv]
+必修3	Unit 2	diet	n.日常饮食　Vi.节食	[daɪ]
+必修3	Unit 2	spaghetti	n.意大利式细面条	[spə'geti]
+必修3	Unit 2	nut	n.坚果；果仁	[nʌt]
+必修3	Unit 2	muscle	n.肌肉；（食用）瘦肉	['mʌsl]
+必修3	Unit 2	protective	adj.给予保护的；保护的	
+必修3	Unit 2	bean	n.豆；豆科植物	[biːn]
+必修3	Unit 2	pea	n.豌豆	[piː]
+必修3	Unit 2	cucumber	n.黄瓜	
+必修3	Unit 2	eggplant	n.茄子	[ˈeɡplɑːnt]
+必修3	Unit 2	pepper	n.辣椒；辣椒粉	['pepə]
+必修3	Unit 2	mushroom	n.蘑菇	[ˈmʌʃrʊm]
+必修3	Unit 2	peach	n.桃子	[piːtʃ]
+必修3	Unit 2	lemon	n.柠檬	[ˈlemən]
+必修3	Unit 2	balance	n.天平；平衡　vt.平衡；权衡	[ˈbæləns]
+必修3	Unit 2	balanced diet	平衡膳食	
+必修3	Unit 2	barbecue	vt.&n.烧烤；烤肉	[ˈbɑːbɪkjuː]
+必修3	Unit 2	mutton	n.羊肉	[ˈmʌt(ə)n]
+必修3	Unit 2	kebab	n.（＝kabob)（印度）烤腌羊肉串；肉串上的肉块	
+必修3	Unit 2	roast	vt．&vi.烤；烘；烘烤　adj.烤制的	[rəʊst]
+必修3	Unit 2	stir	vt.摇动；搅和	[stɜː]
+必修3	Unit 2	fry	vt.&vi.油煎；油炸	[fraɪ]
+必修3	Unit 2	stir-fry	vt.用旺火炒（或煎、煸）	
+必修3	Unit 2	ought	v.aux.应当；应该	[ɔːt]
+必修3	Unit 2	ought to	应当；应该	
+必修3	Unit 2	bacon	n.熏咸肉；腊肉	[ˈbeɪkən]
+必修3	Unit 2	cola	n.可口饮料	['kəʊlə]
+必修3	Unit 2	sugary	adj.含糖的；甜的	
+必修3	Unit 2	sign	n.牌示；标记；符号	[saɪn]
+必修3	Unit 2	lose weight	体重减轻；减肥	
+必修3	Unit 2	slim	adj．苗条的；纤细的　vi.变细；减肥	[slɪm]
+必修3	Unit 2	curiosity	n.好奇心	
+必修3	Unit 2	hostees	n.女主人；女主持人	
+必修3	Unit 2	raw	adj.生的；未加工的	[rɔː]
+必修3	Unit 2	vinegar	n.醋	['vɪlɪdʒə]
+必修3	Unit 2	get away with	被放过；（做坏事）不受惩罚	
+必修3	Unit 2	lie	vi.说谎　n.谎话；谎言	[laɪ]
+必修3	Unit 2	tell a lie	说谎	
+必修3	Unit 2	customer	n.顾客；消费者	[ˈkʌstəmə]
+必修3	Unit 2	discount	n.折扣	[ˈdɪskaʊnt]
+必修3	Unit 2	win … back	赢回；重新获得	
+必修3	Unit 2	weakness	n.虚弱；弱点；缺点	[ˈwiːknɪs]
+必修3	Unit 2	strength	n.力量；强项；长处	[streŋθ]
+必修3	Unit 2	consult	vt.咨询；请教；商量	[kənˈsʌlt]
+必修3	Unit 2	fibre	n.纤维；纤维制品	['faɪbə]
+必修3	Unit 2	digest	vi.&vt.消化　n.摘要；概要	[dɪˈdʒestˌdaɪˈdʒest]
+必修3	Unit 2	poisonous	adj.有毒的	[ˈpɒɪzənəs]
+必修3	Unit 2	carrot	n.胡萝卜	['kærət]
+必修3	Unit 2	scurvy	n.坏血病	
+必修3	Unit 2	rickets	n.佝偻病	
+必修3	Unit 2	obesity	n.过度肥胖	
+必修3	Unit 2	vitamin	n.维生素	
+必修3	Unit 2	protein	n.蛋白质	
+必修3	Unit 2	earn one's living	谋生	
+必修3	Unit 2	debt	n.债；债务	[det]
+必修3	Unit 2	in debt	欠债	
+必修3	Unit 2	glare	vi.怒目而视；闪耀　n.怒视；眩目的光	[ɡleə]
+必修3	Unit 2	spy	vi.&vt.窥探；秘密监视　n.间谍；侦探	[spaɪ]
+必修3	Unit 2	spy on	暗中监视；侦查	
+必修3	Unit 2	limit	n.界限；限度　vt.限制；限定	[ˈlɪmɪt]
+必修3	Unit 2	limited	adj.有限的	
+必修3	Unit 2	benefit	n.利益；好处　vt.&vi.有益于；有助于；受益	[ˈbenɪfɪt]
+必修3	Unit 2	breast	n.胸部；乳房	[brest]
+必修3	Unit 2	garlic	n.大蒜	[ˈɡɑːlɪk]
+必修3	Unit 2	sigh	n.叹息；叹息声　Vi.叹息；叹气	[saɪ]
+必修3	Unit 2	combine	vt.&vi.（使）联合；（使）结合	[kəmˈbaɪn]
+必修3	Unit 2	cut down	削减；删节	['kʌtdaʊn]
+必修3	Unit 2	before long	不久以后	[bɪˌfɔː ˈlɒŋ]
+必修3	Unit 2	put on weight	增加体重	
+必修3	Unit 2	cooperation	n.合作；协作	
+必修3	Unit 2	ingredient	n.（烹调用的）材料；原料；成分	[ɪn'griːdɪənt]
+必修3	Unit 2	flavour	n.（食物的）味道与气味；特性　	
+必修3	Unit 3	Mark Twain	马克·吐温（美国作家）	[ˈmɑːkˈtweɪn]
+必修3	Unit 3	birthplace	n.出生地；故乡	[ˈbɜːθpleɪs]
+必修3	Unit 3	Florida	n.佛罗里达镇（位于密苏里州）佛罗里达州（美国州名）	[ˈflɒrɪdə]
+必修3	Unit 3	bring up	抚养；培养；教育；提出	
+必修3	Unit 3	Hannibal	n.汉尼拔（美国城市）	
+必修3	Unit 3	Missouri	n.密苏里州（美国州名）	
+必修3	Unit 3	Mississippi	n.密西西比河；密西西比州（美国州名）	
+必修3	Unit 3	novel	n.小说；长篇故事　adj.新奇的；异常的	[ˈnɒvəl]
+必修3	Unit 3	boyhood	n.少年时代	
+必修3	Unit 3	adventure	n.奇遇；冒险	[ədˈventʃə]
+必修3	Unit 3	Tom Sawyer	汤姆·索亚（人名）	[tɒm/ˈsɔːjə]
+必修3	Unit 3	Huckleberry Finn	哈克贝利·费恩（人名）	[ˈhʌklˌberi/fɪn]
+必修3	Unit 3	phrase	n.短语；词组；惯用语	[freɪz]
+必修3	Unit 3	fathom	n.长度单位（六英尺）	
+必修3	Unit 3	author	n.著者；作家	[ˈɔːθə]
+必修3	Unit 3	Samuel Langhorne clemens	塞缪尔·兰霍恩·克莱门斯（人名）	
+必修3	Unit 3	scene	n.（戏剧）一场；现场；场面；景色	[sɪːn]
+必修3	Unit 3	narrator	n.讲述者，叙述者	
+必修3	Unit 3	Roderick	n.罗德里克（男名）	
+必修3	Unit 3	Oliver	n.奥利弗（男名）	[ˈɒlɪvə]
+必修3	Unit 3	bet	n.赌；打赌　vi.&vt.打赌；赌钱	[bet]
+必修3	Unit 3	make a bet	打赌	
+必修3	Unit 3	penniless	adj.贫困的；身无分文的	
+必修3	Unit 3	wander	vi.漫游；漫步；漂泊	[ˈwɒndə]
+必修3	Unit 3	pavement	n.人行道（=<美>sidewalk)	[ˈpeɪvmənt]
+必修3	Unit 3	businessman	n.商人	['bɪznɪsmæn]
+必修3	Unit 3	permit	vt.＆Vi.许句；允许；准许　n.通行证；许可证；执照	[pəˈmɪt]
+必修3	Unit 3	ahead	adv.在前；向前；提前	[əˈhed]
+必修3	Unit 3	go ahead	前进；（用于祈使句）可以；往下说	
+必修3	Unit 3	by accident	偶然；无意中；不小心	
+必修3	Unit 3	bay	n.海湾	[beɪ]
+必修3	Unit 3	stare	vi.凝视；盯着看	[steə]
+必修3	Unit 3	stare at	盯着看；凝视	
+必修3	Unit 3	nightfall	n.黄昏	
+必修3	Unit 3	fault	n.过错；缺点；故障	[fɔːlt]
+必修3	Unit 3	spot	vt.发现；认出　n.斑点；污点；地点	[spɒt]
+必修3	Unit 3	passage	n.通道；（一）段；船费（包括食宿）	[ˈpæsɪdʒ]
+必修3	Unit 3	unpaid	adj.未付款的；不受报酬的	
+必修3	Unit 3	account	n.说明；理由；计算，帐目　Vi.＆vt.认为；说明；总计有	[əˈkaʊnt]
+必修3	Unit 3	account for	导致；做出解释	
+必修3	Unit 3	embassy	n.大使馆；大使及其官员	[ˈembəsi]
+必修3	Unit 3	seek	vt.&vi.(sought,sought)寻找；探索；寻求	[siːk]
+必修3	Unit 3	patience	n.耐性；忍耐	['peɪʃəns]
+必修3	Unit 3	contrary	n.反面；对立面　adj.相反的；相违的	[ˈkɒntrəri]
+必修3	Unit 3	on the contrary	与此相反；正相反	
+必修3	Unit 3	charity	n.慈善（团体）；施舍	['tʃærɪti]
+必修3	Unit 3	envelope	n.信封	[ˈenvələʊp]
+必修3	Unit 3	unbelievable	adj.难以置信的	[ʌnbɪˈliːvəb(ə)l]
+必修3	Unit 3	Horace	n.霍勒斯（男名）	
+必修3	Unit 3	steak	n.（供煎、烤的）肉块；鱼排；牛排	[steɪk]
+必修3	Unit 3	pineapple	n.菠萝	[ˈpaɪnæp(ə)l]
+必修3	Unit 3	dessert	n.餐后甜点	[dɪˈzɜːt]
+必修3	Unit 3	amount	n.数量	[əˈmaʊnt]
+必修3	Unit 3	take a chance	冒险	
+必修3	Unit 3	rude	adj.粗鲁的；无礼的	[ruːd]
+必修3	Unit 3	manner	n.礼貌；举止；方式	[ˈmænə]
+必修3	Unit 3	scream	vi.尖声叫　n.尖叫声；喊叫声	[skriːm]
+必修3	Unit 3	genuine	adj.真的；真诚的	
+必修3	Unit 3	issue	vt.＆Vi.发行（钞票等）；发布（命令）；出版（杂志等）	
+必修3	Unit 3	fake	n.假货；欺骗　adj.假的	[feɪk]
+必修3	Unit 3	rag	n.破布；碎布	[ræɡ]
+必修3	Unit 3	in rags	衣衫槛褛	
+必修3	Unit 3	indeed	adv.真正地；确实；实在	[ɪnˈdiːd]
+必修3	Unit 3	as for	关于；至于	
+必修3	Unit 3	bow	vi.&n.鞠躬；弯腰	[bəʊ]
+必修3	Unit 3	barber	n.理发师　	[ˈbɑːbə]
+必修3	Unit 4	astronomy	n.天文学	[əˈstrɒnəmi]
+必修3	Unit 4	astronomer	n.天文学家	[əˈstrɒnəmə]
+必修3	Unit 4	solar	adj.太阳的；日光的	[ˈsəʊlə]
+必修3	Unit 4	system	n.系统；体系；制度	[ˈsɪstəm]
+必修3	Unit 4	solar system	太阳系	
+必修3	Unit 4	religion	n.宗教；宗教信仰	[rɪˈlɪdʒən]
+必修3	Unit 4	theory	n.学说；理论	[θɪəˈretɪk(ə)l]
+必修3	Unit 4	Big Bang	宇宙大爆炸；创世大爆炸	
+必修3	Unit 4	atom	n.原子	[ˈætəm]
+必修3	Unit 4	billion	pron.&n.&adj.〈英〉万亿；〈美〉十亿	['bɪljən]
+必修3	Unit 4	globe	n.球体；地球仪；地球	[ɡləʊb]
+必修3	Unit 4	global	adj.全球性的；全世界的	
+必修3	Unit 4	violent	adj.猛烈的；激烈的；强暴的	[ˈvaɪələnt]
+必修3	Unit 4	in time	及时；终于	[ɪn'taɪm]
+必修3	Unit 4	carbon	n.碳	[ˈkɑːbən]
+必修3	Unit 4	nitrogen	n.氮	
+必修3	Unit 4	vapour	n.（＝vapor)蒸汽；水蒸气	
+必修3	Unit 4	atmosphere	n.大气层；气氛	[ˈætməsfɪə]
+必修3	Unit 4	unlike	prep.不同；不像	['ʌn'laɪk]
+必修3	Unit 4	fundamental	adj.基本的；基础的	[fʌndəˈment(ə)l]
+必修3	Unit 4	presence	n.出席；到场；存在	[ˈprezəns]
+必修3	Unit 4	dissolve	vt.&vi.溶解；解散	
+必修3	Unit 4	harmful	adj.有害的	[ˈhɑːmfʊl]
+必修3	Unit 4	acid	n.酸	[ˈæsɪd]
+必修3	Unit 4	chain	n.链子；连锁；锁链	[tʃeɪn]
+必修3	Unit 4	reaction	n.反应；回应	[rɪ'ækʃən]
+必修3	Unit 4	multiply	vi.&vt.乘；增加	['mʌltɪplaɪ]
+必修3	Unit 4	oxygen	n.氧	[ˈɒksɪdʒ(ə)n]
+必修3	Unit 4	shellfish	n.水生有壳动物	['ʃelfɪʃ]
+必修3	Unit 4	amphibian	n.两栖动物	
+必修3	Unit 4	reptile	n.爬行动物；爬虫	
+必修3	Unit 4	lay eggs	下蛋	
+必修3	Unit 4	dinosaur	n.恐龙	['daɪnəsɔː]
+必修3	Unit 4	exist	vi.存在；生存	[ɪg'zɪst]
+必修3	Unit 4	mammal	n.哺乳动物	
+必修3	Unit 4	give birth to	产生；分娩	
+必修3	Unit 4	thus	adv.因此；于是	[ðʌs]
+必修3	Unit 4	in one's turn	轮到某人；接着	
+必修3	Unit 4	dioxide	n.二氧化物	[daɪˈɒksaɪd]
+必修3	Unit 4	carbon dioxide	二氧化碳	
+必修3	Unit 4	prevent … from	阻止；制止	
+必修3	Unit 4	puzzle	n.谜；难题　vt.&vi.（使）迷惑；（使）为难	[ˈpʌz(ə)l]
+必修3	Unit 4	biology	n.生物学	[baɪˈɒlədʒi]
+必修3	Unit 4	biologist	n.生物学家	
+必修3	Unit 4	gravity	n.万有引力；重力	[ˈɡrævɪti]
+必修3	Unit 4	satellite	n.卫星；人造卫星	['sætəlaɪt]
+必修3	Unit 4	gentle	adj.温和的；文雅的	[ˈdʒent(ə)l]
+必修3	Unit 4	geologist	n.地址学家	
+必修3	Unit 4	physicist	n.物理学家	[ˈfɪzɪsɪst]
+必修3	Unit 4	block out	挡住（光线）	
+必修3	Unit 4	extinct	adj.灭绝的；绝种的	
+必修3	Unit 4	climate	n.气候	[ˈklaɪmɪt]
+必修3	Unit 4	comet	n.彗星	
+必修3	Unit 4	crash	vi.&vt.碰撞；坠落	[kræʃ]
+必修3	Unit 4	Issac Newton	艾萨克·牛顿	
+必修3	Unit 4	Albert Einstein	阿尔伯特·爱因斯坦	
+必修3	Unit 4	Stephen Hawking	斯蒂芬·霍金	[ˌstiːvn ˈhɔːkɪŋ]
+必修3	Unit 4	spaceship	n.宇宙飞船	['speɪsʃɪp]
+必修3	Unit 4	pull	n.&vt.拉（力）；拖；牵引力	[pʊl]
+必修3	Unit 4	lessen	Vt.&vi.减少；减轻	[ˈlesən]
+必修3	Unit 4	cheer up	感到高兴；感到振奋	
+必修3	Unit 4	float	vt.＆Vi.（使）浮动；（使）漂浮　n.漂浮物	[fləʊt]
+必修3	Unit 4	weightlessly	adv.失重地	
+必修3	Unit 4	cabin	n.小屋；船舱	[ˈkæbɪn]
+必修3	Unit 4	mass	n.团；块；质量；大量；〈复〉群众	[mæs]
+必修3	Unit 4	now that	既然	
+必修3	Unit 4	get the hang of	熟悉；掌握；理解	
+必修3	Unit 4	break out	突发；爆发	
+必修3	Unit 4	exhaust	Vt.用尽；耗尽；使精疲力尽	
+必修3	Unit 4	watch out	密切注视；当心；提防　	
+必修3	Unit 5	multicultural	adj.多种文化的	
+必修3	Unit 5	quiz	n.测验；问答比赛	[kwɪz]
+必修3	Unit 5	Canadian	n.加拿大人　adj.加拿大的；加拿大人的	[kə'neɪdɪən]
+必修3	Unit 5	Vancouver	n.温哥华（加拿大港市）	
+必修3	Unit 5	Toronto	n.多伦多（加拿大城市）	[təˈrɒntəʊ]
+必修3	Unit 5	Calgary	n.卡尔加里（加拿大城市）	
+必修3	Unit 5	Ottawa	n.渥太华（加拿大首都	[ˈɒtəwə]
+必修3	Unit 5	beaver	n.海狸	
+必修3	Unit 5	grizzly	n.（北美洲）灰熊　adj.灰色的；有灰斑的	
+必修3	Unit 5	polar	adj.极地的；近极地的	
+必修3	Unit 5	penguin	n.企鹅	['peŋgwɪn]
+必修3	Unit 5	prime	adj.首要的；主要的；基本的	
+必修3	Unit 5	minister	n.大臣；部长	[ˈmɪnɪstə]
+必修3	Unit 5	prime minister	首相；丞相	
+必修3	Unit 5	governor	n.州长；总督	[ˈgʌvənə]
+必修3	Unit 5	rather than	与其；不愿	
+必修3	Unit 5	continent	n.大陆；洲	[ˈkɒntɪnənt]
+必修3	Unit 5	baggage	n.行李	[ˈbæɡɪdʒ]
+必修3	Unit 5	chat	vi.&n.聊天；闲聊	[tʃæt]
+必修3	Unit 5	scenery	n.景色；风景	['siːnəri]
+必修3	Unit 5	eastward	adv.向东　adj.向东的；朝东的	
+必修3	Unit 5	westward	adv.向西　adj.向西的；朝西的	
+必修3	Unit 5	upward	adv.向上地；上升地　adj.上升的；向上的	[ˈʌpwəd]
+必修3	Unit 5	surround	vt.&vi.包围；围绕	[səˈraʊnd]
+必修3	Unit 5	the Rocky Mountains	落基山脉	
+必修3	Unit 5	harbour	n.(=harbor)海港	['hɑːbə]
+必修3	Unit 5	measure	vi.&vt.测量；衡量；判定　n.计量制；计量单位；措施	[ˈmeʒə]
+必修3	Unit 5	aboard	prep.&adv.在船、飞机、火车或公共汽车上	[əˈbɔːd]
+必修3	Unit 5	settle down	定居；平静下来；专心于	
+必修3	Unit 5	manage to do	设法做	
+必修3	Unit 5	catch sight of	看见；瞥见	
+必修3	Unit 5	eagle	n.鹰	[ˈiːɡ(ə)l]
+必修3	Unit 5	stampede	n.（美国西部或加拿大）大西部赛马会	
+必修3	Unit 5	cowboy	n.牛仔；牧童	[ˈkaʊbɒi]
+必修3	Unit 5	have a gift for	对……有天赋	
+必修3	Unit 5	within	prep.在……之内	[wɪˈðɪn]
+必修3	Unit 5	border	n.边界；国界；边沿　vt.&vi.与……接壤；接近	[ˈbɔːdə]
+必修3	Unit 5	slight	adj.轻微的；微小的	[slaɪt]
+必修3	Unit 5	slightly	adv.稍稍；轻微地	['slaɪtli]
+必修3	Unit 5	acre	n.英亩	[ˈeɪkə]
+必修3	Unit 5	urban	adj.城市的；市镇的	[ˈɜːbən]
+必修3	Unit 5	Thunder Bay	桑德湾	
+必修3	Unit 5	Lake Superior	苏必利尔湖	
+必修3	Unit 5	location	n.位置；地方	[ləʊ'keɪʃən]
+必修3	Unit 5	the Vatican City State	梵蒂冈城国	
+必修3	Unit 5	topic	n.话题	[ˈtɒpɪk]
+必修3	Unit 5	mix	vt.&vi.混合；调配	[mɪks]
+必修3	Unit 5	mixture	n.混合（物）；混合状态	[ˈmɪkstʃə]
+必修3	Unit 5	bush	n.灌木（丛）；矮树（丛）	[bʊʃ]
+必修3	Unit 5	maple	n.枫；枫树	[ˈmeɪp(ə)l]
+必修3	Unit 5	frost	n.霜；霜冻	[frɒst]
+必修3	Unit 5	confirm	vt.证实；证明；批准	[kənˈfɜːm]
+必修3	Unit 5	wealthy	adj.富有的	[ˈwelθi]
+必修3	Unit 5	distance	n.距离；远方	[ˈdɪstəns]
+必修3	Unit 5	in the distance	在远方	
+必修3	Unit 5	mist	n.薄雾	[mɪst]
+必修3	Unit 5	misty	adj.有薄雾的；模糊的	['mɪsti]
+必修3	Unit 5	Niagara	n.尼亚加拉（河，瀑布）	[naɪ'ægərə]
+必修3	Unit 5	schoolmate	n.同学；校友	[ˈskuːlmeɪt]
+必修3	Unit 5	booth	n.货摊；售货亭；公用电话间	[buːð]
+必修3	Unit 5	downtown	adv.在市区；往市区　adj.市区的	[ˈdaʊntaʊn]
+必修3	Unit 5	pearl	n.珍珠	
+必修3	Unit 5	Cantonese	n.&adj.广东人（的）；广州人（的）；广东话（的）	
+必修3	Unit 5	approximately	adv.接近；大约	[əprɒksɪˈmətli]
+必修3	Unit 5	dawn	n.黎明；拂晓；破晓	[dɔːn]
+必修3	Unit 5	workplace	n.工作场所；工作地点	['wɜːkpleɪs]
+必修3	Unit 5	buffet	n.自助餐；饮食柜台	[ˈbʊfeɪ]
+必修3	Unit 5	broad	adj.宽阔的；广泛的	[brɔːd]
+必修3	Unit 5	St Lawrence River	圣劳伦斯河	
+必修3	Unit 5	nearby	adv.在附近　adj.附近的；邻近的	['nɪəbaɪ]
+必修3	Unit 5	tradition	n.传统；风俗	[trəˈdɪʃ(ə)n]
+必修3	Unit 5	terrify	vt.使恐怖；恐吓	[ˈterɪfaɪ]
+必修3	Unit 5	terrified	adj.恐惧的；受惊吓的	
+必修3	Unit 5	pleased	adj.欣喜的；高兴的；愉快的	[pliːzd]
+必修3	Unit 5	impress	vt.使印象深刻；使铭记	[ɪmˈpres]
+必修3	Unit 5	impressive	adj.给人深刻印象的；感人的　	
+必修4	Unit 1	achievement	n.成就 ；功绩	[əˈtʃiːvmənt]
+必修4	Unit 1	Joan of Arc	圣女贞德（法国民族女英雄）	
+必修4	Unit 1	Elizabeth Fry	伊丽莎白·费赖伊（英国慈善家）	
+必修4	Unit 1	Quaker	n.教友派信徒；贵格会会员	
+必修4	Unit 1	welfare	n.福利；福利事业	[ˈwelfeə]
+必修4	Unit 1	project	n.项目；工程；规划	[ˈprɒdʒekt]
+必修4	Unit 1	instituite	n.学会；学院；协会	
+必修4	Unit 1	China Welfare Institute	中国福利基金会	
+必修4	Unit 1	specialist	n.专家；专业工作者	[ˈspeʃəlɪst]
+必修4	Unit 1	specialize	vi.专攻；专门从事；专注于	
+必修4	Unit 1	Jane Goodall	简·古道尔（英国动物学家）	
+必修4	Unit 1	chimp	n.（非洲）黑猩猩	
+必修4	Unit 1	connection	n.连接；关系	[kəˈnekʃ(ə)n]
+必修4	Unit 1	human beings	人类	
+必修4	Unit 1	Jody Williams	乔迪·威谦斯（美国诺贝尔和平奖获得者）	
+必修4	Unit 1	campaign	n.运动；战役　vi.作战；参加运动	[kæmˈpeɪn]
+必修4	Unit 1	landmine	n.地雷	
+必修4	Unit 1	organization	n.组织；机构；团体	[ɔːɡənaɪˈzeɪʃ(ə)n]
+必修4	Unit 1	Gombe National Park	贡贝国家公园（位于坦桑尼亚）	
+必修4	Unit 1	behave	vi.举动；（举止或行动）表现	[bɪˈheɪv]
+必修4	Unit 1	behaviour	n.（=behavior）行为；举止；习性	[bɪˈheɪvjər]
+必修4	Unit 1	shade	n.荫；阴凉处　vt.遮住光线	[ʃeɪd]
+必修4	Unit 1	move off	离开；起程；出发	
+必修4	Unit 1	worthwhile	值得的；值得做的	[wɜːθˈwaɪl]
+必修4	Unit 1	nest	n.巢；窝	[nest]
+必修4	Unit 1	bond	n.联系；关系；结合；纽带	[bɒnd]
+必修4	Unit 1	observe	vt.观察；观测；遵守	[əbˈzɜːv]
+必修4	Unit 1	observation	n.观察；观测	[ˌɒbzəˈveɪʃən]
+必修4	Unit 1	childhood	n.童年；幼年时代	[ˈtʃaɪldhʊd]
+必修4	Unit 1	outspoken	adj.直言的；坦诚	[aʊtˈspəʊkən]
+必修4	Unit 1	respect	vt.&n.尊敬；尊重；敬意	[rɪˈspekt]
+必修4	Unit 1	argue	vt&vi.讨论；辩论；争论	[ˈɑːɡjuː]
+必修4	Unit 1	argument	n.争论；争辩；争吵	[ˈɑːɡjʊmənt]
+必修4	Unit 1	entertanment	n.款待；娱乐；娱乐表演	
+必修4	Unit 1	lead a … life	过着……的生活	
+必修4	Unit 1	crowd	n.人群；观众　vt.挤满；使拥挤	[kraʊd]
+必修4	Unit 1	crowd in	（想法、问题等）涌上心头；涌入脑海	
+必修4	Unit 1	inspire	vt.鼓舞；激发；启示	[ɪnˈspaɪə]
+必修4	Unit 1	inspiration	n.灵感；鼓舞	[ˌɪnspə'reɪʃən]
+必修4	Unit 1	support	n.&vt.支持；拥护	[səˈpɔːt]
+必修4	Unit 1	look down upon	蔑视；瞧不起	
+必修4	Unit 1	refer	vi.谈到；查阅；参考	[rɪˈfɜː]
+必修4	Unit 1	refer to	查阅；参考；谈到	
+必修4	Unit 1	audience	n.观众；听众；读者	['ɔːdɪəns]
+必修4	Unit 1	by chance	碰巧；凑巧	
+必修4	Unit 1	come across	（偶然）遇见；碰见	
+必修4	Unit 1	career	n.事业；生涯	
+必修4	Unit 1	rate	比率；速度	[reɪt]
+必修4	Unit 1	sickness	n.疾病；恶心	[ˈsɪknɪs]
+必修4	Unit 1	intend	vt.计划；打算	[ɪnˈtend]
+必修4	Unit 1	emergency	n.突发事件；紧急情况	[ɪˈmɜːdʒənsi]
+必修4	Unit 1	generation	n.一代；一辈	[dʒenəˈreɪʃ(ə)n]
+必修4	Unit 1	determination	n.决心；果断	[dɪtɜːmɪˈneɪʃ(ə)n]
+必修4	Unit 1	kindness	n.仁慈；好意	[ˈkaɪndnɪs]
+必修4	Unit 1	considerate	adj.考虑周到的	[kənˈsɪdərət]
+必修4	Unit 1	consideration	n.考虑；体谅	[kənsɪdəˈreɪʃ(ə)n]
+必修4	Unit 1	deliver	vt.递送；生（小孩儿）；接生　发表（演说等）	[dɪˈlɪvə]
+必修4	Unit 1	carry on	继续；坚持	[ˈkærɪɒn]
+必修4	Unit 1	modest	adj.谦虚的；谦让的；适度的	[ˈmɒdɪst]
+必修4	Unit 2	statistic	n.（常用pl statisitcs）统计；统计数字；统计资料	
+必修4	Unit 2	sunburnt	adj.晒黑的	[ˈsʌnbɜːnt]
+必修4	Unit 2	struggle	vt.&vi.斗争；拼搏；努力	[ˈstrʌɡ(ə)l]
+必修4	Unit 2	decade	n.十年；十年期	[ˈdekeɪd]
+必修4	Unit 2	super	adj.特级的；超级的	[ˈsuːpəˌˈsjuːpə]
+必修4	Unit 2	hybrid	adj.混合的；杂种的　n.杂交种；混血儿	
+必修4	Unit 2	output	n.产量；输出	[ˈaʊtpʊt]
+必修4	Unit 2	strain	n.（植物的）品种；种类	
+必修4	Unit 2	crop	n.庄稼；农作物；产量	[krɒp]
+必修4	Unit 2	hunger	n.饥饿；欲望　vt.&vi.（使）饥饿	[ˈhʌŋɡə]
+必修4	Unit 2	disturbing	adj.引起烦恼的；令人不安的	[dɪˈstɜːbɪŋ]
+必修4	Unit 2	expand	vt.&vi.使变大；伸展	[ɪks'pænd]
+必修4	Unit 2	circulate	vt.&vi.循环；流传	[ˈsɜːkjʊleɪt]
+必修4	Unit 2	Vietnam	n.越南（东南亚国家）	[ˌvjet'næm]
+必修4	Unit 2	thanks to	幸亏；由于；因为	['θæŋkstə]
+必修4	Unit 2	battle	n.战役；战斗；较量；斗争　vt.&vi.搏斗；奋斗	[ˈbæt(ə)l]
+必修4	Unit 2	rid	vt.摆脱；除去	[rɪd]
+必修4	Unit 2	rid … of	摆脱；除去	
+必修4	Unit 2	be satisfied with	对……感到满意	
+必修4	Unit 2	freedom	n.自由；自主	[ˈfriːdəm]
+必修4	Unit 2	would rather	宁愿；宁可	
+必修4	Unit 2	therefore	adj.因此；所以；因而	[ˈðeəfɔː]
+必修4	Unit 2	equip	vt.&vi.配备；装备	[ɪˈkwɪp]
+必修4	Unit 2	sorghum	n.高梁	
+必修4	Unit 2	grain	n.粮食；颗粒	[ɡreɪn]
+必修4	Unit 2	peanut	n.花生	
+必修4	Unit 2	export	vt.&vi.输出；出口	[eks'pɔːt]
+必修4	Unit 2	nationality	n.国籍	[næʃəˈnæləti]
+必修4	Unit 2	occupation	n.工作；职业；占领	[ɒkjʊˈpeɪʃ(ə)n]
+必修4	Unit 2	personality	n.性格；个性；人格	
+必修4	Unit 2	confuse	vt.使迷惑；使为难	[kənˈfjuːz]
+必修4	Unit 2	regret	vt.遗憾；惋惜　n.贵憾；懊悔	[rɪˈɡret]
+必修4	Unit 2	chemical	adj.化学的；关于化学的	[ˈkemɪk(ə)l]
+必修4	Unit 2	organic	adj.有机的；器官的；组织的	
+必修4	Unit 2	fertile	adj.肥沃的；富饶的	
+必修4	Unit 2	fertilizer	n.肥料；化肥	
+必修4	Unit 2	production	n.生产；制造	[prəˈdʌkʃ(ə)n]
+必修4	Unit 2	bacteria	n.（bacterium的复数形式）细菌	
+必修4	Unit 2	pest	n.害虫；害兽；害鸟	[pest]
+必修4	Unit 2	build up	逐渐增强；建立；开发	
+必修4	Unit 2	lead to	导致；造成（后果）	
+必修4	Unit 2	nutrition	n.营养；滋养；食物	[njuːˈtrɪʃ(ə)n]
+必修4	Unit 2	mineral	n.矿物；矿石	[ˈmɪnər(ə)l]
+必修4	Unit 2	discovery	n.发现；发觉	[dɪˈskʌvəri]
+必修4	Unit 2	focus	n.焦点；中心点　vt.集中；聚焦	[ˈfəʊkəs]
+必修4	Unit 2	focus on	集中（注意力、精力等）于	
+必修4	Unit 2	soil	n.土壤	[sɔɪl]
+必修4	Unit 2	reduce	vt.减少；减缩	[rɪˈdjuːs]
+必修4	Unit 2	keep … free from / of	使……免受（影响；伤害等）；使……不含（有害物）	
+必修4	Unit 2	soybean	n.大豆	
+必修4	Unit 2	root	n.根；根源	[ruːt]
+必修4	Unit 2	skim	vt.浏览；略读	[skɪm]
+必修4	Unit 2	underline	vt.画底线标出；强调	[ʌndəˈlaɪn]
+必修4	Unit 2	summary	n.总结；摘要；概要	[ˈsʌməri]
+必修4	Unit 2	comment	n.评论；议论　vi.&vt.表达意见；作出评论	[ˈkɒment]
+必修4	Unit 2	producer	n.生产者；制片人	
+必修4	Unit 2	industrial	adj.工业的；产业的	
+必修4	Unit 3	humour	n.幽默；滑稽	['hjuːmə]
+必修4	Unit 3	punchline	n.故事、笑话等中的妙语；关键语	
+必修4	Unit 3	verbal	adj.口头的	
+必修4	Unit 3	nonverbal	adj.不用语言的	
+必修4	Unit 3	mime	n/哑剧	[maɪm]
+必修4	Unit 3	Charlie Chaplin	查理·卓别林（英国喜剧大师）	
+必修4	Unit 3	Edward Lear	爱德华·李尔（英国作家、画家）	
+必修4	Unit 3	comedy	n.喜剧	[ˈkɒmədi]
+必修4	Unit 3	Victor Hugo	维克多！雨果（法国文学家）	
+必修4	Unit 3	up to now	直到现在	
+必修4	Unit 3	brighten	vt.使更愉快；使更有希望	
+必修4	Unit 3	depressed	adj.忧愁的；沮丧的	
+必修4	Unit 3	content	adj.满足的；满意的　n.满足	[kənˈtent]
+必修4	Unit 3	feel / be content with	对……满足	
+必修4	Unit 3	performer	n.表演者；演出者	[pəˈfɔːmə]
+必修4	Unit 3	astonish	vt.使惊诧	[əˈstɒnɪʃ]
+必修4	Unit 3	astonishing	adj.令人感支惊讶的	
+必修4	Unit 3	fortunate	adj.幸运的；吉利的	[ˈfɔːtʃənət]
+必修4	Unit 3	unfortunately	adv不幸地	[ʌnˈfɔːtjʊnətli]
+必修4	Unit 3	badly off	穷的；缺少的	
+必修4	Unit 3	teens	n.十几岁（13岁至19岁的年龄）	
+必修4	Unit 3	ordinary	adj.平常的；普通的	['ɔːdnri]
+必修4	Unit 3	bored	adj.厌烦的	[bɒrd]
+必修4	Unit 3	subtle	adj.微妙的；精巧的；技艺精湛的	['sʌtl]
+必修4	Unit 3	entertain	vt.&vi.使欢乐；款待	[ˌentəˈteɪn]
+必修4	Unit 3	entertaining	adj.愉快的；有趣的	
+必修4	Unit 3	charming	adj.迷人的；有魅力的	
+必修4	Unit 3	tramp	n流浪汉；行乞者	[træmp]
+必修4	Unit 3	throughout	prep.遍及；贯穿　adv.到处；始终；全部	[θruːˈaʊt]
+必修4	Unit 3	homeless	adj.无家的；无家可归的	['həʊmlɪs]
+必修4	Unit 3	moustache	n小胡子	[məs'tɑːʃ]
+必修4	Unit 3	worn	adj.用坏的；破烂的	[wɔːn]
+必修4	Unit 3	worn-out	adj.磨破的；穿旧的	
+必修4	Unit 3	stiffly	adv.僵硬地	
+必修4	Unit 3	failure	n.失败（者）	[ˈfeɪljə]
+必修4	Unit 3	optimism	n.乐观；乐观主义	
+必修4	Unit 3	overcome	vt.&vi.战胜；克服	[əʊvəˈkʌm]
+必修4	Unit 3	underdog	n.失败者；处于劣势的一方	
+必修4	Unit 3	snowstorm	n.暴风雪	
+必修4	Unit 3	leather	n.皮革	['leðə]
+必修4	Unit 3	pick out	辨别出	
+必修4	Unit 3	lace	n.饰带；花边；鞋带	[feɪm]
+必修4	Unit 3	cut off	切断；断绝	
+必修4	Unit 3	chew	vt.&vi.嚼碎；咀嚼（食物）	[tʃuː]
+必修4	Unit 3	mouthful	n.一口；满口	[ˈmaʊθfʊl]
+必修4	Unit 3	enjoyment	n.享受；欢乐；乐趣	
+必修4	Unit 3	convince	vt.使信服	[kənˈvɪns]
+必修4	Unit 3	convincing	adj.令人信服的	
+必修4	Unit 3	direct	vt.&vi.导演；指示；指挥　adj.直的；直接的；直率的	[dɪˈrektˌdaɪˈrekt]
+必修4	Unit 3	star in	担任主角；主演	
+必修4	Unit 3	Oscar	n.奥斯卡	
+必修4	Unit 3	outstanding	adj.突出的；杰出的；显著的	[aʊtˈstændɪŋ]
+必修4	Unit 3	Switzerland	n.瑞士（欧洲中部国家）	[ˈswɪtsələnd]
+必修4	Unit 3	confidence	n.信心；信念	[ˈkɒnfɪdəns]
+必修4	Unit 3	costume	n.服装；戏装	[ˈkɒstjuːm]
+必修4	Unit 3	gesture	n.姿态；手势　vi.做手势	[ˈdʒestʃə]
+必修4	Unit 3	particular	adj.特殊的；特别的　n.细节；细目	[pəˈtɪkjʊlə]
+必修4	Unit 3	particularly	adv.特殊地；特别地	[pə'tɪkjʊləli]
+必修4	Unit 3	occasion	n.时刻；场合	[əˈkeɪʒən]
+必修4	Unit 3	budget	n.预算；开支	[ˈbʌdʒɪt]
+必修4	Unit 3	actress	n.女演员	[ˈæktrɪs]
+必修4	Unit 3	side	vt.&vi.（使）滑动；（使）滑行　n.滑；滑动；幻灯片	[saɪd]
+必修4	Unit 3	amuse	vt.使发笑；使愉快	[əˈmjuːz]
+必修4	Unit 3	amusing	adj.好笑的；有趣的	
+必修4	Unit 3	pancake	n.烙饼；薄饼	[ˈpænkeɪk]
+必修4	Unit 3	explanation	n.解释；讲解；说明	[ˌeksplə'neɪʃən]
+必修4	Unit 3	detective	n.侦探	[dɪ'tektɪv]
+必修4	Unit 3	Sherlock Holmes	n.夏洛克·福尔摩斯	
+必修4	Unit 3	mountainous	adj.多山的；山一般的	[ˈmaʊntɪnəs]
+必修4	Unit 3	whisper	n.耳语；低语　vt.&vi.低语；小声说	[ˈwɪspə]
+必修4	Unit 3	vast	adj.巨大的；辽阔的	[vɑːst]
+必修4	Unit 3	rhythm	n.节奏	
+必修4	Unit 3	mess	n.脏或乱的状态	[mes]
+必修4	Unit 3	react	vi.作出反应；回应	[riːˈækt]
+必修4	Unit 3	porridge	n.粥；麦片粥	[ˈpɒrɪdʒ]
+必修4	Unit 4	drunk	adj.醉的	[drɪŋk]
+必修4	Unit 4	statement	n.陈述；说明	[ˈsteɪtmənt]
+必修4	Unit 4	greet	vi.&vt.迎接；问候	[griːt]
+必修4	Unit 4	represent	vt.代表；象征	[reprɪˈzent]
+必修4	Unit 4	association	n.社团；联系；联想	[əsəʊsɪˈeɪʃ(ə)n]
+必修4	Unit 4	dormitory	n.宿舍	[ˈdɔːmɪtəri]
+必修4	Unit 4	canteen	n.食堂	[kænˈtiːn]
+必修4	Unit 4	flight	n.飞行；航班	[flaɪt]
+必修4	Unit 4	curious	adj.好奇的	[ˈkjʊərɪəs]
+必修4	Unit 4	curiously	adv.好奇地	
+必修4	Unit 4	Garcia	加西亚（姓）	
+必修4	Unit 4	Colombia	n.哥伦比亚（南美洲国家）	[kəˈlɒmbɪə]
+必修4	Unit 4	approach	vt.&vi.接近；靠近；走近　n.接近；方法；途径	[əˈprəʊtʃ]
+必修4	Unit 4	cheek	n.面颊	[tʃiːk]
+必修4	Unit 4	defend	vt.&vi.保护；保卫	[dɪˈfend]
+必修4	Unit 4	defend against	保卫……以免受	
+必修4	Unit 4	defence	n.防御；保卫	[dɪ'fens]
+必修4	Unit 4	major	adj.主要的	[ˈmeɪdʒə]
+必修4	Unit 4	misunderstand	vt.误解；误会	[mɪsʌndəˈstænd]
+必修4	Unit 4	misunderstanding	n.误解；误会	
+必修4	Unit 4	Akira Nagata	永田明	
+必修4	Unit 4	Ahmed Aziz	艾哈迈德·阿齐兹	
+必修4	Unit 4	Jordan	n.约旦（西亚国家）	['dʒɔːdn]
+必修4	Unit 4	Darlene Coulon	达琳·库隆	
+必修4	Unit 4	dash	vi.猛冲；突进	[dæʃ]
+必修4	Unit 4	adult	n.成人；成年人　adj.成人的；成熟的	[ˈædʌlt]
+必修4	Unit 4	simply	adv.简单地；只	[ˈsɪmpli]
+必修4	Unit 4	Muslim	n.&adj.穆斯林（的）；伊斯兰教信徒（的）	
+必修4	Unit 4	spoken	adj.口语的	[ˈspəʊkən]
+必修4	Unit 4	unspoken	adj.未说出口的；非口语的	
+必修4	Unit 4	posture	n.姿势；体态	
+必修4	Unit 4	Spain	n.西班牙（欧洲国家）	[speɪn]
+必修4	Unit 4	Italy	n.意大利（欧洲国家）	['ɪtəli]
+必修4	Unit 4	likely	adj.可能的	[ˈlaɪkli]
+必修4	Unit 4	be likely to	很可能……；有希望……	
+必修4	Unit 4	in general	总的来说；通常	
+必修4	Unit 4	crossroads	n.十字路口	[ˈkrɒsrəʊd]
+必修4	Unit 4	employee	n.雇员	[ɪmˈplɔɪ-iː]
+必修4	Unit 4	frown	vi.皱眉；蹙额	[fraʊn]
+必修4	Unit 4	misread	vt.读错；误解	
+必修4	Unit 4	facial	adj.面部的	[ˈfeɪʃ(ə)l]
+必修4	Unit 4	function	n.作用；功能；职能　v.起作用；运转	['fʌŋkʃən]
+必修4	Unit 4	ease	n.安逸；舒适　vt.减轻（痛苦、忧虑）	[iːz]
+必修4	Unit 4	at ease	舒适；快活；自由自在	
+必修4	Unit 4	truly	adv.真实地；真诚地；真正地	[ˈtruːli]
+必修4	Unit 4	falsh	adj.错误的；假的	
+必修4	Unit 4	anger	n.怒气；怒火	[ˈæŋɡə]
+必修4	Unit 4	lose face	丢脸	
+必修4	Unit 4	turn one's back to	背对；背弃	
+必修4	Unit 4	fist	n.拳头	[fɪst]
+必修4	Unit 4	yawn	vi.打呵欠	[jɔːn]
+必修4	Unit 4	respectful	adj.恭敬的	
+必修4	Unit 4	subjective	adj.主观的	[səbˈdʒektɪv]
+必修4	Unit 4	hug	vi.&vt.拥抱	[hʌg]
+必修4	Unit 4	rank	n.等级；军衔	[ræŋk]
+必修4	Unit 4	cassette	n.磁带	[kəˈset]
+必修4	Unit 5	theme	n.题目；主题（曲）	[θiːm]
+必修4	Unit 5	Camelot	卡默洛特公园（位于英国）	
+必修4	Unit 5	central	adj.中心的；中央的	[ˈsentr(ə)l]
+必修4	Unit 5	central Park	中央公园（位于美国纽约）	
+必修4	Unit 5	Dollywood	n.多莱坞（公园名；位于美国）	
+必修4	Unit 5	various	adj.不同的；各种各样的	[ˈveərɪəs]
+必修4	Unit 5	cartoon	n.漫画；动画片	[kɑːˈtuːn]
+必修4	Unit 5	be famous for	以……而闻名	
+必修4	Unit 5	roller	n.过山车	[ˈrəʊlə]
+必修4	Unit 5	whichever	pron.无论哪一个；任何一个	[wɪtʃˈevə]
+必修4	Unit 5	pirate	n.海盗；盗版	
+必修4	Unit 5	fairy	神话故事；童话	
+必修4	Unit 5	fantasy	n.幻想；怪念头	[ˈfæntəsi]
+必修4	Unit 5	amusement	n.消遣；娱乐（活动）	[əˈmjuːzmənt]
+必修4	Unit 5	swing	n.秋千；摇摆　vt.&vi.摇摆；摆动	[swɪŋ]
+必修4	Unit 5	attraction	n.有吸引力的事物；吸引	[əˈtrækʃ(ə)n]
+必修4	Unit 5	no wonder	难怪；不足为奇	
+必修4	Unit 5	tourism	n.旅游业	[ˈtʊərɪz(ə)m]
+必修4	Unit 5	wherever	pron.无论在什么地方；各处	[hweər'evə]
+必修4	Unit 5	unique	adj.独一无二的；仅有的	[jʊˈniːk]
+必修4	Unit 5	carpenter	n.木匠	[ˈkɑːpɪntə]
+必修4	Unit 5	craftsman	n.匠人；能工巧匠	
+必修4	Unit 5	engine	n.引擎；发动机	[ˈendʒɪn]
+必修4	Unit 5	bald	adj.秃头的	
+必修4	Unit 5	preserve	vt.保存；保留　n.保护区	[prezənˈteɪʃ(ə)n]
+必修4	Unit 5	length	n.长度；长	[leŋθ]
+必修4	Unit 5	deed	n.行动；事迹	[diːd]
+必修4	Unit 5	knight	n.骑士；爵士	[naɪt]
+必修4	Unit 5	be modelled after	根据……模仿；仿造	
+必修4	Unit 5	Merlin the Wizard	魔术师梅林	
+必修4	Unit 5	sword	n.剑	[sɔːd]
+必修4	Unit 5	joust	vi.（指中世纪骑士）骑着马用长矛打斗	
+必修4	Unit 5	tournament	n.锦标赛；联赛	[ˈtʊənəmənt]
+必修4	Unit 5	settler	n.移民者；殖民者	[ˈsetlə]
+必修4	Unit 5	athletic	adj.运动的	[æθˈletɪk]
+必修4	Unit 5	translator	n.译员；翻译	[træns'leɪtə]
+必修4	Unit 5	minority	n.少数；少数民族	[maɪˈnɒrɪti]
+必修4	Unit 5	cloth	n.布	[klɒθ]
+必修4	Unit 5	Futuroscope	n.观测未来（公园名；位于法国）	
+必修4	Unit 5	jungle	n.丛林	[ˈdʒʌŋɡ(ə)l]
+必修4	Unit 5	diver	n.潜水员	['daɪvə]
+必修4	Unit 5	creature	n.生物；动物	[ˈkriːtʃə]
+必修4	Unit 5	sunlight	n.阳光	[ˈsʌnlaɪt]
+必修4	Unit 5	T-Rex	n.霸王龙	
+必修4	Unit 5	advance	vt.&vi.前进；促进；提前	[ədˈvɑːns]
+必修4	Unit 5	in advance	提前	
+必修4	Unit 5	advanced	adj.高级的；先进的	
+必修4	Unit 5	brand	n.商标；牌子	[brænd]
+必修4	Unit 5	get close to	接近	
+必修4	Unit 5	come to life	活跃起来	
+必修4	Unit 5	outing	n.外出；短途旅行；远足	[ˈaʊtɪŋ]
+必修4	Unit 5	admission	n.允许进入；入场费；承认	[ədˈmɪʃ(ə)n]
+必修4	Unit 5	shuttle	n.往返汽车；航天飞机	[ˈʃʌt(ə)l]
+必修4	Unit 5	freeway	n.高速公路	[ˈfriːweɪ]
+必修4	Unit 5	souvenir	n.纪念品	['suːvənɪə]
+必修4	Unit 5	sneaker	n.运动鞋	[sneɪk]
+必修4	Unit 5	brochure	n.（作宣传或介绍用的）小册子；指南　	[brəʊ'ʃjʊə]
+必修5	Unit 1	engine	n.发动机；引擎	[ˈendʒɪn]
+必修5	Unit 1	steam engine	蒸汽机	
+必修5	Unit 1	characteristec	n.特征；特性	
+必修5	Unit 1	radium	n.镭	[ˈreɪdɪəm]
+必修5	Unit 1	put forward	提出	
+必修5	Unit 1	theory	n.理论；学说	[θɪəˈretɪk(ə)l]
+必修5	Unit 1	infect	vt.传染；感染	
+必修5	Unit 1	infectious	adj.传染的	
+必修5	Unit 1	cholera	n.霍乱	
+必修5	Unit 1	scientific	adj.科学的	[saɪənˈtɪfɪk]
+必修5	Unit 1	examine	vt.检查；诊察；考查；测验	[ɪɡˈzæmɪn]
+必修5	Unit 1	conclude	vt.&vi.结束；推断出；议定	[kənˈkluːd]
+必修5	Unit 1	conclusion	n.结论；结束；议定	[kənˈkluːʒ(ə)n]
+必修5	Unit 1	draw a conclusion	得出结论	
+必修5	Unit 1	analyse	vt.分析	
+必修5	Unit 1	repeat	vi.&vt.重复；重做　n.重复；反复	[rɪˈpiːt]
+必修5	Unit 1	defeat	vt.打败；战胜；使受挫　n.失败	[dɪˈfiːt]
+必修5	Unit 1	attend	vt.照顾；护理；出席；参加	[əˈtend]
+必修5	Unit 1	expose	vt.（与to连用）暴露；揭露；使曝光	[ɪk'spəʊz]
+必修5	Unit 1	deadly	adj.致命的	
+必修5	Unit 1	cure	n.治愈；痊愈　vt.治愈；治疗	[kjʊə]
+必修5	Unit 1	outbreak	n.爆发；发作（尤指疾病或战争）	
+必修5	Unit 1	control	vt.&vi.控制；支配	[kənˈtrol]
+必修5	Unit 1	absorb	vt.吸收；吸引；使专心	[əbˈsɔːb]
+必修5	Unit 1	severe	adj.严重的；严厉的；严格的；剧烈的	[sɪˈvɪə]
+必修5	Unit 1	valuable	adj.贵重的；有价值的	[ˈvæljʊəb(ə)l]
+必修5	Unit 1	clue	n.线索；提示	[kluː]
+必修5	Unit 1	pump	n.泵；抽水机　vt.（用泵）抽（水）	[ˈpʌmp]
+必修5	Unit 1	Cambridge	剑桥大街	[ˈkeɪmbrɪdʒ]
+必修5	Unit 1	pub	n.酒馆；酒吧	[pʌb]
+必修5	Unit 1	blame	vt.现备；谴现；把……归咎于　n.过失，责备	[bleɪm]
+必修5	Unit 1	immediately	adv.立即；马上	[ɪˈmiːdɪətli]
+必修5	Unit 1	handle	n.柄；把手　vt.处理；操纵	[ˈhænd(ə)l]
+必修5	Unit 1	germ	n.微生物；细菌	[dʒɜːm]
+必修5	Unit 1	addition	n.加；增加；加法	[əˈdɪʃ(ə)n]
+必修5	Unit 1	in addition	也；另外	
+必修5	Unit 1	link	vt.连接；联系　n.联系；连接；环	[lɪŋk]
+必修5	Unit 1	link … to …	将……和……连接或联系起来	
+必修5	Unit 1	announce	vt.宣布；通告	[əˈnaʊns]
+必修5	Unit 1	certainty	n.确知；确信；确实	[ˈsɜːtənti]
+必修5	Unit 1	instruct	vt.命令；指示；教导	[ɪnˈstrʌkt]
+必修5	Unit 1	virus	n.病毒	[ˈvaɪərəs]
+必修5	Unit 1	construction	n.建设；结构；建筑物	[kənˈstrʌkʃ(ə)n]
+必修5	Unit 1	contribute	vt.捐献；贡献；损助	[kənˈtrɪbjuːt]
+必修5	Unit 1	apart from	除……之外；此外	
+必修5	Unit 1	creative	adj.有创造力的；创造性的；独创的	[krɪ'eɪtɪv]
+必修5	Unit 1	co-operative	adj.合作的	
+必修5	Unit 1	positive	adj.积极的；肯定的；确实的	[ˈpɒzɪtɪv]
+必修5	Unit 1	strict	adj.严格的；严厉的；精确的	[strɪkt]
+必修5	Unit 1	(be) strict with …	对……严格的	
+必修5	Unit 1	Nicolaus Copernicus	尼古拉·哥白尼（波兰天文学家）	
+必修5	Unit 1	revolutionary	adj.革命的；重大变革的	
+必修5	Unit 1	calculation	n.计算；计算结果	[ˌkælkjʊˈleɪʃən]
+必修5	Unit 1	lead to	通向；导致	
+必修5	Unit 1	movement	n.移动；运动；动作	[ˈmuːvmənt]
+必修5	Unit 1	make sense	有意义	
+必修5	Unit 1	god	n.神	[ɡɒd]
+必修5	Unit 1	God	上帝；天主	[ɡɒd]
+必修5	Unit 1	backward	adv.&adj.向后地（的）；相反地（的）；退步地（的）	[ˈbækwəd]
+必修5	Unit 1	loop	n.圈；环	
+必修5	Unit 1	complete	adj.完整的；完成的；全部的　vt.完成	[kəmˈpliːt]
+必修5	Unit 1	privately	adv.私下地；秘密地	
+必修5	Unit 1	spion	vi.&vt.（使）旋转；纺（线或纱）	
+必修5	Unit 1	brightness	n.明亮；亮度；聪颖	
+必修5	Unit 1	enthusiastic	adj.热情的；热心的	[ɪnθjuːzɪˈæstɪk]
+必修5	Unit 1	cautious	adj.小心的；谨慎的	[ˈkɔːʃəs]
+必修5	Unit 1	reject	vt.拒绝；不接受；丢弃；抛弃	[rɪˈdʒekt]
+必修5	Unit 1	persuasive	adj.能说服人的；有说服力的	
+必修5	Unit 1	view	n.观点；见解；景色	[vjuː]
+必修5	Unit 1	point of view	态度；观点；看法	
+必修5	Unit 1	logical	adj.合逻辑的；合乎常理的	
+必修5	Unit 2	unite	vi.&vt.联合；团结	[jʊˈnaɪt]
+必修5	Unit 2	kingdom	n.王国	[ˈkɪŋdəm]
+必修5	Unit 2	the United Kingdom	联合王国（英国）	
+必修5	Unit 2	consist	vi.组成；一致	[kənˈsɪst]
+必修5	Unit 2	consist of	由……组成	
+必修5	Unit 2	London Heathrow	伦敦希思罗机场	
+必修5	Unit 2	River Avon	埃文河	
+必修5	Unit 2	River Thames	泰晤士河	
+必修5	Unit 2	River Severn	塞文河	
+必修5	Unit 2	divide	vt.分配；分开	[dɪˈvaɪd]
+必修5	Unit 2	divide … into	把……分成	
+必修5	Unit 2	puzzle	n.难题；谜　vt.使迷惑	[ˈpʌz(ə)l]
+必修5	Unit 2	debate	vi.&n.争论；辩论	[dɪˈbeɪt]
+必修5	Unit 2	Wales	威尔士（英）	
+必修5	Unit 2	Scotland	苏格兰（英）	[ˈskɒtlənd]
+必修5	Unit 2	Northern Ireland	北爱尔兰（英）	
+必修5	Unit 2	clarify	vt.澄清；阐明	[ˈklærɪfaɪ]
+必修5	Unit 2	break away(from)	挣脱（束缚）；脱离	
+必修5	Unit 2	union	n.联合；联盟；协会	[ˈjuːnjən]
+必修5	Unit 2	the Union Jack	英国国旗	
+必修5	Unit 2	relation	n.关系；联系	[rɪˈleɪʃ(ə)n]
+必修5	Unit 2	educational	adj.教育的	[ˌedjʊ'keɪ'ʃənəl]
+必修5	Unit 2	legal	adj.法律的；合法的	[ˈliːɡ(ə)l]
+必修5	Unit 2	convenience	n.便利；方便	[kənˈviːnɪəns]
+必修5	Unit 2	roughly	adv.粗略地；粗糙地	
+必修5	Unit 2	Midlands	英格兰中部地区（英）	
+必修5	Unit 2	industrial	adj.工业的；产业的	
+必修5	Unit 2	historical	adj.历史（上）的；有关历史的	
+必修5	Unit 2	attraction	n.吸引；吸引力；吸引人的事物	[əˈtrækʃ(ə)n]
+必修5	Unit 2	Roman	n.（古）罗马人　adj.（古）罗马的	
+必修5	Unit 2	collection	n.收藏品；珍藏；收集	[kəˈlekʃ(ə)n]
+必修5	Unit 2	Anglo-Saxon	n.盎格鲁-撒克逊人　adj.盎格鲁-撒克逊人的	
+必修5	Unit 2	construct	vt.建造；构造；创立	[kənˈstrʌkt]
+必修5	Unit 2	Norman	n.诺曼人；诺曼语　adj.诺曼的；诺曼人（语）的	['nɔːmən]
+必修5	Unit 2	influence	vt.影响；改变　n.影响；势力；有影响的人（事）	[ˈɪnflʊəns]
+必修5	Unit 2	Viking	n.北欧海盗；斯堪的纳维亚人	
+必修5	Unit 2	leave out	省去；遗漏；不考虑	
+必修5	Unit 2	project	n.（学校的）科研习作项目；课题；计划；工程	[ˈprɒdʒekt]
+必修5	Unit 2	take the place of	代替	
+必修5	Unit 2	break down	（机器）损坏；破坏	
+必修5	Unit 2	arrange	vt.筹备；安排；整理	[əˈreɪndʒ]
+必修5	Unit 2	wedding	n.婚礼	[ˈwedɪŋ]
+必修5	Unit 2	fold	vt.折叠；对折	[fəʊld]
+必修5	Unit 2	sightseeing	n.观光；游览	[ˈsaɪtsiːɪŋ]
+必修5	Unit 2	availabie	adj.可利用的；可用到的；有用的	
+必修5	Unit 2	site	n.地点；场所；遗址	[saɪt]
+必修5	Unit 2	delight	n.快乐；高兴；喜悦　vt.使高兴；使欣喜	[dɪˈlaɪt]
+必修5	Unit 2	twoer	n.塔	
+必修5	Unit 2	royal	adj.王室的；皇家的；高贵的	[ˈrɒɪəl]
+必修5	Unit 2	occasion	n.场合；时刻；时机	[əˈkeɪʒən]
+必修5	Unit 2	uniform	n.制服	[ˈjuːnɪfɔːm]
+必修5	Unit 2	St Paul's Cathedral	圣保罗大教堂	
+必修5	Unit 2	splendid	adj.壮丽的；辉煌的；极好的	[ˈsplendɪd]
+必修5	Unit 2	Westminster Abbey	威斯敏斯特教堂（英国名人墓地）	
+必修5	Unit 2	statue	n.塑像；雕像	[ˈstætjuː]
+必修5	Unit 2	Big Ben	大本钟	[ben]
+必修5	Unit 2	Buckingham	白金汉宫	[ˈbʌkɪŋəm]
+必修5	Unit 2	Greenwich	n.格林尼治（英城市）	
+必修5	Unit 2	longitude	n.经线；经度	
+必修5	Unit 2	navigation	n.导航；航行	[ˌnævɪ'geɪʃən]
+必修5	Unit 2	Karl Marx	卡尔·马克思	
+必修5	Unit 2	Highgate Cemetry	海格特墓地（英伦敦北郊）（内有马克思及其家人的坟墓）	
+必修5	Unit 2	communism	n.共产主义	[ˈkɒmjʊnɪzəm]
+必修5	Unit 2	Library of the British Musenm	大英图书馆	
+必修5	Unit 2	original	adj.最初的；原始的；独创的；新颖的	[ə'rɪdʒənl]
+必修5	Unit 2	thrill	vt.使激动；使胆战心惊	[θrɪl]
+必修5	Unit 2	pot	n.罐；壶	[pɒt]
+必修5	Unit 2	Windsor	温莎城堡	
+必修5	Unit 2	unfair	adj.不公平的；违反规则的	[ʌnˈfeə]
+必修5	Unit 2	smart	adj.漂亮的；时髦的；聪明的；巧妙的	[smɑːt]
+必修5	Unit 2	suggestion	n.建议；意见；暗示	[səˈdʒestʃ(ə)n]
+必修5	Unit 2	tense	n.时态	[tens]
+必修5	Unit 2	consistent	adj.一致的	[kənˈsɪst(ə)nt]
+必修5	Unit 2	error	n.错误；过失；谬误	[ˈerə]
+必修5	Unit 3	vehicle	n.交通工具；车辆	[ˈviːɪk(ə)l]
+必修5	Unit 3	carriage	n.四轮马车；客车	[ˈkærɪdʒ]
+必修5	Unit 3	mud	n.泥；泥浆	[mʌd]
+必修5	Unit 3	bathroom	n.浴室；盥洗室	[ˈbɑːθruːm]
+必修5	Unit 3	temple	n.庙宇；寺院	[ˈtemp(ə)l]
+必修5	Unit 3	private	adj.私人的；私有的	[ˈpraɪvɪt]
+必修5	Unit 3	location	n.位置；场所	[ləʊ'keɪʃən]
+必修5	Unit 3	settlement	n.定居；解决	[ˈsetəlmənt]
+必修5	Unit 3	impression	n.印象；感想；印记	[ɪmˈpreʃ(ə)n]
+必修5	Unit 3	take up	拿起；接受；开始；继续	
+必修5	Unit 3	constant	adj.时常发生的；连续不断的	[ˈkɒnstənt]
+必修5	Unit 3	constantly	adv.不断地	
+必修5	Unit 3	remind	vt.提醒；使想起	[rɪˈmaɪnd]
+必修5	Unit 3	remind … of …	使……回想起或意识到……	
+必修5	Unit 3	jet	n.喷气式飞机	[dʒet]
+必修5	Unit 3	jet lag	n.飞行时差反应	
+必修5	Unit 3	flashback	n.闪回，倒叙	
+必修5	Unit 3	previous	adj.在前的；早先的	
+必修5	Unit 3	tablet	n.药片	
+必修5	Unit 3	expertise	n.专家意见；专门知识（技能等）	
+必修5	Unit 3	capsule	n.太空舱；胶囊	[ˈkæpsjuːl]
+必修5	Unit 3	opening	n.（出入的）通路；开口；开端	[ˈəʊpənɪŋ]
+必修5	Unit 3	surrounding	n.周围的事物；环境　adj.周围的	[səˈraʊndɪŋ]
+必修5	Unit 3	lack	vi.&vt.缺乏；没有　n.缺乏；短缺的东西	[læk]
+必修5	Unit 3	ache	n.&vi.痛；疼痛	[eɪk]
+必修5	Unit 3	mask	n面具；面罩；伪装	[mɑːsk]
+必修5	Unit 3	hover	vi.盘旋	
+必修5	Unit 3	bend	vi.&vt.（bent, bent）（使）弯曲	[bend]
+必修5	Unit 3	press	vi.&vt.按；压；逼迫　n.按；压；印刷；新闻	[pres]
+必修5	Unit 3	swift	adj.迅速的；快的；敏捷的	[swɪft]
+必修5	Unit 3	swiftly	adv.迅速地；敏捷地	
+必修5	Unit 3	master	vt.掌握；精通；征服；控制　n.主人；师傅；能手	[ˈmɑːstə]
+必修5	Unit 3	sight	n.视力；视觉；见	[saɪ]
+必修5	Unit 3	lose sight of …	不再看见……	
+必修5	Unit 3	catch sight of …	瞥见……	
+必修5	Unit 3	sweep up	打扫；横扫	
+必修5	Unit 3	flash	vt.&vi.（使）闪光；（使）闪现	[flæʃ]
+必修5	Unit 3	switch	n.开关；转换　vt.转换	[swɪtʃ]
+必修5	Unit 3	optimistic	adj.乐观的；乐观主义的	[ɒptɪˈmɪstɪk]
+必修5	Unit 3	pessimistic	adj.悲观的，厌世的	
+必修5	Unit 3	opportunity	n.机会；时机	[ /ˌɒpəˈtjuːnɪti ]
+必修5	Unit 3	length	n.长度；长	[leŋθ]
+必修5	Unit 3	speed up	加速	
+必修5	Unit 3	peda	n.踏板；脚蹬	
+必修5	Unit 3	alien	adj.陌生的；外国的；外星的　n.外国人；外星人	['eɪljən]
+必修5	Unit 3	Vincent van Gogh	文森特·凡·高（荷兰画家）	
+必修5	Unit 3	enormous	adj.巨大的；庞大的	[ɪ'nɔːməs]
+必修5	Unit 3	imitate	vt.模仿；仿造	
+必修5	Unit 3	extraordinary	adj.特别的；非凡的	[ɪks'trɔːdnri]
+必修5	Unit 3	extraordinarily	adv.格外地；特别地	
+必修5	Unit 3	Pleiades	n.昴（宿）星团	
+必修5	Unit 3	nightlight	n.夜（明）灯；通宵灯	
+必修5	Unit 3	helmet	n.头盔；钢盔	['helmɪt]
+必修5	Unit 3	assist	vi.&vt.帮助；援助；协助	[əˈsɪst]
+必修5	Unit 3	assist in	帮助；援助；协助	
+必修5	Unit 3	agency	n.代理；中介；代理处	[ˈeɪdʒənsi]
+必修5	Unit 3	space agency	宇航局	
+必修5	Unit 3	galaxy	n.星系；银河系	
+必修5	Unit 3	skip	vi.&vt.跳；蹦	[skɪp]
+必修5	Unit 3	require	vt.需要；要求；命令	[rɪˈkwaɪə]
+必修5	Unit 3	cocoa	n.可可豆；可可粉；可可饮料	[ˈkəʊkəʊ]
+必修5	Unit 3	lemonade	n.柠檬水	[leməˈneɪd]
+必修5	Unit 3	herb	n.药草；香草	[hɜːb]
+必修5	Unit 3	shell	n.贝壳；壳；外形	[ʃel]
+必修5	Unit 3	shell-covered	adj.有壳的	
+必修5	Unit 3	mood	n.心情，情绪；语气	[muːd]
+必修5	Unit 3	column	n.圆柱；柱状物；栏	
+必修5	Unit 4	occupation	n.职业；占有	[ɒkjʊˈpeɪʃ(ə)n]
+必修5	Unit 4	reporter	n.记者；新闻通讯员	[rɪˈpɔːtə]
+必修5	Unit 4	assignment	n.任务；分配	
+必修5	Unit 4	profession	n.职业；专业	[prəˈfeʃ(ə)n]
+必修5	Unit 4	professional	adj.专业的；职业的　n.专业人员	[prə'feʃənəl]
+必修5	Unit 4	photograph	n.照片　vt.给……照像	[ˈfəʊtəɡrɑːf]
+必修5	Unit 4	photographer	n.摄影师	[fəˈtɒɡrəfə]
+必修5	Unit 4	colleague	n.同事	[ˈkɒliːɡ]
+必修5	Unit 4	eager	adj.渴望的；热切的	[ˈiːɡə]
+必修5	Unit 4	concentrate	vt.集中；聚集	[ˈkɒnsəntreɪt]
+必修5	Unit 4	concentrate on	集中；全神贯注于	
+必修5	Unit 4	course	n.过程；进程；课程；一道菜	[kɔːs]
+必修5	Unit 4	acquire	vt.获得；取得；学到	[əˈkwaɪə]
+必修5	Unit 4	meanwhile	adv.其间；同时	[ˈmiːnwaɪl]
+必修5	Unit 4	trade	n.行业；贸易；商业	[treɪd]
+必修5	Unit 4	recorder	n.录音机	[rɪˈkɔːdə]
+必修5	Unit 4	case	n.情况；病例；案例	[keɪs]
+必修5	Unit 4	accuse	vt.指责；谴责；控告	[əˈkjuːz]
+必修5	Unit 4	accuse … of	因……指责或控告……	
+必修5	Unit 4	accusation	n.指责；谴责；控告	
+必修5	Unit 4	deliberately	adv.故意地	[dɪˈlɪbərətli]
+必修5	Unit 4	so as to(do sth)	为了（做）……	
+必修5	Unit 4	bribe	vt.向……行贿　n.贿赂	
+必修5	Unit 4	deny	vt.否认；拒绝	[dɪ'naɪ]
+必修5	Unit 4	guilty	adj.犯罪的；有罪的；内疚的	[ˈɡɪlti]
+必修5	Unit 4	scoop	n.抢先获得的（新闻、利润等）；铲子	
+必修5	Unit 4	section	n.部分；节	[ˈsekʃ(ə)n]
+必修5	Unit 4	imaginative	adj.富于想象力的	
+必修5	Unit 4	technical	adj.技术（上）的；技巧方面的	[ˈteknɪk(ə)l]
+必修5	Unit 4	technically	adv.技术上；工艺上	
+必修5	Unit 4	concise	adj.简胆的；简练的	
+必修5	Unit 4	thorough	adj.彻底的；详尽的	[ˈθʌrə]
+必修5	Unit 4	gifted	adj.有天赋的	[ˈɡɪftɪd]
+必修5	Unit 4	idiomatic	adj.惯用的；合乎语言习惯的	
+必修5	Unit 4	defend	vt.防护；辩护；防卫	[dɪˈfend]
+必修5	Unit 4	defend against	防卫以免于	
+必修5	Unit 4	crime	n.罪行；犯罪	[kraɪm]
+必修5	Unit 4	normal	adj.正常的；正规的；标准的	[ˈnɔːm(ə)l]
+必修5	Unit 4	seldom	adv.很少；从不	[ˈseldəm]
+必修5	Unit 4	edition	n.版本；版；版次	[ɪˈdɪʃ(ə)n]
+必修5	Unit 4	department	n.部门；部；处；系	[dɪˈpɑːtmənt]
+必修5	Unit 4	task	n.任务	[tɑːsk]
+必修5	Unit 4	accurate	adj.精确的；正确的	
+必修5	Unit 4	employ	vt.雇用，使用	[ɪmˈplɒi]
+必修5	Unit 4	polish	vt.擦亮；磨光；润色	[ˈpɒlɪsi]
+必修5	Unit 4	note	vt.特别提到；注意；记下	[nəʊt]
+必修5	Unit 4	chief	adj.主要的；首席的　n.首领；长官	[tʃiːf]
+必修5	Unit 4	approve	vt.赞成；称许；批准	[əˈpruːv]
+必修5	Unit 4	negative	n.底片；否定　adj.否定的，消极的	['negətɪv]
+必修5	Unit 4	process	n.过程；程序；步骤	[ˈprəʊses]
+必修5	Unit 4	intention	n.意图；目的；打算	[ɪnˈtenʃ(ə)n]
+必修5	Unit 4	appointment	n.约会；任命	[əˈpɒɪntmənt]
+必修5	Unit 4	senior	adj.年长的；高年级的；高级的	[ˈsiːnɪə]
+必修5	Unit 4	hint	n.指点；暗示	[hɪnt]
+必修5	Unit 5	aid	n.&vi.帮助；援助；资助	[eɪd]
+必修5	Unit 5	first aid	（对伤患者的）急救	
+必修5	Unit 5	fall ill	生病	
+必修5	Unit 5	illness	n.病，疾病	[ˈɪlnɪs]
+必修5	Unit 5	injury	n.损伤；伤害	[ˈɪndʒəri]
+必修5	Unit 5	bleed	vi.&vt.流血	[bliːd]
+必修5	Unit 5	sprain	vt.扭伤	
+必修5	Unit 5	ankle	n.踝（关节）	[ˈæŋk(ə)l]
+必修5	Unit 5	choke	vi.&vt.（使）噎住；（使）窒息	[tʃəʊk]
+必修5	Unit 5	blood	n.血，血液；血统	[blʌd]
+必修5	Unit 5	bloody	adj.出血的；血染的；伤亡惨重的	['blʌdi]
+必修5	Unit 5	burn	vi.&vt.（被）烧毁，（被）烧伤；（被）烫伤　n.烧伤或灼伤（的痕迹）	[bɜːn]
+必修5	Unit 5	essential	adj.最重要的；不可缺少的；本质的	[ɪ'senʃəl]
+必修5	Unit 5	organ	n.器官	[ˈɔːɡən]
+必修5	Unit 5	layer	n.层，层次	
+必修5	Unit 5	poison	n.毒药；毒害　vt.毒害；使中毒	[ˈpɒɪz(ə)n]
+必修5	Unit 5	ray	n.光线；射线	[reɪ]
+必修5	Unit 5	treatment	n.治疗；处理；对待	[ˈtriːtmənt]
+必修5	Unit 5	liquid	n.液体	[ˈlɪkwɪd]
+必修5	Unit 5	radiation	n.辐射；射线	[reɪdɪˈeɪʃ(ə)n]
+必修5	Unit 5	mild	adj.轻微的；温和的；温柔的	[maɪld]
+必修5	Unit 5	mildly	adv.轻微地；温和地	
+必修5	Unit 5	iron	n.烙铁；熨斗；铁　vt.烫熨	[ˈaɪən]
+必修5	Unit 5	heal	vi.&vt.（使）康复；（使）化解	[hiːl]
+必修5	Unit 5	tissue	n.（生物）组织；薄的织物；手巾纸	[ˈtɪʃuːˌˈtɪsjuː]
+必修5	Unit 5	electric	adj.电的；电动的	[ɪˈlektrɪk]
+必修5	Unit 5	electric	触电；电休克	[ɪˈlektrɪk]
+必修5	Unit 5	swell	vi.&vt.（swelled, swollen）（使）膨胀；隆起	[swel]
+必修5	Unit 5	swollen	adj.肿胀的	
+必修5	Unit 5	blister	n.水泡　vi.&vt.（使）起泡	
+必修5	Unit 5	watery	adj.水的；似水的	
+必修5	Unit 5	char	vi.烧焦	
+必修5	Unit 5	nerve	n.神经；胆量	
+必修5	Unit 5	damage	vt.&n.损害；毁坏	[ˈdæmɪdʒ]
+必修5	Unit 5	jewellery	n.<英>珠宝（=<美>jewelry)	[ˈdʒuːəlri]
+必修5	Unit 5	squeeze	vt.&vi.榨；挤；压榨	[skwiːz]
+必修5	Unit 5	squeeze out	榨出；挤出	
+必修5	Unit 5	over and over again	反复；多次	
+必修5	Unit 5	wound	n.创伤，伤	[wuːnd]
+必修5	Unit 5	bandage	n.绷带	[ˈbændɪdʒ]
+必修5	Unit 5	in place	在适当的位置；适当	
+必修5	Unit 5	ointment	n.药膏；油膏	
+必修5	Unit 5	infection	n.传染；传染病；感染	[ɪn'fekʃən]
+必修5	Unit 5	symptom	n.症状；征兆	[ˈsɪmfəni]
+必修5	Unit 5	label	vt.加标签或标记；分类　n.标签；标记	['leɪbl]
+必修5	Unit 5	kettle	n.（水）壶；罐	[ˈket(ə)l]
+必修5	Unit 5	wrist	n.手腕	[rɪst]
+必修5	Unit 5	damp	adj.潮湿的	[dæmp]
+必修5	Unit 5	sleeve	n.袖子	[sliːv]
+必修5	Unit 5	throat	n.咽喉；喉咙	[θrəʊt]
+必修5	Unit 5	Janson	詹森（姓）	
+必修5	Unit 5	preseont	vt.给；介绍；赠送；呈现	
+必修5	Unit 5	cermony	n.典礼；仪式；礼节	
+必修5	Unit 5	bravery	n.勇敢；勇气	[ˈbreɪvəri]
+必修5	Unit 5	Slade	斯莱德（姓）	
+必修5	Unit 5	stab	vt.&vi.刺；戳；刺伤	
+必修5	Unit 5	a number of	若干；许多	
+必修5	Unit 5	put one's hands on	找到	
+必修5	Unit 5	towel	n.毛巾；手巾	[ˈtaʊəl]
+必修5	Unit 5	pressure	n.压力；压，按；压迫	[ˈpreʃə]
+必修5	Unit 5	ambulance	n.救护车	[ˈæmbjʊləns]
+必修5	Unit 5	scheme	n.方案；计划	['sɪstə]
+必修5	Unit 5	Southerton	萨瑟顿（姓）	
+必修5	Unit 5	bruise	n.&vi.淤伤；擦伤	
+必修5	Unit 5	authentic	adj.真实的；真正的；可信的	[ɜːˈθentɪk]
+必修5	Unit 5	essay	n.论说文；小品文；散文　	[ˈeseɪ]
+选修6	Unit 1	realistic	adj.现实主义的；逼真的；现实的	[rɪə'lɪstɪk]
+选修6	Unit 1	abstract	adj.抽象的；深奥的　n.摘要	[ˈæbstrækt]
+选修6	Unit 1	sculpture	n.雕塑	[ˈskʌlptʃə]
+选修6	Unit 1	gallery	n.美术陈列室；画廊	[ˈɡæləri]
+选修6	Unit 1	belief	n.信仰；信任；信心	[bɪˈliːf]
+选修6	Unit 1	consequent	adj.作为结果的；随之发生的	
+选修6	Unit 1	consequently	adv.所以；因而	
+选修6	Unit 1	aim	n.目标，目的；瞄准　vi.瞄准；（向某方向）努力	[eɪm]
+选修6	Unit 1	symbol	n.象征；符号	[ˈsɪmb(ə)l]
+选修6	Unit 1	Giotto di Bondone	乔托（意大利画家、雕刻家、建筑师）	
+选修6	Unit 1	renaissance	n.新生；复兴；复活	
+选修6	Unit 1	the Renaissance	文艺复兴（时期）	
+选修6	Unit 1	value	n.价值观；社会准则	[ˈvæljuː]
+选修6	Unit 1	focus	vi.（使）聚焦；（使）集中　n.焦点	[ˈfəʊkəs]
+选修6	Unit 1	focus on	集中	
+选修6	Unit 1	religion	n.宗教；宗教信仰	[rɪˈlɪdʒən]
+选修6	Unit 1	possession	n.所有；财产	[pəˈzeʃ(ə)n]
+选修6	Unit 1	perspective	n.透视画法；透视图；观点	
+选修6	Unit 1	Masaccio	马萨乔（意大利画家）	
+选修6	Unit 1	convince	vt.使确信；使信服	[kənˈvɪns]
+选修6	Unit 1	impressionism	n.印象主义；印象派	
+选修6	Unit 1	impressionist	adj.印象派的　n.印象派艺术家	
+选修6	Unit 1	post-impressionist	adj.后印象派的　n.后印象派艺术家	
+选修6	Unit 1	a great deal	大量	
+选修6	Unit 1	shadow	n.阴影；影子	[ˈʃædəʊ]
+选修6	Unit 1	ridiculous	adj.荒谬的；可笑的	[rɪˈdɪkjʊləs]
+选修6	Unit 1	controversial	adj.争论的；争议的	[kɒntrəˈvɜːʃ(ə)l]
+选修6	Unit 1	nowadays	adv.现今；现在	[ˈnaʊədeɪz]
+选修6	Unit 1	scores of	许多；大量	
+选修6	Unit 1	attempt	n.努力；尝试；企图　vt.尝试；企图	[əˈtempt]
+选修6	Unit 1	predict	vt.预言；预告；预测	[prɪˈdɪkt]
+选修6	Unit 1	aggressive	adj.敢作敢为的；有闯劲的；侵略的；好斗的	[ˈəɡresɪv]
+选修6	Unit 1	scholar	n.学者	[ˈskɒlə]
+选修6	Unit 1	flesh	n.肉，肌肉；肉体	[fleʃ]
+选修6	Unit 1	in to flesh	活着的；本人	
+选修6	Unit 1	geometry	n.几何学	[dʒɪ'ɑmɪtri]
+选修6	Unit 1	bunch	n.束；串	[bʌntʃ]
+选修6	Unit 1	Manhattan	n.曼哈顿岛；曼哈顿区（纽约市中心）	
+选修6	Unit 1	Madison	n.麦迪逊	
+选修6	Unit 1	avenue	n.林阴道；道路；大街	[ˈævənjuːˈævənuː]
+选修6	Unit 1	mansion	n.大厦；官邸	
+选修6	Unit 1	Guggenheim	古根海姆博物馆	
+选修6	Unit 1	exhibition	n.展览，陈列；展览会	[ˌeksɪˈbɪʃən]
+选修6	Unit 1	metropolitan	adj.首都的；主要都市的	
+选修6	Unit 1	Metropolitan Museum of Art	大都会博物馆	
+选修6	Unit 1	civilization	n.文明；文化；文明社会	[sɪvɪlaɪˈzeɪʃ(ə)n]
+选修6	Unit 1	Monet	莫奈（法国画家）	
+选修6	Unit 1	Picasso	毕加索（西班牙画家）	
+选修6	Unit 1	Matisse	马蒂斯（法国画家）	
+选修6	Unit 1	Whitney	惠特尼	
+选修6	Unit 1	contemporary	adj.当代的；同时代的	[kənˈtempərəri]
+选修6	Unit 1	permanent	adj.永久的；持久的	[ˈpɜːmənənt]
+选修6	Unit 1	district	n.区，区域；行政区	[ˈdɪstrɪkt]
+选修6	Unit 1	tip	n.提示；技巧；顶，尖端；小费	[tɪp]
+选修6	Unit 2	poem	n.诗；韵文；诗体文	[ˈpəʊɪm]
+选修6	Unit 2	poetry	n.诗（总称）；诗意	
+选修6	Unit 2	recite	vt.背诵；叙述	[rɪˈsaɪt]
+选修6	Unit 2	aspect	n.（问题的）方面；样子，外表	[ˈæspekt]
+选修6	Unit 2	convey	vt.传达；运送	[kənˈveɪ]
+选修6	Unit 2	emotion	n.情感；情绪；感情	[ɪ'məʊʃən]
+选修6	Unit 2	nursery	n.托儿所	[ˈnɜːsəri]
+选修6	Unit 2	rhyme	n.韵，押韵；压韵的词　vi.&vt.（使）压韵	[raɪm]
+选修6	Unit 2	nursery	童谣	[ˈnɜːsəri]
+选修6	Unit 2	rhythm	n.韵律，格律；节奏	
+选修6	Unit 2	rhythmic	adj.有节奏的；有规律的	
+选修6	Unit 2	repetition	n.重复，反复；循环	[ˌrepɪˈtɪʃən]
+选修6	Unit 2	hush	vt.（使某人）安静下来	
+选修6	Unit 2	mockingbird	n.嘲鸫；嘲鸟（一种鸟，能模仿其他鸟的叫声）	
+选修6	Unit 2	diamond	n.钻石；菱形	[ˈdaɪəmənd]
+选修6	Unit 2	brass	n.黄铜；黄铜器	[brɑːs]
+选修6	Unit 2	billy-goat	n.公山羊	
+选修6	Unit 2	squire	n.乡绅	
+选修6	Unit 2	cottage	n.村舍；小屋	[ˈkɒtɪdʒ]
+选修6	Unit 2	balloon	n.气球	[bəˈluːn]
+选修6	Unit 2	coffin	n.棺材	
+选修6	Unit 2	sparrow	n.麻雀	[ˈspærəʊ]
+选修6	Unit 2	take it easy	轻松；不紧张；从容	
+选修6	Unit 2	run out of	用完	
+选修6	Unit 2	cinquain	n.五行诗	
+选修6	Unit 2	make up of	（多用于被动结构）构成	
+选修6	Unit 2	tease	vt.取笑；招惹；戏弄	[tiːz]
+选修6	Unit 2	salty	adj.含盐的；咸的	[ˈsɔːlti]
+选修6	Unit 2	droop	vi.低垂；凋萎；萎靡	
+选修6	Unit 2	dread	vi.&vt.害怕；畏惧	
+选修6	Unit 2	endiess	adj.无穷的；无止境的	
+选修6	Unit 2	haiku	n.俳句	
+选修6	Unit 2	syllable	n.音节	
+选修6	Unit 2	translate	vi.&vt.翻译	[trænsˈleɪt]
+选修6	Unit 2	translation	n.翻译；译文	[trænsˈleɪʃ(ə)n]
+选修6	Unit 2	branch	n.枝条；支流；部门	[brɑːntʃ]
+选修6	Unit 2	brimful	adj.盈满的；满到边际的	
+选修6	Unit 2	await	vt.等候；期待	
+选修6	Unit 2	transform	vi.&vt.转化；转换；改造；变换	[trænsˈfɔːm]
+选修6	Unit 2	revolve	vi.&vt.（使）旋转	
+选修6	Unit 2	utter	vt.说，讲；发出（声音）	['ʌtə]
+选修6	Unit 2	joy	vt.快乐；欢乐；喜悦	[dʒɒi]
+选修6	Unit 2	anger	n.怒；愤怒	[ˈæŋɡə]
+选修6	Unit 2	sorrow	n.悲伤；悲痛；懊悔	[ˈsɒrəʊ]
+选修6	Unit 2	thread	n.线；线索	[θred]
+选修6	Unit 2	appropriate	n.适当的；正当的	[əˈprəʊprɪət]
+选修6	Unit 2	ending	adj.结尾；结局	[ˈendɪŋ]
+选修6	Unit 2	compass	n.指南针；罗盘；（pi）圆规	[ˈkʌmpəs]
+选修6	Unit 2	pattern	n.模式；式样；图案	[ˈpæt(ə)n]
+选修6	Unit 2	sulight	n.阳光	
+选修6	Unit 2	darkness	n.黑暗；漆黑	[ˈdɑːknɪs]
+选修6	Unit 2	warmth	n.暖和；温暖	[wɔːmθ]
+选修6	Unit 2	underline	vt.在（词等）下面画线强调	[ʌndəˈlaɪn]
+选修6	Unit 2	load	n.负担；负荷物（尤指沉重的）	[ləʊd]
+选修6	Unit 3	cigarette	n.香烟；纸烟	[sɪɡəˈret]
+选修6	Unit 3	alcohol	n.酒；酒精	[ˈælkəhɒl]
+选修6	Unit 3	fitness	n.健康	
+选修6	Unit 3	sex	n.性；性别	[seks]
+选修6	Unit 3	sexual	adj.性的；性别的	
+选修6	Unit 3	stress	n.压力；重音　vt.加压力于；使紧张	[stres]
+选修6	Unit 3	stressfou	adj.产生压力的；使紧张	
+选修6	Unit 3	adolescent	n.青少年　adj.青春期的	[ædəˈlesənt]
+选修6	Unit 3	due	adj.	[djuː]
+选修6	Unit 3	due to	由于……	
+选修6	Unit 3	addicted	adj.成习惯而离不开……	[əˈdɪktɪd]
+选修6	Unit 3	addicted to	对……有瘾	
+选修6	Unit 3	addictive	adj.使人上瘾的	
+选修6	Unit 3	nicotine	n.尼古丁	
+选修6	Unit 3	accustomed	adj.通常的	[əˈkʌstəmd]
+选修6	Unit 3	accustomed ot	习惯于……	
+选修6	Unit 3	bad-tempered	adj.脾气暴躁的；易努的	
+选修6	Unit 3	automatic	adj.无意识的；自动的	[ɔːtəˈmætɪk]
+选修6	Unit 3	automatically	adv.无意识地；自动地	
+选修6	Unit 3	mental	adj.精神的，智力的	[ˈment(ə)l]
+选修6	Unit 3	mentally	adv.精神上；智力上	[ˈmentəli]
+选修6	Unit 3	manage	vi办事；设法对付　vt.管理；经营	[ˈmænɪdʒ]
+选修6	Unit 3	lung	n.肺	[lʌŋ]
+选修6	Unit 3	pregnant	adj.怀孕的	[ˈpreɡnənt]
+选修6	Unit 3	quit	vt.停止（做某事）；离开	[kwɪt]
+选修6	Unit 3	decide on	对……作出决定	
+选修6	Unit 3	relaxation	n.放松；娱乐	
+选修6	Unit 3	chemist	n.药剂师；化学家	[ˈkemɪst]
+选修6	Unit 3	gum	n.树胶	[gʌm]
+选修6	Unit 3	chewing gum	口香糖	
+选修6	Unit 3	weaken	vi.（对某事的决心）动摇，减弱　vt.（使）变弱	[ˈwiːkən]
+选修6	Unit 3	ashamed	adj.感到惭愧或羞耻的	[əˈʃeɪmd]
+选修6	Unit 3	eventually	adv.最后；终于	[ɪˈventjʊəli]
+选修6	Unit 3	production	n.生产；产量	[prəˈdʌkʃ(ə)n]
+选修6	Unit 3	in spite of	不顾；不管	
+选修6	Unit 3	feel like(dong)	想要（做）……	
+选修6	Unit 3	risk	n.危险；风险	[rɪsk]
+选修6	Unit 3	take fisks(a risk)	冒险	
+选修6	Unit 3	at risk	处于危险之中	
+选修6	Unit 3	get into	陷入；染上（坏习惯）	
+选修6	Unit 3	stand for	代表；支持	
+选修6	Unit 3	illegal	adj.不合法的；违法的	[ɪˈliːɡ(ə)l]
+选修6	Unit 3	HIV(Human Immunodeficiency Virus	人体免疫缺损病毒（艾滋病病毒）	
+选修6	Unit 3	AIDS	艾滋病，爱滋病（后天免疫缺损综合症）	[eɪdz]
+选修6	Unit 3	flu	n.滚感	[fluː]
+选修6	Unit 3	SARS	非典型性肺炎	
+选修6	Unit 3	immune	adj.有免疫力的	
+选修6	Unit 3	fluid	n.液体　adj.流动的	
+选修6	Unit 3	inject	vt.注射	
+选修6	Unit 3	needle	n.（注谢器的）针头；缝衣针	[niːd(ə)l]
+选修6	Unit 3	male	adj.男性的；雄性的　n.男人；雄性动（植）物	[meɪl]
+选修6	Unit 3	female	adj.女性的；雌性的　n.雌性的动（植）物；女人	[ / ˈfiːmeɪl]
+选修6	Unit 3	condom	n.避孕套	
+选修6	Unit 3	statement	n.陈述；声明	[ˈsteɪtmənt]
+选修6	Unit 3	perfect	adj.完全的；完美的；极好的	[kwestʃəˈneə]
+选修6	Unit 3	perfectly	adv.完全地；十分；完美地	
+选修6	Unit 3	homosexual	n.同性恋　adj.同性恋的	
+选修6	Unit 3	kiss	vt.&vt.接吻　n.吻	[kɪs]
+选修6	Unit 3	disco	n.迪斯科舞会；迪斯科舞厅	['dɪskəʊ]
+选修6	Unit 3	basic	adj.基础的；基本的	['beɪsɪk]
+选修6	Unit 3	comprehension	n.理解（力）	[kɒmprɪˈhenʃən]
+选修6	Unit 3	judgement	n.意见；看法；判决	['dʒʌdʒmənt]
+选修6	Unit 3	challenging	adj.挑战的	[ˈtʃælɪndʒɪŋ]
+选修6	Unit 4	renewable	adj.能再生的；可更新的	
+选修6	Unit 4	greenhouse	n.温室；花房	
+选修6	Unit 4	Fahrenheit	adj.（温度）华氏的	
+选修6	Unit 4	compare	vt比较；相比	[kəmˈpeə]
+选修6	Unit 4	compare to	和……比起来	
+选修6	Unit 4	come about	发生；造成	
+选修6	Unit 4	Sophie	索菲（女名）	
+选修6	Unit 4	Armstrong	阿姆斯特朗（姓）	
+选修6	Unit 4	graph	n.图表；坐标图；曲线图	[ɡrɑːf]
+选修6	Unit 4	phenomenon	n.现象	[fɪˈnɒmɪnən]
+选修6	Unit 4	fuel	n.燃料	[fjuːəl]
+选修6	Unit 4	Janice	贾尼丝（女名）	
+选修6	Unit 4	Foster	福斯特（姓或男名）	[ˈFɒstə]
+选修6	Unit 4	methane	n.甲烷；沼气	
+选修6	Unit 4	quantity	n.量；数量	[ˈkwɒntəti]
+选修6	Unit 4	quantities of	大量的	
+选修6	Unit 4	Charles Keeling	查尔斯·基林（美）	
+选修6	Unit 4	measurement	n.衡量；测量；尺寸	
+选修6	Unit 4	per	每；每一（时间、长度等单位）	[pə]
+选修6	Unit 4	data	n.资料；数据	[ˈdeɪtəˌˈdɑːtə]
+选修6	Unit 4	result	导致	[rɪ'zʌlt]
+选修6	Unit 4	Celsius	adj.（温度）摄氏的	
+选修6	Unit 4	catastrophe	n.突如其来的大灾难；大灾祸	[kəˈtæstrəfi]
+选修6	Unit 4	climate	n.气候	[ˈklaɪmɪt]
+选修6	Unit 4	famine	n.饥荒	
+选修6	Unit 4	destruction	n.破坏；毁灭	[dɪˈstrʌkʃən]
+选修6	Unit 4	George Hambley	乔治·汉布利	
+选修6	Unit 4	speculation	n.推测；思考	[ˌspekjʊ'leɪʃən]
+选修6	Unit 4	environmental	adj.环境的	
+选修6	Unit 4	consequence	n.结果；后果；影响	[ˈkɒnsɪkwəns]
+选修6	Unit 4	state	vt.陈述；说明	[steɪt]
+选修6	Unit 4	range	n.种类；范围；幅度	[reɪndʒ]
+选修6	Unit 4	bhild up	逐步建立；增加；增进	
+选修6	Unit 4	keep on	继续	
+选修6	Unit 4	glance	vi.看一下；扫视　n.一瞥	[glæns/glɑːns]
+选修6	Unit 4	widespread	adj.分布（或散布）广的；普遍的	[ˈwaɪdspredˌ-ˈspred]
+选修6	Unit 4	hectare	n.公顷	
+选修6	Unit 4	decrease	vi.&vt.减少；（使）变小或变少	[dɪˈkriːs]
+选修6	Unit 4	on toe whole	大体上；基本上	
+选修6	Unit 4	steady	adj.均匀而有规律的；持续的；稳固的	[ˈstedi]
+选修6	Unit 4	steadily	adv.平稳地；持续地	
+选修6	Unit 4	emphasis	n.强调	
+选修6	Unit 4	average	adj.平均的；普通的	[ˈævərɪdʒ]
+选修6	Unit 4	existence	n.生存；存在	[ɪg'zɪstəns]
+选修6	Unit 4	outer	adj.外部的；外面的	[ˈaʊtə]
+选修6	Unit 4	individual	n.个人；个体　adj.单独的；个别的	
+选修6	Unit 4	make a difference	有关系；有影响	
+选修6	Unit 4	put up with	忍受；容忍	
+选修6	Unit 4	pollution	n.污染；弄脏	[pəˈluːʃ(ə)n]
+选修6	Unit 4	electrical	adj.电的；与电有关的	[ɪˈlektrɪk(ə)l]
+选修6	Unit 4	appliance	n.用具；工具；器具	
+选修6	Unit 4	so long as	只要	
+选修6	Unit 4	and so on	等等	
+选修6	Unit 4	motor	n.发动机	[ˈməʊtə]
+选修6	Unit 4	can	n.容器；罐头	[kæn]
+选修6	Unit 4	microwave	n.微波炉；微波	[ˈmaɪkrəʊweɪv]
+选修6	Unit 4	heading	n.标题	
+选修6	Unit 4	imperative	n.祈使语气；命令	
+选修6	Unit 4	nuclear	adj.使用或生产核能的；核的；原子核的	[ˈnjuːklɪə]
+选修6	Unit 4	disagreement	n.分歧；不一致	[dɪsəˈɡriːmənt]
+选修6	Unit 4	title	n.标题，题目；称号；头衔	[ˈtɪʃuːˌˈtɪsjuː]
+选修6	Unit 5	volcano	n.火山	[vɒlˈkeɪnəʊ]
+选修6	Unit 5	volcanology	n.火山学	
+选修6	Unit 5	volcanologist	n.火山学家	
+选修6	Unit 5	erupt	vi.（指火山）爆发；突然发生	[ɪˈrʌpt]
+选修6	Unit 5	eruption	n.火山爆发；（战争等）爆发	
+选修6	Unit 5	ash	n.灰；灰末	[æʃ]
+选修6	Unit 5	crater	n.火山口；弹坑	
+选修6	Unit 5	lava	n.（火山喷出的）熔岩；火山岩	
+选修6	Unit 5	compare … with	与……比较	
+选修6	Unit 5	hurricane	n.飓风；风暴	[ˈhʌrɪkən]
+选修6	Unit 5	adventure	n.奇遇；冒险	[ədˈventʃə]
+选修6	Unit 5	bore	vt.使感到厌烦	[bɔː]
+选修6	Unit 5	excite	vt.使兴奋；使激动	[ɪkˈsaɪt]
+选修6	Unit 5	observatory	n.观象台；天文台；气象台	
+选修6	Unit 5	Mount Kilauea	基拉韦厄火山	
+选修6	Unit 5	evaluate	vt.评估；评价；估计	[ɪˈvæljʊeɪt]
+选修6	Unit 5	unfortunate	adj.不幸的；倒霉的	
+选修6	Unit 5	unfortunately	adv.不幸地	[ʌnˈfɔːtjʊnətli]
+选修6	Unit 5	burn to the ground	全部焚毁	
+选修6	Unit 5	molten	adj.熔化的；熔融的	
+选修6	Unit 5	fountain	vi.&vt.泉水般地喷出或涌出　n.喷泉；源泉	[ˈfaʊntɪn]
+选修6	Unit 5	absolute	adj.绝对的；完全的	[ˈæbsəluːt]
+选修6	Unit 5	absolutely	adv.绝对地；完全地	[ˈæbsəˌluːtli]
+选修6	Unit 5	fantasic	adj.难以置信的；奇异的；极好的	
+选修6	Unit 5	make one's way	前往	
+选修6	Unit 5	potential	n.潜在性；可能性；潜能　adj.可能的；潜在的	[pəˈtenʃ(ə)l]
+选修6	Unit 5	impress	vt.给予……深刻印象	[ɪmˈpres]
+选修6	Unit 5	impressive	adj.给人深刻印象	
+选修6	Unit 5	Monut Vesuvius	维苏威火山	
+选修6	Unit 5	Pompeii	庞培（意大利古都）	
+选修6	Unit 5	precious	adj.贵重的；珍贵的	[ˈpreʃəs]
+选修6	Unit 5	novelist	n.小说家	[ˈnɒvəlɪst]
+选修6	Unit 5	cancel	vt.取消，撤消；删去	[ˈkæns(ə)l]
+选修6	Unit 5	effort	n.努力	[ˈefət]
+选修6	Unit 5	make an effort	努力	
+选修6	Unit 5	relieve	vt.减轻或解除（忧虑、痛苦的）	[rɪˈliːv]
+选修6	Unit 5	tremble	vt.摇晃，摇动，颤抖	[ˈtremb(ə)l]
+选修6	Unit 5	sweat	n.汗　vt.出汗	[swet]
+选修6	Unit 5	anxiety	n.担心；焦虑；渴望	[æŋˈzaɪəti]
+选修6	Unit 5	anxious	adj.忧虑的；不安的	[ˈæŋkʃəs]
+选修6	Unit 5	panic	vi.&vt.惊慌　n.惊慌；恐慌	[ˈpænɪk]
+选修6	Unit 5	courage	n.勇气；胆量	[ˈkʌrɪdʒ]
+选修6	Unit 5	typhoon	n.台风	[taɪˈfuːn]
+选修6	Unit 5	glance through	匆匆看一遍	
+选修6	Unit 5	Manchu	adj.满族的　n.满人	
+选修6	Unit 5	heaven	n.天国；天堂	[ˈhev(ə)n]
+选修6	Unit 5	vary from … to …	由……到……不等	
+选修6	Unit 5	diverse	adj.多种多样的；不同的	[daɪˈvɜːs]
+选修6	Unit 5	diversity	n.多种多样；多样性	
+选修6	Unit 5	erane	n.鹤；吊车；起重机	
+选修6	Unit 5	leopard	n.豹	
+选修6	Unit 5	Siberian	adj.西伯利亚的	[saɪˈbɪərɪən]
+选修6	Unit 5	unique	adj.唯一的；独一无二的	[jʊˈniːk]
+选修6	Unit 5	spectacular	adj.引人入胜的；壮观的	
+选修6	Unit 5	bathe	vi.洗澡；游泳	[beɪð]
+选修6	Unit 5	crystal	n.水晶；水晶饰品	[ˈkrɪstəl]
+选修6	Unit 5	crystal clear	完全透明的	
+选修6	Unit 5	peak	n.山顶；顶峰	[piːk]
+选修6	Unit 5	swallow	vt.&vt.吞，咽　n.吞，咽；燕子	[ˈswɒləʊ]
+选修6	Unit 5	persuasion	n.信服；说服	[pə'sweɪʒən]
+选修6	Unit 5	guarantee	vt.保证；担保　	[ɡærənˈtiː]
+选修7	Unit 1	disability	n.伤残；无力；无能	[dɪsəˈbɪlɪti]
+选修7	Unit 1	disabled	adj.伤残的	[dɪsˈeɪb(ə)ld]
+选修7	Unit 1	eyesight	n.视力	[ˈaɪsaɪt]
+选修7	Unit 1	Rada	雷达	
+选修7	Unit 1	drum	n.鼓；鼓壮物　vi击鼓	[drʌm]
+选修7	Unit 1	Barry	巴里（男名）	
+选修7	Unit 1	Sally	萨利（女名）	
+选修7	Unit 1	movie	n.电影	[ˈmuːvi]
+选修7	Unit 1	ambition	n.雄心，野心	[æmˈbɪʃ(ə)n]
+选修7	Unit 1	beneficial	adj.有益的；受益的	[benɪˈfɪʃ(ə)l]
+选修7	Unit 1	Marty	马蒂·菲尔丁	
+选修7	Unit 1	in other words	换句话说	
+选修7	Unit 1	clumsy	adj.笨拙的	[ˈklʌmzi]
+选修7	Unit 1	adapt	vt.使适应；改变	[əˈdæpt]
+选修7	Unit 1	motto	n.座右铭；格言	[ˈmɒtəʊ]
+选修7	Unit 1	microscope	n.显微镜	[ˈmaɪkrəskəʊp]
+选修7	Unit 1	breath	n.呼吸；气息	[breθ]
+选修7	Unit 1	out of breath	上气不接下气	
+选修7	Unit 1	absence	n.缺席；不在某处	[ˈæbsəns]
+选修7	Unit 1	stupid	adj.愚蠢的	[ˈstjuːpɪd]
+选修7	Unit 1	fellow	n.同伴；同志；伙伴　adj.同伴的；同类的	[ˈfeləʊ]
+选修7	Unit 1	annoy	vt.使……不悦；惹恼	[əˈnɒi]
+选修7	Unit 1	annoyed	adj.颇为生气的	[ə'nɔɪd]
+选修7	Unit 1	all in all	总而言之	
+选修7	Unit 1	industry	n.工业；行业	[ˈɪndəstri]
+选修7	Unit 1	tank	n.（盛液体，气体的）大容器；缸；大桶	[tæŋk]
+选修7	Unit 1	independent	adj.独立自主的；不受约束的	[ɪndɪˈpendənt]
+选修7	Unit 1	make fun of	取笑	
+选修7	Unit 1	encouragement	n.鼓励；奖励	[ɪnˈkʌrɪdʒmənt]
+选修7	Unit 1	conduct	n.行为，品行　vt.指挥；管理；主持	[ˈkɒndʌkt]
+选修7	Unit 1	politics	n.政治学	[ˈpɒlɪtɪks]
+选修7	Unit 1	literature	n.文学作品；著作；文献	[ˈlɪtərətʃə]
+选修7	Unit 1	overhear	vt.偷听到；无意中听到	
+选修7	Unit 1	resign	vi.&vt.辞职；辞去（工作、职位等）	[rɪˈzaɪn]
+选修7	Unit 1	handkerchief	n.手帕；纸巾	[ˈhæŋkətʃɪf]
+选修7	Unit 1	Kilimanjaro	乞力马扎罗山（位于坦桑尼亚；非洲最高山	
+选修7	Unit 1	assistance	n.协助；援助	[əˈsɪst(ə)ns]
+选修7	Unit 1	companion	n.同伴；伙伴	[kəmˈpænɪən]
+选修7	Unit 1	Qomolangma	珠穆朗玛峰	
+选修7	Unit 1	latter	adj.较后的；后半的；（两者中）后者的	[ˈlætə]
+选修7	Unit 1	congratulate	vt.祝贺；庆祝	[kənˈɡrætjʊleɪt]
+选修7	Unit 1	admiration	n.钦佩；赞赏；羡慕	
+选修7	Unit 1	remarkable	adj.非凡的；显著的	[rɪ'mɑːkəbl]
+选修7	Unit 1	all the best	（祝你）一切顺利	
+选修7	Unit 1	graduation	n.毕业，毕业典礼	[ɡrædjʊˈeɪʃ(ə)n]
+选修7	Unit 1	certificate	n.证书	[səˈtɪfɪkət]
+选修7	Unit 1	architect	n.建筑师	[ˈɑːkɪtekt]
+选修7	Unit 1	Sanders	桑达斯	
+选修7	Unit 1	in particular	特别	
+选修7	Unit 1	earphone	n.耳机	
+选修7	Unit 1	impair	vt.削弱；损伤	
+选修7	Unit 1	basement	n.地下室	[ˈbeɪsmənt]
+选修7	Unit 1	elder	adj.年长的	[ˈeldə]
+选修7	Unit 1	elderly	adj.上了年纪的；过了中年的	
+选修7	Unit 1	dignity	n.尊严；高贵的品质	[ˈdɪɡnɪti]
+选修7	Unit 1	italic	adj.斜体的	
+选修7	Unit 1	accessibel	adj.可接近的；可进入的；可使用的	
+选修7	Unit 1	commmunity	n.社区；团体；社会	
+选修7	Unit 1	bare	adj.裸露的；空的；没有的	[beə]
+选修7	Unit 2	fiction	n.小说；虚构或想象出来的事	[ˈfɪkʃ(ə)n]
+选修7	Unit 2	cartoon	n.（报刊上的）漫画；卡通片；动画片	[kɑːˈtuːn]
+选修7	Unit 2	desire	n.渴望；欲望；渴求　vt.希望得到的；想要	[dɪˈzaɪə]
+选修7	Unit 2	Isaac		
+选修7	Unit 2	satisfaction	满意；满足；令人满意的事物	[sætɪsˈfækʃ(ə)n]
+选修7	Unit 2	Larry	n.拉里·（贝尔蒙特）	
+选修7	Unit 2	test out	考验	
+选修7	Unit 2	Claire	克莱尔（女名）	
+选修7	Unit 2	absent	adj.不在的；缺席的；缺少的	[ˈæbsənt]
+选修7	Unit 2	alarm	n.警报；惊恐　vt.使警觉；使惊恐；惊动	[əˈlɑːm]
+选修7	Unit 2	alarmed	adj.担心的；害怕的	
+选修7	Unit 2	smooth	adj.平滑的；平坦的；顺利的　vt.使……光滑、平坦或顺利	[ˈsməʊkɪŋ]
+选修7	Unit 2	embarrass	vt.使困窘；使局促不安	[ɪmˈbærəs]
+选修7	Unit 2	sympathy	n.同情；同情心	[ˈsɪmpəθi]
+选修7	Unit 2	elegant	adj.优雅的；高雅的；讲究的	[ˈelɪɡənt]
+选修7	Unit 2	Gladys	格拉迪斯·克拉芬	
+选修7	Unit 2	pile	n.堆；摞；叠　vi.堆起；堆积	[paɪ]
+选修7	Unit 2	scan	vt.细看；仔细检查；（美）粗略地看；浏览；扫描	[skæn]
+选修7	Unit 2	fingernail	n.手指甲	[ˈfɪŋɡəneɪl]
+选修7	Unit 2	softness	n.柔和；温柔；柔软	
+选修7	Unit 2	absurd	adj.荒谬的；可笑的	[əbˈsɜːd]
+选修7	Unit 2	haircut	n.发型；理发	[ˈheəkʌt]
+选修7	Unit 2	makeup	n.化妆品	
+选修7	Unit 2	accompany	vt.陪伴；伴奏	[əˈkʌmpəni]
+选修7	Unit 2	curtain	n.窗帘；作屏障用的帘子（舞台用的幕）	[ˈkɜːt(ə)n]
+选修7	Unit 2	cushion	n.（坐、跪时用的）软垫；靠垫；垫子	[ˈkʊʃ(ə)n]
+选修7	Unit 2	carpet	n.地毯	[ˈkɑːpɪt]
+选修7	Unit 2	paint	n.油漆；颜料；涂料　vi.&vt.油漆；（用颜料等）画	[peɪnt]
+选修7	Unit 2	ring up	打电话给	
+选修7	Unit 2	turn around	转向；回转	
+选修7	Unit 2	awful	adj.极坏的；极讨厌的；可怕的；（口语）糟透的	[ˈɔːfʊl]
+选修7	Unit 2	affair	n.事；事物；事情；暧昧关系；私通	[əˈfeə]
+选修7	Unit 2	firm	adj.坚实的；稳固的；（指动作）稳定而有力的	[fɜːm]
+选修7	Unit 2	firmly	adv.稳固地；坚定地	[ˈfɜːmli]
+选修7	Unit 2	declare	vt.宣布；声明；表明；宣称	[dɪˈkleə]
+选修7	Unit 2	victory	n.胜利；成功	[ˈvɪktəri]
+选修7	Unit 2	envy	vt.忌妒；羡慕	[ˈenvi]
+选修7	Unit 2	leave … alone	不管…；别惹；让……一个人待着；和……单独在一起	
+选修7	Unit 2	marriage	n.婚姻；结婚	[ˈmærɪdʒ]
+选修7	Unit 2	complicated	adj.复杂的；难解的	
+选修7	Unit 2	biography	n.（由他人撰写的）传记；传记文学	[baɪˈɒɡrəfi]
+选修7	Unit 2	explanation	n.解释；解说；说明	[ˌeksplə'neɪʃən]
+选修7	Unit 2	transfusion	n.输血	
+选修7	Unit 2	Master's degree	硕士学位	
+选修7	Unit 2	junior	adj.较年幼的；资力较浅的；地位交低的　n.年少者；晚辈；等级较低者	[ˈdʒuːnɪə]
+选修7	Unit 2	Philadelphia	n.费城（美国宾西法尼亚州重要的港口）	
+选修7	Unit 2	navy	n.海军；海军部队	[ˈneɪvi]
+选修7	Unit 2	PhD=Doctor of Philosophy	哲学博士学位；博士学位	
+选修7	Unit 2	talent	n.天才；特殊的能力；才干	[ˈtælənt]
+选修7	Unit 2	chapter	n.（书中的）章；篇；回	[ˈtʃæptə]
+选修7	Unit 2	The Foundation	《基地三部曲》	
+选修7	Unit 2	empire	n.帝国	[ˈempaɪə]
+选修7	Unit 2	divorce	n.离婚；断绝关系　vt.与……离婚；与……脱离	[dɪˈvɔːs]
+选修7	Unit 2	obey	vi.&vt.服从；顺从	[əʊˈbeɪ]
+选修7	Unit 2	aside	adv.在一边；向一边	[əˈsaɪd]
+选修7	Unit 2	set aside	将……放在一边；为……节省或保留（钱或时间）	
+选修7	Unit 3	snorkel	n.（潜水艇或潜水者的）通气管　vi.戴潜水通气管潜泳	
+选修7	Unit 3	aquarium	n.水族馆；水族箱；养鱼缸	[ə'kweərɪəm]
+选修7	Unit 3	anecdote	n.轶事；奇闻	[ˈænɪkdəʊt]
+选修7	Unit 3	Clancy	克兰西（男名）	
+选修7	Unit 3	baleen	n.鲸须	
+选修7	Unit 3	baleen whale	须鲸	
+选修7	Unit 3	annual	adj.每年的；按年度计算的　n.年刊；年鉴	[ˈænjʊəl]
+选修7	Unit 3	miagration	n.迁居；移居；迁徙	
+选修7	Unit 3	witness	n.目击者；证人；证据　vt.当场见到；目击	[ˈwɪtnɪs]
+选修7	Unit 3	accommodation	n.住所；住宿	[əkɒməˈdeɪʃən]
+选修7	Unit 3	shore	n.岸；海滨	[ʃɔː]
+选修7	Unit 3	yell	vi.大叫；呼喊　n.叫声；喊声	[jel]
+选修7	Unit 3	ahead of	在……前面	
+选修7	Unit 3	oar	n.桨；橹	[ɔː]
+选修7	Unit 3	pack	n.包裹；一群	[pæk]
+选修7	Unit 3	blow-hole	n.（鲸鱼的）鼻孔；（隧道的）通风口	
+选修7	Unit 3	flee	vi.逃避；逃跑　vt.逃离	[fliː]
+选修7	Unit 3	harpoon	n.（捕鲸用的）鱼叉	
+选修7	Unit 3	drag	vi.拖；拉；深处	[dræɡ]
+选修7	Unit 3	depth	n.深，深度；深处	[depθ]
+选修7	Unit 3	meantime	adv.其间；同时	
+选修7	Unit 3	in the meantime	在此期间；与此同时	
+选修7	Unit 3	lip	n.一片嘴唇；（容器或洞的）边，口	[lɪp]
+选修7	Unit 3	tongue	n.舌，舌头；语言	[tʌŋ]
+选修7	Unit 3	overboard	adv.越过船舷进入水中	
+选修7	Unit 3	abandon	vt.放弃；遗弃；抛弃	[əˈbændən]
+选修7	Unit 3	help out	j帮助……（摆脱困境或危难）	
+选修7	Unit 3	relationship	n.关系；血缘关系；交往	[rɪˈleɪʃənʃɪp]
+选修7	Unit 3	rent	vi.出租　vt.租用	[rent]
+选修7	Unit 3	flipper	n.（鲸鱼等的）鳍状肢；（游泳地用的）鸭脚板	
+选修7	Unit 3	seaside	n.&adj.海边（的）；海滨（的）	[ˈsiːsaɪd]
+选修7	Unit 3	net	n.网，网状物；网络	[net]
+选修7	Unit 3	turtle	n.海龟，龟；甲鱼	['tɜːtl]
+选修7	Unit 3	dimension	n.维数；方面；侧面	[dɪˈmenʃ(ə)n]
+选修7	Unit 3	reflect	vt.映射；反射　vi.&vt.思考	[rɪˈflekt]
+选修7	Unit 3	pure	adj.纯的；纯粹的；纯洁的	[pjʊə]
+选修7	Unit 3	magic	n.魔术；巫术；戏法　adj.魔术的；有魔力的；不可思议的	[ˈmædʒɪk]
+选修7	Unit 3	beauty	n.美；美景；美丽的人或事物	[ˈbjuːti]
+选修7	Unit 3	cell	n.细胞；（蜂房的）巢室	[sel]
+选修7	Unit 3	aware	adj.意识到的，知道的	[əˈweə]
+选修7	Unit 3	be/become aware of	对……知道、明白；意识到……	
+选修7	Unit 3	vivid	adj.生动的；鲜明的；鲜艳的	[ˈvɪvɪd]
+选修7	Unit 3	lettuce	n.莴苣；生菜	['letɪs]
+选修7	Unit 3	horn	n.（牛、羊等的）角；（乐器中的）号；喇叭；触角	[hɔːn]
+选修7	Unit 3	anemonefish	n.海葵鱼	
+选修7	Unit 3	poisonous	adj.有毒的	[ˈpɒɪzənəs]
+选修7	Unit 3	tentacle	n.（动物的）触须；触角	
+选修7	Unit 3	sea anemone	海葵	
+选修7	Unit 3	cave	n.洞穴；窑洞	[keɪv]
+选修7	Unit 3	narrow	adj.狭窄的；有限的；陕隘的	[ˈnærəʊ]
+选修7	Unit 3	upside	adj.&adv.上下翻转过来的（地）；颠倒的（地）；乱七八糟的（地）	
+选修7	Unit 3	sea-slug	n.海蛞蝓	
+选修7	Unit 3	stripe	n.斑纹；条纹	
+选修7	Unit 3	striped	adj.有斑纹的	
+选修7	Unit 3	eel	n.鳗，鳝	
+选修7	Unit 3	sharp	adj.锐利的；锋利的；敏捷的	[ʃɑːp]
+选修7	Unit 3	tasty	adj.好吃的；可口的；	[ˈteɪsti]
+选修7	Unit 3	giant	n.巨人；伟人　adj.巨人的；巨大的	
+选修7	Unit 3	clam	n.蛤	
+选修7	Unit 3	scare	vt.恐吓　vi.受惊吓	[skeə]
+选修7	Unit 3	(be) scared to death	吓死了	
+选修7	Unit 3	shallow	adj.浅的；肤浅的；浅显的	[ˈʃæləʊ]
+选修7	Unit 3	entry	n.进入；入口；（写入清单、日记、帐本等的）项目	[ˈentri]
+选修7	Unit 3	Antarctic	adj.南极的	[ænˈtɑːktɪk]
+选修7	Unit 3	the Antarctic	南极洲	
+选修7	Unit 3	awesome	adj.使人敬畏的；令人畏惧的	[ˈɔːsəm]
+选修7	Unit 3	leap	vi.&n.跳；跳跃　跳过（障碍）	[liːp]
+选修7	Unit 3	seal	n.海豹；封条；印章	[siːl]
+选修7	Unit 3	refund	vt.退还；偿还　退款	
+选修7	Unit 3	pension	n.养老金；退休金	[ˈpenʃ(ə)n]
+选修7	Unit 3	pensioner	n.领退休金或养老金的人	
+选修7	Unit 4	Papua	巴布亚新几内亚（大洋州国家）	
+选修7	Unit 4	hear from	接到……的信	
+选修7	Unit 4	(be) dying to	极想；渴望	
+选修7	Unit 4	bucket	n.水桶；吊桶；提桶	[ˈbʌkɪt]
+选修7	Unit 4	bubble	vi.起泡；沸腾；汩汩地流动	['bʌbl]
+选修7	Unit 4	come across	偶然遇到或发现；碰见	
+选修7	Unit 4	relevant	adj.有关的；切题的	['relɪvənt]
+选修7	Unit 4	Pidgin	n.（不同语种的人在商业交往中形成的）混杂语言（行话）；洋泾滨英语；不纯粹的英语	
+选修7	Unit 4	slope	n.斜坡；斜面	[sləʊp]
+选修7	Unit 4	stick out	伸出	
+选修7	Unit 4	doorway	n.门口	
+选修7	Unit 4	adjust	vi.&vt.调整；使适合	[əˈdʒʌst]
+选修7	Unit 4	platform	n.台；平台；讲台；（火车站的）月台	[ˈplætfɔːm]
+选修7	Unit 4	soft	adj.软的，柔软的；（指声音）轻柔的，低声的	[ /sɒft ]
+选修7	Unit 4	softly	adv.柔软地；轻柔地；柔和地	[ˈsɒftlɪ]
+选修7	Unit 4	grill	n.烤架；大平底锅　vt.烧烤；炙烤	[ɡrɪl]
+选修7	Unit 4	dry out	使浸水等之物完全变干；干透	
+选修7	Unit 4	leftover	n.剩余物；残留物；剩饭　adj.剩余的	['leftˌəʊvə]
+选修7	Unit 4	evil	adj.邪恶的　n.邪恶；罪恶	[ˈiːvəl]
+选修7	Unit 4	dry up	（指河流、井等）干涸	
+选修7	Unit 4	privilege	n.特权；特别优待	[ˈprɪvɪlɪdʒ]
+选修7	Unit 4	arrangement	n.安排；排列	[əˈreɪndʒmənt]
+选修7	Unit 4	toast	vt.烤（面包）等；敬酒　n.烤面包片；土司面包；干杯	[təʊst]
+选修7	Unit 4	comb	n.梳子　vi.梳发	[kəʊm]
+选修7	Unit 4	astronaut	n.宇航员；太空人	[ˈæstrənɔːt]
+选修7	Unit 4	catalogue	n.目录	[ˈkætəlɒg]
+选修7	Unit 4	in need	在困难中，在危机中	
+选修7	Unit 4	purchase	vt.&n.买；购买	[ˈpɜːtʃəs]
+选修7	Unit 4	anniversary	n.周年纪念日	[ænɪˈvɜːsəri]
+选修7	Unit 4	seed	n.种子；萌芽	[siːd]
+选修7	Unit 4	seeding	n.秧苗；树苗	
+选修7	Unit 4	vaccination	n.接种疫苗	
+选修7	Unit 4	loan	n.贷款；借出物	[ləʊn]
+选修7	Unit 4	sew	vi.（用针线）缝　vt.缝制；缝合	[səʊ]
+选修7	Unit 4	sewing machine	缝纫机	
+选修7	Unit 4	supplement	n.增补的事物；补充；附录；增刊	
+选修7	Unit 4	ox	n.公牛	[ɒks]
+选修7	Unit 4	trunk	n.树干；躯干；大衣箱	[trʌŋk]
+选修7	Unit 4	trunk library	箱式（柜式）图书馆	
+选修7	Unit 4	Kenya	n.肯尼亚（东非国家）	
+选修7	Unit 4	Bangladesh	n.孟加拉国（东南亚国家）	
+选修7	Unit 4	tailor	n.裁缝　vt.剪裁；缝制（衣服）	[ˈteɪlə]
+选修7	Unit 4	income	n.收入	[ˈɪnkʌm]
+选修7	Unit 4	Tanzania	n.坦桑尼亚（东非国家）	
+选修7	Unit 4	skill	n.技能；技巧	[skiː]
+选修7	Unit 4	participate	vi.参与；参加	[pɑːˈtɪsɪpeɪt]
+选修7	Unit 4	economic	adj.经济的；经济学的	
+选修7	Unit 4	political	adj.政治的；政党的	[pəˈlɪtɪk(ə)l]
+选修7	Unit 4	Uganda	n.乌干达（东非国家）	
+选修7	Unit 4	distribution	n.分配；分发；分布状态	
+选修7	Unit 4	finance	n.财政；资金　vt.为……提供资金	[ˈfaɪnæns]
+选修7	Unit 4	finacial	adj.财务的；金融的；财政的	
+选修7	Unit 4	security	adj.安全；保护；保障	[sɪˈkjʊərɪti]
+选修7	Unit 4	operate	vi.工作；运转　vt.操作	[ˈɒpəreɪt]
+选修7	Unit 4	remote	adj.遥远的；偏僻的	[rɪˈməʊt]
+选修7	Unit 4	Sudan	n.苏丹（非洲国家）	
+选修7	Unit 4	otherwise	adv.用别的方法；其他方面　adv.&conj.否则；不然	[ˈʌðəwaɪz]
+选修7	Unit 4	donate	vt.捐赠	['dəʊneɪt]
+选修7	Unit 4	Medecins Sans Frontieres(MSF)	（法文）无国界医生（国际人道主义医疗援助机构）	
+选修7	Unit 4	clinic	n.门诊部；小诊部	[ˈklɪnɪk]
+选修7	Unit 4	Malawi	n.马拉维（非洲国家）	
+选修7	Unit 5	adjust to	适应；调节	
+选修7	Unit 5	keep it up	保持优秀成绩；继续赶下去	
+选修7	Unit 5	fit in	相适应；相融合	
+选修7	Unit 5	board	vt.上（船、飞机等）	[bɔːd]
+选修7	Unit 5	cafeteria	n.自助食堂；自助餐厅	[kæfɪˈtɪərɪə]
+选修7	Unit 5	lecture	n.&vi.演讲；讲课	[ˈlektʃə]
+选修7	Unit 5	qualification	n.资格；资格证明	[kwɒlɪfɪˈkeɪʃ(ə)n]
+选修7	Unit 5	preparaton	n.准备；预备	
+选修7	Unit 5	recommend	vt.推荐；建议	[rekəˈmend]
+选修7	Unit 5	(get/be)used to …	对……适应；习惯	
+选修7	Unit 5	shopkeeper	n.店主	[ˈʃɒpkiːpə]
+选修7	Unit 5	comfort	n.舒适；安慰　vt.安慰	[ˈkʌmfət]
+选修7	Unit 5	substitute	n.代替品；代用品　vt.用……代替……	[ˈsʌbstɪtjuːt]
+选修7	Unit 5	academic	adj.学校的；学院的；学术的	[ækəˈdemɪk]
+选修7	Unit 5	requirement	n.l需要，要求；规定	[rɪˈkwaɪəmənt]
+选修7	Unit 5	tutor	n.家庭教师；导师；助教	[ˈtjuːtə]
+选修7	Unit 5	numb	adj.麻木的；失去知觉的	[nʌm]
+选修7	Unit 5	acknowledge	vt.承认；确认；答谢	[əkˈnɒlɪdʒ]
+选修7	Unit 5	as far as one is concerned	就……而言	
+选修7	Unit 5	feel at home	感觉自在；无拘束	
+选修7	Unit 5	occupy	vt.占用；占领；占据	
+选修7	Unit 5	hopefully	adv.抱有希望地	
+选修7	Unit 5	enterprise	n.事业；计划（尤指困难的）；事业心；（办）企业	[ˈentəpraɪz]
+选修7	Unit 5	succeed	vi.成功　vt.接替；继任	[səkˈsiːd]
+选修7	Unit 5	summarize	vi.&vt.总结；概括	
+选修7	Unit 5	somment	n.意见；评论；批评　vi.评论；发表意见	
+选修7	Unit 5	passport	n.护照	[ˈpɑːspɔːt]
+选修7	Unit 5	visa	n.签证	[ˈviːzə]
+选修7	Unit 5	Lima	利马（秘鲁首都）	
+选修7	Unit 5	Cuzco	库斯科（秘鲁南部城市）	
+选修7	Unit 5	the Andes	安第斯山脉	
+选修7	Unit 5	Peru	秘鲁（南美国家）	[pə'ruː]
+选修7	Unit 5	Lia	莉亚（女名）	
+选修7	Unit 5	agent	b,代理人；经纪人	[ˈeɪdʒənt]
+选修7	Unit 5	travel agent	旅行代办人；旅行代理人	
+选修7	Unit 5	parallel	adj.平行的；相同的；类似的	['pærəlel]
+选修7	Unit 5	LakeTiticaca	的的喀喀湖	
+选修7	Unit 5	abundant	adj.丰富的；充裕的	[əˈbʌndənt]
+选修7	Unit 5	Inca	印加帝国	
+选修7	Unit 5	govern	vi.&vt.统治治；支配；管理	[ˈɡʌv(ə)n]
+选修7	Unit 5	destinaiton	n.目的地	
+选修7	Unit 5	Machu Picchu	马丘比丘(秘鲁)	
+选修7	Unit 5	Puno	普诺（秘鲁）	
+选修7	Unit 5	architecture	n.建筑风格；建筑学	[ˈɑːkɪtektʃə]
+选修7	Unit 5	the Amazon	亚马逊河热带丛林	
+选修7	Unit 5	settle in	（迁入新居、更换工作后）安顿下来　	
+选修8	Unit 1	illustrate	vt.说明；阐明	
+选修8	Unit 1	strait	n.海峡	[streɪt]
+选修8	Unit 1	the Bering	白令海峡	
+选修8	Unit 1	Alaska	n.阿拉斯加（美国州名）	[əˈlæskə]
+选修8	Unit 1	means	n.手段；方法	[miːnz]
+选修8	Unit 1	by means of …	用……办法；借助……	
+选修8	Unit 1	prehistoric	adj.史前的	
+选修8	Unit 1	slavery	n.受奴役的状态；奴隶制	[ˈsleɪvəri]
+选修8	Unit 1	Spain	n.西班牙	[speɪn]
+选修8	Unit 1	majority	n.大多数；大半	[məˈdʒɒrɪti]
+选修8	Unit 1	Catholic	adj.天主教的　n.天主教徒	[ˈkæθəlɪk]
+选修8	Unit 1	Mexico	n.黑西哥（拉丁美洲国家）	[ˈmeksɪkəʊ]
+选修8	Unit 1	the Pacific	太平洋群岛	
+选修8	Unit 1	make a life	习惯于新的生活方式、工作等；谋生	
+选修8	Unit 1	immigrant	n.（从外国移入的）移民	
+选修8	Unit 1	immigration	n.移民入境；移民	[ɪmɪ'greɪʃn]
+选修8	Unit 1	percentage	n.百分比；百分率	[pəˈsentədʒ]
+选修8	Unit 1	Denmark	n.丹麦（北欧国家）	
+选修8	Unit 1	Danish	adj.丹麦（人）的；丹麦语的　n.丹麦语；丹麦人	
+选修8	Unit 1	Hollywood	n.好莱坞；美国电影业	[ˈhɒl ɪwʊd]
+选修8	Unit 1	aircraft	n.飞行器；航空器；飞机	[ˈeəkrɑːft]
+选修8	Unit 1	Korea	n.韩国；朝鲜	
+选修8	Unit 1	Korean	n.韩国人；朝鲜人；朝鲜语　adj.韩国（人）的	
+选修8	Unit 1	Laotian	adj.老挝（人）的	
+选修8	Unit 1	Pakistan	n.巴基斯坦	[ˌpɑːkɪs'tɑːn]
+选修8	Unit 1	Pakistani	adj.巴基斯坦（人）的　n.巴基斯坦人	[ˌpɑːkɪ'stɑːni]
+选修8	Unit 1	conqueror	n.征服者	
+选修8	Unit 1	mix	vt.混合；拌合　n.混合；结合	[mɪks]
+选修8	Unit 1	mixture	n.混合；混合状态；混合物	[ˈmɪkstʃə]
+选修8	Unit 1	nationality	n.国籍；民族	[næʃəˈnæləti]
+选修8	Unit 1	racial	adj.人种的；种族的	[ˈreɪʃ(ə)l]
+选修8	Unit 1	applicant	n.申请人	[ˈæplɪkənt]
+选修8	Unit 1	socialist	n.社会主义者；社会党人　adj.社会主义者的	[ˈsəʊʃəlɪst]
+选修8	Unit 1	occur	vi.发生；出现	[əˈkɜː]
+选修8	Unit 1	oeeur to …	（某人）想到	
+选修8	Unit 1	central	adj.中心的；中央的；主要的	[ˈsentr(ə)l]
+选修8	Unit 1	cattle	n.（牛）总称	[ˈkæt(ə)l]
+选修8	Unit 1	indicate	vt.指出；标示；表明；暗示	['ɪndɪkeɪt]
+选修8	Unit 1	swap	vi.&vt.交换	[swɒp]
+选修8	Unit 1	luggage	n.<英>行李（=<美>baggage）	[ˈlʌɡɪdʒ]
+选修8	Unit 1	cable	n.绳览；绳索	['keɪbl]
+选修8	Unit 1	cable car	缆车	
+选修8	Unit 1	Andrew	安德鲁·海利迪	
+选修8	Unit 1	tram	n.（有轨）电车	[træm]
+选修8	Unit 1	apparent	adj.显而易见的；显然的；表面上的	[əˈpærənt]
+选修8	Unit 1	apparently	adv.显然地；显而易见地	
+选修8	Unit 1	slip	vi.滑动；滑行；滑跤　n.滑动；滑倒	[slɪp]
+选修8	Unit 1	wharf	n.码头	
+选修8	Unit 1	bakery	n.面包房；面包厂	[ˈbeɪkəri]
+选修8	Unit 1	ferry	n.渡船；渡口　vt.摆渡；渡运	[ˈferi]
+选修8	Unit 1	Alcatraz	恶魔岛	
+选修8	Unit 1	team up with …	与……合作或一起工作	
+选修8	Unit 1	hire	vt.&n.租用；雇用	[ˈhaɪə]
+选修8	Unit 1	mark out	划线标出……界线	
+选修8	Unit 1	seagull	n.海鸥	[ˈsiːɡʌl]
+选修8	Unit 1	take in	吸收	
+选修8	Unit 1	a great	许多；很多	
+选修8	Unit 1	insert	vt.插入；嵌入	[ɪnˈsɜːt]
+选修8	Unit 1	react	vi.作出反应；回应	[riːˈækt]
+选修8	Unit 2	clone	n.克隆；无性繁殖系（的个体）　vi.&vt.（使）无性繁殖；克隆	[kləʊn]
+选修8	Unit 2	strawberry	n.草莓	[ˈstrɔːbəri]
+选修8	Unit 2	identical	adj.同一的；一模一样的	
+选修8	Unit 2	differ	vi.不同；相异	[ˈdɪfə]
+选修8	Unit 2	exact	adj.准确的；精确的；精密的	[ɪɡˈzækt]
+选修8	Unit 2	commercial	adj.商业的；贸易的	[kəˈmɜːʃəl]
+选修8	Unit 2	straightforward	adj.简单的；直接的；坦率的	[streɪtˈfɔːwəd/ ]
+选修8	Unit 2	procedure	n.程序；步骤；手续	[prəˈsiːdʒə]
+选修8	Unit 2	undertake	vt.着手；从事；承担	[ʌndəˈteɪk]
+选修8	Unit 2	breakthrough	n.突破	[ˈbreɪkθruː]
+选修8	Unit 2	nucleus	n.原子核；中心	['njuːklɪəs]
+选修8	Unit 2	gene	n.基因	[dʒiːn]
+选修8	Unit 2	somatic	adj.躯体的；肉体的；体细胞的	
+选修8	Unit 2	embryo	n.胚；胚胎；萌芽时期	
+选修8	Unit 2	disturbing	adj.烦扰的	[dɪˈstɜːbɪŋ]
+选修8	Unit 2	cast	vt.扔；投；掷	[kɑːst]
+选修8	Unit 2	cast down	使沮丧	
+选修8	Unit 2	arbitrary	adj.任意的	[ˈɑːbɪtrəri]
+选修8	Unit 2	fate	n.命运；天命	[feɪt]
+选修8	Unit 2	altogether	adv.总共；完全地	[ɔːltəˈɡeðə]
+选修8	Unit 2	object	vi.不赞成；反对	[ˈɒbdʒɪkt]
+选修8	Unit 2	object to	反对	
+选修8	Unit 2	objection	n.不赞成；反对；异议	[əbˈdʒekʃən]
+选修8	Unit 2	impact	n.撞击；冲击；巨大的影响	
+选修8	Unit 2	media	n.媒介物；手段；工具	[ˈmiːdɪə]
+选修8	Unit 2	the media	大众传播媒体（如电视、报纸等）	
+选修8	Unit 2	moral	adj.道德（上）的；伦理的	[ˈmɒr(ə)l]
+选修8	Unit 2	forbid	vt.禁止；不准	[fəˈbɪd]
+选修8	Unit 2	accumulate	vt.积累；聚积	[əˈkjuːmjʊleɪt]
+选修8	Unit 2	in favour of	赞成；支持	
+选修8	Unit 2	ceiling	n.天花板	[ˈsiːlɪŋ]
+选修8	Unit 2	shortly	adv.立刻；不久	[ˈʃɔːtli]
+选修8	Unit 2	retire	vi.退休；离开	[rɪˈtaɪə]
+选修8	Unit 2	bother	vt.打扰　vi.操心	[ˈbɒðə]
+选修8	Unit 2	(be) bound to (do) …	一定；注定（做）……	
+选修8	Unit 2	assumption	n.假定；设想	[əˈsʌmpʃ(ə)n]
+选修8	Unit 2	regulation	n.规则；规章；法规	[reɡjʊˈleɪʃ(ə)n]
+选修8	Unit 2	extinct	adj.灭绝的；绝种的	
+选修8	Unit 2	popularity	n.受人喜爱；流行	[ˌpɒpjʊˈlærɪti]
+选修8	Unit 2	Jurassic	侏罗纪公园（美国电影名）	
+选修8	Unit 2	bison	n.北美或欧洲野牛	
+选修8	Unit 2	calf	n.小牛；犊	
+选修8	Unit 2	from time to time	不时；偶尔	[frɒm//taɪm//tuː//taɪm]
+选修8	Unit 2	bring back to life	使复生	
+选修8	Unit 2	DAN	脱氧核糖核酸	
+选修8	Unit 2	resist	vt.抵抗；对抗	[rɪˈzɪst]
+选修8	Unit 2	habitat	n.（动植物的）自然环境；栖息地	['hæbɪtæt]
+选修8	Unit 2	merely	adv.仅；只；不过	[ˈmɪəli]
+选修8	Unit 2	restore	vt.恢复；使恢复原状；重建	
+选修8	Unit 2	Auroch	n.原牛（古代欧洲野牛，已灭绝）	
+选修8	Unit 2	decoration	n.装饰	[dekəˈreɪʃ(ə)n]
+选修8	Unit 2	unable	adj.不能的；不会的	[juːˈən]
+选修8	Unit 2	Great Auk	n.大海雀（已灭绝）	
+选修8	Unit 2	Quagga	n.斑驴（已灭绝）	
+选修8	Unit 2	zebra	n.斑马	[ˈzebrəˌˈziːbrə]
+选修8	Unit 2	argument	n.论据；论点；争论	[ˈɑːɡjʊmənt]
+选修8	Unit 2	aloud	adv.大声地；出声地	[əˈlaʊd]
+选修8	Unit 2	reasonable	adj.合情理的；讲道理的；公道的	[ˈriːzənəb(ə)l]
+选修8	Unit 2	pay off	得到好结果；取得成功；偿清	
+选修8	Unit 2	obtain	vt.获得；得到	[əbˈteɪn]
+选修8	Unit 3	discovery	n.发现；发觉	[dɪˈskʌvəri]
+选修8	Unit 3	amphibious	adj.两栖（类）的	
+选修8	Unit 3	Stephenson	斯蒂芬森（姓）	
+选修8	Unit 3	George Stephenson	乔治·斯蒂分森（英国发明家，蒸气机的发明人）	
+选修8	Unit 3	patent	n.专利证书；专利发明	[ˈpeɪt(ə)nt]
+选修8	Unit 3	call up	给……打电话	
+选修8	Unit 3	now and then	偶尔；有时	
+选修8	Unit 3	distinguish	vi.&vt.显示……的差别；使……有所不同；辨别	[dɪˈstɪŋɡwɪʃ]
+选修8	Unit 3	product	n.产品	[ˈprɒdʌkt]
+选修8	Unit 3	powder	n.粉末；火药	[ˈpaʊdə]
+选修8	Unit 3	set about	n.开始；着手	
+选修8	Unit 3	perfume	n.香水；香味	[ˈpɜːfjuːm]
+选修8	Unit 3	jelly	n.果冻；果冻状物	
+选修8	Unit 3	freezer	n.冷冻库；冷藏箱；冰箱	
+选修8	Unit 3	cube	n.立方体；立方	[kjuːb]
+选修8	Unit 3	abrupt	adj.突然的；意外的	[əˈbrʌpt]
+选修8	Unit 3	abruptly	adv.突然地；唐突地	
+选修8	Unit 3	convenient	adj.便利的；方便的	[kənˈviːnɪənt]
+选修8	Unit 3	overnight	adv.一整夜；过夜　adj.一夜的；突然的	
+选修8	Unit 3	expectation	n.预料；期待；期望	[ˌekspek'teɪʃən]
+选修8	Unit 3	monitor	vt.监控　n.班长；监听器监视器	[ˈmɒnɪtə]
+选修8	Unit 3	passive	adj.被动的；消极的；被动语态的	[ˈpæsɪv]
+选修8	Unit 3	release	vt.&n.放走；释放	
+选修8	Unit 3	recognition	n.认出；认可；承认	[ˌrekəgˈnɪʃən]
+选修8	Unit 3	criterion	n.（评判的）标准；尺度	[kraɪˈtɪərɪən]
+选修8	Unit 3	helicopter	n.直升飞机	[ˈhelɪkɒptə]
+选修8	Unit 3	triangle	n.三角形（的物体）	[ˈtraɪæŋɡ(ə)l]
+选修8	Unit 3	tetrahedron	n.四面体	
+选修8	Unit 3	stable	adj.稳固的；稳定的；安定的	[ˈsteɪb(ə)l]
+选修8	Unit 3	invaluable	adj.无价的；极宝贵的	
+选修8	Unit 3	in truth	的确；事实上	
+选修8	Unit 3	practical	adj.实际的；实践的；实用的	[ˈpræktɪk(ə)l]
+选修8	Unit 3	James	詹姆斯·戴森（英国发明家）	[ /dʒeɪmz]
+选修8	Unit 3	refrigerator	n.冰箱；冰藏库	[rɪˈfrɪdʒəreɪtə]
+选修8	Unit 3	court	n.法庭；法院；朝廷	[kɔːt]
+选修8	Unit 3	hang on	不挂断；紧紧握住；稍等	[hæŋ//ɒn]
+选修8	Unit 3	out of order	次序颠倒；发生故障	
+选修8	Unit 3	get through	设法联系上（尤指打通电话）；（设法）做完；通过	
+选修8	Unit 3	ring back	回复电话	
+选修8	Unit 3	ring off	挂断电话	
+选修8	Unit 3	version	n.版本；译本	[ˈvɜːʃ(ə)n]
+选修8	Unit 4	Pygmalion	n.（希腊神话）皮格马利翁	
+选修8	Unit 4	George Bernard	乔治·伯纳德·萧（英国剧作家）	
+选修8	Unit 4	adaptation	n.适应（性）；改编本	[ədæpˈteɪʃ(ə)n]
+选修8	Unit 4	plot	n.情节；阴谋	[plɒt]
+选修8	Unit 4	professor	n.教授	[prəˈfesə]
+选修8	Unit 4	Higgins	希金斯（姓）	
+选修8	Unit 4	phonetics	n.语音学	
+选修8	Unit 4	colonel	n.（陆军）上校	['kɜːnəl]
+选修8	Unit 4	Pickering	皮克林（姓）	
+选修8	Unit 4	officer	n.军官；（政府）官员	[ˈɒfɪsə]
+选修8	Unit 4	fateful	adj.重要的；决定性的；命中注定的	
+选修8	Unit 4	hesitate	vi.犹豫；踌躇	[ˈhezɪteɪt]
+选修8	Unit 4	pence	n.便士	
+选修8	Unit 4	uncomfortable	adj.不舒服的；不安的；不自在的	[ʌnˈkʌmftəb(ə)l]
+选修8	Unit 4	uncomfortably	adv.不舒服地，难受地	
+选修8	Unit 4	troublesome	adj.带来麻烦的；使人心烦的	[ˈtrʌb(ə)lsəm]
+选修8	Unit 4	outcome	n.结果；效果	[ˈaʊtkʌm]
+选修8	Unit 4	disguise	vt.伪装；假扮；遮掩　n.伪装	
+选修8	Unit 4	in disguise	伪装的；假扮的	
+选修8	Unit 4	mistaken	adj.（见解或判断上）错误的；不正确的	[mɪsˈteɪkən]
+选修8	Unit 4	brilliant	adj.光辉灿烂的；杰出的；才华横溢的	[ˈbrɪljənt]
+选修8	Unit 4	classify	vt.编排；分类；归类	[ˈklæsɪfaɪ]
+选修8	Unit 4	mile	n.英里（等于1.6公里）	[maɪl]
+选修8	Unit 4	betray	vt.显露出（本来面目）；背叛	[bɪˈtreɪ]
+选修8	Unit 4	dismiss	vt.开除；让……离开	[dɪsˈmɪs]
+选修8	Unit 4	dismissively	adv.（轻蔑地）打发走或表示拒绝	
+选修8	Unit 4	condemn	vt.谴责；使……注定	[kənˈdem]
+选修8	Unit 4	gutter	n.排水沟；阴沟；贫民区	['gʌtə]
+选修8	Unit 4	pass … off as …	（某人）冒充……	
+选修8	Unit 4	duchess	n.公爵夫人，女公爵	
+选修8	Unit 4	ambassador	n.大使；使节	[æmˈbæsədə]
+选修8	Unit 4	acquaintance	n.相识；了解；熟人	[əˈkweɪntəns]
+选修8	Unit 4	make one’s acquaintance	结识；与……相见	
+选修8	Unit 4	handful	n.一把；少量	[ˈhændfʊl]
+选修8	Unit 4	in amazement	惊愕地	
+选修8	Unit 4	fortune	n.机会；运气；大笔的钱	[ˈfɔːtjuːnˌˈfɔːtʃuːn]
+选修8	Unit 4	upper	adj.（位置或地位）较高的；级别较高的	[ˈʌpə]
+选修8	Unit 4	generally	一般来说	
+选修8	Unit 4	status	n.身份；地位；职位	[ˈsteɪtəs]
+选修8	Unit 4	superior	adj.优秀的；优等的；较高的；上级的　n.上级；长官	[suːˈpɪərɪə]
+选修8	Unit 4	in terms of…	就……来说；从……角度	
+选修8	Unit 4	pronunciation	n.发音（法）；读法；发音方式	[prənʌnsɪˈeɪʃ(ə)n]
+选修8	Unit 4	antique	adj.古时的；（因古老、稀少而珍贵的）　n.文物；古董；古玩	[ænˈtiːk]
+选修8	Unit 4	musical	adj.音乐的；喜爱音乐的　n.音乐喜剧	[ˈmjuːzɪk(ə)l]
+选修8	Unit 4	pronounce	vt.发……的音；宣称	[prəˈnaʊns]
+选修8	Unit 4	distinct	adj.清楚的；明显的；种类不同的；（截然）分开的	
+选修8	Unit 4	vowel	n.元音；元音字母	
+选修8	Unit 4	Pearce	皮尔期（姓）	
+选修8	Unit 4	nail	n.指甲；趾甲；钉子	[neɪl]
+选修8	Unit 4	show … in	带或领……进来	
+选修8	Unit 4	curtsy (also curtsey)	vi.行屈膝礼　n.（女子行的）屈膝礼	
+选修8	Unit 4	the other day	几天前	
+选修8	Unit 4	take away	带走；取走	
+选修8	Unit 4	shilling	n.先令（1971年以前的英国货币单位，旧币的12便士）	['ʃɪlɪŋ]
+选修8	Unit 4	compromise	n.&vi.妥协；折衷	[ˈkɒmprəmaɪz]
+选修8	Unit 4	horrible	adj.可怕的；恐怖的；令人不愉快的	[ˈhɒrɪb(ə)l]
+选修8	Unit 4	bathtub	n.浴缸；澡盆	['bɑːθtʌb]
+选修8	Unit 4	sob	vi.啜泣；抽噎　n.啜泣（声）；抽噎（声）	[səʊp]
+选修8	Unit 4	disgusting	adj.使人反感的；令人厌恶的	[dɪsˈɡʌstɪŋ]
+选修8	Unit 4	once more	再一次	
+选修8	Unit 4	in need of …	需要……	
+选修8	Unit 4	heartily	adv.尽情地；热心地；痛快地	
+选修8	Unit 4	overlook	vt.俯视；未看到；忽视；不理会	[əʊvəˈlʊk]
+选修8	Unit 4	alphabet	n.字母表	[ˈælfəbet]
+选修8	Unit 4	fade	vi.&vt.（使）褪色，减弱；逐渐消失	[feɪd]
+选修8	Unit 4	fade out	（声音、画面）逐渐模糊、渐淡	
+选修8	Unit 4	classic	adj.经典的；第一流的　n.经典著作	[ˈklæsɪk]
+选修8	Unit 4	effective	adj.有效的	[ɪˈfektɪv]
+选修8	Unit 5	identify	vt.确认；识别；鉴别	
+选修8	Unit 5	alternative	n.可能的选择；选择对象　adj.供选择的；其它的	[ɔːlˈtɜːnətɪv]
+选修8	Unit 5	household	n.一家人；家庭；户　adj.家庭的；家用的	
+选修8	Unit 5	Pharaoh	n.法老（古埃及国王或其称谓）	
+选修8	Unit 5	archaeology	n.考古学	
+选修8	Unit 5	archaeological	adj.考古学的；与考古学有关的	
+选修8	Unit 5	archaeologist	n.考古学家	
+选修8	Unit 5	tentative	adj.试探性的；不确定的	[tent]
+选修8	Unit 5	accuracy	n.精确；准确	[ˈækjʊrəsi]
+选修8	Unit 5	excavate	vt.挖掘；发掘	
+选修8	Unit 5	excavation	n.挖掘；发掘	
+选修8	Unit 5	interrupt	vi.打断……讲话；打岔　vt.暂时中断或中止	[ɪntəˈrʌpt]
+选修8	Unit 5	ornament	n.装饰（物）；点缀（品）	
+选修8	Unit 5	assume	vt.假定；设想	[əˈsjuːm]
+选修8	Unit 5	regardless	adj.不管；不顾	[rɪˈɡɑːdlɪs]
+选修8	Unit 5	regardless of	不管；不顾	
+选修8	Unit 5	centimetre	n.厘米	['sentɪˌmiːtə]
+选修8	Unit 5	sharpen	vt.&vt.（使）锋利，类锐，清晰	[ˈʃɑːpən]
+选修8	Unit 5	cut up	切碎	
+选修8	Unit 5	scrape	vt.擦净；削平；磨光	[skreɪp]
+选修8	Unit 5	scraper	n.刮刀；刮削器	
+选修8	Unit 5	ample	adj.足够的；充足的；富裕的	[ˈæmp(ə)l]
+选修8	Unit 5	primitive	adj.原始的；远古的；简陋的	[ˈprɪmɪtɪv]
+选修8	Unit 5	preserve	vt.保持；保存；保藏　n.禁猎地	[prezənˈteɪʃ(ə)n]
+选修8	Unit 5	bead	n.小珠子；滴	
+选修8	Unit 5	botany	n.植物学	[ˈbɒtəni]
+选修8	Unit 5	botanical	adj.植物学的；与植物学有关的	[bəˈtænɪk(ə)l]
+选修8	Unit 5	analysis	n.分析	[əˈnæləsɪs]
+选修8	Unit 5	specific	adj.详细而精确的；确切的；特定的；具体的	[spɪˈsɪfɪk]
+选修8	Unit 5	specifically	adv.确切的；具体的；特别的	[spɪ'sɪfɪkəli]
+选修8	Unit 5	seashell	n.海贝壳	[ˈsiːʃel]
+选修8	Unit 5	category	n.种类；类别；范畴	[ˈkætɪɡəri]
+选修8	Unit 5	significance	n.意义；意思；重要性；重要意义	[ˈsɪɡnətʃə]
+选修8	Unit 5	somehow	adv.以……方式；不知怎么地	[ˈsʌmhaʊ]
+选修8	Unit 5	systematic	adj.有系统的；有计划的；有条理的	[sɪstəˈmætɪk]
+选修8	Unit 5	yogurt	n.酸乳酪；酸辣奶	['jəʊgɜːt]
+选修8	Unit 5	radioactive	adj.放射性的；有辐射能的	[reɪdɪəʊˈæktɪv]
+选修8	Unit 5	radioactivity	n.放射性	
+选修8	Unit 5	chronological	adj.按时间顺序排列的	
+选修8	Unit 5	applaud	vi.&vt.鼓掌欢迎；赞赏	[əˈplɔːd]
+选修8	Unit 5	lood ahead	向前看；为将来打算	
+选修8	Unit 5	accelerate	vi.&vt.加速；促进	[əkˈseləreɪt]
+选修8	Unit 5	arrest	vt.逮捕；吸引　n.逮捕；拘留	[əˈrest]
+选修8	Unit 5	dizzy	adj.晕眩的；昏乱的；使人发晕或困惑的	[ˈdɪzi]
+选修8	Unit 5	relief	n.（痛苦或忧虑的）减轻或解除；减轻痛苦的事物	[rɪˈliːf]
+选修8	Unit 5	eyebrow	n.眉毛	
+选修8	Unit 5	cheekbone	n.颧骨	
+选修8	Unit 5	arrowhead	n.箭头	
+选修8	Unit 5	axe	n.斧；斧子	[æks]
+选修8	Unit 5	division	n.分；分割；划分；分配；分界线	[dɪˈvɪʒ(ə)n]
+选修8	Unit 5	affection	n.恋爱；喜爱	[əˈfekʃ(ə)n]
+选修8	Unit 5	affectionate	adj.充满深情的；有爱心的	
+选修8	Unit 5	patient	adj.耐心的；忍耐的	['peɪʃənt]
+选修8	Unit 5	skilful	adj.有技巧的；熟练的	
+选修8	Unit 5	formal	adj.正式的；正规的	[ˈfɔːməl]
+选修8	Unit 5	punctuation	n.标点符号	[ˌpʌŋktjʊ'eɪʃən]
+选修8	Unit 5	revision	n.复查；修改；修订；复习	[rɪˈvɪʒ(ə)n]
+选修8	Unit 5	artefact	n.人工制品　	
+选修9	Unit 1	gymnastics  [dʒim'næstiks]  n. 体操；体能训练
+选修9	Unit 1	gymnastically  adv. 体能训练方面
+选修9	Unit 1	unfit  [,ʌn'fit]  adj. 不适宜的；不太健康的
+选修9	Unit 1	fascinate  ['fæsineit]  vt. 使着迷；入迷
+选修9	Unit 1	meditation  [,medi'teiʃən]  n. 沉思；冥想
+选修9	Unit 1	spiritual  ['spiritjuəl, -tʃuəl]  adj. 精神上的
+选修9	Unit 1	marathon  ['mærəθɔn]  n. 马拉松赛跑
+选修9	Unit 1	urge  [ə:dʒ]  vt. 催促；力劝
+选修9	Unit 1	accomplish  [ə'kʌmpliʃ, ə'kɔm-]  vt. 完成；实现
+选修9	Unit 1	motivation  [,məuti'veiʃən]  n. 动机
+选修9	Unit 1	devotion  [di'vəuʃən]  n. 热爱；投入
+选修9	Unit 1	soul  [səul]  n. 灵魂；心灵；精神
+选修9	Unit 1	sacred  ['seikrid]  adj. 宗教的；庄严的；神圣的
+选修9	Unit 1	deed  [di:d]  n. 行为；功绩
+选修9	Unit 1	conception  [kən'sepʃən]  n. 主意；计划
+选修9	Unit 1	tact  [tækt]  n. 机敏；乖巧；老练；技巧
+选修9	Unit 1	regret  [ri'ɡret]  vt. & vi. 后悔；感到抱歉
+选修9	Unit 1	repentance  [rɪ'pent(ə)ns]  n. 后悔
+选修9	Unit 1	wisdom  ['wizdəm]  n. 智慧
+选修9	Unit 1	virtue   ['və:tju:]  n. 美德
+选修9	Unit 1	noble   ['nəubl]  adj. 高尚的；贵族的n. 贵族
+选修9	Unit 1	doom   [du:m]  vt. 注定；判决n. 厄运；毁灭
+选修9	Unit 1	bid   [bid]  vt. & vi. 出价；投标n. 出价；投标
+选修9	Unit 1	juggle   ['dʒʌɡl]  vt. & vi. 耍把戏；玩杂耍
+选修9	Unit 1	amateur   ['æmətə, ,æmə'tə:]  n. 业余爱好者
+选修9	Unit 1	champion   ['tʃæmpiən]  n. 冠军；优胜者
+选修9	Unit 1	therefore   ['ðεəfɔ:]  adv. 因此；所以
+选修9	Unit 1	springboard   ['spriŋbɔ:d]  n. 跳板
+选修9	Unit 1	economics   [,i:kə'nɔmiks]  n. 经济学
+选修9	Unit 1	entire   [in'taiə]  adj. 全部的；完整的
+选修9	Unit 1	attain   [ə'tein]  vt. 达到；获得
+选修9	Unit 1	profile   ['prəufail]  n. (人物或事物之) 简介；侧面
+选修9	Unit 1	courageous   [kə'reidʒəs]  adj. 勇敢的；有胆量的
+选修9	Unit 1	appreciate   [ə'pri:ʃieit]  vt. 鉴赏；感激
+选修9	Unit 1	appreciation   [ə,pri:ʃi'eiʃən]  n. 感谢；感激；欣赏
+选修9	Unit 1	accountant   [ə'kauntənt]  n. 会计
+选修9	Unit 1	receptionist  [rɪ'sepʃ(ə)nɪst]  n. 招待员；接待员
+选修9	Unit 1	lawyer   ['lɔ:jə]  n. 律师
+选修9	Unit 1	politician   [,pɔli'tiʃən]  n. 政客；政治家
+选修9	Unit 1	scarf   [skɑ:f]  n. 围巾；头巾；领巾
+选修9	Unit 1	zip   [zip]  n. 拉链
+选修9	Unit 1	underwear   ['ʌndəwεə]  n. 内衣裤
+选修9	Unit 1	overcoat   ['əuvəkəut]  n. 外套大衣；长大衣
+选修9	Unit 1	salary   ['sæləri]  n. 薪水
+选修9	Unit 1	wage   [weidʒ]  n. 工资
+选修9	Unit 2	latitude   ['lætitju:d]  n. 纬度
+选修9	Unit 2	voyage   ['vɔiidʒ]  n. 航海；航行
+选修9	Unit 2	mercy   ['mə:si]  n. 仁慈；宽恕；怜悯
+选修9	Unit 2	at the mercy of  受……支配
+选修9	Unit 2	encyclopedia   [en,saikləu'pi:djə]  n. 百科全书
+选修9	Unit 2	alongside   [ə'lɔŋ'said]  prep. 靠着；沿着adv. 在旁边；沿着边
+选修9	Unit 2	exploration   [,eksplɔ:'reiʃən]  n. 探险；探测
+选修9	Unit 2	minimum   ['miniməm]  adj. 最小的；最低的
+选修9	Unit 2	celestial   [sɪ'lestɪəl] adj. 天上的
+选修9	Unit 2	pole   [pəul]  n. 地极；柱；杆
+选修9	Unit 2	equator   [i'kweitə]  n. 赤道
+选修9	Unit 2	horizon   [hə'raizən]  n. 地平线；视野
+选修9	Unit 2	overhead  ['əuvəhed]  adj. 在头上的adv. 在头顶上；在空中；在高处
+选修9	Unit 2	seaweed  ['si:wi:d]  n. 海草；海藻
+选修9	Unit 2	nowhere  ['nəuhwεə]  adv. 无处
+选修9	Unit 2	offshore  ['ɔf'ʃɔ:, 'ɔ:-]  adj. 离岸的；海面上的
+选修9	Unit 2	outward  ['autwəd]  adj. 外面的；向外的adv. 向外；在外
+选修9	Unit 2	tide  [taid]  n. 潮；潮汐；潮流；趋势
+选修9	Unit 2	secure  [si'kjuə]  adj. 安全的；可靠的
+选修9	Unit 2	knot  [nɔt]  n. 节   v. 打结
+选修9	Unit 2	log  [lɔɡ, lɔ:ɡ]  n. 原木；木材
+选修9	Unit 2	nautical  ['nɔ:tikəl]  adj. 海上的；航海的
+选修9	Unit 2	nautical mile  海里
+选修9	Unit 2	magnetic   [mæg'netɪk]  adj. 磁的；有磁性的
+选修9	Unit 2	random  ['rændəm]  adj. 任意的；随便的
+选修9	Unit 2	awkward   ['ɔ:kwəd]  adj. 难使用的；笨拙的
+选修9	Unit 2	reference   ['refərəns]  n. 参考
+选修9	Unit 2	precise   [pri'sais]  adj. 精确的；准确的
+选修9	Unit 2	simplify   ['simplifai]  vt. 单一化；简单化
+选修9	Unit 2	portable   ['pɔ:təbl, 'pəu-]  adj. 轻便的；手提的；便携的
+选修9	Unit 2	shortcoming   ['ʃɔ:t'cʌmiŋ]  n. 缺点；短处
+选修9	Unit 2	update   [ʌp'deit, 'ʌpdeit]  vt. 更新
+选修9	Unit 2	tendency   ['tendənsi]  n. 趋向；倾向
+选修9	Unit 2	reliable   [ri'laiəbl]  adj. 可靠的；可信赖的
+选修9	Unit 2	swoop   [swu:p]  vi. 突降；猛扑
+选修9	Unit 2	parcel   ['pɑ:sl]  n. 小包；包裹
+选修9	Unit 2	peck   [pek]  vt. & vi. 啄食
+选修9	Unit 2	cliff   [klif]  n. 悬崖；峭壁
+选修9	Unit 2	expedition   [,ekspi'diʃən]  n. 远征；探险
+选修9	Unit 2	compulsory   [kəm'pʌlsəri]  adj. 必须做的；必修的
+选修9	Unit 2	reform   [ri'fɔ:m]  n. 改革；革新
+选修9	Unit 2	survival   [sə'vaivəl]  n. 生存；幸存
+选修9	Unit 2	incident   ['insidənt]  n. 事件；事变
+选修9	Unit 2	departure   [di'pɑ:tʃə]  n. 出发；离开
+选修9	Unit 2	crew   [kru:]  n. (轮船、飞机等上的) 工作人员； 
+选修9	Unit 2	deposit   [di'pɔzit]  vt. 放；（把钱）存入银行
+选修9	Unit 2	dilemma   [di'lemə, ,dai-] n. 进退两难的局面
+选修9	Unit 2	drawback   ['drɔ:bæk]  n. 缺点；障碍
+选修9	Unit 2	dusk   [dʌsk]  n. 薄暮；黄昏
+选修9	Unit 2	routine   [ru:'ti:n]  n. 常规；日常事务
+选修9	Unit 2	reckon   ['rekən]  vt. 计算；估计
+选修9	Unit 2	reckoning   ['rekəniŋ]  n. 计算；估计
+选修9	Unit 2	starvation   [stɑ:'veiʃən]  n. 挨饿；饿死
+选修9	Unit 2	psychology   [psai'kɔlədʒi]  n. 心理学
+选修9	Unit 2	tension   ['tenʃən]  n. 紧张；不安；张力
+选修9	Unit 2	gradual   ['ɡrædʒuəl]  adj. 逐渐的；逐步的
+选修9	Unit 2	gradually  adv. 逐渐地；逐步地
+选修9	Unit 2	foresee   [fɔ:'si:]  vt. 预见；预知
+选修9	Unit 2	thirst   [θə:st]  n. 渴；口渴
+选修9	Unit 2	set loose  出发；开始
+选修9	Unit 2	tear   [teə,tiə]  vt. 扯破；撕破
+选修9	Unit 2	hardship  ['hɑ:dʃip  n. 困苦；艰难
+选修9	Unit 2	jaw  [dʒɔ:]  n. 颚；颌；下巴
+选修9	Unit 2	jaws of death  鬼门关；死神
+选修9	Unit 2	roar  [rɔ:]  vt. & vi. 咆哮；轰鸣
+选修9	Unit 2	background  ['bækɡraund]  n. 背景；后台
+选修9	Unit 3	associate  [ə'səuʃieit, ə'səuʃiət, -eit]  vt. 使发生联系；使联合；结交
+选修9	Unit 3	associate with  与……联系
+选修9	Unit 3	barrier  ['bæriə]  n. 障碍物；栅栏；屏障
+选修9	Unit 3	brochure  [bro'ʃur]  n. （介绍或宣传用的）小册子
+选修9	Unit 3	commonwealth  ['kɔmənwelθ]  n. 国家；共和国；联邦
+选修9	Unit 3	adequate  ['ædikwit]  adj. 适当的；足够的
+选修9	Unit 3	ecology  [i:'kɔlədʒi]  n. 生态学
+选修9	Unit 3	autonomous  [ɔ:'tɔnəməs]  adj. 自治的
+选修9	Unit 3	federal  ['fedərəl]  adj. 联邦的；联合的；联邦制的
+选修9	Unit 3	defence  [di'fens]  n. 防卫；辩护
+选修9	Unit 3	policy  ['pɔlisi]  n. 政策；方针
+选修9	Unit 3	tax  [tæks]  n. 税；税款
+选修9	Unit 3	taxation  [tæk'seiʃən]  n. 征税；税款
+选修9	Unit 3	nation  ['neiʃən]  n. 国家；民族
+选修9	Unit 3	citizen  ['sitizən]  n. 公民；市民
+选修9	Unit 3	citizenship  ['sitizənʃip]  n. 公民身份；公民的职责和权力
+选修9	Unit 3	celebration  [,seli'breiʃən]  n. 庆祝；庆典
+选修9	Unit 3	birthplace  ['bə:θpleis]  n. 诞生地
+选修9	Unit 3	tolerate  ['tɔləreit]  vt. 忍受；容忍
+选修9	Unit 3	tolerance  ['tɔlərəns]  n. 宽容；忍受
+选修9	Unit 3	migrant  ['maiɡrənt]  n. 移居者；移民；候鸟
+选修9	Unit 3	homeland  ['həumlænd]  n. 祖国；本国
+选修9	Unit 3	via  ['vaiə]  prep. 经；通过；经由
+选修9	Unit 3	superb  [sju'pə:b, sə-]  adj. 卓越的；杰出的；极好的
+选修9	Unit 3	rust  [rʌst]  n. 铁锈
+选修9	Unit 3	rusty  ['rʌsti]  adj. 生锈的；铁锈色的
+选修9	Unit 3	tropical  ['trɔpikəl]  adj. 热带的
+选修9	Unit 3	splendour   ['splendə]  n. 壮丽；杰出；壮观
+选修9	Unit 3	timetable  ['taim,teibl]  n. 时间表；时刻表
+选修9	Unit 3	heritage  ['heritidʒ]  n. 遗产；继承物
+选修9	Unit 3	aboriginal  [,æbə'ridʒənəl]  adj. 土著的；土生的   n. 土著居民
+选修9	Unit 3	out of respect  出于尊敬
+选修9	Unit 3	fortnight  ['fɔ:tnait]  n. 两个星期
+选修9	Unit 3	reservation  [,rezə'veiʃən]  n. 保留；预定
+选修9	Unit 3	highway  ['haiwei]  n. 公路；大路；（美）高速公路
+选修9	Unit 3	cradle  ['kreidl]  n. 摇篮；发源地
+选修9	Unit 3	rainfall  ['kreidl]  n. 降雨；降雨量
+选修9	Unit 3	agriculture  ['æɡrikʌltʃə]  n. 农业；农学
+选修9	Unit 3	sow  [səu]  vt. & vi. 播种；传播
+选修9	Unit 3	bachelor  ['bætʃələ]  n. 单身汉；(文理) 学士
+选修9	Unit 3	correspond  [,kɔ:ri'spɔnd]  vi. 通信；符合
+选修9	Unit 3	correspond with  与……通信
+选修9	Unit 3	owe  [əu]  vt. & vi. 感激；欠（债等）
+选修9	Unit 3	owe … to  把……归功于；欠
+选修9	Unit 3	enclosure  [in'kləuʒə]  n. 围地；（用语特定目的的）围场
+选修9	Unit 3	authority  [ɔ:'θɔrəti]  n. 权力；权威；当局
+选修9	Unit 3	desperate  ['despərət]  adj. 不顾一切的；绝望的
+选修9	Unit 3	shrink  [ʃriŋk]  vt. & vi. 收缩；(使) 皱缩；缩短
+选修9	Unit 3	barbecue  ['bɑ:bikju:]  n. 金属烤架；烧烤野餐
+选修9	Unit 3	talk … into … 说服某人做某事
+选修9	Unit 3	wind  [wind]  vt. 绕；缠
+选修9	Unit 3	limb  [lim]  n. 肢；翼；分支
+选修9	Unit 3	venom  ['venɔm]  n. 毒液；恶意；怨恨
+选修9	Unit 3	venomous  ['venəməs]  adj. 有毒的；分泌毒液的
+选修9	Unit 3	anti-venom  抗毒
+选修9	Unit 3	paralyze  ['pærəlaiz]  vt. 使瘫痪；使麻痹
+选修9	Unit 3	sickness  ['siknis]  n. 疾病；恶心
+选修9	Unit 3	recover  [ri'kʌvə]  vt. & vi. 痊愈；复原
+选修9	Unit 3	funnel  ['fʌnl]  n. 漏斗
+选修9	Unit 3	snatch  [snætʃ]  vt. 攫取；抢走
+选修9	Unit 3	amongst  [ə'mʌŋst]  prep. 在……中间；在……之中
+选修9	Unit 3	vinegar  ['viniɡə]  n. 醋
+选修9	Unit 3	unconscious  [,ʌn'kɔnʃəs]  adj. 不省人事的；无意识的
+选修9	Unit 4	pollinate  ['pɔlineit]  vt. 对……授粉
+选修9	Unit 4	pollinator   ['pɑlɪnetɚ]  n. 虫媒
+选修9	Unit 4	courtyard  ['kɔ:t,jɑ:d]  n. 庭院；院子；天井
+选修9	Unit 4	balcony  ['bælkəni]  n. 阳台；包厢
+选修9	Unit 4	exotic  [,iɡ'zɔtik]  adj. 异国情调的；外来的；奇异的
+选修9	Unit 4	date back to  追溯到；远在……年代
+选修9	Unit 4	distant  ['distənt]  adj. 远的；远处的
+选修9	Unit 4	goods  [ɡudz]  n. 货物
+选修9	Unit 4	scale  [skeil]  n. 磅秤；天平盘；规模；程度；范围
+选修9	Unit 4	conflict  [kən'flikt, 'kɔnflikt]  n. 斗争；冲突
+选修9	Unit 4	missionary  ['miʃənəri]  adj. 教会的；传教的n. 传教士
+选修9	Unit 4	endeavour   [in'devə]  n. 尽力；竭力
+选修9	Unit 4	anchor  ['æŋkə]  n. 锚vi. & vt. 抛锚；锚定
+选修9	Unit 4	tight  [tait]  adj. 紧的；紧密的
+选修9	Unit 4	tightly  ['taitli]  adv. 紧紧地；坚固地
+选修9	Unit 4	seal  [si:l]  vt. 封闭；密封n. 密封；印章；海豹；封条；标志
+选修9	Unit 4	container  [kən'teinə]  n. 容器
+选修9	Unit 4	restriction  [ri'strikʃən]  n. 限制；约束
+选修9	Unit 4	fluency  ['flu(:)ənsi]  n. 流利；流畅
+选修9	Unit 4	shave  [ʃeiv]  vt. & vi. 剃；刮
+选修9	Unit 4	thunderstorm  ['θʌndəstɔ:m]  n. 雷雨；雷暴
+选修9	Unit 4	pirate  ['paiərit]  n. 海盗
+选修9	Unit 4	appeal  [ə'pi:l]  （对某人）有吸引力；求助
+选修9	Unit 4	appeal to  （对某人）有吸引力；呼吁
+选修9	Unit 4	dove  [dʌv]  n. 鸽子
+选修9	Unit 4	botanist  ['bɔtənist]  n. 植物学家
+选修9	Unit 4	chrysanthemum  [kri'sænθəməm]  n. 菊花
+选修9	Unit 4	red date  红枣
+选修9	Unit 4	lower  ['ləuə]  vt. 降低；跌落；减弱
+选修9	Unit 4	beard  [biəd]  n. 胡须
+选修9	Unit 4	ripe  [raip]  adj. 熟的；成熟的
+选修9	Unit 4	irrigation  [,iri'ɡeiʃən]  n. 灌溉
+选修9	Unit 4	weed  [wi:d]  n. 野草；杂草
+选修9	Unit 4	spear  [spiə]  n. 矛；标枪
+选修9	Unit 4	string  [striŋ]  n. 线；细绳；一串
+选修9	Unit 4	spade  ['speid]  n. 铲；铁锹
+选修9	Unit 4	postpone  [pəust'pəun, pə'sp-]  vt. 延迟；推迟
+选修9	Unit 4	pyramid  ['pirəmid]  n. 金字塔
+选修9	Unit 4	monument  ['mɔnjumənt]  n. 纪念碑
+选修9	Unit 4	rot  [rɔt]  vt. & vi. 腐烂；腐败
+选修9	Unit 4	evolve  [i'vɔlv]  vt. 发展；进展；进化
+选修9	Unit 4	evolution  [,i:və'lu:ʃən, ,ev-]  n. 演变；进化
+选修9	Unit 4	nectar  ['nektə]  n. 花蜜；甘露
+选修9	Unit 4	attach  [ə'tætʃ]  vt. 缚上；系上；附加
+选修9	Unit 4	attach to  贴上；附上
+选修9	Unit 4	typical  ['tipikəl]  adj. 典型的；有代表性的
+选修9	Unit 4	petal  ['petəl]  n. 花瓣
+选修9	Unit 4	tube  [tju:b, tu:b]  n. 管；管子
+选修9	Unit 4	delicate  ['delikət]  adj. 精巧的；脆弱的；微妙的
+选修9	Unit 4	fragrant  ['freiɡrənt]  adj. 芬芳的；香的
+选修9	Unit 4	daisy  ['deizi]  n. 雏菊
+选修9	Unit 4	odour  ['əudə]  n. 气味；香味；臭味
+选修9	Unit 4	odourless   ['odɚləs]  adj. 没有气味的；无嗅的
+选修9	Unit 4	give out  发出（气味、热等）；分发
+选修9	Unit 4	dull  [dʌl]  adj. 不鲜明的；阴暗的
+选修9	Unit 4	musty  ['mʌsti]  adj. 发霉的；有霉味的
+选修9	Unit 4	fruity   ['fruːtɪ]  adj. 果味的；(酒)有葡萄味的
+选修9	Unit 4	wasp  [wɔsp, wɔ:sp-]  n. 黄蜂；胡蜂；易怒的人  vi. 黄蜂似的直扑
+选修9	Unit 4	beetle  ['bi:tl]  vi. 急忙来回；突出 vt. 用槌打 n. 甲虫；大槌
+选修9	Unit 4	bat  [bæt]  n. 蝙蝠；球棒；球拍；批处理文件的扩展名 vt. 用球棒击球；击球率达… 
+选修9	Unit 4	moth  [mɔθ, mɔ:θ] n. 飞蛾, 蛾子；蛀虫
+选修9	Unit 5	billboard  ['bilbɔ:d]  n. 广告牌；布告板 vt. 宣传；介绍
+选修9	Unit 5	casual  ['kæʒjuəl]  adj. 偶然的；随意的；临时的
+选修9	Unit 5	garment  ['ɡɑ:mənt]  n. 衣服；外衣
+选修9	Unit 5	turn … into …. （使）变成
+选修9	Unit 5	advertiser  ['ædvə,taizə]  n. 登广告者；广告客户
+选修9	Unit 5	advert  [əd'və:t]  n. 广告
+选修9	Unit 5	inform  [in'fɔ:m]  vt. 通知；告诉
+选修9	Unit 5	association  [ə,səusi'eiʃən, ə,səuʃi'ei-]  n. 协会；练习；关联
+选修9	Unit 5	target  ['tɑ:ɡit]  n. 目标；对象；靶子
+选修9	Unit 5	fit into  适合
+选修9	Unit 5	basis  ['beisis]  n. 基础；根据
+选修9	Unit 5	technique  [tek'ni:k]  n. 技术；技巧
+选修9	Unit 5	lane  [lein]  n. 车道，行车线
+选修9	Unit 5	feature  ['fi:tʃə]  n. 特征；容貌；特色；特写
+选修9	Unit 5	       vi. & vt. 以……为特色；特写
+选修9	Unit 5	conscience  ['kɔnʃəns]  n. 良心；道德心
+选修9	Unit 5	worthy  ['wə:ði]  adj. 有价值的；可敬的
+选修9	Unit 5	corporation  [,kɔ:pə'reiʃən]  n. 公司；法人；社团
+选修9	Unit 5	budget  ['bʌdʒit]  n. 预算
+选修9	Unit 5	expense  [ik'spens]  n. 费用；代价
+选修9	Unit 5	broadcast  ['brɔ:dkɑ:st, -kæst]  n. 广播；播音
+选修9	Unit 5	vt. & vi. 广播；播放；播送
+选修9	Unit 5	rely  [ri'lai]  vi. 依赖；信赖
+选修9	Unit 5	rely on  依赖；依靠
+选修9	Unit 5	visual  ['vizjuəl]  adj. 看的；视觉的
+选修9	Unit 5	generate  ['dʒenəreit]  vt. 发生；产生
+选修9	Unit 5	response  [ri'spɔns]  n. 回答；响应；反应
+选修9	Unit 5	stereo   ['sterɪəʊ; 'stɪərɪəʊ]  n. 立体声；立体声器材
+选修9	Unit 5	have no use for  不需要；厌恶；对…不耐烦
+选修9	Unit 5	refresh  [ri'freʃ, ri:-]  n. 使（精神）振作；使恢复；更新
+选修9	Unit 5	partly  ['pɑ:tli]  adv. 部分；一定程度上
+选修9	Unit 5	murder  ['mə:də]  vt. 谋杀；谋杀案n. 谋杀
+选修9	Unit 5	suitcase  ['sju:tkeis]  n. 手提箱；衣箱
+选修9	Unit 5	sheet  [ʃi:t]  n. 片；张；薄片；被单
+选修9	Unit 5	actress  ['æktris]  n. 女演员
+选修9	Unit 5	typist  ['taipist]  n. 打字员
+选修9	Unit 5	spokesman  ['spəuksmən]  n. 发言人
+选修9	Unit 5	fluent  ['flu(:)ənt]  adj. 流利的；流畅的
+选修9	Unit 5	hostess  ['həustis]  n. 女主人
+选修9	Unit 5	invitation  [,invi'teiʃən]  n. 邀请
+选修9	Unit 5	appoint  [ə'pɔint]  vt. 约定；指定；任命
+选修9	Unit 5	chairman  ['tʃεəmən]  n. 主席
+选修9	Unit 5	raise  [reiz]  vt. 筹集；提高；饲养
+选修9	Unit 5	dial  ['daiəl, dail]  vt. 拨 (号)
+选修9	Unit 5	operator  ['ɔpəreitə]  n. 操作员；接线员
+选修9	Unit 5	litre  ['li:tə]  n. (=liter) 升
+选修9	Unit 5	mature  [mə'tjuə]  adj. 成熟的；到期的
+选修9	Unit 5	fashion  ['fæʃən]  n. 样式；流行；时尚
+选修9	Unit 5	misleading  [,mis'li:diŋ]  adj. 易误解的；令人误解的
+选修9	Unit 5	dishonest   [dɪs'ɒnɪst]  adj. 不诚实的
+选修9	Unit 5	alcoholic  [,ælkə'hɔlik]  adj. 酒精的；含酒精的
+选修9	Unit 5	n. 酗酒者；酒鬼
+选修9	Unit 5	tobacco  [tə'bækəu]  n. 烟草；烟草制品
+选修9	Unit 5	ban  [bæn]  n. 禁令vt. 禁止；取缔
+选修9	Unit 5	promote  [prəu'məut]  vt. 促进；提升
+选修9	Unit 5	immoral  ['imɔrəl]  adj. 不道德的；邪恶的
+选修9	Unit 5	decent  ['di:sənt]  adj. 正派的；得体的；适当的
+选修9	Unit 5	ethics  ['eθiks]  n. 伦理学；道德规范
+选修9	Unit 5	ethical  ['eθikəl]  adj. 合乎道德的；道德的
+选修9	Unit 5	offending  [ə'fendiŋ]  adj. 令人不愉快的；伤害人的感情的
+选修9	Unit 5	beware  [bi'wεə]  vi. 小心；谨防
+选修9	Unit 5	consumer  [kən'sju:mə]  n. 消费者；顾客
+选修9	Unit 5	trustworthy  ['trʌst,wə:ði]  adj. 可信赖的；可靠的
+选修10	Unit 1	venture  ['ventʃə] n. （有风险的）商业、企业
+选修10	Unit 1	vi. & vt. 冒险；敢于去
+选修10	Unit 1	web  [web]  n. （蜘蛛等的）网
+选修10	Unit 1	suffering  ['sʌfəriŋ]  n. 苦处；受难
+选修10	Unit 1	gall-bladder  n. 胆囊
+选修10	Unit 1	strengthen  ['streŋθən, 'streŋkθən] n. 加强；巩固
+选修10	Unit 1	endurance  [in'djuərəns] n. 忍耐；持久；耐（性）
+选修10	Unit 1	hut  [hʌt]  n. 小屋；棚屋
+选修10	Unit 1	stove  [stəuv]  n. 炉子
+选修10	Unit 1	unbearable  [,ʌn'bεərəbl]adj. 无法忍受的；承受不住的
+选修10	Unit 1	cosy  ['kəuzi]  adj. 舒适的；安逸的
+选修10	Unit 1	block out  封闭
+选修10	Unit 1	breathless  ['breθlis]  adj. 喘不过气来的
+选修10	Unit 1	rotten  ['rɔtən]  adj. 腐烂的；变质的
+选修10	Unit 1	blacken  ['blækən]  vt. 使变黑
+选修10	Unit 1	circumstance  ['sə:kəmstəns]  n. 环境；详情；境况
+选修10	Unit 1	blast  ['baiəu,blæst]  n. 一阵（风）；一股（气流）
+选修10	Unit 1	hoarse  [hɔ:s]  adj. 嘶哑的
+选修10	Unit 1	bless  [bles]  vt. 祝福；保佑
+选修10	Unit 1	selfish  ['selfiʃ]  adj. 自私的
+选修10	Unit 1	hook  [huk]  n. 钩；吊钩vt. 勾住；迷上
+选修10	Unit 1	aboard  [ə'bɔ:d]  adv. 在船（飞机、车上）上；上船（飞机，车等）
+选修10	Unit 1	seasickness  ['siːsɪknɪs]  n. 晕船
+选修10	Unit 1	anyhow   ['enihau]  adv. 无论如何
+选修10	Unit 1	steward   ['stju:əd, 'stjuəd]   n. （轮船、飞机等）乘务员；膳务员
+选修10	Unit 1	crush   [krʌʃ]  vt. 碾碎；粉碎；（使）变形
+选修10	Unit 1	mourn   [mɔ:n, məun]  vi. & vt. 哀悼；忧伤
+选修10	Unit 1	urgent   ['ə:dʒənt]  adj. 急迫的；紧急的
+选修10	Unit 1	bedding   ['bedɪŋ]  n. 被褥；（家畜）草垫
+选修10	Unit 1	vital   ['vaɪt(ə)l] adj. 生死攸关的；重要的
+选修10	Unit 1	cheerful  ['tʃɪəfʊl; -f(ə)l]  adj. 愉快的；高兴的
+选修10	Unit 1	persevere  [pɜːsɪ'vɪə]  vt. 坚持
+选修10	Unit 1	perseverance  [pɜːsɪ'vɪər(ə)ns]  n. 坚持不懈
+选修10	Unit 1	faith  [feɪθ]  n. 信任；信念；信仰；忠实
+选修10	Unit 1	give way to  让路；让步
+选修10	Unit 1	framework  ['freɪmwɜːk]  n. 框架；结构
+选修10	Unit 1	rank  [ræŋk]  n. 等级；军阶；军衔vt. 排列；把分等
+选修10	Unit 1	morale  [mə'rɑːl]  n. 士气；精神状态
+选修10	Unit 1	select  [sɪ'lekt]  n. 选择；挑选
+选修10	Unit 1	booming  ['bu:miŋ]  adj. 发轰隆声的
+选修10	Unit 1	swear  [sweə]  vt. 宣誓；发誓
+选修10	Unit 1	advocate  ['ædvəkət]  vt. 支持；拥护；提倡
+选修10	Unit 1	freezing  ['frizɪŋ]  adj. 冰冻的；严寒的
+选修10	Unit 1	stool  [stuːl]  n. 凳子；大便
+选修10	Unit 1	gratitude  ['grætɪtjuːd]  n. 感激；感恩
+选修10	Unit 1	punishment  ['pʌnɪʃm(ə)nt]  n. 惩罚；惩处
+选修10	Unit 1	loyal  ['lɒɪəl]  adj. 忠诚的；忠实的
+选修10	Unit 1	tactful  ['tæktfʊl; -f(ə)l]  adj. 机智的；圆滑的；言行得体的
+选修10	Unit 1	odd  [ɒd]  n. 古怪的；奇数的；单数的
+选修10	Unit 1	stout  [staʊt]  adj. 结实的；顽强的；矮胖的
+选修10	Unit 1	optimism  ['ɒptɪmɪz(ə)m]  n. 乐观；乐观主义
+选修10	Unit 1	delay  [dɪ'leɪ]  vt. & vi. 耽搁；延迟 n. 耽搁；延迟
+选修10	Unit 1	discourage  [dɪs'kʌrɪdʒ]  vt. 使……气馁
+选修10	Unit 1	dynamic  [daɪ'næmɪk]  adj. 动力的；精力充沛的；有活力的
+选修10	Unit 1	regular  ['regjʊlə]  adj. 规则的；定期的；常规的
+选修10	Unit 1	grasp  [grɑːsp]  vt. 抓住；抓紧；掌握
+选修10	Unit 1	give off  发出（蒸汽、光等）
+选修10	Unit 1	bored  [bɔrd]  adj. 无聊的；无趣的；烦人的
+选修10	Unit 1	liver  ['lɪvə]  n. 肝脏
+选修10	Unit 1	chef  [ʃef]  n. 厨师；主厨
+选修10	Unit 1	changeable  ['tʃeɪn(d)ʒəb(ə)l]  adj. 可改变的
+选修10	Unit 1	caution  ['kɔːʃ(ə)n]  n. 小心；谨慎；警告
+选修10	Unit 1	admirable  ['ædm(ə)rəb(ə)l]  adj. 令人钦佩的；绝妙的；极好的
+选修10	Unit 1	commitement   [kəˈmɪtmənt]   n. 许诺；委托事项；承担义务
+选修10	Unit 1	proverb  ['prɒvɜːb]  n. 谚语
+选修10	Unit 2	respectful   [rɪ'spek(t)fʊl; -f(ə)l]  adj. 尊敬的；尊重人的
+选修10	Unit 2	disrespectful   [dɪsrɪ'spek(t)f(ʊ)l] adj. 失礼的；无礼的
+选修10	Unit 2	disrespectfully  [,disri'spektfəli]  adv. 失礼地；无礼地
+选修10	Unit 2	emperor   ['emp(ə)rə]  n. 皇帝；君主
+选修10	Unit 2	shorten   ['ʃɔːt(ə)n]  vt. 缩短；使变短
+选修10	Unit 2	modernize   ['mɑdɚnaɪz]  vt. 使现代化
+选修10	Unit 2	throne   [θrəʊn]  n. 王座；王位
+选修10	Unit 2	duke   [djuːk]  n. 公爵
+选修10	Unit 2	burden   ['bɜːd(ə)n]  n. 担子；负担
+选修10	Unit 2	hand over  移交（权力、责任）
+选修10	Unit 2	responsibility   [rɪ,spɒnsɪ'bɪlɪtɪ]  n. 责任；职责
+选修10	Unit 2	boundary   ['baʊnd(ə)rɪ]  n. 边界；分界线
+选修10	Unit 2	allocate   ['æləkeɪt]  vt. 分派；分配
+选修10	Unit 2	whichever   [wɪtʃ'evə]  pron. 无论哪一个；任何
+选修10	Unit 2	darling   ['dɑːlɪŋ]  n. 心爱的人adj. 亲爱的；可爱的
+选修10	Unit 2	adore   [ə'dɔː] vt. 崇拜；爱慕；喜爱
+选修10	Unit 2	pray   [preɪ]  vt. 祈祷；恳求；请
+选修10	Unit 2	care for  关怀；照顾；计较
+选修10	Unit 2	majesty   ['mædʒɪstɪ]  n. 最高权威；王权；雄伟
+选修10	Unit 2	lord   [lɔːd]  n. 封建领主；地主；统治者；(Lord) God （宗）上帝
+选修10	Unit 2	bridegroom   ['braɪdgruːm]  n. 新郎
+选修10	Unit 2	distribute   [dɪ'strɪbjuːt; 'dɪstrɪbjuːt]  vt. 分发；分配
+选修10	Unit 2	troop   [truːp]  n. 群；组 (pl) 军队
+选修10	Unit 2	contradict   [kɒntrə'dɪkt]  vt. 同………矛盾或抵触；反驳
+选修10	Unit 2	hear out  听完
+选修10	Unit 2	on behalf of  代表……
+选修10	Unit 2	flattery   ['flætə]  n. 奉承；恭维话
+选修10	Unit 2	flatter  vt. 过分夸赞；奉承；恭维
+选修10	Unit 2	beyond question  无可争辩；毫无疑问
+选修10	Unit 2	speak out  大胆地说；大声地
+选修10	Unit 2	friction   ['frɪkʃ(ə)n]  n. 摩擦；矛盾；冲突
+选修10	Unit 2	forecast   ['fɔːkɑːst]  vt. 预报；预测n. 预测；预报
+选修10	Unit 2	oppose   [ə'pəʊz]  vt. 反对；反抗；抵制
+选修10	Unit 2	pack up  把……打包；整理
+选修10	Unit 2	frontier   ['frʌntɪə; frʌn'tɪə]  n. 国界；边疆；边境
+选修10	Unit 2	give away  送掉；泄露
+选修10	Unit 2	fond   [fɒnd]  adj. 喜爱的；慈爱的；宠爱的；溺爱的
+选修10	Unit 2	be fond of  喜爱；爱好
+选修10	Unit 2	deceitful   [dɪ'siːtfʊl; -f(ə)l]  adj. 欺诈的；不诚实的
+选修10	Unit 2	corrupt   [kə'rʌpt]  adj. 腐败的；贪污的；堕落的
+选修10	Unit 2	greedy   ['griːdɪ]  adj. 贪婪的
+选修10	Unit 2	greed   [griːd]  n. 贪婪
+选修10	Unit 2	innocent   ['ɪnəs(ə)nt]  adj. 天真的；无罪的；清白的
+选修10	Unit 2	cunning   ['kʌnɪŋ]  adj. 善于骗人的；狡猾的
+选修10	Unit 2	storage   ['stɔːrɪdʒ]  n. 贮藏；存储；储藏室
+选修10	Unit 2	author   ['ɔːθə]  n. 作家
+选修10	Unit 2	sacrifice   ['sækrɪfaɪs]  n. 牺牲；献身；祭品
+选修10	Unit 2	make a name  出名
+选修10	Unit 2	allergic   [ə'lɜːdʒɪk]  adj. 过敏的
+选修10	Unit 2	sneeze   [sniːz]  n. 喷嚏vi. 打喷嚏
+选修10	Unit 2	armchair   [ɑːm'tʃeə; 'ɑːm-]  n. 手扶椅；（单座）沙发
+选修10	Unit 2	confirm   [kən'fɜːm]  vt. 确定
+选修10	Unit 2	rewind   [riː'waɪnd]  vt. 重绕；倒回
+选修10	Unit 2	cash   [kæʃ]  n. 现金 vt. 兑现
+选修10	Unit 2	cheque   [tʃek]  n. 支票
+选修10	Unit 2	signature   ['sɪgnətʃə]  n. 签名；署名；信号
+选修10	Unit 2	terminal   ['tɜːmɪn(ə)l]  n. 终点站；航空集散站
+选修10	Unit 2	vacant   ['veɪk(ə)nt]  adj. 空的；空缺的
+选修10	Unit 2	dusty   ['dʌstɪ]  adj. 满是灰尘的；积满灰尘的
+选修10	Unit 2	respond   [rɪ'spɒnd]  vi. 回答；响应；作出反应
+选修10	Unit 2	staff   [stɑːf]  n. 职工；员工
+选修10	Unit 2	suspect   [sə'spekt]  vt. 怀疑
+选修10	Unit 2	insult   [ɪn'sʌlt]  n. 侮辱；凌辱
+选修10	Unit 2	scold   [skəʊld]  vt. 责骂；斥责
+选修10	Unit 2	drunken   ['drʌŋk(ə)n]  adj. 醉的；常醉的
+选修10	Unit 2	scratch   [skrætʃ]  n. 抓；挠；刮
+选修10	Unit 2	baggage   ['bægɪdʒ]  n. (= luggage in BrE) 行李
+选修10	Unit 2	demand   [dɪ'mɑːnd]  vt. 要求；需要n. 要求；需求；需要
+选修10	Unit 2	prob   [prɒb]  n. （小）道具
+选修10	Unit 3	civil  ['sivəl]  adj. 公民的；国民的
+选修10	Unit 3	trolleybus  ['trɔlibʌs]  n. 无轨电车
+选修10	Unit 3	register  ['redʒistə]  n. 登记vt. 登记；注册
+选修10	Unit 3	boycott  ['bɔikɔt]  n. 抵制；排斥
+选修10	Unit 3	prohibit  [prəu'hibit]  vt. 禁止；阻止
+选修10	Unit 3	offence  [ə'fens]  n. 冒犯；违法行为
+选修10	Unit 3	unjust  [,ʌn'dʒʌst]  adj. 不公平的；不公正的
+选修10	Unit 3	separation  [,sepə'reiʃən]  n. 分离；分开
+选修10	Unit 3	tradition  [trə'diʃən]  n. 传统；惯例
+选修10	Unit 3	submit  [səb'mit]  vi. & vt. 服从；顺从
+选修10	Unit 3	unwilling  [,ʌn'wiliŋ]  adj. 不愿意的；勉强的
+选修10	Unit 3	seize  [si:z]  vt. 抓取；逮住；夺取
+选修10	Unit 3	seize on  抓住
+选修10	Unit 3	collision  ['kəliʒən]  n. 碰撞；冲突
+选修10	Unit 3	collision course  冲突（的进程或行动）
+选修10	Unit 3	hopeful  ['həupful]  adj. 怀有希望的；有希望的
+选修10	Unit 3	negotiate  [ni'ɡəuʃieit, -si-]  vt. & vi. 商议；谈判；磋商
+选修10	Unit 3	chaos  ['keiɔs]  n. 混乱
+选修10	Unit 3	sandal  ['sand(ə)l]  n. 凉鞋
+选修10	Unit 3	punctual  ['pʌŋktjuəl, -tʃuəl]  adj. 守时的；准时的
+选修10	Unit 3	coincidence  [kəu'insidəns]  n. 巧合
+选修10	Unit 3	pedestrian  [pi'destriən]  n. 步行者
+选修10	Unit 3	march  [mɑ:tʃ]  vi. 行军；前进
+选修10	Unit 3	pavement  ['peivmənt]  n. 人行道；公路
+选修10	Unit 3	salute  [sə'lju:t, sɑ:'lu:te]  vt. & vi. 行礼致敬；敬礼
+选修10	Unit 3	abuse  [ə'bju:z, ə'bju:s]  n. 滥用；虐待；辱骂vt. 滥用；虐待；辱骂
+选修10	Unit 3	hostility  [hɔ'stiləti]  n. 敌意；恶意
+选修10	Unit 3	resolve  [ri'zɔlv]  n. 决心v. 决心；决定
+选修10	Unit 3	prayer  [preə]  n. 祈祷
+选修10	Unit 3	bomb  [bɔm]  n. 炸弹       vt. 投弹；轰炸
+选修10	Unit 3	supreme  [sju'pri:m, sə-]  adj. 最高的；极度的
+选修10	Unit 3	nationwide  ['neiʃənwaid]  adj. 全国性的；全国的
+选修10	Unit 3	constitution  [,kɔnsti'tju:ʃən]  n. 宪法
+选修10	Unit 3	constitutional  [,kɔnsti'tju:ʃənəl]  adj. 宪法的
+选修10	Unit 3	fundamental  [,fʌndə'mentəl]  adj. 基础的；基本的
+选修10	Unit 3	battle  ['bætl]  n. 战争；战役
+选修10	Unit 3	happiness  ['hæpinis]  n. 幸福；快乐
+选修10	Unit 3	liberty  ['libəti]  n. 自由
+选修10	Unit 3	skim  [skim]  vt. 浏览；轻轻掠过
+选修10	Unit 3	evident  ['evidənt]  adj. 明显的；显然的
+选修10	Unit 3	self-evident  adj. 不证自明的；不言而喻的
+选修10	Unit 3	brief  [bri:f]  adj. 简短的；短暂的 n. 摘要，简报；概要，诉书 vt. 简报，摘要；作…的提要
+选修10	Unit 3	discrimination  [dis,krimi'neiʃən]  n. 歧视
+选修10	Unit 3	philosophy  [fi'lɔsəfi, fə-]  n. 哲学；人生观
+选修10	Unit 3	commit  [kə'mit]  vt. 犯罪；做（不合法的或错事）
+选修10	Unit 3	live out  活过；实践
+选修10	Unit 3	creed  [kri:d]  n. 信条
+选修10	Unit 3	brotherhood  ['brʌðəhud]  n. 手足情意；兄弟关系
+选修10	Unit 3	oasis  [əu'eisis, 'əuəsis]  n. （沙漠中）绿洲；舒适的地方
+选修10	Unit 3	symphony  ['simfəni]  n. 交响乐；交响曲
+选修10	Unit 3	almighty   [ɔːl'maiti]   adj. 全能的；有无限权力的
+选修10	Unit 3	quotation  [kwəu'teiʃən, kəu-]  n. 引语；引文；语录；引用
+选修10	Unit 3	metaphor  ['metəfə]  n. 隐喻；暗喻
+选修10	Unit 3	simile  ['simili]  n. 明喻
+选修10	Unit 3	dominate  ['dɔmineit]  vt. & vi. 支配；占优势
+选修10	Unit 4	efficient  [i'fiʃənt]  adj. 有效率地；效率高的
+选修10	Unit 4	efficiently  [i'fiʃəntli]  adv. 有效率地；效率高地
+选修10	Unit 4	diameter  [dai'æmitə]  n. 直径
+选修10	Unit 4	recipe  ['resipi]  n. 菜谱
+选修10	Unit 4	booklet  ['buklit]  n. 小册子
+选修10	Unit 4	endeavour  [in'devə]  n. 尽力；竭力
+选修10	Unit 4	competent  ['kɔmpitənt]  adj. 有能力的；能胜任的
+选修10	Unit 4	up to …  取决于……
+选修10	Unit 4	caption  ['kæpʃən]  n. 标题；说明；字幕
+选修10	Unit 4	digest  [di'dʒest, dai-, 'daidʒest]  vt. 消化
+选修10	Unit 4	beneath  [bi'ni:θ]  adv. 在……之下
+选修10	Unit 4	adopt  [ə'dɔpt]  vt. 采用；收养
+选修10	Unit 4	preview  [pri:'vju:]  vt. 预习；事先查看
+选修10	Unit 4	frequent  ['fri:kwənt, fri'kwent]  adj. 时常发生的；经常的
+选修10	Unit 4	in detail  详细的
+选修10	Unit 4	manual  ['mænjuəl]  n. 手册；指南
+选修10	Unit 4	assess  [ə'ses]  vt. 评定；评估
+选修10	Unit 4	consult  [kɔn'sʌlt, 'kɔnsʌlt]  vt. 请教；咨询
+选修10	Unit 4	underneath  [,ʌndə'ni:θ]  adv. & prep. 在下面；在…的下面
+选修10	Unit 4	shabby  ['ʃæbi]  adj. 破旧的；褴褛的
+选修10	Unit 4	rainbow  ['reinbəu]  n. 彩虹
+选修10	Unit 4	brewery  ['bruəri]  n. 酿酒厂；啤酒厂
+选修10	Unit 4	acute  [ə'kju:t]  adj. 敏锐的
+选修10	Unit 4	bent  [bent]  adj. 弯曲的
+选修10	Unit 4	cab  [kæb]  n. (= taxi) 出租车；计程车
+选修10	Unit 4	currency  ['kərənsi]  n. 货币；通货
+选修10	Unit 4	lotus  ['ləutəs]  n. 荷花；莲花；睡莲
+选修10	Unit 4	cuisine  [kwi'zi:n]  n. 烹饪（法）
+选修10	Unit 4	educator  ['edju:keitə]  n. 教育家
+选修10	Unit 4	seminar  ['seminɑ:]  n. 研讨会；讨论发言会
+选修10	Unit 4	acquisition  [,ækwi'ziʃən]  n. 获得；习得
+选修10	Unit 4	ballet  ['bælei, bæ'lei]  n. 芭蕾舞
+选修10	Unit 4	album  ['ælbəm]  n. （收集相片、邮票等的）薄、册；唱片集
+选修10	Unit 4	resemble  [ri'zembl]  vt. 像；类似
+选修10	Unit 4	cassette  [kæ'set]  n. 盒式磁带
+选修10	Unit 4	tend  [tend]  vi. 倾向
+选修10	Unit 4	tend to (do sth) 易于；往往会（做某事）
+选修10	Unit 4	messy  ['mesi]  adj. 肮脏的；凌乱的；杂乱的
+选修10	Unit 4	tiresome  ['taiəsəm]  adj. 令人厌烦的；烦人的
+选修10	Unit 4	vague  [veiɡ]  adj. 含糊的；不清楚地
+选修10	Unit 4	bonus  ['bəunəs]  n. 奖金；红利；津贴
+选修10	Unit 4	auditory  ['ɔ:ditəri]  adj. 听的；听觉的
+选修10	Unit 4	tactile  ['tæktail, -til]  adj. 触觉的；可感触的；触觉型的
+选修10	Unit 4	oral  ['ɔ:rəl, 'ɔ-]  adj. 口头的；口述的
+选修10	Unit 4	component  [kəm'pəunənt]  n. 成分；组成部分
+选修10	Unit 4	concrete  [kən'kri:t, 'kɔnkri:t]  adj. 具体的；有形的
+选修10	Unit 5	literary  ['litərəri]  adj. 文学的
+选修10	Unit 5	genre  ['ʒɔŋrə]  n. （文艺作品的）类型；体裁
+选修10	Unit 5	recount  [ri'kaunt]  n. 叙述；描述vt. 叙述
+选修10	Unit 5	prejudice  ['predʒudis]  n. 偏见；成见
+选修10	Unit 5	consensus  [kən'sensəs]  n. 共识；共同意见
+选修10	Unit 5	equality  [i:'kwɔləti]  n. 同等；平等
+选修10	Unit 5	in force  有效的；在实施中
+选修10	Unit 5	twist  [twist]  n. 扭曲；歪曲
+选修10	Unit 5	contradiction  [,kɔntrə'dikʃən]  n. 反驳；矛盾
+选修10	Unit 5	get round  顺利应付；克服；说服某人同意其原先反对的事
+选修10	Unit 5	limitation  [,limi'teiʃən]  n. 限制；局限性
+选修10	Unit 5	heroine  ['herəuin]  n. 女英雄；女主人公
+选修10	Unit 5	obstacle  ['ɔbstəkl]  n. 障碍；阻碍
+选修10	Unit 5	ironic  [ai'rɔnik,-kəl]  adj. 有讽刺意味的；讽刺的
+选修10	Unit 5	hopeless  ['həuplis]  adj. 没有希望的；绝望的
+选修10	Unit 5	under the name of …  用…的名字，在…的名字下
+选修10	Unit 5	sceptical  ['skeptikəl]  adj. 怀疑性的；持怀疑态度的
+选修10	Unit 5	see through  看穿；识破
+选修10	Unit 5	deception  [di'sepʃən]  n. 欺骗；诡计
+选修10	Unit 5	approval  [ə'pru:vəl]  n. 赞成；承认
+选修10	Unit 5	explicit  [ik'splisit]  adj. 直率的；明确的；清楚地
+选修10	Unit 5	struggle against  与……作斗争
+选修10	Unit 5	outspoken  [aut'spəukn]   adj. 坦率直言的
+选修10	Unit 5	growth  [ɡrəuθ]  n. 成长；生长
+选修10	Unit 5	childhood  ['tʃaildhud]  n. 孩童时期；童年
+选修10	Unit 5	hail  [heil]  vt. 向……欢呼；大声招呼；呼喊
+选修10	Unit 5	revelation  [,revə'leiʃən]  n. 启示；揭示
+选修10	Unit 5	premier  ['premjə, pri'miə, 'pri:m-]  adj. 第一的；首要的
+选修10	Unit 5	ambiguous  [æm'biɡjuəs]  adj. 含糊的；模糊的
+选修10	Unit 5	concession  [kən'seʃən]  n. 让步；让与某人之物
+选修10	Unit 5	stand out  杰出
+选修10	Unit 5	critic  ['kritik]  n. 批评家；评论家
+选修10	Unit 5	injustice  [in'dʒʌstis]  adj. 不公平；非正义
+选修10	Unit 5	possess  [pə'zes]  vt. 拥有；占有
+选修10	Unit 5	sponsor  ['spɔnsə]  n. 担保人；发起人；赞助者
+选修10	Unit 5	eccentric  [ik'sentrik]  adj. 古怪的
+选修10	Unit 5	generous  ['dʒenərəs]  adj. 慷慨的；大方的
+选修10	Unit 5	merchant  ['mə:tʃənt]  n. 商人
+选修10	Unit 5	staight away  立即；马上
+选修10	Unit 5	warehouse  ['wεəhaus, 'wεəhauz, -haus]  n. 仓库；货栈
+选修10	Unit 5	bargain  ['bɑ:ɡin]  n. 便宜货
+选修10	Unit 5	burglar  ['bə:ɡlə]  n. 窃贼
+选修10	Unit 5	sequence  ['si:kwəns]  n. 顺序
+选修10	Unit 5	inspect  [in'spekt]  vt. 检查；视察
+选修10	Unit 5	bungalow  ['bʌŋɡələu]  n. 平房
+选修10	Unit 5	chain  [tʃein]  n. 链条；锁链
+选修10	Unit 5	dangle  ['dæŋɡl]  vi. & vt. 悬挂；摇摆；使晃动
+选修10	Unit 5	semicircle  ['semi, səkl]  n. 半圆形
+选修10	Unit 5	squeak  [skwi:k]  n. 尖叫声；吱吱声vi. 发出尖叫声
+选修10	Unit 5	pull oneself up  立起身来
+选修10	Unit 5	roof  [ru:f, ruf]  n. 屋顶；房顶
+选修10	Unit 5	collar  ['kɔlə]  n. 衣领
+选修10	Unit 5	bench  [bentʃ]  n. 长椅子
+选修10	Unit 5	pine  [pain]  n. 松树
+选修10	Unit 5	claw  [klɔ:]  n. 爪；脚爪
+选修10	Unit 5	squirrel  ['skwə:rəl, 'skwi-, 'skwʌ-]  n. 松鼠
+选修10	Unit 5	romance  [rəu'mæns, 'rəumæns, rə'mæns]  n. 浪漫故事；浪漫史；恋情
+选修10	Unit 5	vain  [vein]  adj. 徒然的；虚荣的
+选修10	Unit 5	in vain  徒然；徒劳
+选修10	Unit 5	signal  ['siɡnəl]  n. 信号
+选修10	Unit 5	discount  ['diskaunt, dis'k-]  vt. 不信任；减少n. 折扣；打折
+选修10	Unit 5	sensitive  ['sensitiv]  adj. 敏感的
+选修10	Unit 5	decline  [di'klain]  vt. & vi. 拒绝；衰退；下降
+选修10	Unit 5	arrogant  ['ærəɡənt]  adj. 傲慢的；自大的
+选修10	Unit 5	at length  最后；详细地
+选修10	Unit 5	enquire  [in'kwaiə]  vt. 询问
+选修10	Unit 5	against one’s will  违心地
+选修10	Unit 5	think ill of  对……评价不高
+选修10	Unit 5	do everything in one’s power to …  竭尽全力做某事
+选修10	Unit 5	rejoice  [ri'dʒɔis]  vi. 欣喜；高兴；喜悦
+选修10	Unit 5	initial  [i'niʃəl]  adj. 最初的；初始的
+选修10	Unit 5	fault  [fɔ:lt]  n. 过错；缺点
+选修10	Unit 5	hasty  ['heisti]  adj. 匆忙的；慌忙的
+选修10	Unit 5	hastily  ['heistili]  adv. 匆忙地；慌忙地
+选修10	Unit 5	sensible  ['sensəbl]  adj. 有感觉的；明智的
+选修11——————————————————————
+unit1
+
+tectonic  [tek'tɒnɪk]  adj. 地壳构造上的；起因于地壳运动的
+geological  [dʒɪə'lɑdʒɪkl]  adj. 地质学的；地质的
+geology  [dʒɪ'ɒlədʒɪ]  n. 地质学
+plateau  ['plætəʊ]  n. 高地；高原
+backbone  ['bækbəʊn]  n. 脊椎；脊柱；主要山脉
+graze  [greɪz]  vi. 放牧；吃草
+strip  [strip]  n. 狭长的地域或水域
+carve   [kɑ:v] vt. 雕刻；切开
+paddle  ['pædl]  vt. 用桨划（小船）；（用桨划船）运送
+uninhabited  ['ʌnin'hæbitid]  adj. 无人居住的；杳无人迹的
+extinction  [ik'stiŋkʃən]  n. 灭绝；绝种
+fern  [fə:n]  n. 蕨类植物
+scarce  [skεəs]  adj. 缺乏的；不足的
+warlike  adj. 好战的；尚武的；善战的
+tribe  [traib]   n. 部落；部族
+wipe out  清除；垮台
+take over  接管；接收
+fence  ['fens]  n. 栅栏；篱笆；围墙
+immunity  [i'mju:nəti]  n. 免疫性
+immune  [i'mju:n]  adj. 免疫的；免受（伤害）的
+treaty  ['tri:ti]  n. 条约；协议；协定
+representative  [,repri'zentətiv]  n. 代表
+ownership  ['əunəʃip]  n. 所有权；物主身份
+unrest  [,ʌn'rest]  n. 不安的状态；动乱
+civilian  [si'viljən]  n. 平民
+fasten  ['fɑ:sən, 'fæ-]  vt. 系牢；拴紧；使固定
+elastic  [i'læstik]  adj. 有弹性的
+suspension  [sə'spenʃən]  n. 吊；县挂；悬浮
+appetite  ['æpitait]  n. 食欲；胃口
+buffet  ['bʌfit]  n. 自助餐
+pasta  ['pɑ:stɑ:, 'pæs-]  n. 意大利面食（包括通心粉及面条等）
+porter  ['pɔ:tə, 'pəu-]  n. 守门人；行李搬运工
+suite  [swi:t]  n. （宾馆中的）套房
+lounge  [laundʒ]  n. 起居室；休息室
+laundry  ['lɔ:ndri, 'lɑ:n-]  n. 洗衣店
+helicopter  ['helikɔptə]  n. 直升飞机
+brunch  [brʌntʃ]  n. 早午餐；晚早餐
+dairy  ['dεəri]  n. 牛奶场；乳品店
+statistics  [stə'tistiks]  n. (pl) 统计；统计数字
+eco-friendly  adj. 对生态环境友好的；不妨害生态环境的
+subtropical  [,sʌb'trɔpikəl]  adj. 亚热带的
+fiord   [fjɔːd]  n. 峡湾；海湾
+not to mention  不必提及；更不用说
+recreation  [,rekri'eiʃən, -kri:-]  n. 娱乐；消遣
+raft  [rɑ:ft, ræft]  n. 木筏；木排
+get around  到处走动
+hemisphere  ['hemi,sfiə]  n. 半球
+schedule  ['ʃədju:əl, -dʒu:əl, 'skedʒu:əl, -dʒuəl]  n. 时间表；进度表
+extensive  [ik'stensiv]  adj. 广阔的；大量的；广泛的
+flexible  ['fleksibl]  adj. 灵活的；可通融的
+pace  [peis, 'peisi]  n. 速度；步调
+insurance  [in'ʃuərəns]  n. 保险
+insure  [in'ʃuə]  vt. & vi. （常与against连用）保险；确保
+theft  [θeft]  n. 盗窃
+handy  ['hændi]  adj. 近便的；便利的；容易取得的
+consultant  [kən'sʌltənt]  n. 顾问；咨询者
+guidance  ['ɡaidəns]  n. 指导；指引
+database  ['deitəbeis]  n. 数据库；基本数据；资料库
+cater  ['keitə]  vi. & vt. 备办酒菜；承办酒席；提供食物（娱乐节目）
+cater for sb/sth 为某人提供；适合某人的需要
+enquiry  [in'kwaiəri]  n. （=inquiry）询问；探究
+extension  [ik'stenʃən]  n. （电话）分机；延伸；伸展
+vertical  ['və:tikəl]  adj. 垂直的
+axis  ['æksis]  n. 轴；轴线
+
+unit2
+
+detect  [di'tekt]  vt. 侦查；探测；检定
+jogger  ['dʒɔɡə(r)]  n. 跑步锻炼的人；慢跑者
+forensic  [fɔ'rensik]  adj. 法庭的；法医学的
+spray  [sprei]  vt. 喷射；喷溅
+fingerprint  ['fiŋɡəprint]  n. 指纹；手印
+stain  [stein]  n. 污点；污处
+wrap  [ræp]  vt. 包；裹
+bind  [baind]  vt. 缚；绑
+torso  ['tɔ:səu]  n. （人体的）驱干
+surgeon  ['sə:dʒən]  n. 外科医生
+X-ray  vt. 照X光；照X射线
+abnormal  [æb'nɔ:məl]  adj. 不正常的；反常的；变态的
+emergency  [i'mə:dʒənsi]  n. 紧急情况；紧急事件
+by law  根据法律
+jury  ['dʒuəri]  n. 陪审团；评判委员会；陪审员
+imprisonment  [im'prizənmənt]  n. 关押；监禁
+assessment  [ə'sesmənt]  n. 评估；评价
+widow  ['widəu]  n. 寡妇
+compensate  ['kɔmpenseit]  vt. 补偿；赔偿；酬报
+maximum  ['mæksiməm]  n. & adj.  最大量（的）；最大限度（的）；极大（的）
+motive  ['məutiv]  n. 动机；目的
+savagely  ['sævidʒli]  adv. 野蛮地；残酷地
+ward  [wɔ:d]  n. 病房；病室
+lame  [leim]  adj. 跛的；瘸的
+thriller  ['θrilə]  n. 惊险读物（电影）
+confidential  [,kɔnfi'denʃəl]  adj. 机密的；秘密的
+ministry  ['ministri]  n. （政府的）部门
+funeral  ['fju:nərəl]  n. 葬礼；丧礼
+memorial  [mi'mɔ:riəl, -'məu-]  n. 纪念物；纪念碑
+trend  [trend]  n. 趋势；趋向
+unemployment  [,ʌnim'plɔimənt]  n. 失业；失业状态
+taxpayer  ['tæks,peiə]  n. 纳税人
+import  [im'pɔ:t, 'impɔ:t]  vt. 输入；进口；引进
+aluminium  [,ælju'minjəm]  n. 铝
+surplus  ['sə:plʌs, -pləs]  adj. 过剩的；剩余的
+n. 剩余物；盈余
+flame  [fleim]  n. 火焰
+greengrocer   ['griːngrəʊsə]  n. 蔬菜水果商
+greengrocer’s  蔬菜水果商店
+alley  ['æli]  n. 小巷，胡同
+remark  [ri'mɑ:k]  vi. & vt. 说；谈论；评论
+make of sth/sb  了解；理解
+candidate  ['kændideit, -dət]  n. 应试者；候选人；候补者
+furnish  ['fə:niʃ]  vt. 陈设；布置
+expel  [ik'spel]  vt. 开除；赶出
+allowance  [ə'lauəns]  n. 津贴；补助
+every so often 偶尔；时常
+peculiar  [pi'kju:ljə]  adj. 古怪的；奇特的；特殊的；罕见的
+
+unit3
+
+strategy  ['strætidʒi]  n. 策略
+myth  [miθ]  n. 神话；虚构的理念或故事
+harmony  ['hɑ:məni]  n. 和谐；融洽
+depressed  [di'prest]  adj. 沮丧的.
+well-balanced  adj. 很平衡的；正常的；意识健全的
+prescription  [pris'kripʃən]  n. 药方；处方药
+cope  [kəup]  vi. （妥善地）处理；对付；应付；克服
+cope with  应付；对付；克服
+let down  使失望; 辜负
+proportion  [prəpɔʃ(ə)n]  n. 均衡；比例；比率
+fulfil  [ful'fil]  vt. 满足；实现；达到
+effective  [i'fektiv]  adj. 有效的
+agenda  [ə'dʒendə]  n. 议程（表）
+interval  ['intəvəl]  adj. 间隔；间歇；幕间（工间）休息
+session  ['seʃən]  n. 一段（活动的）时间
+contradictory  [,kɔntrə'diktəri]  adj. 矛盾的；同……相反的
+revise  [ri'vaiz, 'ri:vaiz]  vt. 复查；(Brt) 复习
+curriculum  [kə'rikjuləm]  n. 课程
+informal  [in'fɔ:məl]  adj. 非正式的；非正规的
+deadline  ['dedlain]  n. 最后时间；最后期限
+rigid  ['ridʒid]  adj. 刻板的；僵硬的；严格的
+subscribe  [səb'skraib]  vi. & vt. （常与to连用）同意；赞同
+post-graduate  adj. 研究生的n. 研究生
+academy  [ə'kædəmi]  n. 高等专科院校；研究院；学术团体
+stead  [sted]  n. 替代；用处；好处
+stand sb in good stead  对某人很有用
+employer  [im'plɔiə]  n. 雇主；老板
+diploma  [di'pləumə]  n. 文凭；毕业证书.
+format  ['fɔ:mæt]  n. 设计；安排
+glory  ['ɡlɔ:ri]  vi. 自豪；得意
+glory in  以……为荣
+forgetful  [fə'ɡetful]  adj. 健忘的
+administration  [əd,mini'streiʃən]  n. 管理；行政管理
+choir  ['kwaiə]  n. 合唱团
+postcode   ['pəust,kəud] n. 邮政编码；邮编
+withdraw  [wið'drɔ:, wiθ-]  vi. & vt. 收回；撤回；
+sake  [seik]  n. 目的；利益
+for one’s own sake   为了……的缘故
+pursuit  [pə'sju:t]  n. 寻求；追求
+pursue  [pə'sju:, -'su:]  vt. 追求；寻求；不断努力以取得
+pedicab   ['pedɪkæb]  n. （人力）三轮车
+sleep rough  露宿
+feed on  从……中得到滋养或满足
+philosophical  [,filə'sɔfikəl]  adj. 哲学上的
+socialism  ['səuʃəlizəm]  n. 社会主义
+receipt  [ri'si:t]  n. 接受；收到；收据；收条
+overweigh   [,əʊvə'weɪ]  vt. 比……更重要; 胜过
+ensure  [in'ʃuə]  vt. 确保；保证
+reproach  [ri'prəutʃ]  n. 责备；责骂
+jealousy  ['dʒeləsi]  n. 妒忌；羡慕
+cease  [si:s]  vt. 结束；停息；终止
+cease to be  不再是
+count up  把……加起来
+reinforce  [,ri:in'fɔ:s]  vt. 增强；补充
+
+unit4
+
+split  [splɪt]  vt. & vi. 分开；分离
+violate  ['vaɪəleɪt]  vt. 违犯；违反；破坏
+temporary  ['temp(ə)rərɪ]  adj. 暂时的；临时的；一时的
+statesman  ['steɪtsmən]  n. 政治家；国务活动家
+statesmanlike  ['stetsmən'laɪk]  adj. 有政治家才干和风度的
+unconditional  [ʌnkən'dɪʃ(ə)n(ə)l]  adj. 无条件的；无限制的；绝对的
+scar  [skɑː]  n. 疤；伤疤；创伤
+howl  [haʊl]  vt. 嚎叫；呼号；咆哮
+merciful  ['mɜːsɪfʊl]  adj. 仁慈的；宽大的；宽容的
+at the crack of dawn  黎明；大清早
+quick as a flash  立刻；马上；一刹那
+hatch  [hætʃ]  vt. 孵化；出壳
+whistle  ['wɪs(ə)l]  n. 口哨；哨子
+heel  [hiːl]  n. 脚后跟；踵
+a wolf in sheep’s clothing  披着羊皮的狼；伪装友好的敌人
+pint  [paɪnt]  n. 品脱（=0.5夸脱；英制液量0.568升；美制液量0.473升）
+dead to the world  熟睡的；完全失去知觉的
+socket  ['sɒkɪt]  n. 孔；洞；眼窝
+stagger  ['stægə]  vi. 蹒跚；摇晃；踉跄
+agony  ['ægənɪ]  n. 极度的痛苦
+belly  ['belɪ]  n. 腹部
+wrestle  ['res(ə)l]  vt. & vi. 与……搏斗；把……摔倒
+marble  ['mɑːb(ə)l]  n. 大理石
+arch   [ɑːtʃ] n. 拱门
+coarse  [kɔːs]  adj. 粗糙的；鲁莽的
+pillow  ['pɪləʊ]  n. 枕头
+quilt  [kwɪlt]  n. 被褥；被子
+trough  [trɒf]  n. 饲料槽
+slice  [slaɪs]  n. 片；薄片
+wear off   逐渐消失；磨灭；损耗
+saucer  ['sɔːsə]  n. 茶托；茶杯碟；碟状物
+circus  ['sɜːkəs]  n. 马戏团；马戏表演
+freeway  ['friːweɪ]  n. 高速公路
+plug  [plʌg]  n. 电插头；插销
+hydrogen  ['haɪdrədʒ(ə)n]  n. 氢
+clay  [kleɪ]  n. 黏土；泥土
+moustache  [mə'stɑːʃ]  n. 胡子
+mustard  ['mʌstəd]  n. 芥末
+enlarge  [ɪn'lɑːdʒ; en-]  vt. 增大；扩大
+tournament  ['tʊənəm(ə)nt]  n. 联赛；锦标赛；比赛
+fist  [fɪst]  n. 拳头
+combat  ['kɒmbæt; 'kʌm-]  n. 斗争；战斗；争斗
+walnut  ['wɔːlnʌt]  n. 核桃，胡桃
+transparent  ['træns'pɛrənt]   adj. 透明的；显然的；一目了然的
+transparently adv. 显然地；清楚地
+tug  [tʌg]  vi. & vt. 用力拉或拖（某物）
+dismay  [dɪs'meɪ]  vt. 使沮丧；使灰心
+pulse  [pʌls]  n. 脉搏
+zoom  [zuːm]  vi. 飞驰；飞快地掠过
+zoom in on  推近；聚焦于
+insignificant  [ɪnsɪg'nɪfɪk(ə)nt]  adj. 无关紧要的；无用的
+fleece  [fliːs]  n. 羊毛
+
+unit5
+
+vice versa  [,vaisi'və:sə]  adv. 反之亦然
+(be) faced with  面临
+scholarship  ['skɒləʃɪp]  n. 奖学金
+in disbelief  不相信；怀疑
+drop into  偶然进入（某地）；顺便拜访
+unsettling  [ʌn'setliŋ]  adj. 使人不安的；（消息）混乱的
+dozens of  许多的
+now and again  不时地；有时
+expectantly  [iks'pektəntli]  adv. 预期地；期望地；期待地
+suck  [sʌk]  vt. 吸；吮
+co-operate  [kəu'ɔpəreit]  vi. （常与with连用）合作
+hand out  拿出来；分发
+preference  ['pref(ə)r(ə)ns]  n. 偏爱；优先选择
+pleasurable  ['pleʒ(ə)rəb(ə)l]  adj. 愉快的；快乐的；高兴的
+anticipation  [æntɪsɪ'peɪʃ(ə)n]  n. 预期；预想；期待
+intellectual  [,ɪntə'lektʃʊəl; -tjʊəl]  adj. 智力的，有智力的
+arithmetic  [ə'rɪθmətɪk]  n. 算术学；算术
+algebra  ['ældʒɪbrə]  n. 代数；代数学
+interpersonal  [ɪntə'pɜːs(ə)n(ə)l]  adj. 人际的；人与人之间的
+complex  ['kɒmpleks]  adj. 复杂的
+agro-scientific  [saɪən'tɪfɪk]  adj. 农业科学的
+core  [kɔː]  n. 中心；核心
+drop in  顺便走访
+recommendation  [,rekəmen'deɪʃ(ə)n]  n. 推荐信；介绍；介绍信
+call on  拜访
+composer  [kəm'pəʊzə]  n. 作曲家
+mathematician  [mæθəmə'tɪʃn]  n. 数学家
+stewardess  ['stjuːədɪs]  n.（轮船，飞机等）女乘务员
+diplomat  ['dɪpləmæt]  n. 外交家；外交官
+embassy  ['embəsi]  n. 使馆人员；大使馆
+referee  [,refə'ri:]  n. 介绍人；裁判
+brake  [breik]  n. （常用复数）制动装置；刹车
+swerve  [swə:v]  vt. 突然转向；突然离开正路
+missile  ['mɪsaɪl]  n. 导弹；飞弹
+circuit  ['sɜːkɪt]  n. 环形道路
+go on-circuit  巡回
+razor  ['reɪzə]  n. 剃刀；剃须刀
+shaver  ['ʃeɪvə]  n. 剃须刀；电动剃须刀
+oval  ['əʊv(ə)l]  adj. 卵形的；椭圆的
+orbit  ['ɔːbɪt]  n. （天体、人造卫星的）轨道
+substance  ['sʌbst(ə)ns]  n. 物质
+curriculum vitae (CV)   [kə'rikjuləm'vaiti:] n. 履历；简历
+nickname  ['nɪkneɪm]  n. 绰号；浑名
+presentational  [,prezən'tei-ʃənəl, ,pri:-]  adj. 表达的；描述性的
+fabulous  ['fæbjʊləs]  adj. 巨大的；绝妙；精彩
+IELTS  abbr. International English Language Testing Service国际英语测试，俗称雅思考    试（是由英国文化委员会组织、剑桥大学地方考试委员会编制的英语水平测试）
+accountancy  [ə'kaʊnt(ə)nsɪ]  n. 会计工作；会计职务
+function  ['fʌŋ(k)ʃ(ə)n]  n. 功能；作用；职责；职能
+bureaucratic  [,bjʊrə'krætɪk]  adj. 官僚的；官僚般的
+ethos  ['iːθɒs]  n. （集体、社团、文化的）气质、道德观、思想或信仰
+minefield  ['maɪn'fild]  n. 雷区；充满隐伏危险的事物或场合
+unwary  [ʌn'weərɪ]  adj. 无警惕的；易受欺骗的
+autobiography  [ɔːtəbaɪ'ɒgrəfɪ]  n. 自传
+build on  建立于
+prosperous  ['prɒsp(ə)rəs]  adj. 成功的；繁荣的；兴旺的
+to tell you the truth  老实说（插入语）
+tempt  [tem(p)t]  vt. 诱惑；引诱
+appendix  [ə'pendɪks]  n. 附录；附言
+roundabout  ['raʊndəbaʊt]  adj. 迂回的；委婉的
+
+——B站TUO图欧君祝你学习进步！加油！——
+ HYPERLINK "https://space.bilibili.com/36184593" https://space.bilibili.com/36184593
+【B站TUO图欧君整理出品，祝你学习进步！】
+
+
+
+
+
+
+

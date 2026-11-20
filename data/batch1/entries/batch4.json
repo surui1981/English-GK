@@ -1,0 +1,1607 @@
+[
+  {
+    "id": "w_plant",
+    "headword": "plant",
+    "ipa": "/plɑːnt/",
+    "level": "T1",
+    "pos": ["n", "v"],
+    "strategies": ["P2", "P4", "P8"],
+    "carriers": ["C1", "C2", "C5"],
+    "senses": [
+      {
+        "sense_id": "s_plant_n_growth",
+        "text": "植物；草木等生物体",
+        "sense_level": "S1",
+        "error_mech": [],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "This plant produces bright flowers in early summer, when most other species have already faded.",
+          "zh": "这种植物在初夏开出鲜艳的花朵，那时大多数其他品种都已凋谢。",
+          "source": "仿真例句 · 高考阅读科普类高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["flowering plant", "plant species", "plant life", "a green plant"]
+      },
+      {
+        "sense_id": "s_plant_v_grow",
+        "text": "种植、栽种（作物、树木）",
+        "sense_level": "S2",
+        "error_mech": ["E1", "E2"],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "The farmers in this valley plant wheat twice a year and leave the fields fallow in winter.",
+          "zh": "山谷里的农民一年种两茬小麦，冬天让田地休耕。",
+          "source": "仿真例句 · 高考完形填空农业话题高频句式",
+          "carrier": "C2"
+        },
+        "collocations": ["plant crops", "plant seeds", "plant rice", "plant trees"]
+      },
+      {
+        "sense_id": "s_plant_n_factory",
+        "text": "工厂；（发电、炼化等）企业设施",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E10"],
+        "is_trap": true,
+        "trap_of": ["植物", "种植"],
+        "example": {
+          "en": "The power plant near the river has promised to cut its emissions before the end of the decade.",
+          "zh": "河边的发电站已承诺在本十年结束前削减其排放。",
+          "source": "仿真例句 · 高考环保与能源话题高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["power plant", "chemical plant", "steel plant", "nuclear plant"]
+      },
+      {
+        "sense_id": "s_plant_v_place",
+        "text": "安放、放置；植入（想法、猜疑）",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E2"],
+        "is_trap": true,
+        "trap_of": ["种植"],
+        "example": {
+          "en": "His parents planted the idea of becoming a doctor in his mind when he was still a child.",
+          "zh": "父母在他还是个孩子的时候，就在他心里植入了当医生的念头。",
+          "source": "仿真例句 · 高考读后续写人物描写高频句式",
+          "carrier": "C5"
+        },
+        "collocations": ["plant an idea", "plant suspicion", "plant a flag", "plant a doubt"]
+      }
+    ],
+    "confusable": ["planet", "planter", "plantation", "plenty"],
+    "word_family": ["plant", "plantation", "planter", "plantable"],
+    "notes": "考场判断法：① 看 plant 前面有没有 power / chemical / steel / nuclear 这类行业修饰语，有就直接锁定「工厂、发电站」；② 看 plant 后面接的是 seeds / crops / trees（活的东西）还是 suspicion / an idea / a flag（想法、猜疑），前者是「种植」，后者是「安放、植入」；③ 话题涉及 pollution / emission / environment 时，plant 只能读成「工厂」，不能读成「植物」。",
+    "quiz_ids": []
+  },
+  {
+    "id": "w_point",
+    "headword": "point",
+    "ipa": "/pɔɪnt/",
+    "level": "T1",
+    "pos": ["n", "v"],
+    "strategies": ["P2", "P4", "P8"],
+    "carriers": ["C1", "C2", "C4"],
+    "senses": [
+      {
+        "sense_id": "s_point_n_dot",
+        "text": "点、细部；（时间或空间上的）一点",
+        "sense_level": "S1",
+        "error_mech": [],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "She marked the three most important points on the page with a bright yellow pen.",
+          "zh": "她用明亮的黄色笔在页面上标出了三个最重要的点。",
+          "source": "仿真例句 · 高考阅读记叙类高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["a key point", "at this point", "a turning point", "point by point"]
+      },
+      {
+        "sense_id": "s_point_n_view",
+        "text": "观点、看法；论点、理由",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E2"],
+        "is_trap": true,
+        "trap_of": ["点、细部", "分数"],
+        "example": {
+          "en": "He made a strong point that online learning should never fully replace the classroom.",
+          "zh": "他提出了一个有力的观点：线上学习永远不该完全取代课堂。",
+          "source": "仿真例句 · 高考应用文与议论文观点表达高频句式",
+          "carrier": "C4"
+        },
+        "collocations": ["point of view", "make a point", "a valid point", "on this point"]
+      },
+      {
+        "sense_id": "s_point_v_direct",
+        "text": "指向；表明、指出",
+        "sense_level": "S2",
+        "error_mech": ["E1", "E6"],
+        "is_trap": true,
+        "trap_of": ["点、细部", "打分"],
+        "example": {
+          "en": "Recent data points to a steady decline in the number of young people who smoke.",
+          "zh": "最新数据显示，吸烟的年轻人数量在稳步下降。",
+          "source": "仿真例句 · 高考阅读数据说明类高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["point to", "point at", "point out", "point to a decline"]
+      },
+      {
+        "sense_id": "s_point_n_meaning",
+        "text": "意义、用意；（谈话的）要点",
+        "sense_level": "S4",
+        "error_mech": ["E1", "E4"],
+        "is_trap": true,
+        "trap_of": ["点、细部", "观点、看法"],
+        "example": {
+          "en": "It takes months to grasp the point of the experiment, yet the result is well worth waiting for.",
+          "zh": "理解这项实验的意义要花上几个月，但结果是值得等待的。",
+          "source": "仿真例句 · 高考阅读说明文高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["the point of doing sth", "miss the point", "make the point", "get the point"]
+      }
+    ],
+    "confusable": ["pint", "pointless", "pioneer", "appoint"],
+    "word_family": ["point", "pointer", "pointed", "pointless", "viewpoint"],
+    "notes": "考场判断法：① point 后面接 of view / of mine / a valid one，是「观点、看法」，不要译成「点」；② point 后面接 to（point to the evidence / point to a decline）是动词「指向、表明」，表示具体方位用 at，表示抽象趋势用 to；③ 出现 the point of doing / miss the point / make the point，一律按「要点、用意」理解；④ 写作里表达「观点」固定写 point of view，不要写 viewpoint of。",
+    "quiz_ids": []
+  },
+  {
+    "id": "w_present",
+    "headword": "present",
+    "ipa": "/ˈpreznt/",
+    "level": "T1",
+    "pos": ["adj", "v", "n"],
+    "strategies": ["P2", "P6", "P8"],
+    "carriers": ["C1", "C2", "C3", "C4"],
+    "senses": [
+      {
+        "sense_id": "s_present_adj_current",
+        "text": "目前的、当前的；现存的",
+        "sense_level": "S1",
+        "error_mech": [],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "At present, the school is trying to make the best use of its small library.",
+          "zh": "目前，学校正努力充分利用自己那座小图书馆。",
+          "source": "仿真例句 · 高考阅读高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["at present", "the present situation", "the present government", "present tense"]
+      },
+      {
+        "sense_id": "s_present_adj_attend",
+        "text": "出席的；在场的（参加会议的）",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E5"],
+        "is_trap": true,
+        "trap_of": ["目前的、当前的", "礼物"],
+        "example": {
+          "en": "All the members were present at the meeting, although two of them arrived late.",
+          "zh": "所有成员都出席了会议，尽管有两人迟到了。",
+          "source": "仿真例句 · 高考完形填空校园话题高频句式",
+          "carrier": "C2"
+        },
+        "collocations": ["be present at", "be present for", "present in class", "be present when"]
+      },
+      {
+        "sense_id": "s_present_v_offer",
+        "text": "呈现、提出；向…呈递",
+        "sense_level": "S2",
+        "error_mech": ["E1", "E2"],
+        "is_trap": true,
+        "trap_of": ["出席的", "目前的"],
+        "example": {
+          "en": "She presented her findings to the committee last Thursday and answered every question calmly.",
+          "zh": "上周四她把研究结果提交给委员会，并冷静地回答了每一个问题。",
+          "source": "仿真例句 · 高考阅读议论文高频句式",
+          "carrier": "C4"
+        },
+        "collocations": ["present sth to sb", "present a report", "present an idea", "present evidence"]
+      },
+      {
+        "sense_id": "s_present_v_appear",
+        "text": "出现、显现（问题、机会）",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E5"],
+        "is_trap": true,
+        "trap_of": ["目前的、当前的", "出席的"],
+        "example": {
+          "en": "If any questions arise during the process, please raise your hand and I will help.",
+          "zh": "过程中如果出现任何问题，请举手，我会来帮忙。",
+          "source": "仿真例句 · 高考语法填空高频句式",
+          "carrier": "C3"
+        },
+        "collocations": ["present a problem", "present a challenge", "present an opportunity", "present itself"]
+      },
+      {
+        "sense_id": "s_present_n_gift",
+        "text": "礼物；赠送给别人的物品",
+        "sense_level": "S2",
+        "error_mech": ["E2"],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "The company gave every hard-working employee a small present at the end of the year.",
+          "zh": "公司给每位努力工作的员工在年末发了一份小礼物。",
+          "source": "仿真例句 · 高考应用文日常场景高频句式",
+          "carrier": "C4"
+        },
+        "collocations": ["a small present", "a birthday present", "present sb with sth", "as a present"]
+      }
+    ],
+    "confusable": ["preset", "presently", "represent", "attendance"],
+    "word_family": ["present", "presentation", "presenter", "presently", "represent"],
+    "notes": "考场判断法：① present 后面接 problem / difficulty / challenge，是动词「呈现、带来（问题）」，问题是自己冒出来的；② present sth to sb，to 后面是人或会议，意为「把…呈递、提出」；③ be present at the meeting，at 后接活动场合，是「出席」，此时不能读成「目前的」；④ at present / the present situation 才是「目前」。语法填空中 Present with… 是「目前有」，present 分词作状语（Present in…, the app…）按「目前的、当前的」理解。",
+    "quiz_ids": []
+  },
+  {
+    "id": "w_result",
+    "headword": "result",
+    "ipa": "/rɪˈzʌlt/",
+    "level": "T1",
+    "pos": ["n", "v", "adv"],
+    "strategies": ["P2", "P4", "P8"],
+    "carriers": ["C1", "C2", "C3", "C4"],
+    "senses": [
+      {
+        "sense_id": "s_result_n_outcome",
+        "text": "结果、结局；（实验的）成果",
+        "sense_level": "S1",
+        "error_mech": [],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "The result of the experiment surprised even the team that had designed it.",
+          "zh": "实验的结果甚至让设计它的团队都吃了一惊。",
+          "source": "仿真例句 · 高考阅读说明文高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["the result of", "as a result", "a satisfactory result", "come up with a result"]
+      },
+      {
+        "sense_id": "s_result_v_cause",
+        "text": "导致、造成（引起某种后果）",
+        "sense_level": "S2",
+        "error_mech": ["E1", "E4", "E2"],
+        "is_trap": true,
+        "trap_of": ["源于、起因于"],
+        "example": {
+          "en": "Careless driving on wet roads often results in serious accidents that could have been avoided.",
+          "zh": "在湿滑路面上粗心驾驶常常导致本可避免的严重事故。",
+          "source": "仿真例句 · 高考阅读说明文高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["result in", "result in doing sth", "result in serious damage", "resulting from"]
+      },
+      {
+        "sense_id": "s_result_v_derive",
+        "text": "源于、起因于（由…而发生）",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E4", "E2"],
+        "is_trap": true,
+        "trap_of": ["导致、造成"],
+        "example": {
+          "en": "Much of the anxiety students feel before an exam results from constant comparison with classmates.",
+          "zh": "学生考前的大部分焦虑源于不断与同学攀比。",
+          "source": "仿真例句 · 高考完形填空教育话题高频句式",
+          "carrier": "C2"
+        },
+        "collocations": ["result from", "result from doing sth", "largely result from", "which results from"]
+      },
+      {
+        "sense_id": "s_result_adv_as_a_result",
+        "text": "因此、由此；（as a result of）由于",
+        "sense_level": "S4",
+        "error_mech": ["E4", "E7"],
+        "is_trap": true,
+        "trap_of": ["源于、起因于"],
+        "example": {
+          "en": "As a result of the heavy rain, several village roads were closed for two days.",
+          "zh": "由于大雨，村里几条道路封闭了两天。",
+          "source": "仿真例句 · 高考语法填空高频句式",
+          "carrier": "C3"
+        },
+        "collocations": ["as a result", "as a result of", "as a direct result", "with the result that"]
+      }
+    ],
+    "confusable": ["resultant", "resulting", "resolve", "consequence"],
+    "word_family": ["result", "resultant", "resulting", "resultantly"],
+    "notes": "考场判断法：① 只看介词：result in + 名词或 doing 是「导致」，result from + 名词是「源于」，方向不能反；② as a result of + 名词是「由于」，后面接原因；as a result（不接 of）是「因此」，后面接结果；③ 记口诀：from 后面是源头，in 后面是去处。完形填空最常考的就是把 result in 与 result from 读反。",
+    "quiz_ids": []
+  },
+  {
+    "id": "w_right",
+    "headword": "right",
+    "ipa": "/raɪt/",
+    "level": "T1",
+    "pos": ["n", "adj", "adv"],
+    "strategies": ["P2", "P4", "P8"],
+    "carriers": ["C1", "C2", "C4"],
+    "senses": [
+      {
+        "sense_id": "s_right_adj_correct",
+        "text": "正确的、对的；符合事实的",
+        "sense_level": "S1",
+        "error_mech": [],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "You are right about the timing, but the cost of the plan still needs checking.",
+          "zh": "你对时间的判断没错，但这个方案的成本还得核算。",
+          "source": "仿真例句 · 高考阅读高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["be right about", "the right answer", "you are quite right", "right or wrong"]
+      },
+      {
+        "sense_id": "s_right_n_entitlement",
+        "text": "权利；与生俱来的权益",
+        "sense_level": "S2",
+        "error_mech": ["E1", "E2"],
+        "is_trap": true,
+        "trap_of": ["正确的、对的", "右边、右方"],
+        "example": {
+          "en": "Every child has the right to receive an education, whatever the income of the family.",
+          "zh": "每个孩子都有接受教育的权利，无论家庭收入如何。",
+          "source": "仿真例句 · 高考阅读社会议题高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["the right to do sth", "human rights", "a legal right", "fight for rights"]
+      },
+      {
+        "sense_id": "s_right_adj_suitable",
+        "text": "恰当的、合适的；最妥帖的",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E2"],
+        "is_trap": true,
+        "trap_of": ["正确的、对的"],
+        "example": {
+          "en": "Years of experience alone do not make him the right person for the job.",
+          "zh": "仅凭多年经验并不能使他成为这份工作的合适人选。",
+          "source": "仿真例句 · 高考完形填空职场话题高频句式",
+          "carrier": "C2"
+        },
+        "collocations": ["the right way", "the right person", "the right choice", "right for sb"]
+      },
+      {
+        "sense_id": "s_right_adv_exactly",
+        "text": "正好、恰好；（right now）立刻",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E5"],
+        "is_trap": true,
+        "trap_of": ["正确的、对的"],
+        "example": {
+          "en": "The new library stands right across from the school gate, so students can reach it in a minute.",
+          "zh": "新图书馆正好在校门对面，学生一分钟就能走到。",
+          "source": "仿真例句 · 高考应用文日常场景高频句式",
+          "carrier": "C4"
+        },
+        "collocations": ["right now", "right away", "right in front of", "right across from"]
+      },
+      {
+        "sense_id": "s_right_n_side",
+        "text": "右边、右方；（一方的）立场",
+        "sense_level": "S2",
+        "error_mech": ["E2"],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "Turn right at the second corner and the post office will be on your left.",
+          "zh": "在第二个路口右转，邮局就在你的左手边。",
+          "source": "仿真例句 · 高考应用文指路场景高频句式",
+          "carrier": "C4"
+        },
+        "collocations": ["turn right", "on the right", "right-hand side", "to the right of"]
+      }
+    ],
+    "confusable": ["rite", "write", "bright", "rigid"],
+    "word_family": ["right", "rightly", "rightful", "upright"],
+    "notes": "考场判断法：① the right to do sth、human rights 中的 right 是名词「权利」，不是「右边、正确」；② right 后直接跟名词（the right way / the right person / the right choice）是形容词「恰当的」，比 correct 更强调「合适」；③ be right / feel right / look right 才是「正确的」；④ right now / right away / right across from 是副词「正好、立刻」。应用文表达「有权做某事」固定写 the right to do sth。",
+    "quiz_ids": []
+  },
+  {
+    "id": "w_sense",
+    "headword": "sense",
+    "ipa": "/sens/",
+    "level": "T1",
+    "pos": ["n", "v"],
+    "strategies": ["P2", "P4", "P8"],
+    "carriers": ["C1", "C2", "C3"],
+    "senses": [
+      {
+        "sense_id": "s_sense_n_faculty",
+        "text": "感觉、感官；官能",
+        "sense_level": "S1",
+        "error_mech": [],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "Some animals rely on a far sharper sense of smell than any human being does.",
+          "zh": "有些动物的嗅觉比任何人都灵敏得多。",
+          "source": "仿真例句 · 高考阅读科普类高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["sense of smell", "sense of touch", "a sixth sense", "common sense"]
+      },
+      {
+        "sense_id": "s_sense_n_meaning",
+        "text": "意义、含义；词义",
+        "sense_level": "S2",
+        "error_mech": ["E1", "E2"],
+        "is_trap": true,
+        "trap_of": ["感觉、感官", "意识、观念"],
+        "example": {
+          "en": "The word is used here in a much broader sense than its dictionary entry suggests.",
+          "zh": "这里这个词的用法比词典释义所暗示的要宽泛得多。",
+          "source": "仿真例句 · 高考语法填空高频句式",
+          "carrier": "C3"
+        },
+        "collocations": ["in this sense", "in a sense", "in the sense that", "in a wider sense"]
+      },
+      {
+        "sense_id": "s_sense_n_awareness",
+        "text": "意识、观念；意识到的体会",
+        "sense_level": "S2",
+        "error_mech": ["E1", "E2"],
+        "is_trap": true,
+        "trap_of": ["感觉、感官", "意义、含义"],
+        "example": {
+          "en": "Students develop a stronger sense of belonging when they take part in school activities together.",
+          "zh": "当学生们一起参加校园活动时，会形成更强烈的归属感。",
+          "source": "仿真例句 · 高考阅读校园话题高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["a sense of belonging", "a sense of responsibility", "a sense of purpose", "a sense of achievement"]
+      },
+      {
+        "sense_id": "s_sense_v_make_sense",
+        "text": "讲得通、有道理（make sense）",
+        "sense_level": "S4",
+        "error_mech": ["E4", "E2"],
+        "is_trap": true,
+        "trap_of": ["理解、弄懂（make sense of）"],
+        "example": {
+          "en": "The instructions are so confusing that the plan simply does not make sense to anyone.",
+          "zh": "这些说明令人摸不着头脑，这个方案对谁都讲不通。",
+          "source": "仿真例句 · 高考完形填空高频句式",
+          "carrier": "C2"
+        },
+        "collocations": ["make sense", "makes no sense", "make perfect sense", "it makes sense to do sth"]
+      },
+      {
+        "sense_id": "s_sense_v_make_sense_of",
+        "text": "理解、弄懂（读懂、领会）",
+        "sense_level": "S4",
+        "error_mech": ["E4", "E2"],
+        "is_trap": true,
+        "trap_of": ["讲得通、有道理（make sense）"],
+        "example": {
+          "en": "It took me several careful readings to make sense of the passage, but the argument finally became clear.",
+          "zh": "我仔细读了好几遍才弄懂这段话，但那个论点最终清晰起来。",
+          "source": "仿真例句 · 高考阅读高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["make sense of", "hard to make sense of", "make some sense of", "make no sense of"]
+      }
+    ],
+    "confusable": ["sensitive", "sensible", "sensory", "sentence"],
+    "word_family": ["sense", "sensible", "sensitive", "sensory", "senseless"],
+    "notes": "考场判断法：① a + 抽象名词（belonging / responsibility / achievement / purpose）构成 a sense of…，是「意识、观念」，不是「感觉」也不是「意义」；② in this / in a sense 是「意义、含义」；③ make sense 后面不接宾语，是「讲得通、有道理」；make sense of + 宾语是「理解、弄懂」，两个短语必须整块背；④ a sixth sense / sense of smell 才是「感官」义。语法填空最爱考 make sense of。",
+    "quiz_ids": []
+  },
+  {
+    "id": "w_sound",
+    "headword": "sound",
+    "ipa": "/saʊnd/",
+    "level": "T1",
+    "pos": ["n", "adj", "v", "adv"],
+    "strategies": ["P2", "P3", "P8"],
+    "carriers": ["C1", "C4", "C5"],
+    "senses": [
+      {
+        "sense_id": "s_sound_n_noise",
+        "text": "声音、声响；耳朵听到的振动",
+        "sense_level": "S1",
+        "error_mech": [],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "He heard a strange sound coming from the next room and opened the door slowly.",
+          "zh": "他听到隔壁房间传来一种奇怪的声音，于是慢慢打开了门。",
+          "source": "仿真例句 · 高考读后续写场景描写高频句式",
+          "carrier": "C5"
+        },
+        "collocations": ["make a sound", "the sound of", "a faint sound", "no sound"]
+      },
+      {
+        "sense_id": "s_sound_adj_reliable",
+        "text": "可靠的、站得住脚的（论证、判断）",
+        "sense_level": "S2",
+        "error_mech": ["E1", "E2"],
+        "is_trap": true,
+        "trap_of": ["声音、声响"],
+        "example": {
+          "en": "Their conclusion sounded reasonable, but the evidence behind it was far from sound.",
+          "zh": "他们的结论听上去合情合理，但其背后的证据远不扎实。",
+          "source": "仿真例句 · 高考阅读议论文高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["a sound argument", "sound reasoning", "sound judgment", "a sound decision"]
+      },
+      {
+        "sense_id": "s_sound_adj_healthy",
+        "text": "健全的；身体状况良好的",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E10"],
+        "is_trap": true,
+        "trap_of": ["声音、声响"],
+        "example": {
+          "en": "The doctor said she was in sound health and needed no further treatment that year.",
+          "zh": "医生说她身体状况良好，那一年不需要进一步治疗。",
+          "source": "仿真例句 · 高考阅读健康话题高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["sound health", "in sound condition", "sound fitness", "a sound body"]
+      },
+      {
+        "sense_id": "s_sound_v_seem",
+        "text": "听起来；给人…的感觉",
+        "sense_level": "S2",
+        "error_mech": ["E1", "E6"],
+        "is_trap": true,
+        "trap_of": ["声音、声响"],
+        "example": {
+          "en": "That sounds like a reasonable plan, though we should check the cost before we agree.",
+          "zh": "那听起来是个合理的计划，不过我们答应前还是该核实一下成本。",
+          "source": "仿真例句 · 高考应用文口语化表达高频句式",
+          "carrier": "C4"
+        },
+        "collocations": ["sound good", "sound like", "sound familiar", "sound terrible"]
+      },
+      {
+        "sense_id": "s_sound_adv_fully",
+        "text": "充分地、彻底地（sound asleep）",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E5"],
+        "is_trap": true,
+        "trap_of": ["声音、声响"],
+        "example": {
+          "en": "She was so tired after the long journey that she fell sound asleep within minutes.",
+          "zh": "长途旅行后她累极了，几分钟内就睡得死沉。",
+          "source": "仿真例句 · 高考应用文写作可复用高频句式",
+          "carrier": "C4"
+        },
+        "collocations": ["sound asleep", "sound asleep in bed", "soundly asleep", "sound sleep"]
+      }
+    ],
+    "confusable": ["soup", "surround", "sounded", "sauce"],
+    "word_family": ["sound", "soundly", "resound", "sounding"],
+    "notes": "考场判断法：① sound 后直接跟名词（advice / argument / reasoning / decision / judgment），是形容词「可靠的、站得住脚的」；② sound health / sound condition 是「健全的」；③ sound + 形容词或 sound like，是动词「听起来」；④ sound asleep 是副词「完全地、充分地」，不是「声音」。写应用文表达「睡得很沉」只能写 sound asleep。",
+    "quiz_ids": []
+  },
+  {
+    "id": "w_stand",
+    "headword": "stand",
+    "ipa": "/stænd/",
+    "level": "T1",
+    "pos": ["v"],
+    "strategies": ["P2", "P4", "P8"],
+    "carriers": ["C1", "C2", "C4"],
+    "senses": [
+      {
+        "sense_id": "s_stand_v_stand",
+        "text": "站立；（建筑物）坐落、矗立",
+        "sense_level": "S1",
+        "error_mech": [],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "The old stone house stands on a hill above the small fishing village.",
+          "zh": "那座老石屋矗立在渔村上方的小山上。",
+          "source": "仿真例句 · 高考阅读写景类高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["stand on a hill", "stand at the door", "stand beside", "stand still"]
+      },
+      {
+        "sense_id": "s_stand_v_represent",
+        "text": "代表、象征；意味着",
+        "sense_level": "S2",
+        "error_mech": ["E1", "E4", "E2"],
+        "is_trap": true,
+        "trap_of": ["站立", "容忍、忍受"],
+        "example": {
+          "en": "The three colours on the flag stand for the three ideals written in the school song.",
+          "zh": "旗帜上的三种颜色象征着校歌里唱到的三种理想。",
+          "source": "仿真例句 · 高考阅读文化话题高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["stand for", "stand for the Olympic Games", "stand for freedom", "stand for something"]
+      },
+      {
+        "sense_id": "s_stand_v_tolerate",
+        "text": "容忍、忍受；无法忍受",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E4", "E2"],
+        "is_trap": true,
+        "trap_of": ["代表、象征"],
+        "example": {
+          "en": "The school will not stand for the kind of behaviour that puts others in danger.",
+          "zh": "学校不会容忍那种会让他人陷入危险的行为。",
+          "source": "仿真例句 · 高考完形填空校园话题高频句式",
+          "carrier": "C2"
+        },
+        "collocations": ["won't stand for sth", "can't stand sb", "can't stand it", "stand the pressure"]
+      },
+      {
+        "sense_id": "s_stand_v_out",
+        "text": "突出、显眼（格外引人注意）",
+        "sense_level": "S4",
+        "error_mech": ["E1", "E4"],
+        "is_trap": true,
+        "trap_of": ["站立", "代表、象征"],
+        "example": {
+          "en": "Among the hundreds of applicants, her design stood out for its simplicity and warmth.",
+          "zh": "在数百名申请者中，她的设计以简洁和温暖脱颖而出。",
+          "source": "仿真例句 · 高考阅读人物描写高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["stand out", "stand out from", "stand out among", "stand out for"]
+      },
+      {
+        "sense_id": "s_stand_v_support",
+        "text": "维护、支持（为…挺身而出）",
+        "sense_level": "S4",
+        "error_mech": ["E1", "E4"],
+        "is_trap": true,
+        "trap_of": ["代表、象征", "站立"],
+        "example": {
+          "en": "Few of her colleagues were willing to stand up for her when the criticism began.",
+          "zh": "批评开始的时候，她的同事中很少有人愿意站出来支持她。",
+          "source": "仿真例句 · 高考完形填空高频句式",
+          "carrier": "C2"
+        },
+        "collocations": ["stand up for sb", "stand up for a friend", "stand up for your rights", "stand up to"]
+      }
+    ],
+    "confusable": ["standard", "stanza", "stare", "undertake"],
+    "word_family": ["stand", "standing", "standpoint", "understand", "misunderstand"],
+    "notes": "考场判断法：① stand + for：后面接符号、缩写、机构，是「代表、象征」（stand for the Olympic Games）；后面接负面行为（won't stand for such rudeness），是「容忍、容许」；② stand + out 是不及物用法，意为「突出、显眼」，后面常接 from / among；③ stand + up + for + 人，多一个 up，意为「维护、支持（他人）」，与 stand for 的「代表」完全不同；④ 主语是「物 + 地点」时是「坐落、矗立」。完形里这四个短语义各考各的，不能只背一个。",
+    "quiz_ids": []
+  },
+  {
+    "id": "w_state",
+    "headword": "state",
+    "ipa": "/steɪt/",
+    "level": "T1",
+    "pos": ["n", "v"],
+    "strategies": ["P2", "P4", "P8"],
+    "carriers": ["C1", "C2", "C4"],
+    "senses": [
+      {
+        "sense_id": "s_state_n_country",
+        "text": "国家；（美国的）州，一级行政区",
+        "sense_level": "S1",
+        "error_mech": [],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "Delegates from more than forty states gathered in the capital to discuss the plan.",
+          "zh": "来自四十多个国家的代表聚集在首都讨论这项计划。",
+          "source": "仿真例句 · 高考阅读时政话题高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["member states", "the United States", "state visit", "state-owned"]
+      },
+      {
+        "sense_id": "s_state_n_condition",
+        "text": "状况、状态；情势",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E2"],
+        "is_trap": true,
+        "trap_of": ["国家；（美国）州"],
+        "example": {
+          "en": "The old bridge is in a poor state and may have to be closed for repairs.",
+          "zh": "那座旧桥状况很差，可能必须关闭维修。",
+          "source": "仿真例句 · 高考阅读说明文高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["in a poor state", "the state of the environment", "state of mind", "in a state of shock"]
+      },
+      {
+        "sense_id": "s_state_v_declare",
+        "text": "陈述、说明；正式声明",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E5", "E2"],
+        "is_trap": true,
+        "trap_of": ["状况、状态", "国家；（美国）州"],
+        "example": {
+          "en": "The scientist stated clearly that the data did not support the earlier conclusion.",
+          "zh": "这位科学家明确表示，数据并不支持先前的结论。",
+          "source": "仿真例句 · 高考完形填空高频句式",
+          "carrier": "C2"
+        },
+        "collocations": ["state that", "state the reasons", "as stated earlier", "it is stated that"]
+      },
+      {
+        "sense_id": "s_state_n_state_of_the_art",
+        "text": "最先进的水准、前沿水平",
+        "sense_level": "S4",
+        "error_mech": ["E4"],
+        "is_trap": true,
+        "trap_of": ["状况、状态", "国家；（美国）州"],
+        "example": {
+          "en": "The laboratory uses state-of-the-art equipment that few other schools in the country can afford.",
+          "zh": "这间实验室使用的是最先进的设备，别的学校很难负担得起。",
+          "source": "仿真例句 · 高考阅读科技话题高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["state-of-the-art equipment", "state-of-the-art design", "a state-of-the-art lab"]
+      }
+    ],
+    "confusable": ["statue", "statement", "status", "estate"],
+    "word_family": ["state", "statement", "statesman", "static"],
+    "notes": "考场判断法：① state 后面接 that 从句或 the reasons，是动词「陈述、说明」，主语常是专家、发言人；② 前面有 in 或 the state of，是名词「状况、状态」（in a poor state, the state of the environment）；③ 主语是国家名或美国州名，是「国家、州」；④ state-of-the-art 放在名词前作定语，意为「最先进的水准」。写作里表达「环境状况」写 the state of the environment，不要写 the environment condition。",
+    "quiz_ids": []
+  },
+  {
+    "id": "w_subject",
+    "headword": "subject",
+    "ipa": "/ˈsʌbdʒɪkt/",
+    "level": "T1",
+    "pos": ["n", "adj", "v"],
+    "strategies": ["P2", "P4", "P6", "P8"],
+    "carriers": ["C1", "C3", "C4", "C5"],
+    "senses": [
+      {
+        "sense_id": "s_subject_n_topic",
+        "text": "主题、话题；讨论的对象",
+        "sense_level": "S1",
+        "error_mech": [],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "The subject of the lecture was how ordinary people can protect themselves online.",
+          "zh": "讲座的主题是普通人如何保护自己在网上的信息安全。",
+          "source": "仿真例句 · 高考阅读高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["the subject of", "on the subject of", "subject matter", "a sensitive subject"]
+      },
+      {
+        "sense_id": "s_subject_n_academic",
+        "text": "科目、学科；（考试）科目",
+        "sense_level": "S2",
+        "error_mech": ["E2"],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "Mathematics has always been my favourite subject at school, though it is not easy.",
+          "zh": "数学一直是我在学校最喜欢的科目，尽管它并不容易。",
+          "source": "仿真例句 · 高考应用文校园话题高频句式",
+          "carrier": "C4"
+        },
+        "collocations": ["school subject", "favourite subject", "choose a subject", "subject teacher"]
+      },
+      {
+        "sense_id": "s_subject_adj_prone",
+        "text": "易受…的；须经…批准的",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E4", "E5"],
+        "is_trap": true,
+        "trap_of": ["主题、话题", "科目、学科"],
+        "example": {
+          "en": "Teenagers are particularly subject to peer pressure when they choose their subjects.",
+          "zh": "在选科的时候，青少年尤其容易受到同伴压力的影响。",
+          "source": "仿真例句 · 高考语法填空高频句式",
+          "carrier": "C3"
+        },
+        "collocations": ["be subject to", "be subject to approval", "be subject to change", "be subject to strict rules"]
+      },
+      {
+        "sense_id": "s_subject_v_expose",
+        "text": "使遭受；使屈服于（被动）",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E4", "E5"],
+        "is_trap": true,
+        "trap_of": ["主题、话题", "科目、学科"],
+        "example": {
+          "en": "Some workers were subjected to unfair treatment during the crisis and later received compensation.",
+          "zh": "危机期间一些工人遭受了不公平的对待，后来获得了赔偿。",
+          "source": "仿真例句 · 高考阅读社会话题高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["be subjected to", "be subjected to abuse", "be subjected to stress", "be subjected to treatment"]
+      },
+      {
+        "sense_id": "s_subject_n_subordinate",
+        "text": "臣民、被统治的人",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E5"],
+        "is_trap": true,
+        "trap_of": ["主题、话题", "科目、学科"],
+        "example": {
+          "en": "In those years the king ruled his subjects with a firm but fair hand.",
+          "zh": "在那些年月里，君主以坚定而公正的方式统治着他的臣民。",
+          "source": "仿真例句 · 高考读后续写历史故事高频句式",
+          "carrier": "C5"
+        },
+        "collocations": ["his subjects", "the subjects of a state", "a loyal subject", "the king's subjects"]
+      }
+    ],
+    "confusable": ["subjective", "object", "project", "subsidy"],
+    "word_family": ["subject", "subjective", "subjectivity", "subscribe"],
+    "notes": "考场判断法：① be subject to + 名词（approval / change / stress）且没有过去分词，是形容词「易受…的、须经…的」；② be subjected to + 名词（abuse / pressure / treatment）用了 be + 过去分词，是被动「遭受」；③ the subject of / on the subject of 是「主题、话题」；④ 校园课程语境（my favourite subject）才是「科目」；⑤ 君主与人民的关系语境（the king and his subjects）是「臣民」。语法填空常考 subject to 与 subjected to 的分词区别。",
+    "quiz_ids": []
+  },
+  {
+    "id": "w_treat",
+    "headword": "treat",
+    "ipa": "/triːt/",
+    "level": "T1",
+    "pos": ["v"],
+    "strategies": ["P2", "P4", "P8"],
+    "carriers": ["C1", "C2", "C4"],
+    "senses": [
+      {
+        "sense_id": "s_treat_v_deal",
+        "text": "对待、看待；处理",
+        "sense_level": "S1",
+        "error_mech": [],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "Students should be treated fairly, whatever their background or their family income.",
+          "zh": "无论背景或家庭收入如何，学生都应当被公平对待。",
+          "source": "仿真例句 · 高考阅读社会话题高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["treat sb fairly", "treat sb badly", "treat sth seriously", "treat the problem"]
+      },
+      {
+        "sense_id": "s_treat_v_cure",
+        "text": "治疗、医治；诊治",
+        "sense_level": "S2",
+        "error_mech": ["E2"],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "She was treated for months before the doctors finally knew what was wrong.",
+          "zh": "她接受了数月的治疗，医生才最终弄清病因。",
+          "source": "仿真例句 · 高考阅读健康话题高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["be treated for", "treat a disease", "treat a patient", "receive treatment"]
+      },
+      {
+        "sense_id": "s_treat_v_entertain",
+        "text": "请客、招待（主动请对方吃饭）",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E4"],
+        "is_trap": true,
+        "trap_of": ["对待、看待", "治疗、医治"],
+        "example": {
+          "en": "After the exam, my friends treated us all to a big dinner at the noodle shop.",
+          "zh": "考试之后，朋友们请我们在面馆吃了一顿丰盛的晚餐。",
+          "source": "仿真例句 · 高考完形填空校园话题高频句式",
+          "carrier": "C2"
+        },
+        "collocations": ["treat sb to sth", "treat sb to dinner", "treat sb to a meal", "treat sb to a movie"]
+      },
+      {
+        "sense_id": "s_treat_v_regard",
+        "text": "把…视为、看作（treat as）",
+        "sense_level": "S4",
+        "error_mech": ["E1", "E4", "E2"],
+        "is_trap": true,
+        "trap_of": ["治疗、医治", "对待、看待"],
+        "example": {
+          "en": "Many people still treat online learning as a second choice rather than a real alternative.",
+          "zh": "许多人仍把线上学习当作次选，而不是真正的替代方案。",
+          "source": "仿真例句 · 高考阅读议论文高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["treat sth as", "treat sb as", "treat A as not B", "treat sth as a serious problem"]
+      }
+    ],
+    "confusable": ["threat", "treaty", "tree", "trend"],
+    "word_family": ["treat", "treatment", "treatable", "mistreat"],
+    "notes": "考场判断法：① treat 后面跟 to + 食物或地点（treat sb to dinner），是「请客、招待」，介词只能用 to，写成 treat sb for sth 直接错；② treat A as B，as 是关键信号，意为「把…视为」；③ treat 后接人 + 副词（treat sb well / badly / seriously），是「对待、看待」；④ treat 后接 for + 病名，或句中出现 doctor / hospital，是「治疗」。",
+    "quiz_ids": []
+  },
+  {
+    "id": "w_value",
+    "headword": "value",
+    "ipa": "/ˈvæljuː/",
+    "level": "T1",
+    "pos": ["n", "v"],
+    "strategies": ["P2", "P4", "P6", "P8"],
+    "carriers": ["C1", "C4"],
+    "senses": [
+      {
+        "sense_id": "s_value_n_worth",
+        "text": "价值、价钱；重要性",
+        "sense_level": "S1",
+        "error_mech": [],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "The old house has little market value, but its meaning to the family is priceless.",
+          "zh": "这栋老房子几乎没有市场价值，但它对家人的意义却无法估量。",
+          "source": "仿真例句 · 高考阅读高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["market value", "the value of doing sth", "great value for money", "add value to"]
+      },
+      {
+        "sense_id": "s_value_v_appreciate",
+        "text": "重视、看重；给予高度评价",
+        "sense_level": "S2",
+        "error_mech": ["E1", "E4"],
+        "is_trap": true,
+        "trap_of": ["价值、价钱"],
+        "example": {
+          "en": "It is a good quality to place a high value on your own time and energy.",
+          "zh": "懂得珍视自己的时间与精力，是一种好品质。",
+          "source": "仿真例句 · 高考应用文写作可复用高频句式",
+          "carrier": "C4"
+        },
+        "collocations": ["place value on sth", "put a high value on", "value sb highly", "attach value to"]
+      },
+      {
+        "sense_id": "s_value_n_belief",
+        "text": "价值观；人们信奉的原则",
+        "sense_level": "S2",
+        "error_mech": ["E1", "E5"],
+        "is_trap": true,
+        "trap_of": ["价值、价钱"],
+        "example": {
+          "en": "Many schools now teach traditional values alongside modern ones and let students compare them.",
+          "zh": "如今许多学校把传统价值观与现代价值观一起教授，让学生自行比较。",
+          "source": "仿真例句 · 高考阅读文化话题高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["core values", "family values", "moral values", "values education"]
+      },
+      {
+        "sense_id": "s_value_n_use",
+        "text": "益处、用处；对…的重要性",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E2"],
+        "is_trap": true,
+        "trap_of": ["价值、价钱"],
+        "example": {
+          "en": "The value of keeping a diary is easy to see once the habit has lasted a year.",
+          "zh": "写日记的价值在习惯坚持一年之后就显而易见了。",
+          "source": "仿真例句 · 高考应用文日常场景高频句式",
+          "carrier": "C4"
+        },
+        "collocations": ["be of great value to sb", "be of value to", "of little value", "the value of exercise"]
+      },
+      {
+        "sense_id": "s_value_v_estimate",
+        "text": "估价、给…定价（value at）",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E5", "E2"],
+        "is_trap": true,
+        "trap_of": ["重视、看重"],
+        "example": {
+          "en": "Collectors valued the painting at several million dollars after the long restoration.",
+          "zh": "经过漫长的修复后，收藏家们给这幅画估价为数百万美元。",
+          "source": "仿真例句 · 高考阅读财经话题高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["value sth at", "highly valued", "value the assets", "valued at millions"]
+      }
+    ],
+    "confusable": ["values", "virtue", "evaluate", "valve"],
+    "word_family": ["value", "valuable", "valuation", "evaluate", "devalue"],
+    "notes": "考场判断法：① place / put value on sth，是「重视、看重」；② values 出现复数且前面有 moral / core / traditional，是「价值观」，不是「价格」；③ be of great value to sb，to 后面是人，是「对…很有价值、很有用」；④ value sth at + 金额，是「估价」；⑤ 谈价钱、性价比（good value for money）时才是名词「价值、价格」。应用文写「重视时间」用 place a high value on time。",
+    "quiz_ids": []
+  },
+  {
+    "id": "w_develop",
+    "headword": "develop",
+    "ipa": "/dɪˈveləp/",
+    "level": "T1",
+    "pos": ["v"],
+    "strategies": ["P2", "P4", "P6", "P8"],
+    "carriers": ["C1", "C2", "C5"],
+    "senses": [
+      {
+        "sense_id": "s_develop_v_progress",
+        "text": "发展、进步；开发（资源）",
+        "sense_level": "S1",
+        "error_mech": [],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "The small coastal town has developed rapidly over the past twenty years.",
+          "zh": "这座小镇在过去二十年里发展迅速。",
+          "source": "仿真例句 · 高考阅读城市与经济类高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["develop rapidly", "develop new technology", "develop into", "develop resources"]
+      },
+      {
+        "sense_id": "s_develop_v_habit",
+        "text": "养成、发展出（习惯、兴趣）",
+        "sense_level": "S2",
+        "error_mech": ["E1", "E2"],
+        "is_trap": true,
+        "trap_of": ["发展、进步"],
+        "example": {
+          "en": "She developed a habit of reading before bed during her first year at university.",
+          "zh": "她在上大学第一年养成了睡前阅读的习惯。",
+          "source": "仿真例句 · 高考完形填空高频句式",
+          "carrier": "C2"
+        },
+        "collocations": ["develop a habit of", "develop an interest in", "develop a reputation", "develop skills"]
+      },
+      {
+        "sense_id": "s_develop_v_illness",
+        "text": "患上、染上（疾病）",
+        "sense_level": "S2",
+        "error_mech": ["E1", "E2"],
+        "is_trap": true,
+        "trap_of": ["发展、进步"],
+        "example": {
+          "en": "He developed a bad cold after walking home in the rain that evening.",
+          "zh": "那天晚上冒雨走回家后，他患了重感冒。",
+          "source": "仿真例句 · 高考阅读健康话题高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["develop a cold", "develop a disease", "develop symptoms", "develop cancer"]
+      },
+      {
+        "sense_id": "s_develop_v_process",
+        "text": "冲洗（胶片、照片）",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E5"],
+        "is_trap": true,
+        "trap_of": ["发展、进步"],
+        "example": {
+          "en": "He developed the film at home before showing the pictures to the class.",
+          "zh": "他在把照片给全班看之前，先在家里把胶片冲洗了出来。",
+          "source": "仿真例句 · 高考读后续写校园活动高频句式",
+          "carrier": "C5"
+        },
+        "collocations": ["develop film", "develop a photograph", "develop the negatives"]
+      }
+    ],
+    "confusable": ["deployment", "development", "envelope", "deplete"],
+    "word_family": ["develop", "developer", "development", "developing", "envelope"],
+    "notes": "考场判断法：① develop 后面接 habit / interest / reputation，是「养成、发展出」；② 接 cold / disease / symptoms，是「患上」；③ 接 film / photograph，是「冲洗」；④ 接 into（develop into a serious problem），是「发展成、变成」；⑤ 宾语是城市、技术、经济这类，才是「发展、开发」。语法填空常考现在分词作状语（Developing rapidly, the company…），按「正在发展的」理解。",
+    "quiz_ids": []
+  },
+  {
+    "id": "w_practice",
+    "headword": "practice",
+    "ipa": "/ˈpræktɪs/",
+    "level": "T1",
+    "pos": ["n", "v", "adv"],
+    "strategies": ["P2", "P4", "P8"],
+    "carriers": ["C1", "C2", "C4"],
+    "senses": [
+      {
+        "sense_id": "s_practice_n_exercise",
+        "text": "练习、训练；练习过程",
+        "sense_level": "S1",
+        "error_mech": [],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "Daily practice matters far more than talent when it comes to speaking a new language.",
+          "zh": "就学说一门新语言而言，每天练习远比天赋重要。",
+          "source": "仿真例句 · 高考阅读教育话题高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["daily practice", "in practice", "practice makes perfect", "put into practice"]
+      },
+      {
+        "sense_id": "s_practice_v_perform",
+        "text": "练习、演练（技艺、发言）",
+        "sense_level": "S2",
+        "error_mech": ["E2"],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "Students who practice writing every day usually make visible progress within a month.",
+          "zh": "每天练习写作的学生通常在一个月内就能看到明显进步。",
+          "source": "仿真例句 · 高考完形填空学习话题高频句式",
+          "carrier": "C2"
+        },
+        "collocations": ["practice doing sth", "practice a skill", "practice what you preach", "practise speaking"]
+      },
+      {
+        "sense_id": "s_practice_n_custom",
+        "text": "惯例、习俗；通行的做法",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E2"],
+        "is_trap": true,
+        "trap_of": ["练习、训练"],
+        "example": {
+          "en": "It is common practice for students to review their notes the night before an important test.",
+          "zh": "在重要考试前一晚复习笔记是学生们的普遍做法。",
+          "source": "仿真例句 · 高考应用文写作高频句式",
+          "carrier": "C4"
+        },
+        "collocations": ["common practice", "standard practice", "usual practice", "general practice"]
+      },
+      {
+        "sense_id": "s_practice_n_profession",
+        "text": "业务、执业（医疗、法律）",
+        "sense_level": "S2",
+        "error_mech": ["E10", "E1"],
+        "is_trap": true,
+        "trap_of": ["练习、训练"],
+        "example": {
+          "en": "After graduation she set up her own medical practice in a quiet coastal town.",
+          "zh": "毕业后，她在一个安静的海边小镇开起了自己的诊所。",
+          "source": "仿真例句 · 高考阅读职业话题高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["medical practice", "legal practice", "private practice", "in clinical practice"]
+      },
+      {
+        "sense_id": "s_practice_adv_in_practice",
+        "text": "实际上、事实上（in practice）",
+        "sense_level": "S4",
+        "error_mech": ["E4", "E2"],
+        "is_trap": true,
+        "trap_of": ["练习、训练"],
+        "example": {
+          "en": "The plan sounds perfect on paper, but in practice it is much harder to carry out.",
+          "zh": "这个方案纸面上看起来完美，但实际操作起来要难得多。",
+          "source": "仿真例句 · 高考阅读议论文高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["in practice", "in actual practice", "in practice, not in theory"]
+      }
+    ],
+    "confusable": ["practise", "practitioner", "practical", "premise"],
+    "word_family": ["practice", "practise", "practitioner", "practical", "practically"],
+    "notes": "考场判断法：① practice 前面有 common / standard / usual，是「惯例、做法」，不是「练习」；② in practice 意为「实际上」（= in reality），不是「在练习中」；③ 后面接 doing（practice speaking English），是动词「练习」；④ medical / legal 语境（medical practice, in clinical practice）是「业务、行医执业」；⑤ 应用文表达「这是一种普遍做法」固定写 It is common practice to do sth，不要写成 common practice of doing。",
+    "quiz_ids": []
+  },
+  {
+    "id": "w_division",
+    "headword": "division",
+    "ipa": "/dɪˈvɪʒn/",
+    "level": "T2",
+    "pos": ["n", "phr"],
+    "strategies": ["P2", "P4", "P8"],
+    "carriers": ["C1", "C2", "C4"],
+    "senses": [
+      {
+        "sense_id": "s_division_n_separation",
+        "text": "把整体拆成若干部分；由此形成的结果",
+        "sense_level": "S1",
+        "error_mech": [],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "The division of the original company into three smaller firms took less than a year.",
+          "zh": "把原公司拆分成三家较小的公司，用了不到一年。",
+          "source": "仿真例句 · 高考阅读经济话题高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["the division of", "a clear division", "line of division", "division into"]
+      },
+      {
+        "sense_id": "s_division_n_disagreement",
+        "text": "分歧、不和；（群体的）分裂",
+        "sense_level": "S2",
+        "error_mech": ["E1", "E2"],
+        "is_trap": true,
+        "trap_of": ["分开、划分"],
+        "example": {
+          "en": "Deep divisions between the two sides made the negotiation almost impossible to continue.",
+          "zh": "双方之间深深的分歧使谈判几乎无法继续。",
+          "source": "仿真例句 · 高考完形填空高频句式",
+          "carrier": "C2"
+        },
+        "collocations": ["a deep division", "division between", "political divisions", "division within the team"]
+      },
+      {
+        "sense_id": "s_division_n_unit",
+        "text": "部门、科室；下设机构",
+        "sense_level": "S2",
+        "error_mech": ["E10", "E1"],
+        "is_trap": true,
+        "trap_of": ["分开、划分", "分歧、不和"],
+        "example": {
+          "en": "The sports division of the company sponsors several community projects every year.",
+          "zh": "公司的体育部门每年都会赞助若干社区项目。",
+          "source": "仿真例句 · 高考应用文与说明文高频句式",
+          "carrier": "C4"
+        },
+        "collocations": ["a business division", "the sales division", "a division of the company", "marketing division"]
+      },
+      {
+        "sense_id": "s_division_n_math",
+        "text": "除法；（做除法的运算）",
+        "sense_level": "S3",
+        "error_mech": ["E5", "E1"],
+        "is_trap": true,
+        "trap_of": ["分开、划分"],
+        "example": {
+          "en": "Pupils usually learn long division only after they have mastered basic multiplication.",
+          "zh": "学生通常在掌握基本乘法之后才学长除法。",
+          "source": "仿真例句 · 高考阅读校园与数学话题高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["long division", "division sign", "simple division", "by division"]
+      },
+      {
+        "sense_id": "s_division_ph_labour",
+        "text": "分工；劳动的分工（labour）",
+        "sense_level": "S4",
+        "error_mech": ["E4", "E1"],
+        "is_trap": true,
+        "trap_of": ["分开、划分", "部门、科室"],
+        "example": {
+          "en": "Specialization grows because the division of labour lets each worker master a smaller set of skills.",
+          "zh": "分工让每个工人只需掌握更少的技能，专业化因此不断加深。",
+          "source": "仿真例句 · 高考阅读经济与社会话题高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["the division of labour", "a division of labour", "specialization and division of labour"]
+      }
+    ],
+    "confusable": ["divide", "divisor", "diverse", "vision"],
+    "word_family": ["division", "divide", "divisor", "divided", "dividend"],
+    "notes": "考场判断法：① 先看介词组合：between / within 后面是人或群体，是「分歧、不和」；② 前面有 business / sales / marketing / finance 这类行业名，是「部门、科室」；③ 后面接 labour（the division of labour），是「分工」；④ 数学语境（long division, division sign），是「除法」；⑤ 其余「把…分成」的语境才是「分开、划分」。别把 division 一律读成「分开」，高考里读成「分歧、部门」更常见。",
+    "quiz_ids": []
+  },
+  {
+    "id": "w_suspend",
+    "headword": "suspend",
+    "ipa": "/səˈspend/",
+    "level": "T2",
+    "pos": ["v"],
+    "strategies": ["P2", "P4", "P8"],
+    "carriers": ["C1", "C2", "C5"],
+    "senses": [
+      {
+        "sense_id": "s_suspend_v_hang",
+        "text": "悬挂、吊挂；垂下",
+        "sense_level": "S1",
+        "error_mech": [],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "A single lamp was suspended from the ceiling above the long wooden table.",
+          "zh": "一盏灯从长木桌上方的天花板上垂挂下来。",
+          "source": "仿真例句 · 高考读后续写场景描写高频句式",
+          "carrier": "C5"
+        },
+        "collocations": ["suspend sth from sth", "suspend a lamp", "suspend from the ceiling", "suspend a picture"]
+      },
+      {
+        "sense_id": "s_suspend_v_postpone",
+        "text": "中止、推迟；让进行中的事停下",
+        "sense_level": "S2",
+        "error_mech": ["E1", "E2"],
+        "is_trap": true,
+        "trap_of": ["悬挂、吊挂"],
+        "example": {
+          "en": "The launch of the new line was suspended while engineers checked the design once more.",
+          "zh": "工程师再次核查设计期间，新线的投产被暂停。",
+          "source": "仿真例句 · 高考阅读经济与科技话题高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["suspend the plan", "suspend operations", "suspend service", "suspend a launch"]
+      },
+      {
+        "sense_id": "s_suspend_v_remove",
+        "text": "停职、除名；暂时取消资格",
+        "sense_level": "S3",
+        "error_mech": ["E10", "E1"],
+        "is_trap": true,
+        "trap_of": ["暂停、推迟"],
+        "example": {
+          "en": "Several players were suspended from competition while the investigation into the incident continued.",
+          "zh": "调查继续进行期间，几名球员被禁止参赛。",
+          "source": "仿真例句 · 高考完形填空体育话题高频句式",
+          "carrier": "C2"
+        },
+        "collocations": ["be suspended from duty", "be suspended from school", "suspend an official", "suspended from play"]
+      },
+      {
+        "sense_id": "s_suspend_v_contain",
+        "text": "使悬浮；（微粒）浮在空气中",
+        "sense_level": "S3",
+        "error_mech": ["E5", "E1"],
+        "is_trap": true,
+        "trap_of": ["悬挂、吊挂"],
+        "example": {
+          "en": "Fine particles remain suspended in the air long after the spray is released.",
+          "zh": "喷雾释放后很久，细小颗粒仍悬浮在空气中。",
+          "source": "仿真例句 · 高考阅读科普类高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["remain suspended", "suspended in the air", "suspended particles", "suspended in water"]
+      }
+    ],
+    "confusable": ["suspense", "suspension", "suspender", "inspect"],
+    "word_family": ["suspend", "suspension", "suspended", "suspense"],
+    "notes": "考场判断法：① 宾语是计划、服务、业务、判决这类「正在进行的事」，是「暂停、中止、推迟」，这是高考最常考的义项；② 宾语是灯、画、布帘等具体物，且后面有 from（suspend a lamp from the ceiling），是「悬挂」；③ 主语是人且出现在机构场景（a player was suspended / an official was suspended），是「停职、除名」；④ 宾语是颗粒、尘埃（remain suspended in the air），是「悬浮」。写应用文表达「暂停服务」固定写 suspend service。",
+    "quiz_ids": []
+  },
+  {
+    "id": "w_criterion",
+    "headword": "criterion",
+    "ipa": "/kraɪˈtɪəriən/",
+    "level": "T2",
+    "pos": ["n"],
+    "strategies": ["P2", "P6", "P8"],
+    "carriers": ["C1", "C3", "C4"],
+    "senses": [
+      {
+        "sense_id": "s_criterion_n_standard",
+        "text": "衡量优劣的依据；评判的尺度",
+        "sense_level": "S1",
+        "error_mech": [],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "Whether a rule is fair depends on the criterion we use to judge it.",
+          "zh": "一条规则是否公平，取决于我们用什么标准来评判它。",
+          "source": "仿真例句 · 高考阅读议论文高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["a criterion for", "the criterion of", "meet the criteria", "apply a criterion"]
+      },
+      {
+        "sense_id": "s_criterion_n_measure",
+        "text": "指标、判据；可衡量的尺度",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E2"],
+        "is_trap": true,
+        "trap_of": ["抽象的原则与准则"],
+        "example": {
+          "en": "The criteria for measuring progress must be set before the project begins, not afterwards.",
+          "zh": "衡量进展的指标必须在项目开始之前确定，而不是事后。",
+          "source": "仿真例句 · 高考语法填空高频句式",
+          "carrier": "C3"
+        },
+        "collocations": ["criteria for measuring", "selection criteria", "performance criteria", "evaluation criteria"]
+      },
+      {
+        "sense_id": "s_criterion_n_criteria",
+        "text": "多项指标汇总清单（复数 criteria）",
+        "sense_level": "S3",
+        "error_mech": ["E9", "E5"],
+        "is_trap": true,
+        "trap_of": ["单数 criterion（学生误写 criterions）"],
+        "example": {
+          "en": "Several criteria were published in advance so that no one could argue about them later.",
+          "zh": "多项标准事先公布，这样日后谁也无法再为此争论。",
+          "source": "仿真例句 · 高考应用文写作高频句式",
+          "carrier": "C4"
+        },
+        "collocations": ["criteria were set", "the criteria listed", "on these criteria", "meet all the criteria"]
+      }
+    ],
+    "confusable": ["criteria", "criterions", "critical", "critic"],
+    "word_family": ["criterion", "criteria", "critical", "criticism"],
+    "notes": "考场判断法：① 看到 criterion 先数数：单数 a criterion for… 是「一项标准、判据」，复数必须写 criteria，绝不能写 criterions；② 句子在谈评分、评估、数据（the criteria for measuring performance），是「指标、评判尺度」，不是抽象的「原则」；③ 谈人生、道德、价值判断（a criterion for a good life），是抽象的标准、尺度。应用文写评选标准用 criteria for (doing) sth。",
+    "quiz_ids": []
+  },
+  {
+    "id": "w_exploit",
+    "headword": "exploit",
+    "ipa": "/ɪkˈsplɔɪt/",
+    "level": "T2",
+    "pos": ["v", "n"],
+    "strategies": ["P2", "P8"],
+    "carriers": ["C1", "C4", "C5"],
+    "senses": [
+      {
+        "sense_id": "s_exploit_v_use",
+        "text": "充分发挥（优势、资源）；用足",
+        "sense_level": "S1",
+        "error_mech": [],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "The company knows how to exploit its advantages without wasting the money it earns.",
+          "zh": "这家公司懂得如何发挥自己的优势，而不浪费赚来的钱。",
+          "source": "仿真例句 · 高考阅读经济话题高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["exploit advantages", "exploit potential", "fully exploit", "exploit every opportunity"]
+      },
+      {
+        "sense_id": "s_exploit_v_develop",
+        "text": "开采、勘探（矿藏、能源）",
+        "sense_level": "S2",
+        "error_mech": ["E8", "E1"],
+        "is_trap": true,
+        "trap_of": ["剥削、牟取"],
+        "example": {
+          "en": "The country is trying to exploit its solar energy without damaging the land.",
+          "zh": "这个国家正试图在不破坏土地的前提下开发其太阳能资源。",
+          "source": "仿真例句 · 高考应用文与能源话题高频句式",
+          "carrier": "C4"
+        },
+        "collocations": ["exploit natural resources", "exploit solar energy", "exploit oil", "exploit coal"]
+      },
+      {
+        "sense_id": "s_exploit_v_profit",
+        "text": "压榨、不道德地榨取他人劳动",
+        "sense_level": "S3",
+        "error_mech": ["E8", "E1"],
+        "is_trap": true,
+        "trap_of": ["利用、充分发挥"],
+        "example": {
+          "en": "The workers complained that the farm was exploiting cheap labour to cut its costs.",
+          "zh": "工人们抱怨这家农场在剥削廉价劳动力以压低成本。",
+          "source": "仿真例句 · 高考阅读社会与劳动话题高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["exploit workers", "exploit cheap labour", "exploit sb's trust", "exploit the poor"]
+      },
+      {
+        "sense_id": "s_exploit_n_achievement",
+        "text": "功绩、壮举；了不起的成就",
+        "sense_level": "S3",
+        "error_mech": ["E5", "E1"],
+        "is_trap": true,
+        "trap_of": ["利用、充分发挥"],
+        "example": {
+          "en": "The crossing of the frozen river was a remarkable exploit for the two young explorers.",
+          "zh": "穿越那条结冰的河流，对这两位年轻探险者来说是一项了不起的壮举。",
+          "source": "仿真例句 · 高考读后续写故事类高频句式",
+          "carrier": "C5"
+        },
+        "collocations": ["a remarkable exploit", "a bold exploit", "an outstanding exploit", "a heroic exploit"]
+      }
+    ],
+    "confusable": ["explore", "exploration", "explosive", "plot"],
+    "word_family": ["exploit", "exploitation", "exploitative", "exploiter"],
+    "notes": "考场判断法：① 宾语是 energy / oil / coal / natural resources，是「开发、开采」；② 宾语是 advantages / potential / every opportunity，是「充分利用」；③ 主语是人或公司、宾语是 workers / cheap labour，且全句在批评，是贬义「剥削」，这是 E8 情感色彩考点；④ 宾语是具体的壮举（a remarkable exploit），是名词「功绩」。读到 exploit 不要一律想成贬义「剥削」。",
+    "quiz_ids": []
+  },
+  {
+    "id": "w_utter",
+    "headword": "utter",
+    "ipa": "/ˈʌtə(r)/",
+    "level": "T2",
+    "pos": ["v", "adj"],
+    "strategies": ["P2", "P3", "P8"],
+    "carriers": ["C1", "C2", "C5"],
+    "senses": [
+      {
+        "sense_id": "s_utter_v_speak",
+        "text": "说出、开口讲（话、名字）",
+        "sense_level": "S1",
+        "error_mech": [],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "He uttered a few words of apology and then walked away without looking back.",
+          "zh": "他低声说了几句道歉的话，然后头也不回地走了。",
+          "source": "仿真例句 · 高考读后续写人物描写高频句式",
+          "carrier": "C5"
+        },
+        "collocations": ["utter a word", "utter a name", "utter no sound", "utter a greeting"]
+      },
+      {
+        "sense_id": "s_utter_v_express",
+        "text": "表达、吐露（想法、意见）",
+        "sense_level": "S3",
+        "error_mech": ["E1", "E2"],
+        "is_trap": true,
+        "trap_of": ["说出、开口讲"],
+        "example": {
+          "en": "She was careful never to utter a word of complaint, even when the work was exhausting.",
+          "zh": "即使工作累人，她也从不吐露一句抱怨。",
+          "source": "仿真例句 · 高考完形填空人物性格话题高频句式",
+          "carrier": "C2"
+        },
+        "collocations": ["utter an opinion", "utter a doubt", "utter a complaint", "utter no word of praise"]
+      },
+      {
+        "sense_id": "s_utter_v_cry",
+        "text": "发出（叫声、声音）",
+        "sense_level": "S4",
+        "error_mech": ["E4", "E1"],
+        "is_trap": true,
+        "trap_of": ["说出、开口讲", "完全的、彻底的"],
+        "example": {
+          "en": "A faint cry was uttered somewhere in the dark, and everyone in the room fell silent.",
+          "zh": "黑暗中某处传来一声微弱的叫喊，屋里每个人都沉默了。",
+          "source": "仿真例句 · 高考读后续写场景描写高频句式",
+          "carrier": "C5"
+        },
+        "collocations": ["utter a cry", "utter a scream", "utter a sound", "utter a groan"]
+      },
+      {
+        "sense_id": "s_utter_adj_complete",
+        "text": "彻底的、绝顶的；毫无道理的",
+        "sense_level": "S2",
+        "error_mech": ["E1", "E5"],
+        "is_trap": true,
+        "trap_of": ["说出、开口讲"],
+        "example": {
+          "en": "His explanation sounded like utter nonsense, and no one in the room took it seriously.",
+          "zh": "他的解释听上去完全是胡说八道，屋里没人当真。",
+          "source": "仿真例句 · 高考阅读议论文高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["utter nonsense", "utter failure", "utter darkness", "utter stranger"]
+      }
+    ],
+    "confusable": ["utterance", "utterly", "mutter", "utter"],
+    "word_family": ["utter", "utterance", "utterly"],
+    "notes": "考场判断法：① 先看词性：前面带冠词或不定冠词（an utter failure / utter nonsense），是形容词「完全的、彻底的」，不能译成「说出」；② 后面接 words / a cry / a warning / no sound，是动词「说出、发出」，注意 utter no sound 是「一声不吭」；③ 宾语是 doubt / opinion / complaint，是「表达、吐露」；④ 诗歌文学语境里的 utter 多半是「发出声音」的动作描写。写作里形容「胡言乱语」写 utter nonsense。",
+    "quiz_ids": []
+  },
+  {
+    "id": "w_bond",
+    "headword": "bond",
+    "ipa": "/bɒnd/",
+    "level": "T2",
+    "pos": ["n", "v"],
+    "strategies": ["P2", "P6", "P8"],
+    "carriers": ["C1", "C2", "C4"],
+    "senses": [
+      {
+        "sense_id": "s_bond_n_connection",
+        "text": "联结、联系；把人连在一起的东西",
+        "sense_level": "S1",
+        "error_mech": [],
+        "is_trap": false,
+        "trap_of": [],
+        "example": {
+          "en": "Music has always acted as a bond between people from very different backgrounds.",
+          "zh": "音乐一直充当着来自迥异背景的人们之间的纽带。",
+          "source": "仿真例句 · 高考应用文与议论文高频句式",
+          "carrier": "C4"
+        },
+        "collocations": ["a bond between", "a bond of trust", "strengthen a bond", "family bonds"]
+      },
+      {
+        "sense_id": "s_bond_n_financial",
+        "text": "债券；有息债权凭证",
+        "sense_level": "S3",
+        "error_mech": ["E2", "E10"],
+        "is_trap": true,
+        "trap_of": ["纽带、联系"],
+        "example": {
+          "en": "The city issued bonds to pay for the new hospital and the school gym.",
+          "zh": "该市发行债券来支付新医院和学校体育馆的建造费用。",
+          "source": "仿真例句 · 高考阅读财经话题高频句式",
+          "carrier": "C1"
+        },
+        "collocations": ["government bonds", "issue bonds", "bond market", "a ten-year bond"]
+      },
+      {
+        "sense_id": "s_bond_v_strengthen",
+        "text": "建立、加强（信任、情感）联系",
+        "sense_level": "S3",
+        "error_mech": ["E5", "E1"],
+        "is_trap": true,
+        "trap_of": ["纽带、联系"],
+        "example": {
+          "en": "Working on the project together bonded the two classes far more closely than any lecture could.",
+          "zh": "一起做项目让两个班的关系比任何讲座都紧密得多。",
+          "source": "仿真例句 · 高考完形填空校园话题高频句式",
+          "carrier": "C2"
+        },
+        "collocations": ["bond with sb", "bond over sth", "bonded by a common interest", "bonding moment"]
+      }
+    ],
+    "confusable": ["band", "bound", "bonded", "bold"],
+    "word_family": ["bond", "bondage", "bonded", "bonding"],
+    "notes": "考场判断法：① 句中提到 issue / sell / interest rate / government，且主语是机构，是金融义「债券」；② 主语是人、后面接 with sb，是「纽带、情感联系」；③ 动词 bond with sb / bond over sth，是「建立、增强（信任）关系」，主语常是共同经历或活动；④ 注意 bond 既是名词也是动词，语法填空常在名词与动词之间转换。",
+    "quiz_ids": []
+  }
+]
