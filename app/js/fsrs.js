@@ -193,7 +193,8 @@ var Store = (function () {
       startedAt: null,
       quickPractice: {},  // 非 LEX 覆盖词：word → {count, mastery, lastAt}
       learnedAt: {},      // word → 首次学会时间戳（红转绿的时刻）
-      orders: []          // 购买/兑换订单记录，随 learning_state 一起云同步，永久可下载凭证
+      orders: [],         // 购买/兑换订单记录，随 learning_state 一起云同步，永久可下载凭证
+      dailyWrong: {}      // 每日今日任务答错的词：{ 'YYYY-MM-DD': [word,...] }，用于跨天追踪
     };
   }
 
@@ -259,6 +260,28 @@ var Store = (function () {
     return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate());
   }
   function pad(n) { return n < 10 ? '0' + n : '' + n; }
+  /* 相对某日期戳偏移 N 天，返回 YYYY-MM-DD；用于定位「昨日错词」 */
+  function dateKeyOffset(key, delta) {
+    var p = String(key || today()).split('-');
+    var d = new Date(Number(p[0]), Number(p[1]) - 1, Number(p[2]));
+    d.setDate(d.getDate() + delta);
+    return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate());
+  }
+  /* 今日任务答错的词：按日期归档，去重，随学习状态云同步 */
+  function noteDailyWrong(word) {
+    if (!word) return;
+    var st = load();
+    if (!st.dailyWrong) st.dailyWrong = {};
+    var k = today();
+    if (!st.dailyWrong[k]) st.dailyWrong[k] = [];
+    if (st.dailyWrong[k].indexOf(word) < 0) st.dailyWrong[k].push(word);
+    save();
+  }
+  function dailyWrongOn(key) {
+    var st = load();
+    if (!st.dailyWrong || !key) return [];
+    return (st.dailyWrong[key] || []).slice();
+  }
 
   function touchToday() {
     var st = load();
@@ -639,6 +662,13 @@ var Store = (function () {
       }
     }
 
+    /* 昨日错词跨天回带：昨天今日任务答错的词，优先排进今天的复习段，
+     * 并打 prevWrong 标记，答对时可提示「上次错了，这次对了」。 */
+    var prevKey = dateKeyOffset(dateKey, -1);
+    var prevList = dailyWrongOn(prevKey);
+    var prevSet = {};
+    for (var pi = 0; pi < prevList.length; pi++) prevSet[prevList[pi]] = 1;
+
     var buckets = { new: [], review: [], consolidate: [] };
     for (var j = 0; j < all.length; j++) {
       var m = all[j];
@@ -649,7 +679,8 @@ var Store = (function () {
         w: m.w, meta: m, progress: p,
         due: sm.due, r: sm.r, lapses: sm.lapses,
         theme: m.theme || '', tier: m.tier || 'recommended', deep: !!m.deep,
-        learned: p.learned, mastery: p.mastery, practiced: p.practiced, stage: ''
+        learned: p.learned, mastery: p.mastery, practiced: p.practiced, stage: '',
+        prevWrong: !!prevSet[m.w]
       };
       if (!p.learned) {
         buckets.new.push(it);
@@ -666,6 +697,14 @@ var Store = (function () {
         else buckets.consolidate.push(it);
       }
     }
+
+    /* 昨日错词强制归入复习段（可能原本在巩固/新学段），确保跨天回带兑现 */
+    ['new', 'consolidate'].forEach(function (k) {
+      buckets[k] = buckets[k].filter(function (it) {
+        if (it.prevWrong) { buckets.review.push(it); return false; }
+        return true;
+      });
+    });
 
     /* 用户选择的模式：决定同优先级内以什么顺序取词 */
     function modeCompare(a, b) {
@@ -686,6 +725,7 @@ var Store = (function () {
           if (ta !== tb) return ta - tb;                 // 必考层优先装入
           if (a.deep !== b.deep) return a.deep ? -1 : 1; // 精修词优先
         } else if (k === 'review') {
+          if (!!a.prevWrong !== !!b.prevWrong) return a.prevWrong ? -1 : 1; // 昨日错词最优先
           var da = isFinite(a.due) ? a.due : 9999, db = isFinite(b.due) ? b.due : 9999;
           if (da !== db) return da - db;                 // 越早到期越先复习
         } else {
@@ -737,7 +777,10 @@ var Store = (function () {
     return {
       mode: mode, dateKey: dateKey, total: items.length, counts: counts,
       items: items, words: items.map(function (x) { return x.w; }),
-      themeFocus: themeFocus, generatedAt: Date.now()
+      themeFocus: themeFocus, generatedAt: Date.now(),
+      prevWrongWords: prevList,
+      prevWrongCount: prevList.length,
+      prevWrongInPlan: items.filter(function (x) { return x.prevWrong; }).length
     };
   }
 
@@ -822,6 +865,7 @@ var Store = (function () {
     practiceVariant: practiceVariant, studyMeta: studyMeta,
     learnedCount: learnedCount, newWordsToday: newWordsToday,
     dailyPlan: dailyPlan, DAILY_TOTAL: DAILY_TOTAL,
+    noteDailyWrong: noteDailyWrong, dailyWrongOn: dailyWrongOn, dateKeyOffset: dateKeyOffset, today: today,
     levelInfo: levelInfo, milestoneList: milestoneList,
     crossedMilestone: crossedMilestone, crossedLevel: crossedLevel,
     newWordsLast7Days: newWordsLast7Days, masteryDistribution: masteryDistribution

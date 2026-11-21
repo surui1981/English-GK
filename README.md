@@ -34,10 +34,10 @@
 
 | 路径 | 说明 |
 | --- | --- |
-| `app/` | **唯一可维护源**。`index.html` + `styles.css` + `js/`（config / cloud / fsrs / lex / data / app / boot）+ `admin/`（兑换码后台） |
+| `app/` | **唯一可维护源**。`index.html` + `styles.css` + `js/`（config / cloud / fsrs / lex / data / app / boot）+ `admin/`（兑换码后台，含「产品说明 · 使用场景」折叠面板）。用户端打开即应用本体：桌面居中预览，手机端全屏铺满；产品方案与变现位介绍只在后台可见 |
 | `prototype/` | 构建产物。`src/fsrs.js`、`src/lex.js` 是源文件副本；`index.html` 由 `tools/build_prototype.py` 内联生成，供轻量测试与离线预览 |
 | `data/product/` | 商品级数据源：`word_coverage.json`（4110 词）、`ai_paraphrase.json`（443 词自研释义）、`context_book.json`（1500 词）、`colloc_book.json`（443 词 / 2302 搭配）、`quiz_book.json`（100 题）、`trap_variants.json`（443 词 / 3370 条变体提示）、`plan_book.json` |
-| `tools/` | 构建与校验流水线：`build_*.py` 生成数据/产物；`build_prototype.py` 内联多文件为单文件；`test_progress.js` / `test_cloud.js` / `test_daily.js` / `test_alpha.js` / `test_answerflow.js` / `test_pricing.js` / `test_orders.js` 为回归测试 |
+| `tools/` | 构建与校验流水线：`build_*.py` 生成数据/产物；`build_prototype.py` 内联多文件为单文件；`test_progress.js` / `test_cloud.js` / `test_daily.js` / `test_alpha.js` / `test_answerflow.js` / `test_pricing.js` / `test_orders.js` / `test_sticky.js` 为回归测试 |
 | `docs/` | 教研与商品化方案文档 |
 | `output/` | 成品 PDF：训练册与体验样张 |
 | `data/`（根目录） | 素材库与教材原件（内部使用，见「版权与合规红线」） |
@@ -60,6 +60,7 @@ node tools/test_alpha.js      # A-Z 字母索引/统计/筛选：18 项
 node tools/test_answerflow.js # 答对自动下一题/答错翻卡：23 项
 node tools/test_pricing.js    # 两档定价/权益/周报分层：33 项
 node tools/test_orders.js     # 订单记录/永久下载凭证：27 项
+node tools/test_sticky.js     # 收官卡/错词跨天追踪：30 项
 ```
 
 云端登录、兑换码等真实链路依赖线上域名，需通过分享链接访问测试。
@@ -181,6 +182,8 @@ node tools/test_orders.js     # 订单记录/永久下载凭证：27 项
 **粘性闭环**
 
 - 每日任务固定 20 词，按「新学 → 复习 → 巩固」三段组卷；答对自动下一题，答错翻卡看义项并回流队尾。
+- 错词跨天追踪：当日答错的词按日期归档，次日优先回带进复习段；任务卡显示「昨日错词 N 个已排进今天」，答对时给「上次错了，这次对了」正反馈。
+- 收官卡：本轮结束展示真实正确率、三段构成、昨日错词攻克数、连续打卡、距高考剩余词量，可本地生成成果图（不上传、不含个人信息）。
 - 高考黑卡、连续打卡、成长等级与里程碑、近 7 天新学趋势、红绿进度共同提供「看得见的进步」。
 - 失分地图 → 一键攻克 Top10 错词 → 回流今日任务 → 学习周报验证下周效果，形成归因到行动的闭环。
 - 游客可用全部学习功能，本地暂存、登录后合并上云，不用先注册就能体验价值。

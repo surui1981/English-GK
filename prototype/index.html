@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>拾词 · 高考英语核心词</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -41,9 +41,11 @@ button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
 svg{display:block}
 ::selection{background:var(--accent);color:#fff}
 
-/* ---------- layout ---------- */
-.layout{max-width:1320px;margin:0 auto;display:grid;grid-template-columns:296px minmax(0,1fr);gap:34px;align-items:start}
-.side{position:sticky;top:28px;max-height:calc(100vh - 56px);overflow:auto;padding-right:6px}
+/* ---------- layout ----------
+ * 用户端只呈现应用本体：桌面端居中手机预览，手机端全屏铺满。
+ * 使用场景 / 产品方案介绍已移交管理后台 app/admin/index.html。 */
+.layout{max-width:none;margin:0;display:flex;justify-content:center;align-items:flex-start}
+.side{display:none}
 .side::-webkit-scrollbar{width:5px}
 .side::-webkit-scrollbar-thumb{background:#d5dbd5;border-radius:4px}
 
@@ -107,6 +109,30 @@ svg{display:block}
 .tab span{white-space:nowrap}
 
 /* ---------- review · 学习复盘 ---------- */
+/* 今日任务收官卡：把完成变成看得见的成就 */
+.dw-wrap{padding:8px 2px 4px}
+.dw-hero{text-align:center;background:linear-gradient(150deg,#0f766e,#115e59);color:#fff;border-radius:18px;padding:22px 16px 20px}
+.dw-ic{width:50px;height:50px;border-radius:50%;background:rgba(255,255,255,.16);display:grid;place-items:center;margin:0 auto 8px}
+.dw-k{font-size:15px;font-weight:700;letter-spacing:.02em}
+.dw-acc{font-family:'Outfit',sans-serif;font-weight:700;line-height:1;margin:14px 0 4px}
+.dw-acc b{font-size:66px}
+.dw-acc small{font-size:26px;margin-left:3px;opacity:.85}
+.dw-accsub{font-size:11.5px;opacity:.82}
+.dw-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin:12px 0}
+.dw-cell{background:#fff;border:1px solid var(--line);border-radius:13px;padding:12px 4px;text-align:center}
+.dw-cell b{display:block;font-family:'Outfit',sans-serif;font-size:21px;color:var(--accent-deep)}
+.dw-cell span{font-size:10.5px;color:var(--ink-3)}
+.dw-lines{background:#fff;border:1px solid var(--line);border-radius:14px;padding:4px 13px;margin-bottom:14px}
+.dw-line{display:flex;align-items:center;gap:8px;padding:11px 0;border-bottom:1px solid var(--line-2);font-size:12px}
+.dw-line:last-child{border-bottom:0}
+.dw-line .li{color:var(--ink-2)}
+.dw-line b{margin-left:auto;font-family:'Outfit',sans-serif;font-size:14px;color:var(--accent-deep)}
+.dw-line .hint{font-size:10px;color:var(--ink-3);width:96px;text-align:right}
+
+/* 今日任务：昨日错词跨天回带提示 */
+.dp-prevw{display:flex;align-items:center;gap:5px;font-size:11px;color:var(--danger);background:var(--danger-tint);border-radius:9px;padding:7px 9px;margin:8px 0 2px;line-height:1.4}
+.dp-prevw b{font-family:'Outfit',sans-serif;font-size:12.5px}
+
 .rv-tabs{display:flex;gap:5px;background:#eef1ed;border-radius:13px;padding:4px;margin:2px 0 15px}
 .rv-tab{flex:1;min-width:0;border:0;background:transparent;border-radius:10px;padding:9px 0;font-size:12.5px;font-weight:600;color:var(--ink-3);transition:background .18s,color .18s}
 .rv-tab.on{background:#fff;color:var(--accent-deep);box-shadow:var(--shadow-s)}
@@ -703,15 +729,21 @@ svg{display:block}
 .hintbar kbd{font-family:'JetBrains Mono',monospace;font-size:10px;background:#fff;border:1px solid var(--line);border-bottom-width:2px;border-radius:5px;padding:1px 5px;color:var(--ink-2)}
 
 @media(max-width:1080px){
-  .layout{grid-template-columns:1fr;gap:26px}
-  .side{position:static;max-height:none}
-  .navlist{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:6px}
+  .side{display:none}
 }
-@media(max-width:440px){
-  body{padding:16px 10px 30px}
-  .phone{width:100%;max-width:390px;height:780px;padding:8px;border-radius:40px}
-  .bezel{border-radius:32px}
-  .notch{width:90px}
+/* 手机端：全屏原生应用体验，去掉原型手机的边框 / 刘海 / 状态栏 / 指示条 */
+@media(max-width:640px){
+  body{padding:0;background:var(--canvas);overflow:hidden}
+  .layout{display:block;width:100%;height:100vh;height:100dvh}
+  .main{display:block;width:100%;height:100vh;height:100dvh;gap:0}
+  .phone{width:100%;height:100vh;height:100dvh;padding:0;border-radius:0;box-shadow:none;background:var(--canvas)}
+  .bezel{border-radius:0}
+  .notch,.statusbar,.home-ind{display:none}
+  .screen{padding-bottom:20px}
+  .tabbar{height:64px}
+  .phone.no-tab .tabbar{border-radius:0}
+  /* 底部安全区（iPhone Home 条）交给 tabbar 内边距，不额外占用内容 */
+  .tabbar{padding-bottom:max(14px,env(safe-area-inset-bottom))}
 }
 /* ===== 单词进度列表（全量覆盖词 · 红绿状态） ===== */
 .pg-stat{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin:2px 2px 12px}
@@ -952,67 +984,7 @@ svg{display:block}
 <body>
 <div class="layout">
 
-  <!-- ================= SIDEBAR ================= -->
-  <aside class="side">
-    <div class="brand">
-      <div class="brand-mark">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5V5a2 2 0 0 1 2-2h13"/><path d="M6 17h13"/><path d="M9 7h6"/></svg>
-      </div>
-      <h1>拾词</h1>
-      <span class="ver">v1.0</span>
-    </div>
-    <div id="cloudStatus" style="display:none;font-size:11px;padding:7px 10px;margin:8px 0 0;border-radius:8px;background:var(--accent-tint)"></div>
-    <p class="side-lede">高考英语核心词汇工具 · 面向<b>工具订阅 + 资料电商</b>双引擎的独立开发者方案</p>
-    <span class="tagline">专治「认识却用不对」</span>
-
-    <h2>页面地图</h2>
-    <nav class="navlist" id="nav"></nav>
-
-    <h2>核心闭环</h2>
-    <div class="flowcard">
-      <svg viewBox="0 0 240 132" width="100%" height="132" fill="none">
-        <defs><marker id="ar" markerWidth="7" markerHeight="7" refX="5.5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#10b981"/></marker></defs>
-        <rect x="8" y="14" width="62" height="42" rx="11" fill="#ecfdf5" stroke="#10b981" stroke-width="1.4"/>
-        <text x="39" y="33" font-size="10.5" font-weight="700" fill="#047857" text-anchor="middle" font-family="Outfit,sans-serif">发现</text>
-        <text x="39" y="46" font-size="9" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC,sans-serif">首页/错因</text>
-        <rect x="89" y="14" width="62" height="42" rx="11" fill="#ecfdf5" stroke="#10b981" stroke-width="1.4"/>
-        <text x="120" y="33" font-size="10.5" font-weight="700" fill="#047857" text-anchor="middle" font-family="Outfit,sans-serif">学习</text>
-        <text x="120" y="46" font-size="9" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC,sans-serif">背词/专项</text>
-        <rect x="170" y="14" width="62" height="42" rx="11" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.4"/>
-        <text x="201" y="33" font-size="10.5" font-weight="700" fill="#b45309" text-anchor="middle" font-family="Outfit,sans-serif">付费</text>
-        <text x="201" y="46" font-size="9" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC,sans-serif">全包/资料</text>
-        <path d="M70 35 H86" stroke="#10b981" stroke-width="1.6" marker-end="url(#ar)"/>
-        <path d="M151 35 H167" stroke="#10b981" stroke-width="1.6" marker-end="url(#ar)"/>
-        <path d="M201 58 V92 H39 V60" stroke="#10b981" stroke-width="1.6" stroke-dasharray="4 3" marker-end="url(#ar)"/>
-        <text x="120" y="106" font-size="9.5" fill="#047857" text-anchor="middle" font-family="Noto Sans SC,sans-serif">错因回流 · 精准补弱</text>
-        <text x="120" y="121" font-size="9" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC,sans-serif">复购来自数据变好，不靠打扰</text>
-      </svg>
-    </div>
-
-    <h2>关键设计决策</h2>
-    <ul class="dlist">
-      <li><span class="k">01</span><span><b>首页不叫「背单词」，叫「今日任务」。</b>把 20 词拆成 8 分钟可完成的小目标，高三用户要的是确定性，不是词库规模。</span></li>
-      <li><span class="k">02</span><span><b>背词卡强制翻面才可评价。</b>三档（不认识/模糊/认识）直接喂给间隔重复算法，是留存的地基。</span></li>
-      <li><span class="k">03</span><span><b>「熟词僻义」是唯一的差异化专项。</b>免费用户可试 3 题，第 4 题起进付费墙 —— 首次付费点放在最痛的地方。</span></li>
-      <li><span class="k">04</span><span><b>失分地图把 App 从工具变成诊断。</b>按错因归类（不是按词表），直接呈现可解释的失分归因逻辑。</span></li>
-      <li><span class="k">05</span><span><b>资料电商挂在词库旁边。</b>用户刚背完 150 词 → 立刻推《仿真语境手册》，转化路径最短。</span></li>
-      <li><span class="k">06</span><span><b>学习周报免费开放。</b>用「看得见的进步」建立信任，再谈付费。</span></li>
-    </ul>
-
-    <h2>变现位标注</h2>
-    <ul class="dlist">
-      <li><span class="k">A</span><span>专项训练第 4 题起 · 全包 ¥9.9（含四本书 + 完整周报）</span></li>
-      <li><span class="k">B</span><span>失分地图完整版 · 含在全包 ¥9.9 内</span></li>
-      <li><span class="k">C</span><span>资料商店 · 四本读本各 ¥2.9（单本一次买断）</span></li>
-      <li><span class="k">D</span><span>仿真语境例句库（核心壁垒）· 含在全包内</span></li>
-    </ul>
-
-    <div class="sidefoot">
-      原型为<b>静态高保真交互稿</b>，无后端。<br>
-      词条例句为<b>仿真例句</b>，规避版权风险。<br>
-      直接双击文件即可离线打开：<code>prototype/index.html</code>
-    </div>
-  </aside>
+  <!-- 使用场景与产品方案介绍已移至管理后台 app/admin/index.html -->
 
   <!-- ================= STAGE ================= -->
   <main class="main">
@@ -1075,6 +1047,7 @@ svg{display:block}
                   </div>
                 </div>
                 <div class="dp-seg" id="dpSeg"></div>
+                <div class="dp-prevw" id="dpPrevWrong" style="display:none"></div>
                 <div class="dp-orders" id="dpOrders">
                   <button data-o="alpha" onclick="setDailyOrder('alpha')">字母顺序</button>
                   <button data-o="theme" class="on" onclick="setDailyOrder('theme')">词义相近</button>
@@ -1530,13 +1503,6 @@ svg{display:block}
       </div>
     </div>
 
-    <div class="caption" id="caption"></div>
-
-    <div class="hintbar">
-      <span>点卡片翻面 · 三档评价喂给记忆算法</span>
-      <span><kbd>←</kbd> <kbd>→</kbd> 切页</span>
-      <span>全包弹窗 / 下单流程可点 <kbd>资料</kbd> <kbd>我的</kbd> 进入</span>
-    </div>
   </main>
 </div>
 
@@ -2056,7 +2022,8 @@ var Store = (function () {
       startedAt: null,
       quickPractice: {},  // 非 LEX 覆盖词：word → {count, mastery, lastAt}
       learnedAt: {},      // word → 首次学会时间戳（红转绿的时刻）
-      orders: []          // 购买/兑换订单记录，随 learning_state 一起云同步，永久可下载凭证
+      orders: [],         // 购买/兑换订单记录，随 learning_state 一起云同步，永久可下载凭证
+      dailyWrong: {}      // 每日今日任务答错的词：{ 'YYYY-MM-DD': [word,...] }，用于跨天追踪
     };
   }
 
@@ -2122,6 +2089,28 @@ var Store = (function () {
     return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate());
   }
   function pad(n) { return n < 10 ? '0' + n : '' + n; }
+  /* 相对某日期戳偏移 N 天，返回 YYYY-MM-DD；用于定位「昨日错词」 */
+  function dateKeyOffset(key, delta) {
+    var p = String(key || today()).split('-');
+    var d = new Date(Number(p[0]), Number(p[1]) - 1, Number(p[2]));
+    d.setDate(d.getDate() + delta);
+    return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate());
+  }
+  /* 今日任务答错的词：按日期归档，去重，随学习状态云同步 */
+  function noteDailyWrong(word) {
+    if (!word) return;
+    var st = load();
+    if (!st.dailyWrong) st.dailyWrong = {};
+    var k = today();
+    if (!st.dailyWrong[k]) st.dailyWrong[k] = [];
+    if (st.dailyWrong[k].indexOf(word) < 0) st.dailyWrong[k].push(word);
+    save();
+  }
+  function dailyWrongOn(key) {
+    var st = load();
+    if (!st.dailyWrong || !key) return [];
+    return (st.dailyWrong[key] || []).slice();
+  }
 
   function touchToday() {
     var st = load();
@@ -2502,6 +2491,13 @@ var Store = (function () {
       }
     }
 
+    /* 昨日错词跨天回带：昨天今日任务答错的词，优先排进今天的复习段，
+     * 并打 prevWrong 标记，答对时可提示「上次错了，这次对了」。 */
+    var prevKey = dateKeyOffset(dateKey, -1);
+    var prevList = dailyWrongOn(prevKey);
+    var prevSet = {};
+    for (var pi = 0; pi < prevList.length; pi++) prevSet[prevList[pi]] = 1;
+
     var buckets = { new: [], review: [], consolidate: [] };
     for (var j = 0; j < all.length; j++) {
       var m = all[j];
@@ -2512,7 +2508,8 @@ var Store = (function () {
         w: m.w, meta: m, progress: p,
         due: sm.due, r: sm.r, lapses: sm.lapses,
         theme: m.theme || '', tier: m.tier || 'recommended', deep: !!m.deep,
-        learned: p.learned, mastery: p.mastery, practiced: p.practiced, stage: ''
+        learned: p.learned, mastery: p.mastery, practiced: p.practiced, stage: '',
+        prevWrong: !!prevSet[m.w]
       };
       if (!p.learned) {
         buckets.new.push(it);
@@ -2529,6 +2526,14 @@ var Store = (function () {
         else buckets.consolidate.push(it);
       }
     }
+
+    /* 昨日错词强制归入复习段（可能原本在巩固/新学段），确保跨天回带兑现 */
+    ['new', 'consolidate'].forEach(function (k) {
+      buckets[k] = buckets[k].filter(function (it) {
+        if (it.prevWrong) { buckets.review.push(it); return false; }
+        return true;
+      });
+    });
 
     /* 用户选择的模式：决定同优先级内以什么顺序取词 */
     function modeCompare(a, b) {
@@ -2549,6 +2554,7 @@ var Store = (function () {
           if (ta !== tb) return ta - tb;                 // 必考层优先装入
           if (a.deep !== b.deep) return a.deep ? -1 : 1; // 精修词优先
         } else if (k === 'review') {
+          if (!!a.prevWrong !== !!b.prevWrong) return a.prevWrong ? -1 : 1; // 昨日错词最优先
           var da = isFinite(a.due) ? a.due : 9999, db = isFinite(b.due) ? b.due : 9999;
           if (da !== db) return da - db;                 // 越早到期越先复习
         } else {
@@ -2600,7 +2606,10 @@ var Store = (function () {
     return {
       mode: mode, dateKey: dateKey, total: items.length, counts: counts,
       items: items, words: items.map(function (x) { return x.w; }),
-      themeFocus: themeFocus, generatedAt: Date.now()
+      themeFocus: themeFocus, generatedAt: Date.now(),
+      prevWrongWords: prevList,
+      prevWrongCount: prevList.length,
+      prevWrongInPlan: items.filter(function (x) { return x.prevWrong; }).length
     };
   }
 
@@ -2685,6 +2694,7 @@ var Store = (function () {
     practiceVariant: practiceVariant, studyMeta: studyMeta,
     learnedCount: learnedCount, newWordsToday: newWordsToday,
     dailyPlan: dailyPlan, DAILY_TOTAL: DAILY_TOTAL,
+    noteDailyWrong: noteDailyWrong, dailyWrongOn: dailyWrongOn, dateKeyOffset: dateKeyOffset, today: today,
     levelInfo: levelInfo, milestoneList: milestoneList,
     crossedMilestone: crossedMilestone, crossedLevel: crossedLevel,
     newWordsLast7Days: newWordsLast7Days, masteryDistribution: masteryDistribution
@@ -15911,6 +15921,7 @@ let studyMode='smart', studyQueue=[], studyPos=0, studyAnswered=false;
 let studyRight=0, studyWrong=0, studyRequeued=0; // 本轮统计
 let curQ=null; // 当前题目 {type,lw,prompt,options,answer,explain,senseId}
 let dailyFlipped=false;       // 今日任务答错后词卡是否翻到背面（展示词义详情）
+let dailyPrevWrongFixed=0;    // 本轮答对的「昨日错词」数量，收官卡展示跨天攻克成果
 let dailyAutoAdvanceTimer=null; // 答对自动下一题的定时器
 let dailyAutoAdvanceFn=null;  // 答对自动前进动作（庆祝弹层 CTA 复用）
 /* 今日任务组卷：用户选的排序模式 + 本日缓存（同一天同一模式只算一次） */
@@ -15993,14 +16004,16 @@ function go(id){
   if(reviewPanel) setReviewPanel(reviewPanel,true);
   document.getElementById('screens').scrollTop=0;
   const sc=document.getElementById(id); if(sc) sc.scrollTop=0;
-  const m=META[id]; if(m){document.getElementById('caption').innerHTML=
+  const m=META[id], cap=document.getElementById('caption');
+  if(m&&cap){cap.innerHTML=
     '<div class="ic"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01"/><path d="M11 12h1v4h1"/></svg></div><div><b>'+m[0]+'</b><p>'+m[1]+'</p></div>';}
   document.querySelectorAll('.navitem').forEach(n=>n.classList.toggle('on',n.dataset.go===id));
   if(id==='s-progress'&&typeof renderProgress==='function')renderProgress();
   if(typeof syncStats==='function') syncStats();
 }
 function buildNav(){
-  document.getElementById('nav').innerHTML=NAVLIST.map((n,i)=>
+  const nav=document.getElementById('nav'); if(!nav)return;
+  nav.innerHTML=NAVLIST.map((n,i)=>
     '<button class="navitem" data-go="'+n[0]+'" onclick="go(\''+n[0]+'\')"><span class="n">'+String(i+1).padStart(2,'0')+'</span><span><span class="t">'+n[1]+'</span> <span class="d">'+n[2]+'</span>'+(n[3]?'<br><span class="pay">变现点</span>':'')+'</span></button>').join('');
 }
 document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{
@@ -16032,6 +16045,14 @@ function renderDailyCard(){
   const sub=document.getElementById('dpSub');
   if(sub) sub.textContent=plan.total+' 词闭环 · 预计 '+Math.max(4,Math.round(plan.total*0.4))+' 分钟'+
     (plan.themeFocus?(' · 聚焦「'+plan.themeFocus.replace(/^T-/,'' )+'」'):'');
+  // 昨日错词跨天回带：把「上次错了、今天重点看」直接写进任务卡
+  const pw=document.getElementById('dpPrevWrong');
+  if(pw){
+    const n=plan.prevWrongInPlan||0;
+    pw.style.display=n?'':'none';
+    if(n) pw.innerHTML='<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></svg>'+
+      '昨日错词 <b>'+n+'</b> 个已排进今天 · 上次错了，这次重点看';
+  }
   document.querySelectorAll('#dpOrders button').forEach(b=>b.classList.toggle('on',b.dataset.o===dailyOrder));
   const peek=document.getElementById('dpPeek');
   if(peek){
@@ -16077,7 +16098,7 @@ function buildStudyQueue(mode){
         const lw=LEX.find(x=>x.w===it.w);
         if(lw){
           const copy=Object.assign({},lw);
-          copy.stage=it.stage;copy.i=idx;copy.fast=false;
+          copy.stage=it.stage;copy.i=idx;copy.fast=false;copy.prevWrong=!!it.prevWrong;
           return copy;
         }
       }
@@ -16086,7 +16107,7 @@ function buildStudyQueue(mode){
         w:it.w, ipa:m.ipa||'', pos:Array.isArray(m.pos)?m.pos:(m.pos?[m.pos]:[]),
         level:m.tier==='required'?'T1':'T2', theme:it.theme||'', stage:it.stage,
         word_family:[], confusable:[], senses:[], focus:null, i:idx,
-        is_trap:false, trap_count:0, fast:true
+        is_trap:false, trap_count:0, fast:true, prevWrong:!!it.prevWrong
       };
     });
   }
@@ -16281,7 +16302,7 @@ function setStudyMode(mode){
 }
 function resetStudy(){
   if(dailyAutoAdvanceTimer){clearTimeout(dailyAutoAdvanceTimer);dailyAutoAdvanceTimer=null;}
-  dailyAutoAdvanceFn=null;dailyFlipped=false;
+  dailyAutoAdvanceFn=null;dailyFlipped=false;dailyPrevWrongFixed=0;
   studyQueue=buildStudyQueue(studyMode);
   studyPos=0;studyAnswered=false;studyRight=0;studyWrong=0;studyRequeued=0;
   wIdx=0;flipped=false;rated={unknown:0,vague:0,known:0};sched=null;
@@ -16683,9 +16704,10 @@ function renderStudy(){
     const ok=q.picked===q.answer;
     if(studyMode==='daily'){
       if(ok){
-        // 答对：只给轻反馈，自动跳题，无需点击
-        feedHtml='<div class="qfeed ok"><b>答对了 · 正在进入下一题…</b>'+
-          '<div class="why">掌握度已更新，这个词会按遗忘曲线安排下次复习</div></div>';
+        // 答对：只给轻反馈，自动跳题；昨日错词答对给专属正反馈
+        const wasWrong=!!lw.prevWrong;
+        feedHtml='<div class="qfeed ok"><b>'+(wasWrong?'上次错了，这次对了 · 正在进入下一题…':'答对了 · 正在进入下一题…')+'</b>'+
+          '<div class="why">'+(wasWrong?'昨天的错词今天拿下了，这个词会拉长复习间隔':'掌握度已更新，这个词会按遗忘曲线安排下次复习')+'</div></div>';
       }else{
         // 答错：词卡已翻到背面，展示完整词义，用户看完再点下一题
         feedHtml='<div class="qfeed no"><b>答错了 · 已翻开词卡背面</b>'+
@@ -16755,6 +16777,10 @@ function answerQuestion(i){
     sched={s:res.card.s,d:res.card.d,iv:res.interval,r:res.r,label:ok?'答对':'答错',famIv:fres.interval};
   }
   if(ok)studyRight++;else studyWrong++;
+  if(studyMode==='daily'){
+    if(!ok) Store.noteDailyWrong(lw.w);                    // 错词归档，供次日跨天回带
+    else if(lw.prevWrong) dailyPrevWrongFixed++;           // 昨日错词今天拿下，收官卡展示
+  }
   syncStats();
   // 清理上一次可能残留的自动跳题定时器
   if(dailyAutoAdvanceTimer){clearTimeout(dailyAutoAdvanceTimer);dailyAutoAdvanceTimer=null;}
@@ -16763,8 +16789,9 @@ function answerQuestion(i){
   if(studyMode==='daily'){
     dailyFlipped=!ok; // 答错翻到背面看词义，答对保持正面
     if(ok){
-      // 答对：轻 toast，交给自动前进（有庆祝弹层时由 CTA 触发）
-      showReward('答对了', lw.w+' · 自动进入下一题', false);
+      // 答对：轻 toast；昨日错词答对给专属正反馈
+      showReward(lw.prevWrong?'上次错了，这次对了':'答对了',
+        lw.w+' · '+(lw.prevWrong?'昨日错词已拿下':'自动进入下一题'), false);
       renderGrowth(true);
       dailyAutoAdvanceFn=function(){
         dailyAutoAdvanceFn=null;
@@ -16873,7 +16900,86 @@ function dailyCardBackHtml(lw){
   }
   return s;
 }
+/* ==================== 今日任务收官卡 ====================
+ * 把「做完 20 词」变成看得见的成就：正确率 / 三段构成 / 昨日错词攻克 /
+ * 连续打卡 / 距高考剩余词量，全部来自真实 Store 与本次作答统计。
+ * 可一键生成成果图（canvas 本地绘制，不上传、不含任何个人信息）。 */
+function dailyWrapData(){
+  const total=studyRight+studyWrong;
+  const plan=getDailyPlan();
+  const st=Store.stats();
+  const learnedAll=(typeof CTX_COVERAGE!=='undefined'&&CTX_COVERAGE.all)?CTX_COVERAGE.all.length:4110;
+  const remain=Math.max(0,learnedAll-Store.learnedCount());
+  const days=Math.max(0,Math.ceil((GAOKAO_DATE-new Date())/86400000));
+  return {
+    right:studyRight, wrong:studyWrong, answered:total,
+    acc:total?Math.round(studyRight/total*100):0,
+    counts:plan.counts||{new:0,review:0,consolidate:0},
+    prevFixed:dailyPrevWrongFixed, streak:st.streak||0,
+    remain:remain, days:days, learned:Store.learnedCount(), total:learnedAll
+  };
+}
+function renderDailyWrap(){
+  const d=dailyWrapData();
+  const planTotal=(getDailyPlan().total)||studyQueue.length;
+  document.getElementById('spbar').style.width='100%';
+  // 答错会重排追加队列，用真实作答数收口，避免出现 21/20 这类不自洽数字
+  document.getElementById('scnt').textContent=d.answered+'/'+planTotal;
+  const seg=d.counts;
+  document.getElementById('studyBody').innerHTML=
+    '<div class="dw-wrap">'+
+      '<div class="dw-hero">'+
+        '<div class="dw-ic"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></div>'+
+        '<div class="dw-k">今日任务完成</div>'+
+        '<div class="dw-acc"><b>'+d.acc+'</b><small>%</small></div>'+
+        '<div class="dw-accsub">本轮正确率 · 答对 '+d.right+' / 作答 '+d.answered+'</div>'+
+      '</div>'+
+      '<div class="dw-grid">'+
+        '<div class="dw-cell"><b>'+seg.new+'</b><span>新学</span></div>'+
+        '<div class="dw-cell"><b>'+seg.review+'</b><span>复习</span></div>'+
+        '<div class="dw-cell"><b>'+seg.consolidate+'</b><span>巩固</span></div>'+
+      '</div>'+
+      '<div class="dw-lines">'+
+        '<div class="dw-line"><span class="li">昨日错词攻克</span><b>'+d.prevFixed+' 个</b><span class="hint">'+(d.prevFixed?'上次错，这次对了':'今天没有回带的错词')+'</span></div>'+
+        '<div class="dw-line"><span class="li">连续打卡</span><b>'+d.streak+' 天</b><span class="hint">保持节奏</span></div>'+
+        '<div class="dw-line"><span class="li">距 2027 高考</span><b>'+d.days+' 天</b><span class="hint">还剩 '+d.remain+' 词没学</span></div>'+
+      '</div>'+
+      '<button class="btn btn-primary" onclick="exportDailyPoster()">生成今日成果图</button>'+
+      '<button class="btn btn-ghost" style="margin-top:9px" onclick="resetStudy()">再来一轮</button>'+
+      '<button class="btn btn-line" style="margin-top:4px" onclick="go(\'s-home\')">回到首页看进步</button>'+
+    '</div>';
+  const scr=document.getElementById('s-study');if(scr)scr.scrollTop=0;
+}
+function exportDailyPoster(){
+  const d=dailyWrapData();
+  if(typeof document.createElement!=='function')return null;
+  const cv=document.createElement('canvas');
+  if(!cv||typeof cv.getContext!=='function')return null;
+  cv.width=750;cv.height=1000;
+  const g=cv.getContext('2d');
+  g.fillStyle='#0f766e';g.fillRect(0,0,750,1000);
+  g.fillStyle='#ffffff';g.font='bold 40px sans-serif';g.fillText('拾词 · 今日任务完成',60,110);
+  g.font='bold 150px sans-serif';g.fillText(d.acc+'%',60,300);
+  g.font='30px sans-serif';g.fillText('本轮正确率 · 答对 '+d.right+' / '+d.answered,60,350);
+  g.font='28px sans-serif';
+  g.fillText('新学 '+d.counts.new+'  ·  复习 '+d.counts.review+'  ·  巩固 '+d.counts.consolidate,60,430);
+  g.fillText('昨日错词攻克 '+d.prevFixed+' 个',60,480);
+  g.fillText('连续打卡 '+d.streak+' 天',60,530);
+  g.fillText('距 2027 高考 '+d.days+' 天 · 还剩 '+d.remain+' 词',60,580);
+  g.font='24px sans-serif';g.fillStyle='#b7e4dd';
+  g.fillText('例句为仿真语境 · 不含真题与教材原文',60,900);
+  let url='';
+  try{ url=cv.toDataURL('image/png'); }catch(e){ return null; }
+  const a=document.createElement('a');
+  a.href=url;a.download='拾词今日成果.png';
+  const p=document.body||document.documentElement;
+  if(p&&p.appendChild)p.appendChild(a);
+  if(typeof a.click==='function')a.click();
+  if(a.parentNode&&a.parentNode.removeChild)a.parentNode.removeChild(a);
+  return {href:url.slice(0,30),name:a.download};
+}
 function renderStudyDone(){
+  if(studyMode==='daily'){ renderDailyWrap(); return; }
   const total=studyRight+studyWrong;
   const acc=total?Math.round(studyRight/total*100):0;
   document.getElementById('spbar').style.width='100%';
@@ -17494,7 +17600,10 @@ function renderParentReport(){
   set('rpCheckSub',(st.days&&st.days.length)?('累计打卡 '+st.days.length+' 天'):'今天开始第一次打卡');
   if(stat){set('kpiAcc',stat.quizAnswered?stat.accuracy+'%':'—');set('kpiCheckin',stat.streak+'/7');}
   const counts=[0,0,0,0,0,0,0];
-  stamps.forEach(t=>{const d=new Date(t); if(d>=mon&&d<=sun) counts[(d.getDay()+6)%7]++;});
+  stamps.forEach(t=>{
+    if(t<mon.getTime()||t>weekEnd)return;
+    const d=new Date(t); counts[(d.getDay()+6)%7]++;
+  });
   const max=Math.max.apply(null,counts.concat([1]));
   const bars=$('weekBars');
   if(bars) bars.innerHTML=['一','二','三','四','五','六','日'].map((l,i)=>

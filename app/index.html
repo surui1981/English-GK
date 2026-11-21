@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>拾词 · 高考英语核心词</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,67 +13,7 @@
 <body>
 <div class="layout">
 
-  <!-- ================= SIDEBAR ================= -->
-  <aside class="side">
-    <div class="brand">
-      <div class="brand-mark">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5V5a2 2 0 0 1 2-2h13"/><path d="M6 17h13"/><path d="M9 7h6"/></svg>
-      </div>
-      <h1>拾词</h1>
-      <span class="ver">v1.0</span>
-    </div>
-    <div id="cloudStatus" style="display:none;font-size:11px;padding:7px 10px;margin:8px 0 0;border-radius:8px;background:var(--accent-tint)"></div>
-    <p class="side-lede">高考英语核心词汇工具 · 面向<b>工具订阅 + 资料电商</b>双引擎的独立开发者方案</p>
-    <span class="tagline">专治「认识却用不对」</span>
-
-    <h2>页面地图</h2>
-    <nav class="navlist" id="nav"></nav>
-
-    <h2>核心闭环</h2>
-    <div class="flowcard">
-      <svg viewBox="0 0 240 132" width="100%" height="132" fill="none">
-        <defs><marker id="ar" markerWidth="7" markerHeight="7" refX="5.5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#10b981"/></marker></defs>
-        <rect x="8" y="14" width="62" height="42" rx="11" fill="#ecfdf5" stroke="#10b981" stroke-width="1.4"/>
-        <text x="39" y="33" font-size="10.5" font-weight="700" fill="#047857" text-anchor="middle" font-family="Outfit,sans-serif">发现</text>
-        <text x="39" y="46" font-size="9" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC,sans-serif">首页/错因</text>
-        <rect x="89" y="14" width="62" height="42" rx="11" fill="#ecfdf5" stroke="#10b981" stroke-width="1.4"/>
-        <text x="120" y="33" font-size="10.5" font-weight="700" fill="#047857" text-anchor="middle" font-family="Outfit,sans-serif">学习</text>
-        <text x="120" y="46" font-size="9" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC,sans-serif">背词/专项</text>
-        <rect x="170" y="14" width="62" height="42" rx="11" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.4"/>
-        <text x="201" y="33" font-size="10.5" font-weight="700" fill="#b45309" text-anchor="middle" font-family="Outfit,sans-serif">付费</text>
-        <text x="201" y="46" font-size="9" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC,sans-serif">全包/资料</text>
-        <path d="M70 35 H86" stroke="#10b981" stroke-width="1.6" marker-end="url(#ar)"/>
-        <path d="M151 35 H167" stroke="#10b981" stroke-width="1.6" marker-end="url(#ar)"/>
-        <path d="M201 58 V92 H39 V60" stroke="#10b981" stroke-width="1.6" stroke-dasharray="4 3" marker-end="url(#ar)"/>
-        <text x="120" y="106" font-size="9.5" fill="#047857" text-anchor="middle" font-family="Noto Sans SC,sans-serif">错因回流 · 精准补弱</text>
-        <text x="120" y="121" font-size="9" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC,sans-serif">复购来自数据变好，不靠打扰</text>
-      </svg>
-    </div>
-
-    <h2>关键设计决策</h2>
-    <ul class="dlist">
-      <li><span class="k">01</span><span><b>首页不叫「背单词」，叫「今日任务」。</b>把 20 词拆成 8 分钟可完成的小目标，高三用户要的是确定性，不是词库规模。</span></li>
-      <li><span class="k">02</span><span><b>背词卡强制翻面才可评价。</b>三档（不认识/模糊/认识）直接喂给间隔重复算法，是留存的地基。</span></li>
-      <li><span class="k">03</span><span><b>「熟词僻义」是唯一的差异化专项。</b>免费用户可试 3 题，第 4 题起进付费墙 —— 首次付费点放在最痛的地方。</span></li>
-      <li><span class="k">04</span><span><b>失分地图把 App 从工具变成诊断。</b>按错因归类（不是按词表），直接呈现可解释的失分归因逻辑。</span></li>
-      <li><span class="k">05</span><span><b>资料电商挂在词库旁边。</b>用户刚背完 150 词 → 立刻推《仿真语境手册》，转化路径最短。</span></li>
-      <li><span class="k">06</span><span><b>学习周报免费开放。</b>用「看得见的进步」建立信任，再谈付费。</span></li>
-    </ul>
-
-    <h2>变现位标注</h2>
-    <ul class="dlist">
-      <li><span class="k">A</span><span>专项训练第 4 题起 · 全包 ¥9.9（含四本书 + 完整周报）</span></li>
-      <li><span class="k">B</span><span>失分地图完整版 · 含在全包 ¥9.9 内</span></li>
-      <li><span class="k">C</span><span>资料商店 · 四本读本各 ¥2.9（单本一次买断）</span></li>
-      <li><span class="k">D</span><span>仿真语境例句库（核心壁垒）· 含在全包内</span></li>
-    </ul>
-
-    <div class="sidefoot">
-      原型为<b>静态高保真交互稿</b>，无后端。<br>
-      词条例句为<b>仿真例句</b>，规避版权风险。<br>
-      直接双击文件即可离线打开：<code>prototype/index.html</code>
-    </div>
-  </aside>
+  <!-- 使用场景与产品方案介绍已移至管理后台 app/admin/index.html -->
 
   <!-- ================= STAGE ================= -->
   <main class="main">
@@ -136,6 +76,7 @@
                   </div>
                 </div>
                 <div class="dp-seg" id="dpSeg"></div>
+                <div class="dp-prevw" id="dpPrevWrong" style="display:none"></div>
                 <div class="dp-orders" id="dpOrders">
                   <button data-o="alpha" onclick="setDailyOrder('alpha')">字母顺序</button>
                   <button data-o="theme" class="on" onclick="setDailyOrder('theme')">词义相近</button>
@@ -591,13 +532,6 @@
       </div>
     </div>
 
-    <div class="caption" id="caption"></div>
-
-    <div class="hintbar">
-      <span>点卡片翻面 · 三档评价喂给记忆算法</span>
-      <span><kbd>←</kbd> <kbd>→</kbd> 切页</span>
-      <span>全包弹窗 / 下单流程可点 <kbd>资料</kbd> <kbd>我的</kbd> 进入</span>
-    </div>
   </main>
 </div>
 

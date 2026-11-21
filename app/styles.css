@@ -31,9 +31,11 @@ button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
 svg{display:block}
 ::selection{background:var(--accent);color:#fff}
 
-/* ---------- layout ---------- */
-.layout{max-width:1320px;margin:0 auto;display:grid;grid-template-columns:296px minmax(0,1fr);gap:34px;align-items:start}
-.side{position:sticky;top:28px;max-height:calc(100vh - 56px);overflow:auto;padding-right:6px}
+/* ---------- layout ----------
+ * 用户端只呈现应用本体：桌面端居中手机预览，手机端全屏铺满。
+ * 使用场景 / 产品方案介绍已移交管理后台 app/admin/index.html。 */
+.layout{max-width:none;margin:0;display:flex;justify-content:center;align-items:flex-start}
+.side{display:none}
 .side::-webkit-scrollbar{width:5px}
 .side::-webkit-scrollbar-thumb{background:#d5dbd5;border-radius:4px}
 
@@ -97,6 +99,30 @@ svg{display:block}
 .tab span{white-space:nowrap}
 
 /* ---------- review · 学习复盘 ---------- */
+/* 今日任务收官卡：把完成变成看得见的成就 */
+.dw-wrap{padding:8px 2px 4px}
+.dw-hero{text-align:center;background:linear-gradient(150deg,#0f766e,#115e59);color:#fff;border-radius:18px;padding:22px 16px 20px}
+.dw-ic{width:50px;height:50px;border-radius:50%;background:rgba(255,255,255,.16);display:grid;place-items:center;margin:0 auto 8px}
+.dw-k{font-size:15px;font-weight:700;letter-spacing:.02em}
+.dw-acc{font-family:'Outfit',sans-serif;font-weight:700;line-height:1;margin:14px 0 4px}
+.dw-acc b{font-size:66px}
+.dw-acc small{font-size:26px;margin-left:3px;opacity:.85}
+.dw-accsub{font-size:11.5px;opacity:.82}
+.dw-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin:12px 0}
+.dw-cell{background:#fff;border:1px solid var(--line);border-radius:13px;padding:12px 4px;text-align:center}
+.dw-cell b{display:block;font-family:'Outfit',sans-serif;font-size:21px;color:var(--accent-deep)}
+.dw-cell span{font-size:10.5px;color:var(--ink-3)}
+.dw-lines{background:#fff;border:1px solid var(--line);border-radius:14px;padding:4px 13px;margin-bottom:14px}
+.dw-line{display:flex;align-items:center;gap:8px;padding:11px 0;border-bottom:1px solid var(--line-2);font-size:12px}
+.dw-line:last-child{border-bottom:0}
+.dw-line .li{color:var(--ink-2)}
+.dw-line b{margin-left:auto;font-family:'Outfit',sans-serif;font-size:14px;color:var(--accent-deep)}
+.dw-line .hint{font-size:10px;color:var(--ink-3);width:96px;text-align:right}
+
+/* 今日任务：昨日错词跨天回带提示 */
+.dp-prevw{display:flex;align-items:center;gap:5px;font-size:11px;color:var(--danger);background:var(--danger-tint);border-radius:9px;padding:7px 9px;margin:8px 0 2px;line-height:1.4}
+.dp-prevw b{font-family:'Outfit',sans-serif;font-size:12.5px}
+
 .rv-tabs{display:flex;gap:5px;background:#eef1ed;border-radius:13px;padding:4px;margin:2px 0 15px}
 .rv-tab{flex:1;min-width:0;border:0;background:transparent;border-radius:10px;padding:9px 0;font-size:12.5px;font-weight:600;color:var(--ink-3);transition:background .18s,color .18s}
 .rv-tab.on{background:#fff;color:var(--accent-deep);box-shadow:var(--shadow-s)}
@@ -693,15 +719,21 @@ svg{display:block}
 .hintbar kbd{font-family:'JetBrains Mono',monospace;font-size:10px;background:#fff;border:1px solid var(--line);border-bottom-width:2px;border-radius:5px;padding:1px 5px;color:var(--ink-2)}
 
 @media(max-width:1080px){
-  .layout{grid-template-columns:1fr;gap:26px}
-  .side{position:static;max-height:none}
-  .navlist{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:6px}
+  .side{display:none}
 }
-@media(max-width:440px){
-  body{padding:16px 10px 30px}
-  .phone{width:100%;max-width:390px;height:780px;padding:8px;border-radius:40px}
-  .bezel{border-radius:32px}
-  .notch{width:90px}
+/* 手机端：全屏原生应用体验，去掉原型手机的边框 / 刘海 / 状态栏 / 指示条 */
+@media(max-width:640px){
+  body{padding:0;background:var(--canvas);overflow:hidden}
+  .layout{display:block;width:100%;height:100vh;height:100dvh}
+  .main{display:block;width:100%;height:100vh;height:100dvh;gap:0}
+  .phone{width:100%;height:100vh;height:100dvh;padding:0;border-radius:0;box-shadow:none;background:var(--canvas)}
+  .bezel{border-radius:0}
+  .notch,.statusbar,.home-ind{display:none}
+  .screen{padding-bottom:20px}
+  .tabbar{height:64px}
+  .phone.no-tab .tabbar{border-radius:0}
+  /* 底部安全区（iPhone Home 条）交给 tabbar 内边距，不额外占用内容 */
+  .tabbar{padding-bottom:max(14px,env(safe-area-inset-bottom))}
 }
 /* ===== 单词进度列表（全量覆盖词 · 红绿状态） ===== */
 .pg-stat{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin:2px 2px 12px}
