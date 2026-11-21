@@ -36,8 +36,8 @@
 | --- | --- |
 | `app/` | **唯一可维护源**。`index.html` + `styles.css` + `js/`（config / cloud / fsrs / lex / data / app / boot）+ `admin/`（兑换码后台，含「产品说明 · 使用场景」折叠面板）。用户端打开即应用本体：桌面居中预览，手机端全屏铺满；产品方案与变现位介绍只在后台可见 |
 | `prototype/` | 构建产物。`src/fsrs.js`、`src/lex.js` 是源文件副本；`index.html` 由 `tools/build_prototype.py` 内联生成，供轻量测试与离线预览 |
-| `data/product/` | 商品级数据源：`word_coverage.json`（4110 词）、`ai_paraphrase.json`（443 词自研释义）、`context_book.json`（1500 词）、`colloc_book.json`（443 词 / 2302 搭配）、`quiz_book.json`（100 题）、`trap_variants.json`（443 词 / 3370 条变体提示）、`plan_book.json` |
-| `tools/` | 构建与校验流水线：`build_*.py` 生成数据/产物；`build_prototype.py` 内联多文件为单文件；`test_progress.js` / `test_cloud.js` / `test_daily.js` / `test_alpha.js` / `test_answerflow.js` / `test_pricing.js` / `test_orders.js` / `test_sticky.js` 为回归测试 |
+| `data/product/` | 商品级数据源：`word_coverage.json`（4110 词）、`ai_paraphrase.json`（443 词自研释义）、`context_book.json`（4110 词全量补全版）、`context_examples_extra.txt`（224 词新增仿真例句源文件）、`context_ipa_autofill.json`（1000 词规则音标）、`colloc_book.json`（443 词 / 2302 搭配）、`quiz_book.json`（100 题）、`trap_variants.json`（443 词 / 3370 条变体提示）、`plan_book.json` |
+| `tools/` | 构建与校验流水线：`build_*.py` 生成数据/产物；`build_prototype.py` 内联多文件为单文件；`test_progress.js` / `test_cloud.js` / `test_daily.js` / `test_alpha.js` / `test_answerflow.js` / `test_pricing.js` / `test_orders.js` / `test_sticky.js` / `test_context.js` / `test_nav.js` 为回归测试 |
 | `docs/` | 教研与商品化方案文档 |
 | `output/` | 成品 PDF：训练册与体验样张 |
 | `data/`（根目录） | 素材库与教材原件（内部使用，见「版权与合规红线」） |
@@ -49,6 +49,9 @@
 ## 三、本地开发
 
 ```bash
+# 重建《仿真语境版》成书数据（4110 词 + 核心词例句补全）
+python tools/build_context_formal.py
+
 # 重建单文件原型（把 app/ 内联进 prototype/index.html）
 python tools/build_prototype.py
 
@@ -61,6 +64,8 @@ node tools/test_answerflow.js # 答对自动下一题/答错翻卡：23 项
 node tools/test_pricing.js    # 两档定价/权益/周报分层：33 项
 node tools/test_orders.js     # 订单记录/永久下载凭证：27 项
 node tools/test_sticky.js     # 收官卡/错词跨天追踪：30 项
+node tools/test_context.js    # 仿真语境版 4110 词补全/例句/音标标注：24 项
+node tools/test_nav.js        # 子页面常驻返回栏/返回首页：20 项
 ```
 
 云端登录、兑换码等真实链路依赖线上域名，需通过分享链接访问测试。
@@ -71,10 +76,10 @@ node tools/test_sticky.js     # 收官卡/错词跨天追踪：30 项
 
 | 资产 | 规模 |
 | --- | --- |
-| 覆盖词库 | 4110 词（去重），其中 3093 词带音标 |
+| 覆盖词库 | 4110 词（去重）全部带音标；其中 1000 词为规则转写 · 美音参考，已在词条内标注来源 |
 | 精修词 | 100 词 / 420 义项，含词形网、僻义标记、仿真例句、搭配 |
 | 自研释义 | 443 必考词全部完成改写（必考层剩余 0） |
-| 仿真语境版 | 1500 词 / 2898 义项 / 300 例句（例句仅 L1 深度层配备，已如实标注） |
+| 仿真语境版 | 4110 词 / 7629 义项 / 643 仿真例句；443 高考核心词全部配例句，3667 词覆盖层为释义卡并如实标注无例句 |
 | 高频搭配手册 | 443 词 / 763 组 / 2302 条搭配；641 条手工精修例句 |
 | 熟词僻义训练册 | 100 题 / 5 单元，难度 15% 易 / 55% 中 / 30% 难 |
 | 核心变体库 | 443 词 / 3370 条变体提示，每词至少 6 条 |
@@ -144,8 +149,8 @@ node tools/test_sticky.js     # 收官卡/错词跨天追踪：30 项
 
 目标：让免费层足够有用，把付费建立在「已经获得价值」之上，而不是靠墙硬挡。
 
-- 推荐层剩余 2567 词补入正式成书数据（当前仅 1057 词进入规范化整理层），扩大免费可学范围。
-- 仿真语境版 L3 的 1057 词从「规范化整理」升级为真语义改写，提升免费词卡质量。
+- ~~推荐层剩余 2567 词补入正式成书数据~~ ✅ 已完成：仿真语境版从 1500 词扩到 4110 词，音标 / 核心义 / 提示 / 主题字段全量补齐。
+- 仿真语境版 L3 的 3667 词从「规范化整理」升级为真语义改写，提升免费词卡质量。
 - 高频搭配手册 516 条无例句搭配补例句，1145 条义项语境句逐条精修。
 - 30 天冲刺计划表从样本卷升级为真实可打印 / 可打卡交互。
 - 今日任务每日词表与复习队列在多端一致性校验（同一账号不同设备看到相同计划）。

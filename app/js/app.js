@@ -639,9 +639,9 @@ function famRate(rating,label){
 /* ==================== 仿真语境版 · 图书详情 + 试读 ==================== */
 let bookTier=0, bookPreviewN=3;
 function bookSample(){
-  const src=(typeof CTX_BOOK!=='undefined'&&CTX_BOOK)?CTX_BOOK:{meta:{name:'高考英语核心词 · 仿真语境版',subtitle:'一词多义 · 仿真语境',status:'正式版',coverage:{current_words:1500,current_senses:2898,example_sentences:300,by_layer:{}}},words:[]};
+  const src=(typeof CTX_BOOK!=='undefined'&&CTX_BOOK)?CTX_BOOK:{meta:{name:'高考英语核心词 · 仿真语境版',subtitle:'一词多义 · 仿真语境',status:'正式版',coverage:{current_words:4110,current_senses:7629,example_sentences:643,by_layer:{}}},words:[]};
   // 两档定价：单本读本统一 ¥2.9 买断，不再展示历史分档
-  const total=(src.meta&&src.meta.coverage&&src.meta.coverage.current_words)||1500;
+  const total=(src.meta&&src.meta.coverage&&src.meta.coverage.current_words)||4110;
   src.meta=Object.assign({},src.meta,{pricing:{currency:'CNY',tiers:[{name:'完整版',words:total,price:2.9}]}});
   return src;
 }
@@ -652,15 +652,17 @@ function renderBook(){
   const tiers=m.pricing.tiers;
   const cur=tiers[bookTier];
   const cov=m.coverage||{},bl=cov.by_layer||{};
+  const total=cov.current_words||4110;
+  const layer=bl||{};
   const pts=[
-    ['1500 词全覆盖','100 词深度精修 + 343 词自研释义 + 1057 词规范化整理'],
-    ['仿真语境精选','深度层每义项配一句仿真语境例句，标注来源，贴近高考阅读高频句式'],
+    [total+' 词全覆盖','100 词深度精修 + 343 词自研释义 + '+(layer['L3-覆盖整理']||3667)+' 词规范化整理'],
+    ['核心词全部配例句','443 个高考核心词每词至少一句仿真语境句，标注来源，贴近高考阅读高频句式'],
     ['真实搭配','义项配高频搭配，看到介词就能调出整个词块'],
-    ['分层如实标注','例句仅深度层配有；自研释义层与覆盖整理层明示「无例句」']
+    ['分层如实标注','覆盖整理层为释义卡、明示「无例句」；音标来源逐词标注']
   ];
   const tiersHtml=tiers.map((t,i)=>
     '<div class="bk-tier'+(i===bookTier?' on':'')+'" onclick="bookTier='+i+';renderBook()">'+
-      '<div class="lt"><b>'+t.name+'</b><span>'+t.words+' 词 · 覆盖 '+(t.words>0?Math.round(t.words/150)+'0%':'')+'</span></div>'+
+      '<div class="lt"><b>'+t.name+'</b><span>'+t.words+' 词 · 覆盖 '+(total>0?Math.round(t.words/total*100):0)+'%</span></div>'+
       '<div class="rt">¥'+t.price.toFixed(1)+'</div></div>').join('');
   const prevWords=(b.words||[]).slice(0,bookPreviewN);
   const prevHtml=prevWords.map(w=>
