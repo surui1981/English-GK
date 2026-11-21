@@ -1,0 +1,4887 @@
+{
+ "meta": {
+  "name": "必考层 · 自研释义改写",
+  "method": "模型逐词产出的中文释义改写：更换措辞、按高考常见用法重组，附典型搭配。非教材原文照搬。",
+  "coverage": {
+   "paraphrased_words": 443,
+   "required_layer_total": 443,
+   "remaining_in_required": 0
+  },
+  "note": "按批追加 BATCHES 覆盖全部必考层；当前剩余 0 词待改写。"
+ },
+ "words": [
+  {
+   "w": "abandon",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "彻底放弃计划或希望；丢下某人某物不管",
+     "collocation": "abandon the plan, abandon hope"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "access",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "进入或使用某物的权利/机会；通道",
+     "collocation": "have access to, gain access"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "account",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "账户；对事件的描述或说明",
+     "collocation": "account for, on account of"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "accumulate",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "逐渐积累、积聚",
+     "collocation": "accumulate experience, accumulate wealth"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "accuse",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "指控某人做了错事；把责任归于",
+     "collocation": "accuse sb of sth, the accused"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "address",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "着手处理、应对某个问题；向…讲话",
+     "collocation": "address the issue, address a problem"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "adopt",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "采取方法；收养；正式通过",
+     "collocation": "adopt a policy, adopt a child"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "affect",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "对…产生影响；感染",
+     "collocation": "affect the result, be affected by"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "align",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "使一致、对齐；结盟",
+     "collocation": "align with, align interests"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "allocate",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "分配资源、时间",
+     "collocation": "allocate funds, allocate time"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "anticipate",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "预先料到并做准备；期待",
+     "collocation": "anticipate problems, anticipate doing"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "apart",
+   "senses": [
+    {
+     "pos": "adv./adj.",
+     "meaning": "分开地；相距；不在一起",
+     "collocation": "apart from, take apart, fall apart"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "appeal",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "有吸引力；恳请、呼吁",
+     "collocation": "appeal to, appeal for"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "approach",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "方法、途径；接近、着手处理",
+     "collocation": "an approach to, approach a problem"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "articulate",
+   "senses": [
+    {
+     "pos": "v./adj.",
+     "meaning": "清晰表达；表达清楚的",
+     "collocation": "articulate ideas, articulate a vision"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "assemble",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "把零件组装起来；把人召集到一起",
+     "collocation": "assemble a team, assemble furniture"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "assess",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "评估、估算价值或影响",
+     "collocation": "assess the impact, assess performance"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "assign",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "把任务分派给人；把价值或原因归于",
+     "collocation": "assign a task, assign sth to sb"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "assumption",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "未经证实的假定；承担（责任）",
+     "collocation": "make an assumption, on the assumption that"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "attempt",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "尝试、努力",
+     "collocation": "make an attempt, attempt to do"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "attribute",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "把…归因于；属性、特质",
+     "collocation": "attribute A to B, personal attributes"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "average",
+   "senses": [
+    {
+     "pos": "adj./n.",
+     "meaning": "平均的；普通的；平均数",
+     "collocation": "on average, an average of"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "bear",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "承受、承担；忍耐；带有（某特征）",
+     "collocation": "bear in mind, bear the cost"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "belief",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "信念、看法；信仰",
+     "collocation": "a strong belief, beyond belief"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "benefit",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "益处；受益",
+     "collocation": "benefit from, for the benefit of"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "bloom",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "开花；繁荣、兴盛",
+     "collocation": "in bloom, bloom into"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "bond",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "纽带、联系；债券；v.建立亲密关系",
+     "collocation": "a bond between, bond with"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "boost",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "促进、增强；推动",
+     "collocation": "boost confidence, boost sales"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "branch",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "树枝；分支、分公司；分叉",
+     "collocation": "a branch of, branch out"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "brand",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "品牌；种类；打烙印",
+     "collocation": "a brand of, brand image"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "breath",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "呼吸；气息",
+     "collocation": "take a breath, out of breath"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "bridge",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "桥；纽带；弥合",
+     "collocation": "build a bridge, bridge the gap"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "brief",
+   "senses": [
+    {
+     "pos": "adj./v.",
+     "meaning": "简短的；简要介绍",
+     "collocation": "in brief, a brief summary"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "brilliant",
+   "senses": [
+    {
+     "pos": "adj.",
+     "meaning": "才华横溢的；非常聪明的",
+     "collocation": "a brilliant idea, brilliant performance"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "capacity",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "做事的能力；容纳量",
+     "collocation": "the capacity to do, seating capacity"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "capital",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "首都；资本；大写字母",
+     "collocation": "capital city, venture capital"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "captain",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "队长、船长；v.担任队长",
+     "collocation": "team captain, captain the team"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "capture",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "捕获；占领；吸引；拍摄",
+     "collocation": "capture attention, capture a city"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "care",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "关心、照顾；在意",
+     "collocation": "take care of, care about"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "case",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "实例、病例、案件；容器盒",
+     "collocation": "in case, a case of"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "cast",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "投掷；投射；选角；演员阵容",
+     "collocation": "cast a vote, cast a shadow"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "category",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "按共同特征划分的类别",
+     "collocation": "a category of, fall into a category"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "cause",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "原因；事业；导致",
+     "collocation": "the cause of, cause sb to do"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "challenge",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "难题、挑战；对…提出质疑",
+     "collocation": "face a challenge, challenge an idea"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "characteristic",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "典型特征；adj.特有的、典型的",
+     "collocation": "be characteristic of, a key characteristic"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "charge",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "收费；指控；充电；猛冲",
+     "collocation": "charge for, charge with, in charge of"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "charm",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "魅力；迷住",
+     "collocation": "a charm of, be charmed by"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "cite",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "引用；列举；传唤",
+     "collocation": "cite an example, cite evidence"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "claim",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "声称；索取；要求",
+     "collocation": "claim that, make a claim"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "coincide",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "同时发生；意见一致",
+     "collocation": "coincide with, coincide in"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "collapse",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "倒塌；崩溃；突然昏倒",
+     "collocation": "the roof collapsed, economic collapse"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "comment",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "评论、意见",
+     "collocation": "make a comment, comment on"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "compass",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "指南针；罗盘",
+     "collocation": "a compass, compass needle"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "compensate",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "弥补损失；向某人赔偿",
+     "collocation": "compensate for, compensate sb for"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "comply",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "遵照、服从规定或要求",
+     "collocation": "comply with, comply with the rules"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "compromise",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "折中方案；妥协、让步",
+     "collocation": "reach a compromise, compromise on"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "concern",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "使担忧；涉及；n.关心的事",
+     "collocation": "concern about, as far as … is concerned"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "condition",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "状况；条件；环境（复数 conditions）",
+     "collocation": "in good condition, on condition that"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "conduct",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "实施、进行；指挥；传导",
+     "collocation": "conduct a survey, conduct business"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "confidence",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "信心；信任；秘密",
+     "collocation": "have confidence in, gain confidence"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "confine",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "限制在范围内；关押",
+     "collocation": "confine to, be confined to bed"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "conflict",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "意见或利益冲突；相互抵触",
+     "collocation": "in conflict with, conflict between"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "conform",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "符合规范；顺从",
+     "collocation": "conform to, conform with"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "consequence",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "后果、结果；重要性",
+     "collocation": "as a consequence of"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "consolidate",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "巩固、加强；合并",
+     "collocation": "consolidate gains, consolidate two groups"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "constitute",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "构成、组成；设立",
+     "collocation": "constitute a threat, be constituted as"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "content",
+   "senses": [
+    {
+     "pos": "adj.",
+     "meaning": "满足的、愿意的；n.内容",
+     "collocation": "be content with, content with"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "contest",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "比赛、竞赛；v.争夺、抗辩",
+     "collocation": "a speech contest, contest a claim"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "contrast",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "对比、对照；明显差异",
+     "collocation": "contrast with, by contrast"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "convey",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "传达信息或情感；运送",
+     "collocation": "convey a message, convey feelings"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "cope",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "（成功地）应付、处理",
+     "collocation": "cope with, cope well"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "count",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "数数；把…算入；重要、有价值",
+     "collocation": "count on, count as"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "cover",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "覆盖；报道；涵盖；支付费用",
+     "collocation": "cover the cost, cover a story"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "crack",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "裂开；破解；裂缝",
+     "collocation": "crack a joke, crack down on"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "credit",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "信誉；学分；赊购；归功于",
+     "collocation": "credit card, credit sb with"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "crisis",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "危机、紧要关头",
+     "collocation": "in crisis, a financial crisis"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "criterion",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "判断或评定的标准（复数 criteria）",
+     "collocation": "meet the criteria, a criterion for"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "critical",
+   "senses": [
+    {
+     "pos": "adj.",
+     "meaning": "批判性的、挑剔的；关键的；危急的",
+     "collocation": "be critical of, critical role"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "criticize",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "批评、批判；评论",
+     "collocation": "criticize sb for, criticize a decision"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "cultivate",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "培养习惯或能力；耕作",
+     "collocation": "cultivate a habit, cultivate land"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "culture",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "文化；文明；培养",
+     "collocation": "traditional culture, culture shock"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "curb",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "抑制、控制；路缘",
+     "collocation": "curb spending, curb enthusiasm"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "current",
+   "senses": [
+    {
+     "pos": "adj.",
+     "meaning": "当下的、流行的；n.水流、电流",
+     "collocation": "current situation, current affairs"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "damage",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "损害、破坏；损失",
+     "collocation": "do damage to, damage the environment"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "deal",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "处理；交易；大量",
+     "collocation": "deal with, a great deal of"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "decline",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "下降；婉拒；衰退",
+     "collocation": "decline an invitation, a sharp decline"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "defeat",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "战胜对手；失败、挫败",
+     "collocation": "defeat a team, suffer a defeat"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "deliberately",
+   "senses": [
+    {
+     "pos": "adv.",
+     "meaning": "故意地；慎重地",
+     "collocation": "deliberately ignore, act deliberately"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "demand",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "需求；要求、强烈要求",
+     "collocation": "in demand, demand that"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "democracy",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "民主；民主制度",
+     "collocation": "democratic society, democracy movement"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "depress",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "使沮丧；使萧条",
+     "collocation": "depress sb, depressed economy"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "depression",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "沮丧；萧条；抑郁症",
+     "collocation": "suffer from depression, economic depression"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "destiny",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "命运、注定的结局",
+     "collocation": "determine one’s destiny, by destiny"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "develop",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "逐步形成、发展；培养；开发",
+     "collocation": "develop a habit, develop a plan"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "devise",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "设计、想出办法",
+     "collocation": "devise a plan, devise a method"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "discipline",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "纪律；学科；训练、处罚",
+     "collocation": "self-discipline, discipline a child"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "discourage",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "使气馁；劝阻",
+     "collocation": "discourage sb from, feel discouraged"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "display",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "展示、陈列；显示",
+     "collocation": "on display, display a sign"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "dispose",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "处理、丢弃；使倾向于",
+     "collocation": "dispose of, be disposed to"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "distinguish",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "区分、辨别；使显著",
+     "collocation": "distinguish A from B, distinguish oneself"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "distribute",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "分发；分布；分配",
+     "collocation": "distribute leaflets, be distributed over"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "division",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "分开、部门；分歧；除法",
+     "collocation": "division of labour, a deep division"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "dominate",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "在…中占主导；支配",
+     "collocation": "dominate the market, be dominated by"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "draw",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "画；拉；吸引；推断出",
+     "collocation": "draw attention, draw a conclusion"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "drive",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "驾驶；推动；动力",
+     "collocation": "drive a car, drive sb mad"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "drop",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "落下；减少；放弃；滴",
+     "collocation": "drop out, a drop in"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "economy",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "经济；节约；经济体",
+     "collocation": "market economy, economy class"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "effect",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "结果、影响； effectiveness 效果",
+     "collocation": "have an effect on, in effect"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "elegant",
+   "senses": [
+    {
+     "pos": "adj.",
+     "meaning": "优雅得体的；简洁巧妙的",
+     "collocation": "elegant solution, elegant manner"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "element",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "元素、要素；化学元素",
+     "collocation": "a key element, an element of truth"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "eliminate",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "消除、排除；淘汰",
+     "collocation": "eliminate errors, be eliminated from"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "embrace",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "欣然接受；拥抱；包含",
+     "collocation": "embrace change, embrace an idea"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "emerge",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "从隐蔽处出现；逐渐显露",
+     "collocation": "emerge from, it emerges that"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "emphasis",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "强调、着重；重要性",
+     "collocation": "put emphasis on, lay emphasis on"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "emphasize",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "强调、着重指出",
+     "collocation": "emphasize the need, emphasize that"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "endorse",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "支持、赞同；背书",
+     "collocation": "endorse a proposal, endorse a check"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "enforce",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "执行、实施；强迫服从",
+     "collocation": "enforce the law, enforce a rule"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "enrich",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "丰富、充实；使富裕",
+     "collocation": "enrich experience, enrich the soil"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "enthusiasm",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "热情、热忱",
+     "collocation": "with enthusiasm, enthusiasm for"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "entitle",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "给予权利或资格；给…取名",
+     "collocation": "be entitled to, entitle sb to"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "environment",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "环境；自然环境",
+     "collocation": "protect the environment, a work environment"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "equal",
+   "senses": [
+    {
+     "pos": "adj./v.",
+     "meaning": "相等的；平等的；等于",
+     "collocation": "equal rights, be equal to"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "equip",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "装备、配备；使具备能力",
+     "collocation": "be equipped with, equip sb for"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "erode",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "侵蚀、腐蚀；逐渐削弱",
+     "collocation": "erode confidence, soil erosion"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "estimate",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "估计、估算",
+     "collocation": "estimate the cost, a rough estimate"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "evidence",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "证据、迹象；证明",
+     "collocation": "provide evidence, evidence of"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "exaggerate",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "夸大、夸张",
+     "collocation": "exaggerate the risk, exaggerated claims"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "exchange",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "交换、交流；兑换",
+     "collocation": "in exchange for, exchange ideas"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "exert",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "施加影响；努力",
+     "collocation": "exert pressure, exert effort"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "expand",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "扩大、扩展；膨胀",
+     "collocation": "expand business, expand into"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "expedite",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "加快、促进（进程）",
+     "collocation": "expedite delivery, expedite a decision"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "expense",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "费用、开支；代价",
+     "collocation": "at the expense of, living expenses"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "exploit",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "充分利用；剥削、利用",
+     "collocation": "exploit resources, exploit workers"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "facilitate",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "使更容易、促进",
+     "collocation": "facilitate communication, facilitate learning"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "fail",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "失败；未能；衰竭",
+     "collocation": "fail to do, fail an exam"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "fair",
+   "senses": [
+    {
+     "pos": "adj.",
+     "meaning": "公平的；相当好的；浅色的（头发）",
+     "collocation": "fair play, fair enough"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "false",
+   "senses": [
+    {
+     "pos": "adj.",
+     "meaning": "错误的；假的；不真实的",
+     "collocation": "a false impression, false information"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "fashion",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "时尚、流行；方式",
+     "collocation": "in fashion, the fashion industry"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "feature",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "特征、特色；专题；v.以…为特色",
+     "collocation": "feature in, key feature"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "figure",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "数字；人物；身材；弄明白",
+     "collocation": "figure out, a key figure"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "firm",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "公司；adj.坚定的、牢固的",
+     "collocation": "firm belief, stand firm"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "fitness",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "健康；适合、适当",
+     "collocation": "physical fitness, fitness for a task"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "flat",
+   "senses": [
+    {
+     "pos": "adj.",
+     "meaning": "平坦的；断然的；平淡的",
+     "collocation": "flat out, fall flat"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "flexible",
+   "senses": [
+    {
+     "pos": "adj.",
+     "meaning": "灵活的；可弯曲的；可变通的",
+     "collocation": "flexible working hours, a flexible approach"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "fluctuate",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "波动、起伏不定",
+     "collocation": "prices fluctuate, fluctuate between"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "focus",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "焦点；集中注意力",
+     "collocation": "focus on, the focus of attention"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "follow",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "跟随；遵循；理解；关注",
+     "collocation": "follow the rules, follow instructions"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "forge",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "打造；伪造；形成（关系）",
+     "collocation": "forge a partnership, forge a signature"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "former",
+   "senses": [
+    {
+     "pos": "adj.",
+     "meaning": "从前的、前任的；前者",
+     "collocation": "the former, former president"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "fortune",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "财富；运气；命运",
+     "collocation": "make a fortune, good fortune"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "foster",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "培养、促进；寄养",
+     "collocation": "foster creativity, foster a child"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "fraud",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "欺诈、骗局；骗子",
+     "collocation": "commit fraud, credit card fraud"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "fulfil",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "履行、实现；满足要求",
+     "collocation": "fulfil a promise, fulfil the requirements"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "gain",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "获得、增加；收益",
+     "collocation": "gain experience, gain weight"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "gap",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "缺口、间隙；差距",
+     "collocation": "a gap between, fill the gap"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "generate",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "产生、生成；引起",
+     "collocation": "generate income, generate interest"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "glory",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "荣耀、辉煌；赞美",
+     "collocation": "in glory, glory days"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "grain",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "谷物；颗粒；少量",
+     "collocation": "a grain of, grain crops"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "grasp",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "抓住；理解、掌握",
+     "collocation": "grasp a concept, grasp the opportunity"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "grocery",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "食品杂货；杂货店",
+     "collocation": "grocery shopping, a grocery store"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "grow",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "生长；增长；逐渐变得",
+     "collocation": "grow up, grow into"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "gym",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "健身房；体育馆",
+     "collocation": "go to the gym, gym class"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "handle",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "处理、应对；把手",
+     "collocation": "handle a problem, handle with care"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "harness",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "利用、驾驭；马具",
+     "collocation": "harness energy, harness technology"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "harvest",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "收获、收成；收割",
+     "collocation": "a good harvest, harvest crops"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "hinder",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "阻碍、妨碍",
+     "collocation": "hinder progress, hinder sb from"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "hold",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "握住；举行；认为；保持",
+     "collocation": "hold a meeting, hold the view that"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "hook",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "钩子；钩住；吸引",
+     "collocation": "hang on a hook, hook up"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "host",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "主人；东道主；主持；大量",
+     "collocation": "host a show, a host of"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "impact",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "强烈影响；冲击",
+     "collocation": "have an impact on, impact on"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "impede",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "妨碍、阻止",
+     "collocation": "impede progress, be impeded by"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "impose",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "强加；征收",
+     "collocation": "impose a ban, impose on sb"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "impress",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "使印象深刻；使铭记",
+     "collocation": "impress sb with, be impressed by"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "income",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "收入、收益",
+     "collocation": "annual income, income tax"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "incorporate",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "包含、纳入；合并",
+     "collocation": "incorporate into, incorporate features"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "indicate",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "表明、显示；指出",
+     "collocation": "indicate that, as the graph indicates"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "indulge",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "沉溺、放纵；纵容",
+     "collocation": "indulge in, indulge oneself"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "injury",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "伤害、损伤",
+     "collocation": "suffer an injury, injury to"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "input",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "投入、输入的信息或资源",
+     "collocation": "input data, input from users"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "insight",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "洞察力、深刻理解",
+     "collocation": "gain insight into, an insight into"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "inspire",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "激励、启发；唤起",
+     "collocation": "inspire sb to, be inspired by"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "insurance",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "保险；安全保障",
+     "collocation": "insurance policy, health insurance"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "intact",
+   "senses": [
+    {
+     "pos": "adj.",
+     "meaning": "完整无缺的；未受影响的",
+     "collocation": "remain intact, keep intact"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "integrate",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "整合、使一体化",
+     "collocation": "integrate into, integrate resources"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "interest",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "利息；兴趣；利益（复数 interests）",
+     "collocation": "interest rate, vested interest"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "involve",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "涉及；使参与；包含",
+     "collocation": "involve doing, be involved in"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "isolate",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "隔离、孤立",
+     "collocation": "isolate sb from, be isolated"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "issue",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "议题、问题；期号；v.发行",
+     "collocation": "address an issue, issue a statement"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "judge",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "判断；法官；裁判",
+     "collocation": "judge by, judge a case"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "judgment",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "判断、看法；判决",
+     "collocation": "make a judgment, in one’s judgment"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "keep",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "保持；保留；遵守；供养",
+     "collocation": "keep a promise, keep in mind"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "key",
+   "senses": [
+    {
+     "pos": "n./adj.",
+     "meaning": "钥匙；答案；关键的",
+     "collocation": "the key to, a key factor"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "landscape",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "风景、景观；局面",
+     "collocation": "a beautiful landscape, the political landscape"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "launch",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "发起、推出；发射",
+     "collocation": "launch a campaign, launch a product"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "lead",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "导致；领导；领先；线索",
+     "collocation": "lead to, take the lead"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "leadership",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "领导力、领导才能",
+     "collocation": "leadership skills, under one’s leadership"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "leave",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "离开；留下；使处于某状态；休假",
+     "collocation": "leave out, leave behind, on leave"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "leverage",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "杠杆作用；利用",
+     "collocation": "leverage resources, leverage strengths"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "lie",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "躺、位于；说谎；n.谎言",
+     "collocation": "lie in, lie down, tell a lie"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "lifestyle",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "生活方式",
+     "collocation": "a healthy lifestyle, lifestyle choices"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "light",
+   "senses": [
+    {
+     "pos": "n./adj./v.",
+     "meaning": "光；轻的；点燃；少量的",
+     "collocation": "throw light on, light up"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "limit",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "限制、界限",
+     "collocation": "set a limit, limit to"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "link",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "联系、链接；连接",
+     "collocation": "link A to B, a close link"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "live",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "居住；活着；adj.现场的、直播的",
+     "collocation": "live up to, live on, live broadcast"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "locate",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "找出位置；使坐落于",
+     "collocation": "locate a place, be located in"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "look",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "看；看起来；寻找；表情",
+     "collocation": "look into, look forward to"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "major",
+   "senses": [
+    {
+     "pos": "adj.",
+     "meaning": "主要的；n.专业；v.主修",
+     "collocation": "major in, major issue"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "make",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "制作；使成为；做出；赚得",
+     "collocation": "make a difference, make sense"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "match",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "匹配；比赛；火柴",
+     "collocation": "match A with B, a football match"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "maximize",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "使最大化、充分利用",
+     "collocation": "maximize profits, maximize efficiency"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "mean",
+   "senses": [
+    {
+     "pos": "adj.",
+     "meaning": "吝啬的；刻薄的；v.意味着；打算",
+     "collocation": "mean to do, be mean to"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "measure",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "措施；测量；v.衡量",
+     "collocation": "take measures, measure up"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "meet",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "遇见；满足；会面",
+     "collocation": "meet the needs, meet with"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "merge",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "合并、融合",
+     "collocation": "merge into, merge with"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "method",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "方法、办法",
+     "collocation": "a method of, teaching methods"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "military",
+   "senses": [
+    {
+     "pos": "adj./n.",
+     "meaning": "军事的；军队",
+     "collocation": "military service, military training"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "mind",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "头脑、心智；v.介意、注意",
+     "collocation": "bear in mind, make up one's mind"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "minimize",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "使最小化、尽量减少",
+     "collocation": "minimize risks, minimize damage"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "minimum",
+   "senses": [
+    {
+     "pos": "n./adj.",
+     "meaning": "最低限度；最小的",
+     "collocation": "a minimum of, at a minimum"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "minor",
+   "senses": [
+    {
+     "pos": "adj.",
+     "meaning": "次要的、较小的；n.未成年人",
+     "collocation": "minor issue, minor role"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "minority",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "少数；少数民族",
+     "collocation": "a minority of, ethnic minority"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "miss",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "错过；想念；未击中",
+     "collocation": "miss a chance, miss sb"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "mission",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "使命、任务；代表团",
+     "collocation": "a mission to, accomplish a mission"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "mobilize",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "动员、调动",
+     "collocation": "mobilize support, mobilize resources"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "motivate",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "激励、激发动力",
+     "collocation": "motivate sb to, be motivated by"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "movement",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "运动；移动；进展",
+     "collocation": "a social movement, movement of goods"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "narrow",
+   "senses": [
+    {
+     "pos": "adj./v.",
+     "meaning": "狭窄的；缩小",
+     "collocation": "a narrow escape, narrow down"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "nation",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "国家；民族",
+     "collocation": "a nation of, nation-wide"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "nature",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "自然；本质、天性",
+     "collocation": "by nature, in nature"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "need",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "需要、需求；必要",
+     "collocation": "in need of, need to do"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "neglect",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "忽视、疏于照顾",
+     "collocation": "neglect a duty, neglect children"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "nerve",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "神经；勇气；紧张",
+     "collocation": "lose one's nerve, nerve center"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "network",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "网络；人际网；联网",
+     "collocation": "a social network, network with sb"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "note",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "笔记；票据；注意；指出",
+     "collocation": "take notes, note that"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "nurture",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "培养、滋养；养育",
+     "collocation": "nurture talent, nurture a child"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "nutrition",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "营养、营养学",
+     "collocation": "good nutrition, nutrition facts"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "object",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "物体；目标；宾语；v.反对",
+     "collocation": "object to, achieve the object"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "observe",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "仔细观察；遵守；评论",
+     "collocation": "observe the rules, observe that"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "occupy",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "占用空间或时间；使忙于；占领",
+     "collocation": "occupy oneself with, be occupied with"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "offer",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "提供；主动提出；报价",
+     "collocation": "offer a job, offer to do"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "open",
+   "senses": [
+    {
+     "pos": "adj./v.",
+     "meaning": "开放的；开始；打开",
+     "collocation": "open to, open up"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "opportunity",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "机会、时机",
+     "collocation": "an opportunity to, seize the opportunity"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "opt",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "选择、挑选",
+     "collocation": "opt for, opt to do"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "optimal",
+   "senses": [
+    {
+     "pos": "adj.",
+     "meaning": "最佳的、最理想的",
+     "collocation": "the optimal solution, optimal conditions"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "option",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "选择、选项；选修课",
+     "collocation": "have an option, optional course"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "order",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "顺序；命令；订单；v.命令、订购",
+     "collocation": "in order to, out of order"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "organ",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "器官；机构；管风琴",
+     "collocation": "vital organs, an organ of government"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "origin",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "起源、来源；出身",
+     "collocation": "the origin of, by origin"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "outcome",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "结果、结局",
+     "collocation": "the outcome of, a positive outcome"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "outline",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "提纲、概要；概述",
+     "collocation": "in outline, outline the main points"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "output",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "产量、产出；输出",
+     "collocation": "increase output, output data"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "overall",
+   "senses": [
+    {
+     "pos": "adj./adv.",
+     "meaning": "总体的、全面的；总体上",
+     "collocation": "the overall situation, overall progress"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "overlook",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "俯瞰；忽略；宽恕",
+     "collocation": "overlook a detail, overlook the fact"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "overwhelm",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "压垮；使不知所措；淹没",
+     "collocation": "be overwhelmed by, overwhelm the enemy"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "own",
+   "senses": [
+    {
+     "pos": "adj./v.",
+     "meaning": "自己的；拥有",
+     "collocation": "on one’s own, own up to"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "particular",
+   "senses": [
+    {
+     "pos": "adj.",
+     "meaning": "特定的；讲究的；n.细节",
+     "collocation": "in particular, be particular about"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "pass",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "通过；传递；通行证；及格",
+     "collocation": "pass an exam, pass by"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "pattern",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "模式、规律；图案；榜样",
+     "collocation": "a pattern of, follow a pattern"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "pay",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "支付；报酬；关注",
+     "collocation": "pay attention to, pay off"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "perceive",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "察觉、认为；理解",
+     "collocation": "perceive … as, perceive a change"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "permit",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "允许；许可证",
+     "collocation": "permit sb to do, a work permit"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "phase",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "阶段、时期；v.逐步实行",
+     "collocation": "a new phase, phase in"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "pick",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "挑选；采摘；捡起",
+     "collocation": "pick out, pick up"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "plant",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "植物；工厂；v.种植；安放",
+     "collocation": "plant a tree, manufacturing plant"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "point",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "要点；地点；观点；v.指向",
+     "collocation": "point out, the point is"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "pollute",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "污染、弄脏",
+     "collocation": "pollute the air, be polluted by"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "portion",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "部分、份额；一份",
+     "collocation": "a portion of, portion out"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "position",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "位置；职位；立场；v.安置",
+     "collocation": "take a position, in position"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "possess",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "拥有、具有；支配",
+     "collocation": "possess a skill, be possessed of"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "potential",
+   "senses": [
+    {
+     "pos": "n./adj.",
+     "meaning": "潜力；潜在的、可能的",
+     "collocation": "reach one’s potential, a potential risk"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "power",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "力量；电力；权力；v.驱动",
+     "collocation": "power supply, come to power"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "practice",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "练习；实践；惯例（v. 练习）",
+     "collocation": "in practice, put into practice"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "praise",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "赞扬、称赞",
+     "collocation": "praise sb for, in praise of"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "present",
+   "senses": [
+    {
+     "pos": "adj.",
+     "meaning": "现在的；出席的；v.呈现、颁发；n.礼物",
+     "collocation": "at present, present sb with"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "preserve",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "保护、保存；维持",
+     "collocation": "preserve tradition, preserve food"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "principle",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "原则、原理",
+     "collocation": "in principle, stick to the principle"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "process",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "过程；加工、处理",
+     "collocation": "in the process of, process data"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "prohibit",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "禁止、阻止",
+     "collocation": "prohibit sb from, prohibit smoking"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "prominent",
+   "senses": [
+    {
+     "pos": "adj.",
+     "meaning": "突出的、著名的；显著的",
+     "collocation": "a prominent figure, prominent role"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "promote",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "促进；晋升；推广",
+     "collocation": "promote growth, be promoted to"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "prosecute",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "起诉、检举；继续从事",
+     "collocation": "prosecute sb for, prosecute a crime"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "prove",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "证明；结果是、显示出",
+     "collocation": "prove that, prove to be"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "proxy",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "代理、代用品；代理权",
+     "collocation": "by proxy, proxy server"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "pull",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "拉、拖；吸引",
+     "collocation": "pull down, pull together"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "purchase",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "购买；购买物",
+     "collocation": "purchase a ticket, make a purchase"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "pursue",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "追求、从事；追赶",
+     "collocation": "pursue a career, pursue a goal"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "push",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "推；推动、逼迫",
+     "collocation": "push forward, push sb to do"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "put",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "放置；使处于；表达",
+     "collocation": "put off, put up with"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "quality",
+   "senses": [
+    {
+     "pos": "n./adj.",
+     "meaning": "质量；品质；优质的",
+     "collocation": "high quality, quality education"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "raise",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "提高；筹集；提出；抚养",
+     "collocation": "raise a question, raise funds"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "range",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "范围、系列；v.在…内变化",
+     "collocation": "a wide range of, range from … to …"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "rate",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "比率、速度；价格；v.评价",
+     "collocation": "at any rate, birth rate"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "rationale",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "理由、依据；基本原理",
+     "collocation": "the rationale behind, rationale for"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "reach",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "到达；达成；伸手够到；范围",
+     "collocation": "reach a decision, within reach"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "read",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "阅读；读作；理解",
+     "collocation": "read between the lines, read out"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "receive",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "收到；接待；接受",
+     "collocation": "receive a letter, receive treatment"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "record",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "记录；唱片；录音",
+     "collocation": "keep a record, set a record"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "reduce",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "减少、降低；使陷入",
+     "collocation": "reduce costs, reduce to"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "refer",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "提及；参考；指的是",
+     "collocation": "refer to, refer … to"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "refine",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "精炼、改进；提纯",
+     "collocation": "refine a plan, refined sugar"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "reflect",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "反映；反射；思考",
+     "collocation": "reflect on, reflect reality"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "reform",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "改革、改良",
+     "collocation": "educational reform, reform the system"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "regard",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "把…看作；关注；问候",
+     "collocation": "regard … as, with regard to"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "reinforce",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "加强、强化；增援",
+     "collocation": "reinforce an idea, reinforce a building"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "reject",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "拒绝、驳回；排斥",
+     "collocation": "reject an offer, reject a claim"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "reluctant",
+   "senses": [
+    {
+     "pos": "adj.",
+     "meaning": "不情愿的、勉强的",
+     "collocation": "be reluctant to, reluctant agreement"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "remain",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "保持；留下；仍然是",
+     "collocation": "remain silent, remain in"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "replace",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "取代；把…放回原处",
+     "collocation": "replace A with B, take the place of"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "report",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "报告、报道；汇报",
+     "collocation": "report on, a news report"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "represent",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "代表；象征；描绘",
+     "collocation": "represent … as, be represented by"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "require",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "需要、要求",
+     "collocation": "require attention, require sb to do"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "reserve",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "预订；保留；储备",
+     "collocation": "reserve a table, in reserve"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "resilience",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "韧性、恢复力",
+     "collocation": "build resilience, resilience to stress"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "resource",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "资源；财力；应变之策",
+     "collocation": "natural resources, human resources"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "respect",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "尊重；方面；遵守",
+     "collocation": "with respect to, respect the rules"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "rest",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "休息；其余部分；依靠",
+     "collocation": "take a rest, the rest of"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "restrain",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "抑制、克制；束缚",
+     "collocation": "restrain oneself, restrain from"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "restraint",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "克制；限制措施",
+     "collocation": "show restraint, impose restraints"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "result",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "结果；v.导致、产生",
+     "collocation": "result in, result from"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "retain",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "保留、保持；留住",
+     "collocation": "retain control, retain information"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "return",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "返回；归还；回报",
+     "collocation": "return home, in return for"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "reveal",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "揭示、透露；显露",
+     "collocation": "reveal a secret, reveal that"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "right",
+   "senses": [
+    {
+     "pos": "adj.",
+     "meaning": "正确的；右边的；n.权利；adv.正好",
+     "collocation": "have the right to, right away"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "rise",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "上升、增长；起身",
+     "collocation": "rise sharply, a rise in"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "role",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "角色、作用",
+     "collocation": "play a role in, a leading role"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "routine",
+   "senses": [
+    {
+     "pos": "n./adj.",
+     "meaning": "常规、例行；日常的",
+     "collocation": "daily routine, routine check"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "rule",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "规则；统治；裁定",
+     "collocation": "follow the rules, rule out"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "run",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "经营；跑；运转；一段时间",
+     "collocation": "run a business, run out of"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "sacrifice",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "牺牲；献祭",
+     "collocation": "make a sacrifice, sacrifice for"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "scale",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "规模；刻度；攀登",
+     "collocation": "a large scale, scale up"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "scheme",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "计划、方案；阴谋",
+     "collocation": "a scheme to do, pension scheme"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "scope",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "范围、领域；机会",
+     "collocation": "the scope of, beyond one’s scope"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "scrutiny",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "仔细审查、细看",
+     "collocation": "under scrutiny, close scrutiny"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "section",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "部分、章节；部门",
+     "collocation": "a section of, the sports section"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "secure",
+   "senses": [
+    {
+     "pos": "adj./v.",
+     "meaning": "安全的；获得；保护",
+     "collocation": "secure a job, feel secure"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "security",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "安全；保障；证券",
+     "collocation": "security measures, job security"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "seek",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "寻找、寻求；试图",
+     "collocation": "seek advice, seek to do"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "sense",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "感觉；意义；判断力；v.察觉",
+     "collocation": "make sense, a sense of"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "sequence",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "顺序、序列；安排",
+     "collocation": "in sequence, a sequence of"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "serve",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "服务；供应；担任；服刑",
+     "collocation": "serve as, serve the people"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "service",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "服务；公共服务；维修",
+     "collocation": "public service, service a car"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "set",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "设置；使开始；一套",
+     "collocation": "set an example, set up"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "setting",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "环境、背景；设定；场景",
+     "collocation": "in a … setting, the setting of"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "settle",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "解决争议；安顿；平静下来",
+     "collocation": "settle a dispute, settle down"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "shape",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "形状；v.塑造、形成",
+     "collocation": "in shape, shape the future"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "shatter",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "打碎；粉碎（希望）",
+     "collocation": "shatter a window, shatter dreams"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "shift",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "转变、转移；轮班",
+     "collocation": "shift focus, a shift in"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "shortage",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "短缺、不足",
+     "collocation": "a shortage of, food shortage"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "show",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "展示；表明；演出",
+     "collocation": "show that, on show"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "significance",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "重要性、意义",
+     "collocation": "the significance of, be of significance"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "solve",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "解决、解答",
+     "collocation": "solve a problem, solve a puzzle"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "sound",
+   "senses": [
+    {
+     "pos": "adj.",
+     "meaning": "健全的、可靠的；n.声音；v.听起来",
+     "collocation": "a sound decision, sound asleep"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "spark",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "火花；引发、激发",
+     "collocation": "spark an interest, spark a debate"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "spectacular",
+   "senses": [
+    {
+     "pos": "adj.",
+     "meaning": "壮观的、引人注目的",
+     "collocation": "a spectacular view, spectacular success"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "spend",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "花费时间或金钱",
+     "collocation": "spend on, spend time doing"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "spirit",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "精神；情绪；幽灵；烈酒",
+     "collocation": "team spirit, in high spirits"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "spot",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "地点；斑点；v.发现",
+     "collocation": "on the spot, spot a mistake"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "squeeze",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "挤压；榨取；拥挤",
+     "collocation": "squeeze in, squeeze out"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "stage",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "阶段；舞台；举办",
+     "collocation": "at a stage, stage a play"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "stand",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "站立；忍受；代表；n.立场、摊位",
+     "collocation": "stand for, can't stand, take a stand"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "standard",
+   "senses": [
+    {
+     "pos": "n./adj.",
+     "meaning": "标准；通常的、合格的",
+     "collocation": "meet the standard, a standard answer"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "starve",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "挨饿；使极度缺乏",
+     "collocation": "starve to death, be starved of"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "state",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "状态；国家；清楚陈述",
+     "collocation": "in a good state, state clearly"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "statement",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "陈述、声明；报表",
+     "collocation": "make a statement, a formal statement"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "stay",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "停留、保持；逗留",
+     "collocation": "stay calm, stay up"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "steer",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "驾驶；引导、掌控",
+     "collocation": "steer a car, steer the conversation"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "stick",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "粘贴；卡住；坚持；棍",
+     "collocation": "stick to, get stuck"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "stipulate",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "规定、明确要求",
+     "collocation": "stipulate that, as stipulated"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "stress",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "压力；强调；重音",
+     "collocation": "stress the importance, under stress"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "strike",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "打击；罢工；突然想到",
+     "collocation": "strike a balance, it strikes me that"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "strive",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "努力、奋斗",
+     "collocation": "strive for, strive to do"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "structure",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "结构、构造；组织、安排",
+     "collocation": "the structure of, structure a plan"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "subject",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "主题；学科；主语；adj.易受…的",
+     "collocation": "subject to, change the subject"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "substance",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "物质；实质、要点",
+     "collocation": "a chemical substance, the substance of"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "substantiate",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "证实、证明…属实",
+     "collocation": "substantiate a claim, substantiate evidence"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "substitute",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "替代品；代替",
+     "collocation": "substitute A for B, a substitute for"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "suffer",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "遭受、忍受；患病",
+     "collocation": "suffer from, suffer a loss"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "supply",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "供应、供给；补给品",
+     "collocation": "supply sb with, in short supply"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "support",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "支持；支撑；供养",
+     "collocation": "support an idea, financial support"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "survey",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "调查；测量；全面审视",
+     "collocation": "conduct a survey, survey opinions"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "suspect",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "怀疑；嫌疑人",
+     "collocation": "suspect sb of, a suspect"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "suspend",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "暂停；悬挂",
+     "collocation": "suspend a decision, be suspended from"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "sustain",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "维持；承受；遭受",
+     "collocation": "sustain growth, sustain damage"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "swap",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "交换、调换",
+     "collocation": "swap A for B, swap ideas"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "swear",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "发誓；咒骂",
+     "collocation": "swear to do, swear at"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "swing",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "摇摆；急剧变化",
+     "collocation": "a swing in, swing between"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "symbol",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "符号；象征",
+     "collocation": "a symbol of, a peace symbol"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "tackle",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "处理、应对； tackle 擒抱",
+     "collocation": "tackle a problem, tackle a task"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "take",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "拿、取；花费；采取；认为",
+     "collocation": "take place, take into account"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "tame",
+   "senses": [
+    {
+     "pos": "adj./v.",
+     "meaning": "驯服的； tame 驯养、控制",
+     "collocation": "a tame animal, tame a river"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "taste",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "味道；品味；尝",
+     "collocation": "have a taste of, taste good"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "tend",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "倾向于；照料",
+     "collocation": "tend to do, tend to sb"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "tendency",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "趋势、倾向",
+     "collocation": "a tendency to, have a tendency"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "term",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "术语；学期；期限；条件",
+     "collocation": "in terms of, long-term"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "test",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "测试、检验；考验",
+     "collocation": "take a test, test the water"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "threaten",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "威胁、恐吓；预示危险",
+     "collocation": "threaten to do, pose a threat"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "thrive",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "兴旺、茁壮成长",
+     "collocation": "thrive on, thrive in"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "tolerate",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "容忍、忍受；耐受",
+     "collocation": "tolerate noise, tolerate differences"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "touch",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "触摸；感动；涉及",
+     "collocation": "in touch with, touch on"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "trade",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "贸易；行业；交易",
+     "collocation": "international trade, trade in"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "trajectory",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "轨迹、轨道；发展路径",
+     "collocation": "the trajectory of, career trajectory"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "transform",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "使彻底改变、改造",
+     "collocation": "transform into, transform a system"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "transition",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "过渡、转变",
+     "collocation": "transition from … to, a smooth transition"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "treat",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "对待；治疗；把…当作",
+     "collocation": "treat sb as, treat an illness"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "trend",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "趋势、倾向；时尚",
+     "collocation": "a trend towards, follow the trend"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "trigger",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "引发、触发；扳机",
+     "collocation": "trigger a reaction, trigger a crisis"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "trim",
+   "senses": [
+    {
+     "pos": "v./adj.",
+     "meaning": "修剪；削减；整齐的",
+     "collocation": "trim costs, trim a hedge"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "trust",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "信任；信托",
+     "collocation": "trust sb, build trust"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "try",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "尝试；审判",
+     "collocation": "try to do, try out"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "turn",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "转动；变成；轮流",
+     "collocation": "turn out, turn into"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "undermine",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "逐渐削弱、损害（信心等）",
+     "collocation": "undermine confidence, undermine authority"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "undertake",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "承担、着手；承诺",
+     "collocation": "undertake a task, undertake to do"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "unit",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "单位；单元；单元件",
+     "collocation": "a unit of, a family unit"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "unveil",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "揭开；首次展示、公布",
+     "collocation": "unveil a plan, unveil a statue"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "uphold",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "维护、坚持（原则、判决）",
+     "collocation": "uphold a principle, uphold the law"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "urge",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "敦促、强烈要求；冲动",
+     "collocation": "urge sb to do, have an urge to"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "use",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "使用、利用；用途",
+     "collocation": "make use of, use up"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "utter",
+   "senses": [
+    {
+     "pos": "v./adj.",
+     "meaning": "说出；完全的、彻底的",
+     "collocation": "utter a word, utter nonsense"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "value",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "价值；价值观；重视",
+     "collocation": "attach value to, value education"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "vary",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "变化、不同",
+     "collocation": "vary from … to, vary in"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "vast",
+   "senses": [
+    {
+     "pos": "adj.",
+     "meaning": "巨大的、广阔的",
+     "collocation": "a vast area, a vast majority"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "venture",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "冒险事业；冒险去做",
+     "collocation": "a joint venture, venture into"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "verify",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "核实、证明…为真",
+     "collocation": "verify a fact, verify the results"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "view",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "看法；视野；景色；看待",
+     "collocation": "in my view, view … as"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "violate",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "违反、违背；侵犯",
+     "collocation": "violate the law, violate a rule"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "violence",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "暴力、猛烈",
+     "collocation": "use violence, violent crime"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "virtue",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "美德；优点；好处",
+     "collocation": "by virtue of, a virtue of"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "visit",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "拜访、参观；就诊",
+     "collocation": "pay a visit to, visit a museum"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "voice",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "嗓音；意见；表达",
+     "collocation": "raise one’s voice, voice an opinion"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "volume",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "音量；体积；卷、册",
+     "collocation": "turn up the volume, a large volume of"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "vulnerable",
+   "senses": [
+    {
+     "pos": "adj.",
+     "meaning": "脆弱的、易受伤的",
+     "collocation": "be vulnerable to, vulnerable groups"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "wait",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "等待；伺候",
+     "collocation": "wait for, wait on"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "warrant",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "保证； warrants 正当理由；搜查令",
+     "collocation": "warrant attention, a search warrant"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "waste",
+   "senses": [
+    {
+     "pos": "v./n./adj.",
+     "meaning": "浪费；废弃物；荒芜的",
+     "collocation": "waste time, a waste of"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "watch",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "观看；看守；手表",
+     "collocation": "watch out, keep watch"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "wear",
+   "senses": [
+    {
+     "pos": "v.",
+     "meaning": "穿、戴；磨损；呈现",
+     "collocation": "wear out, wear a smile"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "welcome",
+   "senses": [
+    {
+     "pos": "v./adj./n.",
+     "meaning": "欢迎；受欢迎的",
+     "collocation": "be welcome to, a warm welcome"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "welfare",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "福利、福祉",
+     "collocation": "social welfare, welfare state"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "wisdom",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "智慧、才智",
+     "collocation": "a word of wisdom, wisdom of crowds"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "witness",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "目击者；见证；证明",
+     "collocation": "witness a change, bear witness to"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "work",
+   "senses": [
+    {
+     "pos": "n./v.",
+     "meaning": "工作；作品；奏效",
+     "collocation": "work out, at work"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "workforce",
+   "senses": [
+    {
+     "pos": "n.",
+     "meaning": "劳动力、全体员工",
+     "collocation": "the workforce, workforce development"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  },
+  {
+   "w": "yield",
+   "senses": [
+    {
+     "pos": "v./n.",
+     "meaning": "产生、产出；让步；产量",
+     "collocation": "yield results, yield to pressure"
+    }
+   ],
+   "source": "自研释义改写（模型逐词产出）"
+  }
+ ]
+}

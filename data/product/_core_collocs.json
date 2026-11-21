@@ -1,0 +1,2002 @@
+[
+ {
+  "w": "access",
+  "c": "access road",
+  "sense": "通道、入口；进入的途径"
+ },
+ {
+  "w": "access",
+  "c": "provide access",
+  "sense": "通道、入口；进入的途径"
+ },
+ {
+  "w": "access",
+  "c": "the only access",
+  "sense": "通道、入口；进入的途径"
+ },
+ {
+  "w": "access",
+  "c": "access to the building",
+  "sense": "通道、入口；进入的途径"
+ },
+ {
+  "w": "account",
+  "c": "account for 40%",
+  "sense": "（account for）占（比例）、构成"
+ },
+ {
+  "w": "account",
+  "c": "account for a third of",
+  "sense": "（account for）占（比例）、构成"
+ },
+ {
+  "w": "account",
+  "c": "account for the largest share",
+  "sense": "（account for）占（比例）、构成"
+ },
+ {
+  "w": "account",
+  "c": "which accounts for",
+  "sense": "（account for）占（比例）、构成"
+ },
+ {
+  "w": "address",
+  "c": "address a problem",
+  "sense": "处理、解决（问题、差距、隐患）"
+ },
+ {
+  "w": "address",
+  "c": "address the issue",
+  "sense": "处理、解决（问题、差距、隐患）"
+ },
+ {
+  "w": "address",
+  "c": "address a concern",
+  "sense": "处理、解决（问题、差距、隐患）"
+ },
+ {
+  "w": "address",
+  "c": "address the challenge",
+  "sense": "处理、解决（问题、差距、隐患）"
+ },
+ {
+  "w": "appeal",
+  "c": "appeal to sb to do sth",
+  "sense": "呼吁、恳求、请求"
+ },
+ {
+  "w": "appeal",
+  "c": "appeal for help",
+  "sense": "呼吁、恳求、请求"
+ },
+ {
+  "w": "appeal",
+  "c": "appeal to the government",
+  "sense": "呼吁、恳求、请求"
+ },
+ {
+  "w": "appeal",
+  "c": "make an appeal",
+  "sense": "呼吁、恳求、请求"
+ },
+ {
+  "w": "assumption",
+  "c": "make an assumption",
+  "sense": "假定、假设（未加证实的前提）"
+ },
+ {
+  "w": "assumption",
+  "c": "a reasonable assumption",
+  "sense": "假定、假设（未加证实的前提）"
+ },
+ {
+  "w": "assumption",
+  "c": "the basic assumption",
+  "sense": "假定、假设（未加证实的前提）"
+ },
+ {
+  "w": "assumption",
+  "c": "an unwarranted assumption",
+  "sense": "假定、假设（未加证实的前提）"
+ },
+ {
+  "w": "bear",
+  "c": "bear the pain",
+  "sense": "承受、忍受（痛苦、压力、后果）"
+ },
+ {
+  "w": "bear",
+  "c": "bear the consequences",
+  "sense": "承受、忍受（痛苦、压力、后果）"
+ },
+ {
+  "w": "bear",
+  "c": "bear the pressure",
+  "sense": "承受、忍受（痛苦、压力、后果）"
+ },
+ {
+  "w": "bear",
+  "c": "bear with me",
+  "sense": "承受、忍受（痛苦、压力、后果）"
+ },
+ {
+  "w": "capacity",
+  "c": "the capacity to do sth",
+  "sense": "能力、才能（做某事的本领）"
+ },
+ {
+  "w": "capacity",
+  "c": "have the capacity for",
+  "sense": "能力、才能（做某事的本领）"
+ },
+ {
+  "w": "capacity",
+  "c": "human capacity",
+  "sense": "能力、才能（做某事的本领）"
+ },
+ {
+  "w": "capacity",
+  "c": "a capacity for learning",
+  "sense": "能力、才能（做某事的本领）"
+ },
+ {
+  "w": "case",
+  "c": "in that case",
+  "sense": "情况；事态；情形"
+ },
+ {
+  "w": "case",
+  "c": "in this case",
+  "sense": "情况；事态；情形"
+ },
+ {
+  "w": "case",
+  "c": "in most cases",
+  "sense": "情况；事态；情形"
+ },
+ {
+  "w": "case",
+  "c": "the case is that",
+  "sense": "情况；事态；情形"
+ },
+ {
+  "w": "challenge",
+  "c": "face a challenge",
+  "sense": "挑战、难题（需要克服的困难）"
+ },
+ {
+  "w": "challenge",
+  "c": "a serious challenge",
+  "sense": "挑战、难题（需要克服的困难）"
+ },
+ {
+  "w": "challenge",
+  "c": "meet the challenge",
+  "sense": "挑战、难题（需要克服的困难）"
+ },
+ {
+  "w": "challenge",
+  "c": "an exciting challenge",
+  "sense": "挑战、难题（需要克服的困难）"
+ },
+ {
+  "w": "characteristic",
+  "c": "be characteristic of",
+  "sense": "典型的、特有的（是…的典型特征）"
+ },
+ {
+  "w": "characteristic",
+  "c": "a characteristic style",
+  "sense": "典型的、特有的（是…的典型特征）"
+ },
+ {
+  "w": "characteristic",
+  "c": "characteristic of the period",
+  "sense": "典型的、特有的（是…的典型特征）"
+ },
+ {
+  "w": "characteristic",
+  "c": "a key characteristic",
+  "sense": "特征、特点、性质"
+ },
+ {
+  "w": "charge",
+  "c": "be charged with",
+  "sense": "控告、以某罪名指控（某人）"
+ },
+ {
+  "w": "charge",
+  "c": "charge sb with sth",
+  "sense": "控告、以某罪名指控（某人）"
+ },
+ {
+  "w": "charge",
+  "c": "face a charge",
+  "sense": "控告、以某罪名指控（某人）"
+ },
+ {
+  "w": "charge",
+  "c": "be charged with fraud",
+  "sense": "控告、以某罪名指控（某人）"
+ },
+ {
+  "w": "concern",
+  "c": "as far as sb is concerned",
+  "sense": "涉及、关系到（与某事有关）"
+ },
+ {
+  "w": "concern",
+  "c": "concerning",
+  "sense": "涉及、关系到（与某事有关）"
+ },
+ {
+  "w": "concern",
+  "c": "be concerned with",
+  "sense": "涉及、关系到（与某事有关）"
+ },
+ {
+  "w": "concern",
+  "c": "concern oneself with",
+  "sense": "涉及、关系到（与某事有关）"
+ },
+ {
+  "w": "conduct",
+  "c": "good conduct",
+  "sense": "行为方式、举止；操行"
+ },
+ {
+  "w": "conduct",
+  "c": "conduct unbecoming",
+  "sense": "行为方式、举止；操行"
+ },
+ {
+  "w": "conduct",
+  "c": "a model of conduct",
+  "sense": "行为方式、举止；操行"
+ },
+ {
+  "w": "conduct",
+  "c": "conduct a survey",
+  "sense": "进行、实施（调查与实验）"
+ },
+ {
+  "w": "consequence",
+  "c": "the consequences of doing sth",
+  "sense": "结果、结局（某种行为带来的）"
+ },
+ {
+  "w": "consequence",
+  "c": "serious consequences",
+  "sense": "结果、结局（某种行为带来的）"
+ },
+ {
+  "w": "consequence",
+  "c": "a consequence of",
+  "sense": "结果、结局（某种行为带来的）"
+ },
+ {
+  "w": "consequence",
+  "c": "unintended consequences",
+  "sense": "结果、结局（某种行为带来的）"
+ },
+ {
+  "w": "content",
+  "c": "be content with",
+  "sense": "满足的、知足的（be content with）"
+ },
+ {
+  "w": "content",
+  "c": "be content to do",
+  "sense": "满足的、知足的（be content with）"
+ },
+ {
+  "w": "content",
+  "c": "content oneself with",
+  "sense": "满足的、知足的（be content with）"
+ },
+ {
+  "w": "content",
+  "c": "the content of a message",
+  "sense": "内容、实质（所表达的东西）"
+ },
+ {
+  "w": "contrast",
+  "c": "a sharp contrast",
+  "sense": "对比、对照；差异"
+ },
+ {
+  "w": "contrast",
+  "c": "a contrast between",
+  "sense": "对比、对照；差异"
+ },
+ {
+  "w": "contrast",
+  "c": "make a contrast",
+  "sense": "对比、对照；差异"
+ },
+ {
+  "w": "contrast",
+  "c": "in contrast",
+  "sense": "对比、对照；差异"
+ },
+ {
+  "w": "cover",
+  "c": "cover a wide range of",
+  "sense": "涵盖、包括（含…内容）"
+ },
+ {
+  "w": "cover",
+  "c": "cover all aspects",
+  "sense": "涵盖、包括（含…内容）"
+ },
+ {
+  "w": "cover",
+  "c": "cover the whole population",
+  "sense": "涵盖、包括（含…内容）"
+ },
+ {
+  "w": "cover",
+  "c": "cover the topic",
+  "sense": "涵盖、包括（含…内容）"
+ },
+ {
+  "w": "critical",
+  "c": "be critical of",
+  "sense": "批判的；批评的（be critical of）"
+ },
+ {
+  "w": "critical",
+  "c": "be highly critical",
+  "sense": "批判的；批评的（be critical of）"
+ },
+ {
+  "w": "critical",
+  "c": "a critical attitude",
+  "sense": "批判的；批评的（be critical of）"
+ },
+ {
+  "w": "critical",
+  "c": "critical comment",
+  "sense": "批判的；批评的（be critical of）"
+ },
+ {
+  "w": "current",
+  "c": "a warm current",
+  "sense": "水流、洋流（有方向的水流）"
+ },
+ {
+  "w": "current",
+  "c": "ocean currents",
+  "sense": "水流、洋流（有方向的水流）"
+ },
+ {
+  "w": "current",
+  "c": "the current is strong",
+  "sense": "水流、洋流（有方向的水流）"
+ },
+ {
+  "w": "current",
+  "c": "against the current",
+  "sense": "水流、洋流（有方向的水流）"
+ },
+ {
+  "w": "develop",
+  "c": "develop rapidly",
+  "sense": "发展、进步；开发（资源）"
+ },
+ {
+  "w": "develop",
+  "c": "develop new technology",
+  "sense": "发展、进步；开发（资源）"
+ },
+ {
+  "w": "develop",
+  "c": "develop into",
+  "sense": "发展、进步；开发（资源）"
+ },
+ {
+  "w": "develop",
+  "c": "develop resources",
+  "sense": "发展、进步；开发（资源）"
+ },
+ {
+  "w": "effect",
+  "c": "have an effect on",
+  "sense": "影响、作用（have an effect on）"
+ },
+ {
+  "w": "effect",
+  "c": "have a great effect on",
+  "sense": "影响、作用（have an effect on）"
+ },
+ {
+  "w": "effect",
+  "c": "an effect on sth",
+  "sense": "影响、作用（have an effect on）"
+ },
+ {
+  "w": "effect",
+  "c": "no effect",
+  "sense": "影响、作用（have an effect on）"
+ },
+ {
+  "w": "emphasis",
+  "c": "the emphasis falls on",
+  "sense": "重音、重读（词的发音着力点）"
+ },
+ {
+  "w": "emphasis",
+  "c": "stress and emphasis",
+  "sense": "重音、重读（词的发音着力点）"
+ },
+ {
+  "w": "emphasis",
+  "c": "word emphasis",
+  "sense": "重音、重读（词的发音着力点）"
+ },
+ {
+  "w": "emphasis",
+  "c": "place emphasis on",
+  "sense": "强调、着重（把注意力集中在…）"
+ },
+ {
+  "w": "firm",
+  "c": "a firm belief",
+  "sense": "坚定的、坚决的（信念、立场）"
+ },
+ {
+  "w": "firm",
+  "c": "a firm decision",
+  "sense": "坚定的、坚决的（信念、立场）"
+ },
+ {
+  "w": "firm",
+  "c": "firmly convinced",
+  "sense": "坚定的、坚决的（信念、立场）"
+ },
+ {
+  "w": "firm",
+  "c": "a firm commitment",
+  "sense": "坚定的、坚决的（信念、立场）"
+ },
+ {
+  "w": "flat",
+  "c": "a flat voice",
+  "sense": "平淡乏味的、没劲的"
+ },
+ {
+  "w": "flat",
+  "c": "a flat story",
+  "sense": "平淡乏味的、没劲的"
+ },
+ {
+  "w": "flat",
+  "c": "a flat atmosphere",
+  "sense": "平淡乏味的、没劲的"
+ },
+ {
+  "w": "flat",
+  "c": "fall flat",
+  "sense": "平淡乏味的、没劲的"
+ },
+ {
+  "w": "former",
+  "c": "former colleagues",
+  "sense": "以前的、先前的"
+ },
+ {
+  "w": "former",
+  "c": "a former champion",
+  "sense": "以前的、先前的"
+ },
+ {
+  "w": "former",
+  "c": "a former president",
+  "sense": "以前的、先前的"
+ },
+ {
+  "w": "former",
+  "c": "in former times",
+  "sense": "以前的、先前的"
+ },
+ {
+  "w": "gap",
+  "c": "the gap between A and B",
+  "sense": "差距、悬殊之处"
+ },
+ {
+  "w": "gap",
+  "c": "bridge the gap",
+  "sense": "差距、悬殊之处"
+ },
+ {
+  "w": "gap",
+  "c": "a wide gap",
+  "sense": "差距、悬殊之处"
+ },
+ {
+  "w": "gap",
+  "c": "narrow the gap",
+  "sense": "差距、悬殊之处"
+ },
+ {
+  "w": "impact",
+  "c": "have an impact on",
+  "sense": "影响、作用（对某事产生作用）"
+ },
+ {
+  "w": "impact",
+  "c": "a major impact on",
+  "sense": "影响、作用（对某事产生作用）"
+ },
+ {
+  "w": "impact",
+  "c": "the impact of sth on sth",
+  "sense": "影响、作用（对某事产生作用）"
+ },
+ {
+  "w": "impact",
+  "c": "a positive impact on",
+  "sense": "影响、作用（对某事产生作用）"
+ },
+ {
+  "w": "input",
+  "c": "input data",
+  "sense": "输入、键入（文字、指令、密码）"
+ },
+ {
+  "w": "input",
+  "c": "input a password",
+  "sense": "输入、键入（文字、指令、密码）"
+ },
+ {
+  "w": "input",
+  "c": "input information",
+  "sense": "输入、键入（文字、指令、密码）"
+ },
+ {
+  "w": "input",
+  "c": "manually input",
+  "sense": "输入、键入（文字、指令、密码）"
+ },
+ {
+  "w": "interest",
+  "c": "have an interest in",
+  "sense": "兴趣、爱好（对某事的喜爱）"
+ },
+ {
+  "w": "interest",
+  "c": "show interest in",
+  "sense": "兴趣、爱好（对某事的喜爱）"
+ },
+ {
+  "w": "interest",
+  "c": "a wide range of interests",
+  "sense": "兴趣、爱好（对某事的喜爱）"
+ },
+ {
+  "w": "interest",
+  "c": "with great interest",
+  "sense": "兴趣、爱好（对某事的喜爱）"
+ },
+ {
+  "w": "issue",
+  "c": "issue a report",
+  "sense": "发行、出版（报刊、杂志）"
+ },
+ {
+  "w": "issue",
+  "c": "issue a statement",
+  "sense": "发行、出版（报刊、杂志）"
+ },
+ {
+  "w": "issue",
+  "c": "issue a book",
+  "sense": "发行、出版（报刊、杂志）"
+ },
+ {
+  "w": "issue",
+  "c": "issue an order",
+  "sense": "发行、出版（报刊、杂志）"
+ },
+ {
+  "w": "major",
+  "c": "a major concern",
+  "sense": "主要的、重大的（占主导的）"
+ },
+ {
+  "w": "major",
+  "c": "a major factor",
+  "sense": "主要的、重大的（占主导的）"
+ },
+ {
+  "w": "major",
+  "c": "a major role",
+  "sense": "主要的、重大的（占主导的）"
+ },
+ {
+  "w": "major",
+  "c": "a major change",
+  "sense": "主要的、重大的（占主导的）"
+ },
+ {
+  "w": "mean",
+  "c": "mean to do",
+  "sense": "意味着、表示（某符号或事实所代表的）"
+ },
+ {
+  "w": "mean",
+  "c": "what does it mean",
+  "sense": "意味着、表示（某符号或事实所代表的）"
+ },
+ {
+  "w": "mean",
+  "c": "mean much to sb",
+  "sense": "意味着、表示（某符号或事实所代表的）"
+ },
+ {
+  "w": "mean",
+  "c": "it means that",
+  "sense": "意味着、表示（某符号或事实所代表的）"
+ },
+ {
+  "w": "measure",
+  "c": "measure the height",
+  "sense": "测量、量（长度、重量、面积）"
+ },
+ {
+  "w": "measure",
+  "c": "measure the length",
+  "sense": "测量、量（长度、重量、面积）"
+ },
+ {
+  "w": "measure",
+  "c": "measure the distance",
+  "sense": "测量、量（长度、重量、面积）"
+ },
+ {
+  "w": "measure",
+  "c": "a tape measure",
+  "sense": "测量、量（长度、重量、面积）"
+ },
+ {
+  "w": "mind",
+  "c": "the human mind",
+  "sense": "头脑、心智（思考与记忆的器官）"
+ },
+ {
+  "w": "mind",
+  "c": "a calm mind",
+  "sense": "头脑、心智（思考与记忆的器官）"
+ },
+ {
+  "w": "mind",
+  "c": "mind and body",
+  "sense": "头脑、心智（思考与记忆的器官）"
+ },
+ {
+  "w": "mind",
+  "c": "an open mind",
+  "sense": "头脑、心智（思考与记忆的器官）"
+ },
+ {
+  "w": "minor",
+  "c": "a minor role",
+  "sense": "不重要的、无关紧要的"
+ },
+ {
+  "w": "minor",
+  "c": "a minor problem",
+  "sense": "不重要的、无关紧要的"
+ },
+ {
+  "w": "minor",
+  "c": "a minor detail",
+  "sense": "不重要的、无关紧要的"
+ },
+ {
+  "w": "minor",
+  "c": "a minor issue",
+  "sense": "不重要的、无关紧要的"
+ },
+ {
+  "w": "nature",
+  "c": "nature reserve",
+  "sense": "自然、大自然（自然界及其景观）"
+ },
+ {
+  "w": "nature",
+  "c": "the natural world",
+  "sense": "自然、大自然（自然界及其景观）"
+ },
+ {
+  "w": "nature",
+  "c": "back to nature",
+  "sense": "自然、大自然（自然界及其景观）"
+ },
+ {
+  "w": "nature",
+  "c": "appreciate nature",
+  "sense": "自然、大自然（自然界及其景观）"
+ },
+ {
+  "w": "nerve",
+  "c": "nerve cells",
+  "sense": "神经（人体内的传导组织）"
+ },
+ {
+  "w": "nerve",
+  "c": "nerve endings",
+  "sense": "神经（人体内的传导组织）"
+ },
+ {
+  "w": "nerve",
+  "c": "nerve damage",
+  "sense": "神经（人体内的传导组织）"
+ },
+ {
+  "w": "nerve",
+  "c": "a damaged nerve",
+  "sense": "神经（人体内的传导组织）"
+ },
+ {
+  "w": "order",
+  "c": "in order of",
+  "sense": "顺序、次序（事物排列的先后）"
+ },
+ {
+  "w": "order",
+  "c": "the order of",
+  "sense": "顺序、次序（事物排列的先后）"
+ },
+ {
+  "w": "order",
+  "c": "in the right order",
+  "sense": "顺序、次序（事物排列的先后）"
+ },
+ {
+  "w": "order",
+  "c": "a fixed order",
+  "sense": "顺序、次序（事物排列的先后）"
+ },
+ {
+  "w": "particular",
+  "c": "in this particular case",
+  "sense": "专指某事的、具体而明确的"
+ },
+ {
+  "w": "particular",
+  "c": "on that particular day",
+  "sense": "专指某事的、具体而明确的"
+ },
+ {
+  "w": "particular",
+  "c": "a particular example",
+  "sense": "专指某事的、具体而明确的"
+ },
+ {
+  "w": "particular",
+  "c": "particular attention",
+  "sense": "专指某事的、具体而明确的"
+ },
+ {
+  "w": "pattern",
+  "c": "a repeating pattern",
+  "sense": "图案、花样（重复出现的图形组合）"
+ },
+ {
+  "w": "pattern",
+  "c": "a floral pattern",
+  "sense": "图案、花样（重复出现的图形组合）"
+ },
+ {
+  "w": "pattern",
+  "c": "a geometric pattern",
+  "sense": "图案、花样（重复出现的图形组合）"
+ },
+ {
+  "w": "pattern",
+  "c": "a pattern on the fabric",
+  "sense": "图案、花样（重复出现的图形组合）"
+ },
+ {
+  "w": "phase",
+  "c": "a phase of",
+  "sense": "阶段、时期（事物发展的一个段落）"
+ },
+ {
+  "w": "phase",
+  "c": "in this phase",
+  "sense": "阶段、时期（事物发展的一个段落）"
+ },
+ {
+  "w": "phase",
+  "c": "the final phase",
+  "sense": "阶段、时期（事物发展的一个段落）"
+ },
+ {
+  "w": "phase",
+  "c": "a new phase",
+  "sense": "阶段、时期（事物发展的一个段落）"
+ },
+ {
+  "w": "plant",
+  "c": "flowering plant",
+  "sense": "植物；草木等生物体"
+ },
+ {
+  "w": "plant",
+  "c": "plant species",
+  "sense": "植物；草木等生物体"
+ },
+ {
+  "w": "plant",
+  "c": "plant life",
+  "sense": "植物；草木等生物体"
+ },
+ {
+  "w": "plant",
+  "c": "a green plant",
+  "sense": "植物；草木等生物体"
+ },
+ {
+  "w": "point",
+  "c": "a key point",
+  "sense": "点、细部；（时间或空间上的）一点"
+ },
+ {
+  "w": "point",
+  "c": "at this point",
+  "sense": "点、细部；（时间或空间上的）一点"
+ },
+ {
+  "w": "point",
+  "c": "a turning point",
+  "sense": "点、细部；（时间或空间上的）一点"
+ },
+ {
+  "w": "point",
+  "c": "point by point",
+  "sense": "点、细部；（时间或空间上的）一点"
+ },
+ {
+  "w": "position",
+  "c": "a central position",
+  "sense": "位置、方位；所处的地点"
+ },
+ {
+  "w": "position",
+  "c": "in a position",
+  "sense": "位置、方位；所处的地点"
+ },
+ {
+  "w": "position",
+  "c": "the position of sth",
+  "sense": "位置、方位；所处的地点"
+ },
+ {
+  "w": "position",
+  "c": "a prime position",
+  "sense": "位置、方位；所处的地点"
+ },
+ {
+  "w": "power",
+  "c": "the power of the sun",
+  "sense": "力量、能量"
+ },
+ {
+  "w": "power",
+  "c": "muscular power",
+  "sense": "力量、能量"
+ },
+ {
+  "w": "power",
+  "c": "full power",
+  "sense": "力量、能量"
+ },
+ {
+  "w": "power",
+  "c": "a power of persuasion",
+  "sense": "力量、能量"
+ },
+ {
+  "w": "practice",
+  "c": "daily practice",
+  "sense": "练习、训练；练习过程"
+ },
+ {
+  "w": "practice",
+  "c": "in practice",
+  "sense": "练习、训练；练习过程"
+ },
+ {
+  "w": "practice",
+  "c": "practice makes perfect",
+  "sense": "练习、训练；练习过程"
+ },
+ {
+  "w": "practice",
+  "c": "put into practice",
+  "sense": "练习、训练；练习过程"
+ },
+ {
+  "w": "present",
+  "c": "at present",
+  "sense": "目前的、当前的；现存的"
+ },
+ {
+  "w": "present",
+  "c": "the present situation",
+  "sense": "目前的、当前的；现存的"
+ },
+ {
+  "w": "present",
+  "c": "the present government",
+  "sense": "目前的、当前的；现存的"
+ },
+ {
+  "w": "present",
+  "c": "present tense",
+  "sense": "目前的、当前的；现存的"
+ },
+ {
+  "w": "principle",
+  "c": "basic principles",
+  "sense": "原则、准则（做事的依据）"
+ },
+ {
+  "w": "principle",
+  "c": "a guiding principle",
+  "sense": "原则、准则（做事的依据）"
+ },
+ {
+  "w": "principle",
+  "c": "the principle of equality",
+  "sense": "原则、准则（做事的依据）"
+ },
+ {
+  "w": "principle",
+  "c": "a principle of design",
+  "sense": "原则、准则（做事的依据）"
+ },
+ {
+  "w": "range",
+  "c": "a wide range of",
+  "sense": "范围、幅度（数值或程度的上下限）"
+ },
+ {
+  "w": "range",
+  "c": "the range of",
+  "sense": "范围、幅度（数值或程度的上下限）"
+ },
+ {
+  "w": "range",
+  "c": "age range",
+  "sense": "范围、幅度（数值或程度的上下限）"
+ },
+ {
+  "w": "range",
+  "c": "price range",
+  "sense": "范围、幅度（数值或程度的上下限）"
+ },
+ {
+  "w": "rate",
+  "c": "rate sb highly",
+  "sense": "评价、评定（等级、名次、价值）"
+ },
+ {
+  "w": "rate",
+  "c": "be highly rated",
+  "sense": "评价、评定（等级、名次、价值）"
+ },
+ {
+  "w": "rate",
+  "c": "rate as the best",
+  "sense": "评价、评定（等级、名次、价值）"
+ },
+ {
+  "w": "rate",
+  "c": "rate a movie",
+  "sense": "评价、评定（等级、名次、价值）"
+ },
+ {
+  "w": "represent",
+  "c": "represent a company",
+  "sense": "代表；代表某人或某组织"
+ },
+ {
+  "w": "represent",
+  "c": "represent sb at the meeting",
+  "sense": "代表；代表某人或某组织"
+ },
+ {
+  "w": "represent",
+  "c": "be represented by",
+  "sense": "代表；代表某人或某组织"
+ },
+ {
+  "w": "represent",
+  "c": "represent the majority",
+  "sense": "代表；代表某人或某组织"
+ },
+ {
+  "w": "result",
+  "c": "the result of",
+  "sense": "结果、结局；（实验的）成果"
+ },
+ {
+  "w": "result",
+  "c": "as a result",
+  "sense": "结果、结局；（实验的）成果"
+ },
+ {
+  "w": "result",
+  "c": "a satisfactory result",
+  "sense": "结果、结局；（实验的）成果"
+ },
+ {
+  "w": "result",
+  "c": "come up with a result",
+  "sense": "结果、结局；（实验的）成果"
+ },
+ {
+  "w": "right",
+  "c": "be right about",
+  "sense": "正确的、对的；符合事实的"
+ },
+ {
+  "w": "right",
+  "c": "the right answer",
+  "sense": "正确的、对的；符合事实的"
+ },
+ {
+  "w": "right",
+  "c": "you are quite right",
+  "sense": "正确的、对的；符合事实的"
+ },
+ {
+  "w": "right",
+  "c": "right or wrong",
+  "sense": "正确的、对的；符合事实的"
+ },
+ {
+  "w": "seek",
+  "c": "seek help",
+  "sense": "寻求、设法得到（帮助、许可、信息）"
+ },
+ {
+  "w": "seek",
+  "c": "seek advice",
+  "sense": "寻求、设法得到（帮助、许可、信息）"
+ },
+ {
+  "w": "seek",
+  "c": "seek permission",
+  "sense": "寻求、设法得到（帮助、许可、信息）"
+ },
+ {
+  "w": "seek",
+  "c": "seek support",
+  "sense": "寻求、设法得到（帮助、许可、信息）"
+ },
+ {
+  "w": "sense",
+  "c": "sense of smell",
+  "sense": "感觉、感官；官能"
+ },
+ {
+  "w": "sense",
+  "c": "sense of touch",
+  "sense": "感觉、感官；官能"
+ },
+ {
+  "w": "sense",
+  "c": "a sixth sense",
+  "sense": "感觉、感官；官能"
+ },
+ {
+  "w": "sense",
+  "c": "common sense",
+  "sense": "感觉、感官；官能"
+ },
+ {
+  "w": "setting",
+  "c": "a natural setting",
+  "sense": "环境、背景；故事发生的场景"
+ },
+ {
+  "w": "setting",
+  "c": "the historical setting",
+  "sense": "环境、背景；故事发生的场景"
+ },
+ {
+  "w": "setting",
+  "c": "the setting of the story",
+  "sense": "环境、背景；故事发生的场景"
+ },
+ {
+  "w": "setting",
+  "c": "a perfect setting",
+  "sense": "环境、背景；故事发生的场景"
+ },
+ {
+  "w": "shift",
+  "c": "a shift in attitudes",
+  "sense": "转变、转移（政策、态度的变化）"
+ },
+ {
+  "w": "shift",
+  "c": "a shift towards",
+  "sense": "转变、转移（政策、态度的变化）"
+ },
+ {
+  "w": "shift",
+  "c": "a major shift",
+  "sense": "转变、转移（政策、态度的变化）"
+ },
+ {
+  "w": "shift",
+  "c": "a shift in policy",
+  "sense": "转变、转移（政策、态度的变化）"
+ },
+ {
+  "w": "sound",
+  "c": "make a sound",
+  "sense": "声音、声响；耳朵听到的振动"
+ },
+ {
+  "w": "sound",
+  "c": "the sound of",
+  "sense": "声音、声响；耳朵听到的振动"
+ },
+ {
+  "w": "sound",
+  "c": "a faint sound",
+  "sense": "声音、声响；耳朵听到的振动"
+ },
+ {
+  "w": "sound",
+  "c": "no sound",
+  "sense": "声音、声响；耳朵听到的振动"
+ },
+ {
+  "w": "spot",
+  "c": "spot a problem",
+  "sense": "发现、察觉（问题、异常）"
+ },
+ {
+  "w": "spot",
+  "c": "spot a mistake",
+  "sense": "发现、察觉（问题、异常）"
+ },
+ {
+  "w": "spot",
+  "c": "spot the difference",
+  "sense": "发现、察觉（问题、异常）"
+ },
+ {
+  "w": "spot",
+  "c": "easy to spot",
+  "sense": "发现、察觉（问题、异常）"
+ },
+ {
+  "w": "stand",
+  "c": "stand on a hill",
+  "sense": "站立；（建筑物）坐落、矗立"
+ },
+ {
+  "w": "stand",
+  "c": "stand at the door",
+  "sense": "站立；（建筑物）坐落、矗立"
+ },
+ {
+  "w": "stand",
+  "c": "stand beside",
+  "sense": "站立；（建筑物）坐落、矗立"
+ },
+ {
+  "w": "stand",
+  "c": "stand still",
+  "sense": "站立；（建筑物）坐落、矗立"
+ },
+ {
+  "w": "state",
+  "c": "member states",
+  "sense": "国家；（美国的）州，一级行政区"
+ },
+ {
+  "w": "state",
+  "c": "the United States",
+  "sense": "国家；（美国的）州，一级行政区"
+ },
+ {
+  "w": "state",
+  "c": "state visit",
+  "sense": "国家；（美国的）州，一级行政区"
+ },
+ {
+  "w": "state",
+  "c": "state-owned",
+  "sense": "国家；（美国的）州，一级行政区"
+ },
+ {
+  "w": "subject",
+  "c": "the subject of",
+  "sense": "主题、话题；讨论的对象"
+ },
+ {
+  "w": "subject",
+  "c": "on the subject of",
+  "sense": "主题、话题；讨论的对象"
+ },
+ {
+  "w": "subject",
+  "c": "subject matter",
+  "sense": "主题、话题；讨论的对象"
+ },
+ {
+  "w": "subject",
+  "c": "a sensitive subject",
+  "sense": "主题、话题；讨论的对象"
+ },
+ {
+  "w": "swing",
+  "c": "swing back and forth",
+  "sense": "摆动、摇动；来回摆动"
+ },
+ {
+  "w": "swing",
+  "c": "swing in the wind",
+  "sense": "摆动、摇动；来回摆动"
+ },
+ {
+  "w": "swing",
+  "c": "swing open",
+  "sense": "摆动、摇动；来回摆动"
+ },
+ {
+  "w": "swing",
+  "c": "set sth swinging",
+  "sense": "摆动、摇动；来回摆动"
+ },
+ {
+  "w": "treat",
+  "c": "treat sb fairly",
+  "sense": "对待、看待；处理"
+ },
+ {
+  "w": "treat",
+  "c": "treat sb badly",
+  "sense": "对待、看待；处理"
+ },
+ {
+  "w": "treat",
+  "c": "treat sth seriously",
+  "sense": "对待、看待；处理"
+ },
+ {
+  "w": "treat",
+  "c": "treat the problem",
+  "sense": "对待、看待；处理"
+ },
+ {
+  "w": "value",
+  "c": "market value",
+  "sense": "价值、价钱；重要性"
+ },
+ {
+  "w": "value",
+  "c": "the value of doing sth",
+  "sense": "价值、价钱；重要性"
+ },
+ {
+  "w": "value",
+  "c": "great value for money",
+  "sense": "价值、价钱；重要性"
+ },
+ {
+  "w": "value",
+  "c": "add value to",
+  "sense": "价值、价钱；重要性"
+ },
+ {
+  "w": "view",
+  "c": "a view on sth",
+  "sense": "看法、观点（对事物的认识）"
+ },
+ {
+  "w": "view",
+  "c": "in my view",
+  "sense": "看法、观点（对事物的认识）"
+ },
+ {
+  "w": "view",
+  "c": "a different view",
+  "sense": "看法、观点（对事物的认识）"
+ },
+ {
+  "w": "view",
+  "c": "hold the view that",
+  "sense": "看法、观点（对事物的认识）"
+ },
+ {
+  "w": "volume",
+  "c": "the volume of sales",
+  "sense": "量、数量、总量"
+ },
+ {
+  "w": "volume",
+  "c": "trading volume",
+  "sense": "量、数量、总量"
+ },
+ {
+  "w": "volume",
+  "c": "an increase in volume",
+  "sense": "量、数量、总量"
+ },
+ {
+  "w": "volume",
+  "c": "the volume of production",
+  "sense": "量、数量、总量"
+ },
+ {
+  "w": "anticipate",
+  "c": "anticipate that...",
+  "sense": "预料、预期（某事会发生）"
+ },
+ {
+  "w": "anticipate",
+  "c": "anticipate problems",
+  "sense": "预料、预期（某事会发生）"
+ },
+ {
+  "w": "anticipate",
+  "c": "as anticipated",
+  "sense": "预料、预期（某事会发生）"
+ },
+ {
+  "w": "anticipate",
+  "c": "widely anticipated",
+  "sense": "预料、预期（某事会发生）"
+ },
+ {
+  "w": "category",
+  "c": "a category of",
+  "sense": "类别、门类（对事物的划分）"
+ },
+ {
+  "w": "category",
+  "c": "four categories of",
+  "sense": "类别、门类（对事物的划分）"
+ },
+ {
+  "w": "category",
+  "c": "one broad category",
+  "sense": "类别、门类（对事物的划分）"
+ },
+ {
+  "w": "category",
+  "c": "classified into categories",
+  "sense": "类别、门类（对事物的划分）"
+ },
+ {
+  "w": "conflict",
+  "c": "armed conflict",
+  "sense": "冲突、争执（武装冲突、双方对立）"
+ },
+ {
+  "w": "conflict",
+  "c": "a conflict between",
+  "sense": "冲突、争执（武装冲突、双方对立）"
+ },
+ {
+  "w": "conflict",
+  "c": "come into conflict",
+  "sense": "冲突、争执（武装冲突、双方对立）"
+ },
+ {
+  "w": "conflict",
+  "c": "a local conflict",
+  "sense": "冲突、争执（武装冲突、双方对立）"
+ },
+ {
+  "w": "convey",
+  "c": "convey a meaning",
+  "sense": "表达、传达（想法、情感、意义）"
+ },
+ {
+  "w": "convey",
+  "c": "convey feelings",
+  "sense": "表达、传达（想法、情感、意义）"
+ },
+ {
+  "w": "convey",
+  "c": "convey a message",
+  "sense": "表达、传达（想法、情感、意义）"
+ },
+ {
+  "w": "convey",
+  "c": "convey the impression",
+  "sense": "表达、传达（想法、情感、意义）"
+ },
+ {
+  "w": "defeat",
+  "c": "defeat sb",
+  "sense": "击败、战胜（对手、队伍）"
+ },
+ {
+  "w": "defeat",
+  "c": "defeat the enemy",
+  "sense": "击败、战胜（对手、队伍）"
+ },
+ {
+  "w": "defeat",
+  "c": "defeat the champions",
+  "sense": "击败、战胜（对手、队伍）"
+ },
+ {
+  "w": "defeat",
+  "c": "defeat a team",
+  "sense": "击败、战胜（对手、队伍）"
+ },
+ {
+  "w": "dominate",
+  "c": "dominate the market",
+  "sense": "主导、支配（占据主导地位、控制局面）"
+ },
+ {
+  "w": "dominate",
+  "c": "dominate the industry",
+  "sense": "主导、支配（占据主导地位、控制局面）"
+ },
+ {
+  "w": "dominate",
+  "c": "dominate the discussion",
+  "sense": "主导、支配（占据主导地位、控制局面）"
+ },
+ {
+  "w": "dominate",
+  "c": "dominate the landscape",
+  "sense": "主导、支配（占据主导地位、控制局面）"
+ },
+ {
+  "w": "elegant",
+  "c": "an elegant manner",
+  "sense": "优雅得体、有教养的（举止、风度）"
+ },
+ {
+  "w": "elegant",
+  "c": "an elegant woman",
+  "sense": "优雅得体、有教养的（举止、风度）"
+ },
+ {
+  "w": "elegant",
+  "c": "elegant behaviour",
+  "sense": "优雅得体、有教养的（举止、风度）"
+ },
+ {
+  "w": "elegant",
+  "c": "an elegant bow",
+  "sense": "优雅得体、有教养的（举止、风度）"
+ },
+ {
+  "w": "emerge",
+  "c": "emerge from the darkness",
+  "sense": "出现、显露（人或物现出来）"
+ },
+ {
+  "w": "emerge",
+  "c": "emerge from the sea",
+  "sense": "出现、显露（人或物现出来）"
+ },
+ {
+  "w": "emerge",
+  "c": "emerge from the ruins",
+  "sense": "出现、显露（人或物现出来）"
+ },
+ {
+  "w": "emerge",
+  "c": "emerge into view",
+  "sense": "出现、显露（人或物现出来）"
+ },
+ {
+  "w": "exploit",
+  "c": "exploit advantages",
+  "sense": "充分发挥（优势、资源）；用足"
+ },
+ {
+  "w": "exploit",
+  "c": "exploit potential",
+  "sense": "充分发挥（优势、资源）；用足"
+ },
+ {
+  "w": "exploit",
+  "c": "fully exploit",
+  "sense": "充分发挥（优势、资源）；用足"
+ },
+ {
+  "w": "exploit",
+  "c": "exploit every opportunity",
+  "sense": "充分发挥（优势、资源）；用足"
+ },
+ {
+  "w": "facilitate",
+  "c": "facilitate communication",
+  "sense": "促进、推动（沟通、协作的展开）"
+ },
+ {
+  "w": "facilitate",
+  "c": "facilitate cooperation",
+  "sense": "促进、推动（沟通、协作的展开）"
+ },
+ {
+  "w": "facilitate",
+  "c": "facilitate the process",
+  "sense": "促进、推动（沟通、协作的展开）"
+ },
+ {
+  "w": "facilitate",
+  "c": "facilitate the transition",
+  "sense": "促进、推动（沟通、协作的展开）"
+ },
+ {
+  "w": "reform",
+  "c": "reform the system",
+  "sense": "改革、变革（制度、教育、系统）"
+ },
+ {
+  "w": "reform",
+  "c": "reform education",
+  "sense": "改革、变革（制度、教育、系统）"
+ },
+ {
+  "w": "reform",
+  "c": "reform the tax system",
+  "sense": "改革、变革（制度、教育、系统）"
+ },
+ {
+  "w": "reform",
+  "c": "reform and modernize",
+  "sense": "改革、变革（制度、教育、系统）"
+ },
+ {
+  "w": "spectacular",
+  "c": "a spectacular view",
+  "sense": "壮观、宏伟的（景象、场面、风景）"
+ },
+ {
+  "w": "spectacular",
+  "c": "spectacular scenery",
+  "sense": "壮观、宏伟的（景象、场面、风景）"
+ },
+ {
+  "w": "spectacular",
+  "c": "a spectacular waterfall",
+  "sense": "壮观、宏伟的（景象、场面、风景）"
+ },
+ {
+  "w": "spectacular",
+  "c": "spectacular displays",
+  "sense": "壮观、宏伟的（景象、场面、风景）"
+ },
+ {
+  "w": "abandon",
+  "c": "abandon a plan",
+  "sense": "放弃（计划、尝试、想法）"
+ },
+ {
+  "w": "abandon",
+  "c": "abandon an attempt",
+  "sense": "放弃（计划、尝试、想法）"
+ },
+ {
+  "w": "abandon",
+  "c": "abandon the idea",
+  "sense": "放弃（计划、尝试、想法）"
+ },
+ {
+  "w": "abandon",
+  "c": "abandon hope",
+  "sense": "放弃（计划、尝试、想法）"
+ },
+ {
+  "w": "accuse",
+  "c": "accuse sb of theft",
+  "sense": "指控、控告（某人做了某事）"
+ },
+ {
+  "w": "accuse",
+  "c": "accuse sb of cheating",
+  "sense": "指控、控告（某人做了某事）"
+ },
+ {
+  "w": "accuse",
+  "c": "accuse sb of doing sth",
+  "sense": "指控、控告（某人做了某事）"
+ },
+ {
+  "w": "accuse",
+  "c": "accuse sb of lying",
+  "sense": "指控、控告（某人做了某事）"
+ },
+ {
+  "w": "apart",
+  "c": "far apart",
+  "sense": "分开地、彼此隔开（相隔一段距离）"
+ },
+ {
+  "w": "apart",
+  "c": "miles apart",
+  "sense": "分开地、彼此隔开（相隔一段距离）"
+ },
+ {
+  "w": "apart",
+  "c": "well apart",
+  "sense": "分开地、彼此隔开（相隔一段距离）"
+ },
+ {
+  "w": "apart",
+  "c": "apart from each other",
+  "sense": "分开地、彼此隔开（相隔一段距离）"
+ },
+ {
+  "w": "assemble",
+  "c": "assemble in the hall",
+  "sense": "集合、聚到一处（人群来到某地）"
+ },
+ {
+  "w": "assemble",
+  "c": "assemble outside",
+  "sense": "集合、聚到一处（人群来到某地）"
+ },
+ {
+  "w": "assemble",
+  "c": "assemble before",
+  "sense": "集合、聚到一处（人群来到某地）"
+ },
+ {
+  "w": "assemble",
+  "c": "the crowd assembled",
+  "sense": "集合、聚到一处（人群来到某地）"
+ },
+ {
+  "w": "assign",
+  "c": "assign a task",
+  "sense": "分配、分派（任务、房间、经费）"
+ },
+ {
+  "w": "assign",
+  "c": "assign a room",
+  "sense": "分配、分派（任务、房间、经费）"
+ },
+ {
+  "w": "assign",
+  "c": "assign a budget",
+  "sense": "分配、分派（任务、房间、经费）"
+ },
+ {
+  "w": "assign",
+  "c": "assign roles",
+  "sense": "分配、分派（任务、房间、经费）"
+ },
+ {
+  "w": "bond",
+  "c": "a bond between",
+  "sense": "联结、联系；把人连在一起的东西"
+ },
+ {
+  "w": "bond",
+  "c": "a bond of trust",
+  "sense": "联结、联系；把人连在一起的东西"
+ },
+ {
+  "w": "bond",
+  "c": "strengthen a bond",
+  "sense": "联结、联系；把人连在一起的东西"
+ },
+ {
+  "w": "bond",
+  "c": "family bonds",
+  "sense": "联结、联系；把人连在一起的东西"
+ },
+ {
+  "w": "captain",
+  "c": "team captain",
+  "sense": "队长（球队、班级的领头人）"
+ },
+ {
+  "w": "captain",
+  "c": "the captain of the team",
+  "sense": "队长（球队、班级的领头人）"
+ },
+ {
+  "w": "captain",
+  "c": "captain the side",
+  "sense": "队长（球队、班级的领头人）"
+ },
+ {
+  "w": "captain",
+  "c": "a national captain",
+  "sense": "队长（球队、班级的领头人）"
+ },
+ {
+  "w": "contest",
+  "c": "a writing contest",
+  "sense": "赛事、比赛活动"
+ },
+ {
+  "w": "contest",
+  "c": "enter a contest",
+  "sense": "赛事、比赛活动"
+ },
+ {
+  "w": "contest",
+  "c": "hold a contest",
+  "sense": "赛事、比赛活动"
+ },
+ {
+  "w": "contest",
+  "c": "win a contest",
+  "sense": "赛事、比赛活动"
+ },
+ {
+  "w": "criterion",
+  "c": "a criterion for",
+  "sense": "衡量优劣的依据；评判的尺度"
+ },
+ {
+  "w": "criterion",
+  "c": "the criterion of",
+  "sense": "衡量优劣的依据；评判的尺度"
+ },
+ {
+  "w": "criterion",
+  "c": "meet the criteria",
+  "sense": "衡量优劣的依据；评判的尺度"
+ },
+ {
+  "w": "criterion",
+  "c": "apply a criterion",
+  "sense": "衡量优劣的依据；评判的尺度"
+ },
+ {
+  "w": "division",
+  "c": "the division of",
+  "sense": "把整体拆成若干部分；由此形成的结果"
+ },
+ {
+  "w": "division",
+  "c": "a clear division",
+  "sense": "把整体拆成若干部分；由此形成的结果"
+ },
+ {
+  "w": "division",
+  "c": "line of division",
+  "sense": "把整体拆成若干部分；由此形成的结果"
+ },
+ {
+  "w": "division",
+  "c": "division into",
+  "sense": "把整体拆成若干部分；由此形成的结果"
+ },
+ {
+  "w": "exchange",
+  "c": "exchange gifts",
+  "sense": "互换、交换（礼物、号码、意见）"
+ },
+ {
+  "w": "exchange",
+  "c": "exchange phone numbers",
+  "sense": "互换、交换（礼物、号码、意见）"
+ },
+ {
+  "w": "exchange",
+  "c": "exchange information",
+  "sense": "互换、交换（礼物、号码、意见）"
+ },
+ {
+  "w": "exchange",
+  "c": "exchange places",
+  "sense": "互换、交换（礼物、号码、意见）"
+ },
+ {
+  "w": "indicate",
+  "c": "indicate that",
+  "sense": "表明、显示（研究或迹象指向某个结论）"
+ },
+ {
+  "w": "indicate",
+  "c": "the results indicate",
+  "sense": "表明、显示（研究或迹象指向某个结论）"
+ },
+ {
+  "w": "indicate",
+  "c": "indicate a trend",
+  "sense": "表明、显示（研究或迹象指向某个结论）"
+ },
+ {
+  "w": "indicate",
+  "c": "the figures indicate",
+  "sense": "表明、显示（研究或迹象指向某个结论）"
+ },
+ {
+  "w": "nation",
+  "c": "a developed nation",
+  "sense": "国家（政治意义上的独立国家）"
+ },
+ {
+  "w": "nation",
+  "c": "an island nation",
+  "sense": "国家（政治意义上的独立国家）"
+ },
+ {
+  "w": "nation",
+  "c": "a wealthy nation",
+  "sense": "国家（政治意义上的独立国家）"
+ },
+ {
+  "w": "nation",
+  "c": "the whole nation",
+  "sense": "国家（政治意义上的独立国家）"
+ },
+ {
+  "w": "observe",
+  "c": "observe a change",
+  "sense": "观察、注视；注意到"
+ },
+ {
+  "w": "observe",
+  "c": "observe that",
+  "sense": "观察、注视；注意到"
+ },
+ {
+  "w": "observe",
+  "c": "observe carefully",
+  "sense": "观察、注视；注意到"
+ },
+ {
+  "w": "observe",
+  "c": "observe the behaviour of",
+  "sense": "观察、注视；注意到"
+ },
+ {
+  "w": "occupy",
+  "c": "occupy a seat",
+  "sense": "占据（空间、位置、席位）"
+ },
+ {
+  "w": "occupy",
+  "c": "occupy space",
+  "sense": "占据（空间、位置、席位）"
+ },
+ {
+  "w": "occupy",
+  "c": "occupy a place in",
+  "sense": "占据（空间、位置、席位）"
+ },
+ {
+  "w": "occupy",
+  "c": "occupy the front row",
+  "sense": "占据（空间、位置、席位）"
+ },
+ {
+  "w": "prove",
+  "c": "prove that",
+  "sense": "证明、证实（用证据说明命题成立）"
+ },
+ {
+  "w": "prove",
+  "c": "prove the theory",
+  "sense": "证明、证实（用证据说明命题成立）"
+ },
+ {
+  "w": "prove",
+  "c": "prove a claim",
+  "sense": "证明、证实（用证据说明命题成立）"
+ },
+ {
+  "w": "prove",
+  "c": "prove to be true",
+  "sense": "证明、证实（用证据说明命题成立）"
+ },
+ {
+  "w": "replace",
+  "c": "replace the old system",
+  "sense": "取代、顶替（原有的人或物被换掉）"
+ },
+ {
+  "w": "replace",
+  "c": "be replaced by",
+  "sense": "取代、顶替（原有的人或物被换掉）"
+ },
+ {
+  "w": "replace",
+  "c": "completely replace",
+  "sense": "取代、顶替（原有的人或物被换掉）"
+ },
+ {
+  "w": "replace",
+  "c": "replace the filter",
+  "sense": "更换（把旧的换成新的同类物）"
+ },
+ {
+  "w": "settle",
+  "c": "settle a dispute",
+  "sense": "解决、处理（争端、纠纷）"
+ },
+ {
+  "w": "settle",
+  "c": "settle a conflict",
+  "sense": "解决、处理（争端、纠纷）"
+ },
+ {
+  "w": "settle",
+  "c": "settle the matter",
+  "sense": "解决、处理（争端、纠纷）"
+ },
+ {
+  "w": "settle",
+  "c": "settle differences",
+  "sense": "解决、处理（争端、纠纷）"
+ },
+ {
+  "w": "suspect",
+  "c": "suspect sb of sth",
+  "sense": "怀疑、觉得…有嫌疑"
+ },
+ {
+  "w": "suspect",
+  "c": "suspect that",
+  "sense": "怀疑、觉得…有嫌疑"
+ },
+ {
+  "w": "suspect",
+  "c": "be suspected of",
+  "sense": "怀疑、觉得…有嫌疑"
+ },
+ {
+  "w": "suspect",
+  "c": "a suspected case",
+  "sense": "怀疑、觉得…有嫌疑"
+ },
+ {
+  "w": "suspend",
+  "c": "suspend sth from sth",
+  "sense": "悬挂、吊挂；垂下"
+ },
+ {
+  "w": "suspend",
+  "c": "suspend a lamp",
+  "sense": "悬挂、吊挂；垂下"
+ },
+ {
+  "w": "suspend",
+  "c": "suspend from the ceiling",
+  "sense": "悬挂、吊挂；垂下"
+ },
+ {
+  "w": "suspend",
+  "c": "suspend a picture",
+  "sense": "悬挂、吊挂；垂下"
+ },
+ {
+  "w": "utter",
+  "c": "utter a word",
+  "sense": "说出、开口讲（话、名字）"
+ },
+ {
+  "w": "utter",
+  "c": "utter a name",
+  "sense": "说出、开口讲（话、名字）"
+ },
+ {
+  "w": "utter",
+  "c": "utter no sound",
+  "sense": "说出、开口讲（话、名字）"
+ },
+ {
+  "w": "utter",
+  "c": "utter a greeting",
+  "sense": "说出、开口讲（话、名字）"
+ }
+]

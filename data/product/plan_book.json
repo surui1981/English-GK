@@ -1,0 +1,482 @@
+{
+ "meta": {
+  "name": "30 天冲刺计划表 + 单词打卡表",
+  "subtitle": "四轮递进 · 每日梯度 · 可打印打卡",
+  "status": "样本卷",
+  "description": "30 天四阶段递进计划：前两周集中学完 100 词，后两周转入语境强化与提取复习；每日任务与复盘节点明确，附可打印打卡表。",
+  "method": "教研体系四轮学习法：逐词学习 → 重点突破 → 意识增进 → 温故知新。",
+  "copyright": "计划表为自研编排，词序来自自建精修词库，不含教材原文与单元词表。",
+  "pricing": {
+   "tiers": [
+    {
+     "name": "7 天体验",
+     "days": 7,
+     "price": 1.9
+    },
+    {
+     "name": "30 天全套",
+     "days": 30,
+     "price": 3.9
+    }
+   ],
+   "currency": "CNY"
+  },
+  "coverage": {
+   "total_days": 30,
+   "planned_words": 100,
+   "scheduled_new_words": 100,
+   "phases": [
+    "第一轮 · 逐词打底",
+    "第二轮 · 高频突破",
+    "第三轮 · 语境强化",
+    "第四轮 · 提取复习"
+   ]
+  }
+ },
+ "days": [
+  {
+   "day": 1,
+   "phase": "第一轮 · 逐词打底",
+   "new_count": 15,
+   "new_words": [
+    "case",
+    "access",
+    "charge",
+    "conduct",
+    "contrast",
+    "critical",
+    "effect",
+    "measure",
+    "minor",
+    "particular",
+    "position",
+    "power",
+    "principle",
+    "represent",
+    "setting"
+   ],
+   "range": [
+    1,
+    15
+   ],
+   "is_review": false
+  },
+  {
+   "day": 2,
+   "phase": "第一轮 · 逐词打底",
+   "new_count": 15,
+   "new_words": [
+    "swing",
+    "volume",
+    "account",
+    "appeal",
+    "capacity",
+    "concern",
+    "consequence",
+    "content",
+    "current",
+    "firm",
+    "flat",
+    "former",
+    "issue",
+    "major",
+    "rate"
+   ],
+   "range": [
+    16,
+    30
+   ],
+   "is_review": false
+  },
+  {
+   "day": 3,
+   "phase": "第一轮 · 逐词打底",
+   "new_count": 15,
+   "new_words": [
+    "shift",
+    "spot",
+    "assumption",
+    "characteristic",
+    "emphasis",
+    "gap",
+    "input",
+    "pattern",
+    "seek",
+    "view",
+    "challenge",
+    "impact",
+    "phase",
+    "range",
+    "nerve"
+   ],
+   "range": [
+    31,
+    45
+   ],
+   "is_review": false
+  },
+  {
+   "day": 4,
+   "phase": "第一轮 · 逐词打底",
+   "new_count": 15,
+   "new_words": [
+    "address",
+    "bear",
+    "cover",
+    "interest",
+    "mean",
+    "mind",
+    "nature",
+    "order",
+    "plant",
+    "point",
+    "present",
+    "result",
+    "right",
+    "sense",
+    "sound"
+   ],
+   "range": [
+    46,
+    60
+   ],
+   "is_review": false
+  },
+  {
+   "day": 5,
+   "phase": "第一轮 · 逐词打底",
+   "new_count": 15,
+   "new_words": [
+    "stand",
+    "state",
+    "subject",
+    "treat",
+    "value",
+    "develop",
+    "practice",
+    "exploit",
+    "anticipate",
+    "conflict",
+    "defeat",
+    "dominate",
+    "elegant",
+    "emerge",
+    "facilitate"
+   ],
+   "range": [
+    61,
+    75
+   ],
+   "is_review": false
+  },
+  {
+   "day": 6,
+   "phase": "第一轮 · 逐词打底",
+   "new_count": 5,
+   "new_words": [
+    "reform",
+    "category",
+    "convey",
+    "spectacular",
+    "observe"
+   ],
+   "range": [
+    76,
+    80
+   ],
+   "is_review": false
+  },
+  {
+   "day": 7,
+   "phase": "第一轮 · 逐词打底",
+   "new_count": 0,
+   "new_words": [],
+   "range": [
+    80,
+    80
+   ],
+   "is_review": true,
+   "review_task": "本周复盘：遮住中文自测前 80 词，错的重回词卡"
+  },
+  {
+   "day": 8,
+   "phase": "第二轮 · 高频突破",
+   "new_count": 5,
+   "new_words": [
+    "settle",
+    "suspect",
+    "replace",
+    "indicate",
+    "occupy"
+   ],
+   "range": [
+    81,
+    85
+   ],
+   "is_review": false
+  },
+  {
+   "day": 9,
+   "phase": "第二轮 · 高频突破",
+   "new_count": 5,
+   "new_words": [
+    "prove",
+    "division",
+    "suspend",
+    "criterion",
+    "utter"
+   ],
+   "range": [
+    86,
+    90
+   ],
+   "is_review": false
+  },
+  {
+   "day": 10,
+   "phase": "第二轮 · 高频突破",
+   "new_count": 5,
+   "new_words": [
+    "bond",
+    "contest",
+    "exchange",
+    "abandon",
+    "accuse"
+   ],
+   "range": [
+    91,
+    95
+   ],
+   "is_review": false
+  },
+  {
+   "day": 11,
+   "phase": "第二轮 · 高频突破",
+   "new_count": 5,
+   "new_words": [
+    "apart",
+    "assemble",
+    "assign",
+    "captain",
+    "nation"
+   ],
+   "range": [
+    96,
+    100
+   ],
+   "is_review": false
+  },
+  {
+   "day": 12,
+   "phase": "第二轮 · 高频突破",
+   "new_count": 0,
+   "new_words": [],
+   "range": [
+    100,
+    100
+   ],
+   "is_review": true
+  },
+  {
+   "day": 13,
+   "phase": "第二轮 · 高频突破",
+   "new_count": 0,
+   "new_words": [],
+   "range": [
+    100,
+    100
+   ],
+   "is_review": true
+  },
+  {
+   "day": 14,
+   "phase": "第二轮 · 高频突破",
+   "new_count": 0,
+   "new_words": [],
+   "range": [
+    100,
+    100
+   ],
+   "is_review": true,
+   "review_task": "阶段检测：前 100 词按 S 层级抽查陷阱义"
+  },
+  {
+   "day": 15,
+   "phase": "第三轮 · 语境强化",
+   "new_count": 0,
+   "new_words": [],
+   "range": [
+    100,
+    100
+   ],
+   "is_review": true
+  },
+  {
+   "day": 16,
+   "phase": "第三轮 · 语境强化",
+   "new_count": 0,
+   "new_words": [],
+   "range": [
+    100,
+    100
+   ],
+   "is_review": true
+  },
+  {
+   "day": 17,
+   "phase": "第三轮 · 语境强化",
+   "new_count": 0,
+   "new_words": [],
+   "range": [
+    100,
+    100
+   ],
+   "is_review": true
+  },
+  {
+   "day": 18,
+   "phase": "第三轮 · 语境强化",
+   "new_count": 0,
+   "new_words": [],
+   "range": [
+    100,
+    100
+   ],
+   "is_review": true
+  },
+  {
+   "day": 19,
+   "phase": "第三轮 · 语境强化",
+   "new_count": 0,
+   "new_words": [],
+   "range": [
+    100,
+    100
+   ],
+   "is_review": true
+  },
+  {
+   "day": 20,
+   "phase": "第三轮 · 语境强化",
+   "new_count": 0,
+   "new_words": [],
+   "range": [
+    100,
+    100
+   ],
+   "is_review": true
+  },
+  {
+   "day": 21,
+   "phase": "第三轮 · 语境强化",
+   "new_count": 0,
+   "new_words": [],
+   "range": [
+    100,
+    100
+   ],
+   "is_review": true,
+   "review_task": "语境复盘：把熟词僻义词放进例句重译"
+  },
+  {
+   "day": 22,
+   "phase": "第三轮 · 语境强化",
+   "new_count": 0,
+   "new_words": [],
+   "range": [
+    100,
+    100
+   ],
+   "is_review": true
+  },
+  {
+   "day": 23,
+   "phase": "第四轮 · 提取复习",
+   "new_count": 0,
+   "new_words": [],
+   "range": [
+    100,
+    100
+   ],
+   "is_review": true
+  },
+  {
+   "day": 24,
+   "phase": "第四轮 · 提取复习",
+   "new_count": 0,
+   "new_words": [],
+   "range": [
+    100,
+    100
+   ],
+   "is_review": true
+  },
+  {
+   "day": 25,
+   "phase": "第四轮 · 提取复习",
+   "new_count": 0,
+   "new_words": [],
+   "range": [
+    100,
+    100
+   ],
+   "is_review": true
+  },
+  {
+   "day": 26,
+   "phase": "第四轮 · 提取复习",
+   "new_count": 0,
+   "new_words": [],
+   "range": [
+    100,
+    100
+   ],
+   "is_review": true
+  },
+  {
+   "day": 27,
+   "phase": "第四轮 · 提取复习",
+   "new_count": 0,
+   "new_words": [],
+   "range": [
+    100,
+    100
+   ],
+   "is_review": true
+  },
+  {
+   "day": 28,
+   "phase": "第四轮 · 提取复习",
+   "new_count": 0,
+   "new_words": [],
+   "range": [
+    100,
+    100
+   ],
+   "is_review": true
+  },
+  {
+   "day": 29,
+   "phase": "第四轮 · 提取复习",
+   "new_count": 0,
+   "new_words": [],
+   "range": [
+    100,
+    100
+   ],
+   "is_review": true
+  },
+  {
+   "day": 30,
+   "phase": "第四轮 · 提取复习",
+   "new_count": 0,
+   "new_words": [],
+   "range": [
+    100,
+    100
+   ],
+   "is_review": true,
+   "review_task": "全量提取：100 词随机抽测 + 错因归类"
+  }
+ ]
+}

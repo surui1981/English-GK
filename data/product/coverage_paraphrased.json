@@ -1,0 +1,1046 @@
+{
+ "meta": {
+  "name": "考纲词库 · 释义结构化层",
+  "method": "解析教材原释义的词性链与义项，拆成结构化义项并去除词性标注残留。注意：这是结构化拆解，不是语义改写——义项文字仍接近原释义。",
+  "boundary": "本层仅做查询覆盖，不构成「自研改写释义」。真正的自研释义需逐词语义改写（见 data/product/ai_paraphrase.json），深度记忆内容由 deep=true 的精修词承担。",
+  "total_coverage_words": 4110,
+  "paraphrased": 40,
+  "remaining": 3871
+ },
+ "words": [
+  {
+   "w": "abandon",
+   "tier": "required",
+   "deep": true,
+   "ipa": "/əˈbændən/",
+   "pos": [
+    "v"
+   ],
+   "theme": "T-航海冒险与坚韧品格",
+   "senses": [
+    {
+     "label": "及物动词义1",
+     "text": "舍弃"
+    },
+    {
+     "label": "及物动词义2",
+     "text": "抛弃"
+    },
+    {
+     "label": "及物动词义3",
+     "text": "放弃"
+    }
+   ],
+   "source": "教材释义措辞改写（覆盖层，非深度精修）"
+  },
+  {
+   "w": "access",
+   "tier": "required",
+   "deep": true,
+   "ipa": "/ˈækses/",
+   "pos": [
+    "n",
+    "v"
+   ],
+   "theme": "T-网络媒体与信息安全",
+   "senses": [
+    {
+     "label": "名词义1",
+     "text": "通道"
+    },
+    {
+     "label": "名词义2",
+     "text": "机会"
+    },
+    {
+     "label": "及物动词义1",
+     "text": "进入"
+    },
+    {
+     "label": "及物动词义2",
+     "text": "使用"
+    }
+   ],
+   "source": "教材释义措辞改写（覆盖层，非深度精修）"
+  },
+  {
+   "w": "account",
+   "tier": "required",
+   "deep": true,
+   "ipa": "/əˈkaʊnt/",
+   "pos": [
+    "n",
+    "v"
+   ],
+   "theme": "T-网络媒体与信息安全",
+   "senses": [
+    {
+     "label": "名词义1",
+     "text": "账户"
+    },
+    {
+     "label": "名词义2",
+     "text": "描述"
+    }
+   ],
+   "source": "教材释义措辞改写（覆盖层，非深度精修）"
+  },
+  {
+   "w": "accuse",
+   "tier": "required",
+   "deep": true,
+   "ipa": "/əˈkju:z/",
+   "pos": [
+    "v"
+   ],
+   "theme": "T-职业探索与职场角色",
+   "senses": [
+    {
+     "label": "及物动词义1",
+     "text": "控告"
+    },
+    {
+     "label": "及物动词义2",
+     "text": "控诉"
+    },
+    {
+     "label": "及物动词义3",
+     "text": "谴责"
+    }
+   ],
+   "source": "教材释义措辞改写（覆盖层，非深度精修）"
+  },
+  {
+   "w": "anticipate",
+   "tier": "required",
+   "deep": true,
+   "ipa": "/ænˈtɪsɪpeɪt/",
+   "pos": [
+    "v"
+   ],
+   "theme": "T-自然奇观与探险",
+   "senses": [
+    {
+     "label": "及物动词义1",
+     "text": "预料"
+    },
+    {
+     "label": "及物动词义2",
+     "text": "预见"
+    },
+    {
+     "label": "及物动词义3",
+     "text": "期望"
+    }
+   ],
+   "source": "教材释义措辞改写（覆盖层，非深度精修）"
+  },
+  {
+   "w": "apart",
+   "tier": "required",
+   "deep": true,
+   "ipa": "/əˈpɑ:t/",
+   "pos": [
+    "adv"
+   ],
+   "theme": "T-体育运动与健康意志",
+   "senses": [
+    {
+     "label": "副词义1",
+     "text": "分离"
+    },
+    {
+     "label": "副词义2",
+     "text": "分开"
+    },
+    {
+     "label": "副词义3",
+     "text": "成碎片"
+    }
+   ],
+   "source": "教材释义措辞改写（覆盖层，非深度精修）"
+  },
+  {
+   "w": "appeal",
+   "tier": "required",
+   "deep": true,
+   "ipa": "/əˈpi:l/",
+   "pos": [
+    "v",
+    "n"
+   ],
+   "theme": "T-国家公园与自然保护",
+   "senses": [
+    {
+     "label": "不及物动词义1",
+     "text": "有吸引力"
+    },
+    {
+     "label": "不及物动词义2",
+     "text": "呼吁"
+    },
+    {
+     "label": "名词",
+     "text": "吸引力"
+    }
+   ],
+   "source": "教材释义措辞改写（覆盖层，非深度精修）"
+  },
+  {
+   "w": "assemble",
+   "tier": "required",
+   "deep": true,
+   "ipa": "/əˈsembl/",
+   "pos": [
+    "v"
+   ],
+   "theme": "T-职业探索与职场角色",
+   "senses": [
+    {
+     "label": "及物动词义1",
+     "text": "组装"
+    },
+    {
+     "label": "及物动词义2",
+     "text": "装配"
+    },
+    {
+     "label": "动词义1",
+     "text": "收集"
+    },
+    {
+     "label": "动词义2",
+     "text": "聚集"
+    }
+   ],
+   "source": "教材释义措辞改写（覆盖层，非深度精修）"
+  },
+  {
+   "w": "assign",
+   "tier": "required",
+   "deep": true,
+   "ipa": "/əˈsaɪn/",
+   "pos": [
+    "v"
+   ],
+   "theme": "T-航海冒险与坚韧品格",
+   "senses": [
+    {
+     "label": "及物动词义1",
+     "text": "分派"
+    },
+    {
+     "label": "及物动词义2",
+     "text": "布置"
+    },
+    {
+     "label": "及物动词义3",
+     "text": "分配"
+    }
+   ],
+   "source": "教材释义措辞改写（覆盖层，非深度精修）"
+  },
+  {
+   "w": "assumption",
+   "tier": "required",
+   "deep": true,
+   "ipa": "/əˈsʌmpʃn/",
+   "pos": [
+    "n"
+   ],
+   "theme": "T-粮食安全与农业科技",
+   "senses": [
+    {
+     "label": "名词义1",
+     "text": "假定"
+    },
+    {
+     "label": "名词义2",
+     "text": "设定"
+    },
+    {
+     "label": "名词义3",
+     "text": "责任的)承担"
+    }
+   ],
+   "source": "教材释义措辞改写（覆盖层，非深度精修）"
+  },
+  {
+   "w": "bond",
+   "tier": "required",
+   "deep": true,
+   "ipa": "/bɒnd/",
+   "pos": [
+    "n",
+    "v"
+   ],
+   "theme": "T-海洋文明与航海史",
+   "senses": [
+    {
+     "label": "名词义1",
+     "text": "纽带"
+    },
+    {
+     "label": "名词义2",
+     "text": "关系"
+    },
+    {
+     "label": "动词",
+     "text": "增强信任关系"
+    }
+   ],
+   "source": "教材释义措辞改写（覆盖层，非深度精修）"
+  },
+  {
+   "w": "capacity",
+   "tier": "required",
+   "deep": true,
+   "ipa": "/kəˈpæsəti/",
+   "pos": [
+    "n"
+   ],
+   "theme": "T-国家地理与标志景观",
+   "senses": [
+    {
+     "label": "名词义1",
+     "text": "能力"
+    },
+    {
+     "label": "名词义2",
+     "text": "容量"
+    }
+   ],
+   "source": "教材释义措辞改写（覆盖层，非深度精修）"
+  },
+  {
+   "w": "captain",
+   "tier": "required",
+   "deep": true,
+   "ipa": "/ˈkæptɪn/",
+   "pos": [
+    "n"
+   ],
+   "theme": "T-体育运动与健康意志",
+   "senses": [
+    {
+     "label": "名词义1",
+     "text": "运动队)队长"
+    },
+    {
+     "label": "名词义2",
+     "text": "船长"
+    },
+    {
+     "label": "名词义3",
+     "text": "机长"
+    }
+   ],
+   "source": "教材释义措辞改写（覆盖层，非深度精修）"
+  },
+  {
+   "w": "case",
+   "tier": "required",
+   "deep": true,
+   "ipa": "/keɪs/",
+   "pos": [
+    "n"
+   ],
+   "theme": "T-网络媒体与信息安全",
+   "senses": [
+    {
+     "label": "名词义1",
+     "text": "盒"
+    },
+    {
+     "label": "名词义2",
+     "text": "箱"
+    },
+    {
+     "label": "名词义3",
+     "text": "情况"
+    },
+    {
+     "label": "名词义4",
+     "text": "案件"
+    }
+   ],
+   "source": "教材释义措辞改写（覆盖层，非深度精修）"
+  },
+  {
+   "w": "category",
+   "tier": "required",
+   "deep": true,
+   "ipa": "/ˈkætəgəri/",
+   "pos": [
+    "n"
+   ],
+   "theme": "T-饮食文化与美食",
+   "senses": [
+    {
+     "label": "名词义1",
+     "text": "类别"
+    },
+    {
+     "label": "名词义2",
+     "text": "种类"
+    }
+   ],
+   "source": "教材释义措辞改写（覆盖层，非深度精修）"
+  },
+  {
+   "w": "challenge",
+   "tier": "required",
+   "deep": true,
+   "ipa": "/ˈtʃæləndʒ/",
+   "pos": [
+    "n",
+    "v"
+   ],
+   "theme": "T-学习成长与课外活动",
+   "senses": [
+    {
+     "label": "名词义1",
+     "text": "挑战"
+    },
+    {
+     "label": "名词义2",
+     "text": "艰巨任务"
+    },
+    {
+     "label": "及物动词",
+     "text": "怀疑"
+    }
+   ],
+   "source": "教材释义措辞改写（覆盖层，非深度精修）"
+  },
+  {
+   "w": "characteristic",
+   "tier": "required",
+   "deep": true,
+   "ipa": "/ˌkærəktəˈrɪstɪk/",
+   "pos": [
+    "n"
+   ],
+   "theme": "T-粮食安全与农业科技",
+   "senses": [
+    {
+     "label": "名词义1",
+     "text": "特征"
+    },
+    {
+     "label": "名词义2",
+     "text": "特点"
+    },
+    {
+     "label": "名词义3",
+     "text": "品质 a.典型的"
+    }
+   ],
+   "source": "教材释义措辞改写（覆盖层，非深度精修）"
+  },
+  {
+   "w": "charge",
+   "tier": "required",
+   "deep": true,
+   "ipa": "/tʃɑ:dʒ/",
+   "pos": [
+    "n",
+    "v"
+   ],
+   "theme": "T-历史文化与哲学智慧",
+   "senses": [
+    {
+     "label": "名词义1",
+     "text": "收费"
+    },
+    {
+     "label": "名词义2",
+     "text": "指控"
+    },
+    {
+     "label": "及物动词义1",
+     "text": "收费"
+    },
+    {
+     "label": "及物动词义2",
+     "text": "控告"
+    }
+   ],
+   "source": "教材释义措辞改写（覆盖层，非深度精修）"
+  },
+  {
+   "w": "concern",
+   "tier": "required",
+   "deep": true,
+   "ipa": "/kənˈsɜ:n/",
+   "pos": [
+    "v",
+    "n"
+   ],
+   "theme": "T-生物多样性与野生动物",
+   "senses": [
+    {
+     "label": "及物动词义1",
+     "text": "涉及"
+    },
+    {
+     "label": "及物动词义2",
+     "text": "让……担忧"
+    }
+   ],
+   "source": "教材释义措辞改写（覆盖层，非深度精修）"
+  },
+  {
+   "w": "conduct",
+   "tier": "required",
+   "deep": true,
+   "ipa": "/kənˈdʌkt/",
+   "pos": [
+    "n",
+    "v"
+   ],
+   "theme": "T-文化遗产与保护",
+   "senses": [
+    {
+     "label": "名词义1",
+     "text": "行为"
+    },
+    {
+     "label": "名词义2",
+     "text": "举止"
+    },
+    {
+     "label": "及物动词义1",
+     "text": "组织"
+    },
+    {
+     "label": "及物动词义2",
+     "text": "安排"
+    }
+   ],
+   "source": "教材释义措辞改写（覆盖层，非深度精修）"
+  },
+  {
+   "w": "conflict",
+   "tier": "required",
+   "deep": true,
+   "ipa": "/ˈkɒnflɪkt/",
+   "pos": [
+    "n",
+    "v"
+   ],
+   "theme": "T-身体语言与非言语沟通",
+   "senses": [
+    {
+     "label": "名词义1",
+     "text": "矛盾"
+    },
+    {
+     "label": "名词义2",
+     "text": "冲突"
+    },
+    {
+     "label": "不及物动词义1",
+     "text": "冲突"
+    },
+    {
+     "label": "不及物动词义2",
+     "text": "抵触"
+    }
+   ],
+   "source": "教材释义措辞改写（覆盖层，非深度精修）"
+  },
+  {
+   "w": "consequence",
+   "tier": "required",
+   "deep": true,
+   "ipa": "/ˈkɒnsɪkwəns/",
+   "pos": [
+    "n"
+   ],
+   "theme": "T-医学成就与科学精神",
+   "senses": [
+    {
+     "label": "名词义1",
+     "text": "结果"
+    },
+    {
+     "label": "名词义2",
+     "text": "后果"
+    }
+   ],
+   "source": "教材释义措辞改写（覆盖层，非深度精修）"
+  },
+  {
+   "w": "content",
+   "tier": "required",
+   "deep": true,
+   "ipa": "/'kɒntent/",
+   "pos": [
+    "n",
+    "adj"
+   ],
+   "theme": "T-学习成长与课外活动",
+   "senses": [
+    {
+     "label": "名词义1",
+     "text": "内容"
+    },
+    {
+     "label": "名词义2",
+     "text": "[pl.]目录"
+    }
+   ],
+   "source": "教材释义措辞改写（覆盖层，非深度精修）"
+  },
+  {
+   "w": "contest",
+   "tier": "required",
+   "deep": true,
+   "ipa": "/ˈkɒntest/",
+   "pos": [
+    "n",
+    "v"
+   ],
+   "theme": "T-诗歌韵律与文学欣赏",
+   "senses": [
+    {
+     "label": "名词义1",
+     "text": "比赛"
+    },
+    {
+     "label": "名词义2",
+     "text": "竞赛"
+    },
+    {
+     "label": "及物动词",
+     "text": "争取赢得"
+    }
+   ],
+   "source": "教材释义措辞改写（覆盖层，非深度精修）"
+  },
+  {
+   "w": "contrast",
+   "tier": "required",
+   "deep": true,
+   "ipa": "/ˈkɒntrɑ:st/",
+   "pos": [
+    "n",
+    "v"
+   ],
+   "theme": "T-文化遗产与保护",
+   "senses": [
+    {
+     "label": "名词义1",
+     "text": "对比"
+    },
+    {
+     "label": "名词义2",
+     "text": "对照"
+    },
+    {
+     "label": "及物动词义1",
+     "text": "对比"
+    },
+    {
+     "label": "及物动词义2",
+     "text": "对照"
+    }
+   ],
+   "source": "教材释义措辞改写（覆盖层，非深度精修）"
+  },
+  {
+   "w": "convey",
+   "tier": "required",
+   "deep": true,
+   "ipa": "/kənˈveɪ/",
+   "pos": [
+    "v"
+   ],
+   "theme": "T-美术与艺术鉴赏",
+   "senses": [
+    {
+     "label": "及物动词义1",
+     "text": "表达"
+    },
+    {
+     "label": "及物动词义2",
+     "text": "传递(思想/感情等"
+    }
+   ],
+   "source": "教材释义措辞改写（覆盖层，非深度精修）"
+  },
+  {
+   "w": "criterion",
+   "tier": "required",
+   "deep": true,
+   "ipa": "/kraɪˈtɪəriən/",
+   "pos": [
+    "n"
+   ],
+   "theme": "T-居家生活与日常物品",
+   "senses": [
+    {
+     "label": "名词义1",
+     "text": "标准"
+    },
+    {
+     "label": "名词义2",
+     "text": "准则"
+    },
+    {
+     "label": "名词义3",
+     "text": "原则"
+    }
+   ],
+   "source": "教材释义措辞改写（覆盖层，非深度精修）"
+  },
+  {
+   "w": "critical",
+   "tier": "required",
+   "deep": true,
+   "ipa": "/ˈkrɪtɪkl/",
+   "pos": [],
+   "theme": "T-智能生活与科技设备",
+   "senses": [
+    {
+     "label": "词义义1",
+     "text": "a.严重的"
+    },
+    {
+     "label": "词义义2",
+     "text": "关键的"
+    },
+    {
+     "label": "词义义3",
+     "text": "批判性的"
+    }
+   ],
+   "source": "教材释义措辞改写（覆盖层，非深度精修）"
+  },
+  {
+   "w": "current",
+   "tier": "required",
+   "deep": true,
+   "ipa": "/ˈkʌrənt/",
+   "pos": [
+    "adj",
+    "n"
+   ],
+   "theme": "T-航天科技与探索精神",
+   "senses": [
+    {
+     "label": "形容词义1",
+     "text": "当前的"
+    },
+    {
+     "label": "形容词义2",
+     "text": "现在的"
+    },
+    {
+     "label": "名词",
+     "text": "水流"
+    }
+   ],
+   "source": "教材释义措辞改写（覆盖层，非深度精修）"
+  },
+  {
+   "w": "defeat",
+   "tier": "required",
+   "deep": true,
+   "ipa": "/dɪˈfi:t/",
+   "pos": [
+    "n",
+    "v"
+   ],
+   "theme": "T-医学成就与科学精神",
+   "senses": [
+    {
+     "label": "名词义1",
+     "text": "失败"
+    },
+    {
+     "label": "名词义2",
+     "text": "挫败"
+    },
+    {
+     "label": "及物动词义1",
+     "text": "击败"
+    },
+    {
+     "label": "及物动词义2",
+     "text": "战胜"
+    }
+   ],
+   "source": "教材释义措辞改写（覆盖层，非深度精修）"
+  },
+  {
+   "w": "division",
+   "tier": "required",
+   "deep": true,
+   "ipa": "/dɪˈvɪʒn/",
+   "pos": [
+    "n"
+   ],
+   "theme": "T-科幻文学与道德想象",
+   "senses": [
+    {
+     "label": "名词义1",
+     "text": "分开"
+    },
+    {
+     "label": "名词义2",
+     "text": "分隔"
+    },
+    {
+     "label": "名词义3",
+     "text": "差异"
+    },
+    {
+     "label": "名词义4",
+     "text": "除(法"
+    }
+   ],
+   "source": "教材释义措辞改写（覆盖层，非深度精修）"
+  },
+  {
+   "w": "dominate",
+   "tier": "required",
+   "deep": true,
+   "ipa": "/ˈdɒmɪneɪt/",
+   "pos": [
+    "v"
+   ],
+   "theme": "T-健康生活与成瘾防治",
+   "senses": [
+    {
+     "label": "及物动词",
+     "text": "&"
+    },
+    {
+     "label": "不及物动词义1",
+     "text": "支配"
+    },
+    {
+     "label": "不及物动词义2",
+     "text": "控制"
+    },
+    {
+     "label": "不及物动词义3",
+     "text": "占优势"
+    }
+   ],
+   "source": "教材释义措辞改写（覆盖层，非深度精修）"
+  },
+  {
+   "w": "effect",
+   "tier": "required",
+   "deep": true,
+   "ipa": "/ɪˈfekt/",
+   "pos": [
+    "n"
+   ],
+   "theme": "T-自然灾害与生存自救",
+   "senses": [
+    {
+     "label": "名词义1",
+     "text": "影响"
+    },
+    {
+     "label": "名词义2",
+     "text": "结果"
+    },
+    {
+     "label": "名词义3",
+     "text": "效果"
+    }
+   ],
+   "source": "教材释义措辞改写（覆盖层，非深度精修）"
+  },
+  {
+   "w": "elegant",
+   "tier": "required",
+   "deep": true,
+   "ipa": "/ˈelɪgənt/",
+   "pos": [
+    "adj"
+   ],
+   "theme": "T-饮食文化与美食",
+   "senses": [
+    {
+     "label": "词义义1",
+     "text": "a.精美的"
+    },
+    {
+     "label": "词义义2",
+     "text": "讲究的"
+    },
+    {
+     "label": "词义义3",
+     "text": "文雅的"
+    }
+   ],
+   "source": "教材释义措辞改写（覆盖层，非深度精修）"
+  },
+  {
+   "w": "emerge",
+   "tier": "required",
+   "deep": true,
+   "ipa": "/iˈmɜ:dʒ/",
+   "pos": [
+    "v"
+   ],
+   "theme": "T-美术与艺术鉴赏",
+   "senses": [
+    {
+     "label": "不及物动词",
+     "text": "&"
+    },
+    {
+     "label": "及物动词义1",
+     "text": "出现"
+    },
+    {
+     "label": "及物动词义2",
+     "text": "浮现"
+    },
+    {
+     "label": "及物动词义3",
+     "text": "暴露"
+    }
+   ],
+   "source": "教材释义措辞改写（覆盖层，非深度精修）"
+  },
+  {
+   "w": "emphasis",
+   "tier": "required",
+   "deep": true,
+   "ipa": "/ˈemfəsɪs/",
+   "pos": [
+    "n"
+   ],
+   "theme": "T-智能生活与科技设备",
+   "senses": [
+    {
+     "label": "名词义1",
+     "text": "强调"
+    },
+    {
+     "label": "名词义2",
+     "text": "重视"
+    },
+    {
+     "label": "名词义3",
+     "text": "重要性"
+    }
+   ],
+   "source": "教材释义措辞改写（覆盖层，非深度精修）"
+  },
+  {
+   "w": "exchange",
+   "tier": "required",
+   "deep": true,
+   "ipa": "/ɪksˈtʃeɪndʒ/",
+   "pos": [
+    "n",
+    "v"
+   ],
+   "theme": "T-校园生活与自我介绍",
+   "senses": [
+    {
+     "label": "名词",
+     "text": "&"
+    },
+    {
+     "label": "及物动词义1",
+     "text": "交换"
+    },
+    {
+     "label": "及物动词义2",
+     "text": "交流"
+    },
+    {
+     "label": "及物动词义3",
+     "text": "交易"
+    },
+    {
+     "label": "及物动词义4",
+     "text": "兑换"
+    }
+   ],
+   "source": "教材释义措辞改写（覆盖层，非深度精修）"
+  },
+  {
+   "w": "exploit",
+   "tier": "required",
+   "deep": true,
+   "ipa": "/ɪkˈsplɔɪt/",
+   "pos": [
+    "v"
+   ],
+   "theme": "T-海洋文明与航海史",
+   "senses": [
+    {
+     "label": "及物动词义1",
+     "text": "开发"
+    },
+    {
+     "label": "及物动词义2",
+     "text": "利用"
+    },
+    {
+     "label": "及物动词义3",
+     "text": "剥削"
+    }
+   ],
+   "source": "教材释义措辞改写（覆盖层，非深度精修）"
+  },
+  {
+   "w": "facilitate",
+   "tier": "required",
+   "deep": true,
+   "ipa": "/fəˈsɪlɪteɪt/",
+   "pos": [
+    "v"
+   ],
+   "theme": "T-健康生活与成瘾防治",
+   "senses": [
+    {
+     "label": "及物动词义1",
+     "text": "促进"
+    },
+    {
+     "label": "及物动词义2",
+     "text": "促使"
+    },
+    {
+     "label": "及物动词义3",
+     "text": "使便利"
+    }
+   ],
+   "source": "教材释义措辞改写（覆盖层，非深度精修）"
+  },
+  {
+   "w": "firm",
+   "tier": "required",
+   "deep": true,
+   "ipa": "/fɜ:m/",
+   "pos": [
+    "n",
+    "adj"
+   ],
+   "theme": "T-留学适应与跨文化",
+   "senses": [
+    {
+     "label": "名词义1",
+     "text": "公司"
+    },
+    {
+     "label": "名词义2",
+     "text": "商行 a.结实的"
+    }
+   ],
+   "source": "教材释义措辞改写（覆盖层，非深度精修）"
+  }
+ ]
+}

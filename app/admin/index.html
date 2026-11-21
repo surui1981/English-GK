@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>拾词 · 兑换码管理后台</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/@tencent-ai/workbuddy-cloud-sdk@dev/lib/index.global.js"></script>
+<style>
+:root{--canvas:#f4f6f3;--card:#fff;--ink:#111c18;--ink2:#42514c;--ink3:#78857f;--line:#e4e8e3;--line2:#eef1ed;--accent:#10b981;--deep:#047857;--tint:#ecfdf5;--danger:#f43f5e;--dangert:#fff1f3;--warn:#f59e0b}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Outfit','Noto Sans SC','Microsoft YaHei',sans-serif;background:var(--canvas);color:var(--ink);font-size:14px;line-height:1.55;padding:0 0 40px}
+button{font:inherit;cursor:pointer;border:none;background:none;color:inherit}
+input,select{font:inherit}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+header{background:var(--card);border-bottom:1px solid var(--line);padding:16px 0;margin-bottom:22px}
+.hd{display:flex;align-items:center;gap:12px}
+.hd .mk{width:34px;height:34px;border-radius:9px;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700}
+.hd h1{font-size:17px;font-weight:700}
+.hd .tag{font-size:11px;color:var(--ink3);background:var(--canvas);padding:3px 9px;border-radius:20px}
+.hd .sp{flex:1}
+.hd .who{font-size:12px;color:var(--ink3)}
+.btn{border-radius:9px;padding:9px 15px;font-size:13px;font-weight:600;background:var(--line2);color:var(--ink)}
+.btn.pri{background:var(--accent);color:#fff}
+.btn.sm{padding:6px 11px;font-size:12px}
+.btn.danger{background:var(--dangert);color:var(--danger)}
+.btn:disabled{opacity:.5;cursor:not-allowed}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;margin-bottom:18px}
+.card h2{font-size:15px;font-weight:700;margin-bottom:4px}
+.card .sub{font-size:12px;color:var(--ink3);margin-bottom:16px}
+.stats{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-bottom:18px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:15px}
+.stat b{display:block;font-size:26px;font-family:'Outfit';color:var(--deep)}
+.stat span{font-size:11px;color:var(--ink3)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+label{display:block;font-size:12px;color:var(--ink2);font-weight:600;margin-bottom:5px}
+.field{margin-bottom:14px}
+.field input,.field select{width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:9px;background:#fbfcfa;outline:none}
+.field input:focus,.field select:focus{border-color:var(--accent)}
+.row{display:flex;gap:10px;align-items:end;flex-wrap:wrap}
+.row .field{flex:1;min-width:130px;margin-bottom:0}
+.bar{display:flex;gap:8px;align-items:center;margin-bottom:14px;flex-wrap:wrap}
+.bar .sp{flex:1}
+.seg{display:flex;gap:4px;background:var(--canvas);padding:3px;border-radius:9px}
+.seg button{padding:6px 12px;border-radius:7px;font-size:12px;color:var(--ink3)}
+.seg button.on{background:var(--card);color:var(--deep);font-weight:600;box-shadow:0 1px 4px rgba(0,0,0,.06)}
+table{width:100%;border-collapse:collapse;font-size:12.5px}
+th,td{text-align:left;padding:10px 8px;border-bottom:1px solid var(--line2)}
+th{color:var(--ink3);font-weight:600;font-size:11px}
+td.code{font-family:'JetBrains Mono',monospace;font-weight:600;letter-spacing:.3px}
+.pill{display:inline-block;padding:2px 9px;border-radius:20px;font-size:11px;font-weight:600}
+.pill.unused{background:var(--tint);color:var(--deep)}
+.pill.used{background:#eef1ff;color:#4338ca}
+.pill.void{background:var(--dangert);color:var(--danger)}
+.empty{padding:30px;text-align:center;color:var(--ink3);font-size:13px}
+.toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:var(--ink);color:#fff;padding:11px 20px;border-radius:10px;font-size:13px;display:none;z-index:99}
+.login{max-width:380px;margin:80px auto;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:30px;text-align:center}
+.login .mk{width:46px;height:46px;border-radius:13px;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font-size:20px;font-weight:700;margin:0 auto 14px}
+.login h2{font-size:18px;margin-bottom:8px}
+.login p{font-size:12px;color:var(--ink3);margin-bottom:22px}
+.msg{font-size:12px;margin-top:12px;min-height:18px}
+.codes-box{margin-top:16px;background:var(--canvas);border-radius:9px;padding:14px;max-height:220px;overflow:auto;font-family:monospace;font-size:12px;line-height:1.9;display:none}
+@media(max-width:760px){.stats{grid-template-columns:repeat(2,1fr)}.grid2{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><div class="wrap hd">
+  <div class="mk">拾</div>
+  <h1>兑换码管理后台</h1>
+  <span class="tag">仅管理员可见</span>
+  <span class="sp"></span>
+  <span class="who" id="who"></span>
+  <button class="btn sm" id="btnLogout" style="display:none" onclick="logout()">退出</button>
+</div></header>
+
+<div class="wrap" id="main" style="display:none">
+  <div class="stats">
+    <div class="stat"><b id="sTotal">0</b><span>兑换码总数</span></div>
+    <div class="stat"><b id="sUnused">0</b><span>未使用</span></div>
+    <div class="stat"><b id="sUsed">0</b><span>已兑换</span></div>
+    <div class="stat"><b id="sVoid">0</b><span>已作废</span></div>
+    <div class="stat"><b id="sBatches">0</b><span>批次数</span></div>
+  </div>
+
+  <div class="grid2">
+    <div class="card">
+      <h2>生成兑换码</h2>
+      <div class="sub">兑换成功即解锁全包（¥9.9）· 一码一号，终身绑定</div>
+      <div class="field"><label>批次名称</label><input id="bName" placeholder="如：2026 春季渠道 A"></div>
+      <div class="row">
+        <div class="field"><label>生成数量（1–500）</label><input id="bCount" type="number" value="20" min="1" max="500"></div>
+        <div class="field"><label>备注（可选）</label><input id="bNote" placeholder="渠道 / 用途"></div>
+      </div>
+      <button class="btn pri" id="btnGen" style="margin-top:16px;width:100%" onclick="genBatch()">生成兑换码</button>
+      <div class="codes-box" id="codesBox"></div>
+    </div>
+
+    <div class="card">
+      <h2>批次记录</h2>
+      <div class="sub">按创建时间倒序</div>
+      <div id="batchList"><div class="empty">暂无批次</div></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="bar">
+      <div><h2>兑换码明细</h2><div class="sub">最近 200 条</div></div>
+      <div class="sp"></div>
+      <div class="seg" id="filterSeg">
+        <button class="on" data-s="all" onclick="setFilter('all')">全部</button>
+        <button data-s="unused" onclick="setFilter('unused')">未使用</button>
+        <button data-s="used" onclick="setFilter('used')">已兑换</button>
+        <button data-s="void" onclick="setFilter('void')">已作废</button>
+      </div>
+      <button class="btn sm" onclick="exportCsv()">导出 CSV</button>
+    </div>
+    <table>
+      <thead><tr><th>兑换码</th><th>状态</th><th>批次</th><th>绑定账号</th><th>兑换时间</th><th></th></tr></thead>
+      <tbody id="codeRows"><tr><td colspan="6"><div class="empty">暂无兑换码</div></td></tr></tbody>
+    </table>
+  </div>
+</div>
+
+<div class="login" id="loginCard">
+  <div class="mk">拾</div>
+  <h2>管理员登录</h2>
+  <p>仅白名单手机号可进入 · 使用与用户端相同的账号体系</p>
+  <div class="field"><label>手机号</label><input id="phone" type="tel" maxlength="11" placeholder="11 位手机号"></div>
+  <div class="field"><label>验证码</label><div style="display:flex;gap:8px"><input id="code" maxlength="6" placeholder="短信验证码" style="flex:1;min-width:0;padding:10px 12px;border:1px solid var(--line);border-radius:9px;background:#fbfcfa"><button class="btn sm" id="btnSend" onclick="sendCode()">获取验证码</button></div></div>
+  <button class="btn pri" id="btnLogin" style="width:100%" onclick="login()">登录</button>
+  <div class="msg" id="loginMsg"></div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="../js/config.js"></script>
+<script src="../js/fsrs.js"></script>
+<script src="../js/cloud.js"></script>
+<script>
+var isAdminFlag=false, curFilter='all', curCodes=[];
+function $(id){return document.getElementById(id);}
+function toast(m){var t=$('toast');t.textContent=m;t.style.display='block';clearTimeout(t._h);t._h=setTimeout(function(){t.style.display='none';},2600);}
+function lmsg(m,err){var e=$('loginMsg');e.textContent=m||'';e.style.color=err?'var(--danger)':'var(--deep)';}
+function fmt(ts){if(!ts)return '—';var d=new Date(ts);return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')+' '+String(d.getHours()).padStart(2,'0')+':'+String(d.getMinutes()).padStart(2,'0');}
+
+function sendCode(){
+  var p=$('phone').value.trim();
+  lmsg('正在发送…');$('btnSend').disabled=true;
+  CloudStore.sendPhoneCode(p).then(function(){lmsg('验证码已发送');$('btnSend').disabled=false;})
+    .catch(function(e){lmsg(e.message||'发送失败',true);$('btnSend').disabled=false;});
+}
+function login(){
+  var p=$('phone').value.trim(), c=$('code').value.trim();
+  lmsg('登录中…');$('btnLogin').disabled=true;
+  CloudStore.submitPhoneLogin(p,c).then(function(s){
+    lmsg('校验权限…');
+    return CloudStore.bootstrapFirstAdmin().then(function(b){
+      if(b&&b.first)toast('你是首个登录账号，已自动开通管理员');
+      return CloudStore.isAdmin();
+    }).then(function(ok){
+      if(!ok)throw new Error('该账号未获管理员授权。管理员席位由首个登录的账号自动获得。');
+      isAdminFlag=true;enter();
+    });
+  }).catch(function(e){lmsg(e.message||'登录失败',true);$('btnLogin').disabled=false;});
+}
+function logout(){CloudStore.signOut().then(function(){location.reload();});}
+
+function enter(){
+  $('loginCard').style.display='none';$('main').style.display='';$('btnLogout').style.display='';
+  var s=CloudStore.getSession()||{};
+  $('who').textContent=((s.user&&s.user.name)||'管理员')+' · '+(((s.user&&s.user.phone)||'').slice(-4));
+  refresh();
+}
+function refresh(){
+  CloudStore.adminStats().then(function(st){
+    if(!st){toast('读取统计失败');return;}
+    $('sTotal').textContent=st.total||0;$('sUnused').textContent=st.unused||0;
+    $('sUsed').textContent=st.used||0;$('sVoid').textContent=st.void||0;$('sBatches').textContent=st.batches||0;
+  }).catch(function(e){toast(e.message);});
+  CloudStore.adminListBatches().then(function(list){
+    var box=$('batchList');
+    if(!list||!list.length){box.innerHTML='<div class="empty">暂无批次</div>';return;}
+    box.innerHTML=list.slice(0,8).map(function(b){
+      return '<div style="padding:9px 0;border-bottom:1px solid var(--line2)"><b style="font-size:12.5px">'+esc(b.name)+'</b>'+
+        '<div style="font-size:11px;color:var(--ink3)">'+b.code_count+' 个 · '+fmt(b.created_at)+(b.note?' · '+esc(b.note):'')+'</div></div>';
+    }).join('');
+  }).catch(function(e){toast(e.message);});
+  loadCodes();
+}
+function setFilter(s){
+  curFilter=s;
+  var bs=$('filterSeg').querySelectorAll('button');
+  for(var i=0;i<bs.length;i++)bs[i].className=(bs[i].getAttribute('data-s')===s?'on':'');
+  loadCodes();
+}
+function loadCodes(){
+  CloudStore.adminListCodes(curFilter,200).then(function(list){
+    curCodes=list||[];
+    var tb=$('codeRows');
+    if(!curCodes.length){tb.innerHTML='<tr><td colspan="6"><div class="empty">没有符合条件的兑换码</div></td></tr>';return;}
+    tb.innerHTML=curCodes.map(function(c){
+      var label={unused:'未使用',used:'已兑换',void:'已作废'}[c.status]||c.status;
+      return '<tr><td class="code">'+esc(c.code)+'</td><td><span class="pill '+c.status+'">'+label+'</span></td>'+
+        '<td>'+(c.batch_id||'—')+'</td><td class="code">'+(c.bound_tail||'—')+'</td><td>'+fmt(c.bound_at)+'</td><td>'+
+        (c.status==='unused'?'<button class="btn sm danger" onclick="voidCode(\''+c.code+'\')">作废</button>':'')+'</td></tr>';
+    }).join('');
+  }).catch(function(e){toast(e.message);});
+}
+function voidCode(code){
+  if(!confirm('确定作废 '+code+'？此操作不可撤销。'))return;
+  CloudStore.adminVoidCode(code).then(function(r){
+    toast(r&&r.ok?'已作废':'该码不可作废');refresh();
+  }).catch(function(e){toast(e.message);});
+}
+function genBatch(){
+  var name=$('bName').value.trim(), n=parseInt($('bCount').value,10), note=$('bNote').value.trim();
+  if(!name){toast('请填写批次名称');return;}
+  if(!(n>=1&&n<=500)){toast('数量须在 1–500 之间');return;}
+  $('btnGen').disabled=true;$('btnGen').textContent='生成中…';
+  CloudStore.createBatch(name,n,note).then(function(r){
+    $('btnGen').disabled=false;$('btnGen').textContent='生成兑换码';
+    if(!r||!r.codes){toast('生成失败');return;}
+    var box=$('codesBox');box.style.display='block';
+    box.innerHTML='<b style="color:var(--deep)">已生成 '+r.codes.length+' 个码（请复制保存）</b><br>'+r.codes.join('<br>');
+    toast('成功生成 '+r.codes.length+' 个兑换码');refresh();
+  }).catch(function(e){$('btnGen').disabled=false;$('btnGen').textContent='生成兑换码';toast(e.message);});
+}
+function exportCsv(){
+  if(!curCodes.length){toast('暂无数据');return;}
+  var lines=['兑换码,状态,批次ID,兑换时间'];
+  curCodes.forEach(function(c){lines.push([c.code,c.status,c.batch_id||'',fmt(c.bound_at)].join(','));});
+  var blob=new Blob(['\ufeff'+lines.join('\n')],{type:'text/csv'});
+  var a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='拾词兑换码_'+Date.now()+'.csv';a.click();
+}
+function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+
+(function(){
+  CloudStore.restoreAuth().then(function(r){
+    if(!r.session)return;
+    return CloudStore.bootstrapFirstAdmin().then(function(){
+      return CloudStore.isAdmin().then(function(ok){if(ok){isAdminFlag=true;enter();}});
+    });
+  }).catch(function(){});
+})();
+</script>
+</body>
+</html>

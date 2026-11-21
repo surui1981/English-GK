@@ -1,0 +1,5287 @@
+[
+ {
+  "w": "abacus",
+  "ipa": "'æbəkəs",
+  "raw": "n.算盘"
+ },
+ {
+  "w": "abnormal",
+  "ipa": "/æbˈnɔ:ml/",
+  "raw": "a.不正常的;反常的"
+ },
+ {
+  "w": "aboard",
+  "ipa": "/əˈbɔ:d/",
+  "raw": "ad.&prep.上(船/飞机等)"
+ },
+ {
+  "w": "abrupt",
+  "ipa": "əˈbrʌpt",
+  "raw": "adj.突然的；意外的"
+ },
+ {
+  "w": "abruptly",
+  "ipa": "",
+  "raw": "adv.突然地；唐突地"
+ },
+ {
+  "w": "absence",
+  "ipa": "/ˈæbsəns/",
+  "raw": "n.不存在;缺乏;缺席"
+ },
+ {
+  "w": "absent",
+  "ipa": "ˈæbsənt",
+  "raw": "adj.不在的；缺席的；缺少的"
+ },
+ {
+  "w": "absolute",
+  "ipa": "ˈæbsəluːt",
+  "raw": "adj.绝对的；完全的"
+ },
+ {
+  "w": "absolutely",
+  "ipa": "/ˈæbsəlu:tli/",
+  "raw": "adv.绝对地;完全地"
+ },
+ {
+  "w": "absorb",
+  "ipa": "/əbˈsɔ:b/",
+  "raw": "vt.吸引全部注意力;吸收"
+ },
+ {
+  "w": "abstract",
+  "ipa": "/ˈæbstrækt/",
+  "raw": "a.抽象的 n.(文献等)摘要"
+ },
+ {
+  "w": "absurd",
+  "ipa": "/əbˈsɜ:d/",
+  "raw": "a.荒谬的;荒唐的"
+ },
+ {
+  "w": "abundant",
+  "ipa": "əˈbʌndənt",
+  "raw": "adj.丰富的；充裕的"
+ },
+ {
+  "w": "abuse",
+  "ipa": "/əˈbju:s/",
+  "raw": "n.滥用;虐待 vt.滥用;虐待"
+ },
+ {
+  "w": "academic",
+  "ipa": "/ˌækəˈdemɪk/",
+  "raw": "a.学业的;学术的"
+ },
+ {
+  "w": "academy",
+  "ipa": "/əˈkædəmi/",
+  "raw": "n.(艺术文学等)研究院;学会"
+ },
+ {
+  "w": "accelerate",
+  "ipa": "əkˈseləreɪt",
+  "raw": "vi.&vt.加速；促进"
+ },
+ {
+  "w": "accent",
+  "ipa": "/ˈæksent/",
+  "raw": "n.口音"
+ },
+ {
+  "w": "accessibel",
+  "ipa": "",
+  "raw": "adj.可接近的；可进入的；可使用的"
+ },
+ {
+  "w": "accessory",
+  "ipa": "/əkˈsesəri/",
+  "raw": "n.配饰;附件;配件"
+ },
+ {
+  "w": "accident",
+  "ipa": "/ˈæksɪdənt/",
+  "raw": "n.事故;车祸;失事"
+ },
+ {
+  "w": "accommodation",
+  "ipa": "/əˌkɒməˈdeɪʃn/",
+  "raw": "n.住处;停留处;膳宿"
+ },
+ {
+  "w": "accompany",
+  "ipa": "/əˈkʌmpəni/",
+  "raw": "vt.陪同;陪伴;为…伴奏"
+ },
+ {
+  "w": "accountant",
+  "ipa": "/əˈkaʊntənt/",
+  "raw": "n.会计;会计师"
+ },
+ {
+  "w": "accuracy",
+  "ipa": "ˈækjʊrəsi",
+  "raw": "n.精确；准确"
+ },
+ {
+  "w": "accurate",
+  "ipa": "/ˈækjərət/",
+  "raw": "a.精确的;准确的"
+ },
+ {
+  "w": "accusation",
+  "ipa": "",
+  "raw": "n.指责；谴责；控告"
+ },
+ {
+  "w": "accustomed",
+  "ipa": "əˈkʌstəmd",
+  "raw": "adj.通常的"
+ },
+ {
+  "w": "ache",
+  "ipa": "/eɪk/",
+  "raw": "vi.&n.疼痛"
+ },
+ {
+  "w": "achievement",
+  "ipa": "/əˈtʃi:vmənt/",
+  "raw": "n.成就;成绩;达到"
+ },
+ {
+  "w": "acid",
+  "ipa": "/ˈæsɪd/",
+  "raw": "n.酸 a.酸的;酸性的"
+ },
+ {
+  "w": "acknowledge",
+  "ipa": "/əkˈnɒlɪdʒ/",
+  "raw": "vt.承认(属实等);感谢"
+ },
+ {
+  "w": "acquaintance",
+  "ipa": "əˈkweɪntəns",
+  "raw": "n.相识；了解；熟人"
+ },
+ {
+  "w": "acquire",
+  "ipa": "/əˈkwaɪə(r)/",
+  "raw": "vt.获得;购得"
+ },
+ {
+  "w": "acre",
+  "ipa": "ˈeɪkə",
+  "raw": "n.英亩"
+ },
+ {
+  "w": "active",
+  "ipa": "'æktɪv",
+  "raw": "adj.积极的；活跃的"
+ },
+ {
+  "w": "actor",
+  "ipa": "ˈæktə",
+  "raw": "n.男演员；行动者"
+ },
+ {
+  "w": "actress",
+  "ipa": "ˈæktrɪs",
+  "raw": "n.女演员"
+ },
+ {
+  "w": "actually",
+  "ipa": "/ˈæktʃuəli/",
+  "raw": "adv.事实上;的确"
+ },
+ {
+  "w": "adapt",
+  "ipa": "/əˈdæpt/",
+  "raw": "vi.适应 vt.使适应;使适合"
+ },
+ {
+  "w": "adaptation",
+  "ipa": "/ˌædæpˈteɪʃn/",
+  "raw": "n.适应;改编本"
+ },
+ {
+  "w": "addict",
+  "ipa": "/ˈædɪkt/",
+  "raw": "n.对…入迷的人;吸毒成瘾者"
+ },
+ {
+  "w": "addicted",
+  "ipa": "/əˈdɪktɪd/",
+  "raw": "adj.有瘾的;上瘾的;入迷的"
+ },
+ {
+  "w": "addictive",
+  "ipa": "",
+  "raw": "adj.使人上瘾的"
+ },
+ {
+  "w": "addition",
+  "ipa": "/əˈdɪʃn/",
+  "raw": "n.添加;加法;增加物"
+ },
+ {
+  "w": "adjust",
+  "ipa": "/əˈdʒʌst/",
+  "raw": "vt.调整;调节 v.适应"
+ },
+ {
+  "w": "admiration",
+  "ipa": "",
+  "raw": "n.钦佩；赞赏；羡慕"
+ },
+ {
+  "w": "admire",
+  "ipa": "/ədˈmaɪə(r)/",
+  "raw": "vt.钦佩;赞赏"
+ },
+ {
+  "w": "admission",
+  "ipa": "ədˈmɪʃ(ə)n",
+  "raw": "n.允许进入；入场费；承认"
+ },
+ {
+  "w": "admit",
+  "ipa": "/ədˈmɪt/",
+  "raw": "vi.&vt.承认 vt.准许进入"
+ },
+ {
+  "w": "adolescent",
+  "ipa": "ædəˈlesənt",
+  "raw": "n.青少年　adj.青春期的"
+ },
+ {
+  "w": "adorable",
+  "ipa": "/əˈdɔːrəbl/",
+  "raw": "a.可爱的;讨人喜爱的"
+ },
+ {
+  "w": "adult",
+  "ipa": "/ˈædʌlt/",
+  "raw": "n.成年人 adj.成年的"
+ },
+ {
+  "w": "advance",
+  "ipa": "/ədˈvɑ:ns/",
+  "raw": "n.&vi.&vt.前进;发展;促进"
+ },
+ {
+  "w": "advanced",
+  "ipa": "/ədˈvɑ:nst/",
+  "raw": "adj.高级的;高等的;先进的"
+ },
+ {
+  "w": "adventure",
+  "ipa": "/ədˈventʃə(r)/",
+  "raw": "n.冒险;奇遇"
+ },
+ {
+  "w": "adversity",
+  "ipa": "/ədˈvɜ:səti/",
+  "raw": "n.困境;逆境"
+ },
+ {
+  "w": "advertise",
+  "ipa": "/ˈædvətaɪz/",
+  "raw": "vt.&vi.公布;宣传;做广告"
+ },
+ {
+  "w": "advertisement",
+  "ipa": "/ədˈvɜ:tɪsmənt/",
+  "raw": "n.广告;启事"
+ },
+ {
+  "w": "advertising",
+  "ipa": "/ˈædvətaɪzɪŋ/",
+  "raw": "n.广告活动;广告业"
+ },
+ {
+  "w": "advisor",
+  "ipa": "/əd'vaɪzə/",
+  "raw": "n.顾问"
+ },
+ {
+  "w": "advocate",
+  "ipa": "/ˈædvəkeɪt/",
+  "raw": "vt.提倡;支持 n.提倡者"
+ },
+ {
+  "w": "aerospace",
+  "ipa": "/ˈeərəʊspeɪs/",
+  "raw": "n.航空航天工业"
+ },
+ {
+  "w": "affair",
+  "ipa": "/əˈfeə(r)/",
+  "raw": "n.公共事务;事件;关系"
+ },
+ {
+  "w": "affection",
+  "ipa": "əˈfekʃ(ə)n",
+  "raw": "n.恋爱；喜爱"
+ },
+ {
+  "w": "affectionate",
+  "ipa": "",
+  "raw": "adj.充满深情的；有爱心的"
+ },
+ {
+  "w": "afterwards",
+  "ipa": "/ˈɑ:ftəwədz/",
+  "raw": "adv.以后;后来"
+ },
+ {
+  "w": "agency",
+  "ipa": "/ˈeɪdʒənsi/",
+  "raw": "n.(政府)专门机构;服务机构"
+ },
+ {
+  "w": "agenda",
+  "ipa": "/əˈdʒendə/",
+  "raw": "n.议程表;议事日程"
+ },
+ {
+  "w": "agent",
+  "ipa": "ˈeɪdʒənt",
+  "raw": "b,代理人；经纪人"
+ },
+ {
+  "w": "aggressive",
+  "ipa": "ˈəɡresɪv",
+  "raw": "adj.敢作敢为的；有闯劲的；侵略的；好斗的"
+ },
+ {
+  "w": "agricultural",
+  "ipa": "/ˌæɡrɪ'kʌltʃərəl/",
+  "raw": "adj.农业(劳动/生产)"
+ },
+ {
+  "w": "agriculture",
+  "ipa": "/ˈægrɪkʌltʃə(r)/",
+  "raw": "n.农业;农艺"
+ },
+ {
+  "w": "ahead",
+  "ipa": "/əˈhed/",
+  "raw": "ad.向前;在前面;提前"
+ },
+ {
+  "w": "aid",
+  "ipa": "/eɪd/",
+  "raw": "n.援助;帮助 vi.&vt.帮助"
+ },
+ {
+  "w": "aim",
+  "ipa": "/eɪm/",
+  "raw": "n.目的;目标 v.力求达到"
+ },
+ {
+  "w": "aircraft",
+  "ipa": "ˈeəkrɑːft",
+  "raw": "n.飞行器；航空器；飞机"
+ },
+ {
+  "w": "airline",
+  "ipa": "/ˈeəlaɪn/",
+  "raw": "n.航空公司"
+ },
+ {
+  "w": "alarm",
+  "ipa": "/əˈlɑ:m/",
+  "raw": "vt.使惊恐;使害怕 n.恐慌"
+ },
+ {
+  "w": "alarmed",
+  "ipa": "",
+  "raw": "adj.担心的；害怕的"
+ },
+ {
+  "w": "alarming",
+  "ipa": "/əˈlɑ:mɪŋ/",
+  "raw": "adj.惊人的;使人惊恐的"
+ },
+ {
+  "w": "album",
+  "ipa": "/ˈælbəm/",
+  "raw": "n.相册;集邮簿;音乐专辑"
+ },
+ {
+  "w": "alcohol",
+  "ipa": "/ˈælkəhɒl/",
+  "raw": "n.酒;酒精"
+ },
+ {
+  "w": "alien",
+  "ipa": "/ˈeɪliən/",
+  "raw": "n.外星人;外国人 a. 陌生的"
+ },
+ {
+  "w": "alleviate",
+  "ipa": "/əˈli:vieɪt/",
+  "raw": "vt.减轻;缓解"
+ },
+ {
+  "w": "alongside",
+  "ipa": "/əˌlɒŋˈsaɪd/",
+  "raw": "prep.在…旁边 ad.在旁边"
+ },
+ {
+  "w": "aloud",
+  "ipa": "əˈlaʊd",
+  "raw": "adv.大声地；出声地"
+ },
+ {
+  "w": "alphabet",
+  "ipa": "ˈælfəbet",
+  "raw": "n.字母表"
+ },
+ {
+  "w": "alternative",
+  "ipa": "/ɔ:lˈtɜ:nətɪv/",
+  "raw": "n.可选的事物 a.可供替代的"
+ },
+ {
+  "w": "altitude",
+  "ipa": "ˈæltɪtjuːd",
+  "raw": "n.海拔高度；高处"
+ },
+ {
+  "w": "altogether",
+  "ipa": "/ˌɔ:ltəˈgeðə(r)/",
+  "raw": "adv.(用以强调)全部;总共"
+ },
+ {
+  "w": "amateur",
+  "ipa": "/ˈæmətə(r)/",
+  "raw": "n.业余爱好者 a.业余的"
+ },
+ {
+  "w": "amaze",
+  "ipa": "ə'meɪz",
+  "raw": "vt.使吃惊；惊讶"
+ },
+ {
+  "w": "amazed",
+  "ipa": "/əˈmeɪzd/",
+  "raw": "adj.惊奇的;惊喜的"
+ },
+ {
+  "w": "amazing",
+  "ipa": "/əˈmeɪzɪŋ/",
+  "raw": "adj.令人惊奇的;令人惊喜的"
+ },
+ {
+  "w": "ambassador",
+  "ipa": "/æmˈbæsədə(r)/",
+  "raw": "n.大使;使节;代表"
+ },
+ {
+  "w": "amber",
+  "ipa": "",
+  "raw": "n.琥珀；琥珀色"
+ },
+ {
+  "w": "ambition",
+  "ipa": "/æmˈbɪʃn/",
+  "raw": "n.追求的目标;夙愿;野心"
+ },
+ {
+  "w": "ambitious",
+  "ipa": "/æmˈbɪʃəs/",
+  "raw": "a.有野心的;有雄心的"
+ },
+ {
+  "w": "ambulance",
+  "ipa": "/ˈæmbjələns/",
+  "raw": "n.救护车"
+ },
+ {
+  "w": "amount",
+  "ipa": "/əˈmaʊnt/",
+  "raw": "n.金额;数量"
+ },
+ {
+  "w": "amphibian",
+  "ipa": "",
+  "raw": "n.两栖动物"
+ },
+ {
+  "w": "amphibious",
+  "ipa": "",
+  "raw": "adj.两栖（类）的"
+ },
+ {
+  "w": "ample",
+  "ipa": "ˈæmp(ə)l",
+  "raw": "adj.足够的；充足的；富裕的"
+ },
+ {
+  "w": "amuse",
+  "ipa": "/əˈmju:z/",
+  "raw": "vt.(提供)消遣;(使)娱乐"
+ },
+ {
+  "w": "amusement",
+  "ipa": "/əˈmju:zmənt/",
+  "raw": "n.娱乐(活动);愉悦"
+ },
+ {
+  "w": "amusing",
+  "ipa": "",
+  "raw": "adj.好笑的；有趣的"
+ },
+ {
+  "w": "analyse",
+  "ipa": "/ˈænəlaɪz/",
+  "raw": "vt.分析"
+ },
+ {
+  "w": "analysis",
+  "ipa": "/əˈnæləsɪs/",
+  "raw": "n.(对事物)分析;分析结果"
+ },
+ {
+  "w": "analytical",
+  "ipa": "",
+  "raw": "adj.分析的"
+ },
+ {
+  "w": "ancestor",
+  "ipa": "/ˈænsestə(r)/",
+  "raw": "n.祖宗;祖先"
+ },
+ {
+  "w": "ancient",
+  "ipa": "ˈeɪnʃənt",
+  "raw": "adj.古代的；古老的"
+ },
+ {
+  "w": "android",
+  "ipa": "",
+  "raw": "n.机器人"
+ },
+ {
+  "w": "anecdote",
+  "ipa": "ˈænɪkdəʊt",
+  "raw": "n.轶事；奇闻"
+ },
+ {
+  "w": "anemonefish",
+  "ipa": "",
+  "raw": "n.海葵鱼"
+ },
+ {
+  "w": "anger",
+  "ipa": "/ˈæŋgə(r)/",
+  "raw": "n.愤怒;怒气 vt.使生气"
+ },
+ {
+  "w": "angle",
+  "ipa": "/ˈæŋgl/",
+  "raw": "n.角;角度;立场"
+ },
+ {
+  "w": "animation",
+  "ipa": "/ˌænɪˈmeɪʃn/",
+  "raw": "n.(电脑)动画制作;动画片"
+ },
+ {
+  "w": "ankle",
+  "ipa": "/ˈæŋkl/",
+  "raw": "n.踝;踝关节"
+ },
+ {
+  "w": "anniversary",
+  "ipa": "ænɪˈvɜːsəri",
+  "raw": "n.周年纪念日"
+ },
+ {
+  "w": "announce",
+  "ipa": "/əˈnaʊns/",
+  "raw": "vt.宣布;通知;声称"
+ },
+ {
+  "w": "announcer",
+  "ipa": "",
+  "raw": "n.广播员；告知者；报幕员"
+ },
+ {
+  "w": "annoy",
+  "ipa": "/əˈnɔɪ/",
+  "raw": "vt.使恼怒;打扰"
+ },
+ {
+  "w": "annoyed",
+  "ipa": "/əˈnɔɪd/",
+  "raw": "adj.恼怒的;生气的"
+ },
+ {
+  "w": "annual",
+  "ipa": "/ˈænjuəl/",
+  "raw": "a.每年的;一年的 n.年刊"
+ },
+ {
+  "w": "antelope",
+  "ipa": "/ˈæntɪləʊp/",
+  "raw": "n.羚;羚类动物"
+ },
+ {
+  "w": "antique",
+  "ipa": "/ænˈti:k/",
+  "raw": "n.古物;古董 a.古老的"
+ },
+ {
+  "w": "anxiety",
+  "ipa": "/æŋˈzaɪəti/",
+  "raw": "n.焦虑;担心;害怕"
+ },
+ {
+  "w": "anxious",
+  "ipa": "/ˈæŋkʃəs/",
+  "raw": "adj.焦虑的;不安的"
+ },
+ {
+  "w": "anyhow",
+  "ipa": "/ˈenihaʊ/",
+  "raw": "ad.(结束交谈)不过;反正"
+ },
+ {
+  "w": "apartment",
+  "ipa": "/əˈpɑ:tmənt/",
+  "raw": "n.公寓套房"
+ },
+ {
+  "w": "apologise",
+  "ipa": "/ə'pɒlədʒaɪz/",
+  "raw": "vi.道歉;谢罪"
+ },
+ {
+  "w": "apologize",
+  "ipa": "əˈpɒlədʒaɪz",
+  "raw": "vi.道歉；辩白"
+ },
+ {
+  "w": "app",
+  "ipa": "/æp/",
+  "raw": "n.应用程序;应用软件"
+ },
+ {
+  "w": "apparent",
+  "ipa": "əˈpærənt",
+  "raw": "adj.显而易见的；显然的；表面上的"
+ },
+ {
+  "w": "apparently",
+  "ipa": "/əˈpærəntli/",
+  "raw": "ad.显而易见;看来;显然"
+ },
+ {
+  "w": "appearance",
+  "ipa": "əˈpɪərəns",
+  "raw": "n.外观；外貌；出现"
+ },
+ {
+  "w": "appetite",
+  "ipa": "/ˈæpɪtaɪt/",
+  "raw": "n.食欲;胃口;强烈欲望"
+ },
+ {
+  "w": "applaud",
+  "ipa": "/əˈplɔ:d/",
+  "raw": "vt.＆vi.鼓掌 vt.称赞;赞赏"
+ },
+ {
+  "w": "appliance",
+  "ipa": "/əˈplaɪəns/",
+  "raw": "n.电器;器具"
+ },
+ {
+  "w": "applicant",
+  "ipa": "/ˈæplɪkənt/",
+  "raw": "n.申请人"
+ },
+ {
+  "w": "application",
+  "ipa": "/ˌæplɪˈkeɪʃn/",
+  "raw": "n.申请(表);用途;应用程序"
+ },
+ {
+  "w": "apply",
+  "ipa": "/əˈplaɪ/",
+  "raw": "vi.&vt.申请;请求 vt.应用"
+ },
+ {
+  "w": "appoint",
+  "ipa": "/əˈpɔɪnt/",
+  "raw": "vt.任命;委派"
+ },
+ {
+  "w": "appointment",
+  "ipa": "/əˈpɔɪntmənt/",
+  "raw": "n.预约;约会;委任"
+ },
+ {
+  "w": "appreciate",
+  "ipa": "/əˈpri:ʃieɪt/",
+  "raw": "vt.欣赏;重视;感激 vi.增值"
+ },
+ {
+  "w": "appropriate",
+  "ipa": "/əˈprəʊpriət/",
+  "raw": "a.合适的;恰当的"
+ },
+ {
+  "w": "approve",
+  "ipa": "/əˈpru:v/",
+  "raw": "vi.赞成;同意 vt.批准;通过"
+ },
+ {
+  "w": "approximately",
+  "ipa": "əprɒksɪˈmətli",
+  "raw": "adv.接近；大约"
+ },
+ {
+  "w": "aptitude",
+  "ipa": "/ˈæptɪtju:d/",
+  "raw": "n.天资;天赋"
+ },
+ {
+  "w": "aquarium",
+  "ipa": "/əˈkweəriəm/",
+  "raw": "n.水族馆;水族玻璃槽;鱼缸"
+ },
+ {
+  "w": "arbitrary",
+  "ipa": "ˈɑːbɪtrəri",
+  "raw": "adj.任意的"
+ },
+ {
+  "w": "arch",
+  "ipa": "/ɑ:tʃ/",
+  "raw": "v.呈弧形横跨 n.拱;拱门"
+ },
+ {
+  "w": "archaeological",
+  "ipa": "",
+  "raw": "adj.考古学的；与考古学有关的"
+ },
+ {
+  "w": "archaeologist",
+  "ipa": "/ˌɑ:kiˈɒlədʒɪst/",
+  "raw": "n.考古学家"
+ },
+ {
+  "w": "archaeology",
+  "ipa": "",
+  "raw": "n.考古学"
+ },
+ {
+  "w": "arched",
+  "ipa": "",
+  "raw": "a.拱形的;弓形的"
+ },
+ {
+  "w": "archery",
+  "ipa": "/ˈɑ:tʃəri/",
+  "raw": "n.射箭术;射箭运动"
+ },
+ {
+  "w": "architect",
+  "ipa": "/ˈɑ:kɪtekt/",
+  "raw": "n.建筑设计师"
+ },
+ {
+  "w": "architecture",
+  "ipa": "/ˈɑ:kɪtektʃə(r)/",
+  "raw": "n.建筑设计;建筑学"
+ },
+ {
+  "w": "argue",
+  "ipa": "/ˈɑ:gju:/",
+  "raw": "vt.&vi.论证;争辩;争论"
+ },
+ {
+  "w": "argument",
+  "ipa": "/ˈɑ:gjumənt/",
+  "raw": "n.争论;争吵;论点"
+ },
+ {
+  "w": "arise",
+  "ipa": "/əˈraɪz/",
+  "raw": "vi.起身;出现;由…引起"
+ },
+ {
+  "w": "arrange",
+  "ipa": "əˈreɪndʒ",
+  "raw": "vt.筹备；安排；整理"
+ },
+ {
+  "w": "arrangement",
+  "ipa": "/əˈreɪndʒmənt/",
+  "raw": "n.安排;筹备"
+ },
+ {
+  "w": "arrest",
+  "ipa": "/əˈrest/",
+  "raw": "n.逮捕;拘留 vt.逮捕;拘留"
+ },
+ {
+  "w": "arrival",
+  "ipa": "əˈraɪv(ə)l",
+  "raw": "n.到来；到达；到达者"
+ },
+ {
+  "w": "arrow",
+  "ipa": "/ˈærəʊ/",
+  "raw": "n.箭;箭头"
+ },
+ {
+  "w": "arrowhead",
+  "ipa": "",
+  "raw": "n.箭头"
+ },
+ {
+  "w": "artefact",
+  "ipa": "",
+  "raw": "n.人工制品"
+ },
+ {
+  "w": "artemisinin",
+  "ipa": "/ɑːtɪmɪ'saɪnɪn/",
+  "raw": "n.[药]青蒿素"
+ },
+ {
+  "w": "artificial",
+  "ipa": "/ˌɑ:tɪˈfɪʃl/",
+  "raw": "a.人工的;人造的;假的"
+ },
+ {
+  "w": "artist",
+  "ipa": "'ɑːtɪst",
+  "raw": "n.艺术家"
+ },
+ {
+  "w": "artistic",
+  "ipa": "/ɑ:ˈtɪstɪk/",
+  "raw": "a.艺术的;艺术家的"
+ },
+ {
+  "w": "ash",
+  "ipa": "æʃ",
+  "raw": "n.灰；灰末"
+ },
+ {
+  "w": "ashamed",
+  "ipa": "/əˈʃeɪmd/",
+  "raw": "a.羞愧;惭愧"
+ },
+ {
+  "w": "aside",
+  "ipa": "/əˈsaɪd/",
+  "raw": "adv.到旁边;在旁边;留;存"
+ },
+ {
+  "w": "aspect",
+  "ipa": "/ˈæspekt/",
+  "raw": "n.方面;层面"
+ },
+ {
+  "w": "assessment",
+  "ipa": "/əˈsesmənt/",
+  "raw": "n.评价;评定"
+ },
+ {
+  "w": "assignment",
+  "ipa": "",
+  "raw": "n.任务；分配"
+ },
+ {
+  "w": "assist",
+  "ipa": "/əˈsɪst/",
+  "raw": "vt.帮助;援助"
+ },
+ {
+  "w": "assistance",
+  "ipa": "əˈsɪst(ə)ns",
+  "raw": "n.协助；援助"
+ },
+ {
+  "w": "assistant",
+  "ipa": "/əˈsɪstənt/",
+  "raw": "n.助理;助手"
+ },
+ {
+  "w": "association",
+  "ipa": "/əˌsəʊʃiˈeɪʃn/",
+  "raw": "n.协会;关联"
+ },
+ {
+  "w": "assume",
+  "ipa": "/əˈsju:m/",
+  "raw": "vt.以为;假设"
+ },
+ {
+  "w": "astonish",
+  "ipa": "/əˈstɒnɪʃ/",
+  "raw": "vi.使十分惊讶;使吃惊"
+ },
+ {
+  "w": "astonishing",
+  "ipa": "",
+  "raw": "adj.令人感支惊讶的"
+ },
+ {
+  "w": "astronaut",
+  "ipa": "/ˈæstrənɔ:t/",
+  "raw": "n.宇航员;太空人"
+ },
+ {
+  "w": "astronomer",
+  "ipa": "/əˈstrɒnəmə(r)/",
+  "raw": "n.天文学家"
+ },
+ {
+  "w": "astronomy",
+  "ipa": "/əˈstrɒnəmi/",
+  "raw": "n.天文学"
+ },
+ {
+  "w": "athlete",
+  "ipa": "/ˈæθli:t/",
+  "raw": "n.运动员;运动健儿"
+ },
+ {
+  "w": "athletic",
+  "ipa": "æθˈletɪk",
+  "raw": "adj.运动的"
+ },
+ {
+  "w": "athletics",
+  "ipa": "æθˈletɪks",
+  "raw": "n.(pl)体育运动；竞技"
+ },
+ {
+  "w": "atlas",
+  "ipa": "",
+  "raw": "n.地图；地图集"
+ },
+ {
+  "w": "atmosphere",
+  "ipa": "/ˈætməsfɪə(r)/",
+  "raw": "n.气氛;氛围;(地球)大气层"
+ },
+ {
+  "w": "atom",
+  "ipa": "ˈætəm",
+  "raw": "n.原子"
+ },
+ {
+  "w": "attach",
+  "ipa": "/əˈtætʃ/",
+  "raw": "vt.系;绑;贴"
+ },
+ {
+  "w": "attack",
+  "ipa": "/əˈtæk/",
+  "raw": "n.,vi.&vt.攻击;抨击"
+ },
+ {
+  "w": "attain",
+  "ipa": "/əˈteɪn/",
+  "raw": "vt.(经过努力)获得;得到"
+ },
+ {
+  "w": "attend",
+  "ipa": "əˈtend",
+  "raw": "vt.照顾；护理；出席；参加"
+ },
+ {
+  "w": "attention",
+  "ipa": "əˈtenʃ(ə)n",
+  "raw": "n.注意；关注；注意力"
+ },
+ {
+  "w": "attitude",
+  "ipa": "/ˈætɪtju:d/",
+  "raw": "n.态度;看法"
+ },
+ {
+  "w": "attract",
+  "ipa": "/əˈtrækt/",
+  "raw": "vt.吸引;引起…注意(兴趣)"
+ },
+ {
+  "w": "attraction",
+  "ipa": "əˈtrækʃ(ə)n",
+  "raw": "n.有吸引力的事物；吸引"
+ },
+ {
+  "w": "attractive",
+  "ipa": "əˈtræktɪv",
+  "raw": "adj.吸引人的；有吸引力的"
+ },
+ {
+  "w": "audience",
+  "ipa": "/ˈɔ:diəns/",
+  "raw": "n.观众;听众"
+ },
+ {
+  "w": "authentic",
+  "ipa": "ɜːˈθentɪk",
+  "raw": "adj.真实的；真正的；可信的"
+ },
+ {
+  "w": "author",
+  "ipa": "/ˈɔ:θə(r)/",
+  "raw": "n.作者;作家"
+ },
+ {
+  "w": "authority",
+  "ipa": "/ɔ:ˈθɒrəti/",
+  "raw": "n.官方;当权;权威"
+ },
+ {
+  "w": "automatic",
+  "ipa": "/ˌɔ:təˈmætɪk/",
+  "raw": "a.自动的"
+ },
+ {
+  "w": "automatically",
+  "ipa": "",
+  "raw": "adv.无意识地；自动地"
+ },
+ {
+  "w": "autonomous",
+  "ipa": "/ɔ:ˈtɒnəməs/",
+  "raw": "adj.自治的;有自治权的"
+ },
+ {
+  "w": "availabie",
+  "ipa": "",
+  "raw": "adj.可利用的；可用到的；有用的"
+ },
+ {
+  "w": "available",
+  "ipa": "/əˈveɪləbl/",
+  "raw": "a.可获得的;可购得的"
+ },
+ {
+  "w": "avenue",
+  "ipa": "ˈævənjuːˈævənuː",
+  "raw": "n.林阴道；道路；大街"
+ },
+ {
+  "w": "aviation",
+  "ipa": "/ˌeɪviˈeɪʃn/",
+  "raw": "n.航空制造业;航空;飞行"
+ },
+ {
+  "w": "await",
+  "ipa": "/əˈweɪt/",
+  "raw": "vt.等候;期待;将发生在"
+ },
+ {
+  "w": "award",
+  "ipa": "/əˈwɔ:d/",
+  "raw": "vt.授予 n.奖品"
+ },
+ {
+  "w": "aware",
+  "ipa": "/əˈweə(r)/",
+  "raw": "adj.知道;发觉;有…意识的"
+ },
+ {
+  "w": "awesome",
+  "ipa": "/ˈɔ:səm/",
+  "raw": "a.令人惊叹的;可怕的"
+ },
+ {
+  "w": "awful",
+  "ipa": "ˈɔːfʊl",
+  "raw": "adj.极坏的；极讨厌的；可怕的；（口语）糟透的"
+ },
+ {
+  "w": "awkward",
+  "ipa": "/ˈɔ:kwəd/",
+  "raw": "adj.令人尴尬的;难对付的"
+ },
+ {
+  "w": "axe",
+  "ipa": "æks",
+  "raw": "n.斧；斧子"
+ },
+ {
+  "w": "backward",
+  "ipa": "ˈbækwəd",
+  "raw": "adv.&adj.向后地（的）；相反地（的）；退步地（的）"
+ },
+ {
+  "w": "backwards",
+  "ipa": "/ˈbækwədz/",
+  "raw": "ad.向后;倒着;往回"
+ },
+ {
+  "w": "bacon",
+  "ipa": "/ˈbeɪkən/",
+  "raw": "n.熏猪肉;咸肉"
+ },
+ {
+  "w": "bacteria",
+  "ipa": "",
+  "raw": "n.（bacterium的复数形式）细菌"
+ },
+ {
+  "w": "bacterium",
+  "ipa": "/bæk'tɪərɪəm/",
+  "raw": "n.细菌"
+ },
+ {
+  "w": "bad-tempered",
+  "ipa": "/bæd 'tempəd/",
+  "raw": "a.脾气坏的"
+ },
+ {
+  "w": "badminton",
+  "ipa": "/ˈbædmɪntən/",
+  "raw": "n.羽毛球运动"
+ },
+ {
+  "w": "baggage",
+  "ipa": "ˈbæɡɪdʒ",
+  "raw": "n.行李"
+ },
+ {
+  "w": "bagpipes",
+  "ipa": "/ˈbægpaɪps/",
+  "raw": "n.[pl.]风笛"
+ },
+ {
+  "w": "bakery",
+  "ipa": "/ˈbeɪkəri/",
+  "raw": "n.面包(糕饼)店;面包厂"
+ },
+ {
+  "w": "balance",
+  "ipa": "/ˈbæləns/",
+  "raw": "n.平衡;均匀 vt.使平衡"
+ },
+ {
+  "w": "bald",
+  "ipa": "",
+  "raw": "adj.秃头的"
+ },
+ {
+  "w": "baleen",
+  "ipa": "",
+  "raw": "n.鲸须"
+ },
+ {
+  "w": "ballad",
+  "ipa": "",
+  "raw": "n.歌谣；情歌；民谣"
+ },
+ {
+  "w": "ballet",
+  "ipa": "/ˈbæleɪ/",
+  "raw": "n.芭蕾舞"
+ },
+ {
+  "w": "balloon",
+  "ipa": "bəˈluːn",
+  "raw": "n.气球"
+ },
+ {
+  "w": "ban",
+  "ipa": "/bæn/",
+  "raw": "vt.明令禁止;取缔 n.禁令"
+ },
+ {
+  "w": "band",
+  "ipa": "/bænd/",
+  "raw": "n.乐队;带子"
+ },
+ {
+  "w": "bandage",
+  "ipa": "ˈbændɪdʒ",
+  "raw": "n.绷带"
+ },
+ {
+  "w": "banjo",
+  "ipa": "/ˈbændʒəʊ/",
+  "raw": "n.班卓琴(乐器)"
+ },
+ {
+  "w": "bar",
+  "ipa": "/bɑ:(r)/",
+  "raw": "n.酒吧;小吃店;小馆子"
+ },
+ {
+  "w": "barbecue",
+  "ipa": "/ˈbɑ:bɪkju:/",
+  "raw": "n.(abbr.BBQ)户外烧烤;烤架"
+ },
+ {
+  "w": "barber",
+  "ipa": "ˈbɑːbə",
+  "raw": "n.理发师"
+ },
+ {
+  "w": "bare",
+  "ipa": "beə",
+  "raw": "adj.裸露的；空的；没有的"
+ },
+ {
+  "w": "barely",
+  "ipa": "/ˈbeəli/",
+  "raw": "ad.几乎不;勉强才能;刚刚"
+ },
+ {
+  "w": "bargain",
+  "ipa": "ˈbɑːɡɪn",
+  "raw": "vi.讨价还价；讲条件　n.便宜货"
+ },
+ {
+  "w": "bark",
+  "ipa": "/bɑ:k/",
+  "raw": "vi.&n.(狗)吠叫;吠叫声"
+ },
+ {
+  "w": "barren",
+  "ipa": "/ˈbærən/",
+  "raw": "a.贫瘠的;不结果实的"
+ },
+ {
+  "w": "barrier",
+  "ipa": "/ˈbæriə(r)/",
+  "raw": "n.隔阂;障碍"
+ },
+ {
+  "w": "base",
+  "ipa": "/beɪs/",
+  "raw": "vt.以…为据点 n.底部;根据"
+ },
+ {
+  "w": "based",
+  "ipa": "/beɪst/",
+  "raw": "adj.以(某事)为基础的"
+ },
+ {
+  "w": "basement",
+  "ipa": "ˈbeɪsmənt",
+  "raw": "n.地下室"
+ },
+ {
+  "w": "basic",
+  "ipa": "'beɪsɪk",
+  "raw": "adj.基础的；基本的"
+ },
+ {
+  "w": "basin",
+  "ipa": "/ˈbeɪsn/",
+  "raw": "n.流域;盆地;盆"
+ },
+ {
+  "w": "basis",
+  "ipa": "/ˈbeɪsɪs/",
+  "raw": "n.基础;根据;基点"
+ },
+ {
+  "w": "bat",
+  "ipa": "/bæt/",
+  "raw": "n.球拍;蝙蝠 v.用球板击球"
+ },
+ {
+  "w": "bath",
+  "ipa": "/bɑ:θ/",
+  "raw": "n.洗澡 vt.给…洗澡"
+ },
+ {
+  "w": "bathe",
+  "ipa": "beɪð",
+  "raw": "vi.洗澡；游泳"
+ },
+ {
+  "w": "bathroom",
+  "ipa": "ˈbɑːθruːm",
+  "raw": "n.浴室；盥洗室"
+ },
+ {
+  "w": "bathtub",
+  "ipa": "/ˈbɑ:θtʌb/",
+  "raw": "n.浴缸;浴盆"
+ },
+ {
+  "w": "battery",
+  "ipa": "/ˈbætri/",
+  "raw": "n.电池"
+ },
+ {
+  "w": "battle",
+  "ipa": "/ˈbætl/",
+  "raw": "n.战役;搏斗 v.搏斗;奋斗"
+ },
+ {
+  "w": "bay",
+  "ipa": "/beɪ/",
+  "raw": "n.(海或湖的)湾"
+ },
+ {
+  "w": "bead",
+  "ipa": "",
+  "raw": "n.小珠子；滴"
+ },
+ {
+  "w": "bean",
+  "ipa": "biːn",
+  "raw": "n.豆；豆科植物"
+ },
+ {
+  "w": "beard",
+  "ipa": "/bɪəd/",
+  "raw": "n.胡须;络腮胡子"
+ },
+ {
+  "w": "beauty",
+  "ipa": "/ˈbju:ti/",
+  "raw": "n.美;美人;美好的东西"
+ },
+ {
+  "w": "beaver",
+  "ipa": "",
+  "raw": "n.海狸"
+ },
+ {
+  "w": "bee",
+  "ipa": "/bi:/",
+  "raw": "n.蜜蜂"
+ },
+ {
+  "w": "beer",
+  "ipa": "/bɪə(r)/",
+  "raw": "n.(一杯)啤酒"
+ },
+ {
+  "w": "beg",
+  "ipa": "/beg/",
+  "raw": "vt.恳求;祈求;哀求"
+ },
+ {
+  "w": "behave",
+  "ipa": "/bɪˈheɪv/",
+  "raw": "vt.表现 vi.&vi.表现得体"
+ },
+ {
+  "w": "behaviour",
+  "ipa": "/bɪˈheɪvjə(r)/",
+  "raw": "n.行为;举止"
+ },
+ {
+  "w": "behold",
+  "ipa": "/bɪˈhəʊld/",
+  "raw": "vt.看;看见"
+ },
+ {
+  "w": "being",
+  "ipa": "/ˈbi:ɪŋ/",
+  "raw": "n.身心;存在;生物"
+ },
+ {
+  "w": "belong",
+  "ipa": "/bɪˈlɒŋ/",
+  "raw": "vi.应在(某处);适应"
+ },
+ {
+  "w": "belongings",
+  "ipa": "/bɪˈlɒŋɪŋz/",
+  "raw": "n.[pl.]财物;动产"
+ },
+ {
+  "w": "belt",
+  "ipa": "/belt/",
+  "raw": "n.腰带;地带"
+ },
+ {
+  "w": "bend",
+  "ipa": "/bend/",
+  "raw": "v.(使)弯曲;倾斜;偏向"
+ },
+ {
+  "w": "beneath",
+  "ipa": "/bɪˈni:θ/",
+  "raw": "adv.&prep.在(或往)…下面"
+ },
+ {
+  "w": "beneficial",
+  "ipa": "benɪˈfɪʃ(ə)l",
+  "raw": "adj.有益的；受益的"
+ },
+ {
+  "w": "besides",
+  "ipa": "/bɪˈsaɪdz/",
+  "raw": "prep.除…外(还) ad.而且"
+ },
+ {
+  "w": "bet",
+  "ipa": "/bet/",
+  "raw": "n.打赌;赌注v.下赌注"
+ },
+ {
+  "w": "betray",
+  "ipa": "bɪˈtreɪ",
+  "raw": "vt.显露出（本来面目）；背叛"
+ },
+ {
+  "w": "beyond",
+  "ipa": "/bɪˈjɒnd/",
+  "raw": "prep.在更远处;超出"
+ },
+ {
+  "w": "billion",
+  "ipa": "/ˈbɪljən/",
+  "raw": "n.十亿"
+ },
+ {
+  "w": "billy-goat",
+  "ipa": "",
+  "raw": "n.公山羊"
+ },
+ {
+  "w": "binoculars",
+  "ipa": "/bɪˈnɒkjələz/",
+  "raw": "n.双筒望远镜"
+ },
+ {
+  "w": "biography",
+  "ipa": "baɪˈɒɡrəfi",
+  "raw": "n.（由他人撰写的）传记；传记文学"
+ },
+ {
+  "w": "biologist",
+  "ipa": "",
+  "raw": "n.生物学家"
+ },
+ {
+  "w": "biology",
+  "ipa": "/baɪˈɒlədʒi/",
+  "raw": "n.生理;生物学"
+ },
+ {
+  "w": "birthplace",
+  "ipa": "ˈbɜːθpleɪs",
+  "raw": "n.出生地；故乡"
+ },
+ {
+  "w": "bison",
+  "ipa": "",
+  "raw": "n.北美或欧洲野牛"
+ },
+ {
+  "w": "bite",
+  "ipa": "/baɪt/",
+  "raw": "vt.&vi.咬;叮;蜇 n.咬"
+ },
+ {
+  "w": "bitter",
+  "ipa": "/ˈbɪtə(r)/",
+  "raw": "a.严寒的;激烈而不愉快的"
+ },
+ {
+  "w": "blame",
+  "ipa": "/bleɪm/",
+  "raw": "vt.把…归咎于;责怪 n.责备"
+ },
+ {
+  "w": "blank",
+  "ipa": "/blæŋk/",
+  "raw": "a.空白的;无图画 n.空白"
+ },
+ {
+  "w": "blanket",
+  "ipa": "/ˈblæŋkɪt/",
+  "raw": "n.毯子"
+ },
+ {
+  "w": "bleed",
+  "ipa": "/bli:d/",
+  "raw": "vi.流血;失血"
+ },
+ {
+  "w": "bleeding",
+  "ipa": "/ˈbli:dɪŋ/",
+  "raw": "n.流血;失血"
+ },
+ {
+  "w": "bless",
+  "ipa": "/bles/",
+  "raw": "vt.祝福"
+ },
+ {
+  "w": "blister",
+  "ipa": "/ˈblɪstə(r)/",
+  "raw": "n.(皮肤)水疱;(金属)气泡"
+ },
+ {
+  "w": "block",
+  "ipa": "blɒk",
+  "raw": "n.街区；块；木块；石块"
+ },
+ {
+  "w": "blog",
+  "ipa": "/blɒg/",
+  "raw": "n.博客 vi.写博客"
+ },
+ {
+  "w": "blogger",
+  "ipa": "/'blɒɡə(r)/",
+  "raw": "n.博客作者;博主"
+ },
+ {
+  "w": "blood",
+  "ipa": "blʌd",
+  "raw": "n.血，血液；血统"
+ },
+ {
+  "w": "bloody",
+  "ipa": "'blʌdi",
+  "raw": "adj.出血的；血染的；伤亡惨重的"
+ },
+ {
+  "w": "blossom",
+  "ipa": "/ˈblɒsəm/",
+  "raw": "n.花朵;花簇"
+ },
+ {
+  "w": "blow-hole",
+  "ipa": "",
+  "raw": "n.（鲸鱼的）鼻孔；（隧道的）通风口"
+ },
+ {
+  "w": "blurred",
+  "ipa": "/blɜːd/",
+  "raw": "a.模糊不清的;难以区分的"
+ },
+ {
+  "w": "board",
+  "ipa": "bɔːd",
+  "raw": "vt.上（船、飞机等）"
+ },
+ {
+  "w": "boil",
+  "ipa": "/bɔɪl/",
+  "raw": "v.使沸腾;煮开 n.沸点"
+ },
+ {
+  "w": "bold",
+  "ipa": "/bəʊld/",
+  "raw": "a.大胆自信的;敢于冒险的"
+ },
+ {
+  "w": "bomb",
+  "ipa": "/bɒm/",
+  "raw": "n.炸弹 vt.轰炸;对…投炸弹"
+ },
+ {
+  "w": "bone",
+  "ipa": "/bəʊn/",
+  "raw": "n.骨头;骨(质)"
+ },
+ {
+  "w": "bonus",
+  "ipa": "/ˈbəʊnəs/",
+  "raw": "n.意外收获;奖金;红利"
+ },
+ {
+  "w": "boom",
+  "ipa": "/bu:m/",
+  "raw": "vi.&n.迅速发展;繁荣"
+ },
+ {
+  "w": "boot",
+  "ipa": "/bu:t/",
+  "raw": "n.靴子"
+ },
+ {
+  "w": "booth",
+  "ipa": "buːð",
+  "raw": "n.货摊；售货亭；公用电话间"
+ },
+ {
+  "w": "border",
+  "ipa": "/ˈbɔ:də(r)/",
+  "raw": "n.国界;边界(地区)"
+ },
+ {
+  "w": "bore",
+  "ipa": "bɔː",
+  "raw": "vt.使感到厌烦"
+ },
+ {
+  "w": "bored",
+  "ipa": "bɒrd",
+  "raw": "adj.厌烦的"
+ },
+ {
+  "w": "botanical",
+  "ipa": "/bəˈtænɪkl/",
+  "raw": "a.植物学的"
+ },
+ {
+  "w": "botany",
+  "ipa": "ˈbɒtəni",
+  "raw": "n.植物学"
+ },
+ {
+  "w": "bother",
+  "ipa": "/ˈbɒðə(r)/",
+  "raw": "v.费心;麻烦 n.麻烦;不便"
+ },
+ {
+  "w": "bounce",
+  "ipa": "/baʊns/",
+  "raw": "v.(使)弹起;上下晃动 n.弹性"
+ },
+ {
+  "w": "bound",
+  "ipa": "/baʊnd/",
+  "raw": "a.准备前往(某地);一定会"
+ },
+ {
+  "w": "boundary",
+  "ipa": "/ˈbaʊndri/",
+  "raw": "n.边界;界限;分界线"
+ },
+ {
+  "w": "bow",
+  "ipa": "/bəʊ/",
+  "raw": "vi.鞠躬;点头 vt.低(头)"
+ },
+ {
+  "w": "bowling",
+  "ipa": "/ˈbəʊlɪŋ/",
+  "raw": "n.保龄球运动"
+ },
+ {
+  "w": "boxing",
+  "ipa": "/ˈbɒksɪŋ/",
+  "raw": "n.拳击(运动)"
+ },
+ {
+  "w": "boyhood",
+  "ipa": "",
+  "raw": "n.少年时代"
+ },
+ {
+  "w": "brass",
+  "ipa": "/brɑ:s/",
+  "raw": "n.黄铜;黄铜制品;铜管乐器"
+ },
+ {
+  "w": "bravery",
+  "ipa": "ˈbreɪvəri",
+  "raw": "n.勇敢；勇气"
+ },
+ {
+  "w": "breakthrough",
+  "ipa": "/ˈbreɪkθru:/",
+  "raw": "n.重大进展;突破"
+ },
+ {
+  "w": "breast",
+  "ipa": "/brest/",
+  "raw": "n.乳房;胸部"
+ },
+ {
+  "w": "breathe",
+  "ipa": "/bri:ð/",
+  "raw": "vi.&vt.呼吸"
+ },
+ {
+  "w": "bribe",
+  "ipa": "",
+  "raw": "vt.向……行贿　n.贿赂"
+ },
+ {
+  "w": "brick",
+  "ipa": "/brɪk/",
+  "raw": "n.砖;砖块"
+ },
+ {
+  "w": "bride",
+  "ipa": "/braɪd/",
+  "raw": "n.新娘"
+ },
+ {
+  "w": "bridegroom",
+  "ipa": "/ˈbraɪdgru:m/",
+  "raw": "n.新郎"
+ },
+ {
+  "w": "briefly",
+  "ipa": "",
+  "raw": "adv.简要地；短暂地"
+ },
+ {
+  "w": "brighten",
+  "ipa": "",
+  "raw": "vt.使更愉快；使更有希望"
+ },
+ {
+  "w": "brightness",
+  "ipa": "",
+  "raw": "n.明亮；亮度；聪颖"
+ },
+ {
+  "w": "brimful",
+  "ipa": "",
+  "raw": "adj.盈满的；满到边际的"
+ },
+ {
+  "w": "broad",
+  "ipa": "/brɔ:d/",
+  "raw": "adj.宽阔的;广阔的;广泛的"
+ },
+ {
+  "w": "broadcast",
+  "ipa": "/ˈbrɔ:dkɑ:st/",
+  "raw": "v.播送;广播 n.广播节目"
+ },
+ {
+  "w": "brochure",
+  "ipa": "/ˈbrəʊʃə(r)/",
+  "raw": "n.资料(或广告)手册"
+ },
+ {
+  "w": "bronze",
+  "ipa": "/brɒnz/",
+  "raw": "n.青铜;深红 a.青铜色的"
+ },
+ {
+  "w": "broom",
+  "ipa": "/bru:m/",
+  "raw": "n.扫把;扫帚;金雀花"
+ },
+ {
+  "w": "bruise",
+  "ipa": "",
+  "raw": "n.&vi.淤伤；擦伤"
+ },
+ {
+  "w": "bubble",
+  "ipa": "/ˈbʌbl/",
+  "raw": "vi.起泡;沸腾"
+ },
+ {
+  "w": "bucket",
+  "ipa": "ˈbʌkɪt",
+  "raw": "n.水桶；吊桶；提桶"
+ },
+ {
+  "w": "budget",
+  "ipa": "/ˈbʌdʒɪt/",
+  "raw": "n.预算"
+ },
+ {
+  "w": "buffet",
+  "ipa": "/ˈbʊfeɪ/",
+  "raw": "vt.连续猛击 n.自助餐"
+ },
+ {
+  "w": "bull",
+  "ipa": "/bʊl/",
+  "raw": "n.公牛"
+ },
+ {
+  "w": "bun",
+  "ipa": "/bʌn/",
+  "raw": "n.圆面包;小圆甜饼"
+ },
+ {
+  "w": "bunch",
+  "ipa": "/bʌntʃ/",
+  "raw": "n.束;串;捆"
+ },
+ {
+  "w": "burn",
+  "ipa": "bɜːn",
+  "raw": "vi.&vt.（被）烧毁，（被）烧伤；（被）烫伤　n.烧伤或灼伤（的痕迹）"
+ },
+ {
+  "w": "burst",
+  "ipa": "ˈbɜːst",
+  "raw": "vi.(burst,burst)爆裂；爆发　n.突然破裂；爆发"
+ },
+ {
+  "w": "bury",
+  "ipa": "/ˈberi/",
+  "raw": "vt.埋葬;安葬"
+ },
+ {
+  "w": "bush",
+  "ipa": "/bʊʃ/",
+  "raw": "n.灌木"
+ },
+ {
+  "w": "businessman",
+  "ipa": "'bɪznɪsmæn",
+  "raw": "n.商人"
+ },
+ {
+  "w": "butcher",
+  "ipa": "/ˈbʊtʃə(r)/",
+  "raw": "n.肉贩;屠夫;刽子手"
+ },
+ {
+  "w": "butter",
+  "ipa": "/ˈbʌtə(r)/",
+  "raw": "n.黄油;奶油 vt.涂黄油于"
+ },
+ {
+  "w": "butterfly",
+  "ipa": "/ˈbʌtəflaɪ/",
+  "raw": "n.蝴蝶"
+ },
+ {
+  "w": "button",
+  "ipa": "/ˈbʌtn/",
+  "raw": "n.按钮;纽扣"
+ },
+ {
+  "w": "cab",
+  "ipa": "kæb",
+  "raw": "n.出租车"
+ },
+ {
+  "w": "cabbage",
+  "ipa": "/ˈkæbɪdʒ/",
+  "raw": "n.甘蓝;卷心菜;洋白菜"
+ },
+ {
+  "w": "cabin",
+  "ipa": "ˈkæbɪn",
+  "raw": "n.小屋；船舱"
+ },
+ {
+  "w": "cable",
+  "ipa": "'keɪbl",
+  "raw": "n.绳览；绳索"
+ },
+ {
+  "w": "cafe",
+  "ipa": "/ˈkæfeɪ/",
+  "raw": "n.咖啡馆;小餐馆"
+ },
+ {
+  "w": "cafeteria",
+  "ipa": "/ˌkæfəˈtɪəriə/",
+  "raw": "n.自助餐厅;自助食堂"
+ },
+ {
+  "w": "cage",
+  "ipa": "/keɪdʒ/",
+  "raw": "n.笼子 vt.关在笼子里"
+ },
+ {
+  "w": "calculate",
+  "ipa": "/ˈkælkjuleɪt/",
+  "raw": "vt.计算;核算;预测"
+ },
+ {
+  "w": "calculation",
+  "ipa": "ˌkælkjʊˈleɪʃən",
+  "raw": "n.计算；计算结果"
+ },
+ {
+  "w": "calculator",
+  "ipa": "ˈkælkjʊleɪtə",
+  "raw": "n.计算器"
+ },
+ {
+  "w": "calf",
+  "ipa": "",
+  "raw": "n.小牛；犊"
+ },
+ {
+  "w": "calligraphy",
+  "ipa": "/kəˈlɪgrəfi/",
+  "raw": "n.书法;书法艺术"
+ },
+ {
+  "w": "calm",
+  "ipa": "/kɑ:m/",
+  "raw": "a.镇静的;沉着的 vt.使平静"
+ },
+ {
+  "w": "calorie",
+  "ipa": "/ˈkæləri/",
+  "raw": "n.卡路里(热量单位)"
+ },
+ {
+  "w": "camel",
+  "ipa": "/ˈkæml/",
+  "raw": "n.骆驼"
+ },
+ {
+  "w": "campaign",
+  "ipa": "/kæmˈpeɪn/",
+  "raw": "n.运动;战役 v.参加运动"
+ },
+ {
+  "w": "campus",
+  "ipa": "/ˈkæmpəs/",
+  "raw": "n.校园;校区"
+ },
+ {
+  "w": "can",
+  "ipa": "kæn",
+  "raw": "n.容器；罐头"
+ },
+ {
+  "w": "canal",
+  "ipa": "/kəˈnæl/",
+  "raw": "n.运河;灌溉渠"
+ },
+ {
+  "w": "cancel",
+  "ipa": "ˈkæns(ə)l",
+  "raw": "vt.取消，撤消；删去"
+ },
+ {
+  "w": "cancer",
+  "ipa": "/ˈkænsə(r)/",
+  "raw": "n.癌;癌症;毒瘤"
+ },
+ {
+  "w": "candidate",
+  "ipa": "/ˈkændɪdət/",
+  "raw": "n.候选人;应试者"
+ },
+ {
+  "w": "canteen",
+  "ipa": "/kænˈti:n/",
+  "raw": "n.食堂;餐厅"
+ },
+ {
+  "w": "capable",
+  "ipa": "/ˈkeɪpəbl/",
+  "raw": "adj.有能力的;有才能的"
+ },
+ {
+  "w": "capsule",
+  "ipa": "/ˈkæpsju:l/",
+  "raw": "n.胶囊;太空舱"
+ },
+ {
+  "w": "carbon",
+  "ipa": "/ˈkɑ:bən/",
+  "raw": "n.碳"
+ },
+ {
+  "w": "cardiac",
+  "ipa": "/ˈkɑ:diæk/",
+  "raw": "a.心脏病的;心脏的"
+ },
+ {
+  "w": "career",
+  "ipa": "/kəˈrɪə(r)/",
+  "raw": "n.职业;事业"
+ },
+ {
+  "w": "carnival",
+  "ipa": "/ˈkɑ:nɪvl/",
+  "raw": "n.狂欢节;嘉年华"
+ },
+ {
+  "w": "carpenter",
+  "ipa": "ˈkɑːpɪntə",
+  "raw": "n.木匠"
+ },
+ {
+  "w": "carpet",
+  "ipa": "/ˈkɑ:pɪt/",
+  "raw": "n.地毯"
+ },
+ {
+  "w": "carriage",
+  "ipa": "ˈkærɪdʒ",
+  "raw": "n.四轮马车；客车"
+ },
+ {
+  "w": "carrot",
+  "ipa": "'kærət",
+  "raw": "n.胡萝卜"
+ },
+ {
+  "w": "cart",
+  "ipa": "/kɑ:t/",
+  "raw": "n.手推车;运货马车"
+ },
+ {
+  "w": "cartoon",
+  "ipa": "kɑːˈtuːn",
+  "raw": "n.漫画；动画片"
+ },
+ {
+  "w": "carve",
+  "ipa": "/kɑ:v/",
+  "raw": "vt.&vi.雕刻"
+ },
+ {
+  "w": "cash",
+  "ipa": "/kæʃ/",
+  "raw": "n.现金;金钱"
+ },
+ {
+  "w": "cassette",
+  "ipa": "kəˈset",
+  "raw": "n.磁带"
+ },
+ {
+  "w": "castle",
+  "ipa": "/ˈkɑ:sl/",
+  "raw": "n.城堡;堡垒"
+ },
+ {
+  "w": "catalogue",
+  "ipa": "ˈkætəlɒg",
+  "raw": "n.目录"
+ },
+ {
+  "w": "catastrophe",
+  "ipa": "kəˈtæstrəfi",
+  "raw": "n.突如其来的大灾难；大灾祸"
+ },
+ {
+  "w": "categorise",
+  "ipa": "",
+  "raw": "vt.把…分类(加以归类)"
+ },
+ {
+  "w": "catfish",
+  "ipa": "",
+  "raw": "n.鲶鱼"
+ },
+ {
+  "w": "cattle",
+  "ipa": "/ˈkætl/",
+  "raw": "n.牛"
+ },
+ {
+  "w": "cautious",
+  "ipa": "ˈkɔːʃəs",
+  "raw": "adj.小心的；谨慎的"
+ },
+ {
+  "w": "cave",
+  "ipa": "/keɪv/",
+  "raw": "n.山洞;洞穴"
+ },
+ {
+  "w": "cease",
+  "ipa": "/si:s/",
+  "raw": "v.(使)停止;终止"
+ },
+ {
+  "w": "ceiling",
+  "ipa": "/ˈsi:lɪŋ/",
+  "raw": "n.天花板;上限"
+ },
+ {
+  "w": "celebration",
+  "ipa": "selɪˈbreɪʃ(ə)n",
+  "raw": "n.庆祝；祝贺"
+ },
+ {
+  "w": "celebrity",
+  "ipa": "/səˈlebrəti/",
+  "raw": "n.名望;名誉;名人;名流"
+ },
+ {
+  "w": "cell",
+  "ipa": "/sel/",
+  "raw": "n.细胞;小房间;单间牢房"
+ },
+ {
+  "w": "cemetery",
+  "ipa": "/ˈsemətri/",
+  "raw": "n.墓地;公墓"
+ },
+ {
+  "w": "centimetre",
+  "ipa": "'sentɪˌmiːtə",
+  "raw": "n.厘米"
+ },
+ {
+  "w": "central",
+  "ipa": "ˈsentr(ə)l",
+  "raw": "adj.中心的；中央的"
+ },
+ {
+  "w": "ceramic",
+  "ipa": "/səˈræmɪk/",
+  "raw": "n.陶瓷制品;制陶艺术"
+ },
+ {
+  "w": "ceremony",
+  "ipa": "/ˈserəməni/",
+  "raw": "n.典礼;仪式"
+ },
+ {
+  "w": "cermony",
+  "ipa": "",
+  "raw": "n.典礼；仪式；礼节"
+ },
+ {
+  "w": "certain",
+  "ipa": "ˈsɜːt(ə)n",
+  "raw": "adj.确定的；某一；一定"
+ },
+ {
+  "w": "certainty",
+  "ipa": "ˈsɜːtənti",
+  "raw": "n.确知；确信；确实"
+ },
+ {
+  "w": "certificate",
+  "ipa": "/səˈtɪfɪkət/",
+  "raw": "n.合格证书;证明"
+ },
+ {
+  "w": "chain",
+  "ipa": "/tʃeɪn/",
+  "raw": "n.一连串(人或事);链子"
+ },
+ {
+  "w": "chairman",
+  "ipa": "/ˈtʃeəmən/",
+  "raw": "n.主席;主持人;董事长"
+ },
+ {
+  "w": "chairwoman",
+  "ipa": "/ˈtʃeəwʊmən/",
+  "raw": "n.女主席;女董事长;女委员长"
+ },
+ {
+  "w": "challenging",
+  "ipa": "ˈtʃælɪndʒɪŋ",
+  "raw": "adj.挑战的"
+ },
+ {
+  "w": "champion",
+  "ipa": "/ˈtʃæmpiən/",
+  "raw": "n.冠军;优胜者"
+ },
+ {
+  "w": "championship",
+  "ipa": "/ˈtʃæmpiənʃɪp/",
+  "raw": "n.锦标赛;冠军赛;冠军称号"
+ },
+ {
+  "w": "channel",
+  "ipa": "/ˈtʃænl/",
+  "raw": "n.航道;海峡;频道"
+ },
+ {
+  "w": "chaos",
+  "ipa": "/ˈkeɪɒs/",
+  "raw": "n.混乱;杂乱;紊乱"
+ },
+ {
+  "w": "chapter",
+  "ipa": "ˈtʃæptə",
+  "raw": "n.（书中的）章；篇；回"
+ },
+ {
+  "w": "char",
+  "ipa": "",
+  "raw": "vi.烧焦"
+ },
+ {
+  "w": "character",
+  "ipa": "/ˈkærəktə(r)/",
+  "raw": "n.文字;符号;角色;品质"
+ },
+ {
+  "w": "characteristec",
+  "ipa": "",
+  "raw": "n.特征；特性"
+ },
+ {
+  "w": "charity",
+  "ipa": "/ˈtʃærəti/",
+  "raw": "n.慈善;慈善机构(或组织)"
+ },
+ {
+  "w": "charming",
+  "ipa": "",
+  "raw": "adj.迷人的；有魅力的"
+ },
+ {
+  "w": "chart",
+  "ipa": "/tʃɑ:t/",
+  "raw": "n.图表 vt.记录;制订计划"
+ },
+ {
+  "w": "chat",
+  "ipa": "/tʃæt/",
+  "raw": "vi.聊天;闲聊"
+ },
+ {
+  "w": "cheat",
+  "ipa": "/tʃi:t/",
+  "raw": "vi.作弊;舞弊 vt.欺骗;蒙骗"
+ },
+ {
+  "w": "cheek",
+  "ipa": "/tʃi:k/",
+  "raw": "n.面颊;脸颊"
+ },
+ {
+  "w": "cheekbone",
+  "ipa": "",
+  "raw": "n.颧骨"
+ },
+ {
+  "w": "cheese",
+  "ipa": "/tʃi:z/",
+  "raw": "n.干酪;奶酪"
+ },
+ {
+  "w": "chef",
+  "ipa": "/ʃef/",
+  "raw": "n.厨师;主厨"
+ },
+ {
+  "w": "chemical",
+  "ipa": "/ˈkemɪkl/",
+  "raw": "a.与化学有关的 n.化学制品"
+ },
+ {
+  "w": "chemist",
+  "ipa": "/ˈkemɪst/",
+  "raw": "n.化学家;药剂师;药房"
+ },
+ {
+  "w": "cherry",
+  "ipa": "/ˈtʃeri/",
+  "raw": "n.樱桃;樱桃树 a.樱桃色的"
+ },
+ {
+  "w": "chest",
+  "ipa": "/tʃest/",
+  "raw": "n.胸部;胸膛"
+ },
+ {
+  "w": "chew",
+  "ipa": "/tʃu:/",
+  "raw": "vi.&vt.咀嚼;嚼碎 n.咀嚼."
+ },
+ {
+  "w": "chief",
+  "ipa": "/tʃi:f/",
+  "raw": "adj.最重要的 n.(机构)首领"
+ },
+ {
+  "w": "childhood",
+  "ipa": "ˈtʃaɪldhʊd",
+  "raw": "n.童年；幼年时代"
+ },
+ {
+  "w": "chilli",
+  "ipa": "/'tʃɪlɪ/",
+  "raw": "n.辣椒"
+ },
+ {
+  "w": "chimp",
+  "ipa": "",
+  "raw": "n.（非洲）黑猩猩"
+ },
+ {
+  "w": "chin",
+  "ipa": "/tʃɪn/",
+  "raw": "n.下巴"
+ },
+ {
+  "w": "china",
+  "ipa": "/'tʃaɪnə/",
+  "raw": "n.瓷;瓷器"
+ },
+ {
+  "w": "chip",
+  "ipa": "/tʃɪp/",
+  "raw": "n.炸土豆条;炸薯片;芯片"
+ },
+ {
+  "w": "chiwen",
+  "ipa": "/kaɪ wɛn/",
+  "raw": "鸱吻"
+ },
+ {
+  "w": "choke",
+  "ipa": "/tʃəʊk/",
+  "raw": "vi.&vt.(使)窒息;(使)哽咽"
+ },
+ {
+  "w": "cholera",
+  "ipa": "/ˈkɒlərə/",
+  "raw": "n.霍乱"
+ },
+ {
+  "w": "choral",
+  "ipa": "",
+  "raw": "adj.唱诗班的；合唱队的"
+ },
+ {
+  "w": "chorus",
+  "ipa": "/ˈkɔ:rəs/",
+  "raw": "n.合唱曲;合唱团 vt.合唱"
+ },
+ {
+  "w": "chronological",
+  "ipa": "",
+  "raw": "adj.按时间顺序排列的"
+ },
+ {
+  "w": "church",
+  "ipa": "/tʃɜ:tʃ/",
+  "raw": "n.(基督教的)教堂;礼拜堂"
+ },
+ {
+  "w": "cigarette",
+  "ipa": "/ˌsɪgəˈret/",
+  "raw": "n.香烟;卷烟"
+ },
+ {
+  "w": "cinquain",
+  "ipa": "/sɪŋ'keɪn/",
+  "raw": "n.五行诗"
+ },
+ {
+  "w": "circuit",
+  "ipa": "/ˈsɜ:kɪt/",
+  "raw": "n.巡回;环形线路"
+ },
+ {
+  "w": "circulate",
+  "ipa": "ˈsɜːkjʊleɪt",
+  "raw": "vt.&vi.循环；流传"
+ },
+ {
+  "w": "circumstance",
+  "ipa": "/ˈsɜ:kəmstəns/",
+  "raw": "n.条件;环境;状况"
+ },
+ {
+  "w": "circus",
+  "ipa": "/ˈsɜ:kəs/",
+  "raw": "n.马戏团"
+ },
+ {
+  "w": "civil",
+  "ipa": "/ˈsɪvl/",
+  "raw": "a.国民的;民用的;民事的"
+ },
+ {
+  "w": "civilian",
+  "ipa": "/səˈvɪliən/",
+  "raw": "n.平民;老百姓"
+ },
+ {
+  "w": "civilisation",
+  "ipa": "/sɪvɪlaɪ'zeɪʃən/",
+  "raw": "n.文明;文明世界"
+ },
+ {
+  "w": "civilization",
+  "ipa": "sɪvɪlaɪˈzeɪʃ(ə)n",
+  "raw": "n.文明；文化；文明社会"
+ },
+ {
+  "w": "clam",
+  "ipa": "",
+  "raw": "n.蛤"
+ },
+ {
+  "w": "clap",
+  "ipa": "/klæp/",
+  "raw": "vt.鼓掌;拍手;击掌 n.鼓掌"
+ },
+ {
+  "w": "clarify",
+  "ipa": "/ˈklærəfaɪ/",
+  "raw": "vt.使更清晰易懂;阐明;澄清"
+ },
+ {
+  "w": "classic",
+  "ipa": "/ˈklæsɪk/",
+  "raw": "a.传统的;最优秀的 n.名著"
+ },
+ {
+  "w": "classical",
+  "ipa": "/ˈklæsɪkl/",
+  "raw": "adj.古典的;经典的"
+ },
+ {
+  "w": "classify",
+  "ipa": "ˈklæsɪfaɪ",
+  "raw": "vt.编排；分类；归类"
+ },
+ {
+  "w": "clay",
+  "ipa": "/kleɪ/",
+  "raw": "n.黏土;陶土"
+ },
+ {
+  "w": "clerk",
+  "ipa": "/klɑ:k/",
+  "raw": "n.职员;文书;店员"
+ },
+ {
+  "w": "click",
+  "ipa": "/klɪk/",
+  "raw": "vt.&vi.点击"
+ },
+ {
+  "w": "client",
+  "ipa": "/ˈklaɪənt/",
+  "raw": "n.委托人;当事人;客户"
+ },
+ {
+  "w": "climate",
+  "ipa": "/ˈklaɪmət/",
+  "raw": "n.气候"
+ },
+ {
+  "w": "clinic",
+  "ipa": "/ˈklɪnɪk/",
+  "raw": "n.诊所;门诊部"
+ },
+ {
+  "w": "clone",
+  "ipa": "/kləʊn/",
+  "raw": "vt.克隆 n.克隆动物/植物"
+ },
+ {
+  "w": "closing",
+  "ipa": "/ˈkləʊzɪŋ/",
+  "raw": "adj.结尾的;结束的 n.停业"
+ },
+ {
+  "w": "cloth",
+  "ipa": "/klɒθ/",
+  "raw": "n.(一块)布;织物;布料"
+ },
+ {
+  "w": "clothing",
+  "ipa": "/ˈkləʊðɪŋ/",
+  "raw": "n.衣服;服装"
+ },
+ {
+  "w": "clover",
+  "ipa": "/ˈkləʊvə(r)/",
+  "raw": "n.三叶草"
+ },
+ {
+  "w": "clue",
+  "ipa": "/klu:/",
+  "raw": "n.线索;提示"
+ },
+ {
+  "w": "clumsy",
+  "ipa": "ˈklʌmzi",
+  "raw": "adj.笨拙的"
+ },
+ {
+  "w": "co-operative",
+  "ipa": "",
+  "raw": "adj.合作的"
+ },
+ {
+  "w": "coach",
+  "ipa": "kəʊtʃ",
+  "raw": "n.教练"
+ },
+ {
+  "w": "cobblestone",
+  "ipa": "/ˈkɒblstəʊn/",
+  "raw": "a.铺有鹅卵石的"
+ },
+ {
+  "w": "cocoa",
+  "ipa": "ˈkəʊkəʊ",
+  "raw": "n.可可豆；可可粉；可可饮料"
+ },
+ {
+  "w": "code",
+  "ipa": "/kəʊd/",
+  "raw": "n.代码;密码 vt.编码"
+ },
+ {
+  "w": "coffin",
+  "ipa": "",
+  "raw": "n.棺材"
+ },
+ {
+  "w": "coherent",
+  "ipa": "/kəʊˈhɪərənt/",
+  "raw": "a.有条理的;清楚易懂的"
+ },
+ {
+  "w": "cola",
+  "ipa": "'kəʊlə",
+  "raw": "n.可口饮料"
+ },
+ {
+  "w": "collar",
+  "ipa": "/ˈkɒlə(r)/",
+  "raw": "n.(动物)颈圈;衣领"
+ },
+ {
+  "w": "colleague",
+  "ipa": "/ˈkɒli:g/",
+  "raw": "n.同事;同僚"
+ },
+ {
+  "w": "collection",
+  "ipa": "/kəˈlekʃn/",
+  "raw": "n.作品集;收集物;收藏品"
+ },
+ {
+  "w": "colonel",
+  "ipa": "'kɜːnəl",
+  "raw": "n.（陆军）上校"
+ },
+ {
+  "w": "column",
+  "ipa": "/ˈkɒləm/",
+  "raw": "n.(书/报纸)栏;专栏;柱形物"
+ },
+ {
+  "w": "comb",
+  "ipa": "kəʊm",
+  "raw": "n.梳子　vi.梳发"
+ },
+ {
+  "w": "combine",
+  "ipa": "/kəmˈbaɪn/",
+  "raw": "v.(使)结合;混合"
+ },
+ {
+  "w": "comedy",
+  "ipa": "/ˈkɒmədi/",
+  "raw": "n.喜剧;喜剧片;滑稽节目"
+ },
+ {
+  "w": "comet",
+  "ipa": "",
+  "raw": "n.彗星"
+ },
+ {
+  "w": "comfort",
+  "ipa": "/ˈkʌmfət/",
+  "raw": "n.安慰;舒服 vt.安慰;抚慰"
+ },
+ {
+  "w": "comic",
+  "ipa": "/ˈkɒmɪk/",
+  "raw": "n.连环画杂志 adj.滑稽的"
+ },
+ {
+  "w": "command",
+  "ipa": "/kəˈmɑ:nd/",
+  "raw": "n.指令;命令;控制 vt.命令"
+ },
+ {
+  "w": "commercial",
+  "ipa": "/kəˈmɜ:ʃl/",
+  "raw": "adj.商业(化)的"
+ },
+ {
+  "w": "commercialisation",
+  "ipa": "/kəˌmɜ:ʃəlaɪ'zeɪʃən/",
+  "raw": "n.商业化"
+ },
+ {
+  "w": "commercialise",
+  "ipa": "/kə'mɜ:ʃəlaɪz/",
+  "raw": "vt.使商业化;用…牟利"
+ },
+ {
+  "w": "commit",
+  "ipa": "/kəˈmɪt/",
+  "raw": "vi.承诺;保证 vi.忠于"
+ },
+ {
+  "w": "commitment",
+  "ipa": "/kəˈmɪtmənt/",
+  "raw": "n.承诺;保证;奉献"
+ },
+ {
+  "w": "committed",
+  "ipa": "/kəˈmɪtɪd/",
+  "raw": "a.尽心尽力的;坚定的"
+ },
+ {
+  "w": "committee",
+  "ipa": "/kəˈmɪti/",
+  "raw": "n.委员会"
+ },
+ {
+  "w": "commmunity",
+  "ipa": "",
+  "raw": "n.社区；团体；社会"
+ },
+ {
+  "w": "communism",
+  "ipa": "ˈkɒmjʊnɪzəm",
+  "raw": "n.共产主义"
+ },
+ {
+  "w": "communist",
+  "ipa": "/ˈkɒmjənɪst/",
+  "raw": "a.共产主义的 n.共产主义者"
+ },
+ {
+  "w": "companion",
+  "ipa": "kəmˈpænɪən",
+  "raw": "n.同伴；伙伴"
+ },
+ {
+  "w": "company",
+  "ipa": "/ˈkʌmpəni/",
+  "raw": "n.公司;商行;陪伴"
+ },
+ {
+  "w": "compare",
+  "ipa": "kəmˈpeə",
+  "raw": "vt比较；相比"
+ },
+ {
+  "w": "comparison",
+  "ipa": "/kəmˈpærɪsn/",
+  "raw": "n.比较;相比"
+ },
+ {
+  "w": "compete",
+  "ipa": "/kəmˈpi:t/",
+  "raw": "vi.竞争;对抗"
+ },
+ {
+  "w": "competence",
+  "ipa": "/ˈkɒmpɪtəns/",
+  "raw": "n.能力;胜任;本领"
+ },
+ {
+  "w": "competent",
+  "ipa": "/ˈkɒmpɪtənt/",
+  "raw": "a.有能力的;称职的"
+ },
+ {
+  "w": "competitor",
+  "ipa": "kəmˈpetɪtə",
+  "raw": "n.竞争者"
+ },
+ {
+  "w": "complain",
+  "ipa": "/kəmˈpleɪn/",
+  "raw": "vi.&vt.抱怨;发牢骚"
+ },
+ {
+  "w": "complete",
+  "ipa": "kəmˈpliːt",
+  "raw": "adj.完整的；完成的；全部的　vt.完成"
+ },
+ {
+  "w": "complex",
+  "ipa": "/ˈkɒmpleks/",
+  "raw": "a.复杂的;难懂的;复合的"
+ },
+ {
+  "w": "complicated",
+  "ipa": "/ˈkɒmplɪkeɪtɪd/",
+  "raw": "a.复杂的;难懂的"
+ },
+ {
+  "w": "component",
+  "ipa": "/kəmˈpəʊnənt/",
+  "raw": "n.组成部分;零件"
+ },
+ {
+  "w": "compose",
+  "ipa": "/kəmˈpəʊz/",
+  "raw": "vt.&vi.组成;作曲;撰写"
+ },
+ {
+  "w": "composer",
+  "ipa": "/kəmˈpəʊzə(r)/",
+  "raw": "n.作曲者;作曲家"
+ },
+ {
+  "w": "composition",
+  "ipa": "/ˌkɒmpəˈzɪʃn/",
+  "raw": "n.成分;(音乐、艺术等)作品"
+ },
+ {
+  "w": "comprehension",
+  "ipa": "/ˌkɒmprɪˈhenʃn/",
+  "raw": "n.理解力;领悟力;理解练习"
+ },
+ {
+  "w": "comprehensive",
+  "ipa": "/ˌkɒmprɪˈhensɪv/",
+  "raw": "a.全部的;所有的;详尽的"
+ },
+ {
+  "w": "comprise",
+  "ipa": "/kəmˈpraɪz/",
+  "raw": "vt.包括;包含;由…组成"
+ },
+ {
+  "w": "concentrate",
+  "ipa": "/ˈkɒnsntreɪt/",
+  "raw": "vi.&vt.集中注意;聚精会神"
+ },
+ {
+  "w": "concept",
+  "ipa": "/ˈkɒnsept/",
+  "raw": "n.概念;观念"
+ },
+ {
+  "w": "concerned",
+  "ipa": "/kənˈsɜ:nd/",
+  "raw": "adj.担心的;关切的"
+ },
+ {
+  "w": "concise",
+  "ipa": "",
+  "raw": "adj.简胆的；简练的"
+ },
+ {
+  "w": "conclude",
+  "ipa": "kənˈkluːd",
+  "raw": "vt.&vi.结束；推断出；议定"
+ },
+ {
+  "w": "conclusion",
+  "ipa": "/kənˈklu:ʒn/",
+  "raw": "n.结论;推论"
+ },
+ {
+  "w": "concrete",
+  "ipa": "/ˈkɒŋkri:t/",
+  "raw": "n.混凝土 a.混凝土制的"
+ },
+ {
+  "w": "condemn",
+  "ipa": "kənˈdem",
+  "raw": "vt.谴责；使……注定"
+ },
+ {
+  "w": "condom",
+  "ipa": "",
+  "raw": "n.避孕套"
+ },
+ {
+  "w": "conductor",
+  "ipa": "/kənˈdʌktə(r)/",
+  "raw": "n.(乐队)指挥;(公车)售票员"
+ },
+ {
+  "w": "conference",
+  "ipa": "/ˈkɒnfərəns/",
+  "raw": "n.会议;研讨会;正式会谈"
+ },
+ {
+  "w": "confident",
+  "ipa": "/ˈkɒnfɪdənt/",
+  "raw": "adj.自信的;有把握的"
+ },
+ {
+  "w": "confirm",
+  "ipa": "/kənˈfɜ:m/",
+  "raw": "vt.确认;使确信"
+ },
+ {
+  "w": "confuse",
+  "ipa": "/kənˈfju:z/",
+  "raw": "vt.使糊涂;使迷惑"
+ },
+ {
+  "w": "confusing",
+  "ipa": "/kənˈfju:zɪŋ/",
+  "raw": "adj.难以理解的;不清楚的"
+ },
+ {
+  "w": "congratulate",
+  "ipa": "/kənˈgrætʃuleɪt/",
+  "raw": "vt.向(某人)道贺;感到自豪"
+ },
+ {
+  "w": "congratulation",
+  "ipa": "/kənˌgrætʃuˈleɪʃn/",
+  "raw": "n.祝贺;恭喜"
+ },
+ {
+  "w": "connection",
+  "ipa": "kəˈnekʃ(ə)n",
+  "raw": "n.连接；关系"
+ },
+ {
+  "w": "conquer",
+  "ipa": "/ˈkɒŋkə(r)/",
+  "raw": "vt.占领;征服;控制"
+ },
+ {
+  "w": "conqueror",
+  "ipa": "",
+  "raw": "n.征服者"
+ },
+ {
+  "w": "consequent",
+  "ipa": "",
+  "raw": "adj.作为结果的；随之发生的"
+ },
+ {
+  "w": "consequently",
+  "ipa": "",
+  "raw": "adv.所以；因而"
+ },
+ {
+  "w": "conservation",
+  "ipa": "/ˌkɒnsəˈveɪʃn/",
+  "raw": "n.对(环境/文物)保护;保持"
+ },
+ {
+  "w": "considerate",
+  "ipa": "kənˈsɪdərət",
+  "raw": "adj.考虑周到的"
+ },
+ {
+  "w": "consideration",
+  "ipa": "kənsɪdəˈreɪʃ(ə)n",
+  "raw": "n.考虑；体谅"
+ },
+ {
+  "w": "consist",
+  "ipa": "/kənˈsɪst/",
+  "raw": "vi.组成;构成"
+ },
+ {
+  "w": "consistent",
+  "ipa": "/kənˈsɪstənt/",
+  "raw": "a.一致的;连续的"
+ },
+ {
+  "w": "constant",
+  "ipa": "/ˈkɒnstənt/",
+  "raw": "a.不断的;重复的 n.常数"
+ },
+ {
+  "w": "constantly",
+  "ipa": "",
+  "raw": "adv.不断地"
+ },
+ {
+  "w": "construct",
+  "ipa": "kənˈstrʌkt",
+  "raw": "vt.建造；构造；创立"
+ },
+ {
+  "w": "construction",
+  "ipa": "/kənˈstrʌkʃn/",
+  "raw": "n.建筑;建造;(句子等)结构"
+ },
+ {
+  "w": "consulate",
+  "ipa": "/ˈkɒnsjələt/",
+  "raw": "n.领事馆"
+ },
+ {
+  "w": "consult",
+  "ipa": "kənˈsʌlt",
+  "raw": "vt.咨询；请教；商量"
+ },
+ {
+  "w": "consultant",
+  "ipa": "/kənˈsʌltənt/",
+  "raw": "n.顾问;高级顾问医师"
+ },
+ {
+  "w": "consultation",
+  "ipa": "/ˌkɒnslˈteɪʃn/",
+  "raw": "n.咨询;咨询会"
+ },
+ {
+  "w": "consume",
+  "ipa": "/kənˈsju:m/",
+  "raw": "v.吃;喝;饮;消耗"
+ },
+ {
+  "w": "consumption",
+  "ipa": "/kənˈsʌmpʃn/",
+  "raw": "n.消耗;消耗量;消费"
+ },
+ {
+  "w": "contact",
+  "ipa": "/ˈkɒntækt/",
+  "raw": "vt.联络;联系 n.联系;接触"
+ },
+ {
+  "w": "contain",
+  "ipa": "/kənˈteɪn/",
+  "raw": "vt.包含;含有;容纳"
+ },
+ {
+  "w": "contemporary",
+  "ipa": "/kənˈtemprəri/",
+  "raw": "a.当代的;现代的 n.同代人"
+ },
+ {
+  "w": "context",
+  "ipa": "/ˈkɒntekst/",
+  "raw": "n.上下文;语境;背景"
+ },
+ {
+  "w": "continent",
+  "ipa": "ˈkɒntɪnənt",
+  "raw": "n.大陆；洲"
+ },
+ {
+  "w": "contract",
+  "ipa": "/ˈkɒntrækt/",
+  "raw": "vt.感染(疾病);与…订立合同"
+ },
+ {
+  "w": "contradictory",
+  "ipa": "/ˌkɒntrəˈdɪktəri/",
+  "raw": "a.相互矛盾的;对立的"
+ },
+ {
+  "w": "contrary",
+  "ipa": "/ˈkɒntrəri/",
+  "raw": "a.相反的 n.相反的事实"
+ },
+ {
+  "w": "contribute",
+  "ipa": "/kənˈtrɪbju:t/",
+  "raw": "vi.&vt.捐献;捐助"
+ },
+ {
+  "w": "contribution",
+  "ipa": "/ˌkɒntrɪˈbju:ʃn/",
+  "raw": "n.捐款;贡献;捐赠"
+ },
+ {
+  "w": "control",
+  "ipa": "kənˈtrol",
+  "raw": "vt.&vi.控制；支配"
+ },
+ {
+  "w": "controversial",
+  "ipa": "kɒntrəˈvɜːʃ(ə)l",
+  "raw": "adj.争论的；争议的"
+ },
+ {
+  "w": "convenience",
+  "ipa": "kənˈviːnɪəns",
+  "raw": "n.便利；方便"
+ },
+ {
+  "w": "convenient",
+  "ipa": "/kənˈvi:niənt/",
+  "raw": "adj.方便的;近便的"
+ },
+ {
+  "w": "conventional",
+  "ipa": "/kənˈvenʃənl/",
+  "raw": "a.传统的;习惯的"
+ },
+ {
+  "w": "convince",
+  "ipa": "/kənˈvɪns/",
+  "raw": "vt.使相信;使确信;说服"
+ },
+ {
+  "w": "convincing",
+  "ipa": "",
+  "raw": "adj.令人信服的"
+ },
+ {
+  "w": "cooperate",
+  "ipa": "/kəʊ'ɒpəreɪt/",
+  "raw": "vi.合作;协作;配合"
+ },
+ {
+  "w": "cooperation",
+  "ipa": "",
+  "raw": "n.合作；协作"
+ },
+ {
+  "w": "coral",
+  "ipa": "/ˈkɒrəl/",
+  "raw": "n.珊瑚"
+ },
+ {
+  "w": "core",
+  "ipa": "/kɔ:(r)/",
+  "raw": "n.核心;精髓;(水果的)核儿"
+ },
+ {
+  "w": "corporate",
+  "ipa": "/ˈkɔ:pərət/",
+  "raw": "a.公司的;法人的;社团的"
+ },
+ {
+  "w": "correspond",
+  "ipa": "/ˌkɒrəˈspɒnd/",
+  "raw": "vi.相一致;符合;相当于"
+ },
+ {
+  "w": "correspondence",
+  "ipa": "/ˌkɒrəˈspɒndəns/",
+  "raw": "n.来往信件;通信联系"
+ },
+ {
+  "w": "corridor",
+  "ipa": "/ˈkɒrɪdɔ:(r)/",
+  "raw": "n.狭长地带;走廊;过道;通道"
+ },
+ {
+  "w": "costume",
+  "ipa": "/ˈkɒstju:m/",
+  "raw": "n.(某地或某时期)服装;戏装"
+ },
+ {
+  "w": "cosy",
+  "ipa": "/'kəʊzɪ/",
+  "raw": "a.温馨的;舒适的"
+ },
+ {
+  "w": "cottage",
+  "ipa": "/ˈkɒtɪdʒ/",
+  "raw": "n.小屋;(尤指)村舍;小别墅"
+ },
+ {
+  "w": "cotton",
+  "ipa": "/ˈkɒtn/",
+  "raw": "n.棉布;棉花"
+ },
+ {
+  "w": "council",
+  "ipa": "/ˈkaʊnsl/",
+  "raw": "n.委员会;市政服务机构"
+ },
+ {
+  "w": "county",
+  "ipa": "/ˈkaʊnti/",
+  "raw": "n.(英国)郡;(美国)县"
+ },
+ {
+  "w": "courage",
+  "ipa": "ˈkʌrɪdʒ",
+  "raw": "n.勇气；胆量"
+ },
+ {
+  "w": "course",
+  "ipa": "kɔːs",
+  "raw": "n.过程；进程；课程；一道菜"
+ },
+ {
+  "w": "court",
+  "ipa": "/kɔ:t/",
+  "raw": "n.(网球等)球场;法院;法庭"
+ },
+ {
+  "w": "courtyard",
+  "ipa": "/ˈkɔ:tjɑ:d/",
+  "raw": "n.庭院;院子"
+ },
+ {
+  "w": "coverage",
+  "ipa": "/ˈkʌvərɪdʒ/",
+  "raw": "n.新闻报道;覆盖范围"
+ },
+ {
+  "w": "cowboy",
+  "ipa": "ˈkaʊbɒi",
+  "raw": "n.牛仔；牧童"
+ },
+ {
+  "w": "craft",
+  "ipa": "/krɑ:ft/",
+  "raw": "n.手艺;工艺;技艺"
+ },
+ {
+  "w": "craftsman",
+  "ipa": "",
+  "raw": "n.匠人；能工巧匠"
+ },
+ {
+  "w": "crash",
+  "ipa": "/kræʃ/",
+  "raw": "vt&vi.碰撞;撞击 n.撞车"
+ },
+ {
+  "w": "crater",
+  "ipa": "",
+  "raw": "n.火山口；弹坑"
+ },
+ {
+  "w": "cream",
+  "ipa": "/kri:m/",
+  "raw": "n.奶油;乳脂 a.奶油色的"
+ },
+ {
+  "w": "creative",
+  "ipa": "/kriˈeɪtɪv/",
+  "raw": "adj.创造性的;有创造力的"
+ },
+ {
+  "w": "creatively",
+  "ipa": "/krɪ'eɪtɪvlɪ/",
+  "raw": "adv.创造性地;有创造力地"
+ },
+ {
+  "w": "creature",
+  "ipa": "/ˈkri:tʃə(r)/",
+  "raw": "n.生物;动物"
+ },
+ {
+  "w": "crew",
+  "ipa": "/kru:/",
+  "raw": "n.(轮船/飞机)全体工作人员"
+ },
+ {
+  "w": "crime",
+  "ipa": "/kraɪm/",
+  "raw": "n.犯罪活动;不法行为"
+ },
+ {
+  "w": "criticise",
+  "ipa": "/'krɪtɪsaɪz/",
+  "raw": "vi.&vt.批评;指责;评价"
+ },
+ {
+  "w": "criticism",
+  "ipa": "/ˈkrɪtɪsɪzəm/",
+  "raw": "n.批评;指责;评论"
+ },
+ {
+  "w": "crop",
+  "ipa": "/krɒp/",
+  "raw": "n.庄稼;作物;一季的收成"
+ },
+ {
+  "w": "crossroads",
+  "ipa": "ˈkrɒsrəʊd",
+  "raw": "n.十字路口"
+ },
+ {
+  "w": "crowd",
+  "ipa": "/kraʊd/",
+  "raw": "n.人群;一群;民众 vt.挤满"
+ },
+ {
+  "w": "crucial",
+  "ipa": "/ˈkru:ʃl/",
+  "raw": "a.至关重要的;关键性的"
+ },
+ {
+  "w": "cruel",
+  "ipa": "/kru:əl/",
+  "raw": "a.残酷的;残忍的;冷酷的"
+ },
+ {
+  "w": "cruelty",
+  "ipa": "",
+  "raw": "n.残忍；残酷"
+ },
+ {
+  "w": "crush",
+  "ipa": "/krʌʃ/",
+  "raw": "vt.毁坏;压坏 n.拥挤的人群"
+ },
+ {
+  "w": "crystal",
+  "ipa": "ˈkrɪstəl",
+  "raw": "n.水晶；水晶饰品"
+ },
+ {
+  "w": "cube",
+  "ipa": "kjuːb",
+  "raw": "n.立方体；立方"
+ },
+ {
+  "w": "cucumber",
+  "ipa": "",
+  "raw": "n.黄瓜"
+ },
+ {
+  "w": "cue",
+  "ipa": "/kju:/",
+  "raw": "n.提示;暗示 vt.给…暗示"
+ },
+ {
+  "w": "cuisine",
+  "ipa": "/kwɪˈzi:n/",
+  "raw": "n.菜肴;风味;烹饪"
+ },
+ {
+  "w": "cultural",
+  "ipa": "",
+  "raw": "adj.文化的"
+ },
+ {
+  "w": "cupboard",
+  "ipa": "/ˈkʌbəd/",
+  "raw": "n.橱柜;壁橱;衣柜"
+ },
+ {
+  "w": "cure",
+  "ipa": "/kjʊə(r)/",
+  "raw": "vt.治愈;治好(疾病) n.药物"
+ },
+ {
+  "w": "curiosity",
+  "ipa": "",
+  "raw": "n.好奇心"
+ },
+ {
+  "w": "curious",
+  "ipa": "/ˈkjʊəriəs/",
+  "raw": "adj.好奇的;求知欲强的"
+ },
+ {
+  "w": "curiously",
+  "ipa": "",
+  "raw": "adv.好奇地"
+ },
+ {
+  "w": "currency",
+  "ipa": "/ˈkʌrənsi/",
+  "raw": "通货;货币"
+ },
+ {
+  "w": "curtain",
+  "ipa": "/ˈkɜ:tn/",
+  "raw": "n.窗帘"
+ },
+ {
+  "w": "cushion",
+  "ipa": "ˈkʊʃ(ə)n",
+  "raw": "n.（坐、跪时用的）软垫；靠垫；垫子"
+ },
+ {
+  "w": "custom",
+  "ipa": "/ˈkʌstəm/",
+  "raw": "n.风俗;习俗;习惯"
+ },
+ {
+  "w": "customer",
+  "ipa": "ˈkʌstəmə",
+  "raw": "n.顾客；消费者"
+ },
+ {
+  "w": "cyberbully",
+  "ipa": "/ˈsaɪbərbʊli/",
+  "raw": "n.网霸 vt.&vi.网络欺凌"
+ },
+ {
+  "w": "cycle",
+  "ipa": "/ˈsaɪkl/",
+  "raw": "n.自行车;循环 vi.骑自行车"
+ },
+ {
+  "w": "cyclist",
+  "ipa": "ˈsaɪklɪst",
+  "raw": "n.骑自行车的人"
+ },
+ {
+  "w": "cypress",
+  "ipa": "/ˈsaɪprəs/",
+  "raw": "n.柏树"
+ },
+ {
+  "w": "dairy",
+  "ipa": "/ˈdeəri/",
+  "raw": "a.奶制的;乳品的 n.乳制品"
+ },
+ {
+  "w": "dam",
+  "ipa": "/dæm/",
+  "raw": "n.水坝;拦河坝"
+ },
+ {
+  "w": "damp",
+  "ipa": "/dæmp/",
+  "raw": "a.潮湿的;湿气重的"
+ },
+ {
+  "w": "dare",
+  "ipa": "/deə(r)/",
+  "raw": "vi.&modal v.胆敢;敢于"
+ },
+ {
+  "w": "darkness",
+  "ipa": "ˈdɑːknɪs",
+  "raw": "n.黑暗；漆黑"
+ },
+ {
+  "w": "dash",
+  "ipa": "dæʃ",
+  "raw": "vi.猛冲；突进"
+ },
+ {
+  "w": "data",
+  "ipa": "/ˈdeɪtə/",
+  "raw": "n.[pl.]资料;数据"
+ },
+ {
+  "w": "database",
+  "ipa": "/ˈdeɪtəbeɪs/",
+  "raw": "n.数据库;资料库"
+ },
+ {
+  "w": "dawn",
+  "ipa": "/dɔ:n/",
+  "raw": "n.黎明;开端;萌芽"
+ },
+ {
+  "w": "deadline",
+  "ipa": "/ˈdedlaɪn/",
+  "raw": "n.最后期限;截止日期"
+ },
+ {
+  "w": "deadly",
+  "ipa": "",
+  "raw": "adj.致命的"
+ },
+ {
+  "w": "death",
+  "ipa": "/deθ/",
+  "raw": "n.死;死亡"
+ },
+ {
+  "w": "debate",
+  "ipa": "/dɪˈbeɪt/",
+  "raw": "n.辩论;争论 vt.&vi.辩论"
+ },
+ {
+  "w": "debt",
+  "ipa": "/det/",
+  "raw": "n.债务;欠款"
+ },
+ {
+  "w": "decade",
+  "ipa": "/ˈdekeɪd/",
+  "raw": "n.十年;十年期"
+ },
+ {
+  "w": "deceased",
+  "ipa": "/dɪˈsi:st/",
+  "raw": "a.已死的;亡故的"
+ },
+ {
+  "w": "decent",
+  "ipa": "/ˈdi:snt/",
+  "raw": "a.相当不错的;正派的"
+ },
+ {
+  "w": "declare",
+  "ipa": "/dɪˈkleə(r)/",
+  "raw": "vt.表明;宣称;公布"
+ },
+ {
+  "w": "decorate",
+  "ipa": "/ˈdekəreɪt/",
+  "raw": "vt.装饰;装潢"
+ },
+ {
+  "w": "decoration",
+  "ipa": "dekəˈreɪʃ(ə)n",
+  "raw": "n.装饰"
+ },
+ {
+  "w": "decrease",
+  "ipa": "/dɪˈkri:s/",
+  "raw": "n.减少;降低;减少量 v.减少"
+ },
+ {
+  "w": "dedicate",
+  "ipa": "/ˈdedɪkeɪt/",
+  "raw": "vt.把…奉献给"
+ },
+ {
+  "w": "deed",
+  "ipa": "diːd",
+  "raw": "n.行动；事迹"
+ },
+ {
+  "w": "deer",
+  "ipa": "/dɪə(r)/",
+  "raw": "n.鹿"
+ },
+ {
+  "w": "defence",
+  "ipa": "/dɪˈfens/",
+  "raw": "n.防御;保卫"
+ },
+ {
+  "w": "defend",
+  "ipa": "/dɪˈfend/",
+  "raw": "vt.保卫;防守;辯解"
+ },
+ {
+  "w": "define",
+  "ipa": "/dɪˈfaɪn/",
+  "raw": "vt.给……下定义;界定;解释"
+ },
+ {
+  "w": "definitely",
+  "ipa": "/ˈdefɪnətli/",
+  "raw": "adv.肯定;确实"
+ },
+ {
+  "w": "dehydration",
+  "ipa": "/ˌdi:haɪ'dreɪʃn/",
+  "raw": "n.脱水"
+ },
+ {
+  "w": "delay",
+  "ipa": "/dɪˈleɪ/",
+  "raw": "v.推迟;延期;耽误 n.延误"
+ },
+ {
+  "w": "delete",
+  "ipa": "/dɪˈli:t/",
+  "raw": "v.删去;删除"
+ },
+ {
+  "w": "delicate",
+  "ipa": "/ˈdelɪkət/",
+  "raw": "a.精美的;精致的;脆弱的"
+ },
+ {
+  "w": "delight",
+  "ipa": "dɪˈlaɪt",
+  "raw": "n.快乐；高兴；喜悦　vt.使高兴；使欣喜"
+ },
+ {
+  "w": "deliver",
+  "ipa": "/dɪˈlɪvə(r)/",
+  "raw": "vi.&vt.传递;传达 vt.发表"
+ },
+ {
+  "w": "delta",
+  "ipa": "'deltə",
+  "raw": "n.三角州"
+ },
+ {
+  "w": "demonstrate",
+  "ipa": "/ˈdemənstreɪt/",
+  "raw": "vt.表现;表达;说明;证明"
+ },
+ {
+  "w": "dentist",
+  "ipa": "/ˈdentɪst/",
+  "raw": "n.牙科医生"
+ },
+ {
+  "w": "deny",
+  "ipa": "/dɪˈnaɪ/",
+  "raw": "vi.否认;否定;拒绝"
+ },
+ {
+  "w": "department",
+  "ipa": "/dɪˈpɑ:tmənt/",
+  "raw": "n.部;司;科"
+ },
+ {
+  "w": "departure",
+  "ipa": "/dɪˈpɑ:tʃə(r)/",
+  "raw": "n.离开;启程;出发"
+ },
+ {
+  "w": "depressed",
+  "ipa": "/dɪˈprest/",
+  "raw": "a.沮丧的;意志消沉的"
+ },
+ {
+  "w": "depth",
+  "ipa": "/depθ/",
+  "raw": "n.向下(或向里)距离;深(度)"
+ },
+ {
+  "w": "descendant",
+  "ipa": "/dɪˈsendənt/",
+  "raw": "n.后裔;后代;子孙"
+ },
+ {
+  "w": "description",
+  "ipa": "/dɪˈskrɪpʃn/",
+  "raw": "n.描写(文字);形容"
+ },
+ {
+  "w": "desert",
+  "ipa": "/ˈdezət/",
+  "raw": "n.沙漠;荒漠"
+ },
+ {
+  "w": "deserve",
+  "ipa": "/dɪˈzɜ:v/",
+  "raw": "vt.值得;应得;应受"
+ },
+ {
+  "w": "design",
+  "ipa": "/dɪˈzaɪn/",
+  "raw": "n.设计;设计方案 vt.设计"
+ },
+ {
+  "w": "designer",
+  "ipa": "/dɪˈzaɪnə(r)/",
+  "raw": "n.设计者"
+ },
+ {
+  "w": "desire",
+  "ipa": "/dɪˈzaɪə(r)/",
+  "raw": "n.渴望;欲望 vt.渴望"
+ },
+ {
+  "w": "despair",
+  "ipa": "/dɪˈspeə(r)/",
+  "raw": "n.绝望 vi.绝望;感到无望"
+ },
+ {
+  "w": "desperate",
+  "ipa": "/ˈdespərət/",
+  "raw": "a.绝望的;孤注一掷的"
+ },
+ {
+  "w": "despite",
+  "ipa": "/dɪˈspaɪt/",
+  "raw": "prep.即使;尽管"
+ },
+ {
+  "w": "dessert",
+  "ipa": "/dɪˈzɜ:t/",
+  "raw": "n.(饭后)甜点"
+ },
+ {
+  "w": "destinaiton",
+  "ipa": "",
+  "raw": "n.目的地"
+ },
+ {
+  "w": "destination",
+  "ipa": "/ˌdestɪˈneɪʃn/",
+  "raw": "n.目的地;终点"
+ },
+ {
+  "w": "destroy",
+  "ipa": "/dɪˈstrɔɪ/",
+  "raw": "vt.摧毁;毁灭"
+ },
+ {
+  "w": "destruction",
+  "ipa": "dɪˈstrʌkʃən",
+  "raw": "n.破坏；毁灭"
+ },
+ {
+  "w": "detail",
+  "ipa": "/ˈdi:teɪl/",
+  "raw": "n.细节;详情;细微之处"
+ },
+ {
+  "w": "detect",
+  "ipa": "/dɪˈtekt/",
+  "raw": "vt.发现;查明"
+ },
+ {
+  "w": "detective",
+  "ipa": "/dɪˈtektɪv/",
+  "raw": "n.侦探;警探"
+ },
+ {
+  "w": "determination",
+  "ipa": "/dɪˌtɜ:mɪˈneɪʃn/",
+  "raw": "n.决心;决定"
+ },
+ {
+  "w": "determine",
+  "ipa": "/dɪˈtɜ:mɪn/",
+  "raw": "vt.查明;确定;决定"
+ },
+ {
+  "w": "determined",
+  "ipa": "/dɪˈtɜ:mɪnd/",
+  "raw": "adj.有决心的;意志坚定的"
+ },
+ {
+  "w": "device",
+  "ipa": "/dɪˈvaɪs/",
+  "raw": "n.方法;技巧;装置;仪器"
+ },
+ {
+  "w": "devote",
+  "ipa": "/dɪˈvəʊt/",
+  "raw": "vt.把…献(给);把…专用于"
+ },
+ {
+  "w": "devoted",
+  "ipa": "",
+  "raw": "adj.忠实的；深爱的"
+ },
+ {
+  "w": "devotion",
+  "ipa": "dɪˈvəʊʃ(ə)n",
+  "raw": "n.投入；热爱"
+ },
+ {
+  "w": "dewdrop",
+  "ipa": "",
+  "raw": "n.露珠;水珠"
+ },
+ {
+  "w": "diagram",
+  "ipa": "/ˈdaɪəgræm/",
+  "raw": "n.简图;图解;图表;示意图"
+ },
+ {
+  "w": "dialect",
+  "ipa": "/ˈdaɪəlekt/",
+  "raw": "n.地方话;方言"
+ },
+ {
+  "w": "diamond",
+  "ipa": "/ˈdaɪəmənd/",
+  "raw": "n.钻石;金刚石;菱形"
+ },
+ {
+  "w": "diarrhoea",
+  "ipa": "/ˌdaɪəˈrɪə/",
+  "raw": "n.腹泻"
+ },
+ {
+  "w": "didgeridoo",
+  "ipa": "/ˌdɪdʒəri'duː/",
+  "raw": "n.迪吉里杜管"
+ },
+ {
+  "w": "diet",
+  "ipa": "/ˈdaɪət/",
+  "raw": "n.规定饮食 vi.节食"
+ },
+ {
+  "w": "differ",
+  "ipa": "/ˈdɪfə(r)/",
+  "raw": "vi.相异;不同于"
+ },
+ {
+  "w": "digest",
+  "ipa": "/daɪˈdʒest/",
+  "raw": "v.消化;领会;领悟 n.摘要"
+ },
+ {
+  "w": "digital",
+  "ipa": "/ˈdɪdʒɪtl/",
+  "raw": "adj.数码的;数字显示的"
+ },
+ {
+  "w": "dignity",
+  "ipa": "/ˈdɪgnəti/",
+  "raw": "n.庄重;庄严;尊严"
+ },
+ {
+  "w": "dilemma",
+  "ipa": "/dɪˈlemə/",
+  "raw": "n.进退两难的境地;困境"
+ },
+ {
+  "w": "dimension",
+  "ipa": "/daɪˈmenʃn/",
+  "raw": "n.维;规模;范围"
+ },
+ {
+  "w": "diner",
+  "ipa": "/ˈdaɪnə(r)/",
+  "raw": "n.(尤指餐馆的)就餐者"
+ },
+ {
+  "w": "dinosaur",
+  "ipa": "/ˈdaɪnəsɔ:(r)/",
+  "raw": "n.恐龙"
+ },
+ {
+  "w": "dioxide",
+  "ipa": "/daɪˈɒksaɪd/",
+  "raw": "n.二氧化物"
+ },
+ {
+  "w": "dip",
+  "ipa": "dɪp",
+  "raw": "vt.浸；蘸"
+ },
+ {
+  "w": "direct",
+  "ipa": "dɪˈrektˌdaɪˈrekt",
+  "raw": "vt.&vi.导演；指示；指挥　adj.直的；直接的；直率的"
+ },
+ {
+  "w": "directory",
+  "ipa": "/dəˈrektəri/",
+  "raw": "n.名录;电话号码簿"
+ },
+ {
+  "w": "dirt",
+  "ipa": "dɜːt",
+  "raw": "n.污垢；泥土"
+ },
+ {
+  "w": "disability",
+  "ipa": "/ˌdɪsəˈbɪləti/",
+  "raw": "n.缺陷;障碍"
+ },
+ {
+  "w": "disabled",
+  "ipa": "/dɪsˈeɪbld/",
+  "raw": "a.有残疾的;丧失能力的"
+ },
+ {
+  "w": "disadvantage",
+  "ipa": "dɪsədˈvɑːntɪdʒ",
+  "raw": "n.不利条件；不便之处"
+ },
+ {
+  "w": "disagree",
+  "ipa": "dɪsəˈɡriː",
+  "raw": "vi.不同意"
+ },
+ {
+  "w": "disagreement",
+  "ipa": "dɪsəˈɡriːmənt",
+  "raw": "n.分歧；不一致"
+ },
+ {
+  "w": "disappear",
+  "ipa": "/ˌdɪsəˈpɪə(r)/",
+  "raw": "vi.消失;灭绝;消亡"
+ },
+ {
+  "w": "disappearance",
+  "ipa": "ˌdɪsə'pɪərəns",
+  "raw": "n.消失"
+ },
+ {
+  "w": "disappointed",
+  "ipa": "/ˌdɪsəˈpɔɪntɪd/",
+  "raw": "adj.失望的;沮丧的"
+ },
+ {
+  "w": "disaster",
+  "ipa": "/dɪˈzɑ:stə(r)/",
+  "raw": "n.灾难;灾害"
+ },
+ {
+  "w": "disco",
+  "ipa": "'dɪskəʊ",
+  "raw": "n.迪斯科舞会；迪斯科舞厅"
+ },
+ {
+  "w": "discount",
+  "ipa": "/ˈdɪskaʊnt/",
+  "raw": "n.折扣 vt.打折"
+ },
+ {
+  "w": "discovery",
+  "ipa": "dɪˈskʌvəri",
+  "raw": "n.发现；发觉"
+ },
+ {
+  "w": "disease",
+  "ipa": "/dɪˈzi:z/",
+  "raw": "n.(疾)病"
+ },
+ {
+  "w": "disguise",
+  "ipa": "/dɪsˈgaɪz/",
+  "raw": "vt.装扮;假扮;掩盖 n.伪装"
+ },
+ {
+  "w": "disgusting",
+  "ipa": "dɪsˈɡʌstɪŋ",
+  "raw": "adj.使人反感的；令人厌恶的"
+ },
+ {
+  "w": "disk",
+  "ipa": "/dɪsk/",
+  "raw": "n.磁盘;盘"
+ },
+ {
+  "w": "dislike",
+  "ipa": "dɪsˈlaɪk",
+  "raw": "n.&vt.不喜欢；厌恶"
+ },
+ {
+  "w": "dismiss",
+  "ipa": "/dɪsˈmɪs/",
+  "raw": "vt.让(某人)离开;解散;解雇"
+ },
+ {
+  "w": "dismissively",
+  "ipa": "",
+  "raw": "adv.（轻蔑地）打发走或表示拒绝"
+ },
+ {
+  "w": "disposal",
+  "ipa": "/dɪˈspəʊzl/",
+  "raw": "n.去掉;清除;处理"
+ },
+ {
+  "w": "dissolve",
+  "ipa": "",
+  "raw": "vt.&vi.溶解；解散"
+ },
+ {
+  "w": "distance",
+  "ipa": "/ˈdɪstəns/",
+  "raw": "n.距离"
+ },
+ {
+  "w": "distant",
+  "ipa": "/ˈdɪstənt/",
+  "raw": "a.遥远的;远处的;疏远的"
+ },
+ {
+  "w": "distinct",
+  "ipa": "/dɪˈstɪŋkt/",
+  "raw": "a.清晰的;清楚的;有区别的"
+ },
+ {
+  "w": "distract",
+  "ipa": "/dɪˈstrækt/",
+  "raw": "vt.分散(注意力);使分心"
+ },
+ {
+  "w": "distribution",
+  "ipa": "/ˌdɪstrɪˈbju:ʃn/",
+  "raw": "n.分布;分配;分发"
+ },
+ {
+  "w": "district",
+  "ipa": "/ˈdɪstrɪkt/",
+  "raw": "n.地区;区域"
+ },
+ {
+  "w": "disturb",
+  "ipa": "/dɪˈstɜ:b/",
+  "raw": "vt.打扰;搅乱;使烦恼"
+ },
+ {
+  "w": "disturbing",
+  "ipa": "dɪˈstɜːbɪŋ",
+  "raw": "adj.引起烦恼的；令人不安的"
+ },
+ {
+  "w": "dive",
+  "ipa": "/daɪv/",
+  "raw": "vi.&n.潜水;跳水;俯冲"
+ },
+ {
+  "w": "diver",
+  "ipa": "'daɪvə",
+  "raw": "n.潜水员"
+ },
+ {
+  "w": "diverse",
+  "ipa": "/daɪˈvɜ:s/",
+  "raw": "adj.不同的;多种多样的"
+ },
+ {
+  "w": "diversity",
+  "ipa": "/daɪˈvɜ:səti/",
+  "raw": "n.差异(性);不同(点);"
+ },
+ {
+  "w": "divide",
+  "ipa": "dɪˈvaɪd",
+  "raw": "vt.分配；分开"
+ },
+ {
+  "w": "divorce",
+  "ipa": "dɪˈvɔːs",
+  "raw": "n.离婚；断绝关系　vt.与……离婚；与……脱离"
+ },
+ {
+  "w": "dizzy",
+  "ipa": "/ˈdɪzi/",
+  "raw": "a.头晕目眩的"
+ },
+ {
+  "w": "dock",
+  "ipa": "/dɒk/",
+  "raw": "v.(航天器)对接;使…进港"
+ },
+ {
+  "w": "doctorate",
+  "ipa": "/ˈdɒktərət/",
+  "raw": "n.博士学位"
+ },
+ {
+  "w": "document",
+  "ipa": "/ˈdɒkjumənt/",
+  "raw": "n.文件;公文 vt.记录;记载"
+ },
+ {
+  "w": "dolphin",
+  "ipa": "/ˈdɒlfɪn/",
+  "raw": "n.海豚"
+ },
+ {
+  "w": "domain",
+  "ipa": "/dəˈmeɪn/",
+  "raw": "n.领域;领土;范围"
+ },
+ {
+  "w": "domestic",
+  "ipa": "/dəˈmestɪk/",
+  "raw": "a.本国的;国内的;家用的"
+ },
+ {
+  "w": "dominant",
+  "ipa": "/ˈdɒmɪnənt/",
+  "raw": "a.首要的;占支配地位的"
+ },
+ {
+  "w": "donate",
+  "ipa": "/dəʊˈneɪt/",
+  "raw": "vt.(尤指向慈善)捐赠;赠送"
+ },
+ {
+  "w": "doorway",
+  "ipa": "/ˈdɔ:weɪ/",
+  "raw": "n.门口;出入口;门道"
+ },
+ {
+  "w": "dormitory",
+  "ipa": "ˈdɔːmɪtəri",
+  "raw": "n.宿舍"
+ },
+ {
+  "w": "dot",
+  "ipa": "/dɒt/",
+  "raw": "n.点;小(圆)点 vt.加点"
+ },
+ {
+  "w": "doubt",
+  "ipa": "daʊt",
+  "raw": "n.怀疑；疑惑　vt.怀疑；不信"
+ },
+ {
+  "w": "dough",
+  "ipa": "/dəʊ/",
+  "raw": "n.生面团"
+ },
+ {
+  "w": "download",
+  "ipa": "/ˌdaʊnˈləʊd/",
+  "raw": "vt.&n.下载;下载的数据资料"
+ },
+ {
+  "w": "downstairs",
+  "ipa": "/ˌdaʊnˈsteəz/",
+  "raw": "adv.顺楼梯而下;在楼下"
+ },
+ {
+  "w": "downtown",
+  "ipa": "/ˌdaʊnˈtaʊn/",
+  "raw": "adv.在市中心;往市中心"
+ },
+ {
+  "w": "dozen",
+  "ipa": "/ˈdʌzn/",
+  "raw": "n.(一)打;十二个"
+ },
+ {
+  "w": "draft",
+  "ipa": "/drɑ:ft/",
+  "raw": "n.草稿;草案 vt.起草;草拟"
+ },
+ {
+  "w": "drag",
+  "ipa": "/dræg/",
+  "raw": "vt.拖;拽 vt.缓慢费力地移动"
+ },
+ {
+  "w": "dragon",
+  "ipa": "/ˈdrægən/",
+  "raw": "n.龙"
+ },
+ {
+  "w": "drama",
+  "ipa": "/ˈdrɑ:mə/",
+  "raw": "n.戏;剧;戏剧艺术"
+ },
+ {
+  "w": "dramatic",
+  "ipa": "/drəˈmætɪk/",
+  "raw": "a.巨大的;突然的;急剧的"
+ },
+ {
+  "w": "drawer",
+  "ipa": "/drɔ:(r)/",
+  "raw": "n.抽屉"
+ },
+ {
+  "w": "dread",
+  "ipa": "",
+  "raw": "vi.&vt.害怕；畏惧"
+ },
+ {
+  "w": "drill",
+  "ipa": "/drɪl/",
+  "raw": "vi.&vt.钻孔;打眼 n.钻头"
+ },
+ {
+  "w": "droop",
+  "ipa": "",
+  "raw": "vi.低垂；凋萎；萎靡"
+ },
+ {
+  "w": "drought",
+  "ipa": "/draʊt/",
+  "raw": "n.旱灾;久旱"
+ },
+ {
+  "w": "drown",
+  "ipa": "/draʊn/",
+  "raw": "vi.&vt.(使)淹死;溺死;浸泡"
+ },
+ {
+  "w": "drug",
+  "ipa": "/drʌg/",
+  "raw": "n.毒品;药物"
+ },
+ {
+  "w": "drum",
+  "ipa": "drʌm",
+  "raw": "n.鼓；鼓壮物　vi击鼓"
+ },
+ {
+  "w": "drunk",
+  "ipa": "drɪŋk",
+  "raw": "adj.醉的"
+ },
+ {
+  "w": "duchess",
+  "ipa": "",
+  "raw": "n.公爵夫人，女公爵"
+ },
+ {
+  "w": "due",
+  "ipa": "/dju:/",
+  "raw": "adj.由于;因为"
+ },
+ {
+  "w": "duration",
+  "ipa": "/djuˈreɪʃn/",
+  "raw": "n.持续时间;期间"
+ },
+ {
+  "w": "dusk",
+  "ipa": "/dʌsk/",
+  "raw": "n.黄昏;傍晚"
+ },
+ {
+  "w": "dust",
+  "ipa": "/dʌst/",
+  "raw": "n.沙土;灰尘 vi.&vt.擦灰"
+ },
+ {
+  "w": "dusty",
+  "ipa": "/ˈdʌsti/",
+  "raw": "a.布满灰尘的"
+ },
+ {
+  "w": "duty",
+  "ipa": "/ˈdju:ti/",
+  "raw": "n.责任;义务;职责;值班"
+ },
+ {
+  "w": "dynamic",
+  "ipa": "/daɪˈnæmɪk/",
+  "raw": "a.充满活力的;精力充沛的"
+ },
+ {
+  "w": "dynasty",
+  "ipa": "/ˈdɪnəsti/",
+  "raw": "n.王朝;朝代"
+ },
+ {
+  "w": "eager",
+  "ipa": "/ˈi:gə(r)/",
+  "raw": "adj.热切的;渴望的"
+ },
+ {
+  "w": "eagle",
+  "ipa": "/ˈi:gl/",
+  "raw": "n.雕"
+ },
+ {
+  "w": "earn",
+  "ipa": "/ɜ:n/",
+  "raw": "vt.&vi.挣得;赚得;贏得"
+ },
+ {
+  "w": "earphone",
+  "ipa": "",
+  "raw": "n.耳机"
+ },
+ {
+  "w": "earthquake",
+  "ipa": "'ɜːθkweɪk",
+  "raw": "n.地震"
+ },
+ {
+  "w": "ease",
+  "ipa": "/i:z/",
+  "raw": "v.(使)宽慰;减轻 n.容易"
+ },
+ {
+  "w": "eastern",
+  "ipa": "ˈiːst(ə)n",
+  "raw": "adj.东方的；东部的"
+ },
+ {
+  "w": "eastward",
+  "ipa": "",
+  "raw": "adv.向东　adj.向东的；朝东的"
+ },
+ {
+  "w": "easy-going",
+  "ipa": "",
+  "raw": "adj.随和的；温和宽容的"
+ },
+ {
+  "w": "ecology",
+  "ipa": "/iˈkɒlədʒi/",
+  "raw": "n.生态;生态学"
+ },
+ {
+  "w": "economic",
+  "ipa": "/ˌi:kəˈnɒmɪk/",
+  "raw": "adj.经济(上)的;经济学的"
+ },
+ {
+  "w": "edge",
+  "ipa": "/edʒ/",
+  "raw": "n.边;边缘 v.给…加边"
+ },
+ {
+  "w": "edition",
+  "ipa": "/ɪˈdɪʃn/",
+  "raw": "n.(报纸)一份;(广播)一期"
+ },
+ {
+  "w": "editor",
+  "ipa": "/ˈedɪtə(r)/",
+  "raw": "n.主编;编辑;编者"
+ },
+ {
+  "w": "educate",
+  "ipa": "ˈedjʊkeɪt",
+  "raw": "vt.教育；训练"
+ },
+ {
+  "w": "educated",
+  "ipa": "",
+  "raw": "adj.受过教育的；有教养的"
+ },
+ {
+  "w": "educational",
+  "ipa": "ˌedjʊ'keɪ'ʃənəl",
+  "raw": "adj.教育的"
+ },
+ {
+  "w": "educator",
+  "ipa": "/ˈedʒukeɪtə(r)/",
+  "raw": "n.教师;教育工作者;教育家"
+ },
+ {
+  "w": "eel",
+  "ipa": "",
+  "raw": "n.鳗，鳝"
+ },
+ {
+  "w": "effective",
+  "ipa": "/ɪˈfektɪv/",
+  "raw": "adj.有效的;生效的"
+ },
+ {
+  "w": "efficient",
+  "ipa": "/ɪˈfɪʃnt/",
+  "raw": "a.效率高的;有功效的"
+ },
+ {
+  "w": "effort",
+  "ipa": "/ˈefət/",
+  "raw": "n.努力;艰难的尝试;尽力"
+ },
+ {
+  "w": "eggplant",
+  "ipa": "ˈeɡplɑːnt",
+  "raw": "n.茄子"
+ },
+ {
+  "w": "elder",
+  "ipa": "ˈeldə",
+  "raw": "adj.年长的"
+ },
+ {
+  "w": "elderly",
+  "ipa": "/ˈeldəli/",
+  "raw": "a.年纪较大的;上了年纪的"
+ },
+ {
+  "w": "elect",
+  "ipa": "/ɪˈlekt/",
+  "raw": "vt.选举;推选"
+ },
+ {
+  "w": "election",
+  "ipa": "/ɪˈlekʃn/",
+  "raw": "n.选举;推选;当选"
+ },
+ {
+  "w": "electric",
+  "ipa": "/ɪˈlektrɪk/",
+  "raw": "a.电的;用电的;电动的"
+ },
+ {
+  "w": "electrical",
+  "ipa": "/ɪˈlektrɪkl/",
+  "raw": "a.电的;用电的"
+ },
+ {
+  "w": "electricity",
+  "ipa": "/ɪˌlekˈtrɪsəti/",
+  "raw": "n.电;电能"
+ },
+ {
+  "w": "electronic",
+  "ipa": "ɪlekˈtrɒnɪk",
+  "raw": "adj.电子的"
+ },
+ {
+  "w": "elevator",
+  "ipa": "'elɪveɪtə",
+  "raw": "n.电梯；升降机"
+ },
+ {
+  "w": "elsewhere",
+  "ipa": "/ˌelsˈweə(r)/",
+  "raw": "adv.在别处;去别处"
+ },
+ {
+  "w": "embarrass",
+  "ipa": "ɪmˈbærəs",
+  "raw": "vt.使困窘；使局促不安"
+ },
+ {
+  "w": "embarrassed",
+  "ipa": "/ɪmˈbærəst/",
+  "raw": "a.难堪的;尴尬的"
+ },
+ {
+  "w": "embarrassing",
+  "ipa": "/ɪmˈbærəsɪŋ/",
+  "raw": "adj.让人难堪(尴尬;害羞)的"
+ },
+ {
+  "w": "embassy",
+  "ipa": "ˈembəsi",
+  "raw": "n.大使馆；大使及其官员"
+ },
+ {
+  "w": "embryo",
+  "ipa": "",
+  "raw": "n.胚；胚胎；萌芽时期"
+ },
+ {
+  "w": "emergency",
+  "ipa": "/iˈmɜ:dʒənsi/",
+  "raw": "n.突发事件;紧急情况"
+ },
+ {
+  "w": "emission",
+  "ipa": "/iˈmɪʃn/",
+  "raw": "n.排放物;散发物;排放"
+ },
+ {
+  "w": "emotion",
+  "ipa": "/ɪˈməʊʃn/",
+  "raw": "n.感情;情感;情绪"
+ },
+ {
+  "w": "emperor",
+  "ipa": "/ˈempərə(r)/",
+  "raw": "n.皇帝"
+ },
+ {
+  "w": "empire",
+  "ipa": "/ˈempaɪə(r)/",
+  "raw": "n.帝国"
+ },
+ {
+  "w": "employ",
+  "ipa": "/ɪmˈplɔɪ/",
+  "raw": "vt.使用;应用;雇用"
+ },
+ {
+  "w": "employee",
+  "ipa": "ɪmˈplɔɪ-iː",
+  "raw": "n.雇员"
+ },
+ {
+  "w": "employer",
+  "ipa": "/ɪmˈplɔɪə(r)/",
+  "raw": "n.雇主;老板"
+ },
+ {
+  "w": "enable",
+  "ipa": "/ɪˈneɪbl/",
+  "raw": "vt.使能够;使可能"
+ },
+ {
+  "w": "encounter",
+  "ipa": "/ɪnˈkaʊntə(r)/",
+  "raw": "vt.偶然碰到;遇到 n.邂逅"
+ },
+ {
+  "w": "encouragement",
+  "ipa": "ɪnˈkʌrɪdʒmənt",
+  "raw": "n.鼓励；奖励"
+ },
+ {
+  "w": "endanger",
+  "ipa": "/ɪnˈdeɪndʒə(r)/",
+  "raw": "vt.使遭受危险;危害"
+ },
+ {
+  "w": "endiess",
+  "ipa": "",
+  "raw": "adj.无穷的；无止境的"
+ },
+ {
+  "w": "ending",
+  "ipa": "ˈendɪŋ",
+  "raw": "n.结局；结尾"
+ },
+ {
+  "w": "endurance",
+  "ipa": "/ɪnˈdjʊərəns/",
+  "raw": "n.忍耐力;耐久力"
+ },
+ {
+  "w": "energetic",
+  "ipa": "/ˌenəˈdʒetɪk/",
+  "raw": "adj.精力充沛的;充满活力的"
+ },
+ {
+  "w": "energy",
+  "ipa": "/ˈenədʒi/",
+  "raw": "n.能源;能量;精力"
+ },
+ {
+  "w": "engage",
+  "ipa": "/ɪnˈgeɪdʒ/",
+  "raw": "v参加;参与 vt.吸引注意力"
+ },
+ {
+  "w": "engine",
+  "ipa": "/ˈendʒɪn/",
+  "raw": "n.引擎;发动机;火车头"
+ },
+ {
+  "w": "enhance",
+  "ipa": "/ɪnˈhɑ:ns/",
+  "raw": "vt.提高;增强;增进"
+ },
+ {
+  "w": "enjoyment",
+  "ipa": "",
+  "raw": "n.享受；欢乐；乐趣"
+ },
+ {
+  "w": "enormous",
+  "ipa": "/ɪˈnɔ:məs/",
+  "raw": "a.巨大的;极大的"
+ },
+ {
+  "w": "enrol",
+  "ipa": "/ɪnˈrəʊl/",
+  "raw": "vi.&vt.(使)加入;注册;登记"
+ },
+ {
+  "w": "ensure",
+  "ipa": "/ɪn'ʃʊə(r)/",
+  "raw": "vt.保证;确保;担保"
+ },
+ {
+  "w": "enterprise",
+  "ipa": "/ˈentəpraɪz/",
+  "raw": "n.公司;企业;事业"
+ },
+ {
+  "w": "entertain",
+  "ipa": "ˌentəˈteɪn",
+  "raw": "vt.&vi.使欢乐；款待"
+ },
+ {
+  "w": "entertaining",
+  "ipa": "",
+  "raw": "adj.愉快的；有趣的"
+ },
+ {
+  "w": "entertainment",
+  "ipa": "/ˌentəˈteɪnmənt/",
+  "raw": "n.娱乐;招待;娱乐活动"
+ },
+ {
+  "w": "entertanment",
+  "ipa": "",
+  "raw": "n.款待；娱乐；娱乐表演"
+ },
+ {
+  "w": "enthusiastic",
+  "ipa": "/ɪnˌθju:ziˈæstɪk/",
+  "raw": "a.热情的;热心的"
+ },
+ {
+  "w": "entire",
+  "ipa": "ɪnˈtaɪə",
+  "raw": "adj.整个的；完全的；全部的"
+ },
+ {
+  "w": "entirely",
+  "ipa": "/ɪnˈtaɪəli/",
+  "raw": "ad.全部地;完整地;完全地"
+ },
+ {
+  "w": "entrance",
+  "ipa": "/ˈentrəns/",
+  "raw": "n.入口;进入"
+ },
+ {
+  "w": "entrepreneur",
+  "ipa": "/ˌɒntrəprəˈnɜ:(r)/",
+  "raw": "n.创业者;企业家"
+ },
+ {
+  "w": "entrust",
+  "ipa": "/ɪnˈtrʌst/",
+  "raw": "vt.委托;交付"
+ },
+ {
+  "w": "entry",
+  "ipa": "/ˈentri/",
+  "raw": "n.加入;进入;参与"
+ },
+ {
+  "w": "envelope",
+  "ipa": "/ˈenvələʊp/",
+  "raw": "n.信封;塑料封套"
+ },
+ {
+  "w": "environmental",
+  "ipa": "",
+  "raw": "adj.环境的"
+ },
+ {
+  "w": "envision",
+  "ipa": "/ɪnˈvɪʒn/",
+  "raw": "vt.展望;想象"
+ },
+ {
+  "w": "envoy",
+  "ipa": "/ˈenvɔɪ/",
+  "raw": "n.使者;使节;代表"
+ },
+ {
+  "w": "envy",
+  "ipa": "/ˈenvi/",
+  "raw": "n.&vt.羡慕;妒忌"
+ },
+ {
+  "w": "epidemiology",
+  "ipa": "/ˌepɪˌdiːmiˈɒlədʒi/",
+  "raw": "n.流行病学"
+ },
+ {
+  "w": "episode",
+  "ipa": "/ˈepɪsəʊd/",
+  "raw": "n.(人生)一段经历;小说片段"
+ },
+ {
+  "w": "equator",
+  "ipa": "/ɪˈkweɪtə(r)/",
+  "raw": "n.赤道"
+ },
+ {
+  "w": "equipment",
+  "ipa": "/ɪˈkwɪpmənt/",
+  "raw": "n.设备;装备"
+ },
+ {
+  "w": "era",
+  "ipa": "/ˈɪərə/",
+  "raw": "n.时代;年代;纪元"
+ },
+ {
+  "w": "erane",
+  "ipa": "",
+  "raw": "n.鹤；吊车；起重机"
+ },
+ {
+  "w": "error",
+  "ipa": "/ˈerə(r)/",
+  "raw": "n.错误;差错"
+ },
+ {
+  "w": "erupt",
+  "ipa": "/ɪˈrʌpt/",
+  "raw": "vi.&vt.火山爆发;岩浆喷出"
+ },
+ {
+  "w": "eruption",
+  "ipa": "",
+  "raw": "n.火山爆发；（战争等）爆发"
+ },
+ {
+  "w": "escalator",
+  "ipa": "/ˈeskəleɪtə(r)/",
+  "raw": "n.自动扶梯;滚梯"
+ },
+ {
+  "w": "escape",
+  "ipa": "/ɪˈskeɪp/",
+  "raw": "vi.&vt.逃走;逃脱 n.逃跑"
+ },
+ {
+  "w": "essay",
+  "ipa": "/ˈeseɪ/",
+  "raw": "n.文章"
+ },
+ {
+  "w": "essential",
+  "ipa": "/ɪˈsenʃl/",
+  "raw": "a.完全必要的;极其重要的"
+ },
+ {
+  "w": "establish",
+  "ipa": "/ɪˈstæblɪʃ/",
+  "raw": "vt.建立;创立"
+ },
+ {
+  "w": "estate",
+  "ipa": "/ɪˈsteɪt/",
+  "raw": "n.庄园;住宅区;工业区"
+ },
+ {
+  "w": "ethnic",
+  "ipa": "/ˈeθnɪk/",
+  "raw": "adj.具有民族特色的"
+ },
+ {
+  "w": "evacuate",
+  "ipa": "/ɪˈvækjueɪt/",
+  "raw": "vt.疏散;撤出 vi.撤离"
+ },
+ {
+  "w": "evaluate",
+  "ipa": "/ɪˈvæljueɪt/",
+  "raw": "vt.评价;评估"
+ },
+ {
+  "w": "eve",
+  "ipa": "/i:v/",
+  "raw": "n.前夕;前一天"
+ },
+ {
+  "w": "event",
+  "ipa": "/ɪˈvent/",
+  "raw": "n.比赛项目;大事;公开活动"
+ },
+ {
+  "w": "eventually",
+  "ipa": "/ɪˈventʃuəli/",
+  "raw": "adv.最后;终于"
+ },
+ {
+  "w": "evil",
+  "ipa": "/ˈi:vl/",
+  "raw": "adj.邪恶的;有害的 n.邪恶"
+ },
+ {
+  "w": "exact",
+  "ipa": "ɪɡˈzækt",
+  "raw": "adj.准确的；精确的；精密的"
+ },
+ {
+  "w": "exactly",
+  "ipa": "ɪg'zæktli",
+  "raw": "adv.确实如此；正是；确切地"
+ },
+ {
+  "w": "examine",
+  "ipa": "/ɪgˈzæmɪn/",
+  "raw": "vt.(仔细)检查;审查;测验"
+ },
+ {
+  "w": "excavate",
+  "ipa": "",
+  "raw": "vt.挖掘；发掘"
+ },
+ {
+  "w": "excavation",
+  "ipa": "",
+  "raw": "n.挖掘；发掘"
+ },
+ {
+  "w": "exceptional",
+  "ipa": "/ɪkˈsepʃənl/",
+  "raw": "a.特别的;罕见的"
+ },
+ {
+  "w": "excite",
+  "ipa": "ɪkˈsaɪt",
+  "raw": "vt.使兴奋；使激动"
+ },
+ {
+  "w": "excitement",
+  "ipa": "",
+  "raw": "n.兴奋；刺激"
+ },
+ {
+  "w": "exhaust",
+  "ipa": "",
+  "raw": "Vt.用尽；耗尽；使精疲力尽"
+ },
+ {
+  "w": "exhibition",
+  "ipa": "/ˌeksɪˈbɪʃn/",
+  "raw": "n.展览;(技能/感情)表演"
+ },
+ {
+  "w": "exist",
+  "ipa": "/ɪgˈzɪst/",
+  "raw": "vi.存在;生存"
+ },
+ {
+  "w": "existence",
+  "ipa": "ɪg'zɪstəns",
+  "raw": "n.生存；存在"
+ },
+ {
+  "w": "exit",
+  "ipa": "/ˈeksɪt/",
+  "raw": "n.出口;通道 vi.&vt.出去"
+ },
+ {
+  "w": "expansion",
+  "ipa": "/ɪkˈspænʃn/",
+  "raw": "n.扩张;扩展;扩大"
+ },
+ {
+  "w": "expectation",
+  "ipa": "/ˌekspekˈteɪʃn/",
+  "raw": "n.期望;预期;期待"
+ },
+ {
+  "w": "expedition",
+  "ipa": "/ˌekspəˈdɪʃn/",
+  "raw": "n.探险;远征;探险队"
+ },
+ {
+  "w": "experiment",
+  "ipa": "/ɪkˈsperɪmənt/",
+  "raw": "n.实验;试验"
+ },
+ {
+  "w": "expert",
+  "ipa": "/ˈekspɜ:t/",
+  "raw": "n.专家;行家 adj.熟练的"
+ },
+ {
+  "w": "expertise",
+  "ipa": "",
+  "raw": "n.专家意见；专门知识（技能等）"
+ },
+ {
+  "w": "explanation",
+  "ipa": "ˌeksplə'neɪʃən",
+  "raw": "n.解释；讲解；说明"
+ },
+ {
+  "w": "explode",
+  "ipa": "/ɪkˈspləʊd/",
+  "raw": "vi.&vt.爆炸;爆破"
+ },
+ {
+  "w": "explore",
+  "ipa": "/ɪkˈsplɔ:(r)/",
+  "raw": "vt.&vi.搜索;勘探"
+ },
+ {
+  "w": "export",
+  "ipa": "/ˈekspɔ:t/",
+  "raw": "n.出口;出口商品 vt.出口"
+ },
+ {
+  "w": "expose",
+  "ipa": "/ɪk'spəʊz/",
+  "raw": "vt.使接触;使体验;显露"
+ },
+ {
+  "w": "exposure",
+  "ipa": "/ɪkˈspəʊʒə(r)/",
+  "raw": "n.接触;体验;暴露;揭露"
+ },
+ {
+  "w": "express",
+  "ipa": "ɪks'pres",
+  "raw": "vt.表示；表达　n.快车；速递"
+ },
+ {
+  "w": "expression",
+  "ipa": "ɪks'preʃən",
+  "raw": "n.词语；表示；表达"
+ },
+ {
+  "w": "extend",
+  "ipa": "/ɪkˈstend/",
+  "raw": "vt.扩展;使伸长;延长"
+ },
+ {
+  "w": "extension",
+  "ipa": "/ɪkˈstenʃn/",
+  "raw": "n.扩建部分;扩大;电话分机"
+ },
+ {
+  "w": "extent",
+  "ipa": "/ɪkˈstent/",
+  "raw": "n.程度;限度;大小;范围"
+ },
+ {
+  "w": "external",
+  "ipa": "/ɪkˈstɜ:nl/",
+  "raw": "adj.外部的;外面的;外来的"
+ },
+ {
+  "w": "extinct",
+  "ipa": "/ɪkˈstɪŋkt/",
+  "raw": "adj.已灭绝的"
+ },
+ {
+  "w": "extinction",
+  "ipa": "/ɪkˈstɪŋkʃn/",
+  "raw": "n.灭绝"
+ },
+ {
+  "w": "extra",
+  "ipa": "/ˈekstrə/",
+  "raw": "adj.额外的;附加的"
+ },
+ {
+  "w": "extra-curricular",
+  "ipa": "/ˈekstrə kəˈrɪkjələ(r)/",
+  "raw": "adj.课外的;课程以外的"
+ },
+ {
+  "w": "extract",
+  "ipa": "/ˈekstrækt/",
+  "raw": "n.提取物;摘录 vt.提取"
+ },
+ {
+  "w": "extraordinarily",
+  "ipa": "",
+  "raw": "adv.格外地；特别地"
+ },
+ {
+  "w": "extraordinary",
+  "ipa": "/ɪkˈstrɔ:dnri/",
+  "raw": "a.不一般的;非凡的;想不到的"
+ },
+ {
+  "w": "extremely",
+  "ipa": "/ɪkˈstri:mli/",
+  "raw": "adv.极其;非常"
+ },
+ {
+  "w": "extremi",
+  "ipa": "",
+  "raw": "adj.极度的"
+ },
+ {
+  "w": "eyebrow",
+  "ipa": "",
+  "raw": "n.眉毛"
+ },
+ {
+  "w": "eyesight",
+  "ipa": "ˈaɪsaɪt",
+  "raw": "n.视力"
+ },
+ {
+  "w": "eyewitness",
+  "ipa": "ˈaɪwɪtnɪs",
+  "raw": "n.目击者；证人"
+ },
+ {
+  "w": "fable",
+  "ipa": "/ˈfeɪbl/",
+  "raw": "n.寓言;寓言故事"
+ },
+ {
+  "w": "fabric",
+  "ipa": "/ˈfæbrɪk/",
+  "raw": "n.织物;布料;(社会等)结构"
+ },
+ {
+  "w": "facial",
+  "ipa": "ˈfeɪʃ(ə)l",
+  "raw": "adj.面部的"
+ },
+ {
+  "w": "facility",
+  "ipa": "/fəˈsɪləti/",
+  "raw": "n.设施;设备"
+ },
+ {
+  "w": "factor",
+  "ipa": "/ˈfæktə(r)/",
+  "raw": "n.因素;要素"
+ },
+ {
+  "w": "fade",
+  "ipa": "/feɪd/",
+  "raw": "vi.&vt.逐渐消失;(使)褪色"
+ },
+ {
+  "w": "failure",
+  "ipa": "/ˈfeɪljə(r)/",
+  "raw": "n.失败;失败的人(或事物)"
+ },
+ {
+  "w": "faint",
+  "ipa": "/feɪnt/",
+  "raw": "vi.昏倒;晕厥 adj.不清楚的"
+ },
+ {
+  "w": "fairy",
+  "ipa": "",
+  "raw": "神话故事；童话"
+ },
+ {
+  "w": "faith",
+  "ipa": "/feɪθ/",
+  "raw": "n.宗教信仰;信任;相信"
+ },
+ {
+  "w": "faithfully",
+  "ipa": "",
+  "raw": "adv.忠诚地；忠实地"
+ },
+ {
+  "w": "fake",
+  "ipa": "/feɪk/",
+  "raw": "a.假装的;假的;冒充的"
+ },
+ {
+  "w": "falsh",
+  "ipa": "",
+  "raw": "adj.错误的；假的"
+ },
+ {
+  "w": "fame",
+  "ipa": "feɪm",
+  "raw": "n.名声；名望"
+ },
+ {
+  "w": "familiar",
+  "ipa": "/fəˈmɪliə(r)/",
+  "raw": "adj.熟悉;熟知"
+ },
+ {
+  "w": "famine",
+  "ipa": "",
+  "raw": "n.饥荒"
+ },
+ {
+  "w": "fancy",
+  "ipa": "/ˈfænsi/",
+  "raw": "adj.花哨的;精致的 v.想要"
+ },
+ {
+  "w": "fantasic",
+  "ipa": "",
+  "raw": "adj.难以置信的；奇异的；极好的"
+ },
+ {
+  "w": "fantasy",
+  "ipa": "/ˈfæntəsi/",
+  "raw": "n.幻想;想象"
+ },
+ {
+  "w": "faraway",
+  "ipa": "/ˈfɑ:rəweɪ/",
+  "raw": "adj.遥远的"
+ },
+ {
+  "w": "fare",
+  "ipa": "/feə(r)/",
+  "raw": "n.车费;船费;飞机票价"
+ },
+ {
+  "w": "farmyard",
+  "ipa": "",
+  "raw": "n.农场；农家"
+ },
+ {
+  "w": "fascinating",
+  "ipa": "/ˈfæsɪneɪtɪŋ/",
+  "raw": "adj.极有吸引力的;迷人的"
+ },
+ {
+  "w": "fatal",
+  "ipa": "/ˈfeɪtl/",
+  "raw": "adj.致命的;灾难性的"
+ },
+ {
+  "w": "fate",
+  "ipa": "feɪt",
+  "raw": "n.命运；天命"
+ },
+ {
+  "w": "fateful",
+  "ipa": "",
+  "raw": "adj.重要的；决定性的；命中注定的"
+ },
+ {
+  "w": "fathom",
+  "ipa": "",
+  "raw": "n.长度单位（六英尺）"
+ },
+ {
+  "w": "fault",
+  "ipa": "/fɔ:lt/",
+  "raw": "n.弱点;过错"
+ },
+ {
+  "w": "favour",
+  "ipa": "/ˈfeɪvə(r)/",
+  "raw": "vt.较喜欢;选择 n.帮助"
+ },
+ {
+  "w": "feast",
+  "ipa": "/fi:st/",
+  "raw": "n.盛宴;宴会;节日"
+ },
+ {
+  "w": "fee",
+  "ipa": "/fi:/",
+  "raw": "n.专业服务费;报酬"
+ },
+ {
+  "w": "fellow",
+  "ipa": "/ˈfeləʊ/",
+  "raw": "a.同类的;同事的 n.男人"
+ },
+ {
+  "w": "female",
+  "ipa": "/ˈfi:meɪl/",
+  "raw": "adj.女(性)的;雌的 n.雌性"
+ },
+ {
+  "w": "fence",
+  "ipa": "/fens/",
+  "raw": "n.栅栏;围栏"
+ },
+ {
+  "w": "ferry",
+  "ipa": "ˈferi",
+  "raw": "n.渡船；渡口　vt.摆渡；渡运"
+ },
+ {
+  "w": "fertile",
+  "ipa": "",
+  "raw": "adj.肥沃的；富饶的"
+ },
+ {
+  "w": "fertilizer",
+  "ipa": "/ˈfɜ:təlaɪzə(r)/",
+  "raw": "n.肥料"
+ },
+ {
+  "w": "fetch",
+  "ipa": "/fetʃ/",
+  "raw": "vt.(去)拿来;(去)请来"
+ },
+ {
+  "w": "fibre",
+  "ipa": "/ˈfaɪbə(r)/",
+  "raw": "n.纤维;纤维制品"
+ },
+ {
+  "w": "fiction",
+  "ipa": "/ˈfɪkʃn/",
+  "raw": "n.小说;虚构的事"
+ },
+ {
+  "w": "fierce",
+  "ipa": "ˈfɪəs",
+  "raw": "adj.猛烈的；凶猛的"
+ },
+ {
+  "w": "fig",
+  "ipa": "/fɪg/",
+  "raw": "n.无花果"
+ },
+ {
+  "w": "file",
+  "ipa": "/faɪl/",
+  "raw": "n.文件;文件夹;档案"
+ },
+ {
+  "w": "fin",
+  "ipa": "/fɪn/",
+  "raw": "n.(鱼的)鳍"
+ },
+ {
+  "w": "finacial",
+  "ipa": "",
+  "raw": "adj.财务的；金融的；财政的"
+ },
+ {
+  "w": "finally",
+  "ipa": "'faɪnəli",
+  "raw": "adv.最后；终于"
+ },
+ {
+  "w": "finance",
+  "ipa": "/ˈfaɪnæns/",
+  "raw": "n.资金;财政 vt.提供资金"
+ },
+ {
+  "w": "financial",
+  "ipa": "/faɪˈnænʃl/",
+  "raw": "adj.财政的;财务的;金融的"
+ },
+ {
+  "w": "finding",
+  "ipa": "/ˈfaɪndɪŋ/",
+  "raw": "n.发现;调查结果;判决"
+ },
+ {
+  "w": "fine",
+  "ipa": "/faɪn/",
+  "raw": "vt.对…处以罚款"
+ },
+ {
+  "w": "fingernail",
+  "ipa": "ˈfɪŋɡəneɪl",
+  "raw": "n.手指甲"
+ },
+ {
+  "w": "firecracker",
+  "ipa": "/ˈfaɪəkrækə(r)/",
+  "raw": "n.鞭炮;爆竹"
+ },
+ {
+  "w": "fireplace",
+  "ipa": "/ˈfaɪəpleɪs/",
+  "raw": "n.壁炉"
+ },
+ {
+  "w": "firework",
+  "ipa": "/ˈfaɪəwɜ:k/",
+  "raw": "n.烟花;[pl.]烟花表演"
+ },
+ {
+  "w": "firmly",
+  "ipa": "ˈfɜːmli",
+  "raw": "adv.稳固地；坚定地"
+ },
+ {
+  "w": "fist",
+  "ipa": "/fɪst/",
+  "raw": "n.拳;拳头"
+ },
+ {
+  "w": "flame",
+  "ipa": "fleɪm",
+  "raw": "n.火焰；光芒；热情"
+ },
+ {
+  "w": "flash",
+  "ipa": "/flæʃ/",
+  "raw": "n.光;信号 vi.闪耀;闪光"
+ },
+ {
+  "w": "flashback",
+  "ipa": "",
+  "raw": "n.闪回，倒叙"
+ },
+ {
+  "w": "flavour",
+  "ipa": "/ˈfleɪvə(r)/",
+  "raw": "n.味道;特点;特色"
+ },
+ {
+  "w": "flee",
+  "ipa": "/fli:/",
+  "raw": "v.迅速离开;逃跑"
+ },
+ {
+  "w": "fleet",
+  "ipa": "/fli:t/",
+  "raw": "n.舰队;机群;车队"
+ },
+ {
+  "w": "flesh",
+  "ipa": "fleʃ",
+  "raw": "n.肉，肌肉；肉体"
+ },
+ {
+  "w": "flight",
+  "ipa": "/flaɪt/",
+  "raw": "n.空中航行;航班;航程"
+ },
+ {
+  "w": "flip",
+  "ipa": "/flɪp/",
+  "raw": "v.(使)快速翻转;(手指)轻抛"
+ },
+ {
+  "w": "flipper",
+  "ipa": "",
+  "raw": "n.（鲸鱼等的）鳍状肢；（游泳地用的）鸭脚板"
+ },
+ {
+  "w": "float",
+  "ipa": "/fləʊt/",
+  "raw": "vi.浮动;漂流 vt.使浮动"
+ },
+ {
+  "w": "flood",
+  "ipa": "/flʌd/",
+  "raw": "n.洪水;大量 vi.淹没"
+ },
+ {
+  "w": "flour",
+  "ipa": "/ˈflaʊə(r)/",
+  "raw": "n.面粉;(谷物磨成的)粉"
+ },
+ {
+  "w": "flow",
+  "ipa": "/fləʊ/",
+  "raw": "n.流;流动;流畅 vi.流;流动"
+ },
+ {
+  "w": "flu",
+  "ipa": "/flu:/",
+  "raw": "n.流感"
+ },
+ {
+  "w": "fluent",
+  "ipa": "/ˈflu:ənt/",
+  "raw": "adj.(外语)流利的;熟练的"
+ },
+ {
+  "w": "fluently",
+  "ipa": "",
+  "raw": "adv.流利地；流畅地"
+ },
+ {
+  "w": "fluid",
+  "ipa": "",
+  "raw": "n.液体　adj.流动的"
+ },
+ {
+  "w": "foam",
+  "ipa": "/fəʊm/",
+  "raw": "n.泡沫橡胶;泡沫"
+ },
+ {
+  "w": "foggy",
+  "ipa": "/ˈfɒgi/",
+  "raw": "a.有雾的"
+ },
+ {
+  "w": "fold",
+  "ipa": "/fəʊld/",
+  "raw": "vt.包;裹;折叠 v.(可)折小"
+ },
+ {
+  "w": "folk",
+  "ipa": "/fəʊk/",
+  "raw": "a.民间的;民俗的"
+ },
+ {
+  "w": "fond",
+  "ipa": "/fɒnd/",
+  "raw": "a.喜爱"
+ },
+ {
+  "w": "fool",
+  "ipa": "fuːl",
+  "raw": "n.愚人；白痴；受骗者　vt.愚弄；欺骗"
+ },
+ {
+  "w": "foolish",
+  "ipa": "ˈfuːlɪʃ",
+  "raw": "adj.愚蠢的；傻的"
+ },
+ {
+  "w": "footprint",
+  "ipa": "/ˈfʊtprɪnt/",
+  "raw": "n.足迹;(某物所占)空间量"
+ },
+ {
+  "w": "forbid",
+  "ipa": "fəˈbɪd",
+  "raw": "vt.禁止；不准"
+ },
+ {
+  "w": "forecast",
+  "ipa": "/ˈfɔ:kɑ:st/",
+  "raw": "vt.&n.预测;预报"
+ },
+ {
+  "w": "forehead",
+  "ipa": "/ˈfɔ:hed/",
+  "raw": "n.额;前额"
+ },
+ {
+  "w": "forever",
+  "ipa": "/fərˈevə(r)/",
+  "raw": "adv.永远;长久地"
+ },
+ {
+  "w": "forgive",
+  "ipa": "/fəˈgɪv/",
+  "raw": "vt.&vi.原谅;宽恕;对不起"
+ },
+ {
+  "w": "form",
+  "ipa": "fɔːm",
+  "raw": "vt.（使）组成；形成；构成"
+ },
+ {
+  "w": "formal",
+  "ipa": "/ˈfɔ:ml/",
+  "raw": "adj.办正式的;正规的"
+ }
+]

@@ -17,7 +17,12 @@ venv/
 # 临时分析目录（保留本机，不入库）
 research/
 
-# 注意：本仓库为 Private，允许入库教材原文件与素材库。
+# WorkBuddy 本地工作记忆 / 临时截图 / 应用卡片标记（不入库）
+.workbuddy/
+*.genie
+
+# 注意：仓库已改为 Public；下方教材原文件仅为历史遗留跟踪项，
+# 后续应按 README「版权与合规红线」清理出库，不再新增同类文件。
 # 若将来转为 Public，必须先移除以下内容（见 README「版权与合规红线」）：
 #   *.doc  *.docx  *.xls  新人教单词默写卡片/
 #   data/word_material.json  data/textbook_lexicon.json  data/legacy_lexicon.json

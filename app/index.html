@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>拾词 · 高考英语核心词</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script src="https://cdn.jsdelivr.net/npm/@tencent-ai/workbuddy-cloud-sdk@dev/lib/index.global.js"></script>
+</head>
+<body>
+<div class="layout">
+
+  <!-- ================= SIDEBAR ================= -->
+  <aside class="side">
+    <div class="brand">
+      <div class="brand-mark">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5V5a2 2 0 0 1 2-2h13"/><path d="M6 17h13"/><path d="M9 7h6"/></svg>
+      </div>
+      <h1>拾词</h1>
+      <span class="ver">v1.0</span>
+    </div>
+    <div id="cloudStatus" style="display:none;font-size:11px;padding:7px 10px;margin:8px 0 0;border-radius:8px;background:var(--accent-tint)"></div>
+    <p class="side-lede">高考英语核心词汇工具 · 面向<b>工具订阅 + 资料电商</b>双引擎的独立开发者方案</p>
+    <span class="tagline">专治「认识却用不对」</span>
+
+    <h2>页面地图</h2>
+    <nav class="navlist" id="nav"></nav>
+
+    <h2>核心闭环</h2>
+    <div class="flowcard">
+      <svg viewBox="0 0 240 132" width="100%" height="132" fill="none">
+        <defs><marker id="ar" markerWidth="7" markerHeight="7" refX="5.5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#10b981"/></marker></defs>
+        <rect x="8" y="14" width="62" height="42" rx="11" fill="#ecfdf5" stroke="#10b981" stroke-width="1.4"/>
+        <text x="39" y="33" font-size="10.5" font-weight="700" fill="#047857" text-anchor="middle" font-family="Outfit,sans-serif">发现</text>
+        <text x="39" y="46" font-size="9" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC,sans-serif">首页/错因</text>
+        <rect x="89" y="14" width="62" height="42" rx="11" fill="#ecfdf5" stroke="#10b981" stroke-width="1.4"/>
+        <text x="120" y="33" font-size="10.5" font-weight="700" fill="#047857" text-anchor="middle" font-family="Outfit,sans-serif">学习</text>
+        <text x="120" y="46" font-size="9" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC,sans-serif">背词/专项</text>
+        <rect x="170" y="14" width="62" height="42" rx="11" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.4"/>
+        <text x="201" y="33" font-size="10.5" font-weight="700" fill="#b45309" text-anchor="middle" font-family="Outfit,sans-serif">付费</text>
+        <text x="201" y="46" font-size="9" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC,sans-serif">全包/资料</text>
+        <path d="M70 35 H86" stroke="#10b981" stroke-width="1.6" marker-end="url(#ar)"/>
+        <path d="M151 35 H167" stroke="#10b981" stroke-width="1.6" marker-end="url(#ar)"/>
+        <path d="M201 58 V92 H39 V60" stroke="#10b981" stroke-width="1.6" stroke-dasharray="4 3" marker-end="url(#ar)"/>
+        <text x="120" y="106" font-size="9.5" fill="#047857" text-anchor="middle" font-family="Noto Sans SC,sans-serif">错因回流 · 精准补弱</text>
+        <text x="120" y="121" font-size="9" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC,sans-serif">复购来自数据变好，不靠打扰</text>
+      </svg>
+    </div>
+
+    <h2>关键设计决策</h2>
+    <ul class="dlist">
+      <li><span class="k">01</span><span><b>首页不叫「背单词」，叫「今日任务」。</b>把 20 词拆成 8 分钟可完成的小目标，高三用户要的是确定性，不是词库规模。</span></li>
+      <li><span class="k">02</span><span><b>背词卡强制翻面才可评价。</b>三档（不认识/模糊/认识）直接喂给间隔重复算法，是留存的地基。</span></li>
+      <li><span class="k">03</span><span><b>「熟词僻义」是唯一的差异化专项。</b>免费用户可试 3 题，第 4 题起进付费墙 —— 首次付费点放在最痛的地方。</span></li>
+      <li><span class="k">04</span><span><b>失分地图把 App 从工具变成诊断。</b>按错因归类（不是按词表），直接呈现可解释的失分归因逻辑。</span></li>
+      <li><span class="k">05</span><span><b>资料电商挂在词库旁边。</b>用户刚背完 150 词 → 立刻推《仿真语境手册》，转化路径最短。</span></li>
+      <li><span class="k">06</span><span><b>学习周报免费开放。</b>用「看得见的进步」建立信任，再谈付费。</span></li>
+    </ul>
+
+    <h2>变现位标注</h2>
+    <ul class="dlist">
+      <li><span class="k">A</span><span>专项训练第 4 题起 · 全包 ¥9.9（一次买断，含完整训练册）</span></li>
+      <li><span class="k">B</span><span>失分地图完整版 · 含在全包 ¥9.9 内</span></li>
+      <li><span class="k">C</span><span>资料商店 · 分档单品 ¥1.9 / ¥3.9 / ¥4.9</span></li>
+      <li><span class="k">D</span><span>仿真语境例句库（核心壁垒）· 含在全包内</span></li>
+    </ul>
+
+    <div class="sidefoot">
+      原型为<b>静态高保真交互稿</b>，无后端。<br>
+      词条例句为<b>仿真例句</b>，规避版权风险。<br>
+      直接双击文件即可离线打开：<code>prototype/index.html</code>
+    </div>
+  </aside>
+
+  <!-- ================= STAGE ================= -->
+  <main class="main">
+    <div class="phone" id="phone">
+      <div class="notch"></div>
+      <div class="bezel">
+        <div class="statusbar">
+          <span>9:41</span>
+          <span class="sb-r">
+            <svg width="16" height="11" viewBox="0 0 16 11" fill="currentColor"><rect x="0" y="7" width="3" height="4" rx="1"/><rect x="4.3" y="5" width="3" height="6" rx="1"/><rect x="8.6" y="2.5" width="3" height="8.5" rx="1"/><rect x="12.9" y="0" width="3" height="11" rx="1"/></svg>
+            <svg width="15" height="11" viewBox="0 0 15 11" fill="currentColor"><path d="M7.5 9.8 5.6 7.9a2.7 2.7 0 0 1 3.8 0l-1.9 1.9Z"/><path d="M3.4 5.7 1.6 3.9a8.3 8.3 0 0 1 11.8 0l-1.8 1.8a6 6 0 0 0-8.2 0Z" opacity=".9"/><path d="M0 1.4A11.7 11.7 0 0 1 15 1.4l-1.6 1.7a9.4 9.4 0 0 0-11.8 0L0 1.4Z" opacity=".55"/></svg>
+            <svg width="24" height="11" viewBox="0 0 24 11" fill="none"><rect x="0.6" y="0.6" width="20" height="9.8" rx="3" stroke="currentColor" stroke-opacity=".35"/><rect x="2.2" y="2.2" width="15" height="6.6" rx="1.8" fill="currentColor"/><path d="M22 4v3" stroke="currentColor" stroke-opacity=".4" stroke-width="1.6" stroke-linecap="round"/></svg>
+          </span>
+        </div>
+
+        <div class="screens" id="screens">
+          <!-- ===== HOME ===== -->
+          <section class="screen on" id="s-home">
+            <div class="ptop">
+              <!-- 今日任务置顶：首屏先解决「今天该学什么」 -->
+              <div class="card today-card" style="display:block">
+                <div class="today-top">
+                  <div class="ring" id="ring">
+                    <div class="ring-in"><b id="ringp">0</b><span id="ringSub">今日 0/20</span></div>
+                  </div>
+                  <div class="today-meta">
+                    <h4>今日任务 · <span id="dpModeName">主题聚类</span></h4>
+                    <p id="dpSub">20 词闭环 · 预计 8 分钟</p>
+                    <button class="btn btn-primary" onclick="startDailyPlan()" style="padding:10px 16px;font-size:13.5px">开始今日任务</button>
+                  </div>
+                </div>
+                <div class="dp-seg" id="dpSeg"></div>
+                <div class="dp-orders" id="dpOrders">
+                  <button data-o="alpha" onclick="setDailyOrder('alpha')">字母顺序</button>
+                  <button data-o="theme" class="on" onclick="setDailyOrder('theme')">词义相近</button>
+                  <button data-o="random" onclick="setDailyOrder('random')">随机抽取</button>
+                </div>
+                <div class="dp-peek" id="dpPeek"></div>
+              </div>
+
+              <div class="countdown">
+                <div class="cd-top">
+                  <div>
+                    <div class="lbl">距 2027 高考</div>
+                    <div class="num"><span id="cdDays">203</span><small>天</small></div>
+                  </div>
+                  <div class="r">
+                    <div class="streak">
+                      <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2c1 4-3 5-3 9a4 4 0 0 0 7 2.6C18 11 15 6 12 2Z" opacity=".9"/></svg>
+                      连续打卡 <span id="kpiStreak">0</span> 天
+                    </div>
+                    <div class="cd-greet">晚上好，林同学</div>
+                  </div>
+                </div>
+                <div class="cd-meter">
+                  <div class="cd-mrow"><span class="t">备考词库掌握进度</span><span class="v"><b id="cdLearned">0</b> / <span id="cdTotal">4110</span> 词</span></div>
+                  <div class="cd-track"><i id="cdBar"></i></div>
+                </div>
+                <div class="cd-stats">
+                  <div class="cd-stat warn"><b id="cdRemain">4110</b><span>词还没学</span></div>
+                  <div class="cd-stat hot"><b id="cdPerDay">21</b><span>每天要拿下</span></div>
+                  <div class="cd-stat"><b id="cdToday">0</b><span>今天已学</span></div>
+                </div>
+                <div class="cd-urgent" id="cdUrgent">
+                  <svg class="fire" width="12" height="12" viewBox="0 0 24 24" fill="#fbbf24"><path d="M12 2c1 4-3 5-3 9a4 4 0 0 0 7 2.6C18 11 15 6 12 2Z"/></svg>
+                  <span id="cdUrgentText">按这个节奏，每天得背 21 词才来得及</span>
+                </div>
+              </div>
+
+              <!-- 学习成长看板：把「我学到了什么」放到首页最显眼处 -->
+              <div class="growth">
+                <div class="gc-top">
+                  <div class="gc-kicker"><span class="spark"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 2.2 6.3 6.6.5-5.1 4.3 1.6 6.4L12 16.3l-5.3 3.2 1.6-6.4L3.2 8.8l6.6-.5L12 2Z"/></svg></span>我的学习成长</div>
+                  <div class="gc-num"><span id="gcLearned">0</span><small>词已学</small></div>
+                  <div class="gc-sub" id="gcMotivation">开始你的第一个词吧</div>
+                  <div class="gc-lvl"><span class="star">★</span><span id="gcLevel">Lv.1 起步</span><em id="gcLevelHint">距离下一级还差 10 词</em></div>
+                  <div class="gc-progress">
+                    <div class="lab"><span id="gcNextName">下一等级 · 初识</span><span id="gcLevelPct">0%</span></div>
+                    <div class="gc-track"><i id="gcLevelBar"></i></div>
+                  </div>
+                </div>
+                <div class="mstones" id="gcMilestones"></div>
+                <div class="gc-goal">
+                  <div class="l">
+                    <div class="gicon"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8Z"/></svg></div>
+                    <div><b id="gcTodayTitle">今日已学 0 词</b><span id="gcTodaySub">目标 20 词 · 保持节奏</span></div>
+                  </div>
+                  <span class="go" id="gcGoalBtn" onclick="go('s-study')">去学习</span>
+                </div>
+              </div>
+
+              <!-- 学习成效：把「进步」变成看得见的趋势与分布 -->
+              <div class="effect">
+                <div class="sec-head"><h3>学习成效</h3><span class="more" style="color:var(--ink-3);font-weight:500">看得见的进步 <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span></div>
+                <div class="eff-card">
+                  <div class="eff-hd"><h4>近 7 天新学词</h4><span class="v" id="effWeekTotal">0 词</span></div>
+                  <div class="eff-sub" id="effTrend">坚持每天学一点，进步会自己说话</div>
+                  <div class="eff-bars" id="effBars"></div>
+                </div>
+                <div class="eff-card">
+                  <div class="eff-hd"><h4>已学词熟练度分布</h4><span class="v" id="effMasteredPct">0% 牢固</span></div>
+                  <div class="eff-sub">按每个词的真实掌握度统计，不注水</div>
+                  <div class="eff-seg" id="effSeg">
+                    <i class="s1" id="effS1"></i><i class="s2" id="effS2"></i><i class="s3" id="effS3"></i>
+                  </div>
+                  <div class="eff-legend" id="effLegend"></div>
+                </div>
+              </div>
+
+              <div class="sec-head"><h3>为你推荐</h3><span class="more" onclick="go('s-err')">失分地图 <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span></div>
+
+              <div class="hero-entry" onclick="go('s-quiz')">
+                <div class="k">
+                  <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 2.6 6.3 6.8.5-5.2 4.5 1.6 6.6L12 16.3 6.2 19.9l1.6-6.6L2.6 8.8l6.8-.5L12 2Z"/></svg>
+                  今日必练 · 3 分钟
+                </div>
+                <h4>熟词僻义专项</h4>
+                <p id="homeQuizLine">12 道高频陷阱题 · 做完 3 题看你的真实正确率</p>
+                <span class="go">开始练习 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
+              </div>
+
+              <div class="card small-entry" onclick="go('s-progress')" style="margin-bottom:11px;border-color:#f3d9a4;background:linear-gradient(120deg,#fffdf7,#fff)">
+                <div class="ic" style="background:#fff1f3;color:var(--danger)">
+                  <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><rect x="7" y="12" width="3" height="6"/><rect x="12" y="8" width="3" height="10"/><rect x="17" y="5" width="3" height="13"/></svg>
+                </div>
+                <h4>单词进度</h4>
+                <p id="homeProgLine">红=新词 · 绿=已学完 · 4110 词全量</p>
+                <span class="go" style="color:#b45309">查看 <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
+              </div>
+
+              <div class="two-grid">
+                <div class="card small-entry" onclick="go('s-err')">
+                  <div class="ic" style="background:var(--danger-tint);color:var(--danger)">
+                    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+                  </div>
+                  <h4>失分地图</h4>
+                  <p>近 30 天错因定位</p>
+                  <span class="go">查看 <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
+                </div>
+                <div class="card small-entry" onclick="go('s-parent')">
+                  <div class="ic" style="background:var(--accent-tint);color:var(--accent-deep)">
+                    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M8 21V9h8v12"/></svg>
+                  </div>
+                  <h4>学习周报</h4>
+                  <p>本周学习进度报告</p>
+                  <span class="go">查看 <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
+                </div>
+              </div>
+
+            </div>
+          </section>
+
+          <!-- ===== STUDY / WORD CARD ===== -->
+          <section class="screen sub" id="s-study">
+            <div class="studybar">
+              <button class="icon-btn" onclick="go('s-home')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button>
+              <div class="pbar"><i id="spbar" style="width:60%"></i></div>
+              <span class="cnt" id="scnt">12/20</span>
+            </div>
+            <div id="studyBody"></div>
+          </section>
+
+          <!-- ===== FAMILY REVIEW (发散复习) ===== -->
+          <section class="screen sub" id="s-fam">
+            <div class="studybar">
+              <button class="icon-btn" onclick="go('s-home')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button>
+              <div class="pbar"><i id="fambar" style="width:0%"></i></div>
+              <span class="cnt" id="famcnt">0/0</span>
+            </div>
+            <div id="famBody"></div>
+          </section>
+
+          <!-- ===== WORD PROGRESS (全量单词进度) ===== -->
+          <section class="screen sub" id="s-progress">
+            <div class="studybar">
+              <button class="icon-btn" onclick="go('s-home')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button>
+              <div style="font-size:13.5px;font-weight:600">单词进度</div>
+              <span class="cnt" id="pgCnt">0/0</span>
+            </div>
+            <div id="progressBody"></div>
+          </section>
+
+          <!-- ===== BOOK DETAIL (仿真语境版) ===== -->
+          <section class="screen sub" id="s-book">
+            <div class="backbar">
+              <button class="icon-btn" onclick="go('s-shop')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button>
+              <h3>图书详情</h3>
+            </div>
+            <div id="bookBody"></div>
+          </section>
+
+          <!-- ===== BOOK2 DETAIL (高频搭配速记手册) ===== -->
+          <section class="screen sub" id="s-book2">
+            <div class="backbar">
+              <button class="icon-btn" onclick="go('s-shop')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button>
+              <h3>图书详情</h3>
+            </div>
+            <div id="book2Body"></div>
+          </section>
+
+          <!-- ===== BOOK3 DETAIL (熟词僻义100题训练册) ===== -->
+          <section class="screen sub" id="s-book3">
+            <div class="backbar">
+              <button class="icon-btn" onclick="go('s-shop')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button>
+              <h3>图书详情</h3>
+            </div>
+            <div id="book3Body"></div>
+          </section>
+
+          <!-- ===== BOOK4 DETAIL (30天冲刺计划表) ===== -->
+          <section class="screen sub" id="s-book4">
+            <div class="backbar">
+              <button class="icon-btn" onclick="go('s-shop')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button>
+              <h3>图书详情</h3>
+            </div>
+            <div id="book4Body"></div>
+          </section>
+
+          <!-- ===== FULL PACK DETAIL (¥9.9 全包) ===== -->
+          <section class="screen sub" id="s-fullpack">
+            <div class="backbar">
+              <button class="icon-btn" onclick="go('s-shop')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button>
+              <h3>拾词全包 · 词库详情</h3>
+            </div>
+            <div id="fullPackBody"></div>
+          </section>
+
+          <!-- ===== QUIZ ===== -->
+          <section class="screen sub" id="s-quiz">
+            <div class="backbar">
+              <button class="icon-btn" onclick="go('s-home')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button>
+              <h3>熟词僻义专项</h3>
+              <span class="more" style="margin-left:auto;font-size:11px;color:var(--accent-deep);cursor:pointer" onclick="openTrapWords()">核心词熟练度</span>
+            </div>
+            <div id="quizBody"></div>
+          </section>
+
+          <!-- ===== 核心变体词熟练度 ===== -->
+          <section class="screen sub" id="s-trapwords">
+            <div class="backbar">
+              <button class="icon-btn" onclick="go('s-quiz')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button>
+              <h3>核心变体词 · 熟练度</h3>
+              <span class="more" style="margin-left:auto;font-size:11px;color:var(--ink-3)">443 词</span>
+            </div>
+            <div id="trapWordsBody"></div>
+          </section>
+
+          <!-- ===== ERROR MAP ===== -->
+          <section class="screen sub" id="s-err">
+            <div class="backbar">
+              <button class="icon-btn" onclick="go('s-home')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button>
+              <h3>失分地图</h3>
+              <span class="more" style="margin-left:auto;font-size:11.5px;color:var(--ink-3)">近 30 天</span>
+            </div>
+            <p class="scr-sub" style="margin-top:-6px">累计 <span id="kpiQuizN">0</span> 题 · 错 <span id="kpiQuizW">0</span> 题 · 你的失分高度集中在「熟词僻义」</p>
+
+            <div class="advice">
+              <div class="k">
+                <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v4"/><path d="M12 17h.01"/><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0Z"/></svg>
+                本周建议
+              </div>
+              <h4>优先攻克熟词僻义</h4>
+              <p id="errAdvice">正在统计你的错因分布…</p>
+            </div>
+
+            <div class="chart-card">
+              <h4>错因分布</h4>
+              <div class="sub" id="errDistSub">按失分原因归类，而非词表顺序</div>
+              <div id="errDist"></div>
+              <div class="legend">
+                <span><i style="background:var(--danger)"></i>首要缺口</span>
+                <span><i style="background:var(--accent);opacity:.7"></i>次要缺口</span>
+                <span><i style="background:var(--accent);opacity:.3"></i>边缘失分</span>
+              </div>
+            </div>
+
+            <div class="chart-card">
+              <h4>题型分布</h4>
+              <div class="sub">哪类题型在偷走你的分数</div>
+              <div id="typeDist"></div>
+            </div>
+
+            <div class="sec-head"><h3>高频错词 · Top 5</h3><span class="more" id="errTotal">全部 0 个</span></div>
+            <div class="errlist" id="errList"></div>
+
+            <button class="btn btn-dark" style="margin-top:14px" onclick="go('s-quiz')">一键攻克 Top10 错词</button>
+          </section>
+
+          <!-- ===== SHOP ===== -->
+          <section class="screen" id="s-shop">
+            <div class="ptop">
+              <h2 class="scr-title">资料商店</h2>
+              <p class="scr-sub">配合学习进度使用，效果最好</p>
+              <div class="shoptop">
+                <button class="chip on">全部</button>
+                <button class="chip">词书</button>
+                <button class="chip">专项</button>
+                <button class="chip">打卡表</button>
+              </div>
+
+              <div class="mcard">
+                <span class="k">全包 · 一次买断</span>
+                <h4>拾词全包</h4>
+                <p style="font-size:12px;color:var(--ink-3)">完整 100 题训练册 + 全部专项训练、义项树与学习周报</p>
+                <div id="fullpackStats" style="font-size:11.5px;color:var(--ink-3);line-height:1.6;margin:8px 0 2px"></div>
+                <div class="price" id="shopPrice">
+                  <b>¥9.9</b><em>全站最高价</em>
+                </div>
+                <div class="mlist">
+                  <div><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>完整 100 题专项训练册 PDF</div>
+                  <div><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>全部专项训练题库 + 解析</div>
+                  <div><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>仿真语境例句库</div>
+                  <div><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>错词自动复习 + 完整失分地图</div>
+                  <div><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>学习周报 · 每周推送</div>
+                </div>
+                <button class="btn btn-primary" id="shopAllBtn" onclick="openFullPack()">查看详情试读词库</button>
+              </div>
+
+              <div class="sec-head"><h3>单品教辅</h3><span class="more">电子 PDF · 分档定价</span></div>
+              <div id="goodsList"></div>
+
+              <div class="card" style="padding:14px;margin-top:6px;display:flex;gap:11px;align-items:center">
+                <div style="width:34px;height:34px;border-radius:11px;background:var(--accent-tint);color:var(--accent-deep);display:grid;place-items:center;flex:none">
+                  <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m8 11 4 4 4-4"/><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg>
+                </div>
+                <div style="flex:1">
+                  <div style="font-size:13px;font-weight:600">下单后 3 分钟内可下载</div>
+                  <div style="font-size:11.5px;color:var(--ink-3)">全部电子版，可自行双面打印，无实体书</div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- ===== PROFILE ===== -->
+          <section class="screen" id="s-me">
+            <div class="ptop">
+              <!-- 游客登录卡：未登录时常驻，登录后隐藏 -->
+              <div class="me-login" id="meLoginCard">
+                <div class="ml-head"><div class="ml-mark">拾</div><div><b>登录拾词</b><span>登录后进度与权益云端同步，换设备也能继续</span></div></div>
+                <label class="login-label">手机号</label>
+                <input id="loginPhone" class="login-input" type="tel" inputmode="numeric" maxlength="11" placeholder="请输入 11 位手机号" autocomplete="tel">
+                <label class="login-label">验证码</label>
+                <div class="login-code-row">
+                  <input id="loginCode" class="login-input" type="text" inputmode="numeric" maxlength="6" placeholder="短信验证码" autocomplete="one-time-code">
+                  <button id="btnSendCode" class="btn btn-ghost btn-sm" type="button">获取验证码</button>
+                </div>
+                <button id="btnLoginPhone" class="btn btn-primary login-main" type="button">登录 / 注册</button>
+                <div class="login-or"><span>或</span></div>
+                <button id="btnWechat" class="btn btn-ghost login-main" type="button">微信登录</button>
+                <div id="loginMsg" class="login-msg"></div>
+                <div class="ml-foot">不登录也能免费体验全部学习功能 · 登录仅用于保存进度与购买</div>
+              </div>
+
+              <!-- 已登录用户信息：登录后显示 -->
+              <div class="prof-head" id="memberHead" style="display:none">
+                <div class="avatar" id="userAvatar">林</div>
+                <div>
+                  <h3><span id="userName">林同学</span><span class="vipchip" id="userTier">普通用户</span></h3>
+                  <p>高三 · 累计学习 <span id="kpiMinutes">0</span> 分钟 · <span id="kpiStreak2">0</span> 天连续</p>
+                </div>
+              </div>
+
+              <div id="studentIdBox"></div>
+              <div class="card" style="padding:14px 16px;margin-bottom:14px">
+                <div style="font-size:12.5px;font-weight:600;margin-bottom:9px">有兑换码？输入后立即解锁全包</div>
+                <div class="lr-row">
+                  <input id="redeemInput" class="login-input" type="text" maxlength="16" placeholder="兑换码 SC-2026-XXXXXXXX" style="margin-bottom:0;text-transform:uppercase">
+                  <button class="btn btn-ghost btn-sm" id="btnRedeem" type="button">兑换</button>
+                </div>
+                <div class="lr-hint">兑换码即你的学号 · 一码一号终身绑定 · 兑换需先登录</div>
+              </div>
+
+              <div class="card" id="upgradeCard" style="padding:16px;margin-bottom:14px;background:linear-gradient(150deg,#fff,#f6fdf9);border-color:#bbf0d9">
+                <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px">
+                  <div style="flex:1">
+                    <div style="font-size:15px;font-weight:700" id="upgradeTitle">升级全包，解锁全部专项</div>
+                    <div style="font-size:12px;color:var(--ink-3);margin-top:2px" id="upgradeSub">全包 ¥9.9 · 一次买断</div>
+                  </div>
+                  <button class="btn btn-primary btn-sm" id="upgradeBtn" onclick="openPay('all')">开通</button>
+                </div>
+                <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;text-align:center">
+                  <div><b style="font-family:'Outfit';font-size:17px">全部</b><div style="font-size:10.5px;color:var(--ink-3)">专项训练</div></div>
+                  <div><b style="font-family:'Outfit';font-size:17px">∞</b><div style="font-size:10.5px;color:var(--ink-3)">仿真语境例句</div></div>
+                  <div><b style="font-family:'Outfit';font-size:17px">周报</b><div style="font-size:10.5px;color:var(--ink-3)">学习报告</div></div>
+                </div>
+              </div>
+
+              <div class="stat-grid">
+                <div class="stat"><b id="kpiTouched2">0</b><span>累计接触词汇</span></div>
+                <div class="stat"><b id="kpiMastered2">0</b><span>已掌握</span></div>
+                <div class="stat"><b id="kpiStreak3">0<em>天</em></b><span>连续打卡</span></div>
+                <div class="stat"><b id="kpiMinutes2">0<em>min</em></b><span>累计学习时长</span></div>
+              </div>
+
+              <div class="sec-head"><h3>我的</h3></div>
+              <div class="card" style="overflow:hidden">
+                <button class="mrow" onclick="go('s-err')">
+                  <span class="ic"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg></span>
+                  <span class="t">错题本</span>
+                  <span class="r"><span id="errBook">0 个待攻克</span> <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
+                </button>
+                <button class="mrow" onclick="go('s-parent')">
+                  <span class="ic"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M8 21V9h8v12"/></svg></span>
+                  <span class="t">学习周报</span>
+                  <span class="r">11月10日 <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
+                </button>
+                <button class="mrow" onclick="openPay('all')">
+                  <span class="ic"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2.5"/><path d="M2 10h20"/></svg></span>
+                  <span class="t">我的订单</span>
+                  <span class="r">2 笔 <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
+                </button>
+                <button class="mrow">
+                  <span class="ic"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.9l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.9-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1A1.7 1.7 0 0 0 9 19.4a1.7 1.7 0 0 0-1.9.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.9 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1A1.7 1.7 0 0 0 4.6 9a1.7 1.7 0 0 0-.3-1.9l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.9.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.9-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.9V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1Z"/></svg></span>
+                  <span class="t">学习设置</span>
+                  <span class="r">每日 20 词 <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
+                </button>
+              </div>
+
+              <button class="mrow" id="btnSignOut" style="margin-top:10px">
+                <span class="ic"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><path d="m16 17 5-5-5-5"/><path d="M21 12H9"/></svg></span>
+                <span class="t">退出登录</span>
+                <span class="r">切换账号 <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
+              </button>
+
+              <div style="text-align:center;font-size:11px;color:var(--ink-3);margin-top:18px">拾词 v1.0.0 · 例句为仿真例句</div>
+            </div>
+          </section>
+
+          <!-- ===== PARENT REPORT ===== -->
+          <section class="screen sub" id="s-parent">
+            <div class="backbar">
+              <button class="icon-btn" onclick="go('s-home')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button>
+              <h3>学习周报</h3>
+              <span style="margin-left:auto;font-size:11.5px;color:var(--ink-3)">11.10 – 11.16</span>
+            </div>
+
+            <div class="rpt-banner">
+              <div class="k">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+                第 3 周 · 距离高考 203 天
+              </div>
+              <h3>本周学习状态：稳步上升</h3>
+              <p>学习时长与正确率同时提升，熟词僻义仍是主要短板，建议继续专项训练。</p>
+            </div>
+
+            <div class="kpi-grid">
+              <div class="kpi"><div class="l">学习时长</div><b>3.5h</b><div class="d up"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 15 7-7 7 7"/></svg>较上周 +40%</div></div>
+              <div class="kpi"><div class="l">本周复习词</div><b>142</b><div class="d up"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 15 7-7 7 7"/></svg>计划 120 词</div></div>
+              <div class="kpi"><div class="l">综合正确率</div><b id="kpiAcc">0%</b><div class="d up"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 15 7-7 7 7"/></svg>+8%</div></div>
+              <div class="kpi"><div class="l">坚持打卡</div><b id="kpiCheckin">0/7</b><div class="d down"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 9 7 7 7-7"/></svg>缺 1 天</div></div>
+            </div>
+
+            <div class="chart-card">
+              <h4>每日学习量</h4>
+              <div class="sub">本周背诵词数（周一至周日）</div>
+              <svg viewBox="0 0 300 120" width="100%" height="120" fill="none">
+                <line x1="24" y1="96" x2="288" y2="96" stroke="#e4e8e3" stroke-width="1"/>
+                <line x1="24" y1="62" x2="288" y2="62" stroke="#eef1ed" stroke-width="1"/>
+                <line x1="24" y1="28" x2="288" y2="28" stroke="#eef1ed" stroke-width="1"/>
+                <text x="18" y="99" font-size="8" fill="#78857f" text-anchor="end" font-family="Outfit">0</text>
+                <text x="18" y="65" font-size="8" fill="#78857f" text-anchor="end" font-family="Outfit">30</text>
+                <text x="18" y="31" font-size="8" fill="#78857f" text-anchor="end" font-family="Outfit">60</text>
+                <path d="M36 76 L76 58 L116 66 L156 40 L196 50 L236 22 L276 34" stroke="#10b981" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M36 76 L76 58 L116 66 L156 40 L196 50 L236 22 L276 34 L276 96 L36 96 Z" fill="#10b981" fill-opacity=".08"/>
+                <circle cx="36" cy="76" r="3.2" fill="#fff" stroke="#10b981" stroke-width="2"/>
+                <circle cx="76" cy="58" r="3.2" fill="#fff" stroke="#10b981" stroke-width="2"/>
+                <circle cx="116" cy="66" r="3.2" fill="#fff" stroke="#10b981" stroke-width="2"/>
+                <circle cx="156" cy="40" r="3.2" fill="#fff" stroke="#10b981" stroke-width="2"/>
+                <circle cx="196" cy="50" r="3.2" fill="#fff" stroke="#10b981" stroke-width="2"/>
+                <circle cx="236" cy="22" r="3.2" fill="#10b981" stroke="#fff" stroke-width="2"/>
+                <circle cx="276" cy="34" r="3.2" fill="#fff" stroke="#10b981" stroke-width="2"/>
+                <text x="36" y="112" font-size="8.5" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC">一</text>
+                <text x="76" y="112" font-size="8.5" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC">二</text>
+                <text x="116" y="112" font-size="8.5" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC">三</text>
+                <text x="156" y="112" font-size="8.5" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC">四</text>
+                <text x="196" y="112" font-size="8.5" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC">五</text>
+                <text x="236" y="112" font-size="8.5" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC">六</text>
+                <text x="276" y="112" font-size="8.5" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC">日</text>
+              </svg>
+            </div>
+
+            <div class="chart-card">
+              <h4>近 4 周打卡</h4>
+              <div class="sub">颜色越深，学习量越大</div>
+              <div class="heat-labels"><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span></div>
+              <div class="heat" id="heat"></div>
+            </div>
+
+            <div class="chart-card">
+              <h4>本周薄弱项</h4>
+              <div class="sub">建议按此顺序补弱</div>
+              <div class="bench top"><span class="bench-label">熟词僻义</span><div class="bench-track"><div class="bench-fill" style="width:38%"></div></div><span class="bench-val">38%</span></div>
+              <div class="bench"><span class="bench-label">一词多义</span><div class="bench-track"><div class="bench-fill" style="width:24%;opacity:.72"></div></div><span class="bench-val">24%</span></div>
+              <div class="bench"><span class="bench-label">固定搭配</span><div class="bench-track"><div class="bench-fill" style="width:19%;opacity:.52"></div></div><span class="bench-val">19%</span></div>
+            </div>
+
+            <div class="sec-head"><h3>本周建议</h3></div>
+            <div class="ptips">
+              <div class="ptip"><span class="n">1</span><span>本周有 <b>1 天未打卡</b>（周六），建议把每日目标从 20 词调到 15 词，先保住连续性再提量。</span></div>
+              <div class="ptip"><span class="n">2</span><span>错题集中在<b>熟词僻义</b>，是「认识但不懂句中含义」。专项训练每天 5 题，两周可见明显变化。</span></div>
+              <div class="ptip"><span class="n">3</span><span>正确率提升 8%，处于健康区间。<b>不必加量</b>，当前节奏比强度更重要。</span></div>
+            </div>
+          </section>
+        </div>
+
+        <nav class="tabbar" id="tabbar">
+          <button class="tab on" data-tab="s-home">
+            <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 10 9-7 9 7v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z"/><path d="M9 22V12h6v10"/></svg>
+            <span>首页</span>
+          </button>
+          <button class="tab" data-tab="s-study">
+            <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5V5a2 2 0 0 1 2-2h13"/><path d="M6 17h13"/><path d="M9 7h6"/></svg>
+            <span>背词</span>
+          </button>
+          <button class="tab" data-tab="s-shop">
+            <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+            <span>资料</span>
+          </button>
+          <button class="tab" data-tab="s-me">
+            <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>
+            <span>我的</span>
+          </button>
+        </nav>
+      </div>
+      <div class="home-ind"></div>
+
+      <!-- modals -->
+      <div class="mask" id="mask" onclick="if(event.target===this)closeMask()">
+        <div class="sheet" id="sheet"></div>
+      </div>
+      <!-- 学习即时激励层 -->
+      <div id="rewardLayer"></div>
+      <div class="celebrate" id="celebrate" onclick="if(event.target===this)closeCelebrate()">
+        <div class="cele-card" id="celeCard"></div>
+      </div>
+    </div>
+
+    <div class="caption" id="caption"></div>
+
+    <div class="hintbar">
+      <span>点卡片翻面 · 三档评价喂给记忆算法</span>
+      <span><kbd>←</kbd> <kbd>→</kbd> 切页</span>
+      <span>全包弹窗 / 下单流程可点 <kbd>资料</kbd> <kbd>我的</kbd> 进入</span>
+    </div>
+  </main>
+</div>
+
+<script src="js/config.js"></script>
+<script src="js/cloud.js"></script>
+<script src="js/fsrs.js"></script>
+<script src="js/lex.js"></script>
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+<script src="js/boot.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>拾词</title>
+<script>
+/* 云服务 OAuth 回调固定回到站点根路径。
+ * 这里把 code/state/provider 等参数原样转交给应用入口，
+ * 由 app/js/boot.js 的回调分发器完成登录交换。 */
+location.replace('/app/index.html' + (location.search || '') + (location.hash || ''));
+</script>
+</head>
+<body>
+<p>正在进入拾词… <a href="/app/index.html">点此继续</a></p>
+</body>
+</html>

@@ -142,76 +142,118 @@ def pick_focus(senses):
     return s2[0] if s2 else senses[0]
 
 
+# 精修词条未覆盖的原型词，按词根派生规则补一份词形发散数据。
+# 形近词优先取原型 QUIZ 里真实出现过的干扰项，保证「发散」与「题型」同源。
+FALLBACK_FAMILY = {
+    'appreciate': {
+        'word_family': ['appreciate', 'appreciation', 'appreciative',
+                        'appreciably', 'unappreciated'],
+        'confusable': ['approach', 'appraise', 'approve', 'appropriate'],
+    },
+    'fine': {
+        'word_family': ['fine', 'finely', 'fineness', 'refine', 'refinement'],
+        'confusable': ['find', 'defined', 'refine', 'finite'],
+    },
+}
+
+
+POS_ZH = {'n': 'n.', 'v': 'v.', 'vt': 'v.', 'vi': 'v.', 'adj': 'adj.',
+          'adv': 'adv.', 'phrase': 'phr.'}
+
+
+def pos_display(pos):
+    """entries.json 的 pos 是 ['n','phrase'] 数组，转成词卡显示串。"""
+    if isinstance(pos, str):
+        return pos
+    parts = [POS_ZH.get(str(p).lower(), str(p)) for p in pos]
+    # 去重保序
+    return ' / '.join(dict.fromkeys(parts))
+
+
+def senses_from(e):
+    return [OrderedDict([
+        ('sense_id', s['sense_id']),
+        ('text', s['text']),
+        ('sense_level', s['sense_level']),
+        ('error_mech', s.get('error_mech', [])),
+        ('is_trap', bool(s.get('is_trap'))),
+        ('trap_of', s.get('trap_of', [])),
+        ('example', s.get('example', {})),
+        ('collocations', s.get('collocations', [])),
+    ]) for s in e['senses']]
+
+
 def main():
     html = open(PROTO, encoding='utf-8').read()
-    proto_words = extract_words_array(html)
+    proto_words = {pw['w']: pw for pw in extract_words_array(html)}
     entries = {e['headword']: e for e in json.load(open(
         os.path.join(ROOT, 'data', 'batch1', 'entries.json'), encoding='utf-8'))}
     sample = {w['headword']: w for w in json.load(open(
         os.path.join(ROOT, 'data', 'words.sample.json'), encoding='utf-8'))['words']}
 
+    # 以 100 精修词为全集，顺序即 entries.json 顺序；手写词排在前面优先展示。
+    ordered = list(entries.keys())
+    ordered.sort(key=lambda w: 0 if w in proto_words else 1)
+
     lex = []
     src_stat = {}
-    for pw in proto_words:
-        hw = pw['w']
-        senses = []
-        origin = ''
-        if hw in entries:
-            e = entries[hw]
-            senses = [OrderedDict([
-                ('sense_id', s['sense_id']),
-                ('text', s['text']),
-                ('sense_level', s['sense_level']),
-                ('error_mech', s.get('error_mech', [])),
-                ('is_trap', bool(s.get('is_trap'))),
-                ('trap_of', s.get('trap_of', [])),
-                ('example', s.get('example', {})),
-                ('collocations', s.get('collocations', [])),
-            ]) for s in e['senses']]
-            origin = '精修词条'
-        elif hw in sample:
-            e = sample[hw]
-            senses = [OrderedDict([
-                ('sense_id', s['sense_id']),
-                ('text', s['text']),
-                ('sense_level', s['sense_level']),
-                ('error_mech', s.get('error_mech', [])),
-                ('is_trap', bool(s.get('is_trap'))),
-                ('trap_of', s.get('trap_of', [])),
-                ('example', s.get('example', {})),
-                ('collocations', s.get('collocations', [])),
-            ]) for s in e['senses']]
-            origin = '样例词条'
+    for hw in ordered:
+        e = entries[hw]
+        pw = proto_words.get(hw)
+        senses = senses_from(e)
+        origin = '精修词条'
+
+        # 手写文案优先（8 个原型词有 note/root/例句文案）；其余词用精修的 notes（考场判断法）。
+        if pw:
+            note = pw.get('note', '')
+            root = pw.get('root', '')
+            tag = pw.get('tag', '熟词僻义')
+            tagc = pw.get('tagc', 'g')
+            ipa = pw.get('ipa', '') or e.get('ipa', '')
+            pos = pw.get('pos', '') or pos_display(e.get('pos', []))
+            origin = '手写精修'
         else:
-            senses = [OrderedDict([
-                ('sense_id', 's_%s_0' % re.sub(r'\W+', '_', hw.lower())),
-                ('text', strip_html(pw.get('def', ''))),
-                ('sense_level', 'S2'),
-                ('error_mech', ['E1']),
-                ('is_trap', True),
-                ('trap_of', []),
-                ('example', {}),
-                ('collocations', pw.get('coll', [])),
-            ])]
-            origin = '原型派生'
+            note = strip_html(e.get('notes', ''))
+            root = ''  # 精修词条无词根词缀字段，留空（UI 会条件隐藏）
+            tag = '熟词僻义'
+            tagc = 'g'
+            ipa = e.get('ipa', '')
+            pos = pos_display(e.get('pos', []))
+
+        # 词形发散数据：精修词条优先，未覆盖的原型词走内置派生规则。
+        src_entry = e or sample.get(hw) or {}
+        fb = FALLBACK_FAMILY.get(hw, {})
+        word_family = list(src_entry.get('word_family') or fb.get('word_family') or [])
+        confusable = list(src_entry.get('confusable') or fb.get('confusable') or [])
+        word_family = [x for x in dict.fromkeys(word_family) if x.lower() != hw.lower()]
+
+        # 沉淀生产元数据，供发散复习按题型/难度筛选
+        carriers = list(e.get('carriers', []))
+        level = e.get('level', '')
+        trap_count = sum(1 for s in e['senses'] if s.get('is_trap'))
 
         focus = pick_focus(senses)
         lex.append(OrderedDict([
             ('w', hw),
-            ('ipa', pw.get('ipa', '')),
-            ('pos', pw.get('pos', '')),
-            ('tag', pw.get('tag', '')),
-            ('tagc', pw.get('tagc', 'g')),
-            ('note', pw.get('note', '')),
-            ('root', pw.get('root', '')),
+            ('ipa', ipa),
+            ('pos', pos),
+            ('tag', tag),
+            ('tagc', tagc),
+            ('note', note),
+            ('root', root),
             ('origin', origin),
             ('focus', focus['sense_id'] if focus else None),
             ('senses', senses),
+            ('word_family', word_family),
+            ('confusable', confusable),
+            ('carriers', carriers),
+            ('level', level),
+            ('trap_count', trap_count),
         ]))
         src_stat[origin] = src_stat.get(origin, 0) + 1
 
     js = ('/* 自动生成 · tools/build_prototype_lex.py —— 请勿手改\n'
-          ' * 义项级词库数据：原型手写文案 × 生产词条义项，按 headword 合并\n'
+          ' * 义项级词库数据：100 精修词 × 手写文案覆盖，含词形网/题型元数据\n'
           ' */\nvar LEX = ' + json.dumps(lex, ensure_ascii=False, indent=1) + ';\n')
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, 'w', encoding='utf-8') as f:

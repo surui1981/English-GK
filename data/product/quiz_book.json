@@ -1,0 +1,247 @@
+{
+ "meta": {
+  "name": "熟词僻义 100 题专项训练册",
+  "subtitle": "100 个高考高频词 · 每个词一个最容易错的义项",
+  "status": "正式卷",
+  "positioning": "不是词表，是定位器：帮你判断「这个词在这个语境里到底是哪个意思」",
+  "promise": "100 题覆盖 100 个高频词的陷阱义，每题给一个可执行的考场动作",
+  "description": "100 个高考高频词，每个词只考它最容易错的那个义项；每题配一个可执行的考场动作与错因解析。",
+  "copyright": {
+   "example_source": "全书例句均为自编仿真例句，来源标注「仿真例句 · 高考阅读高频句式」",
+   "no_exam_text": "不含任何真题原文、真题选项、真题解析",
+   "textbook": "中文释义为自行改写措辞，未搬运教材原文与词典释义"
+  },
+  "pricing": {
+   "tiers": [
+    {
+     "name": "10 题档",
+     "count": 10,
+     "price": 1.9
+    },
+    {
+     "name": "50 题档",
+     "count": 50,
+     "price": 3.9
+    },
+    {
+     "name": "完整版",
+     "count": 100,
+     "price": 4.9
+    }
+   ],
+   "currency": "CNY"
+  },
+  "coverage": {
+   "total_questions": 100,
+   "total_words": 100,
+   "trap_senses": 100,
+   "units": 5,
+   "difficulty": {
+    "mid": 55,
+    "easy": 15,
+    "hard": 30
+   },
+   "carrier": {
+    "C1": 58,
+    "C2": 18,
+    "C3": 10,
+    "C4": 8,
+    "C5": 3,
+    "C6": 3
+   }
+  },
+  "variant_layer": {
+   "source": "trap_variants.json",
+   "words": 443,
+   "variants_total": 3370,
+   "types": [
+    "义项变体",
+    "常见义干扰",
+    "形近易混",
+    "搭配变体",
+    "词形变化",
+    "词形派生",
+    "词性提示"
+   ]
+  }
+ },
+ "units": [
+  {
+   "title": "单元一 · 动词的第二个意思",
+   "action": "看到动词先圈住它后面的宾语或介词短语：宾语是「问题类名词」（problem / gap / issue / concern）→ 多半是「处理、解决」义；宾语是「人 / 场合」（audience / conference / meeting）→ 才是「演讲」义。同一个动词在两个宾语类型上换义，这是高考阅读里最常见的坑。",
+   "count": 29
+  },
+  {
+   "title": "单元二 · 名词的第二个意思",
+   "action": "名词要看定语和介词：case of flu 里的 case 是「病例」不是「病因」；a case of 与 a case for 的介词不同意思就不同。名词最容易被「医疗 / 法律 / 学术」这些专业语境顶替成另一个义项。",
+   "count": 24
+  },
+  {
+   "title": "单元三 · 搭配里的那个意思",
+   "action": "只出现在固定搭配里的义项，只能整块背：stand for 是「代表」，不是「站立」；result in 是「导致」，不是「结果」。看到 in / for / to 这类介词，先在脑中把整个词块调出来，再对号入座。本单元题量不多——因为词库里真正的搭配型陷阱义就这么多，每一个都要背成永久分。",
+   "count": 6
+  },
+  {
+   "title": "单元四 · 形容词与副词的另一个意思",
+   "action": "形容词看它修饰谁、修饰的是褒是贬：sound 在「说法严谨」和「声音」之间切换；mean 在「吝啬的」和「意味着」之间切换。副词同理，先确定修饰的是动词、形容词还是整句。",
+   "count": 11
+  },
+  {
+   "title": "单元五 · 综合实战",
+   "action": "把义项树摊开做：把该词的所有义项写成一列，再逐个用「这个义项放进句子里通不通」筛掉，最后只留一个。本单元跨动词、名词、形容词、副词混编，专门放最硬的题——考场上时间不够，就用这个 30 秒动作代替犹豫。",
+   "count": 30
+  }
+ ],
+ "preview": [
+  {
+   "no": 1,
+   "stem": "Each wooden toy in the shop is carefully ______ from small parts, so no two of them are exactly alike.",
+   "stem_cn": "店里的每一件木头玩具都是用小零件仔细拼装而成的，所以没有两件是完全一样的。",
+   "carrier": "C1",
+   "difficulty": "mid",
+   "module": "E1_熟词僻义",
+   "options": [
+    {
+     "key": "A",
+     "text": "assembled"
+    },
+    {
+     "key": "B",
+     "text": "gathered"
+    },
+    {
+     "key": "C",
+     "text": "collected"
+    },
+    {
+     "key": "D",
+     "text": "put together"
+    }
+   ],
+   "answer": "A",
+   "answer_text": "assembled",
+   "sense_text": "组装、装配（机器、零件）",
+   "explanation": "【考场动作】先看介词：from small parts 表明动作是把零件「拼成一个整体」，不是把材料「收集起来」。再看谓语：is carefully ___ 用被动，说明成品是被拼出来的，主语是玩具。\n【为什么选 A】assemble the parts / assemble a model / is assembled by hand 是高考语料写「组装、装配」的标准说法，和后半句 no two of them are exactly alike 的「每件都是拼出来的」互证。\n【其他选项】B gathered 是 assemble 最熟悉的「集合」义被搬过来，语法通、语感也通，可它表示聚拢；C collected 是 assemble 的「收集、汇总」义，宾语是资料、数据，接不了零件；D put together 语义完全说得通，纯语感排不掉，但实物拼装在高考语料里固定用 assemble 一词。"
+  },
+  {
+   "no": 2,
+   "stem": "According to the duty roster posted outside the classroom, each senior student is ______ to accompany one new pupil during the first month of term.",
+   "stem_cn": "根据贴在教室外的值班表，每位高年级学生都要______在开学第一个月里陪伴一位新同学。",
+   "carrier": "C4",
+   "difficulty": "mid",
+   "module": "E1_熟词僻义",
+   "options": [
+    {
+     "key": "A",
+     "text": "assigned"
+    },
+    {
+     "key": "B",
+     "text": "appointed"
+    },
+    {
+     "key": "C",
+     "text": "required"
+    },
+    {
+     "key": "D",
+     "text": "associated"
+    }
+   ],
+   "answer": "A",
+   "answer_text": "assigned",
+   "sense_text": "指派、委派（某人担任某职、做某事）",
+   "explanation": "【考场动作】先看空后面的不定式 to accompany 和前面的 duty roster（值班表）：表格派下来的活儿，一定是「指派、分派职责给某人」，不是「把东西分发给某人」。凡是「人 + to do sth」这一结构，表示「让某人去做某事」的动词在高考语料里首选 assign；把 assign 只当「分配桌椅经费」来解，就是典型的熟词僻义漏认。\n【为什么选 A】assigned to accompany 是 assign 的「指派、委派」义，在语法填空里正好考这个义项在被动结构中的形态：is assigned to do sth（被指派去做某事）。句中每位高年级学生按排班去带一位新同学，是「指派任务给人」的典型场景。\n【其他选项】B appointed 语义近、结构也完全成立，是最强干扰，但 appoint 指「正式任命职位」，值班表这种临时分工不用 appoint，学生多在「任职」这一层意思上栽跟头。C required 语感也通，可 require 强调「对方有权要求」，与「按表分派职责」这一来源不符。D associated 属形近音近误选（assign／associate），associate 后必须接 with，assign yourself to 才是「把自己安排到某岗位」，语序方向正好相反。"
+  },
+  {
+   "no": 3,
+   "stem": "Prosecutors ______ the two teenagers with stealing confidential files from the school office.",
+   "stem_cn": "检方______这两名少年窃取学校办公室的机密文件。",
+   "carrier": "C1",
+   "difficulty": "mid",
+   "module": "E1_熟词僻义",
+   "options": [
+    {
+     "key": "A",
+     "text": "charged"
+    },
+    {
+     "key": "B",
+     "text": "accused"
+    },
+    {
+     "key": "C",
+     "text": "blamed"
+    },
+    {
+     "key": "D",
+     "text": "discharged"
+    }
+   ],
+   "answer": "A",
+   "answer_text": "charged",
+   "sense_text": "控告、以某罪名指控（某人）",
+   "explanation": "【考场动作】先看空后的介词 with：charge sb with sth 是「以某罪名指控某人」的固定搭配，而 accuse sb of sth、blame sb for sth、suspect sb of sth 各自带自己的介词，谁也换不了谁。判断锚点有两个：一是 with 这个介词，二是语境里出现了刑事罪名（stealing confidential files）加检方这个主体——只有「正式指控」这一层才同时配得上这两条线索。\n【为什么选 A】charge sb with sth 意为「以某罪名指控某人」，本句说检方指控两名少年偷走学校办公室的机密文件，主语是检方、宾语是罪名，用 charged with 完全对得上，「收费、充电」这一层意思在这里根本讲不通。\n【其他选项】B accused 语义最近，意思就是「指控」，但搭配是 accuse sb of sth，介词必须是 of；学生只认 accused、没背住 charge 的搭配就会顺手填进来，这是本题最典型的失分点。C blamed 语义也说得通（责怪他们偷文件），可英语说 blame sb for sth，for 与 with 不能互换，而且「责怪」也弱于检方正式指控的分量。D discharged 与 charge 只差一个前缀，属形近音近误选；discharge sb 是「释放、开除」，跟检方指控根本不是一回事。"
+  },
+  {
+   "no": 4,
+   "stem": "We regret to inform you that the dates on your application form ______ with the dates printed on your passport, so we are unable to process your registration.",
+   "stem_cn": "我们很遗憾地通知您：申请表上的日期与您护照上打印的日期______，因此我们无法为您办理注册。",
+   "carrier": "C4",
+   "difficulty": "mid",
+   "module": "E1_熟词僻义",
+   "options": [
+    {
+     "key": "A",
+     "text": "conflict"
+    },
+    {
+     "key": "B",
+     "text": "clash"
+    },
+    {
+     "key": "C",
+     "text": "disagree"
+    },
+    {
+     "key": "D",
+     "text": "conflicting"
+    }
+   ],
+   "answer": "A",
+   "answer_text": "conflict",
+   "sense_text": "抵触、互不相容（conflict with）",
+   "explanation": "【考场动作】先看主语：the dates on your application form 与 the dates printed on your passport，都是「两份材料里的日期」，是无生命的信息，不是人也不是军队。所以动词义不能取「冲突、争执」，只能是「抵触、不相容」这一层。再看搭配：conflict with 是固定搭配，后面跟另一方，把 conflict with／conflict between 整块记住，看到「甲与乙不相符」就直接调用它。\n【为什么选 A】conflict with 在这里指两份记录在关键信息上互不相容，也就是「日期对不上」，与后半句 so we are unable to process your registration 逻辑吻合——正因为材料互相抵触才办不了手续。这是 conflict 的熟词僻义层用法，不是「双方争执、武装冲突」。\n【其他选项】B clash 语义最接近，clash with 在英语里也成立，但 clash 偏物理碰撞、语气偏轻，正式通知里描述两份材料不一致，语料固定用 conflict with。C disagree 字面讲得通，然而 disagree with 说的是人跟人的看法不合，这里冲突的两方是两份表格上的日期，语域对不上。D conflicting 与 conflict 同词根，学生看到它表示「互相冲突的」就想填；可空格处要的是谓语动词，conflicting 不能单独作谓语，这是词性词形的失分。"
+  },
+  {
+   "no": 5,
+   "stem": "In many exam situations, the candidate is so ______ by anxiety that simple questions are suddenly difficult to answer.",
+   "stem_cn": "在许多考试情境中，候选者被焦虑支配得那么厉害，连简单的问题都突然难以作答。",
+   "carrier": "C1",
+   "difficulty": "mid",
+   "module": "E1_熟词僻义",
+   "options": [
+    {
+     "key": "A",
+     "text": "controlled"
+    },
+    {
+     "key": "B",
+     "text": "possessed"
+    },
+    {
+     "key": "C",
+     "text": "dominated"
+    },
+    {
+     "key": "D",
+     "text": "ruled"
+    }
+   ],
+   "answer": "C",
+   "answer_text": "dominated",
+   "sense_text": "支配、左右（心思、情绪）",
+   "explanation": "【考场动作】先看结构：is so ___ by anxiety，是被动加介词短语，空格填过去分词。再看与 by 短语的搭配：高考语料写「心思被情绪支配」固定用 be dominated by fear / by anxiety 这一整块。\n【为什么选 C】dominated by anxiety 意为「被焦虑支配」，与后半句 simple questions are suddenly difficult to answer 的因果关系吻合。\n【其他选项】A controlled by anxiety 语法与语感都成立，可它强调人为主动「控制」，与情绪自行压倒心思不符；B possessed by anxiety 是极常见的说法，纯语感排不掉，只能靠 be dominated by 这一固定块定输赢；D ruled by anxiety 同样成立、语感全通，考点仍是高考语料对「被情绪支配」的固定说法 dominate。"
+  }
+ ]
+}
