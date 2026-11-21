@@ -137,10 +137,10 @@ const ERRORS=[
 ];
 
 const GOODS=[
- {key:"context",n:"《高考英语核心词 · 仿真语境版》",d:"每个词配一句仿真语境例句 + 3 个高频义项 + 真实搭配",p:4.9,o:null,badge:"热销",cover:"linear-gradient(150deg,#0f766e,#115e59)",coverText:"仿真语境<br>核心词",note:"分档：150 词 ¥1.9 / 750 词 ¥3.9 / 全书 ¥4.9",detail:"openBook"},
- {key:"quiz",n:"《熟词僻义100题专项训练册》",d:"100 题覆盖 100 个高频词的陷阱义，每题附考场动作与错因解析",p:4.9,o:null,badge:"新上架",cover:"linear-gradient(150deg,#f59e0b,#b45309)",coverText:"熟词僻义<br>100题专项",note:"分档：10 题 ¥1.9 / 50 题 ¥3.9 / 全册 ¥4.9",detail:"openBook3"},
- {key:"colloc",n:"《高考英语高频搭配速记手册》",d:"443 词高频搭配，核心搭配配独立仿真例句，词块整体记忆",p:4.9,o:null,badge:"正式版",cover:"linear-gradient(150deg,#475569,#1e293b)",coverText:"高频搭配<br>速记手册",note:"分档：60 词 ¥1.9 / 300 词 ¥3.9 / 全书 443 词 ¥4.9",detail:"openBook2"},
- {key:"plan",n:"《30 天冲刺计划表 + 单词打卡表》",d:"可打印 A4，含每日词量梯度与复盘表",p:3.9,o:null,badge:"打印即用",cover:"linear-gradient(150deg,#0369a1,#075985)",coverText:"30天冲刺<br>计划打卡表",note:"分档：7 天 ¥1.9 / 30 天全套 ¥3.9",detail:"openBook4"}
+ {key:"context",n:"《高考英语核心词 · 仿真语境版》",d:"每个词配一句仿真语境例句 + 3 个高频义项 + 真实搭配",p:2.9,o:null,badge:"热销",cover:"linear-gradient(150deg,#0f766e,#115e59)",coverText:"仿真语境<br>核心词",note:"单本 ¥2.9 · 全书可读 · 一次买断",detail:"openBook"},
+ {key:"quiz",n:"《熟词僻义100题专项训练册》",d:"100 题覆盖 100 个高频词的陷阱义，每题附考场动作与错因解析",p:2.9,o:null,badge:"新上架",cover:"linear-gradient(150deg,#f59e0b,#b45309)",coverText:"熟词僻义<br>100题专项",note:"单本 ¥2.9 · 全书可读 · 一次买断",detail:"openBook3"},
+ {key:"colloc",n:"《高考英语高频搭配速记手册》",d:"443 词高频搭配，核心搭配配独立仿真例句，词块整体记忆",p:2.9,o:null,badge:"正式版",cover:"linear-gradient(150deg,#475569,#1e293b)",coverText:"高频搭配<br>速记手册",note:"单本 ¥2.9 · 全书可读 · 一次买断",detail:"openBook2"},
+ {key:"plan",n:"《30 天冲刺计划表 + 单词打卡表》",d:"可打印 A4，含每日词量梯度与复盘表",p:2.9,o:null,badge:"打印即用",cover:"linear-gradient(150deg,#0369a1,#075985)",coverText:"30天冲刺<br>计划打卡表",note:"单本 ¥2.9 · 全书可读 · 一次买断",detail:"openBook4"}
 ];
 
 /* ==================== STATE ==================== */
@@ -167,33 +167,36 @@ let twFilter='all', twQuery='', twShown=40, twLastWord='';
 let payPlan='year', payStage='plan', buyItem=null, couponUsed=false;
 
 /* ==================== NAV ==================== */
-const SCREENS=['s-home','s-study','s-fam','s-progress','s-quiz','s-trapwords','s-err','s-shop','s-book','s-book2','s-book3','s-book4','s-fullpack','s-me','s-parent'];
+const SCREENS=['s-home','s-study','s-fam','s-progress','s-quiz','s-trapwords','s-review','s-shop','s-book','s-book2','s-book3','s-book4','s-fullpack','s-me'];
+/* 失分地图 / 学习周报现在是「学习复盘」内部的两个面板，不再是独立页面。
+ * 保留 go('s-err') / go('s-parent') 作为兼容入口，自动切到对应面板。 */
+const REVIEW_PANELS=['s-err','s-parent'];
 const META={
  's-home':['首页 · 今日任务','首屏解决「今天该学什么」，高考倒计时 + 连续打卡 + 一个明确的主任务入口，降低高三用户的决策成本。'],
  's-study':['背单词卡','词卡正面是词，背面是释义、仿真语境例句、搭配与熟词僻义提示。必须翻面才能评价 —— 这是记忆算法唯一可靠的数据来源。'],
  's-fam':['发散复习','词形网专属复习：一个核心词带出整族派生词与形近词，三档评价喂给词形网 FSRS 卡片，按到期优先排期。'],
  's-progress':['单词进度','全量 4110 词的练习次数与熟练度一目了然：红=新词优先复习，绿=已学完降低频率，点击即可快速学习。'],
- 's-book':['仿真语境版 · 图书详情','一词三义 + 仿真例句 + 真实搭配，分档定价，可免费试读真实内容（非样张占位）。'],
+ 's-book':['仿真语境版 · 图书详情','一词三义 + 仿真例句 + 真实搭配，单本 ¥2.9 买断，可免费试读真实内容（非样张占位）。'],
  's-book2':['高频搭配速记手册 · 图书详情','一词一组、按义项分组的高频搭配，词块整体记忆，可免费试读真实搭配卡。'],
  's-book3':['熟词僻义100题训练册 · 图书详情','100 题 / 100 词 / 100 个陷阱义，附高考常考变体词卡：词形、形近、搭配与常见义干扰，可免费试读 3 题。'],
  's-book4':['30天冲刺计划表 · 图书详情','四轮递进、每日梯度、可打印打卡表，附全 30 天计划表试读。'],
  's-fullpack':['拾词全包 · 词库详情','考纲范围全覆盖 + 必考层自研释义改写：展示真实覆盖词数、分层结构与可检索的释义样本。'],
  's-quiz':['专项训练 · 熟词僻义','100 题仿真训练，答题反馈即时给出高考常考变体词与常见义干扰；免费 3 题，第 4 题触发付费墙。'],
  's-trapwords':['核心变体词 · 熟练度','443 个高考必考核心词的变体词卡与熟练度反馈：练习次数、红绿状态、牢固/巩固/新学分档，三档自评即时回流。'],
+ 's-review':['学习复盘','把「我英语差」翻译成「我 38% 的失分来自熟词僻义」；再用学习周报把看得见的进步变成下一步计划。'],
  's-err':['失分地图','把「我英语差」翻译成「我 38% 的失分来自熟词僻义」。诊断能力是工具和诊断系统的分界线。'],
  's-shop':['资料商店','全包卡 + 单品教辅。词书按「配套学习进度」推荐，背完词再买词书，转化路径最短。'],
  's-me':['我的','学习数据 + 全包入口 + 订单。数据可视化本身就是留存与建立信任的核心。'],
- 's-parent':['学习周报','免费开放的学习数据周报。用「看得见的进步」建立信任，再谈价格。']
+ 's-parent':['学习周报','基础周报永久免费，数字全部来自真实学习记录；完整版 ¥9.9 解锁深度归因与下周行动计划。']
 };
 const NAVLIST=[
  ['s-home','首页','今日任务与推荐'],
  ['s-study','背单词','词卡与记忆算法'],
  ['s-progress','单词进度','4110 词 · 红绿复习'],
  ['s-quiz','专项训练','熟词僻义付费墙','pay'],
- ['s-err','失分地图','错因诊断'],
+ ['s-review','学习复盘','失分地图 · 学习周报'],
  ['s-shop','资料商店','电商与订阅','pay'],
  ['s-me','我的','数据与订单'],
- ['s-parent','学习周报','每周数据回顾'],
  ['s-fam','发散复习','词形网 · 一核散整族']
 ];
 
@@ -208,11 +211,25 @@ function needLogin(action, hint){
   } catch(e) { /* 测试环境缺少窗口能力时按已登录处理，保持原行为 */ }
   return true;
 }
+function setReviewPanel(panel,skipGate){
+  if(REVIEW_PANELS.indexOf(panel)<0) panel='s-err';
+  if(!skipGate && panel==='s-parent' && !needLogin(function(){setReviewPanel('s-parent');},'学习周报需要登录后查看，请先登录。')) return;
+  REVIEW_PANELS.forEach(p=>{
+    const el=document.getElementById(p); if(el) el.classList.toggle('on',p===panel);
+  });
+  document.querySelectorAll('.rv-tab').forEach(t=>t.classList.toggle('on',t.dataset.panel===panel));
+}
 function go(id){
-  if(id==='s-parent' && !needLogin(function(){go('s-parent');},'学习周报需要登录后查看，请先登录。')) return;
+  let reviewPanel=null;
+  if(REVIEW_PANELS.indexOf(id)>=0){
+    reviewPanel=id;
+    if(id==='s-parent' && !needLogin(function(){go('s-parent');},'学习周报需要登录后查看，请先登录。')) return;
+    id='s-review';
+  }
   SCREENS.forEach(s=>document.getElementById(s).classList.toggle('on',s===id));
-  document.getElementById('phone').classList.toggle('no-tab',['s-study','s-fam','s-progress','s-quiz','s-trapwords','s-err','s-parent','s-book','s-book2','s-book3','s-book4','s-fullpack'].includes(id));
+  document.getElementById('phone').classList.toggle('no-tab',['s-study','s-fam','s-progress','s-quiz','s-trapwords','s-book','s-book2','s-book3','s-book4','s-fullpack'].includes(id));
   document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('on',t.dataset.tab===id||(id==='s-quiz'&&t.dataset.tab==='s-study')));
+  if(reviewPanel) setReviewPanel(reviewPanel,true);
   document.getElementById('screens').scrollTop=0;
   const sc=document.getElementById(id); if(sc) sc.scrollTop=0;
   const m=META[id]; if(m){document.getElementById('caption').innerHTML=
@@ -611,7 +628,11 @@ function famRate(rating,label){
 /* ==================== 仿真语境版 · 图书详情 + 试读 ==================== */
 let bookTier=0, bookPreviewN=3;
 function bookSample(){
-  return (typeof CTX_BOOK!=='undefined'&&CTX_BOOK)?CTX_BOOK:{meta:{name:'高考英语核心词 · 仿真语境版',subtitle:'一词多义 · 仿真语境',status:'正式版',coverage:{current_words:1500,current_senses:2898,example_sentences:300,by_layer:{}},pricing:{tiers:[{name:'试读',words:150,price:1.9},{name:'进阶',words:750,price:3.9},{name:'完整版',words:1500,price:4.9}]}},words:[]};
+  const src=(typeof CTX_BOOK!=='undefined'&&CTX_BOOK)?CTX_BOOK:{meta:{name:'高考英语核心词 · 仿真语境版',subtitle:'一词多义 · 仿真语境',status:'正式版',coverage:{current_words:1500,current_senses:2898,example_sentences:300,by_layer:{}}},words:[]};
+  // 两档定价：单本读本统一 ¥2.9 买断，不再展示历史分档
+  const total=(src.meta&&src.meta.coverage&&src.meta.coverage.current_words)||1500;
+  src.meta=Object.assign({},src.meta,{pricing:{currency:'CNY',tiers:[{name:'完整版',words:total,price:2.9}]}});
+  return src;
 }
 function renderBook(){
   const body=document.getElementById('bookBody');
@@ -660,7 +681,7 @@ function renderBook(){
       prevHtml+moreBtn+'</div>';
 }
 function bookBuy(){
-  // 复用现有下单弹窗：把当前分档作为一个临时商品
+  // 复用现有下单弹窗：单本读本统一作为 ¥2.9 商品
   const b=bookSample(),t=b.meta.pricing.tiers[bookTier];
   buyItem={key:'context',n:'《'+b.meta.name+'》· '+t.name,d:t.words+' 词 · 仿真语境例句',p:t.price,
            cover:'linear-gradient(150deg,#0f766e,#115e59)',coverText:'仿真语境<br>核心词'};
@@ -671,7 +692,10 @@ function openBook(){bookTier=0;bookPreviewN=3;renderBook();go('s-book');}
 /* ==================== 高频搭配速记手册 · 详情 + 试读 ==================== */
 let colTier=0, colPreviewN=2;
 function collocSample(){
-  return (typeof CTX_COLLOC!=='undefined'&&CTX_COLLOC)?CTX_COLLOC:{meta:{name:'高考英语高频搭配速记手册',subtitle:'一词一组 · 按义项分组 · 词块整体记忆',status:'正式版',coverage:{current_words:443,current_collocations:2302,examples_by_method:{'手工精修':641}},type_distribution:{},pricing:{tiers:[{name:'10% 试读',words:60,price:1.9},{name:'50% 进阶',words:300,price:3.9},{name:'完整版',words:443,price:4.9}]},description:''},words:[]};
+  const src=(typeof CTX_COLLOC!=='undefined'&&CTX_COLLOC)?CTX_COLLOC:{meta:{name:'高考英语高频搭配速记手册',subtitle:'一词一组 · 按义项分组 · 词块整体记忆',status:'正式版',coverage:{current_words:443,current_collocations:2302,examples_by_method:{'手工精修':641}},type_distribution:{},description:''},words:[]};
+  const total=(src.meta&&src.meta.coverage&&src.meta.coverage.current_words)||443;
+  src.meta=Object.assign({},src.meta,{pricing:{currency:'CNY',tiers:[{name:'完整版',words:total,price:2.9}]}});
+  return src;
 }
 function renderBook2(){
   const body=document.getElementById('book2Body');
@@ -732,7 +756,12 @@ function openBook2(){colTier=0;colPreviewN=2;renderBook2();go('s-book2');}
 
 /* ==================== 熟词僻义100题训练册 · 详情 + 试读 ==================== */
 let quizTier=0;
-function quizSample(){return (typeof CTX_QUIZ!=='undefined'&&CTX_QUIZ)?CTX_QUIZ:{meta:{name:'熟词僻义 100 题专项训练册',subtitle:'100 个高频词 · 每题一个陷阱义',status:'正式卷',description:'',coverage:{},pricing:{tiers:[{name:'10 题档',count:10,price:1.9},{name:'50 题档',count:50,price:3.9},{name:'完整版',count:100,price:4.9}]}},preview:[],units:[]};}
+function quizSample(){
+  const src=(typeof CTX_QUIZ!=='undefined'&&CTX_QUIZ)?CTX_QUIZ:{meta:{name:'熟词僻义 100 题专项训练册',subtitle:'100 个高频词 · 每题一个陷阱义',status:'正式卷',description:'',coverage:{}},preview:[],units:[]};
+  const total=(src.meta&&src.meta.coverage&&src.meta.coverage.total_questions)||100;
+  src.meta=Object.assign({},src.meta,{pricing:{currency:'CNY',tiers:[{name:'完整版',count:total,price:2.9}]}});
+  return src;
+}
 function renderBook3(){
   const body=document.getElementById('book3Body');if(!body)return;
   const b=quizSample(),m=b.meta,tiers=m.pricing.tiers,cur=tiers[quizTier];
@@ -795,7 +824,12 @@ function openBook3(){quizTier=0;renderBook3();go('s-book3');}
 
 /* ==================== 30天冲刺计划表 · 详情 + 试读 ==================== */
 let planTier=0;
-function planSample(){return (typeof CTX_PLAN!=='undefined'&&CTX_PLAN)?CTX_PLAN:{meta:{name:'30 天冲刺计划表 + 单词打卡表',subtitle:'四轮递进 · 每日梯度',status:'样本卷',description:'',coverage:{},pricing:{tiers:[{name:'7 天体验',days:7,price:1.9},{name:'30 天全套',days:30,price:3.9}]}},days:[]};}
+function planSample(){
+  const src=(typeof CTX_PLAN!=='undefined'&&CTX_PLAN)?CTX_PLAN:{meta:{name:'30 天冲刺计划表 + 单词打卡表',subtitle:'四轮递进 · 每日梯度',status:'样本卷',description:'',coverage:{}},days:[]};
+  const total=(src.days&&src.days.length)||30;
+  src.meta=Object.assign({},src.meta,{pricing:{currency:'CNY',tiers:[{name:'完整版',days:total,price:2.9}]}});
+  return src;
+}
 function renderBook4(){
   const body=document.getElementById('book4Body');if(!body)return;
   const b=planSample(),m=b.meta,tiers=m.pricing.tiers,cur=tiers[planTier];
@@ -1642,11 +1676,167 @@ document.getElementById('goodsList').innerHTML=GOODS.map((g,i)=>
   '<div class="gbot"><div><div class="gprice"><b>¥'+g.p+'</b>'+(g.o?'<s>¥'+g.o+'</s>':'')+'</div><div style="font-size:10.5px;color:var(--ink-3)">'+g.note+'</div></div>'+
   '<button class="buy-btn" onclick="'+(g.detail?g.detail+'()':'openBuy('+i+')')+'">'+(g.detail?'查看详情试读':'立即购买')+'</button></div></div></div>').join('');
 
-/* ==================== HEATMAP ==================== */
-(function(){
-  const lv=[3,2,0,3,4,2,1, 2,3,3,4,3,0,1,2, 4,4,2,3,4,4,2, 3,2,4,3,3,4,0].slice(0,28);
-  document.getElementById('heat').innerHTML=lv.map(v=>'<i class="'+(v?'l'+v:'')+'"></i>').join('');
-})();
+/* ==================== 学习周报：基础版免费 + 完整版 ¥9.9 解锁 ====================
+ * 基础版所有数字来自 Store 的真实记录；深度归因与下周计划属于完整版。 */
+function rpKey(d){
+  return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
+}
+function rpWeekStart(now){
+  return new Date(now.getFullYear(),now.getMonth(),now.getDate()-((now.getDay()+6)%7));
+}
+function renderHeatmap(){
+  const box=document.getElementById('heat'); if(!box)return;
+  const st=(typeof Store!=='undefined'&&Store.snapshot)?Store.snapshot().state:{};
+  const counts={};
+  Object.keys(st.learnedAt||{}).forEach(k=>{
+    const t=Number(st.learnedAt[k]); if(isNaN(t))return;
+    const key=rpKey(new Date(t)); counts[key]=(counts[key]||0)+1;
+  });
+  const today=new Date();
+  const start=new Date(today.getFullYear(),today.getMonth(),today.getDate()-27);
+  let html='';
+  for(let i=0;i<28;i++){
+    const d=new Date(start.getFullYear(),start.getMonth(),start.getDate()+i);
+    const c=counts[rpKey(d)]||0, lv=c?Math.min(4,Math.ceil(c/4)):0;
+    html+='<i class="'+(lv?'l'+lv:'')+'"></i>';
+  }
+  box.innerHTML=html;
+}
+function renderParentReport(){
+  const $=id=>document.getElementById(id);
+  const set=(id,v)=>{const e=$(id); if(e)e.textContent=v;};
+  const stat=(typeof Store!=='undefined'&&Store.stats)?Store.stats():null;
+  const st=(typeof Store!=='undefined'&&Store.snapshot)?Store.snapshot().state:{};
+  const owned=(typeof Store!=='undefined'&&Store.hasAll&&Store.hasAll());
+  const up=$('rpUpgrade');
+  if(up) up.innerHTML=owned
+    ? '<div class="rp-owned">完整周报已解锁 · 深度归因与下周行动计划已显示</div>'
+    : '<div class="rp-up-inner"><div class="rp-up-ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 2.5 20h19L12 3Z"/><path d="M12 9v5"/><path d="M12 17h.01"/></svg></div>'+
+      '<div class="rp-up-tx"><b>基础周报免费 · 完整版 ¥9.9</b><span>解锁深度失分归因、下周行动计划与报告导出；基础数据永久免费。</span></div>'+
+      '<button class="rp-up-btn" onclick="openPay(\'all\')">解锁</button></div>';
+  document.querySelectorAll('.rp-full').forEach(n=>{n.style.display=owned?'':'none';});
+  const now=new Date(), mon=rpWeekStart(now), sun=new Date(mon.getFullYear(),mon.getMonth(),mon.getDate()+6);
+  set('rpRange',(mon.getMonth()+1)+'.'+mon.getDate()+' – '+(sun.getMonth()+1)+'.'+sun.getDate());
+  const left=Math.max(0,Math.ceil((GAOKAO_DATE-now)/86400000));
+  set('rpBannerKText','本周学习实录 · 距 2027 高考 '+left+' 天');
+  const learned=st.learnedAt||{};
+  const stamps=Object.keys(learned).map(k=>Number(learned[k])).filter(t=>!isNaN(t));
+  const weekEnd=sun.getTime()+86400000-1;
+  const weekNew=stamps.filter(t=>t>=mon.getTime()&&t<=weekEnd).length;
+  set('rpBannerTitle',weekNew?('本周新学 '+weekNew+' 词，每一步都算数'):'本周还没有新学词，从今日任务开始');
+  set('rpBannerDesc','所有数字都来自你的真实学习记录，不做预估、不注水。');
+  const mins=stat?stat.minutes:0;
+  set('rpTime',mins>=60?(mins/60).toFixed(1)+'h':mins+'min');
+  set('rpWeekNew',weekNew);
+  const q=st.quiz||{};
+  set('rpAccSub',q.answered?(q.right+'/'+q.answered+' 题真实作答'):'先做 3 题看真实正确率');
+  set('rpCheckSub',(st.days&&st.days.length)?('累计打卡 '+st.days.length+' 天'):'今天开始第一次打卡');
+  if(stat){set('kpiAcc',stat.quizAnswered?stat.accuracy+'%':'—');set('kpiCheckin',stat.streak+'/7');}
+  const counts=[0,0,0,0,0,0,0];
+  stamps.forEach(t=>{const d=new Date(t); if(d>=mon&&d<=sun) counts[(d.getDay()+6)%7]++;});
+  const max=Math.max.apply(null,counts.concat([1]));
+  const bars=$('weekBars');
+  if(bars) bars.innerHTML=['一','二','三','四','五','六','日'].map((l,i)=>
+    '<div class="wk-col"><span class="wk-v">'+(counts[i]||'')+'</span>'+
+    '<div class="wk-bar" style="height:'+Math.max(3,Math.round(counts[i]/max*66))+'px"></div>'+
+    '<span class="wk-n">'+l+'</span></div>').join('');
+  renderHeatmap();
+}
+renderParentReport();
+
+/* ==================== 订单：一次买断，订单与资料永久可下载 ==================== */
+function loadOrders(){
+  try{
+    const arr=(Store.snapshot().state||{}).orders;
+    return Array.isArray(arr)?arr:[];
+  }catch(e){ return []; }
+}
+/* 订单并入 learning_state.state.orders：随账号云同步，换设备/清缓存后仍可下载凭证 */
+function saveOrders(list){
+  try{
+    const s=Store.snapshot(); s.state.orders=list;
+    Store.hydrate(s.state,s.entitlements); Store.save();
+  }catch(e){}
+}
+function recordOrder(o){
+  const list=loadOrders();
+  const no='SC'+Date.now().toString(36).toUpperCase()+String(Math.floor(Math.random()*900)+100);
+  const rec={no:no,name:o.name||'',amount:Number(o.amount||0),source:o.source||'支付',key:o.key||'',at:o.at||Date.now()};
+  list.unshift(rec); saveOrders(list); refreshOrderUI();
+  return rec;
+}
+function recordRedeemOrder(code){
+  return recordOrder({name:'拾词全包（兑换码激活）',amount:0,source:'兑换码 '+(code||''),key:'all'});
+}
+function refreshOrderUI(){
+  const n=document.getElementById('orderCount');
+  if(n) n.textContent=loadOrders().length+' 笔';
+}
+function fmtAmount(v){
+  const n=Number(v||0);
+  return n?n.toFixed(2).replace(/\.?0+$/,''):'0';
+}
+function fmtOrderTime(ts){
+  try{
+    const d=new Date(ts);
+    return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')+
+      ' '+String(d.getHours()).padStart(2,'0')+':'+String(d.getMinutes()).padStart(2,'0');
+  }catch(e){ return ''; }
+}
+function downloadText(name,text){
+  const a=document.createElement('a');
+  a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(text);
+  a.download=name;
+  const parent=document.body||document.documentElement;
+  if(parent&&parent.appendChild) parent.appendChild(a);
+  if(typeof a.click==='function') a.click();
+  if(a.parentNode&&a.parentNode.removeChild) a.parentNode.removeChild(a);
+  return {href:a.href,name:a.download};
+}
+function downloadOrder(no){
+  const o=loadOrders().find(x=>x.no===no); if(!o)return null;
+  const text=[
+    '拾词 · 订单凭证','========================',
+    '订单号：'+o.no,
+    '商品：'+o.name,
+    '金额：¥'+fmtAmount(o.amount),
+    '来源：'+o.source,
+    '下单时间：'+fmtOrderTime(o.at),
+    '权益状态：永久有效 · 一次买断 · 无续费',
+    '下载说明：订单与资料可在应用「我的 → 我的订单」随时重新下载，链接不过期。',
+    '合规说明：例句为仿真语境，不含真题与教材原文。',
+    '凭证生成时间：'+fmtOrderTime(Date.now())
+  ].join('\n');
+  return downloadText('拾词订单凭证_'+o.no+'.txt',text);
+}
+function downloadLegacyVoucher(){
+  const text=[
+    '拾词 · 全包权益凭证','========================',
+    '权益：拾词全包（历史权益）',
+    '状态：永久有效 · 一次买断 · 无续费',
+    '说明：该权益早于订单记录功能，凭证可随时在本应用「我的 → 我的订单」重新下载。',
+    '合规说明：例句为仿真语境，不含真题与教材原文。',
+    '凭证生成时间：'+fmtOrderTime(Date.now())
+  ].join('\n');
+  return downloadText('拾词全包权益凭证.txt',text);
+}
+function openOrders(){
+  const list=loadOrders();
+  let s='<div class="handle"></div><h3>我的订单</h3><p class="sub">一次买断 · 订单与资料永久可下载</p>';
+  if(!list.length){
+    s+=(typeof Store!=='undefined'&&Store.hasAll())
+      ? '<div class="card" style="padding:14px;margin-bottom:12px"><div style="font-size:13px;font-weight:700">拾词全包权益已生效</div><div style="font-size:11px;color:var(--ink-3);line-height:1.6;margin:6px 0 10px">该权益来自历史记录，可下载权益凭证，永久有效。</div><button class="btn btn-ghost" onclick="downloadLegacyVoucher()">下载权益凭证</button></div>'
+      : '<div class="pg-empty">还没有订单，购买后这里会永久保存</div>';
+  }else{
+    s+=list.map(o=>
+      '<div class="ord-item"><div class="ord-hd"><span class="ord-name">'+o.name+'</span><span class="ord-amt">¥'+fmtAmount(o.amount)+'</span></div>'+
+      '<div class="ord-meta">'+o.source+' · '+fmtOrderTime(o.at)+' · 永久有效</div>'+
+      '<div class="ord-btns"><button class="ord-btn" onclick="downloadOrder(\''+o.no+'\')">下载订单凭证</button></div></div>').join('');
+  }
+  s+='<p style="text-align:center;font-size:11px;color:var(--ink-3);margin-top:12px;line-height:1.6">订单与资料永久可下载 · 链接过期也可在这里重新获取<br>7 天无理由退款 · 一次买断无续费</p>';
+  openMask(s);
+}
+refreshOrderUI();
 
 /* ==================== MODALS ==================== */
 function openMask(html){document.getElementById('sheet').innerHTML=html;document.getElementById('mask').classList.add('on');}
@@ -1661,6 +1851,7 @@ function openPay(plan){
 /* 全包支付成功：写入权益 → 刷新全站付费信息 → 展示成功态 */
 function payAll(){
   Store.grantAll();
+  recordOrder({name:'拾词全包',amount:9.9,source:'支付',key:'all'});
   payStage='done';
   refreshEntitlementUI();
   renderPay();
@@ -1670,21 +1861,21 @@ function renderPay(){
   let s='<div class="handle"></div>';
   if(payStage==='done'){
     s+='<div class="success"><div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></div>'+
-      '<h3>开通成功</h3><p>全包已生效：完整训练册 + App 全部功能，一次买断，没有续费</p>'+
-      '<button class="btn btn-primary" onclick="closeMask();go(\'s-quiz\')">继续刷题</button>'+
-      '<button class="btn btn-ghost" style="margin-top:10px" onclick="closeMask();go(\'s-me\')">查看我的全包</button></div>';
+      '<h3>开通成功</h3><p>全包已生效：完整训练册 + App 全部功能，一次买断，没有续费。订单已保存，可永久下载凭证。</p>'+
+      '<button class="btn btn-primary" onclick="closeMask();openOrders()">查看并下载订单凭证</button>'+
+      '<button class="btn btn-ghost" style="margin-top:10px" onclick="closeMask();go(\'s-quiz\')">继续刷题</button></div>';
   }else{
     s+='<h3>拾词全包</h3><p class="sub">一次买断，含完整 100 题训练册 + App 全部功能</p>'+
       '<div class="plan">'+
         '<button class="plan-c on"><b>¥9.9</b><span>全包 · 一次买断</span></button>'+
       '</div>'+
       '<div style="margin-bottom:12px">'+
-        ['完整 100 题专项训练册 PDF','全部专项训练题库 + 完整解析','仿真语境例句库','错词自动复习 + 完整失分地图','学习周报每周推送','离线词库，校园网无信号也能背','新高考卷型更新免费'].map(p=>
+        ['四本读本全含（单买 ¥2.9 / 本）','完整 100 题专项训练册 PDF','全部专项训练题库 + 完整解析','仿真语境例句库','错词自动复习 + 完整失分地图','完整学习周报 · 深度归因与下周行动计划','一次买断 · 永久可用'].map(p=>
         '<div class="perk"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>'+p+'</div>').join('')+
       '</div>'+
       '<div class="coupon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v3a2 2 0 0 0 0 6v3a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-3a2 2 0 0 0 0-6Z"/><path d="M12 6v2M12 16v2M12 11v2"/></svg>全包一次性买断，没有年卡月卡，也不需要续费</div>'+
       '<button class="btn btn-primary" style="margin-top:14px" onclick="payAll()">微信支付 ¥9.9</button>'+
-      '<p style="text-align:center;font-size:11px;color:var(--ink-3);margin-top:10px">支持微信 / 支付宝 · 7 天无理由退款</p>';
+      '<p style="text-align:center;font-size:11px;color:var(--ink-3);margin-top:10px">订单与资料永久可下载 · 一次买断无续费 · 7 天无理由退款<br>演示支付流程 · 当前可用兑换码开通</p>';
   }
   document.getElementById('sheet').innerHTML=s;
 }
@@ -1696,7 +1887,10 @@ function openBuy(i){
 }
 /* 单品支付成功：写入该书权益 → 刷新全站 → 成功态 */
 function payBook(){
-  if(buyItem&&buyItem.key) Store.grantBook(buyItem.key);
+  if(buyItem&&buyItem.key){
+    Store.grantBook(buyItem.key);
+    recordOrder({name:buyItem.n,amount:buyItem.p,source:'支付',key:buyItem.key});
+  }
   payStage='buydone';
   refreshEntitlementUI();
   renderBuy();
@@ -1708,8 +1902,9 @@ function renderBuy(){
   let s='<div class="handle"></div>';
   if(payStage==='buydone'){
     s+='<div class="success"><div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></div>'+
-      '<h3>下单成功</h3><p>《'+g.n+'》已加入「我的资料」，下载链接已发送到你的微信</p>'+
-      '<button class="btn btn-primary" onclick="closeMask()">去学习</button></div>';
+      '<h3>下单成功</h3><p>《'+g.n+'》已解锁，可在「我的资料」中查看。订单已保存，凭证与资料永久可下载。</p>'+
+      '<button class="btn btn-primary" onclick="closeMask();openOrders()">下载订单凭证</button>'+
+      '<button class="btn btn-ghost" style="margin-top:10px" onclick="closeMask()">去学习</button></div>';
   }else{
     s+='<h3>确认订单</h3><p class="sub">电子版即时下载，可自行双面打印</p>'+
       '<div class="card goods" style="box-shadow:none;padding:12px;margin-bottom:14px"><div class="gcover" style="background:'+g.cover+';height:78px;width:62px">'+g.coverText+'</div>'+
@@ -1765,7 +1960,7 @@ function refreshEntitlementUI(){
     shopBtn.style.opacity=owned?'.72':'';
   }
   if(shopPrice){
-    shopPrice.innerHTML=owned?'<b style="font-size:15px;color:var(--accent-deep)">已解锁</b><em>一次买断 · 永久可用</em>':'<b>¥9.9</b><em>全站最高价</em>';
+    shopPrice.innerHTML=owned?'<b style="font-size:15px;color:var(--accent-deep)">已解锁</b><em>一次买断 · 永久可用</em>':'<b>¥9.9</b><em>含四本书 + 完整周报</em>';
   }
   // 重新渲染所有动态页面，让购买按钮按最新权益显示
   if(typeof renderBook==='function')renderBook();
@@ -1886,6 +2081,8 @@ function syncStats(){
   if(typeof syncCountdown==='function') syncCountdown();
   // 今日任务组卷：三段构成随作答/登录后云端状态实时刷新
   if(typeof renderDailyCard==='function') renderDailyCard();
+  // 学习周报：基础数据随真实学习记录刷新，完整版门禁随权益刷新
+  if(typeof renderParentReport==='function') renderParentReport();
   // 成长看板：已学词数滚动 + 等级 + 里程碑 + 今日新学
   if(typeof renderGrowth==='function') renderGrowth();
   // 学习成效：近7日趋势 + 熟练度分布
@@ -2147,7 +2344,7 @@ setInterval(()=>{
 
 /* keyboard nav */
 document.addEventListener('keydown',e=>{
-  const order=['s-home','s-study','s-shop','s-me'];
+  const order=['s-home','s-study','s-review','s-shop','s-me'];
   if(e.key==='ArrowRight'||e.key==='ArrowLeft'){
     const cur=SCREENS.findIndex(s=>document.getElementById(s).classList.contains('on'));
     const tabIdx=order.findIndex(s=>s===SCREENS[cur]);
@@ -2172,6 +2369,8 @@ function refreshAppUI(){
     if(typeof renderFullPackTeaser==='function') renderFullPackTeaser();
     if(typeof renderProgress==='function') renderProgress();
     if(typeof renderTrapWords==='function') renderTrapWords();
+    if(typeof renderParentReport==='function') renderParentReport();
+    if(typeof refreshOrderUI==='function') refreshOrderUI();
     if(typeof renderGrowth==='function') renderGrowth();
     if(typeof syncStats==='function') syncStats();
   } catch(e) { console.error('[拾词] 云端状态重绘失败', e && e.message ? e.message : e); }

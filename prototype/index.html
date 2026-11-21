@@ -101,6 +101,42 @@ svg{display:block}
 .tab{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;font-size:10.5px;color:var(--ink-3);transition:color .18s}
 .tab.on{color:var(--accent-deep);font-weight:600}
 .tab .badge{position:absolute;top:6px;margin-left:22px;background:var(--danger);color:#fff;font-size:9px;line-height:1;padding:2px 4.5px;border-radius:99px;font-family:'Outfit',sans-serif;font-weight:700}
+/* 5 个底部入口：压缩图标与字号，保证「学习复盘」四字不折行 */
+.tab{min-width:0;padding:0 2px;gap:2px;font-size:10px;letter-spacing:-.02em}
+.tab svg{width:20px;height:20px}
+.tab span{white-space:nowrap}
+
+/* ---------- review · 学习复盘 ---------- */
+.rv-tabs{display:flex;gap:5px;background:#eef1ed;border-radius:13px;padding:4px;margin:2px 0 15px}
+.rv-tab{flex:1;min-width:0;border:0;background:transparent;border-radius:10px;padding:9px 0;font-size:12.5px;font-weight:600;color:var(--ink-3);transition:background .18s,color .18s}
+.rv-tab.on{background:#fff;color:var(--accent-deep);box-shadow:var(--shadow-s)}
+.review-panel{display:none}
+.review-panel.on{display:block;animation:fade .24s ease}
+.review-panel .backbar{padding-top:0}
+
+/* 学习周报：基础版免费，完整版由 9.9 全包解锁 */
+.rp-upgrade{margin:0 0 13px}
+.rp-up-inner{border:1px solid #f3d9a4;background:linear-gradient(120deg,#fffdf7,#fff);border-radius:14px;padding:12px 13px;display:flex;gap:10px;align-items:center}
+.rp-up-ic{width:32px;height:32px;border-radius:10px;background:#fff1f3;color:var(--danger);display:grid;place-items:center;flex:none}
+.rp-up-tx{flex:1;min-width:0}
+.rp-up-tx b{display:block;font-size:12.5px;color:var(--ink);margin-bottom:3px}
+.rp-up-tx span{display:block;font-size:10.5px;color:var(--ink-3);line-height:1.5}
+.rp-up-btn{border:0;background:var(--accent);color:#fff;font-size:11.5px;font-weight:700;border-radius:10px;padding:9px 10px;white-space:nowrap}
+.rp-owned{border:1px solid var(--line);background:#f6faf7;border-radius:12px;padding:10px 12px;font-size:11px;color:var(--accent-deep);font-weight:600}
+.wk-bars{display:flex;align-items:flex-end;gap:8px;height:104px;padding:8px 2px 0}
+.wk-col{flex:1;min-width:0;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%;gap:4px}
+.wk-v{font-family:'Outfit',sans-serif;font-size:9px;color:var(--accent-deep);font-weight:700}
+.wk-bar{width:100%;max-width:20px;min-height:3px;background:var(--accent);border-radius:5px 5px 2px 2px;opacity:.85}
+.wk-n{font-size:9.5px;color:var(--ink-3)}
+
+/* 订单：一次买断，凭证永久可下载 */
+.ord-item{border:1px solid var(--line);border-radius:13px;background:#fff;padding:12px;margin-bottom:10px}
+.ord-hd{display:flex;align-items:baseline;justify-content:space-between;gap:8px}
+.ord-name{font-size:12.5px;font-weight:700;color:var(--ink)}
+.ord-amt{font-family:'Outfit',sans-serif;font-size:14px;font-weight:700;color:var(--accent-deep)}
+.ord-meta{font-size:10.5px;color:var(--ink-3);line-height:1.6;margin-top:5px}
+.ord-btns{display:flex;gap:8px;margin-top:10px}
+.ord-btn{flex:1;border:1px solid var(--line);background:#fff;border-radius:9px;padding:8px 0;font-size:11px;font-weight:600;color:var(--accent-deep)}
 
 /* ---------- generic phone UI ---------- */
 .ptop{padding-top:8px}
@@ -965,9 +1001,9 @@ svg{display:block}
 
     <h2>变现位标注</h2>
     <ul class="dlist">
-      <li><span class="k">A</span><span>专项训练第 4 题起 · 全包 ¥9.9（一次买断，含完整训练册）</span></li>
+      <li><span class="k">A</span><span>专项训练第 4 题起 · 全包 ¥9.9（含四本书 + 完整周报）</span></li>
       <li><span class="k">B</span><span>失分地图完整版 · 含在全包 ¥9.9 内</span></li>
-      <li><span class="k">C</span><span>资料商店 · 分档单品 ¥1.9 / ¥3.9 / ¥4.9</span></li>
+      <li><span class="k">C</span><span>资料商店 · 四本读本各 ¥2.9（单本一次买断）</span></li>
       <li><span class="k">D</span><span>仿真语境例句库（核心壁垒）· 含在全包内</span></li>
     </ul>
 
@@ -996,27 +1032,7 @@ svg{display:block}
           <!-- ===== HOME ===== -->
           <section class="screen on" id="s-home">
             <div class="ptop">
-              <!-- 今日任务置顶：首屏先解决「今天该学什么」 -->
-              <div class="card today-card" style="display:block">
-                <div class="today-top">
-                  <div class="ring" id="ring">
-                    <div class="ring-in"><b id="ringp">0</b><span id="ringSub">今日 0/20</span></div>
-                  </div>
-                  <div class="today-meta">
-                    <h4>今日任务 · <span id="dpModeName">主题聚类</span></h4>
-                    <p id="dpSub">20 词闭环 · 预计 8 分钟</p>
-                    <button class="btn btn-primary" onclick="startDailyPlan()" style="padding:10px 16px;font-size:13.5px">开始今日任务</button>
-                  </div>
-                </div>
-                <div class="dp-seg" id="dpSeg"></div>
-                <div class="dp-orders" id="dpOrders">
-                  <button data-o="alpha" onclick="setDailyOrder('alpha')">字母顺序</button>
-                  <button data-o="theme" class="on" onclick="setDailyOrder('theme')">词义相近</button>
-                  <button data-o="random" onclick="setDailyOrder('random')">随机抽取</button>
-                </div>
-                <div class="dp-peek" id="dpPeek"></div>
-              </div>
-
+              <!-- 高考倒计时置顶：首屏建立备考紧迫感 -->
               <div class="countdown">
                 <div class="cd-top">
                   <div>
@@ -1044,6 +1060,27 @@ svg{display:block}
                   <svg class="fire" width="12" height="12" viewBox="0 0 24 24" fill="#fbbf24"><path d="M12 2c1 4-3 5-3 9a4 4 0 0 0 7 2.6C18 11 15 6 12 2Z"/></svg>
                   <span id="cdUrgentText">按这个节奏，每天得背 21 词才来得及</span>
                 </div>
+              </div>
+
+              <!-- 今日任务：首屏解决「今天该学什么」 -->
+              <div class="card today-card" style="display:block">
+                <div class="today-top">
+                  <div class="ring" id="ring">
+                    <div class="ring-in"><b id="ringp">0</b><span id="ringSub">今日 0/20</span></div>
+                  </div>
+                  <div class="today-meta">
+                    <h4>今日任务 · <span id="dpModeName">主题聚类</span></h4>
+                    <p id="dpSub">20 词闭环 · 预计 8 分钟</p>
+                    <button class="btn btn-primary" onclick="startDailyPlan()" style="padding:10px 16px;font-size:13.5px">开始今日任务</button>
+                  </div>
+                </div>
+                <div class="dp-seg" id="dpSeg"></div>
+                <div class="dp-orders" id="dpOrders">
+                  <button data-o="alpha" onclick="setDailyOrder('alpha')">字母顺序</button>
+                  <button data-o="theme" class="on" onclick="setDailyOrder('theme')">词义相近</button>
+                  <button data-o="random" onclick="setDailyOrder('random')">随机抽取</button>
+                </div>
+                <div class="dp-peek" id="dpPeek"></div>
               </div>
 
               <!-- 学习成长看板：把「我学到了什么」放到首页最显眼处 -->
@@ -1086,7 +1123,7 @@ svg{display:block}
                 </div>
               </div>
 
-              <div class="sec-head"><h3>为你推荐</h3><span class="more" onclick="go('s-err')">失分地图 <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span></div>
+              <div class="sec-head"><h3>为你推荐</h3><span class="more" style="color:var(--ink-3);font-weight:500">今日精练</span></div>
 
               <div class="hero-entry" onclick="go('s-quiz')">
                 <div class="k">
@@ -1098,34 +1135,6 @@ svg{display:block}
                 <span class="go">开始练习 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
               </div>
 
-              <div class="card small-entry" onclick="go('s-progress')" style="margin-bottom:11px;border-color:#f3d9a4;background:linear-gradient(120deg,#fffdf7,#fff)">
-                <div class="ic" style="background:#fff1f3;color:var(--danger)">
-                  <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><rect x="7" y="12" width="3" height="6"/><rect x="12" y="8" width="3" height="10"/><rect x="17" y="5" width="3" height="13"/></svg>
-                </div>
-                <h4>单词进度</h4>
-                <p id="homeProgLine">红=新词 · 绿=已学完 · 4110 词全量</p>
-                <span class="go" style="color:#b45309">查看 <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
-              </div>
-
-              <div class="two-grid">
-                <div class="card small-entry" onclick="go('s-err')">
-                  <div class="ic" style="background:var(--danger-tint);color:var(--danger)">
-                    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
-                  </div>
-                  <h4>失分地图</h4>
-                  <p>近 30 天错因定位</p>
-                  <span class="go">查看 <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
-                </div>
-                <div class="card small-entry" onclick="go('s-parent')">
-                  <div class="ic" style="background:var(--accent-tint);color:var(--accent-deep)">
-                    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M8 21V9h8v12"/></svg>
-                  </div>
-                  <h4>学习周报</h4>
-                  <p>本周学习进度报告</p>
-                  <span class="go">查看 <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
-                </div>
-              </div>
-
             </div>
           </section>
 
@@ -1135,6 +1144,15 @@ svg{display:block}
               <button class="icon-btn" onclick="go('s-home')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button>
               <div class="pbar"><i id="spbar" style="width:60%"></i></div>
               <span class="cnt" id="scnt">12/20</span>
+            </div>
+            <!-- 单词进度入口：从首页移到背词页顶端，学习时随时可查看全量红绿进度 -->
+            <div class="card small-entry" onclick="go('s-progress')" style="margin:2px 0 12px;border-color:#f3d9a4;background:linear-gradient(120deg,#fffdf7,#fff)">
+              <div class="ic" style="background:#fff1f3;color:var(--danger)">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><rect x="7" y="12" width="3" height="6"/><rect x="12" y="8" width="3" height="10"/><rect x="17" y="5" width="3" height="13"/></svg>
+              </div>
+              <h4>单词进度</h4>
+              <p id="homeProgLine">红=新词 · 绿=已学完 · 4110 词全量</p>
+              <span class="go" style="color:#b45309">查看 <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
             </div>
             <div id="studyBody"></div>
           </section>
@@ -1224,45 +1242,113 @@ svg{display:block}
             <div id="trapWordsBody"></div>
           </section>
 
-          <!-- ===== ERROR MAP ===== -->
-          <section class="screen sub" id="s-err">
-            <div class="backbar">
-              <button class="icon-btn" onclick="go('s-home')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button>
-              <h3>失分地图</h3>
-              <span class="more" style="margin-left:auto;font-size:11.5px;color:var(--ink-3)">近 30 天</span>
-            </div>
-            <p class="scr-sub" style="margin-top:-6px">累计 <span id="kpiQuizN">0</span> 题 · 错 <span id="kpiQuizW">0</span> 题 · 你的失分高度集中在「熟词僻义」</p>
-
-            <div class="advice">
-              <div class="k">
-                <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v4"/><path d="M12 17h.01"/><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0Z"/></svg>
-                本周建议
+           <!-- ===== REVIEW · 学习复盘（失分地图 + 学习周报） ===== -->
+          <section class="screen" id="s-review">
+            <div class="ptop">
+              <h2 class="scr-title">学习复盘</h2>
+              <p class="scr-sub">把「感觉没学好」变成看得见的失分原因与下一步</p>
+              <div class="rv-tabs" id="rvTabs">
+                <button class="rv-tab on" data-panel="s-err" onclick="setReviewPanel('s-err')">失分地图</button>
+                <button class="rv-tab" data-panel="s-parent" onclick="setReviewPanel('s-parent')">学习周报</button>
               </div>
-              <h4>优先攻克熟词僻义</h4>
-              <p id="errAdvice">正在统计你的错因分布…</p>
-            </div>
 
-            <div class="chart-card">
-              <h4>错因分布</h4>
-              <div class="sub" id="errDistSub">按失分原因归类，而非词表顺序</div>
-              <div id="errDist"></div>
-              <div class="legend">
-                <span><i style="background:var(--danger)"></i>首要缺口</span>
-                <span><i style="background:var(--accent);opacity:.7"></i>次要缺口</span>
-                <span><i style="background:var(--accent);opacity:.3"></i>边缘失分</span>
+              <div class="review-panel on" id="s-err">
+
+              <div class="backbar">
+                <h3>失分地图</h3>
+                <span class="more" style="margin-left:auto;font-size:11.5px;color:var(--ink-3)">近 30 天</span>
+              </div>
+              <p class="scr-sub" style="margin-top:-6px">累计 <span id="kpiQuizN">0</span> 题 · 错 <span id="kpiQuizW">0</span> 题 · 你的失分高度集中在「熟词僻义」</p>
+
+              <div class="advice">
+                <div class="k">
+                  <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v4"/><path d="M12 17h.01"/><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0Z"/></svg>
+                  本周建议
+                </div>
+                <h4>优先攻克熟词僻义</h4>
+                <p id="errAdvice">正在统计你的错因分布…</p>
+              </div>
+
+              <div class="chart-card">
+                <h4>错因分布</h4>
+                <div class="sub" id="errDistSub">按失分原因归类，而非词表顺序</div>
+                <div id="errDist"></div>
+                <div class="legend">
+                  <span><i style="background:var(--danger)"></i>首要缺口</span>
+                  <span><i style="background:var(--accent);opacity:.7"></i>次要缺口</span>
+                  <span><i style="background:var(--accent);opacity:.3"></i>边缘失分</span>
+                </div>
+              </div>
+
+              <div class="chart-card">
+                <h4>题型分布</h4>
+                <div class="sub">哪类题型在偷走你的分数</div>
+                <div id="typeDist"></div>
+              </div>
+
+              <div class="sec-head"><h3>高频错词 · Top 5</h3><span class="more" id="errTotal">全部 0 个</span></div>
+              <div class="errlist" id="errList"></div>
+
+              <button class="btn btn-dark" style="margin-top:14px" onclick="go('s-quiz')">一键攻克 Top10 错词</button>
+
+              </div>
+
+              <div class="review-panel" id="s-parent">
+
+              <div class="backbar">
+                <h3>学习周报</h3>
+                <span id="rpRange" style="margin-left:auto;font-size:11.5px;color:var(--ink-3)">本周</span>
+              </div>
+
+              <!-- 基础周报永久免费；完整周报才需要 9.9 全包解锁 -->
+              <div id="rpUpgrade" class="rp-upgrade"></div>
+
+              <div class="rpt-banner">
+                <div class="k" id="rpBannerK">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+                  <span id="rpBannerKText">本周学习实录</span>
+                </div>
+                <h3 id="rpBannerTitle">从第一词开始，数据如实记录</h3>
+                <p id="rpBannerDesc">这里的所有数字都来自你的真实学习记录，不做预估、不注水。</p>
+              </div>
+
+              <div class="kpi-grid">
+                <div class="kpi"><div class="l">累计学习时长</div><b id="rpTime">0min</b><div class="d" id="rpTimeSub">来自真实学习计时</div></div>
+                <div class="kpi"><div class="l">本周新学词</div><b id="rpWeekNew">0</b><div class="d" id="rpWeekNewSub">本周首次学会的词</div></div>
+                <div class="kpi"><div class="l">综合正确率</div><b id="kpiAcc">—</b><div class="d" id="rpAccSub">先做 3 题看真实正确率</div></div>
+                <div class="kpi"><div class="l">坚持打卡</div><b id="kpiCheckin">0/7</b><div class="d" id="rpCheckSub">今天开始第一次打卡</div></div>
+              </div>
+
+              <div class="chart-card">
+                <h4>每日新学量</h4>
+                <div class="sub">本周首次学会的词数（周一至周日）· 真实记录</div>
+                <div id="weekBars" class="wk-bars"></div>
+              </div>
+
+              <div class="chart-card">
+                <h4>近 4 周打卡</h4>
+                <div class="sub">颜色越深，学习量越大</div>
+                <div class="heat-labels"><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span></div>
+                <div class="heat" id="heat"></div>
+              </div>
+
+              <div class="chart-card rp-full">
+                <h4>本周薄弱项 · 完整版</h4>
+                <div class="sub">建议按此顺序补弱</div>
+                <div class="bench top"><span class="bench-label">熟词僻义</span><div class="bench-track"><div class="bench-fill" style="width:38%"></div></div><span class="bench-val">38%</span></div>
+                <div class="bench"><span class="bench-label">一词多义</span><div class="bench-track"><div class="bench-fill" style="width:24%;opacity:.72"></div></div><span class="bench-val">24%</span></div>
+                <div class="bench"><span class="bench-label">固定搭配</span><div class="bench-track"><div class="bench-fill" style="width:19%;opacity:.52"></div></div><span class="bench-val">19%</span></div>
+              </div>
+
+              <div class="sec-head rp-full"><h3>下周行动计划 · 完整版</h3></div>
+              <div class="ptips rp-full">
+                <div class="ptip"><span class="n">1</span><span>本周有 <b>1 天未打卡</b>（周六），建议把每日目标从 20 词调到 15 词，先保住连续性再提量。</span></div>
+                <div class="ptip"><span class="n">2</span><span>错题集中在<b>熟词僻义</b>，是「认识但不懂句中含义」。专项训练每天 5 题，两周可见明显变化。</span></div>
+                <div class="ptip"><span class="n">3</span><span>正确率提升 8%，处于健康区间。<b>不必加量</b>，当前节奏比强度更重要。</span></div>
+              </div>
+
               </div>
             </div>
-
-            <div class="chart-card">
-              <h4>题型分布</h4>
-              <div class="sub">哪类题型在偷走你的分数</div>
-              <div id="typeDist"></div>
-            </div>
-
-            <div class="sec-head"><h3>高频错词 · Top 5</h3><span class="more" id="errTotal">全部 0 个</span></div>
-            <div class="errlist" id="errList"></div>
-
-            <button class="btn btn-dark" style="margin-top:14px" onclick="go('s-quiz')">一键攻克 Top10 错词</button>
           </section>
 
           <!-- ===== SHOP ===== -->
@@ -1280,22 +1366,22 @@ svg{display:block}
               <div class="mcard">
                 <span class="k">全包 · 一次买断</span>
                 <h4>拾词全包</h4>
-                <p style="font-size:12px;color:var(--ink-3)">完整 100 题训练册 + 全部专项训练、义项树与学习周报</p>
+                <p style="font-size:12px;color:var(--ink-3)">四本读本全含 + 完整学习周报 + 全部专项训练与义项树</p>
                 <div id="fullpackStats" style="font-size:11.5px;color:var(--ink-3);line-height:1.6;margin:8px 0 2px"></div>
                 <div class="price" id="shopPrice">
-                  <b>¥9.9</b><em>全站最高价</em>
+                  <b>¥9.9</b><em>含四本书 + 完整周报</em>
                 </div>
                 <div class="mlist">
                   <div><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>完整 100 题专项训练册 PDF</div>
                   <div><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>全部专项训练题库 + 解析</div>
                   <div><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>仿真语境例句库</div>
                   <div><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>错词自动复习 + 完整失分地图</div>
-                  <div><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>学习周报 · 每周推送</div>
+                  <div><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>完整学习周报 · 深度归因与下周计划</div>
                 </div>
                 <button class="btn btn-primary" id="shopAllBtn" onclick="openFullPack()">查看详情试读词库</button>
               </div>
 
-              <div class="sec-head"><h3>单品教辅</h3><span class="more">电子 PDF · 分档定价</span></div>
+              <div class="sec-head"><h3>单品读本</h3><span class="more">电子 PDF · 每本 ¥2.9</span></div>
               <div id="goodsList"></div>
 
               <div class="card" style="padding:14px;margin-top:6px;display:flex;gap:11px;align-items:center">
@@ -1383,10 +1469,10 @@ svg{display:block}
                   <span class="t">学习周报</span>
                   <span class="r">11月10日 <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
                 </button>
-                <button class="mrow" onclick="openPay('all')">
+                <button class="mrow" onclick="openOrders()">
                   <span class="ic"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2.5"/><path d="M2 10h20"/></svg></span>
                   <span class="t">我的订单</span>
-                  <span class="r">2 笔 <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
+                  <span class="r"><span id="orderCount">0 笔</span> <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
                 </button>
                 <button class="mrow">
                   <span class="ic"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.9l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.9-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1A1.7 1.7 0 0 0 9 19.4a1.7 1.7 0 0 0-1.9.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.9 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1A1.7 1.7 0 0 0 4.6 9a1.7 1.7 0 0 0-.3-1.9l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.9.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.9-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.9V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1Z"/></svg></span>
@@ -1405,80 +1491,6 @@ svg{display:block}
             </div>
           </section>
 
-          <!-- ===== PARENT REPORT ===== -->
-          <section class="screen sub" id="s-parent">
-            <div class="backbar">
-              <button class="icon-btn" onclick="go('s-home')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button>
-              <h3>学习周报</h3>
-              <span style="margin-left:auto;font-size:11.5px;color:var(--ink-3)">11.10 – 11.16</span>
-            </div>
-
-            <div class="rpt-banner">
-              <div class="k">
-                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
-                第 3 周 · 距离高考 203 天
-              </div>
-              <h3>本周学习状态：稳步上升</h3>
-              <p>学习时长与正确率同时提升，熟词僻义仍是主要短板，建议继续专项训练。</p>
-            </div>
-
-            <div class="kpi-grid">
-              <div class="kpi"><div class="l">学习时长</div><b>3.5h</b><div class="d up"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 15 7-7 7 7"/></svg>较上周 +40%</div></div>
-              <div class="kpi"><div class="l">本周复习词</div><b>142</b><div class="d up"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 15 7-7 7 7"/></svg>计划 120 词</div></div>
-              <div class="kpi"><div class="l">综合正确率</div><b id="kpiAcc">0%</b><div class="d up"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 15 7-7 7 7"/></svg>+8%</div></div>
-              <div class="kpi"><div class="l">坚持打卡</div><b id="kpiCheckin">0/7</b><div class="d down"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 9 7 7 7-7"/></svg>缺 1 天</div></div>
-            </div>
-
-            <div class="chart-card">
-              <h4>每日学习量</h4>
-              <div class="sub">本周背诵词数（周一至周日）</div>
-              <svg viewBox="0 0 300 120" width="100%" height="120" fill="none">
-                <line x1="24" y1="96" x2="288" y2="96" stroke="#e4e8e3" stroke-width="1"/>
-                <line x1="24" y1="62" x2="288" y2="62" stroke="#eef1ed" stroke-width="1"/>
-                <line x1="24" y1="28" x2="288" y2="28" stroke="#eef1ed" stroke-width="1"/>
-                <text x="18" y="99" font-size="8" fill="#78857f" text-anchor="end" font-family="Outfit">0</text>
-                <text x="18" y="65" font-size="8" fill="#78857f" text-anchor="end" font-family="Outfit">30</text>
-                <text x="18" y="31" font-size="8" fill="#78857f" text-anchor="end" font-family="Outfit">60</text>
-                <path d="M36 76 L76 58 L116 66 L156 40 L196 50 L236 22 L276 34" stroke="#10b981" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M36 76 L76 58 L116 66 L156 40 L196 50 L236 22 L276 34 L276 96 L36 96 Z" fill="#10b981" fill-opacity=".08"/>
-                <circle cx="36" cy="76" r="3.2" fill="#fff" stroke="#10b981" stroke-width="2"/>
-                <circle cx="76" cy="58" r="3.2" fill="#fff" stroke="#10b981" stroke-width="2"/>
-                <circle cx="116" cy="66" r="3.2" fill="#fff" stroke="#10b981" stroke-width="2"/>
-                <circle cx="156" cy="40" r="3.2" fill="#fff" stroke="#10b981" stroke-width="2"/>
-                <circle cx="196" cy="50" r="3.2" fill="#fff" stroke="#10b981" stroke-width="2"/>
-                <circle cx="236" cy="22" r="3.2" fill="#10b981" stroke="#fff" stroke-width="2"/>
-                <circle cx="276" cy="34" r="3.2" fill="#fff" stroke="#10b981" stroke-width="2"/>
-                <text x="36" y="112" font-size="8.5" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC">一</text>
-                <text x="76" y="112" font-size="8.5" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC">二</text>
-                <text x="116" y="112" font-size="8.5" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC">三</text>
-                <text x="156" y="112" font-size="8.5" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC">四</text>
-                <text x="196" y="112" font-size="8.5" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC">五</text>
-                <text x="236" y="112" font-size="8.5" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC">六</text>
-                <text x="276" y="112" font-size="8.5" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC">日</text>
-              </svg>
-            </div>
-
-            <div class="chart-card">
-              <h4>近 4 周打卡</h4>
-              <div class="sub">颜色越深，学习量越大</div>
-              <div class="heat-labels"><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span></div>
-              <div class="heat" id="heat"></div>
-            </div>
-
-            <div class="chart-card">
-              <h4>本周薄弱项</h4>
-              <div class="sub">建议按此顺序补弱</div>
-              <div class="bench top"><span class="bench-label">熟词僻义</span><div class="bench-track"><div class="bench-fill" style="width:38%"></div></div><span class="bench-val">38%</span></div>
-              <div class="bench"><span class="bench-label">一词多义</span><div class="bench-track"><div class="bench-fill" style="width:24%;opacity:.72"></div></div><span class="bench-val">24%</span></div>
-              <div class="bench"><span class="bench-label">固定搭配</span><div class="bench-track"><div class="bench-fill" style="width:19%;opacity:.52"></div></div><span class="bench-val">19%</span></div>
-            </div>
-
-            <div class="sec-head"><h3>本周建议</h3></div>
-            <div class="ptips">
-              <div class="ptip"><span class="n">1</span><span>本周有 <b>1 天未打卡</b>（周六），建议把每日目标从 20 词调到 15 词，先保住连续性再提量。</span></div>
-              <div class="ptip"><span class="n">2</span><span>错题集中在<b>熟词僻义</b>，是「认识但不懂句中含义」。专项训练每天 5 题，两周可见明显变化。</span></div>
-              <div class="ptip"><span class="n">3</span><span>正确率提升 8%，处于健康区间。<b>不必加量</b>，当前节奏比强度更重要。</span></div>
-            </div>
           </section>
         </div>
 
@@ -1490,6 +1502,10 @@ svg{display:block}
           <button class="tab" data-tab="s-study">
             <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5V5a2 2 0 0 1 2-2h13"/><path d="M6 17h13"/><path d="M9 7h6"/></svg>
             <span>背词</span>
+          </button>
+          <button class="tab" data-tab="s-review">
+            <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="2.5"/><path d="M8 8h8"/><path d="M8 12h5"/><path d="m8 17 2 2 4-4"/></svg>
+            <span>学习复盘</span>
           </button>
           <button class="tab" data-tab="s-shop">
             <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
@@ -2039,7 +2055,8 @@ var Store = (function () {
       seconds: 0,      // 累计学习秒数
       startedAt: null,
       quickPractice: {},  // 非 LEX 覆盖词：word → {count, mastery, lastAt}
-      learnedAt: {}       // word → 首次学会时间戳（红转绿的时刻）
+      learnedAt: {},      // word → 首次学会时间戳（红转绿的时刻）
+      orders: []          // 购买/兑换订单记录，随 learning_state 一起云同步，永久可下载凭证
     };
   }
 
@@ -15881,10 +15898,10 @@ const ERRORS=[
 ];
 
 const GOODS=[
- {key:"context",n:"《高考英语核心词 · 仿真语境版》",d:"每个词配一句仿真语境例句 + 3 个高频义项 + 真实搭配",p:4.9,o:null,badge:"热销",cover:"linear-gradient(150deg,#0f766e,#115e59)",coverText:"仿真语境<br>核心词",note:"分档：150 词 ¥1.9 / 750 词 ¥3.9 / 全书 ¥4.9",detail:"openBook"},
- {key:"quiz",n:"《熟词僻义100题专项训练册》",d:"100 题覆盖 100 个高频词的陷阱义，每题附考场动作与错因解析",p:4.9,o:null,badge:"新上架",cover:"linear-gradient(150deg,#f59e0b,#b45309)",coverText:"熟词僻义<br>100题专项",note:"分档：10 题 ¥1.9 / 50 题 ¥3.9 / 全册 ¥4.9",detail:"openBook3"},
- {key:"colloc",n:"《高考英语高频搭配速记手册》",d:"443 词高频搭配，核心搭配配独立仿真例句，词块整体记忆",p:4.9,o:null,badge:"正式版",cover:"linear-gradient(150deg,#475569,#1e293b)",coverText:"高频搭配<br>速记手册",note:"分档：60 词 ¥1.9 / 300 词 ¥3.9 / 全书 443 词 ¥4.9",detail:"openBook2"},
- {key:"plan",n:"《30 天冲刺计划表 + 单词打卡表》",d:"可打印 A4，含每日词量梯度与复盘表",p:3.9,o:null,badge:"打印即用",cover:"linear-gradient(150deg,#0369a1,#075985)",coverText:"30天冲刺<br>计划打卡表",note:"分档：7 天 ¥1.9 / 30 天全套 ¥3.9",detail:"openBook4"}
+ {key:"context",n:"《高考英语核心词 · 仿真语境版》",d:"每个词配一句仿真语境例句 + 3 个高频义项 + 真实搭配",p:2.9,o:null,badge:"热销",cover:"linear-gradient(150deg,#0f766e,#115e59)",coverText:"仿真语境<br>核心词",note:"单本 ¥2.9 · 全书可读 · 一次买断",detail:"openBook"},
+ {key:"quiz",n:"《熟词僻义100题专项训练册》",d:"100 题覆盖 100 个高频词的陷阱义，每题附考场动作与错因解析",p:2.9,o:null,badge:"新上架",cover:"linear-gradient(150deg,#f59e0b,#b45309)",coverText:"熟词僻义<br>100题专项",note:"单本 ¥2.9 · 全书可读 · 一次买断",detail:"openBook3"},
+ {key:"colloc",n:"《高考英语高频搭配速记手册》",d:"443 词高频搭配，核心搭配配独立仿真例句，词块整体记忆",p:2.9,o:null,badge:"正式版",cover:"linear-gradient(150deg,#475569,#1e293b)",coverText:"高频搭配<br>速记手册",note:"单本 ¥2.9 · 全书可读 · 一次买断",detail:"openBook2"},
+ {key:"plan",n:"《30 天冲刺计划表 + 单词打卡表》",d:"可打印 A4，含每日词量梯度与复盘表",p:2.9,o:null,badge:"打印即用",cover:"linear-gradient(150deg,#0369a1,#075985)",coverText:"30天冲刺<br>计划打卡表",note:"单本 ¥2.9 · 全书可读 · 一次买断",detail:"openBook4"}
 ];
 
 /* ==================== STATE ==================== */
@@ -15911,33 +15928,36 @@ let twFilter='all', twQuery='', twShown=40, twLastWord='';
 let payPlan='year', payStage='plan', buyItem=null, couponUsed=false;
 
 /* ==================== NAV ==================== */
-const SCREENS=['s-home','s-study','s-fam','s-progress','s-quiz','s-trapwords','s-err','s-shop','s-book','s-book2','s-book3','s-book4','s-fullpack','s-me','s-parent'];
+const SCREENS=['s-home','s-study','s-fam','s-progress','s-quiz','s-trapwords','s-review','s-shop','s-book','s-book2','s-book3','s-book4','s-fullpack','s-me'];
+/* 失分地图 / 学习周报现在是「学习复盘」内部的两个面板，不再是独立页面。
+ * 保留 go('s-err') / go('s-parent') 作为兼容入口，自动切到对应面板。 */
+const REVIEW_PANELS=['s-err','s-parent'];
 const META={
  's-home':['首页 · 今日任务','首屏解决「今天该学什么」，高考倒计时 + 连续打卡 + 一个明确的主任务入口，降低高三用户的决策成本。'],
  's-study':['背单词卡','词卡正面是词，背面是释义、仿真语境例句、搭配与熟词僻义提示。必须翻面才能评价 —— 这是记忆算法唯一可靠的数据来源。'],
  's-fam':['发散复习','词形网专属复习：一个核心词带出整族派生词与形近词，三档评价喂给词形网 FSRS 卡片，按到期优先排期。'],
  's-progress':['单词进度','全量 4110 词的练习次数与熟练度一目了然：红=新词优先复习，绿=已学完降低频率，点击即可快速学习。'],
- 's-book':['仿真语境版 · 图书详情','一词三义 + 仿真例句 + 真实搭配，分档定价，可免费试读真实内容（非样张占位）。'],
+ 's-book':['仿真语境版 · 图书详情','一词三义 + 仿真例句 + 真实搭配，单本 ¥2.9 买断，可免费试读真实内容（非样张占位）。'],
  's-book2':['高频搭配速记手册 · 图书详情','一词一组、按义项分组的高频搭配，词块整体记忆，可免费试读真实搭配卡。'],
  's-book3':['熟词僻义100题训练册 · 图书详情','100 题 / 100 词 / 100 个陷阱义，附高考常考变体词卡：词形、形近、搭配与常见义干扰，可免费试读 3 题。'],
  's-book4':['30天冲刺计划表 · 图书详情','四轮递进、每日梯度、可打印打卡表，附全 30 天计划表试读。'],
  's-fullpack':['拾词全包 · 词库详情','考纲范围全覆盖 + 必考层自研释义改写：展示真实覆盖词数、分层结构与可检索的释义样本。'],
  's-quiz':['专项训练 · 熟词僻义','100 题仿真训练，答题反馈即时给出高考常考变体词与常见义干扰；免费 3 题，第 4 题触发付费墙。'],
  's-trapwords':['核心变体词 · 熟练度','443 个高考必考核心词的变体词卡与熟练度反馈：练习次数、红绿状态、牢固/巩固/新学分档，三档自评即时回流。'],
+ 's-review':['学习复盘','把「我英语差」翻译成「我 38% 的失分来自熟词僻义」；再用学习周报把看得见的进步变成下一步计划。'],
  's-err':['失分地图','把「我英语差」翻译成「我 38% 的失分来自熟词僻义」。诊断能力是工具和诊断系统的分界线。'],
  's-shop':['资料商店','全包卡 + 单品教辅。词书按「配套学习进度」推荐，背完词再买词书，转化路径最短。'],
  's-me':['我的','学习数据 + 全包入口 + 订单。数据可视化本身就是留存与建立信任的核心。'],
- 's-parent':['学习周报','免费开放的学习数据周报。用「看得见的进步」建立信任，再谈价格。']
+ 's-parent':['学习周报','基础周报永久免费，数字全部来自真实学习记录；完整版 ¥9.9 解锁深度归因与下周行动计划。']
 };
 const NAVLIST=[
  ['s-home','首页','今日任务与推荐'],
  ['s-study','背单词','词卡与记忆算法'],
  ['s-progress','单词进度','4110 词 · 红绿复习'],
  ['s-quiz','专项训练','熟词僻义付费墙','pay'],
- ['s-err','失分地图','错因诊断'],
+ ['s-review','学习复盘','失分地图 · 学习周报'],
  ['s-shop','资料商店','电商与订阅','pay'],
  ['s-me','我的','数据与订单'],
- ['s-parent','学习周报','每周数据回顾'],
  ['s-fam','发散复习','词形网 · 一核散整族']
 ];
 
@@ -15952,11 +15972,25 @@ function needLogin(action, hint){
   } catch(e) { /* 测试环境缺少窗口能力时按已登录处理，保持原行为 */ }
   return true;
 }
+function setReviewPanel(panel,skipGate){
+  if(REVIEW_PANELS.indexOf(panel)<0) panel='s-err';
+  if(!skipGate && panel==='s-parent' && !needLogin(function(){setReviewPanel('s-parent');},'学习周报需要登录后查看，请先登录。')) return;
+  REVIEW_PANELS.forEach(p=>{
+    const el=document.getElementById(p); if(el) el.classList.toggle('on',p===panel);
+  });
+  document.querySelectorAll('.rv-tab').forEach(t=>t.classList.toggle('on',t.dataset.panel===panel));
+}
 function go(id){
-  if(id==='s-parent' && !needLogin(function(){go('s-parent');},'学习周报需要登录后查看，请先登录。')) return;
+  let reviewPanel=null;
+  if(REVIEW_PANELS.indexOf(id)>=0){
+    reviewPanel=id;
+    if(id==='s-parent' && !needLogin(function(){go('s-parent');},'学习周报需要登录后查看，请先登录。')) return;
+    id='s-review';
+  }
   SCREENS.forEach(s=>document.getElementById(s).classList.toggle('on',s===id));
-  document.getElementById('phone').classList.toggle('no-tab',['s-study','s-fam','s-progress','s-quiz','s-trapwords','s-err','s-parent','s-book','s-book2','s-book3','s-book4','s-fullpack'].includes(id));
+  document.getElementById('phone').classList.toggle('no-tab',['s-study','s-fam','s-progress','s-quiz','s-trapwords','s-book','s-book2','s-book3','s-book4','s-fullpack'].includes(id));
   document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('on',t.dataset.tab===id||(id==='s-quiz'&&t.dataset.tab==='s-study')));
+  if(reviewPanel) setReviewPanel(reviewPanel,true);
   document.getElementById('screens').scrollTop=0;
   const sc=document.getElementById(id); if(sc) sc.scrollTop=0;
   const m=META[id]; if(m){document.getElementById('caption').innerHTML=
@@ -16355,7 +16389,11 @@ function famRate(rating,label){
 /* ==================== 仿真语境版 · 图书详情 + 试读 ==================== */
 let bookTier=0, bookPreviewN=3;
 function bookSample(){
-  return (typeof CTX_BOOK!=='undefined'&&CTX_BOOK)?CTX_BOOK:{meta:{name:'高考英语核心词 · 仿真语境版',subtitle:'一词多义 · 仿真语境',status:'正式版',coverage:{current_words:1500,current_senses:2898,example_sentences:300,by_layer:{}},pricing:{tiers:[{name:'试读',words:150,price:1.9},{name:'进阶',words:750,price:3.9},{name:'完整版',words:1500,price:4.9}]}},words:[]};
+  const src=(typeof CTX_BOOK!=='undefined'&&CTX_BOOK)?CTX_BOOK:{meta:{name:'高考英语核心词 · 仿真语境版',subtitle:'一词多义 · 仿真语境',status:'正式版',coverage:{current_words:1500,current_senses:2898,example_sentences:300,by_layer:{}}},words:[]};
+  // 两档定价：单本读本统一 ¥2.9 买断，不再展示历史分档
+  const total=(src.meta&&src.meta.coverage&&src.meta.coverage.current_words)||1500;
+  src.meta=Object.assign({},src.meta,{pricing:{currency:'CNY',tiers:[{name:'完整版',words:total,price:2.9}]}});
+  return src;
 }
 function renderBook(){
   const body=document.getElementById('bookBody');
@@ -16404,7 +16442,7 @@ function renderBook(){
       prevHtml+moreBtn+'</div>';
 }
 function bookBuy(){
-  // 复用现有下单弹窗：把当前分档作为一个临时商品
+  // 复用现有下单弹窗：单本读本统一作为 ¥2.9 商品
   const b=bookSample(),t=b.meta.pricing.tiers[bookTier];
   buyItem={key:'context',n:'《'+b.meta.name+'》· '+t.name,d:t.words+' 词 · 仿真语境例句',p:t.price,
            cover:'linear-gradient(150deg,#0f766e,#115e59)',coverText:'仿真语境<br>核心词'};
@@ -16415,7 +16453,10 @@ function openBook(){bookTier=0;bookPreviewN=3;renderBook();go('s-book');}
 /* ==================== 高频搭配速记手册 · 详情 + 试读 ==================== */
 let colTier=0, colPreviewN=2;
 function collocSample(){
-  return (typeof CTX_COLLOC!=='undefined'&&CTX_COLLOC)?CTX_COLLOC:{meta:{name:'高考英语高频搭配速记手册',subtitle:'一词一组 · 按义项分组 · 词块整体记忆',status:'正式版',coverage:{current_words:443,current_collocations:2302,examples_by_method:{'手工精修':641}},type_distribution:{},pricing:{tiers:[{name:'10% 试读',words:60,price:1.9},{name:'50% 进阶',words:300,price:3.9},{name:'完整版',words:443,price:4.9}]},description:''},words:[]};
+  const src=(typeof CTX_COLLOC!=='undefined'&&CTX_COLLOC)?CTX_COLLOC:{meta:{name:'高考英语高频搭配速记手册',subtitle:'一词一组 · 按义项分组 · 词块整体记忆',status:'正式版',coverage:{current_words:443,current_collocations:2302,examples_by_method:{'手工精修':641}},type_distribution:{},description:''},words:[]};
+  const total=(src.meta&&src.meta.coverage&&src.meta.coverage.current_words)||443;
+  src.meta=Object.assign({},src.meta,{pricing:{currency:'CNY',tiers:[{name:'完整版',words:total,price:2.9}]}});
+  return src;
 }
 function renderBook2(){
   const body=document.getElementById('book2Body');
@@ -16476,7 +16517,12 @@ function openBook2(){colTier=0;colPreviewN=2;renderBook2();go('s-book2');}
 
 /* ==================== 熟词僻义100题训练册 · 详情 + 试读 ==================== */
 let quizTier=0;
-function quizSample(){return (typeof CTX_QUIZ!=='undefined'&&CTX_QUIZ)?CTX_QUIZ:{meta:{name:'熟词僻义 100 题专项训练册',subtitle:'100 个高频词 · 每题一个陷阱义',status:'正式卷',description:'',coverage:{},pricing:{tiers:[{name:'10 题档',count:10,price:1.9},{name:'50 题档',count:50,price:3.9},{name:'完整版',count:100,price:4.9}]}},preview:[],units:[]};}
+function quizSample(){
+  const src=(typeof CTX_QUIZ!=='undefined'&&CTX_QUIZ)?CTX_QUIZ:{meta:{name:'熟词僻义 100 题专项训练册',subtitle:'100 个高频词 · 每题一个陷阱义',status:'正式卷',description:'',coverage:{}},preview:[],units:[]};
+  const total=(src.meta&&src.meta.coverage&&src.meta.coverage.total_questions)||100;
+  src.meta=Object.assign({},src.meta,{pricing:{currency:'CNY',tiers:[{name:'完整版',count:total,price:2.9}]}});
+  return src;
+}
 function renderBook3(){
   const body=document.getElementById('book3Body');if(!body)return;
   const b=quizSample(),m=b.meta,tiers=m.pricing.tiers,cur=tiers[quizTier];
@@ -16539,7 +16585,12 @@ function openBook3(){quizTier=0;renderBook3();go('s-book3');}
 
 /* ==================== 30天冲刺计划表 · 详情 + 试读 ==================== */
 let planTier=0;
-function planSample(){return (typeof CTX_PLAN!=='undefined'&&CTX_PLAN)?CTX_PLAN:{meta:{name:'30 天冲刺计划表 + 单词打卡表',subtitle:'四轮递进 · 每日梯度',status:'样本卷',description:'',coverage:{},pricing:{tiers:[{name:'7 天体验',days:7,price:1.9},{name:'30 天全套',days:30,price:3.9}]}},days:[]};}
+function planSample(){
+  const src=(typeof CTX_PLAN!=='undefined'&&CTX_PLAN)?CTX_PLAN:{meta:{name:'30 天冲刺计划表 + 单词打卡表',subtitle:'四轮递进 · 每日梯度',status:'样本卷',description:'',coverage:{}},days:[]};
+  const total=(src.days&&src.days.length)||30;
+  src.meta=Object.assign({},src.meta,{pricing:{currency:'CNY',tiers:[{name:'完整版',days:total,price:2.9}]}});
+  return src;
+}
 function renderBook4(){
   const body=document.getElementById('book4Body');if(!body)return;
   const b=planSample(),m=b.meta,tiers=m.pricing.tiers,cur=tiers[planTier];
@@ -17386,11 +17437,167 @@ document.getElementById('goodsList').innerHTML=GOODS.map((g,i)=>
   '<div class="gbot"><div><div class="gprice"><b>¥'+g.p+'</b>'+(g.o?'<s>¥'+g.o+'</s>':'')+'</div><div style="font-size:10.5px;color:var(--ink-3)">'+g.note+'</div></div>'+
   '<button class="buy-btn" onclick="'+(g.detail?g.detail+'()':'openBuy('+i+')')+'">'+(g.detail?'查看详情试读':'立即购买')+'</button></div></div></div>').join('');
 
-/* ==================== HEATMAP ==================== */
-(function(){
-  const lv=[3,2,0,3,4,2,1, 2,3,3,4,3,0,1,2, 4,4,2,3,4,4,2, 3,2,4,3,3,4,0].slice(0,28);
-  document.getElementById('heat').innerHTML=lv.map(v=>'<i class="'+(v?'l'+v:'')+'"></i>').join('');
-})();
+/* ==================== 学习周报：基础版免费 + 完整版 ¥9.9 解锁 ====================
+ * 基础版所有数字来自 Store 的真实记录；深度归因与下周计划属于完整版。 */
+function rpKey(d){
+  return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
+}
+function rpWeekStart(now){
+  return new Date(now.getFullYear(),now.getMonth(),now.getDate()-((now.getDay()+6)%7));
+}
+function renderHeatmap(){
+  const box=document.getElementById('heat'); if(!box)return;
+  const st=(typeof Store!=='undefined'&&Store.snapshot)?Store.snapshot().state:{};
+  const counts={};
+  Object.keys(st.learnedAt||{}).forEach(k=>{
+    const t=Number(st.learnedAt[k]); if(isNaN(t))return;
+    const key=rpKey(new Date(t)); counts[key]=(counts[key]||0)+1;
+  });
+  const today=new Date();
+  const start=new Date(today.getFullYear(),today.getMonth(),today.getDate()-27);
+  let html='';
+  for(let i=0;i<28;i++){
+    const d=new Date(start.getFullYear(),start.getMonth(),start.getDate()+i);
+    const c=counts[rpKey(d)]||0, lv=c?Math.min(4,Math.ceil(c/4)):0;
+    html+='<i class="'+(lv?'l'+lv:'')+'"></i>';
+  }
+  box.innerHTML=html;
+}
+function renderParentReport(){
+  const $=id=>document.getElementById(id);
+  const set=(id,v)=>{const e=$(id); if(e)e.textContent=v;};
+  const stat=(typeof Store!=='undefined'&&Store.stats)?Store.stats():null;
+  const st=(typeof Store!=='undefined'&&Store.snapshot)?Store.snapshot().state:{};
+  const owned=(typeof Store!=='undefined'&&Store.hasAll&&Store.hasAll());
+  const up=$('rpUpgrade');
+  if(up) up.innerHTML=owned
+    ? '<div class="rp-owned">完整周报已解锁 · 深度归因与下周行动计划已显示</div>'
+    : '<div class="rp-up-inner"><div class="rp-up-ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 2.5 20h19L12 3Z"/><path d="M12 9v5"/><path d="M12 17h.01"/></svg></div>'+
+      '<div class="rp-up-tx"><b>基础周报免费 · 完整版 ¥9.9</b><span>解锁深度失分归因、下周行动计划与报告导出；基础数据永久免费。</span></div>'+
+      '<button class="rp-up-btn" onclick="openPay(\'all\')">解锁</button></div>';
+  document.querySelectorAll('.rp-full').forEach(n=>{n.style.display=owned?'':'none';});
+  const now=new Date(), mon=rpWeekStart(now), sun=new Date(mon.getFullYear(),mon.getMonth(),mon.getDate()+6);
+  set('rpRange',(mon.getMonth()+1)+'.'+mon.getDate()+' – '+(sun.getMonth()+1)+'.'+sun.getDate());
+  const left=Math.max(0,Math.ceil((GAOKAO_DATE-now)/86400000));
+  set('rpBannerKText','本周学习实录 · 距 2027 高考 '+left+' 天');
+  const learned=st.learnedAt||{};
+  const stamps=Object.keys(learned).map(k=>Number(learned[k])).filter(t=>!isNaN(t));
+  const weekEnd=sun.getTime()+86400000-1;
+  const weekNew=stamps.filter(t=>t>=mon.getTime()&&t<=weekEnd).length;
+  set('rpBannerTitle',weekNew?('本周新学 '+weekNew+' 词，每一步都算数'):'本周还没有新学词，从今日任务开始');
+  set('rpBannerDesc','所有数字都来自你的真实学习记录，不做预估、不注水。');
+  const mins=stat?stat.minutes:0;
+  set('rpTime',mins>=60?(mins/60).toFixed(1)+'h':mins+'min');
+  set('rpWeekNew',weekNew);
+  const q=st.quiz||{};
+  set('rpAccSub',q.answered?(q.right+'/'+q.answered+' 题真实作答'):'先做 3 题看真实正确率');
+  set('rpCheckSub',(st.days&&st.days.length)?('累计打卡 '+st.days.length+' 天'):'今天开始第一次打卡');
+  if(stat){set('kpiAcc',stat.quizAnswered?stat.accuracy+'%':'—');set('kpiCheckin',stat.streak+'/7');}
+  const counts=[0,0,0,0,0,0,0];
+  stamps.forEach(t=>{const d=new Date(t); if(d>=mon&&d<=sun) counts[(d.getDay()+6)%7]++;});
+  const max=Math.max.apply(null,counts.concat([1]));
+  const bars=$('weekBars');
+  if(bars) bars.innerHTML=['一','二','三','四','五','六','日'].map((l,i)=>
+    '<div class="wk-col"><span class="wk-v">'+(counts[i]||'')+'</span>'+
+    '<div class="wk-bar" style="height:'+Math.max(3,Math.round(counts[i]/max*66))+'px"></div>'+
+    '<span class="wk-n">'+l+'</span></div>').join('');
+  renderHeatmap();
+}
+renderParentReport();
+
+/* ==================== 订单：一次买断，订单与资料永久可下载 ==================== */
+function loadOrders(){
+  try{
+    const arr=(Store.snapshot().state||{}).orders;
+    return Array.isArray(arr)?arr:[];
+  }catch(e){ return []; }
+}
+/* 订单并入 learning_state.state.orders：随账号云同步，换设备/清缓存后仍可下载凭证 */
+function saveOrders(list){
+  try{
+    const s=Store.snapshot(); s.state.orders=list;
+    Store.hydrate(s.state,s.entitlements); Store.save();
+  }catch(e){}
+}
+function recordOrder(o){
+  const list=loadOrders();
+  const no='SC'+Date.now().toString(36).toUpperCase()+String(Math.floor(Math.random()*900)+100);
+  const rec={no:no,name:o.name||'',amount:Number(o.amount||0),source:o.source||'支付',key:o.key||'',at:o.at||Date.now()};
+  list.unshift(rec); saveOrders(list); refreshOrderUI();
+  return rec;
+}
+function recordRedeemOrder(code){
+  return recordOrder({name:'拾词全包（兑换码激活）',amount:0,source:'兑换码 '+(code||''),key:'all'});
+}
+function refreshOrderUI(){
+  const n=document.getElementById('orderCount');
+  if(n) n.textContent=loadOrders().length+' 笔';
+}
+function fmtAmount(v){
+  const n=Number(v||0);
+  return n?n.toFixed(2).replace(/\.?0+$/,''):'0';
+}
+function fmtOrderTime(ts){
+  try{
+    const d=new Date(ts);
+    return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')+
+      ' '+String(d.getHours()).padStart(2,'0')+':'+String(d.getMinutes()).padStart(2,'0');
+  }catch(e){ return ''; }
+}
+function downloadText(name,text){
+  const a=document.createElement('a');
+  a.href='data:text/plain;charset=utf-8,'+encodeURIComponent(text);
+  a.download=name;
+  const parent=document.body||document.documentElement;
+  if(parent&&parent.appendChild) parent.appendChild(a);
+  if(typeof a.click==='function') a.click();
+  if(a.parentNode&&a.parentNode.removeChild) a.parentNode.removeChild(a);
+  return {href:a.href,name:a.download};
+}
+function downloadOrder(no){
+  const o=loadOrders().find(x=>x.no===no); if(!o)return null;
+  const text=[
+    '拾词 · 订单凭证','========================',
+    '订单号：'+o.no,
+    '商品：'+o.name,
+    '金额：¥'+fmtAmount(o.amount),
+    '来源：'+o.source,
+    '下单时间：'+fmtOrderTime(o.at),
+    '权益状态：永久有效 · 一次买断 · 无续费',
+    '下载说明：订单与资料可在应用「我的 → 我的订单」随时重新下载，链接不过期。',
+    '合规说明：例句为仿真语境，不含真题与教材原文。',
+    '凭证生成时间：'+fmtOrderTime(Date.now())
+  ].join('\n');
+  return downloadText('拾词订单凭证_'+o.no+'.txt',text);
+}
+function downloadLegacyVoucher(){
+  const text=[
+    '拾词 · 全包权益凭证','========================',
+    '权益：拾词全包（历史权益）',
+    '状态：永久有效 · 一次买断 · 无续费',
+    '说明：该权益早于订单记录功能，凭证可随时在本应用「我的 → 我的订单」重新下载。',
+    '合规说明：例句为仿真语境，不含真题与教材原文。',
+    '凭证生成时间：'+fmtOrderTime(Date.now())
+  ].join('\n');
+  return downloadText('拾词全包权益凭证.txt',text);
+}
+function openOrders(){
+  const list=loadOrders();
+  let s='<div class="handle"></div><h3>我的订单</h3><p class="sub">一次买断 · 订单与资料永久可下载</p>';
+  if(!list.length){
+    s+=(typeof Store!=='undefined'&&Store.hasAll())
+      ? '<div class="card" style="padding:14px;margin-bottom:12px"><div style="font-size:13px;font-weight:700">拾词全包权益已生效</div><div style="font-size:11px;color:var(--ink-3);line-height:1.6;margin:6px 0 10px">该权益来自历史记录，可下载权益凭证，永久有效。</div><button class="btn btn-ghost" onclick="downloadLegacyVoucher()">下载权益凭证</button></div>'
+      : '<div class="pg-empty">还没有订单，购买后这里会永久保存</div>';
+  }else{
+    s+=list.map(o=>
+      '<div class="ord-item"><div class="ord-hd"><span class="ord-name">'+o.name+'</span><span class="ord-amt">¥'+fmtAmount(o.amount)+'</span></div>'+
+      '<div class="ord-meta">'+o.source+' · '+fmtOrderTime(o.at)+' · 永久有效</div>'+
+      '<div class="ord-btns"><button class="ord-btn" onclick="downloadOrder(\''+o.no+'\')">下载订单凭证</button></div></div>').join('');
+  }
+  s+='<p style="text-align:center;font-size:11px;color:var(--ink-3);margin-top:12px;line-height:1.6">订单与资料永久可下载 · 链接过期也可在这里重新获取<br>7 天无理由退款 · 一次买断无续费</p>';
+  openMask(s);
+}
+refreshOrderUI();
 
 /* ==================== MODALS ==================== */
 function openMask(html){document.getElementById('sheet').innerHTML=html;document.getElementById('mask').classList.add('on');}
@@ -17405,6 +17612,7 @@ function openPay(plan){
 /* 全包支付成功：写入权益 → 刷新全站付费信息 → 展示成功态 */
 function payAll(){
   Store.grantAll();
+  recordOrder({name:'拾词全包',amount:9.9,source:'支付',key:'all'});
   payStage='done';
   refreshEntitlementUI();
   renderPay();
@@ -17414,21 +17622,21 @@ function renderPay(){
   let s='<div class="handle"></div>';
   if(payStage==='done'){
     s+='<div class="success"><div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></div>'+
-      '<h3>开通成功</h3><p>全包已生效：完整训练册 + App 全部功能，一次买断，没有续费</p>'+
-      '<button class="btn btn-primary" onclick="closeMask();go(\'s-quiz\')">继续刷题</button>'+
-      '<button class="btn btn-ghost" style="margin-top:10px" onclick="closeMask();go(\'s-me\')">查看我的全包</button></div>';
+      '<h3>开通成功</h3><p>全包已生效：完整训练册 + App 全部功能，一次买断，没有续费。订单已保存，可永久下载凭证。</p>'+
+      '<button class="btn btn-primary" onclick="closeMask();openOrders()">查看并下载订单凭证</button>'+
+      '<button class="btn btn-ghost" style="margin-top:10px" onclick="closeMask();go(\'s-quiz\')">继续刷题</button></div>';
   }else{
     s+='<h3>拾词全包</h3><p class="sub">一次买断，含完整 100 题训练册 + App 全部功能</p>'+
       '<div class="plan">'+
         '<button class="plan-c on"><b>¥9.9</b><span>全包 · 一次买断</span></button>'+
       '</div>'+
       '<div style="margin-bottom:12px">'+
-        ['完整 100 题专项训练册 PDF','全部专项训练题库 + 完整解析','仿真语境例句库','错词自动复习 + 完整失分地图','学习周报每周推送','离线词库，校园网无信号也能背','新高考卷型更新免费'].map(p=>
+        ['四本读本全含（单买 ¥2.9 / 本）','完整 100 题专项训练册 PDF','全部专项训练题库 + 完整解析','仿真语境例句库','错词自动复习 + 完整失分地图','完整学习周报 · 深度归因与下周行动计划','一次买断 · 永久可用'].map(p=>
         '<div class="perk"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>'+p+'</div>').join('')+
       '</div>'+
       '<div class="coupon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v3a2 2 0 0 0 0 6v3a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-3a2 2 0 0 0 0-6Z"/><path d="M12 6v2M12 16v2M12 11v2"/></svg>全包一次性买断，没有年卡月卡，也不需要续费</div>'+
       '<button class="btn btn-primary" style="margin-top:14px" onclick="payAll()">微信支付 ¥9.9</button>'+
-      '<p style="text-align:center;font-size:11px;color:var(--ink-3);margin-top:10px">支持微信 / 支付宝 · 7 天无理由退款</p>';
+      '<p style="text-align:center;font-size:11px;color:var(--ink-3);margin-top:10px">订单与资料永久可下载 · 一次买断无续费 · 7 天无理由退款<br>演示支付流程 · 当前可用兑换码开通</p>';
   }
   document.getElementById('sheet').innerHTML=s;
 }
@@ -17440,7 +17648,10 @@ function openBuy(i){
 }
 /* 单品支付成功：写入该书权益 → 刷新全站 → 成功态 */
 function payBook(){
-  if(buyItem&&buyItem.key) Store.grantBook(buyItem.key);
+  if(buyItem&&buyItem.key){
+    Store.grantBook(buyItem.key);
+    recordOrder({name:buyItem.n,amount:buyItem.p,source:'支付',key:buyItem.key});
+  }
   payStage='buydone';
   refreshEntitlementUI();
   renderBuy();
@@ -17452,8 +17663,9 @@ function renderBuy(){
   let s='<div class="handle"></div>';
   if(payStage==='buydone'){
     s+='<div class="success"><div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></div>'+
-      '<h3>下单成功</h3><p>《'+g.n+'》已加入「我的资料」，下载链接已发送到你的微信</p>'+
-      '<button class="btn btn-primary" onclick="closeMask()">去学习</button></div>';
+      '<h3>下单成功</h3><p>《'+g.n+'》已解锁，可在「我的资料」中查看。订单已保存，凭证与资料永久可下载。</p>'+
+      '<button class="btn btn-primary" onclick="closeMask();openOrders()">下载订单凭证</button>'+
+      '<button class="btn btn-ghost" style="margin-top:10px" onclick="closeMask()">去学习</button></div>';
   }else{
     s+='<h3>确认订单</h3><p class="sub">电子版即时下载，可自行双面打印</p>'+
       '<div class="card goods" style="box-shadow:none;padding:12px;margin-bottom:14px"><div class="gcover" style="background:'+g.cover+';height:78px;width:62px">'+g.coverText+'</div>'+
@@ -17509,7 +17721,7 @@ function refreshEntitlementUI(){
     shopBtn.style.opacity=owned?'.72':'';
   }
   if(shopPrice){
-    shopPrice.innerHTML=owned?'<b style="font-size:15px;color:var(--accent-deep)">已解锁</b><em>一次买断 · 永久可用</em>':'<b>¥9.9</b><em>全站最高价</em>';
+    shopPrice.innerHTML=owned?'<b style="font-size:15px;color:var(--accent-deep)">已解锁</b><em>一次买断 · 永久可用</em>':'<b>¥9.9</b><em>含四本书 + 完整周报</em>';
   }
   // 重新渲染所有动态页面，让购买按钮按最新权益显示
   if(typeof renderBook==='function')renderBook();
@@ -17630,6 +17842,8 @@ function syncStats(){
   if(typeof syncCountdown==='function') syncCountdown();
   // 今日任务组卷：三段构成随作答/登录后云端状态实时刷新
   if(typeof renderDailyCard==='function') renderDailyCard();
+  // 学习周报：基础数据随真实学习记录刷新，完整版门禁随权益刷新
+  if(typeof renderParentReport==='function') renderParentReport();
   // 成长看板：已学词数滚动 + 等级 + 里程碑 + 今日新学
   if(typeof renderGrowth==='function') renderGrowth();
   // 学习成效：近7日趋势 + 熟练度分布
@@ -17891,7 +18105,7 @@ setInterval(()=>{
 
 /* keyboard nav */
 document.addEventListener('keydown',e=>{
-  const order=['s-home','s-study','s-shop','s-me'];
+  const order=['s-home','s-study','s-review','s-shop','s-me'];
   if(e.key==='ArrowRight'||e.key==='ArrowLeft'){
     const cur=SCREENS.findIndex(s=>document.getElementById(s).classList.contains('on'));
     const tabIdx=order.findIndex(s=>s===SCREENS[cur]);
@@ -17916,6 +18130,8 @@ function refreshAppUI(){
     if(typeof renderFullPackTeaser==='function') renderFullPackTeaser();
     if(typeof renderProgress==='function') renderProgress();
     if(typeof renderTrapWords==='function') renderTrapWords();
+    if(typeof renderParentReport==='function') renderParentReport();
+    if(typeof refreshOrderUI==='function') refreshOrderUI();
     if(typeof renderGrowth==='function') renderGrowth();
     if(typeof syncStats==='function') syncStats();
   } catch(e) { console.error('[拾词] 云端状态重绘失败', e && e.message ? e.message : e); }
@@ -18020,6 +18236,7 @@ window.__openRedeem = function () {
     return CloudStore.redeemCode(code).then(function (r) {
       if (!r || !r.ok) throw new Error((r && REDEEM_REASON[r.reason]) || '兑换失败，请稍后重试');
       return CloudStore.applyFullEntitlement().then(function () {
+        if (typeof recordRedeemOrder === 'function') recordRedeemOrder(r.code);
         if (typeof refreshAppUI === 'function') refreshAppUI();
         renderAuthUI(CloudStore.getSession());
         if (typeof showReward === 'function') showReward('兑换成功', '全包已解锁 · 学号 ' + r.code, false);

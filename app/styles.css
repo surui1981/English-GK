@@ -91,6 +91,42 @@ svg{display:block}
 .tab{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;font-size:10.5px;color:var(--ink-3);transition:color .18s}
 .tab.on{color:var(--accent-deep);font-weight:600}
 .tab .badge{position:absolute;top:6px;margin-left:22px;background:var(--danger);color:#fff;font-size:9px;line-height:1;padding:2px 4.5px;border-radius:99px;font-family:'Outfit',sans-serif;font-weight:700}
+/* 5 个底部入口：压缩图标与字号，保证「学习复盘」四字不折行 */
+.tab{min-width:0;padding:0 2px;gap:2px;font-size:10px;letter-spacing:-.02em}
+.tab svg{width:20px;height:20px}
+.tab span{white-space:nowrap}
+
+/* ---------- review · 学习复盘 ---------- */
+.rv-tabs{display:flex;gap:5px;background:#eef1ed;border-radius:13px;padding:4px;margin:2px 0 15px}
+.rv-tab{flex:1;min-width:0;border:0;background:transparent;border-radius:10px;padding:9px 0;font-size:12.5px;font-weight:600;color:var(--ink-3);transition:background .18s,color .18s}
+.rv-tab.on{background:#fff;color:var(--accent-deep);box-shadow:var(--shadow-s)}
+.review-panel{display:none}
+.review-panel.on{display:block;animation:fade .24s ease}
+.review-panel .backbar{padding-top:0}
+
+/* 学习周报：基础版免费，完整版由 9.9 全包解锁 */
+.rp-upgrade{margin:0 0 13px}
+.rp-up-inner{border:1px solid #f3d9a4;background:linear-gradient(120deg,#fffdf7,#fff);border-radius:14px;padding:12px 13px;display:flex;gap:10px;align-items:center}
+.rp-up-ic{width:32px;height:32px;border-radius:10px;background:#fff1f3;color:var(--danger);display:grid;place-items:center;flex:none}
+.rp-up-tx{flex:1;min-width:0}
+.rp-up-tx b{display:block;font-size:12.5px;color:var(--ink);margin-bottom:3px}
+.rp-up-tx span{display:block;font-size:10.5px;color:var(--ink-3);line-height:1.5}
+.rp-up-btn{border:0;background:var(--accent);color:#fff;font-size:11.5px;font-weight:700;border-radius:10px;padding:9px 10px;white-space:nowrap}
+.rp-owned{border:1px solid var(--line);background:#f6faf7;border-radius:12px;padding:10px 12px;font-size:11px;color:var(--accent-deep);font-weight:600}
+.wk-bars{display:flex;align-items:flex-end;gap:8px;height:104px;padding:8px 2px 0}
+.wk-col{flex:1;min-width:0;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%;gap:4px}
+.wk-v{font-family:'Outfit',sans-serif;font-size:9px;color:var(--accent-deep);font-weight:700}
+.wk-bar{width:100%;max-width:20px;min-height:3px;background:var(--accent);border-radius:5px 5px 2px 2px;opacity:.85}
+.wk-n{font-size:9.5px;color:var(--ink-3)}
+
+/* 订单：一次买断，凭证永久可下载 */
+.ord-item{border:1px solid var(--line);border-radius:13px;background:#fff;padding:12px;margin-bottom:10px}
+.ord-hd{display:flex;align-items:baseline;justify-content:space-between;gap:8px}
+.ord-name{font-size:12.5px;font-weight:700;color:var(--ink)}
+.ord-amt{font-family:'Outfit',sans-serif;font-size:14px;font-weight:700;color:var(--accent-deep)}
+.ord-meta{font-size:10.5px;color:var(--ink-3);line-height:1.6;margin-top:5px}
+.ord-btns{display:flex;gap:8px;margin-top:10px}
+.ord-btn{flex:1;border:1px solid var(--line);background:#fff;border-radius:9px;padding:8px 0;font-size:11px;font-weight:600;color:var(--accent-deep)}
 
 /* ---------- generic phone UI ---------- */
 .ptop{padding-top:8px}

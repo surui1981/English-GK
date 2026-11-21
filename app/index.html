@@ -62,9 +62,9 @@
 
     <h2>变现位标注</h2>
     <ul class="dlist">
-      <li><span class="k">A</span><span>专项训练第 4 题起 · 全包 ¥9.9（一次买断，含完整训练册）</span></li>
+      <li><span class="k">A</span><span>专项训练第 4 题起 · 全包 ¥9.9（含四本书 + 完整周报）</span></li>
       <li><span class="k">B</span><span>失分地图完整版 · 含在全包 ¥9.9 内</span></li>
-      <li><span class="k">C</span><span>资料商店 · 分档单品 ¥1.9 / ¥3.9 / ¥4.9</span></li>
+      <li><span class="k">C</span><span>资料商店 · 四本读本各 ¥2.9（单本一次买断）</span></li>
       <li><span class="k">D</span><span>仿真语境例句库（核心壁垒）· 含在全包内</span></li>
     </ul>
 
@@ -93,27 +93,7 @@
           <!-- ===== HOME ===== -->
           <section class="screen on" id="s-home">
             <div class="ptop">
-              <!-- 今日任务置顶：首屏先解决「今天该学什么」 -->
-              <div class="card today-card" style="display:block">
-                <div class="today-top">
-                  <div class="ring" id="ring">
-                    <div class="ring-in"><b id="ringp">0</b><span id="ringSub">今日 0/20</span></div>
-                  </div>
-                  <div class="today-meta">
-                    <h4>今日任务 · <span id="dpModeName">主题聚类</span></h4>
-                    <p id="dpSub">20 词闭环 · 预计 8 分钟</p>
-                    <button class="btn btn-primary" onclick="startDailyPlan()" style="padding:10px 16px;font-size:13.5px">开始今日任务</button>
-                  </div>
-                </div>
-                <div class="dp-seg" id="dpSeg"></div>
-                <div class="dp-orders" id="dpOrders">
-                  <button data-o="alpha" onclick="setDailyOrder('alpha')">字母顺序</button>
-                  <button data-o="theme" class="on" onclick="setDailyOrder('theme')">词义相近</button>
-                  <button data-o="random" onclick="setDailyOrder('random')">随机抽取</button>
-                </div>
-                <div class="dp-peek" id="dpPeek"></div>
-              </div>
-
+              <!-- 高考倒计时置顶：首屏建立备考紧迫感 -->
               <div class="countdown">
                 <div class="cd-top">
                   <div>
@@ -141,6 +121,27 @@
                   <svg class="fire" width="12" height="12" viewBox="0 0 24 24" fill="#fbbf24"><path d="M12 2c1 4-3 5-3 9a4 4 0 0 0 7 2.6C18 11 15 6 12 2Z"/></svg>
                   <span id="cdUrgentText">按这个节奏，每天得背 21 词才来得及</span>
                 </div>
+              </div>
+
+              <!-- 今日任务：首屏解决「今天该学什么」 -->
+              <div class="card today-card" style="display:block">
+                <div class="today-top">
+                  <div class="ring" id="ring">
+                    <div class="ring-in"><b id="ringp">0</b><span id="ringSub">今日 0/20</span></div>
+                  </div>
+                  <div class="today-meta">
+                    <h4>今日任务 · <span id="dpModeName">主题聚类</span></h4>
+                    <p id="dpSub">20 词闭环 · 预计 8 分钟</p>
+                    <button class="btn btn-primary" onclick="startDailyPlan()" style="padding:10px 16px;font-size:13.5px">开始今日任务</button>
+                  </div>
+                </div>
+                <div class="dp-seg" id="dpSeg"></div>
+                <div class="dp-orders" id="dpOrders">
+                  <button data-o="alpha" onclick="setDailyOrder('alpha')">字母顺序</button>
+                  <button data-o="theme" class="on" onclick="setDailyOrder('theme')">词义相近</button>
+                  <button data-o="random" onclick="setDailyOrder('random')">随机抽取</button>
+                </div>
+                <div class="dp-peek" id="dpPeek"></div>
               </div>
 
               <!-- 学习成长看板：把「我学到了什么」放到首页最显眼处 -->
@@ -183,7 +184,7 @@
                 </div>
               </div>
 
-              <div class="sec-head"><h3>为你推荐</h3><span class="more" onclick="go('s-err')">失分地图 <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span></div>
+              <div class="sec-head"><h3>为你推荐</h3><span class="more" style="color:var(--ink-3);font-weight:500">今日精练</span></div>
 
               <div class="hero-entry" onclick="go('s-quiz')">
                 <div class="k">
@@ -195,34 +196,6 @@
                 <span class="go">开始练习 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
               </div>
 
-              <div class="card small-entry" onclick="go('s-progress')" style="margin-bottom:11px;border-color:#f3d9a4;background:linear-gradient(120deg,#fffdf7,#fff)">
-                <div class="ic" style="background:#fff1f3;color:var(--danger)">
-                  <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><rect x="7" y="12" width="3" height="6"/><rect x="12" y="8" width="3" height="10"/><rect x="17" y="5" width="3" height="13"/></svg>
-                </div>
-                <h4>单词进度</h4>
-                <p id="homeProgLine">红=新词 · 绿=已学完 · 4110 词全量</p>
-                <span class="go" style="color:#b45309">查看 <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
-              </div>
-
-              <div class="two-grid">
-                <div class="card small-entry" onclick="go('s-err')">
-                  <div class="ic" style="background:var(--danger-tint);color:var(--danger)">
-                    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
-                  </div>
-                  <h4>失分地图</h4>
-                  <p>近 30 天错因定位</p>
-                  <span class="go">查看 <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
-                </div>
-                <div class="card small-entry" onclick="go('s-parent')">
-                  <div class="ic" style="background:var(--accent-tint);color:var(--accent-deep)">
-                    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M8 21V9h8v12"/></svg>
-                  </div>
-                  <h4>学习周报</h4>
-                  <p>本周学习进度报告</p>
-                  <span class="go">查看 <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
-                </div>
-              </div>
-
             </div>
           </section>
 
@@ -232,6 +205,15 @@
               <button class="icon-btn" onclick="go('s-home')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button>
               <div class="pbar"><i id="spbar" style="width:60%"></i></div>
               <span class="cnt" id="scnt">12/20</span>
+            </div>
+            <!-- 单词进度入口：从首页移到背词页顶端，学习时随时可查看全量红绿进度 -->
+            <div class="card small-entry" onclick="go('s-progress')" style="margin:2px 0 12px;border-color:#f3d9a4;background:linear-gradient(120deg,#fffdf7,#fff)">
+              <div class="ic" style="background:#fff1f3;color:var(--danger)">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><rect x="7" y="12" width="3" height="6"/><rect x="12" y="8" width="3" height="10"/><rect x="17" y="5" width="3" height="13"/></svg>
+              </div>
+              <h4>单词进度</h4>
+              <p id="homeProgLine">红=新词 · 绿=已学完 · 4110 词全量</p>
+              <span class="go" style="color:#b45309">查看 <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
             </div>
             <div id="studyBody"></div>
           </section>
@@ -321,45 +303,113 @@
             <div id="trapWordsBody"></div>
           </section>
 
-          <!-- ===== ERROR MAP ===== -->
-          <section class="screen sub" id="s-err">
-            <div class="backbar">
-              <button class="icon-btn" onclick="go('s-home')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button>
-              <h3>失分地图</h3>
-              <span class="more" style="margin-left:auto;font-size:11.5px;color:var(--ink-3)">近 30 天</span>
-            </div>
-            <p class="scr-sub" style="margin-top:-6px">累计 <span id="kpiQuizN">0</span> 题 · 错 <span id="kpiQuizW">0</span> 题 · 你的失分高度集中在「熟词僻义」</p>
-
-            <div class="advice">
-              <div class="k">
-                <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v4"/><path d="M12 17h.01"/><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0Z"/></svg>
-                本周建议
+           <!-- ===== REVIEW · 学习复盘（失分地图 + 学习周报） ===== -->
+          <section class="screen" id="s-review">
+            <div class="ptop">
+              <h2 class="scr-title">学习复盘</h2>
+              <p class="scr-sub">把「感觉没学好」变成看得见的失分原因与下一步</p>
+              <div class="rv-tabs" id="rvTabs">
+                <button class="rv-tab on" data-panel="s-err" onclick="setReviewPanel('s-err')">失分地图</button>
+                <button class="rv-tab" data-panel="s-parent" onclick="setReviewPanel('s-parent')">学习周报</button>
               </div>
-              <h4>优先攻克熟词僻义</h4>
-              <p id="errAdvice">正在统计你的错因分布…</p>
-            </div>
 
-            <div class="chart-card">
-              <h4>错因分布</h4>
-              <div class="sub" id="errDistSub">按失分原因归类，而非词表顺序</div>
-              <div id="errDist"></div>
-              <div class="legend">
-                <span><i style="background:var(--danger)"></i>首要缺口</span>
-                <span><i style="background:var(--accent);opacity:.7"></i>次要缺口</span>
-                <span><i style="background:var(--accent);opacity:.3"></i>边缘失分</span>
+              <div class="review-panel on" id="s-err">
+
+              <div class="backbar">
+                <h3>失分地图</h3>
+                <span class="more" style="margin-left:auto;font-size:11.5px;color:var(--ink-3)">近 30 天</span>
+              </div>
+              <p class="scr-sub" style="margin-top:-6px">累计 <span id="kpiQuizN">0</span> 题 · 错 <span id="kpiQuizW">0</span> 题 · 你的失分高度集中在「熟词僻义」</p>
+
+              <div class="advice">
+                <div class="k">
+                  <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v4"/><path d="M12 17h.01"/><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0Z"/></svg>
+                  本周建议
+                </div>
+                <h4>优先攻克熟词僻义</h4>
+                <p id="errAdvice">正在统计你的错因分布…</p>
+              </div>
+
+              <div class="chart-card">
+                <h4>错因分布</h4>
+                <div class="sub" id="errDistSub">按失分原因归类，而非词表顺序</div>
+                <div id="errDist"></div>
+                <div class="legend">
+                  <span><i style="background:var(--danger)"></i>首要缺口</span>
+                  <span><i style="background:var(--accent);opacity:.7"></i>次要缺口</span>
+                  <span><i style="background:var(--accent);opacity:.3"></i>边缘失分</span>
+                </div>
+              </div>
+
+              <div class="chart-card">
+                <h4>题型分布</h4>
+                <div class="sub">哪类题型在偷走你的分数</div>
+                <div id="typeDist"></div>
+              </div>
+
+              <div class="sec-head"><h3>高频错词 · Top 5</h3><span class="more" id="errTotal">全部 0 个</span></div>
+              <div class="errlist" id="errList"></div>
+
+              <button class="btn btn-dark" style="margin-top:14px" onclick="go('s-quiz')">一键攻克 Top10 错词</button>
+
+              </div>
+
+              <div class="review-panel" id="s-parent">
+
+              <div class="backbar">
+                <h3>学习周报</h3>
+                <span id="rpRange" style="margin-left:auto;font-size:11.5px;color:var(--ink-3)">本周</span>
+              </div>
+
+              <!-- 基础周报永久免费；完整周报才需要 9.9 全包解锁 -->
+              <div id="rpUpgrade" class="rp-upgrade"></div>
+
+              <div class="rpt-banner">
+                <div class="k" id="rpBannerK">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+                  <span id="rpBannerKText">本周学习实录</span>
+                </div>
+                <h3 id="rpBannerTitle">从第一词开始，数据如实记录</h3>
+                <p id="rpBannerDesc">这里的所有数字都来自你的真实学习记录，不做预估、不注水。</p>
+              </div>
+
+              <div class="kpi-grid">
+                <div class="kpi"><div class="l">累计学习时长</div><b id="rpTime">0min</b><div class="d" id="rpTimeSub">来自真实学习计时</div></div>
+                <div class="kpi"><div class="l">本周新学词</div><b id="rpWeekNew">0</b><div class="d" id="rpWeekNewSub">本周首次学会的词</div></div>
+                <div class="kpi"><div class="l">综合正确率</div><b id="kpiAcc">—</b><div class="d" id="rpAccSub">先做 3 题看真实正确率</div></div>
+                <div class="kpi"><div class="l">坚持打卡</div><b id="kpiCheckin">0/7</b><div class="d" id="rpCheckSub">今天开始第一次打卡</div></div>
+              </div>
+
+              <div class="chart-card">
+                <h4>每日新学量</h4>
+                <div class="sub">本周首次学会的词数（周一至周日）· 真实记录</div>
+                <div id="weekBars" class="wk-bars"></div>
+              </div>
+
+              <div class="chart-card">
+                <h4>近 4 周打卡</h4>
+                <div class="sub">颜色越深，学习量越大</div>
+                <div class="heat-labels"><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span></div>
+                <div class="heat" id="heat"></div>
+              </div>
+
+              <div class="chart-card rp-full">
+                <h4>本周薄弱项 · 完整版</h4>
+                <div class="sub">建议按此顺序补弱</div>
+                <div class="bench top"><span class="bench-label">熟词僻义</span><div class="bench-track"><div class="bench-fill" style="width:38%"></div></div><span class="bench-val">38%</span></div>
+                <div class="bench"><span class="bench-label">一词多义</span><div class="bench-track"><div class="bench-fill" style="width:24%;opacity:.72"></div></div><span class="bench-val">24%</span></div>
+                <div class="bench"><span class="bench-label">固定搭配</span><div class="bench-track"><div class="bench-fill" style="width:19%;opacity:.52"></div></div><span class="bench-val">19%</span></div>
+              </div>
+
+              <div class="sec-head rp-full"><h3>下周行动计划 · 完整版</h3></div>
+              <div class="ptips rp-full">
+                <div class="ptip"><span class="n">1</span><span>本周有 <b>1 天未打卡</b>（周六），建议把每日目标从 20 词调到 15 词，先保住连续性再提量。</span></div>
+                <div class="ptip"><span class="n">2</span><span>错题集中在<b>熟词僻义</b>，是「认识但不懂句中含义」。专项训练每天 5 题，两周可见明显变化。</span></div>
+                <div class="ptip"><span class="n">3</span><span>正确率提升 8%，处于健康区间。<b>不必加量</b>，当前节奏比强度更重要。</span></div>
+              </div>
+
               </div>
             </div>
-
-            <div class="chart-card">
-              <h4>题型分布</h4>
-              <div class="sub">哪类题型在偷走你的分数</div>
-              <div id="typeDist"></div>
-            </div>
-
-            <div class="sec-head"><h3>高频错词 · Top 5</h3><span class="more" id="errTotal">全部 0 个</span></div>
-            <div class="errlist" id="errList"></div>
-
-            <button class="btn btn-dark" style="margin-top:14px" onclick="go('s-quiz')">一键攻克 Top10 错词</button>
           </section>
 
           <!-- ===== SHOP ===== -->
@@ -377,22 +427,22 @@
               <div class="mcard">
                 <span class="k">全包 · 一次买断</span>
                 <h4>拾词全包</h4>
-                <p style="font-size:12px;color:var(--ink-3)">完整 100 题训练册 + 全部专项训练、义项树与学习周报</p>
+                <p style="font-size:12px;color:var(--ink-3)">四本读本全含 + 完整学习周报 + 全部专项训练与义项树</p>
                 <div id="fullpackStats" style="font-size:11.5px;color:var(--ink-3);line-height:1.6;margin:8px 0 2px"></div>
                 <div class="price" id="shopPrice">
-                  <b>¥9.9</b><em>全站最高价</em>
+                  <b>¥9.9</b><em>含四本书 + 完整周报</em>
                 </div>
                 <div class="mlist">
                   <div><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>完整 100 题专项训练册 PDF</div>
                   <div><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>全部专项训练题库 + 解析</div>
                   <div><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>仿真语境例句库</div>
                   <div><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>错词自动复习 + 完整失分地图</div>
-                  <div><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>学习周报 · 每周推送</div>
+                  <div><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>完整学习周报 · 深度归因与下周计划</div>
                 </div>
                 <button class="btn btn-primary" id="shopAllBtn" onclick="openFullPack()">查看详情试读词库</button>
               </div>
 
-              <div class="sec-head"><h3>单品教辅</h3><span class="more">电子 PDF · 分档定价</span></div>
+              <div class="sec-head"><h3>单品读本</h3><span class="more">电子 PDF · 每本 ¥2.9</span></div>
               <div id="goodsList"></div>
 
               <div class="card" style="padding:14px;margin-top:6px;display:flex;gap:11px;align-items:center">
@@ -480,10 +530,10 @@
                   <span class="t">学习周报</span>
                   <span class="r">11月10日 <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
                 </button>
-                <button class="mrow" onclick="openPay('all')">
+                <button class="mrow" onclick="openOrders()">
                   <span class="ic"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2.5"/><path d="M2 10h20"/></svg></span>
                   <span class="t">我的订单</span>
-                  <span class="r">2 笔 <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
+                  <span class="r"><span id="orderCount">0 笔</span> <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
                 </button>
                 <button class="mrow">
                   <span class="ic"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.9l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.9-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1A1.7 1.7 0 0 0 9 19.4a1.7 1.7 0 0 0-1.9.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.9 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1A1.7 1.7 0 0 0 4.6 9a1.7 1.7 0 0 0-.3-1.9l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.9.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.9-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.9V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1Z"/></svg></span>
@@ -502,80 +552,6 @@
             </div>
           </section>
 
-          <!-- ===== PARENT REPORT ===== -->
-          <section class="screen sub" id="s-parent">
-            <div class="backbar">
-              <button class="icon-btn" onclick="go('s-home')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button>
-              <h3>学习周报</h3>
-              <span style="margin-left:auto;font-size:11.5px;color:var(--ink-3)">11.10 – 11.16</span>
-            </div>
-
-            <div class="rpt-banner">
-              <div class="k">
-                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
-                第 3 周 · 距离高考 203 天
-              </div>
-              <h3>本周学习状态：稳步上升</h3>
-              <p>学习时长与正确率同时提升，熟词僻义仍是主要短板，建议继续专项训练。</p>
-            </div>
-
-            <div class="kpi-grid">
-              <div class="kpi"><div class="l">学习时长</div><b>3.5h</b><div class="d up"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 15 7-7 7 7"/></svg>较上周 +40%</div></div>
-              <div class="kpi"><div class="l">本周复习词</div><b>142</b><div class="d up"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 15 7-7 7 7"/></svg>计划 120 词</div></div>
-              <div class="kpi"><div class="l">综合正确率</div><b id="kpiAcc">0%</b><div class="d up"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 15 7-7 7 7"/></svg>+8%</div></div>
-              <div class="kpi"><div class="l">坚持打卡</div><b id="kpiCheckin">0/7</b><div class="d down"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 9 7 7 7-7"/></svg>缺 1 天</div></div>
-            </div>
-
-            <div class="chart-card">
-              <h4>每日学习量</h4>
-              <div class="sub">本周背诵词数（周一至周日）</div>
-              <svg viewBox="0 0 300 120" width="100%" height="120" fill="none">
-                <line x1="24" y1="96" x2="288" y2="96" stroke="#e4e8e3" stroke-width="1"/>
-                <line x1="24" y1="62" x2="288" y2="62" stroke="#eef1ed" stroke-width="1"/>
-                <line x1="24" y1="28" x2="288" y2="28" stroke="#eef1ed" stroke-width="1"/>
-                <text x="18" y="99" font-size="8" fill="#78857f" text-anchor="end" font-family="Outfit">0</text>
-                <text x="18" y="65" font-size="8" fill="#78857f" text-anchor="end" font-family="Outfit">30</text>
-                <text x="18" y="31" font-size="8" fill="#78857f" text-anchor="end" font-family="Outfit">60</text>
-                <path d="M36 76 L76 58 L116 66 L156 40 L196 50 L236 22 L276 34" stroke="#10b981" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M36 76 L76 58 L116 66 L156 40 L196 50 L236 22 L276 34 L276 96 L36 96 Z" fill="#10b981" fill-opacity=".08"/>
-                <circle cx="36" cy="76" r="3.2" fill="#fff" stroke="#10b981" stroke-width="2"/>
-                <circle cx="76" cy="58" r="3.2" fill="#fff" stroke="#10b981" stroke-width="2"/>
-                <circle cx="116" cy="66" r="3.2" fill="#fff" stroke="#10b981" stroke-width="2"/>
-                <circle cx="156" cy="40" r="3.2" fill="#fff" stroke="#10b981" stroke-width="2"/>
-                <circle cx="196" cy="50" r="3.2" fill="#fff" stroke="#10b981" stroke-width="2"/>
-                <circle cx="236" cy="22" r="3.2" fill="#10b981" stroke="#fff" stroke-width="2"/>
-                <circle cx="276" cy="34" r="3.2" fill="#fff" stroke="#10b981" stroke-width="2"/>
-                <text x="36" y="112" font-size="8.5" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC">一</text>
-                <text x="76" y="112" font-size="8.5" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC">二</text>
-                <text x="116" y="112" font-size="8.5" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC">三</text>
-                <text x="156" y="112" font-size="8.5" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC">四</text>
-                <text x="196" y="112" font-size="8.5" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC">五</text>
-                <text x="236" y="112" font-size="8.5" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC">六</text>
-                <text x="276" y="112" font-size="8.5" fill="#78857f" text-anchor="middle" font-family="Noto Sans SC">日</text>
-              </svg>
-            </div>
-
-            <div class="chart-card">
-              <h4>近 4 周打卡</h4>
-              <div class="sub">颜色越深，学习量越大</div>
-              <div class="heat-labels"><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span></div>
-              <div class="heat" id="heat"></div>
-            </div>
-
-            <div class="chart-card">
-              <h4>本周薄弱项</h4>
-              <div class="sub">建议按此顺序补弱</div>
-              <div class="bench top"><span class="bench-label">熟词僻义</span><div class="bench-track"><div class="bench-fill" style="width:38%"></div></div><span class="bench-val">38%</span></div>
-              <div class="bench"><span class="bench-label">一词多义</span><div class="bench-track"><div class="bench-fill" style="width:24%;opacity:.72"></div></div><span class="bench-val">24%</span></div>
-              <div class="bench"><span class="bench-label">固定搭配</span><div class="bench-track"><div class="bench-fill" style="width:19%;opacity:.52"></div></div><span class="bench-val">19%</span></div>
-            </div>
-
-            <div class="sec-head"><h3>本周建议</h3></div>
-            <div class="ptips">
-              <div class="ptip"><span class="n">1</span><span>本周有 <b>1 天未打卡</b>（周六），建议把每日目标从 20 词调到 15 词，先保住连续性再提量。</span></div>
-              <div class="ptip"><span class="n">2</span><span>错题集中在<b>熟词僻义</b>，是「认识但不懂句中含义」。专项训练每天 5 题，两周可见明显变化。</span></div>
-              <div class="ptip"><span class="n">3</span><span>正确率提升 8%，处于健康区间。<b>不必加量</b>，当前节奏比强度更重要。</span></div>
-            </div>
           </section>
         </div>
 
@@ -587,6 +563,10 @@
           <button class="tab" data-tab="s-study">
             <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5V5a2 2 0 0 1 2-2h13"/><path d="M6 17h13"/><path d="M9 7h6"/></svg>
             <span>背词</span>
+          </button>
+          <button class="tab" data-tab="s-review">
+            <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="2.5"/><path d="M8 8h8"/><path d="M8 12h5"/><path d="m8 17 2 2 4-4"/></svg>
+            <span>学习复盘</span>
           </button>
           <button class="tab" data-tab="s-shop">
             <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>

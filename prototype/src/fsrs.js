@@ -192,7 +192,8 @@ var Store = (function () {
       seconds: 0,      // 累计学习秒数
       startedAt: null,
       quickPractice: {},  // 非 LEX 覆盖词：word → {count, mastery, lastAt}
-      learnedAt: {}       // word → 首次学会时间戳（红转绿的时刻）
+      learnedAt: {},      // word → 首次学会时间戳（红转绿的时刻）
+      orders: []          // 购买/兑换订单记录，随 learning_state 一起云同步，永久可下载凭证
     };
   }
 

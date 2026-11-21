@@ -86,6 +86,7 @@
     return CloudStore.redeemCode(code).then(function (r) {
       if (!r || !r.ok) throw new Error((r && REDEEM_REASON[r.reason]) || '兑换失败，请稍后重试');
       return CloudStore.applyFullEntitlement().then(function () {
+        if (typeof recordRedeemOrder === 'function') recordRedeemOrder(r.code);
         if (typeof refreshAppUI === 'function') refreshAppUI();
         renderAuthUI(CloudStore.getSession());
         if (typeof showReward === 'function') showReward('兑换成功', '全包已解锁 · 学号 ' + r.code, false);
