@@ -82,6 +82,11 @@ const QUIZ_FALLBACK=[
 /* 熟词僻义专项：100 题训练数据来自 CTX_TRAP；缺失时退回上面的手写样题 */
 let _trapMapCache=null;
 function trapCtx(){return (typeof CTX_TRAP!=='undefined'&&CTX_TRAP)?CTX_TRAP:{words:[],meta:{coverage:{}}};}
+/* 词表分层：免费看 100 个精修陷阱词，购买全包后开放 443 个高频词汇陷阱 */
+function trapVisible(){
+  const all=trapCtx().words||[];
+  return Store.hasAll()?all:all.filter(x=>x.featured!==false);
+}
 function trapMap(){
   if(_trapMapCache)return _trapMapCache;
   _trapMapCache={};
@@ -128,12 +133,14 @@ function buildTrapQuiz(){
 }
 const QUIZ=buildTrapQuiz();
 
-const ERRORS=[
- {w:"appreciate",m:"词义误判 · 选成「感激」",c:"熟词僻义"},
- {w:"interest",m:"阅读理解 · 译成「兴趣」",c:"熟词僻义"},
- {w:"mean",m:"完形填空 · 未选「吝啬的」",c:"熟词僻义"},
- {w:"address",m:"语法填空 · 词性误判",c:"词性"},
- {w:"account for",m:"阅读理解 · 未识别短语",c:"固定搭配"}
+/* 错因分类：errCode 优先，中文 module 仅兼容旧记录 */
+const ERR_CATS=[
+  {k:'E1',label:'熟词僻义',o:.9},
+  {k:'E2',label:'一词多义',o:.72},
+  {k:'E4',label:'固定搭配',o:.52},
+  {k:'E5',label:'词性词形',o:.38},
+  {k:'E3',label:'形近音近',o:.26},
+  {k:'E9',label:'拼写变形',o:.2}
 ];
 
 const GOODS=[
@@ -153,8 +160,10 @@ let dailyFlipped=false;       // 今日任务答错后词卡是否翻到背面�
 let dailyPrevWrongFixed=0;    // 本轮答对的「昨日错词」数量，收官卡展示跨天攻克成果
 let dailyAutoAdvanceTimer=null; // 答对自动下一题的定时器
 let dailyAutoAdvanceFn=null;  // 答对自动前进动作（庆祝弹层 CTA 复用）
-/* 今日任务组卷：用户选的排序模式 + 本日缓存（同一天同一模式只算一次） */
+/* 今日任务组卷：用户选的排序模式 + 本日缓存（首轮快速预览）；多轮组卷按最新状态重建 */
 let dailyOrder='theme', dailyCache=null;
+let dailyRoundItems=null;     // 本轮实际入队的组卷条目（含 stage 标记）
+let dailyRoundKind='normal';  // normal=新一组 / wrong=错题回炉
 const DAILY_MODE_NAME={alpha:'字母顺序',theme:'词义相近',random:'随机抽取'};
 const DAILY_STAGE_NAME={new:'新学',review:'复习',consolidate:'巩固'};
 let famQueue=[], famIdx=0, famFilter='all', famSched=null, famDone=0;
@@ -214,7 +223,7 @@ function needLogin(action, hint){
 }
 function setReviewPanel(panel,skipGate){
   if(REVIEW_PANELS.indexOf(panel)<0) panel='s-err';
-  if(!skipGate && panel==='s-parent' && !needLogin(function(){setReviewPanel('s-parent');},'学习周报需要登录后查看，请先登录。')) return;
+  // 基础周报对游客开放；云端算法卡单独做注册引导，不再整页拦截
   REVIEW_PANELS.forEach(p=>{
     const el=document.getElementById(p); if(el) el.classList.toggle('on',p===panel);
   });
@@ -224,7 +233,6 @@ function go(id){
   let reviewPanel=null;
   if(REVIEW_PANELS.indexOf(id)>=0){
     reviewPanel=id;
-    if(id==='s-parent' && !needLogin(function(){go('s-parent');},'学习周报需要登录后查看，请先登录。')) return;
     id='s-review';
   }
   SCREENS.forEach(s=>document.getElementById(s).classList.toggle('on',s===id));
@@ -272,8 +280,10 @@ function renderDailyCard(){
   const name=document.getElementById('dpModeName');
   if(name) name.textContent=DAILY_MODE_NAME[plan.mode]||'主题聚类';
   const sub=document.getElementById('dpSub');
+  const sess=Store.dailySessionStats();
   if(sub) sub.textContent=plan.total+' 词闭环 · 预计 '+Math.max(4,Math.round(plan.total*0.4))+' 分钟'+
-    (plan.themeFocus?(' · 聚焦「'+plan.themeFocus.replace(/^T-/,'' )+'」'):'');
+    (plan.themeFocus?(' · 聚焦「'+plan.themeFocus.replace(/^T-/,'' )+'」'):'')+
+    (sess.rounds?(' · 今日已练 '+sess.rounds+' 轮 / '+sess.answers+' 次'):'');
   // 昨日错词跨天回带：把「上次错了、今天重点看」直接写进任务卡
   const pw=document.getElementById('dpPrevWrong');
   if(pw){
@@ -296,8 +306,31 @@ function setDailyOrder(mode){
   dailyCache=null;
   renderDailyCard();
 }
-function startDailyPlan(){
+/* 多轮组卷：第 2 轮起按最新 FSRS 状态重建，不再复用首轮缓存。
+ * 错题回炉：只带上轮错词 + 少量巩固；换一批：排除上轮词集并换随机种子。 */
+function dailyRoundWords(kind){
+  const st=Store.dailySessionStats();
+  const sess=Store.dailySession();
+  const last=st.roundNo?sess.rounds[st.roundNo-1]:null;
+  // 错题回炉取今天所有轮次的错词（最近优先），避免只盯上一轮而漏掉更早的薄弱词
+  const focus=[];
+  if(kind==='wrong'){
+    for(let i=sess.rounds.length-1;i>=0&&focus.length<8;i--){
+      (sess.rounds[i].wrongWords||[]).forEach(w=>{if(focus.indexOf(w)<0)focus.push(w);});
+    }
+  }
+  const exclude=(st.roundNo&&last)?(last.words||[]).filter(w=>focus.indexOf(w)<0):[];
+  const opts={
+    round:st.roundNo+1, focus:focus, exclude:exclude,
+    limit:focus.length?Math.max(8,focus.length+4):Store.DAILY_TOTAL,
+    quota:focus.length?{new:0,review:focus.length+4,consolidate:0}:{new:8,review:8,consolidate:4},
+    seedExtra:st.roundNo?'-r'+(st.roundNo+1):''
+  };
+  return Store.dailyPlan(dailyOrder,undefined,opts).items;
+}
+function startDailyPlan(kind){
   studyMode='daily';
+  dailyRoundKind=kind||'normal';
   resetStudy();
   go('s-study');
 }
@@ -320,7 +353,8 @@ function buildStudyQueue(mode){
   /* 今日任务：直接用组卷引擎的学习→复习→巩固 20 词。
    * 非精修词构造轻量词条，由简化词义题引擎出题、practiceQuick 回流。 */
   if(mode==='daily'){
-    return getDailyPlan().items.map((it,idx)=>{
+    const items=dailyRoundItems||getDailyPlan().items;
+    return items.map((it,idx)=>{
       const m=it.meta||{};
       // 精修词：保留完整义项树 / 词形网 / 僻义元数据，走原选择题引擎
       if(Store.isLexWord(it.w)){
@@ -532,6 +566,10 @@ function setStudyMode(mode){
 function resetStudy(){
   if(dailyAutoAdvanceTimer){clearTimeout(dailyAutoAdvanceTimer);dailyAutoAdvanceTimer=null;}
   dailyAutoAdvanceFn=null;dailyFlipped=false;dailyPrevWrongFixed=0;
+  if(studyMode==='daily'){
+    dailyRoundItems=dailyRoundWords(dailyRoundKind);
+    Store.startDailyRound(dailyRoundItems.map(x=>x.w));
+  }
   studyQueue=buildStudyQueue(studyMode);
   studyPos=0;studyAnswered=false;studyRight=0;studyWrong=0;studyRequeued=0;
   wIdx=0;flipped=false;rated={unknown:0,vague:0,known:0};sched=null;
@@ -718,8 +756,8 @@ function renderBook2(){
   const pts=[
     ['443 词全覆盖','高考核心词按义项分组收录高频搭配，词块整体记忆'],
     ['按义项分组','搭配挂在对应义项下，记住「这个词这个意思配什么」'],
-    ['核心搭配独立例句','641 条核心搭配逐条配仿真例句，告别同义项共用一句'],
-    ['例句来源如实标注','手工精修例句与义项语境句逐条区分，不搞虚假精修']
+    ['核心搭配独立例句','641 条核心搭配逐条配仿真例句，另有 224 词补词条语境句'],
+    ['例句来源如实标注','手工精修 / 义项语境 / 词条语境逐条区分，292 条无例句如实保留']
   ];
   const tiersHtml=tiers.map((t,i)=>
     '<div class="bk-tier'+(i===colTier?' on':'')+'" onclick="colTier='+i+';renderBook2()">'+
@@ -728,7 +766,8 @@ function renderBook2(){
   const typeDist=Object.keys(m.type_distribution||{}).map(k=>k+' '+m.type_distribution[k]).join(' · ');
   const prev=(b.words||[]).slice(0,colPreviewN).map(w=>
     '<div class="pv-word"><div class="pv-top"><span class="pv-w">'+w.headword+'</span>'+
-      '<span class="pv-ipa">'+w.ipa+' · '+w.colloc_count+' 条搭配</span></div>'+
+      '<span class="pv-ipa">'+(w.ipa||'音标暂无')+' · '+w.colloc_count+' 条搭配</span></div>'+
+      (w.note?'<div class="pv-src">'+w.note+'</div>':'')+
       (w.groups||[]).map(g=>
         '<div class="cl-group"><div class="cl-group-hd">'+g.sense+
           (g.is_trap?'<span class="trap">陷阱义</span>':'')+'</div>'+
@@ -778,10 +817,11 @@ function quizSample(){
 function renderBook3(){
   const body=document.getElementById('book3Body');if(!body)return;
   const b=quizSample(),m=b.meta,tiers=m.pricing.tiers,cur=tiers[quizTier];
+  const lev=(m.coverage&&m.coverage.s1_senses)||0;
   const pts=[
     ['100 词 100 题','每个高频词只考它最容易错的那个义项，不重复不遗漏'],
-    ['陷阱义优先','全部 100 题目标义项都是陷阱义，S1 主义项 0 道'],
-    ['考场动作','每题给一个可执行的判断动作，不是定义复述'],
+    ['试读即实战','试读题与实际训练答题引擎同源，不再出现「预览做过、进去换一套」'],
+    ['考场动作','每题给一个可执行的判断动作，不是定义复述；含 '+lev+' 道 S1 义项'],
     ['错因解析','逐题讲清学生为什么会选错、干扰项测什么'],
     ['变体词卡','每词附词形派生、形近易混、搭配变体与常见义干扰']
   ];
@@ -799,7 +839,8 @@ function renderBook3(){
       '<div class="qz-stem">'+q.stem.replace('______','<span class="blank">____</span>')+'</div>'+
       (q.stem_cn?'<div class="qz-cn">'+q.stem_cn+'</div>':'')+
       '<div class="qz-opts">'+opts+'</div>'+
-      '<div class="qz-ans"><b>义项：</b>'+q.sense_text+'</div></div>';
+      '<div class="qz-ans"><b>义项：</b>'+q.sense_text+(q.sense_level?' · '+q.sense_level:'')+'</div>'+
+      (q.explanation?'<div class="qz-why">'+q.explanation+'</div>':'')+'</div>';
   }).join('');
   const tv=(trapCtx().words||[]).slice(0,12);
   const tc=(trapCtx().meta&&trapCtx().meta.coverage)||{};
@@ -822,10 +863,15 @@ function renderBook3(){
     '<p style="text-align:center;font-size:10.5px;color:var(--ink-3);line-height:1.5;margin:9px 2px 0">'+m.description+'</p>'+
     '<div class="bk-preview"><div class="pv-head"><h4>免费试读 · 3 题</h4><span>含答案解析</span></div>'+prev+
       '<div class="pv-more">完整版 100 题 · 5 单元 · 逐题解析</div></div>'+
-    '<button class="btn btn-ghost" style="width:100%;margin-top:12px" onclick="openTrapWords()">查看 443 核心词熟练度</button>'+
+    '<button class="btn btn-primary" style="width:100%;margin-top:12px" onclick="startQuiz()">开始 100 题专项训练（免费 3 题）</button>'+
+    '<button class="btn btn-ghost" style="width:100%;margin-top:9px" onclick="openTrapWords()">查看 443 核心词熟练度</button>'+
     '<div class="bk-preview" style="margin-top:14px"><div class="pv-head"><h4>高考常考变体词汇 · 12 词</h4><span>'+(tc.variants_total||0)+' 条变体提示</span></div>'+
       variantPreview+
       '<div class="pv-more">完整版 '+((tc.words)||100)+' 词 × 词形 / 形近 / 搭配 / 常见义四类提示</div></div>';
+}
+function startQuiz(){
+  qIdx=0;qAnswered=false;qScore=0;qRight=0;qWrong=0;quizReflow=false;
+  renderQuiz();go('s-quiz');
 }
 function quizBookBuy(){
   const b=quizSample(),t=b.meta.pricing.tiers[quizTier];
@@ -835,36 +881,61 @@ function quizBookBuy(){
 }
 function openBook3(){quizTier=0;renderBook3();go('s-book3');}
 
-/* ==================== 30天冲刺计划表 · 详情 + 试读 ==================== */
-let planTier=0;
+/* ==================== 30天冲刺计划表 · 详情 + 试读 + 打卡 ==================== */
+let planTier=0, planOpenDay=0;
 function planSample(){
-  const src=(typeof CTX_PLAN!=='undefined'&&CTX_PLAN)?CTX_PLAN:{meta:{name:'30 天冲刺计划表 + 单词打卡表',subtitle:'四轮递进 · 每日梯度',status:'样本卷',description:'',coverage:{}},days:[]};
+  const src=(typeof CTX_PLAN!=='undefined'&&CTX_PLAN)?CTX_PLAN:{meta:{name:'30 天冲刺计划表 + 单词打卡表',subtitle:'四轮递进 · 每日梯度',status:'正式版',description:'',coverage:{}},days:[]};
   const total=(src.days&&src.days.length)||30;
   src.meta=Object.assign({},src.meta,{pricing:{currency:'CNY',tiers:[{name:'完整版',days:total,price:2.9}]}});
   return src;
 }
+function togglePlanDay(day){
+  const d=Number(day);
+  planOpenDay=(planOpenDay===d)?0:d;
+  renderBook4();
+}
+function togglePlanCheck(day){
+  const on=Store.togglePlanCheck(day);
+  renderBook4();
+  const hint=document.getElementById('planCheckHint');
+  if(hint)hint.textContent=on?('第 '+day+' 天已打卡 · 进度已保存'):('已取消第 '+day+' 天打卡');
+}
+function printPlan(){if(typeof window.print==='function')window.print();}
 function renderBook4(){
   const body=document.getElementById('book4Body');if(!body)return;
   const b=planSample(),m=b.meta,tiers=m.pricing.tiers,cur=tiers[planTier];
+  const days=b.days||[];
+  const done=Store.planCheckCount(),pct=Math.round(100*done/(days.length||30));
   const pts=[
     ['四轮递进','逐词打底 → 高频突破 → 语境强化 → 提取复习，节奏有据'],
     ['每日明确','每天学多少、复习什么、周日做什么复盘，一目了然'],
     ['先新后固','前两周学完 100 词，后两周只做语境与提取，不引新词'],
-    ['可打印打卡','A4 双面打印，每日勾选，30 天进度看得见']
+    ['打卡可追溯','每日勾选写入学习记录，换设备继续，不必重新补打']
   ];
   const tiersHtml=tiers.map((t,i)=>
     '<div class="bk-tier'+(i===planTier?' on':'')+'" onclick="planTier='+i+';renderBook4()">'+
       '<div class="lt"><b>'+t.name+'</b><span>'+t.days+' 天计划</span></div>'+
       '<div class="rt">¥'+t.price.toFixed(1)+'</div></div>').join('');
-  const days=b.days||[];
-  // 按阶段分组渲染试读网格（全部30天）
+  // 按阶段分组渲染（全部30天），点日期展开当天词表，勾选即打卡
   let grid='',lastPhase='';
   days.forEach(d=>{
     if(d.phase!==lastPhase){lastPhase=d.phase;grid+='<div class="pl-phase">'+d.phase+'</div><div class="pl-grid">';}
-    grid+='<div class="pl-cell'+(d.is_review?' review':'')+'">'+
-      '<div class="d">D'+d.day+'</div>'+
+    const checked=Store.planCheckDone(d.day),open=planOpenDay===d.day;
+    grid+='<div class="pl-cell'+(d.is_review?' review':'')+(checked?' checked':'')+(open?' open':'')+'">'+
+      '<button class="pl-day" onclick="togglePlanDay('+d.day+')" aria-label="展开第'+d.day+'天">D'+d.day+'</button>'+
+      '<button class="pl-check'+(checked?' on':'')+'" onclick="togglePlanCheck('+d.day+')" aria-label="打卡第'+d.day+'天">'+(checked?'✓':'')+'</button>'+
       '<div class="n">'+(d.is_review?'复习':('+'+d.new_count))+'</div>'+
       '<div class="t">'+(d.review_task?'复盘':'新词')+'</div></div>';
+    if(open){
+      const words=(d.new_words||[]).map(w=>'<span class="plw">'+w+'</span>').join('')||
+        '<span class="plw">纯复习日 · 不引新词</span>';
+      grid+='<div class="pl-detail">'+
+        '<div class="pl-detail-h">D'+d.day+' · '+d.phase+'</div>'+
+        '<div class="pl-words"><span class="pl-label">'+(d.new_words&&d.new_words.length?'新词 '+d.new_count:'复习安排')+'</span>'+words+'</div>'+
+        (d.review_task?'<div class="pl-task">'+d.review_task+'</div>':'')+
+        '<button class="btn btn-ghost" style="width:100%;margin-top:8px" onclick="printPlan()">打印当天计划</button>'+
+        '</div>';
+    }
     if(d.day===days.length)grid+='</div>';
   });
   const reviewDays=days.filter(d=>d.review_task).slice(0,2).map(d=>
@@ -880,7 +951,10 @@ function renderBook4(){
     '<div class="bk-tiers">'+tiersHtml+'</div>'+
     (Store.hasBook('plan')?'<button class="btn btn-primary" style="width:100%;opacity:.7" disabled>已解锁 · 本书可直接使用</button>':'<button class="btn btn-primary" style="width:100%" onclick="planBookBuy()">购买'+cur.name+' ¥'+cur.price.toFixed(1)+'</button>')+
     '<p style="text-align:center;font-size:10.5px;color:var(--ink-3);line-height:1.5;margin:9px 2px 0">'+m.description+'</p>'+
-    '<div class="bk-preview"><div class="pv-head"><h4>计划表试读 · 全 30 天</h4><span>每日词量梯度</span></div>'+
+    '<div class="bk-preview"><div class="pv-head"><h4>计划表试读 · 全 30 天</h4><span>已打卡 '+done+' / '+days.length+' 天</span></div>'+
+      '<div class="pl-progress"><span style="width:'+pct+'%"></span></div>'+
+      '<div class="pl-actions"><button class="btn btn-ghost" onclick="printPlan()">打印 A4 打卡表</button>'+
+        '<span id="planCheckHint">点日期看当天单词，勾选方框即打卡</span></div>'+
       grid+reviewDays+'</div>';
 }
 function planBookBuy(){
@@ -918,8 +992,10 @@ function renderStudy(){
   if(!curQ||curQ._word!==lw.w){ curQ=buildQuestion(lw); curQ._word=lw.w; studyAnswered=false; }
   const q=curQ, fs=focusSense(lw);
   const done=studyPos;
-  document.getElementById('spbar').style.width=Math.round(done/total*100)+'%';
-  document.getElementById('scnt').textContent=done+'/'+total;
+  const ds=(studyMode==='daily')?Store.dailySessionStats():null;
+  const shownTotal=ds&&ds.roundWords.length?ds.roundWords.length:total;
+  document.getElementById('spbar').style.width=Math.round((ds?ds.roundAnswered:done)/shownTotal*100)+'%';
+  document.getElementById('scnt').textContent=(ds?ds.roundNo+'轮 '+ds.roundAnswered:done)+'/'+shownTotal;
   const modes=STUDY_MODES.map(m=>'<button data-m="'+m[0]+'" class="'+(studyMode===m[0]?'on':'')+'" onclick="setStudyMode(\''+m[0]+'\')">'+m[1]+'</button>').join('');
   const opts=q.options.map((t,i)=>{
     let cls='', mk='';
@@ -962,7 +1038,8 @@ function renderStudy(){
     '<div style="display:flex;align-items:center;gap:8px;margin-bottom:4px">'+
       '<span class="qbadge '+q.tagCls+'">'+(q.tagCls==='fam'?'◆':(q.tagCls==='trap'?'⚑':'●'))+' '+q.tagLabel+'</span>'+
       (studyMode==='daily'&&lw.stage?'<span class="qbadge" style="background:var(--accent-tint);color:var(--accent-deep)">'+DAILY_STAGE_NAME[lw.stage]+'</span>':'')+
-      '<span style="font-size:11px;color:var(--ink-3)">'+studyModeName(studyMode)+' · 第 '+(studyPos+1)+'/'+total+' 题</span>'+
+      '<span style="font-size:11px;color:var(--ink-3)">'+studyModeName(studyMode)+
+        (ds?(' · 第 '+ds.roundNo+' 轮'):'')+' · 第 '+(studyPos+1)+'/'+shownTotal+' 题</span>'+
     '</div>'+
     (studyMode==='daily'
       ? '<div class="wcard-wrap"><div class="wcard'+(dailyFlipped?' flip':'')+'" id="dailyCard">'+
@@ -1011,6 +1088,7 @@ function answerQuestion(i){
   if(studyMode==='daily'){
     if(!ok) Store.noteDailyWrong(lw.w);                    // 错词归档，供次日跨天回带
     else if(lw.prevWrong) dailyPrevWrongFixed++;           // 昨日错词今天拿下，收官卡展示
+    Store.noteDailyRoundAnswer(lw.w, ok);                  // 会话分母：每轮每次作答都累计并云同步
   }
   syncStats();
   // 清理上一次可能残留的自动跳题定时器
@@ -1062,8 +1140,14 @@ function nextQuestion(){
   const q=curQ, ok=q&&q.picked===q.answer;
   if(!ok && studyRequeued<5 && q){
     const lw=studyQueue[studyPos];
-    studyQueue.push(lw); // 答错重排到本轮后段
-    studyRequeued++;
+    let ahead=0;
+    for(let i=studyPos+1;i<studyQueue.length;i++) if(studyQueue[i].w===lw.w) ahead++;
+    if(ahead<1){
+      // 人性化间隔：隔 3~5 题再练，不直接压到队尾；同词单轮最多出现 2 次
+      const gap=3+((lw.w.length+studyRequeued)%3);
+      studyQueue.splice(Math.min(studyQueue.length,studyPos+gap),0,lw);
+      studyRequeued++;
+    }
   }
   studyPos++;
   curQ=null;studyAnswered=false;sched=null;dailyFlipped=false;
@@ -1136,34 +1220,46 @@ function dailyCardBackHtml(lw){
  * 连续打卡 / 距高考剩余词量，全部来自真实 Store 与本次作答统计。
  * 可一键生成成果图（canvas 本地绘制，不上传、不含任何个人信息）。 */
 function dailyWrapData(){
-  const total=studyRight+studyWrong;
-  const plan=getDailyPlan();
+  const sess=Store.dailySessionStats();
+  const total=sess.roundAnswered||(studyRight+studyWrong);
+  const dayTotal=sess.answers||total;
+  const plan=dailyRoundItems?Store.dailyPlan(dailyOrder):getDailyPlan();
   const st=Store.stats();
   const learnedAll=(typeof CTX_COVERAGE!=='undefined'&&CTX_COVERAGE.all)?CTX_COVERAGE.all.length:4110;
   const remain=Math.max(0,learnedAll-Store.learnedCount());
   const days=Math.max(0,Math.ceil((GAOKAO_DATE-new Date())/86400000));
   return {
-    right:studyRight, wrong:studyWrong, answered:total,
-    acc:total?Math.round(studyRight/total*100):0,
+    right:sess.roundRight||studyRight, wrong:sess.roundWrong||studyWrong, answered:total,
+    acc:total?Math.round((sess.roundRight||studyRight)/total*100):0,
+    roundNo:sess.roundNo||1, roundWords:sess.roundWords.length||studyQueue.length,
+    dayAnswers:dayTotal, dayRight:sess.right||studyRight,
+    dayAcc:sess.accuracy||(dayTotal?Math.round(100*(sess.right||studyRight)/dayTotal):0),
+    wrongWords:sess.roundWrongWords,
     counts:plan.counts||{new:0,review:0,consolidate:0},
     prevFixed:dailyPrevWrongFixed, streak:st.streak||0,
-    remain:remain, days:days, learned:Store.learnedCount(), total:learnedAll
+    remain:remain, days:days, learned:Store.learnedCount(), total:learnedAll,
+    tired:dayTotal>=60
   };
 }
 function renderDailyWrap(){
   const d=dailyWrapData();
-  const planTotal=(getDailyPlan().total)||studyQueue.length;
   document.getElementById('spbar').style.width='100%';
-  // 答错会重排追加队列，用真实作答数收口，避免出现 21/20 这类不自洽数字
-  document.getElementById('scnt').textContent=d.answered+'/'+planTotal;
-  const seg=d.counts;
+  // 分母按本轮真实作答累计，并同时展示今日累计；不再固定 20
+  document.getElementById('scnt').textContent=d.roundNo+'轮 '+d.answered+'/'+d.roundWords;
+  const seg={new:0,review:0,consolidate:0};
+  (dailyRoundItems||[]).forEach(it=>{if(it.stage in seg)seg[it.stage]++;});
+  const wrongN=d.wrongWords.length;
+  const roundBtns=d.tired
+    ? '<div class="dw-hint">今日已累计 '+d.dayAnswers+' 次作答，达到推荐量。先收官，明天再练更利于记忆。</div>'
+    : '<button class="btn btn-primary" onclick="startDailyPlan(\'wrong\')">错题回炉'+(wrongN?'（'+wrongN+' 词）':'')+'</button>'+
+      '<button class="btn btn-ghost" style="margin-top:9px" onclick="startDailyPlan(\'normal\')">换一批新词</button>';
   document.getElementById('studyBody').innerHTML=
     '<div class="dw-wrap">'+
       '<div class="dw-hero">'+
         '<div class="dw-ic"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></div>'+
-        '<div class="dw-k">今日任务完成</div>'+
+        '<div class="dw-k">今日任务完成 · 第 '+d.roundNo+' 轮</div>'+
         '<div class="dw-acc"><b>'+d.acc+'</b><small>%</small></div>'+
-        '<div class="dw-accsub">本轮正确率 · 答对 '+d.right+' / 作答 '+d.answered+'</div>'+
+        '<div class="dw-accsub">本轮答对 '+d.right+' / 作答 '+d.answered+' · 今日累计 '+d.dayAnswers+' 次（'+d.dayAcc+'%）</div>'+
       '</div>'+
       '<div class="dw-grid">'+
         '<div class="dw-cell"><b>'+seg.new+'</b><span>新学</span></div>'+
@@ -1171,13 +1267,14 @@ function renderDailyWrap(){
         '<div class="dw-cell"><b>'+seg.consolidate+'</b><span>巩固</span></div>'+
       '</div>'+
       '<div class="dw-lines">'+
+        '<div class="dw-line"><span class="li">本轮词量</span><b>'+d.roundWords+' 词</b><span class="hint">作答 '+d.answered+' 次（含错词重练）</span></div>'+
         '<div class="dw-line"><span class="li">昨日错词攻克</span><b>'+d.prevFixed+' 个</b><span class="hint">'+(d.prevFixed?'上次错，这次对了':'今天没有回带的错词')+'</span></div>'+
         '<div class="dw-line"><span class="li">连续打卡</span><b>'+d.streak+' 天</b><span class="hint">保持节奏</span></div>'+
         '<div class="dw-line"><span class="li">距 2027 高考</span><b>'+d.days+' 天</b><span class="hint">还剩 '+d.remain+' 词没学</span></div>'+
       '</div>'+
       '<button class="btn btn-primary" onclick="exportDailyPoster()">生成今日成果图</button>'+
-      '<button class="btn btn-ghost" style="margin-top:9px" onclick="resetStudy()">再来一轮</button>'+
-      '<button class="btn btn-line" style="margin-top:4px" onclick="go(\'s-home\')">回到首页看进步</button>'+
+      roundBtns+
+      '<button class="btn btn-line" style="margin-top:6px" onclick="go(\'s-home\')">回到首页看进步</button>'+
     '</div>';
   const scr=document.getElementById('s-study');if(scr)scr.scrollTop=0;
 }
@@ -1191,9 +1288,10 @@ function exportDailyPoster(){
   g.fillStyle='#0f766e';g.fillRect(0,0,750,1000);
   g.fillStyle='#ffffff';g.font='bold 40px sans-serif';g.fillText('拾词 · 今日任务完成',60,110);
   g.font='bold 150px sans-serif';g.fillText(d.acc+'%',60,300);
-  g.font='30px sans-serif';g.fillText('本轮正确率 · 答对 '+d.right+' / '+d.answered,60,350);
+  g.font='30px sans-serif';g.fillText('第 '+d.roundNo+' 轮 · 答对 '+d.right+' / 作答 '+d.answered,60,350);
   g.font='28px sans-serif';
-  g.fillText('新学 '+d.counts.new+'  ·  复习 '+d.counts.review+'  ·  巩固 '+d.counts.consolidate,60,430);
+  g.fillText('今日累计 '+d.dayAnswers+' 次 · 正确率 '+d.dayAcc+'%',60,400);
+  g.fillText('新学 '+d.counts.new+'  ·  复习 '+d.counts.review+'  ·  巩固 '+d.counts.consolidate,60,450);
   g.fillText('昨日错词攻克 '+d.prevFixed+' 个',60,480);
   g.fillText('连续打卡 '+d.streak+' 天',60,530);
   g.fillText('距 2027 高考 '+d.days+' 天 · 还剩 '+d.remain+' 词',60,580);
@@ -1400,7 +1498,7 @@ function renderPayWallQuiz(){
 
 /* ==================== 核心变体词 · 熟练度反馈 ==================== */
 function trapWordStats(){
-  const list=trapCtx().words||[];
+  const list=trapVisible();
   const s={total:list.length,learned:0,red:0,solid:0,learning:0,fresh:0};
   list.forEach(function(x){
     const p=Store.wordProgress(x.headword);
@@ -1419,7 +1517,7 @@ function trapStatus(p){
 }
 function trapWordList(){
   const q=twQuery.trim().toLowerCase();
-  return (trapCtx().words||[]).filter(function(x){
+  return (trapVisible()).filter(function(x){
     if(q && x.headword.toLowerCase().indexOf(q)<0 && (x.sense_text||'').indexOf(twQuery)<0)return false;
     const p=Store.wordProgress(x.headword), st=trapStatus(p);
     return twFilter==='all' || st.key===twFilter;
@@ -1435,6 +1533,15 @@ function trapWordList(){
 function renderTrapWords(){
   const body=document.getElementById('trapWordsBody');if(!body)return;
   const s=trapWordStats(), list=trapWordList(), shown=list.slice(0,twShown);
+  const all=trapCtx().words||[], vis=trapVisible(), unlocked=Store.hasAll();
+  const cov=(trapCtx().meta&&trapCtx().meta.coverage)||{};
+  const label=document.getElementById('trapCountLabel');
+  if(label)label.textContent=vis.length+' 词'+(unlocked?' · 全量':'');
+  const banner=unlocked
+    ? '<div class="tw-unlocked">全量 '+all.length+' 个高频词汇陷阱已解锁 · '+(cov.variants_total||0)+' 条变体提示可查</div>'
+    : '<div class="tw-upsell"><div><b>免费 '+vis.length+' 个精修陷阱词</b>'+
+        '<span>购买全包后开放全部 '+all.length+' 个高频词汇陷阱与 '+(cov.variants_total||0)+' 条变体提示</span></div>'+
+        '<button onclick="openPay(\'all\')">解锁全量 ¥9.9</button></div>';
   const tabs=[['all','全部',s.total],['red','未学',s.red],['fresh','刚学过',s.fresh],
               ['learning','巩固中',s.learning],['solid','牢固',s.solid]];
   const tabsHtml=tabs.map(function(t){
@@ -1454,7 +1561,7 @@ function renderTrapWords(){
         '<button class="primary" onclick="trapRate(\''+x.headword+'\',3)">掌握</button>'+
       '</div></div>';
   }).join('');
-  body.innerHTML=
+  body.innerHTML=banner+
     '<div class="tw-sum">'+
       '<div class="cell"><b>'+s.total+'</b><span>核心词</span></div>'+
       '<div class="cell"><b>'+s.learned+'</b><span>已学(绿)</span></div>'+
@@ -1476,9 +1583,37 @@ function trapRate(word, level){
 }
 function openTrapWords(){twFilter='all';twQuery='';twShown=40;renderTrapWords();go('s-trapwords');}
 
-/* ==================== ERRORS ==================== */
-document.getElementById('errList').innerHTML=ERRORS.map(e=>
-  '<button class="errrow" onclick="openWord(\''+e.w+'\')"><span class="w">'+e.w+'</span><span class="m">'+e.m+'</span><span class="c">'+e.c+'</span></button>').join('');
+/* ==================== 错词：真实错次驱动，不再使用静态样例 ==================== */
+function renderErrList(){
+  const box=document.getElementById('errList'); if(!box)return;
+  const ws=Store.wrongWordStats(30);
+  if(!ws.top.length){
+    box.innerHTML='<div style="font-size:12.5px;color:var(--ink-3);padding:12px 4px;line-height:1.6">'+
+      '还没有错词记录。去「熟词僻义专项」答几题，这里会按你真实错次排出 Top5。</div>';
+    return;
+  }
+  box.innerHTML=ws.top.slice(0,5).map(r=>{
+    const p=Store.wordProgress(r.w);
+    const state=p.learned?(p.mastery>=80?'已稳固':'巩固中'):'未学';
+    return '<button class="errrow" onclick="openWord(\''+r.w+'\')">'+
+      '<span class="w">'+r.w+'</span>'+
+      '<span class="m">'+state+' · 错 '+r.n+' 次'+(r.errCode?' · '+r.errCode:'')+'</span>'+
+      '<span class="c">'+(p.learned?p.mastery+'%':'待学')+'</span></button>';
+  }).join('');
+}
+/* 把真实错词 Top10 装进背词队列，直接开始一轮针对性复习 */
+function reviewTopWrong(){
+  const words=Store.wrongWordStats(30).top.slice(0,10).map(r=>r.w).filter(w=>Store.isLexWord(w));
+  if(!words.length){ alert('还没有可复习的错词。先做几道专项题，这里会按真实错次组卷。'); return; }
+  studyQueue=words.map((w,i)=>{
+    const lw=LEX.find(x=>x.w===w), copy=Object.assign({},lw);
+    copy.stage='错题回炉';copy.i=i;copy.fast=false;copy.prevWrong=true;
+    return copy;
+  });
+  studyPos=0;studyAnswered=false;studyRight=0;studyWrong=0;studyRequeued=0;
+  wIdx=0;flipped=false;rated={unknown:0,vague:0,known:0};sched=null;curQ=null;
+  go('s-study');renderStudy();
+}
 function openWord(w){
   // 从失分地图/进度页跳入：直接展示该词完整词卡（浏览，不占用训练队列）
   if(LEX.some(x=>x.w===w)){ go('s-study'); showStudyCard(w); }
@@ -1842,6 +1977,67 @@ function renderParentReport(){
     '<div class="wk-bar" style="height:'+Math.max(3,Math.round(counts[i]/max*66))+'px"></div>'+
     '<span class="wk-n">'+l+'</span></div>').join('');
   renderHeatmap();
+  renderReportDeep(Store.wrongWordStats(7),counts,stat,q);
+  renderReportCloud();
+}
+/* 完整版深度区：薄弱项与下周计划全部由本周真实记录推导 */
+function renderReportDeep(ws,counts,stat,q){
+  const $=id=>document.getElementById(id);
+  const weak=$('rpWeakList');
+  if(weak){
+    if(!ws.total){
+      weak.innerHTML='<div style="font-size:12px;color:var(--ink-3);padding:8px 0;line-height:1.6">近 7 天还没有错题记录。做几道专项题后，这里会按真实错因排序。</div>';
+    }else{
+      const rows=ERR_CATS.map(c=>({c:c,v:errCatCount(c,ws,(q&&q.byModule)||{})}))
+        .filter(r=>r.v>0).sort((a,b)=>b.v-a.v).slice(0,3);
+      weak.innerHTML=rows.map((r,i)=>
+        '<div class="bench'+(i===0?' top':'')+'"><span class="bench-label">'+r.c.label+'</span>'+
+        '<div class="bench-track"><div class="bench-fill" style="width:'+Math.max(3,Math.round(100*r.v/ws.total))+'%;opacity:'+r.c.o+'"></div></div>'+
+        '<span class="bench-val">'+Math.round(100*r.v/ws.total)+'%</span></div>').join('');
+    }
+  }
+  const acts=$('rpActionList');
+  if(!acts)return;
+  const items=[];
+  const blankDays=counts.filter(v=>v===0).length;
+  if(blankDays)items.push('本周有 <b>'+blankDays+' 天</b>没有新学记录，先把每日目标稳在 15 词，保住连续性再提量。');
+  if(ws.total){
+    const top=ERR_CATS.map(c=>({c:c,v:errCatCount(c,ws,(q&&q.byModule)||{})}))
+      .sort((a,b)=>b.v-a.v)[0];
+    items.push('近 7 天错因集中在「<b>'+top.c.label+'</b>」（'+top.v+' 次），建议每天 5 道该专项题。');
+  }
+  const f=Store.reviewForecast();
+  if(f.dueToday||f.atRisk)
+    items.push('FSRS 显示 <b>'+f.dueToday+' 词今日到期</b>、'+f.atRisk+' 词可提取性低于 75%，先复习再学新词。');
+  if(stat&&stat.quizAnswered)
+    items.push(stat.accuracy>=85
+      ? ('正确率 '+stat.accuracy+'% 处于健康区间，<b>保持当前节奏</b>，不必盲目加量。')
+      : ('正确率 '+stat.accuracy+'%，先把错题回炉一轮再加量。'));
+  if(!items.length)items.push('完成 3 道专项题和一轮今日任务后，这里会按你的真实记录生成下周行动计划。');
+  acts.innerHTML=items.slice(0,4).map((t,i)=>
+    '<div class="ptip"><span class="n">'+(i+1)+'</span><span>'+t+'</span></div>').join('');
+}
+/* 登录权益：云端 FSRS 算法统计，未登录只看到注册引导，基础周报照常可见 */
+function renderReportCloud(){
+  const box=document.getElementById('rpCloud'); if(!box)return;
+  if(!isCloudUser()){
+    box.innerHTML='<div class="algo-gate"><div class="ag-ic">FSRS</div>'+
+      '<div class="ag-tx"><b>注册云端 · 解锁算法统计</b>'+
+      '<span>基础周报告诉你「发生了什么」；云端算法告诉你「明天该复习什么」，换设备也同步。</span></div>'+
+      '<button onclick="go(\'s-me\')">去登录</button></div>';
+    return;
+  }
+  const f=Store.reviewForecast();
+  box.innerHTML='<div class="algo-card">'+
+    '<div class="algo-hd"><b>云端算法 · 记忆健康度</b><span>FSRS-5 实时计算</span></div>'+
+    '<div class="algo-kpis">'+
+      '<div><b>'+f.solidPct+'%</b><span>记忆稳固率</span></div>'+
+      '<div><b>'+f.dueToday+'</b><span>今日到期</span></div>'+
+      '<div><b>'+f.atRisk+'</b><span>高危遗忘词</span></div>'+
+      '<div><b>'+f.familySolidPct+'%</b><span>词形网稳固</span></div>'+
+    '</div>'+
+    '<div class="algo-risk">已训练 '+f.cards+' 张义项卡 / '+f.familyTotal+' 张词形网卡，平均可提取性 '+f.avgR+'%，累计遗忘回流 '+f.lapses+' 次。数字来自云端同步的 FSRS 卡片状态。</div>'+
+  '</div>';
 }
 renderParentReport();
 
@@ -2070,6 +2266,7 @@ function refreshEntitlementUI(){
   if(typeof renderBook4==='function')renderBook4();
   if(typeof renderFullPack==='function')renderFullPack();
   if(typeof renderQuiz==='function')renderQuiz();
+  if(typeof renderTrapWords==='function')renderTrapWords(); // 词表从 100 免费词切到全量 443 词
 }
 
 /* ==================== INIT ==================== */
@@ -2087,20 +2284,19 @@ renderFullPackTeaser();
  * 23 天连续 / 42h 学习时长」原本是 HTML 里的字面量，做完题不会动。
  * 现在全部由 Store（FSRS 卡片状态 + 活动日志）推导。
  * ============================================================ */
-var ERR_CATS=[
-  {k:'熟词僻义',label:'熟词僻义',o:.9},
-  {k:'一词多义',label:'一词多义',o:.72},
-  {k:'固定搭配',label:'固定搭配',o:.52},
-  {k:'词性误判',label:'词性误判',o:.38},
-  {k:'拼写变形',label:'拼写变形',o:.26}
-];
+function errCatCount(c,ws,bm){
+  const byCode=ws.byErr[c.k]||0;
+  return byCode||(bm[c.label]||0);  // 兼容只有中文 module 标记的旧记录
+}
 function renderErrDist(){
-  const bm=Store.load().quiz.byModule||{};
-  const total=Object.keys(bm).reduce(function(a,k){return a+bm[k];},0);
   const box=document.getElementById('errDist');
   const sub=document.getElementById('errDistSub');
   const adv=document.getElementById('errAdvice');
   if(!box)return;
+  const ws=Store.wrongWordStats(30);
+  const bm=(Store.load().quiz||{}).byModule||{};
+  const legacy=Object.keys(bm).reduce(function(a,k){return a+bm[k];},0);
+  const total=ws.total||legacy;
   if(!total){
     box.innerHTML='<div style="font-size:12.5px;color:var(--ink-3);padding:8px 0">尚无错题数据。先去「熟词僻义专项」答几题，这里会按真实错因出分布。</div>';
     if(sub)sub.textContent='按失分原因归类，而非词表顺序';
@@ -2108,17 +2304,51 @@ function renderErrDist(){
     return;
   }
   const rows=ERR_CATS.map(function(c){
-    const v=bm[c.k]||0; const pct=Math.round(100*v/total);
+    const v=errCatCount(c,ws,bm), pct=Math.round(100*v/total);
     return '<div class="bench'+(c===ERR_CATS[0]?' top':'')+'"><span class="bench-label">'+c.label+'</span>'+
       '<div class="bench-track"><div class="bench-fill" style="width:'+Math.max(pct,1.5)+'%;opacity:'+c.o+'"></div></div>'+
       '<span class="bench-val">'+pct+'%</span></div>';
   }).join('');
   box.innerHTML=rows;
-  if(sub)sub.textContent='本机真实作答：'+total+' 道错题';
-  const top=ERR_CATS.slice().sort(function(a,b){return (bm[b.k]||0)-(bm[a.k]||0);})[0];
-  const pct=Math.round(100*(bm[top.k]||0)/total);
-  if(adv)adv.innerHTML='你因「'+top.label+'」丢掉 <b style="color:#fff">'+pct+'%</b> 的词汇失分，'+
-    '集中练 40 分钟，预计可在阅读与完形挽回 <b style="color:#fff">8–12 分</b>。';
+  if(sub)sub.textContent='近 30 天真实作答：'+ws.total+' 道错题 · '+ws.distinct+' 个词';
+  const top=ERR_CATS.slice().sort(function(a,b){return errCatCount(b,ws,bm)-errCatCount(a,ws,bm);})[0];
+  const n=errCatCount(top,ws,bm), pct=Math.round(100*n/total);
+  const risky=ws.top.filter(function(r){const p=Store.wordProgress(r.w);return p.learned&&p.mastery<75;}).length;
+  if(adv){
+    adv.innerHTML='近 30 天你因「'+top.label+'」错 <b style="color:#fff">'+n+' 次</b>，占词汇失分 '+pct+'%'+
+      (ws.distinct?'，涉及 '+ws.distinct+' 个词':'')+'。'+
+      (ws.total<5?'样本还少，继续作答后归因会更准。':
+        (risky?'其中 '+risky+' 个词记忆尚未稳固，建议先按遗忘曲线复习，再做 5 道专项题。':'错词已进词卡，建议按 Top 顺序再过一轮。'));
+  }
+}
+function isCloudUser(){
+  try{ return !!(typeof CloudStore!=='undefined'&&CloudStore.getSession&&CloudStore.getSession()); }
+  catch(e){ return false; }
+}
+/* 云端算法卡：登录后可见，数字来自 FSRS 卡片状态，不写死、不预估 */
+function renderErrCloud(){
+  const box=document.getElementById('errCloud'); if(!box)return;
+  if(!isCloudUser()){
+    box.innerHTML='<div class="algo-gate"><div class="ag-ic">FSRS</div>'+
+      '<div class="ag-tx"><b>注册云端 · 解锁遗忘曲线统计</b>'+
+      '<span>登录后由云端记忆算法算出到期复习词、记忆稳固率与高危遗忘词，换设备继续累计。</span></div>'+
+      '<button onclick="go(\'s-me\')">去登录</button></div>';
+    return;
+  }
+  const f=Store.reviewForecast();
+  const chips=f.weakWords.slice(0,4).map(x=>'<span class="algo-chip">'+x.w+' '+x.r+'%</span>').join('');
+  box.innerHTML='<div class="algo-card">'+
+    '<div class="algo-hd"><b>云端算法 · 复习预测</b><span>FSRS-5 实时计算</span></div>'+
+    '<div class="algo-kpis">'+
+      '<div><b>'+f.dueToday+'</b><span>今日待复习</span></div>'+
+      '<div><b>'+f.dueTomorrow+'</b><span>明日到期</span></div>'+
+      '<div><b>'+f.solidPct+'%</b><span>记忆稳固率</span></div>'+
+      '<div><b>'+f.avgR+'%</b><span>平均可提取性</span></div>'+
+    '</div>'+
+    (f.cards?'<div class="algo-risk">'+(f.atRisk?('<b>'+f.atRisk+'</b> 个词低于 75% 可提取性'+(chips?'：'+chips:'')):'暂无高危遗忘词，保持当前节奏')+'</div>':
+      '<div class="algo-risk">算法卡还没有数据，完成今日任务后即可看到真实预测。</div>')+
+    '<button class="btn btn-primary" style="width:100%;margin-top:10px" onclick="reviewTopWrong()">从错词 Top 开始复习</button>'+
+  '</div>';
 }
 /* 题型分布：按真实作答里的题型标记出，没数据不预填百分比 */
 function renderTypeDist(){
@@ -2167,7 +2397,7 @@ function syncStats(){
   if(ring) ring.style.background='conic-gradient(var(--accent) 0 '+Math.round(done/plan*100)+'%, var(--line-2) '+Math.round(done/plan*100)+'% 100%)';
   // 首页/我的页文案随真实作答变化（不再写死 62% / 54 个）
   const hq=document.getElementById('homeQuizLine');
-  if(hq) hq.textContent=st.quizAnswered?('12 道高频陷阱题 · 你的正确率 '+st.accuracy+'%'):'12 道高频陷阱题 · 做完 3 题看你的真实正确率';
+  if(hq) hq.textContent=st.quizAnswered?('100 个高频陷阱词 · 你的正确率 '+st.accuracy+'%'):'100 个高频陷阱词 · 100 道仿真题 · 做完 3 题看真实正确率';
   const et=document.getElementById('errTotal');
   if(et) et.textContent='全部 '+st.quizWrong+' 个';
   const eb=document.getElementById('errBook');
@@ -2188,9 +2418,11 @@ function syncStats(){
   if(typeof renderGrowth==='function') renderGrowth();
   // 学习成效：近7日趋势 + 熟练度分布
   if(typeof renderEffect==='function') renderEffect();
-  // 失分地图：错因分布按真实作答统计刷新
+  // 失分地图：错因分布 / 错词榜 / 云端算法预测全部按真实记录刷新
   renderErrDist();
   renderTypeDist();
+  renderErrList();
+  renderErrCloud();
 }
 syncStats();
 

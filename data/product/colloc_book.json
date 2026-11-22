@@ -9,23 +9,13 @@
   "pricing": {
    "tiers": [
     {
-     "name": "10% 试读",
-     "words": 60,
-     "price": 1.9
-    },
-    {
-     "name": "50% 进阶",
-     "words": 300,
-     "price": 3.9
-    },
-    {
      "name": "完整版",
      "words": 443,
-     "price": 4.9
+     "price": 2.9
     }
    ],
    "currency": "CNY",
-   "unit": "按词分档"
+   "unit": "单本买断"
   },
   "coverage": {
    "planned_words": 443,
@@ -35,9 +25,10 @@
    "examples_by_method": {
     "手工精修": 641,
     "义项语境句": 1145,
-    "无例句": 516
+    "无例句": 292,
+    "词条语境句": 224
    },
-   "note": "核心搭配配独立仿真例句（手工精修）；其余为义项语境句或无例句，均已逐条标注。"
+   "note": "手工精修为逐搭配独立例句；义项语境句与词条语境句均如实标注来源，剩余无例句条目不做虚假精修。"
   },
   "type_distribution": {
    "动词搭配": 1104,
@@ -13843,10 +13834,10 @@
   },
   {
    "headword": "accumulate",
-   "ipa": "",
+   "ipa": "/əˈkjuːmjʊleɪt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "经济与科研类文章高频",
    "groups": [
     {
      "sense": "逐渐积累、积聚",
@@ -14005,10 +13996,10 @@
   },
   {
    "headword": "adopt",
-   "ipa": "",
+   "ipa": "/əˈdɒpt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "义项分叉是 E2 考点",
    "groups": [
     {
      "sense": "采取方法；收养；正式通过",
@@ -14039,10 +14030,10 @@
   },
   {
    "headword": "affect",
-   "ipa": "",
+   "ipa": "/əˈfekt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "affect/effect 是 E1+E5 复合考点",
    "groups": [
     {
      "sense": "对…产生影响；感染",
@@ -14073,10 +14064,10 @@
   },
   {
    "headword": "align",
-   "ipa": "",
+   "ipa": "/əˈlaɪn/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在议论文出现",
    "groups": [
     {
      "sense": "使一致、对齐；结盟",
@@ -14107,10 +14098,10 @@
   },
   {
    "headword": "allocate",
-   "ipa": "",
+   "ipa": "/ˈæləˌkeɪt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在经济类文章高频",
    "groups": [
     {
      "sense": "分配资源、时间",
@@ -14347,10 +14338,10 @@
   },
   {
    "headword": "approach",
-   "ipa": "",
+   "ipa": "/əˈprəʊtʃ/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "动词义在阅读高频",
    "groups": [
     {
      "sense": "方法、途径；接近、着手处理",
@@ -14381,10 +14372,10 @@
   },
   {
    "headword": "articulate",
-   "ipa": "",
+   "ipa": "/ɑrˈtɪkjəˌleɪt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是人物类文章高频",
    "groups": [
     {
      "sense": "清晰表达；表达清楚的",
@@ -14582,10 +14573,10 @@
   },
   {
    "headword": "assess",
-   "ipa": "",
+   "ipa": "/əˈses/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是科研类文章核心",
    "groups": [
     {
      "sense": "评估、估算价值或影响",
@@ -14783,10 +14774,10 @@
   },
   {
    "headword": "attempt",
-   "ipa": "",
+   "ipa": "/əˈtempt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "介词搭配是语法填空错点",
    "groups": [
     {
      "sense": "尝试、努力",
@@ -14817,10 +14808,10 @@
   },
   {
    "headword": "attribute",
-   "ipa": "",
+   "ipa": "/əˈtrɪˌbjut/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是议论文高频",
    "groups": [
     {
      "sense": "把…归因于；属性、特质",
@@ -14851,10 +14842,10 @@
   },
   {
    "headword": "average",
-   "ipa": "",
+   "ipa": "/ˈævərɪdʒ/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "on average 是高频短语",
    "groups": [
     {
      "sense": "平均的；普通的；平均数",
@@ -14885,10 +14876,10 @@
   },
   {
    "headword": "belief",
-   "ipa": "",
+   "ipa": "/bɪˈli:f/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "阅读高频短语",
    "groups": [
     {
      "sense": "信念、看法；信仰",
@@ -14919,10 +14910,10 @@
   },
   {
    "headword": "benefit",
-   "ipa": "",
+   "ipa": "/ˈbenɪfɪt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "benefit sb / be of benefit to",
    "groups": [
     {
      "sense": "益处；受益",
@@ -14953,10 +14944,10 @@
   },
   {
    "headword": "bloom",
-   "ipa": "",
+   "ipa": "/blum/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "比喻义较少考",
    "groups": [
     {
      "sense": "开花；繁荣、兴盛",
@@ -15115,10 +15106,10 @@
   },
   {
    "headword": "boost",
-   "ipa": "",
+   "ipa": "/bu:st/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是经济类文章高频",
    "groups": [
     {
      "sense": "促进、增强；推动",
@@ -15149,10 +15140,10 @@
   },
   {
    "headword": "branch",
-   "ipa": "",
+   "ipa": "/brɑ:ntʃ/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "商业类文章出现",
    "groups": [
     {
      "sense": "树枝；分支、分公司；分叉",
@@ -15183,10 +15174,10 @@
   },
   {
    "headword": "brand",
-   "ipa": "",
+   "ipa": "/brænd/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "定语位置是语法填空考点",
    "groups": [
     {
      "sense": "品牌；种类；打烙印",
@@ -15217,10 +15208,10 @@
   },
   {
    "headword": "breath",
-   "ipa": "",
+   "ipa": "/breθ/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是作文高频",
    "groups": [
     {
      "sense": "呼吸；气息",
@@ -15251,10 +15242,10 @@
   },
   {
    "headword": "bridge",
-   "ipa": "",
+   "ipa": "/brɪʤ/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是作文高频",
    "groups": [
     {
      "sense": "桥；纽带；弥合",
@@ -15285,10 +15276,10 @@
   },
   {
    "headword": "brief",
-   "ipa": "",
+   "ipa": "/bri:f/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "短语义是完形高频",
    "groups": [
     {
      "sense": "简短的；简要介绍",
@@ -15319,10 +15310,10 @@
   },
   {
    "headword": "brilliant",
-   "ipa": "",
+   "ipa": "/ˈbrɪliənt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "褒义色彩是 E8 考点",
    "groups": [
     {
      "sense": "才华横溢的；非常聪明的",
@@ -15332,10 +15323,10 @@
       {
        "text": "a brilliant idea",
        "type": "名词词块",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Her brilliant performance in the school play impressed every judge.",
+       "example_zh": "她在校园剧中的出色表演打动了每一位评委。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "brilliant performance",
@@ -15353,10 +15344,10 @@
   },
   {
    "headword": "capital",
-   "ipa": "",
+   "ipa": "/ˈkæpɪtəl/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "定语义在社会类文章出现",
    "groups": [
     {
      "sense": "首都；资本；大写字母",
@@ -15366,10 +15357,10 @@
       {
        "text": "capital city",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Beijing is the capital of China, while Shanghai is its financial centre.",
+       "example_zh": "北京是中国的首都，上海则是金融中心。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "venture capital",
@@ -15554,10 +15545,10 @@
   },
   {
    "headword": "capture",
-   "ipa": "",
+   "ipa": "/ˈkæpʧər/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是应用文高频",
    "groups": [
     {
      "sense": "捕获；占领；吸引；拍摄",
@@ -15588,10 +15579,10 @@
   },
   {
    "headword": "care",
-   "ipa": "",
+   "ipa": "/kɛr/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "三个短语义完全不同",
    "groups": [
     {
      "sense": "关心、照顾；在意",
@@ -15622,10 +15613,10 @@
   },
   {
    "headword": "cast",
-   "ipa": "",
+   "ipa": "/kɑ:st/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是议论文高频",
    "groups": [
     {
      "sense": "投掷；投射；选角；演员阵容",
@@ -15656,10 +15647,10 @@
   },
   {
    "headword": "cause",
-   "ipa": "",
+   "ipa": "/kɔz/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "cause and effect 是完形标配",
    "groups": [
     {
      "sense": "原因；事业；导致",
@@ -15690,10 +15681,10 @@
   },
   {
    "headword": "charm",
-   "ipa": "",
+   "ipa": "/tʃɑ:m/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "文化类文章高频",
    "groups": [
     {
      "sense": "魅力；迷住",
@@ -15703,10 +15694,10 @@
       {
        "text": "a charm of",
        "type": "名词词块",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The old town's charm comes from its quiet streets and friendly people.",
+       "example_zh": "这座古镇的魅力来自安静的街道和友善的人们。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "be charmed by",
@@ -15724,10 +15715,10 @@
   },
   {
    "headword": "cite",
-   "ipa": "",
+   "ipa": "/saɪt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "学术类文章高频",
    "groups": [
     {
      "sense": "引用；列举；传唤",
@@ -15758,10 +15749,10 @@
   },
   {
    "headword": "claim",
-   "ipa": "",
+   "ipa": "/kleɪm/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "句型是语法填空高频",
    "groups": [
     {
      "sense": "声称；索取；要求",
@@ -15792,10 +15783,10 @@
   },
   {
    "headword": "coincide",
-   "ipa": "",
+   "ipa": "/ˌkoʊɪnˈsaɪd/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是数据类文章高频",
    "groups": [
     {
      "sense": "同时发生；意见一致",
@@ -15826,10 +15817,10 @@
   },
   {
    "headword": "collapse",
-   "ipa": "",
+   "ipa": "/kəˈlæps/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "经济类文章高频",
    "groups": [
     {
      "sense": "倒塌；崩溃；突然昏倒",
@@ -15839,10 +15830,10 @@
       {
        "text": "the roof collapsed",
        "type": "名词词块",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The old bridge collapsed after days of heavy rain.",
+       "example_zh": "连日大雨后，那座旧桥倒塌了。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "economic collapse",
@@ -15860,10 +15851,10 @@
   },
   {
    "headword": "comment",
-   "ipa": "",
+   "ipa": "/ˈkɒment/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "句型是语法填空高频",
    "groups": [
     {
      "sense": "评论、意见",
@@ -15894,10 +15885,10 @@
   },
   {
    "headword": "compass",
-   "ipa": "",
+   "ipa": "/ˈkʌmpəs/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "比喻义较少考",
    "groups": [
     {
      "sense": "指南针；罗盘",
@@ -15907,10 +15898,10 @@
       {
        "text": "a compass",
        "type": "名词词块",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "We used a compass to find our way when the map got wet.",
+       "example_zh": "地图湿透后，我们用指南针辨路。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "compass needle",
@@ -15928,10 +15919,10 @@
   },
   {
    "headword": "compensate",
-   "ipa": "",
+   "ipa": "/ˈkɑmpənˌseɪt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在社会类文章高频",
    "groups": [
     {
      "sense": "弥补损失；向某人赔偿",
@@ -15962,10 +15953,10 @@
   },
   {
    "headword": "comply",
-   "ipa": "",
+   "ipa": "/kəmˈplaɪ/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是语法填空高频",
    "groups": [
     {
      "sense": "遵照、服从规定或要求",
@@ -15996,10 +15987,10 @@
   },
   {
    "headword": "compromise",
-   "ipa": "",
+   "ipa": "/ˈkɒmprəmaɪz/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在社会类文章出现",
    "groups": [
     {
      "sense": "折中方案；妥协、让步",
@@ -16030,10 +16021,10 @@
   },
   {
    "headword": "condition",
-   "ipa": "",
+   "ipa": "/kənˈdɪʃən/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "倒装句是语法填空高频",
    "groups": [
     {
      "sense": "状况；条件；环境（复数 conditions）",
@@ -16064,10 +16055,10 @@
   },
   {
    "headword": "confidence",
-   "ipa": "",
+   "ipa": "/ˈkɒnfɪdəns/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是作文高频",
    "groups": [
     {
      "sense": "信心；信任；秘密",
@@ -16098,10 +16089,10 @@
   },
   {
    "headword": "confine",
-   "ipa": "",
+   "ipa": "/kənˈfaɪn/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在科研类文章高频",
    "groups": [
     {
      "sense": "限制在范围内；关押",
@@ -16132,10 +16123,10 @@
   },
   {
    "headword": "conform",
-   "ipa": "",
+   "ipa": "/kənˈfɔrm/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是语法填空高频",
    "groups": [
     {
      "sense": "符合规范；顺从",
@@ -16166,10 +16157,10 @@
   },
   {
    "headword": "consolidate",
-   "ipa": "",
+   "ipa": "/kənˈsɑlɪˌdeɪt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "经济类文章高频",
    "groups": [
     {
      "sense": "巩固、加强；合并",
@@ -16179,10 +16170,10 @@
       {
        "text": "consolidate gains",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The team held a short meeting to consolidate what they had learned.",
+       "example_zh": "团队开了个短会，巩固所学内容。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "consolidate two groups",
@@ -16200,10 +16191,10 @@
   },
   {
    "headword": "constitute",
-   "ipa": "",
+   "ipa": "/ˈkɑnstəˌtut/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "句型是语法填空高频",
    "groups": [
     {
      "sense": "构成、组成；设立",
@@ -16213,10 +16204,10 @@
       {
        "text": "constitute a threat",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Women constitute nearly half of the workforce in this company.",
+       "example_zh": "女性约占这家公司员工的一半。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "be constituted as",
@@ -16401,10 +16392,10 @@
   },
   {
    "headword": "cope",
-   "ipa": "",
+   "ipa": "/koʊp/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是社会类文章高频",
    "groups": [
     {
      "sense": "（成功地）应付、处理",
@@ -16435,10 +16426,10 @@
   },
   {
    "headword": "count",
-   "ipa": "",
+   "ipa": "/kaʊnt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "三个短语义完全不同",
    "groups": [
     {
      "sense": "数数；把…算入；重要、有价值",
@@ -16469,10 +16460,10 @@
   },
   {
    "headword": "crack",
-   "ipa": "",
+   "ipa": "/kræk/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在社会类文章出现",
    "groups": [
     {
      "sense": "裂开；破解；裂缝",
@@ -16482,10 +16473,10 @@
       {
        "text": "crack a joke",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The chef cracked the egg into a bowl.",
+       "example_zh": "厨师把鸡蛋敲开打进碗里。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "crack down on",
@@ -16503,10 +16494,10 @@
   },
   {
    "headword": "credit",
-   "ipa": "",
+   "ipa": "/ˈkredɪt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是应用文高频",
    "groups": [
     {
      "sense": "信誉；学分；赊购；归功于",
@@ -16537,10 +16528,10 @@
   },
   {
    "headword": "crisis",
-   "ipa": "",
+   "ipa": "/ˈkraɪsɪs/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "与 critical 构成词族",
    "groups": [
     {
      "sense": "危机、紧要关头",
@@ -16699,10 +16690,10 @@
   },
   {
    "headword": "criticize",
-   "ipa": "",
+   "ipa": "/ˈkrɪtɪˌsaɪz/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是作文高频",
    "groups": [
     {
      "sense": "批评、批判；评论",
@@ -16733,10 +16724,10 @@
   },
   {
    "headword": "cultivate",
-   "ipa": "",
+   "ipa": "/ˈkəltəˌveɪt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是作文高频",
    "groups": [
     {
      "sense": "培养习惯或能力；耕作",
@@ -16767,10 +16758,10 @@
   },
   {
    "headword": "culture",
-   "ipa": "",
+   "ipa": "/ˈkəlʧər/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "固定搭配是应用文核心",
    "groups": [
     {
      "sense": "文化；文明；培养",
@@ -16780,10 +16771,10 @@
       {
        "text": "traditional culture",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Spending a year abroad helped him understand a different culture.",
+       "example_zh": "在国外待了一年帮助他理解了另一种文化。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "culture shock",
@@ -16801,10 +16792,10 @@
   },
   {
    "headword": "curb",
-   "ipa": "",
+   "ipa": "/kərb/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在环保类文章出现",
    "groups": [
     {
      "sense": "抑制、控制；路缘",
@@ -16835,10 +16826,10 @@
   },
   {
    "headword": "damage",
-   "ipa": "",
+   "ipa": "/ˈdæmɪdʒ/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "cause damage to 是环保类文章必备",
    "groups": [
     {
      "sense": "损害、破坏；损失",
@@ -16869,10 +16860,10 @@
   },
   {
    "headword": "deal",
-   "ipa": "",
+   "ipa": "/dil/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "短语义是语法填空考点",
    "groups": [
     {
      "sense": "处理；交易；大量",
@@ -16903,10 +16894,10 @@
   },
   {
    "headword": "decline",
-   "ipa": "",
+   "ipa": "/dɪˈklaɪn/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "数据类文章高频",
    "groups": [
     {
      "sense": "下降；婉拒；衰退",
@@ -16937,10 +16928,10 @@
   },
   {
    "headword": "deliberately",
-   "ipa": "",
+   "ipa": "/dɪˈlɪbərətli/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "情感色彩是 E8 考点",
    "groups": [
     {
      "sense": "故意地；慎重地",
@@ -16950,10 +16941,10 @@
       {
        "text": "deliberately ignore",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "She deliberately left her phone at home to enjoy the evening.",
+       "example_zh": "她故意把手机留在家里，好好享受这个夜晚。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "act deliberately",
@@ -16971,10 +16962,10 @@
   },
   {
    "headword": "demand",
-   "ipa": "",
+   "ipa": "/dɪˈmɑ:nd/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "meet/satisfy a demand 是经济类高频",
    "groups": [
     {
      "sense": "需求；要求、强烈要求",
@@ -17005,10 +16996,10 @@
   },
   {
    "headword": "democracy",
-   "ipa": "",
+   "ipa": "/dɪˈmɑkrəsi/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "社会类文章核心",
    "groups": [
     {
      "sense": "民主；民主制度",
@@ -17018,10 +17009,10 @@
       {
        "text": "democratic society",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Democracy gives citizens a voice in how their country is run.",
+       "example_zh": "民主让公民对国家如何治理拥有发言权。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "democracy movement",
@@ -17039,10 +17030,10 @@
   },
   {
    "headword": "depress",
-   "ipa": "",
+   "ipa": "/dɪˈpres/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "经济义较少考",
    "groups": [
     {
      "sense": "使沮丧；使萧条",
@@ -17073,10 +17064,10 @@
   },
   {
    "headword": "depression",
-   "ipa": "",
+   "ipa": "/dɪˈprɛʃən/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "社会类文章两义并存",
    "groups": [
     {
      "sense": "沮丧；萧条；抑郁症",
@@ -17086,10 +17077,10 @@
       {
        "text": "suffer from depression",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The long winter and lack of sunlight can cause seasonal depression.",
+       "example_zh": "漫长的冬季和缺乏阳光会导致季节性抑郁。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "economic depression",
@@ -17107,10 +17098,10 @@
   },
   {
    "headword": "destiny",
-   "ipa": "",
+   "ipa": "/ˈdɛstəni/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "人物类文章出现",
    "groups": [
     {
      "sense": "命运、注定的结局",
@@ -17120,10 +17111,10 @@
       {
        "text": "determine one’s destiny",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "He believed it was his destiny to become a doctor.",
+       "example_zh": "他相信自己注定要成为医生。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "by destiny",
@@ -17141,10 +17132,10 @@
   },
   {
    "headword": "devise",
-   "ipa": "",
+   "ipa": "/dɪˈvaɪz/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是阅读高频",
    "groups": [
     {
      "sense": "设计、想出办法",
@@ -17175,10 +17166,10 @@
   },
   {
    "headword": "discipline",
-   "ipa": "",
+   "ipa": "/ˈdɪsəplɪn/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "学科义是文章高频",
    "groups": [
     {
      "sense": "纪律；学科；训练、处罚",
@@ -17209,10 +17200,10 @@
   },
   {
    "headword": "discourage",
-   "ipa": "",
+   "ipa": "/dɪˈskərɪʤ/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "结构是高频考点",
    "groups": [
     {
      "sense": "使气馁；劝阻",
@@ -17243,10 +17234,10 @@
   },
   {
    "headword": "display",
-   "ipa": "",
+   "ipa": "/dɪˈspleɪ/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "be on display 是博物馆类文章高频",
    "groups": [
     {
      "sense": "展示、陈列；显示",
@@ -17277,10 +17268,10 @@
   },
   {
    "headword": "dispose",
-   "ipa": "",
+   "ipa": "/dɪˈspoʊz/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "介词搭配是高频错点",
    "groups": [
     {
      "sense": "处理、丢弃；使倾向于",
@@ -17311,10 +17302,10 @@
   },
   {
    "headword": "distinguish",
-   "ipa": "",
+   "ipa": "/dɪˈstɪŋgwɪʃ/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是语法填空错点",
    "groups": [
     {
      "sense": "区分、辨别；使显著",
@@ -17345,10 +17336,10 @@
   },
   {
    "headword": "distribute",
-   "ipa": "",
+   "ipa": "/dɪˈstrɪbjut/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "义项分化是 E2 考点",
    "groups": [
     {
      "sense": "分发；分布；分配",
@@ -17577,10 +17568,10 @@
   },
   {
    "headword": "draw",
-   "ipa": "",
+   "ipa": "/drɔ/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是应用文高频",
    "groups": [
     {
      "sense": "画；拉；吸引；推断出",
@@ -17611,10 +17602,10 @@
   },
   {
    "headword": "drive",
-   "ipa": "",
+   "ipa": "/draɪv/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "语义延伸义常被误判",
    "groups": [
     {
      "sense": "驾驶；推动；动力",
@@ -17645,10 +17636,10 @@
   },
   {
    "headword": "drop",
-   "ipa": "",
+   "ipa": "/drɔp/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "短语义是应用文高频",
    "groups": [
     {
      "sense": "落下；减少；放弃；滴",
@@ -17679,10 +17670,10 @@
   },
   {
    "headword": "economy",
-   "ipa": "",
+   "ipa": "/ɪˈkɒnəmi/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "短语义少见于高考",
    "groups": [
     {
      "sense": "经济；节约；经济体",
@@ -17692,10 +17683,10 @@
       {
        "text": "market economy",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "A strong economy creates more jobs for young people.",
+       "example_zh": "强劲的经济为年轻人创造更多就业机会。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "economy class",
@@ -17713,10 +17704,10 @@
   },
   {
    "headword": "element",
-   "ipa": "",
+   "ipa": "/ˈelɪmənt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是议论文高频",
    "groups": [
     {
      "sense": "元素、要素；化学元素",
@@ -17726,10 +17717,10 @@
       {
        "text": "a key element",
        "type": "名词词块",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Trust is a key element in any lasting friendship.",
+       "example_zh": "信任是任何长久友谊的关键要素。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "an element of truth",
@@ -17747,10 +17738,10 @@
   },
   {
    "headword": "eliminate",
-   "ipa": "",
+   "ipa": "/ɪˈlɪməˌneɪt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是作文高频",
    "groups": [
     {
      "sense": "消除、排除；淘汰",
@@ -17781,10 +17772,10 @@
   },
   {
    "headword": "embrace",
-   "ipa": "",
+   "ipa": "/ɪmˈbreɪs/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是议论文高频",
    "groups": [
     {
      "sense": "欣然接受；拥抱；包含",
@@ -17815,10 +17806,10 @@
   },
   {
    "headword": "emphasize",
-   "ipa": "",
+   "ipa": "/ˈɛmfəˌsaɪz/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是作文高频",
    "groups": [
     {
      "sense": "强调、着重指出",
@@ -17849,10 +17840,10 @@
   },
   {
    "headword": "endorse",
-   "ipa": "",
+   "ipa": "/ɛnˈdɔrs/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "商业类文章出现",
    "groups": [
     {
      "sense": "支持、赞同；背书",
@@ -17862,10 +17853,10 @@
       {
        "text": "endorse a proposal",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Several teachers endorsed the plan for a school reading club.",
+       "example_zh": "几位老师支持成立学校读书俱乐部的计划。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "endorse a check",
@@ -17883,10 +17874,10 @@
   },
   {
    "headword": "enforce",
-   "ipa": "",
+   "ipa": "/ɛnˈfɔrs/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是社会类文章高频",
    "groups": [
     {
      "sense": "执行、实施；强迫服从",
@@ -17917,10 +17908,10 @@
   },
   {
    "headword": "enrich",
-   "ipa": "",
+   "ipa": "/ɪnˈrɪʧ/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在文化类文章出现",
    "groups": [
     {
      "sense": "丰富、充实；使富裕",
@@ -17951,10 +17942,10 @@
   },
   {
    "headword": "enthusiasm",
-   "ipa": "",
+   "ipa": "/ɪnˈθuziˌæzəm/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "作文高频",
    "groups": [
     {
      "sense": "热情、热忱",
@@ -17985,10 +17976,10 @@
   },
   {
    "headword": "entitle",
-   "ipa": "",
+   "ipa": "/ɪnˈtaɪtl/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是社会福利类文章高频",
    "groups": [
     {
      "sense": "给予权利或资格；给…取名",
@@ -18019,10 +18010,10 @@
   },
   {
    "headword": "environment",
-   "ipa": "",
+   "ipa": "/ɪnˈvaɪrənmənt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "环保类作文核心",
    "groups": [
     {
      "sense": "环境；自然环境",
@@ -18053,10 +18044,10 @@
   },
   {
    "headword": "equal",
-   "ipa": "",
+   "ipa": "/ˈi:kwəl/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "be equal to doing 是常见误用点",
    "groups": [
     {
      "sense": "相等的；平等的；等于",
@@ -18087,10 +18078,10 @@
   },
   {
    "headword": "equip",
-   "ipa": "",
+   "ipa": "/ɪˈkwɪp/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是语法填空高频",
    "groups": [
     {
      "sense": "装备、配备；使具备能力",
@@ -18121,10 +18112,10 @@
   },
   {
    "headword": "erode",
-   "ipa": "",
+   "ipa": "/ˈiroʊd/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "比喻义在社会类文章高频",
    "groups": [
     {
      "sense": "侵蚀、腐蚀；逐渐削弱",
@@ -18134,10 +18125,10 @@
       {
        "text": "erode confidence",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Waves slowly erode the cliff, year after year.",
+       "example_zh": "海浪年复一年地慢慢侵蚀悬崖。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "soil erosion",
@@ -18155,10 +18146,10 @@
   },
   {
    "headword": "estimate",
-   "ipa": "",
+   "ipa": "/ˈestɪmət/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "at an estimated cost",
    "groups": [
     {
      "sense": "估计、估算",
@@ -18189,10 +18180,10 @@
   },
   {
    "headword": "evidence",
-   "ipa": "",
+   "ipa": "/ˈevɪdəns/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是阅读高频",
    "groups": [
     {
      "sense": "证据、迹象；证明",
@@ -18223,10 +18214,10 @@
   },
   {
    "headword": "exaggerate",
-   "ipa": "",
+   "ipa": "/ɪgˈzæʤərˌeɪt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是议论文高频",
    "groups": [
     {
      "sense": "夸大、夸张",
@@ -18424,10 +18415,10 @@
   },
   {
    "headword": "exert",
-   "ipa": "",
+   "ipa": "/ɪgˈzərt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是议论文高频",
    "groups": [
     {
      "sense": "施加影响；努力",
@@ -18458,10 +18449,10 @@
   },
   {
    "headword": "expand",
-   "ipa": "",
+   "ipa": "/ɪkˈspænd/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在商业类文章高频",
    "groups": [
     {
      "sense": "扩大、扩展；膨胀",
@@ -18492,10 +18483,10 @@
   },
   {
    "headword": "expedite",
-   "ipa": "",
+   "ipa": "/ˈɛkspɪˌdaɪt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配较少考",
    "groups": [
     {
      "sense": "加快、促进（进程）",
@@ -18505,10 +18496,10 @@
       {
        "text": "expedite delivery",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The new online form will expedite the application process.",
+       "example_zh": "新的在线表格将加快申请流程。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "expedite a decision",
@@ -18526,10 +18517,10 @@
   },
   {
    "headword": "expense",
-   "ipa": "",
+   "ipa": "/ɪkˈspens/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是议论文高频",
    "groups": [
     {
      "sense": "费用、开支；代价",
@@ -18560,10 +18551,10 @@
   },
   {
    "headword": "fail",
-   "ipa": "",
+   "ipa": "/feɪl/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "完形高频结构",
    "groups": [
     {
      "sense": "失败；未能；衰竭",
@@ -18594,10 +18585,10 @@
   },
   {
    "headword": "fair",
-   "ipa": "",
+   "ipa": "/fɛr/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "fair price / fair play 在社会类文章出现",
    "groups": [
     {
      "sense": "公平的；相当好的；浅色的（头发）",
@@ -18628,10 +18619,10 @@
   },
   {
    "headword": "false",
-   "ipa": "",
+   "ipa": "/fɔ:ls/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "false 与 wrong 的语用差别",
    "groups": [
     {
      "sense": "错误的；假的；不真实的",
@@ -18641,10 +18632,10 @@
       {
        "text": "a false impression",
        "type": "名词词块",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The rumour turned out to be completely false.",
+       "example_zh": "那则传言结果完全不实。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "false information",
@@ -18662,10 +18653,10 @@
   },
   {
    "headword": "fashion",
-   "ipa": "",
+   "ipa": "/ˈfæʃn/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在应用文出现",
    "groups": [
     {
      "sense": "时尚、流行；方式",
@@ -18696,10 +18687,10 @@
   },
   {
    "headword": "feature",
-   "ipa": "",
+   "ipa": "/ˈfi:tʃə(r)/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "名词义与动词义需分清",
    "groups": [
     {
      "sense": "特征、特色；专题；v.以…为特色",
@@ -18730,10 +18721,10 @@
   },
   {
    "headword": "figure",
-   "ipa": "",
+   "ipa": "/ˈfɪgə(r)/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在数据类文章出现",
    "groups": [
     {
      "sense": "数字；人物；身材；弄明白",
@@ -18764,10 +18755,10 @@
   },
   {
    "headword": "fitness",
-   "ipa": "",
+   "ipa": "/ˈfɪtnəs/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在体育类文章高频",
    "groups": [
     {
      "sense": "健康；适合、适当",
@@ -18798,10 +18789,10 @@
   },
   {
    "headword": "flexible",
-   "ipa": "",
+   "ipa": "/ˈfleksəbl/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是社会类文章高频",
    "groups": [
     {
      "sense": "灵活的；可弯曲的；可变通的",
@@ -18832,10 +18823,10 @@
   },
   {
    "headword": "fluctuate",
-   "ipa": "",
+   "ipa": "/ˈfləkʧəˌweɪt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在数据类文章高频",
    "groups": [
     {
      "sense": "波动、起伏不定",
@@ -18845,10 +18836,10 @@
       {
        "text": "prices fluctuate",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Prices of fresh fruit fluctuate with the seasons.",
+       "example_zh": "鲜果价格随季节波动。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "fluctuate between",
@@ -18866,10 +18857,10 @@
   },
   {
    "headword": "focus",
-   "ipa": "",
+   "ipa": "/ˈfəʊkəs/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配高频",
    "groups": [
     {
      "sense": "焦点；集中注意力",
@@ -18900,10 +18891,10 @@
   },
   {
    "headword": "follow",
-   "ipa": "",
+   "ipa": "/ˈfɑloʊ/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "it follows that 是语法填空高频",
    "groups": [
     {
      "sense": "跟随；遵循；理解；关注",
@@ -18934,10 +18925,10 @@
   },
   {
    "headword": "forge",
-   "ipa": "",
+   "ipa": "/fɔrʤ/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在商业类文章出现",
    "groups": [
     {
      "sense": "打造；伪造；形成（关系）",
@@ -18968,10 +18959,10 @@
   },
   {
    "headword": "fortune",
-   "ipa": "",
+   "ipa": "/ˈfɔ:tʃu:n/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在人物类文章出现",
    "groups": [
     {
      "sense": "财富；运气；命运",
@@ -19002,10 +18993,10 @@
   },
   {
    "headword": "foster",
-   "ipa": "",
+   "ipa": "/ˈfɑstər/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是作文高频",
    "groups": [
     {
      "sense": "培养、促进；寄养",
@@ -19036,10 +19027,10 @@
   },
   {
    "headword": "fraud",
-   "ipa": "",
+   "ipa": "/frɔd/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "社会类文章高频",
    "groups": [
     {
      "sense": "欺诈、骗局；骗子",
@@ -19070,10 +19061,10 @@
   },
   {
    "headword": "fulfil",
-   "ipa": "",
+   "ipa": "/fulfil*/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是作文高频",
    "groups": [
     {
      "sense": "履行、实现；满足要求",
@@ -19104,10 +19095,10 @@
   },
   {
    "headword": "gain",
-   "ipa": "",
+   "ipa": "/geɪn/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "与 access 构成搭配组",
    "groups": [
     {
      "sense": "获得、增加；收益",
@@ -19138,10 +19129,10 @@
   },
   {
    "headword": "generate",
-   "ipa": "",
+   "ipa": "/ˈdʒenəreɪt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是经济类文章核心",
    "groups": [
     {
      "sense": "产生、生成；引起",
@@ -19172,10 +19163,10 @@
   },
   {
    "headword": "glory",
-   "ipa": "",
+   "ipa": "/ˈglɔ:ri/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "文化类文章出现",
    "groups": [
     {
      "sense": "荣耀、辉煌；赞美",
@@ -19185,10 +19176,10 @@
       {
        "text": "in glory",
        "type": "介词短语",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The team returned home in glory after winning the final.",
+       "example_zh": "球队赢得决赛后载誉而归。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "glory days",
@@ -19206,10 +19197,10 @@
   },
   {
    "headword": "grain",
-   "ipa": "",
+   "ipa": "/greɪn/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "短语义是完形高频",
    "groups": [
     {
      "sense": "谷物；颗粒；少量",
@@ -19240,10 +19231,10 @@
   },
   {
    "headword": "grasp",
-   "ipa": "",
+   "ipa": "/grɑ:sp/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "抽象义在阅读高频",
    "groups": [
     {
      "sense": "抓住；理解、掌握",
@@ -19274,10 +19265,10 @@
   },
   {
    "headword": "grocery",
-   "ipa": "",
+   "ipa": "/ˈgrəʊsəri/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是应用文高频",
    "groups": [
     {
      "sense": "食品杂货；杂货店",
@@ -19287,10 +19278,10 @@
       {
        "text": "grocery shopping",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "My mother stopped at the grocery store on her way home.",
+       "example_zh": "妈妈回家路上在杂货店停了一下。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "a grocery store",
@@ -19308,10 +19299,10 @@
   },
   {
    "headword": "grow",
-   "ipa": "",
+   "ipa": "/groʊ/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是人物描写类文章高频",
    "groups": [
     {
      "sense": "生长；增长；逐渐变得",
@@ -19321,10 +19312,10 @@
       {
        "text": "grow up",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Plants grow faster when they get enough light and water.",
+       "example_zh": "植物得到足够的光和水时长得更快。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "grow into",
@@ -19342,10 +19333,10 @@
   },
   {
    "headword": "gym",
-   "ipa": "",
+   "ipa": "/dʒɪm/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "应用文高频",
    "groups": [
     {
      "sense": "健身房；体育馆",
@@ -19355,10 +19346,10 @@
       {
        "text": "go to the gym",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "He goes to the gym twice a week to keep fit.",
+       "example_zh": "他每周去两次健身房保持健康。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "gym class",
@@ -19376,10 +19367,10 @@
   },
   {
    "headword": "handle",
-   "ipa": "",
+   "ipa": "/ˈhændl/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "与 tackle 构成辨析组",
    "groups": [
     {
      "sense": "处理、应对；把手",
@@ -19410,10 +19401,10 @@
   },
   {
    "headword": "harness",
-   "ipa": "",
+   "ipa": "/ˈhɑrnɪs/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在科技类文章出现",
    "groups": [
     {
      "sense": "利用、驾驭；马具",
@@ -19444,10 +19435,10 @@
   },
   {
    "headword": "harvest",
-   "ipa": "",
+   "ipa": "/ˈhɑ:vɪst/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "抽象义在议论文高频",
    "groups": [
     {
      "sense": "收获、收成；收割",
@@ -19478,10 +19469,10 @@
   },
   {
    "headword": "hinder",
-   "ipa": "",
+   "ipa": "/ˈhɪndər/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是社会类文章高频",
    "groups": [
     {
      "sense": "阻碍、妨碍",
@@ -19512,10 +19503,10 @@
   },
   {
    "headword": "hold",
-   "ipa": "",
+   "ipa": "/hoʊld/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是完形高频",
    "groups": [
     {
      "sense": "握住；举行；认为；保持",
@@ -19546,10 +19537,10 @@
   },
   {
    "headword": "hook",
-   "ipa": "",
+   "ipa": "/hʊk/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "短语义较少考",
    "groups": [
     {
      "sense": "钩子；钩住；吸引",
@@ -19559,10 +19550,10 @@
       {
        "text": "hang on a hook",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "She hooked her bag over the back of the chair.",
+       "example_zh": "她把包挂在椅背上。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "hook up",
@@ -19580,10 +19571,10 @@
   },
   {
    "headword": "host",
-   "ipa": "",
+   "ipa": "/həʊst/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "a host of 是高频量表达",
    "groups": [
     {
      "sense": "主人；东道主；主持；大量",
@@ -19593,10 +19584,10 @@
       {
        "text": "host a show",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Our school will host the city's science competition next month.",
+       "example_zh": "我们学校下个月将主办全市科技竞赛。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "a host of",
@@ -19614,10 +19605,10 @@
   },
   {
    "headword": "impede",
-   "ipa": "",
+   "ipa": "/ˌɪmˈpid/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在社会类文章出现",
    "groups": [
     {
      "sense": "妨碍、阻止",
@@ -19627,10 +19618,10 @@
       {
        "text": "impede progress",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Heavy traffic impeded our progress on the way to the airport.",
+       "example_zh": "交通拥堵阻碍了我们前往机场的进度。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "be impeded by",
@@ -19648,10 +19639,10 @@
   },
   {
    "headword": "impose",
-   "ipa": "",
+   "ipa": "/ˌɪmˈpoʊz/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是社会类文章高频",
    "groups": [
     {
      "sense": "强加；征收",
@@ -19682,10 +19673,10 @@
   },
   {
    "headword": "impress",
-   "ipa": "",
+   "ipa": "/ɪmˈpres/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是作文高频",
    "groups": [
     {
      "sense": "使印象深刻；使铭记",
@@ -19716,10 +19707,10 @@
   },
   {
    "headword": "income",
-   "ipa": "",
+   "ipa": "/ˈɪnkʌm/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "定语位置是语法填空考点",
    "groups": [
     {
      "sense": "收入、收益",
@@ -19750,10 +19741,10 @@
   },
   {
    "headword": "incorporate",
-   "ipa": "",
+   "ipa": "/ˌɪnˈkɔrpərˌeɪt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在科技类文章高频",
    "groups": [
     {
      "sense": "包含、纳入；合并",
@@ -19904,10 +19895,10 @@
   },
   {
    "headword": "indulge",
-   "ipa": "",
+   "ipa": "/ˌɪnˈdəlʤ/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是高频错点",
    "groups": [
     {
      "sense": "沉溺、放纵；纵容",
@@ -19938,10 +19929,10 @@
   },
   {
    "headword": "injury",
-   "ipa": "",
+   "ipa": "/ˈɪndʒəri/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在体育类文章高频",
    "groups": [
     {
      "sense": "伤害、损伤",
@@ -19951,10 +19942,10 @@
       {
        "text": "suffer an injury",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The player left the field because of a knee injury.",
+       "example_zh": "那名球员因膝伤离场。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "injury to",
@@ -19972,10 +19963,10 @@
   },
   {
    "headword": "insight",
-   "ipa": "",
+   "ipa": "/ˈɪnsaɪt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是议论文高频",
    "groups": [
     {
      "sense": "洞察力、深刻理解",
@@ -20006,10 +19997,10 @@
   },
   {
    "headword": "inspire",
-   "ipa": "",
+   "ipa": "/ɪnˈspaɪə(r)/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "结构是作文核心",
    "groups": [
     {
      "sense": "激励、启发；唤起",
@@ -20040,10 +20031,10 @@
   },
   {
    "headword": "insurance",
-   "ipa": "",
+   "ipa": "/ɪnˈʃʊərəns/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "社会类文章高频",
    "groups": [
     {
      "sense": "保险；安全保障",
@@ -20053,10 +20044,10 @@
       {
        "text": "insurance policy",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Travel insurance can cover the cost of a delayed flight.",
+       "example_zh": "旅行保险可以承担航班延误的费用。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "health insurance",
@@ -20074,10 +20065,10 @@
   },
   {
    "headword": "intact",
-   "ipa": "",
+   "ipa": "/ˌɪnˈtækt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是阅读高频",
    "groups": [
     {
      "sense": "完整无缺的；未受影响的",
@@ -20087,10 +20078,10 @@
       {
        "text": "remain intact",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The old vase arrived intact despite the long journey.",
+       "example_zh": "尽管路途遥远，那只旧花瓶完好无损地送到了。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "keep intact",
@@ -20108,10 +20099,10 @@
   },
   {
    "headword": "integrate",
-   "ipa": "",
+   "ipa": "/ˈɪntɪgreɪt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在科技类文章高频",
    "groups": [
     {
      "sense": "整合、使一体化",
@@ -20142,10 +20133,10 @@
   },
   {
    "headword": "involve",
-   "ipa": "",
+   "ipa": "/ɪnˈvɒlv/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "结构是语法填空高频",
    "groups": [
     {
      "sense": "涉及；使参与；包含",
@@ -20176,10 +20167,10 @@
   },
   {
    "headword": "isolate",
-   "ipa": "",
+   "ipa": "/ˈaɪsəˌleɪt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是语法填空错点",
    "groups": [
     {
      "sense": "隔离、孤立",
@@ -20210,10 +20201,10 @@
   },
   {
    "headword": "judge",
-   "ipa": "",
+   "ipa": "/dʒʌdʒ/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "judging by 是完形高频",
    "groups": [
     {
      "sense": "判断；法官；裁判",
@@ -20244,10 +20235,10 @@
   },
   {
    "headword": "judgment",
-   "ipa": "",
+   "ipa": "/ˈʤəʤmənt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "value judgment 是社会类高频",
    "groups": [
     {
      "sense": "判断、看法；判决",
@@ -20278,10 +20269,10 @@
   },
   {
    "headword": "keep",
-   "ipa": "",
+   "ipa": "/kip/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是完形高频",
    "groups": [
     {
      "sense": "保持；保留；遵守；供养",
@@ -20312,10 +20303,10 @@
   },
   {
    "headword": "key",
-   "ipa": "",
+   "ipa": "/ki/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "the key to doing 的介词搭配是高频错点",
    "groups": [
     {
      "sense": "钥匙；答案；关键的",
@@ -20346,10 +20337,10 @@
   },
   {
    "headword": "landscape",
-   "ipa": "",
+   "ipa": "/ˈlændskeɪp/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "比喻义在社会类文章出现",
    "groups": [
     {
      "sense": "风景、景观；局面",
@@ -20359,10 +20350,10 @@
       {
        "text": "a beautiful landscape",
        "type": "名词词块",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The landscape of the valley changes with every season.",
+       "example_zh": "山谷的景色随季节而变。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "the political landscape",
@@ -20380,10 +20371,10 @@
   },
   {
    "headword": "launch",
-   "ipa": "",
+   "ipa": "/lɔ:ntʃ/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在历史类文章出现",
    "groups": [
     {
      "sense": "发起、推出；发射",
@@ -20393,10 +20384,10 @@
       {
        "text": "launch a campaign",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The school will launch a new reading programme in September.",
+       "example_zh": "学校将于九月启动新的阅读计划。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "launch a product",
@@ -20414,10 +20405,10 @@
   },
   {
    "headword": "lead",
-   "ipa": "",
+   "ipa": "/lɛd/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "介词搭配是高频错点",
    "groups": [
     {
      "sense": "导致；领导；领先；线索",
@@ -20427,10 +20418,10 @@
       {
        "text": "lead to",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Lack of sleep can lead to poor concentration in class.",
+       "example_zh": "睡眠不足会导致课堂注意力不集中。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "take the lead",
@@ -20448,10 +20439,10 @@
   },
   {
    "headword": "leadership",
-   "ipa": "",
+   "ipa": "/ˈli:dəʃɪp/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是作文高频",
    "groups": [
     {
      "sense": "领导力、领导才能",
@@ -20461,10 +20452,10 @@
       {
        "text": "leadership skills",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Good leadership means listening before making decisions.",
+       "example_zh": "好的领导力意味着先倾听再做决定。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "under one’s leadership",
@@ -20482,10 +20473,10 @@
   },
   {
    "headword": "leave",
-   "ipa": "",
+   "ipa": "/liv/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "leave much to be desired 是作文高分表达",
    "groups": [
     {
      "sense": "离开；留下；使处于某状态；休假",
@@ -20495,10 +20486,10 @@
       {
        "text": "leave out",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Don't leave the lights on when you go out.",
+       "example_zh": "出门时别让灯一直亮着。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "leave behind",
@@ -20524,10 +20515,10 @@
   },
   {
    "headword": "leverage",
-   "ipa": "",
+   "ipa": "/ˈlɛvərɪʤ/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在商业类文章出现",
    "groups": [
     {
      "sense": "杠杆作用；利用",
@@ -20537,10 +20528,10 @@
       {
        "text": "leverage resources",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "We can leverage the school library to improve our research.",
+       "example_zh": "我们可以利用学校图书馆来改进研究。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "leverage strengths",
@@ -20558,10 +20549,10 @@
   },
   {
    "headword": "lie",
-   "ipa": "",
+   "ipa": "/laɪ/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "三个义项完全不同",
    "groups": [
     {
      "sense": "躺、位于；说谎；n.谎言",
@@ -20571,10 +20562,10 @@
       {
        "text": "lie in",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "He lay on the grass and watched the clouds.",
+       "example_zh": "他躺在草地上看云。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "lie down",
@@ -20600,10 +20591,10 @@
   },
   {
    "headword": "lifestyle",
-   "ipa": "",
+   "ipa": "/ˈlaɪfˌstaɪl/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "作文核心话题",
    "groups": [
     {
      "sense": "生活方式",
@@ -20613,10 +20604,10 @@
       {
        "text": "a healthy lifestyle",
        "type": "名词词块",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Regular exercise is part of a healthy lifestyle.",
+       "example_zh": "规律运动是健康生活方式的一部分。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "lifestyle choices",
@@ -20634,10 +20625,10 @@
   },
   {
    "headword": "light",
-   "ipa": "",
+   "ipa": "/laɪt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "light 修饰名词时的弱化义",
    "groups": [
     {
      "sense": "光；轻的；点燃；少量的",
@@ -20647,10 +20638,10 @@
       {
        "text": "throw light on",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "A single light was still on in the classroom.",
+       "example_zh": "教室里还亮着一盏灯。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "light up",
@@ -20668,10 +20659,10 @@
   },
   {
    "headword": "limit",
-   "ipa": "",
+   "ipa": "/ˈlɪmɪt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "without limit 是应用文表达",
    "groups": [
     {
      "sense": "限制、界限",
@@ -20681,10 +20672,10 @@
       {
        "text": "set a limit",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The library sets a limit of ten books per student.",
+       "example_zh": "图书馆规定每名学生最多借十本书。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "limit to",
@@ -20702,10 +20693,10 @@
   },
   {
    "headword": "link",
-   "ipa": "",
+   "ipa": "/lɪŋk/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "链接义 vs 关联义的辨析",
    "groups": [
     {
      "sense": "联系、链接；连接",
@@ -20715,10 +20706,10 @@
       {
        "text": "link A to B",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Scientists found a link between sleep and memory.",
+       "example_zh": "科学家发现睡眠与记忆之间存在联系。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "a close link",
@@ -20736,10 +20727,10 @@
   },
   {
    "headword": "live",
-   "ipa": "",
+   "ipa": "/lɪv/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "三个短语义完全不同",
    "groups": [
     {
      "sense": "居住；活着；adj.现场的、直播的",
@@ -20749,10 +20740,10 @@
       {
        "text": "live up to",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Thousands of people live in this small coastal town.",
+       "example_zh": "数千人住在这座海边小镇。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "live on",
@@ -20778,10 +20769,10 @@
   },
   {
    "headword": "locate",
-   "ipa": "",
+   "ipa": "/ˈloʊˌkeɪt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "被动语态在地理类文章高频",
    "groups": [
     {
      "sense": "找出位置；使坐落于",
@@ -20791,10 +20782,10 @@
       {
        "text": "locate a place",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The map helped us locate the museum in the old quarter.",
+       "example_zh": "地图帮我们在老城区找到了博物馆。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "be located in",
@@ -20812,10 +20803,10 @@
   },
   {
    "headword": "look",
-   "ipa": "",
+   "ipa": "/lʊk/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "look forward to 后接动名词是高频错点",
    "groups": [
     {
      "sense": "看；看起来；寻找；表情",
@@ -20825,10 +20816,10 @@
       {
        "text": "look into",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The teacher asked us to look at the blackboard carefully.",
+       "example_zh": "老师让我们仔细看黑板。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "look forward to",
@@ -20846,10 +20837,10 @@
   },
   {
    "headword": "make",
-   "ipa": "",
+   "ipa": "/meɪk/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "三个短语义完全不同",
    "groups": [
     {
      "sense": "制作；使成为；做出；赚得",
@@ -20880,10 +20871,10 @@
   },
   {
    "headword": "match",
-   "ipa": "",
+   "ipa": "/mæʧ/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "阅读中 match 与 fit / suit 的辨析",
    "groups": [
     {
      "sense": "匹配；比赛；火柴",
@@ -20893,10 +20884,10 @@
       {
        "text": "match A with B",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Her scarf doesn't match the colour of her coat.",
+       "example_zh": "她的围巾和外套颜色不相配。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "a football match",
@@ -20914,10 +20905,10 @@
   },
   {
    "headword": "maximize",
-   "ipa": "",
+   "ipa": "/ˈmæksəˌmaɪz/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是经济类文章高频",
    "groups": [
     {
      "sense": "使最大化、充分利用",
@@ -20927,10 +20918,10 @@
       {
        "text": "maximize profits",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The app is designed to maximize the use of study time.",
+       "example_zh": "这款应用旨在最大限度利用学习时间。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "maximize efficiency",
@@ -20948,10 +20939,10 @@
   },
   {
    "headword": "meet",
-   "ipa": "",
+   "ipa": "/mit/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是经济与需求类文章核心",
    "groups": [
     {
      "sense": "遇见；满足；会面",
@@ -20961,10 +20952,10 @@
       {
        "text": "meet the needs",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The two friends meet at the library every Friday.",
+       "example_zh": "那两个朋友每周五在图书馆见面。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "meet with",
@@ -20982,10 +20973,10 @@
   },
   {
    "headword": "merge",
-   "ipa": "",
+   "ipa": "/mərʤ/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在商业类文章出现",
    "groups": [
     {
      "sense": "合并、融合",
@@ -20995,10 +20986,10 @@
       {
        "text": "merge into",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The two small classes will merge into one next term.",
+       "example_zh": "两个小班下学期将合并为一个。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "merge with",
@@ -21016,10 +21007,10 @@
   },
   {
    "headword": "method",
-   "ipa": "",
+   "ipa": "/ˈmɛθəd/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "介词搭配是语法填空错点",
    "groups": [
     {
      "sense": "方法、办法",
@@ -21029,10 +21020,10 @@
       {
        "text": "a method of",
        "type": "名词词块",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "This method works better for remembering new words.",
+       "example_zh": "这种方法记新词更有效。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "teaching methods",
@@ -21050,10 +21041,10 @@
   },
   {
    "headword": "military",
-   "ipa": "",
+   "ipa": "/ˈmɪlətri/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在社会类文章出现",
    "groups": [
     {
      "sense": "军事的；军队",
@@ -21063,10 +21054,10 @@
       {
        "text": "military service",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "His father served in the military for twenty years.",
+       "example_zh": "他父亲在军队服役二十年。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "military training",
@@ -21084,10 +21075,10 @@
   },
   {
    "headword": "minimize",
-   "ipa": "",
+   "ipa": "/ˈmɪnəˌmaɪz/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是经济类文章高频",
    "groups": [
     {
      "sense": "使最小化、尽量减少",
@@ -21097,10 +21088,10 @@
       {
        "text": "minimize risks",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "We should minimize waste in the school canteen.",
+       "example_zh": "我们应尽量减少学校食堂的浪费。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "minimize damage",
@@ -21118,10 +21109,10 @@
   },
   {
    "headword": "minimum",
-   "ipa": "",
+   "ipa": "/ˈmɪnɪməm/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "短语义是语法填空考点",
    "groups": [
     {
      "sense": "最低限度；最小的",
@@ -21131,10 +21122,10 @@
       {
        "text": "a minimum of",
        "type": "名词词块",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The minimum age for the competition is twelve.",
+       "example_zh": "比赛的最低年龄是十二岁。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "at a minimum",
@@ -21152,10 +21143,10 @@
   },
   {
    "headword": "minority",
-   "ipa": "",
+   "ipa": "/maɪˈnɒrəti/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "两义并存是典型 E2 考点",
    "groups": [
     {
      "sense": "少数；少数民族",
@@ -21165,10 +21156,10 @@
       {
        "text": "a minority of",
        "type": "名词词块",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Only a small minority of students chose the art course.",
+       "example_zh": "只有少数学生选择了这门艺术课。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "ethnic minority",
@@ -21186,10 +21177,10 @@
   },
   {
    "headword": "miss",
-   "ipa": "",
+   "ipa": "/mɪs/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是完形高频",
    "groups": [
     {
      "sense": "错过；想念；未击中",
@@ -21199,10 +21190,10 @@
       {
        "text": "miss a chance",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "I missed the first bus and arrived late for school.",
+       "example_zh": "我错过了首班车，上学迟到了。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "miss sb",
@@ -21220,10 +21211,10 @@
   },
   {
    "headword": "mission",
-   "ipa": "",
+   "ipa": "/ˈmɪʃn/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是应用文高频",
    "groups": [
     {
      "sense": "使命、任务；代表团",
@@ -21233,10 +21224,10 @@
       {
        "text": "a mission to",
        "type": "名词词块",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The team's mission was to deliver supplies to the village.",
+       "example_zh": "团队的任务是把物资送到村里。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "accomplish a mission",
@@ -21254,10 +21245,10 @@
   },
   {
    "headword": "mobilize",
-   "ipa": "",
+   "ipa": "/ˈmoʊbəˌlaɪz/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在社会类文章出现",
    "groups": [
     {
      "sense": "动员、调动",
@@ -21267,10 +21258,10 @@
       {
        "text": "mobilize support",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The club mobilized volunteers to clean up the park.",
+       "example_zh": "俱乐部动员志愿者清理公园。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "mobilize resources",
@@ -21288,10 +21279,10 @@
   },
   {
    "headword": "motivate",
-   "ipa": "",
+   "ipa": "/ˈməʊtɪveɪt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "结构是作文高频",
    "groups": [
     {
      "sense": "激励、激发动力",
@@ -21301,10 +21292,10 @@
       {
        "text": "motivate sb to",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "A clear goal can motivate students to keep learning.",
+       "example_zh": "清晰的目标能激励学生坚持学习。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "be motivated by",
@@ -21322,10 +21313,10 @@
   },
   {
    "headword": "movement",
-   "ipa": "",
+   "ipa": "/ˈmu:vmənt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是社会类文章高频",
    "groups": [
     {
      "sense": "运动；移动；进展",
@@ -21335,10 +21326,10 @@
       {
        "text": "a social movement",
        "type": "名词词块",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The audience watched the dancer's every movement.",
+       "example_zh": "观众注视着舞者的每一个动作。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "movement of goods",
@@ -21356,10 +21347,10 @@
   },
   {
    "headword": "narrow",
-   "ipa": "",
+   "ipa": "/ˈnærəʊ/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是作文高频",
    "groups": [
     {
      "sense": "狭窄的；缩小",
@@ -21369,10 +21360,10 @@
       {
        "text": "a narrow escape",
        "type": "名词词块",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The road is too narrow for two cars to pass.",
+       "example_zh": "这条路太窄，两辆车无法错车。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "narrow down",
@@ -21557,10 +21548,10 @@
   },
   {
    "headword": "need",
-   "ipa": "",
+   "ipa": "/nid/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配与句型双考点",
    "groups": [
     {
      "sense": "需要、需求；必要",
@@ -21570,10 +21561,10 @@
       {
        "text": "in need of",
        "type": "介词短语",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Every student needs a quiet place to study.",
+       "example_zh": "每个学生都需要一个安静的学习场所。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "need to do",
@@ -21591,10 +21582,10 @@
   },
   {
    "headword": "neglect",
-   "ipa": "",
+   "ipa": "/nɪˈglɛkt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "结构是高频考点",
    "groups": [
     {
      "sense": "忽视、疏于照顾",
@@ -21604,10 +21595,10 @@
       {
        "text": "neglect a duty",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Don't neglect the small details in your writing.",
+       "example_zh": "不要忽视写作中的小细节。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "neglect children",
@@ -21625,10 +21616,10 @@
   },
   {
    "headword": "network",
-   "ipa": "",
+   "ipa": "/ˈnetwɜ:k/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "社交媒体类文章必备",
    "groups": [
     {
      "sense": "网络；人际网；联网",
@@ -21638,10 +21629,10 @@
       {
        "text": "a social network",
        "type": "名词词块",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The school built a network of student volunteers.",
+       "example_zh": "学校建立了一个学生志愿者网络。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "network with sb",
@@ -21659,10 +21650,10 @@
   },
   {
    "headword": "note",
-   "ipa": "",
+   "ipa": "/nəʊt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "take note of / it is worth noting",
    "groups": [
     {
      "sense": "笔记；票据；注意；指出",
@@ -21672,10 +21663,10 @@
       {
        "text": "take notes",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The teacher made a note of our answers.",
+       "example_zh": "老师把我们的答案记了下来。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "note that",
@@ -21693,10 +21684,10 @@
   },
   {
    "headword": "nurture",
-   "ipa": "",
+   "ipa": "/ˈnərʧər/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在教育类文章高频",
    "groups": [
     {
      "sense": "培养、滋养；养育",
@@ -21706,10 +21697,10 @@
       {
        "text": "nurture talent",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "A good teacher nurtures curiosity as well as skills.",
+       "example_zh": "好老师既培养技能，也培育好奇心。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "nurture a child",
@@ -21727,10 +21718,10 @@
   },
   {
    "headword": "nutrition",
-   "ipa": "",
+   "ipa": "/njuˈtrɪʃn/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "健康类文章高频",
    "groups": [
     {
      "sense": "营养、营养学",
@@ -21740,10 +21731,10 @@
       {
        "text": "good nutrition",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Good nutrition helps teenagers grow and stay focused.",
+       "example_zh": "良好的营养帮助青少年成长并保持专注。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "nutrition facts",
@@ -21761,10 +21752,10 @@
   },
   {
    "headword": "object",
-   "ipa": "",
+   "ipa": "/ˈɒbdʒɪkt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "object to doing 结构在议论文出现",
    "groups": [
     {
      "sense": "物体；目标；宾语；v.反对",
@@ -21774,10 +21765,10 @@
       {
        "text": "object to",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "I object to the idea of cancelling the school trip.",
+       "example_zh": "我反对取消学校旅行的想法。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "achieve the object",
@@ -22113,10 +22104,10 @@
   },
   {
    "headword": "offer",
-   "ipa": "",
+   "ipa": "/ˈɔfər/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "offer + 双宾语是语法填空高频",
    "groups": [
     {
      "sense": "提供；主动提出；报价",
@@ -22126,10 +22117,10 @@
       {
        "text": "offer a job",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The library offers free access to online dictionaries.",
+       "example_zh": "图书馆提供免费的在线词典使用权限。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "offer to do",
@@ -22147,10 +22138,10 @@
   },
   {
    "headword": "open",
-   "ipa": "",
+   "ipa": "/ˈoʊpən/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "形容词与副词义需分清",
    "groups": [
     {
      "sense": "开放的；开始；打开",
@@ -22160,10 +22151,10 @@
       {
        "text": "open to",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The new science lab will open to students next week.",
+       "example_zh": "新科学实验室下周向学生开放。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "open up",
@@ -22181,10 +22172,10 @@
   },
   {
    "headword": "opportunity",
-   "ipa": "",
+   "ipa": "/ˌɒpəˈtju:nəti/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "结构是作文高频",
    "groups": [
     {
      "sense": "机会、时机",
@@ -22194,10 +22185,10 @@
       {
        "text": "an opportunity to",
        "type": "名词词块",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The exchange programme is a good opportunity to practise English.",
+       "example_zh": "交换项目是练习英语的好机会。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "seize the opportunity",
@@ -22215,10 +22206,10 @@
   },
   {
    "headword": "opt",
-   "ipa": "",
+   "ipa": "/ɑpt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是语法填空高频",
    "groups": [
     {
      "sense": "选择、挑选",
@@ -22228,10 +22219,10 @@
       {
        "text": "opt for",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Many students opt for the afternoon reading class.",
+       "example_zh": "许多学生选择下午的阅读课。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "opt to do",
@@ -22249,10 +22240,10 @@
   },
   {
    "headword": "optimal",
-   "ipa": "",
+   "ipa": "/ˈɑptɪməl/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "学术类文章高频",
    "groups": [
     {
      "sense": "最佳的、最理想的",
@@ -22262,10 +22253,10 @@
       {
        "text": "the optimal solution",
        "type": "名词词块",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Morning is the optimal time for me to memorize words.",
+       "example_zh": "早晨是我背单词的最佳时间。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "optimal conditions",
@@ -22283,10 +22274,10 @@
   },
   {
    "headword": "option",
-   "ipa": "",
+   "ipa": "/ˈɒpʃn/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "at the option of",
    "groups": [
     {
      "sense": "选择、选项；选修课",
@@ -22296,10 +22287,10 @@
       {
        "text": "have an option",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "You have three options for the final project.",
+       "example_zh": "期末项目你有三个选项。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "optional course",
@@ -22317,10 +22308,10 @@
   },
   {
    "headword": "organ",
-   "ipa": "",
+   "ipa": "/ˈɔ:gən/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "医学科普类文章高频",
    "groups": [
     {
      "sense": "器官；机构；管风琴",
@@ -22330,10 +22321,10 @@
       {
        "text": "vital organs",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The heart is an organ that pumps blood around the body.",
+       "example_zh": "心脏是把血液泵向全身的器官。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "an organ of government",
@@ -22351,10 +22342,10 @@
   },
   {
    "headword": "origin",
-   "ipa": "",
+   "ipa": "/ˈɒrɪdʒɪn/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是文化类文章高频",
    "groups": [
     {
      "sense": "起源、来源；出身",
@@ -22364,10 +22355,10 @@
       {
        "text": "the origin of",
        "type": "名词词块",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The origin of this custom can be traced back centuries.",
+       "example_zh": "这一习俗的起源可追溯到几个世纪前。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "by origin",
@@ -22385,10 +22376,10 @@
   },
   {
    "headword": "outcome",
-   "ipa": "",
+   "ipa": "/ˈaʊtkʌm/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "the outcome of 是高频搭配",
    "groups": [
     {
      "sense": "结果、结局",
@@ -22398,10 +22389,10 @@
       {
        "text": "the outcome of",
        "type": "名词词块",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "We were pleased with the outcome of the group discussion.",
+       "example_zh": "我们对小组讨论的结果很满意。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "a positive outcome",
@@ -22419,10 +22410,10 @@
   },
   {
    "headword": "outline",
-   "ipa": "",
+   "ipa": "/ˈaʊtlaɪn/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是阅读高频",
    "groups": [
     {
      "sense": "提纲、概要；概述",
@@ -22432,10 +22423,10 @@
       {
        "text": "in outline",
        "type": "介词短语",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "She wrote an outline before starting her essay.",
+       "example_zh": "她写文章前先列了提纲。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "outline the main points",
@@ -22453,10 +22444,10 @@
   },
   {
    "headword": "output",
-   "ipa": "",
+   "ipa": "/ˈaʊtpʊt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "经济类文章高频",
    "groups": [
     {
      "sense": "产量、产出；输出",
@@ -22466,10 +22457,10 @@
       {
        "text": "increase output",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The new machine doubles the output of the small factory.",
+       "example_zh": "新机器使小工厂的产量翻了一番。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "output data",
@@ -22487,10 +22478,10 @@
   },
   {
    "headword": "overall",
-   "ipa": "",
+   "ipa": "/ˌəʊvərˈɔ:l/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "词性歧义是 E5 考点",
    "groups": [
     {
      "sense": "总体的、全面的；总体上",
@@ -22500,10 +22491,10 @@
       {
        "text": "the overall situation",
        "type": "名词词块",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Overall, the plan worked well despite a few problems.",
+       "example_zh": "总体而言，这个计划尽管有些问题，但运行良好。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "overall progress",
@@ -22521,10 +22512,10 @@
   },
   {
    "headword": "overlook",
-   "ipa": "",
+   "ipa": "/əʊvəˈlʊk/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "义项跨度大是 E1 富矿",
    "groups": [
     {
      "sense": "俯瞰；忽略；宽恕",
@@ -22534,10 +22525,10 @@
       {
        "text": "overlook a detail",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "It's easy to overlook small spelling mistakes.",
+       "example_zh": "很容易忽略细小的拼写错误。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "overlook the fact",
@@ -22555,10 +22546,10 @@
   },
   {
    "headword": "overwhelm",
-   "ipa": "",
+   "ipa": "/ˌoʊvərˈwɛlm/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是作文高频",
    "groups": [
     {
      "sense": "压垮；使不知所措；淹没",
@@ -22568,10 +22559,10 @@
       {
        "text": "be overwhelmed by",
        "type": "系表搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Don't let worry overwhelm you before the exam.",
+       "example_zh": "考前别让担忧压垮你。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "overwhelm the enemy",
@@ -22589,10 +22580,10 @@
   },
   {
    "headword": "own",
-   "ipa": "",
+   "ipa": "/oʊn/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "短语义是完形高频",
    "groups": [
     {
      "sense": "自己的；拥有",
@@ -22602,10 +22593,10 @@
       {
        "text": "on one’s own",
        "type": "介词短语",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "He owns a small bookshop near the school.",
+       "example_zh": "他在学校附近经营一家小书店。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "own up to",
@@ -22623,10 +22614,10 @@
   },
   {
    "headword": "pass",
-   "ipa": "",
+   "ipa": "/pæs/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "pass by / pass away 需分清",
    "groups": [
     {
      "sense": "通过；传递；通行证；及格",
@@ -22636,10 +22627,10 @@
       {
        "text": "pass an exam",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Please pass me the dictionary on the shelf.",
+       "example_zh": "请把书架上的词典递给我。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "pass by",
@@ -22657,10 +22648,10 @@
   },
   {
    "headword": "pay",
-   "ipa": "",
+   "ipa": "/peɪ/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是应用文高频",
    "groups": [
     {
      "sense": "支付；报酬；关注",
@@ -22670,10 +22661,10 @@
       {
        "text": "pay attention to",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "You can pay for the book with a bank card.",
+       "example_zh": "你可以用银行卡支付这本书的费用。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "pay off",
@@ -22691,10 +22682,10 @@
   },
   {
    "headword": "perceive",
-   "ipa": "",
+   "ipa": "/pəˈsi:v/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是议论文高频",
    "groups": [
     {
      "sense": "察觉、认为；理解",
@@ -22704,10 +22695,10 @@
       {
        "text": "perceive … as",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Others may perceive his silence as unfriendliness.",
+       "example_zh": "别人可能把他的沉默理解为不友好。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "perceive a change",
@@ -22725,10 +22716,10 @@
   },
   {
    "headword": "permit",
-   "ipa": "",
+   "ipa": "/pəˈmɪt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "结构是高频考点",
    "groups": [
     {
      "sense": "允许；许可证",
@@ -22738,10 +22729,10 @@
       {
        "text": "permit sb to do",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The school does not permit students to use phones in class.",
+       "example_zh": "学校不允许学生在课堂上使用手机。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "a work permit",
@@ -22759,10 +22750,10 @@
   },
   {
    "headword": "pick",
-   "ipa": "",
+   "ipa": "/pɪk/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "短语义是完形高频",
    "groups": [
     {
      "sense": "挑选；采摘；捡起",
@@ -22772,10 +22763,10 @@
       {
        "text": "pick out",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "She picked a seat by the window.",
+       "example_zh": "她选了靠窗的座位。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "pick up",
@@ -22793,10 +22784,10 @@
   },
   {
    "headword": "pollute",
-   "ipa": "",
+   "ipa": "/pəˈlut/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "环保类文章核心",
    "groups": [
     {
      "sense": "污染、弄脏",
@@ -22806,10 +22797,10 @@
       {
        "text": "pollute the air",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Factories must not pollute the river with waste water.",
+       "example_zh": "工厂不得用废水污染河流。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "be polluted by",
@@ -22827,10 +22818,10 @@
   },
   {
    "headword": "portion",
-   "ipa": "",
+   "ipa": "/ˈpɔrʃən/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是数据类文章高频",
    "groups": [
     {
      "sense": "部分、份额；一份",
@@ -22840,10 +22831,10 @@
       {
        "text": "a portion of",
        "type": "名词词块",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "He ate only a small portion of the cake.",
+       "example_zh": "他只吃了一小块蛋糕。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "portion out",
@@ -22861,10 +22852,10 @@
   },
   {
    "headword": "possess",
-   "ipa": "",
+   "ipa": "/pəˈzɛs/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是人物类文章高频",
    "groups": [
     {
      "sense": "拥有、具有；支配",
@@ -22874,10 +22865,10 @@
       {
        "text": "possess a skill",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The museum possesses a valuable collection of old maps.",
+       "example_zh": "博物馆收藏着一批珍贵的古地图。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "be possessed of",
@@ -22895,10 +22886,10 @@
   },
   {
    "headword": "potential",
-   "ipa": "",
+   "ipa": "/pəˈtenʃl/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "have the potential to do",
    "groups": [
     {
      "sense": "潜力；潜在的、可能的",
@@ -22908,10 +22899,10 @@
       {
        "text": "reach one’s potential",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Every child has the potential to learn a second language.",
+       "example_zh": "每个孩子都有学习第二语言的潜力。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "a potential risk",
@@ -22929,10 +22920,10 @@
   },
   {
    "headword": "praise",
-   "ipa": "",
+   "ipa": "/preɪz/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是作文高频",
    "groups": [
     {
      "sense": "赞扬、称赞",
@@ -22942,10 +22933,10 @@
       {
        "text": "praise sb for",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The coach praised the team for their effort.",
+       "example_zh": "教练表扬了全队的努力。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "in praise of",
@@ -22963,10 +22954,10 @@
   },
   {
    "headword": "preserve",
-   "ipa": "",
+   "ipa": "/prɪˈzɜ:v/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是文化类文章核心",
    "groups": [
     {
      "sense": "保护、保存；维持",
@@ -22976,10 +22967,10 @@
       {
        "text": "preserve tradition",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "We should preserve old buildings for future generations.",
+       "example_zh": "我们应为后代保护老建筑。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "preserve food",
@@ -22997,10 +22988,10 @@
   },
   {
    "headword": "process",
-   "ipa": "",
+   "ipa": "/ˈprəʊses/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "in the process of 是完形高频",
    "groups": [
     {
      "sense": "过程；加工、处理",
@@ -23010,10 +23001,10 @@
       {
        "text": "in the process of",
        "type": "介词短语",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Learning a language is a slow process, not a single event.",
+       "example_zh": "学语言是一个缓慢的过程，而不是一次性事件。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "process data",
@@ -23031,10 +23022,10 @@
   },
   {
    "headword": "prohibit",
-   "ipa": "",
+   "ipa": "/prəˈhɪbɪt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "结构是高频考点",
    "groups": [
     {
      "sense": "禁止、阻止",
@@ -23044,10 +23035,10 @@
       {
        "text": "prohibit sb from",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The rules prohibit smoking inside the building.",
+       "example_zh": "规定禁止在楼内吸烟。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "prohibit smoking",
@@ -23065,10 +23056,10 @@
   },
   {
    "headword": "prominent",
-   "ipa": "",
+   "ipa": "/ˈprɑmənənt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是议论文高频",
    "groups": [
     {
      "sense": "突出的、著名的；显著的",
@@ -23078,10 +23069,10 @@
       {
        "text": "a prominent figure",
        "type": "名词词块",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "She is a prominent member of the school debate team.",
+       "example_zh": "她是学校辩论队的杰出成员。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "prominent role",
@@ -23099,10 +23090,10 @@
   },
   {
    "headword": "promote",
-   "ipa": "",
+   "ipa": "/prəˈməʊt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "义项分化是 E2 考点",
    "groups": [
     {
      "sense": "促进；晋升；推广",
@@ -23112,10 +23103,10 @@
       {
        "text": "promote growth",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The campaign aims to promote reading among teenagers.",
+       "example_zh": "这项活动旨在推广青少年阅读。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "be promoted to",
@@ -23133,10 +23124,10 @@
   },
   {
    "headword": "prosecute",
-   "ipa": "",
+   "ipa": "/ˈprɑsəˌkjut/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在社会类文章出现",
    "groups": [
     {
      "sense": "起诉、检举；继续从事",
@@ -23146,10 +23137,10 @@
       {
        "text": "prosecute sb for",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The police decided to prosecute the thief.",
+       "example_zh": "警方决定起诉那个小偷。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "prosecute a crime",
@@ -23295,10 +23286,10 @@
   },
   {
    "headword": "proxy",
-   "ipa": "",
+   "ipa": "/ˈprɑksi/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "学术类文章出现",
    "groups": [
     {
      "sense": "代理、代用品；代理权",
@@ -23308,10 +23299,10 @@
       {
        "text": "by proxy",
        "type": "介词短语",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "He voted by proxy while he was away.",
+       "example_zh": "他外出时委托他人代为投票。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "proxy server",
@@ -23329,10 +23320,10 @@
   },
   {
    "headword": "pull",
-   "ipa": "",
+   "ipa": "/pʊl/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "团队类文章高频",
    "groups": [
     {
      "sense": "拉、拖；吸引",
@@ -23342,10 +23333,10 @@
       {
        "text": "pull down",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The gardener pulled the weeds out of the ground.",
+       "example_zh": "园丁把杂草从地里拔了出来。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "pull together",
@@ -23363,10 +23354,10 @@
   },
   {
    "headword": "purchase",
-   "ipa": "",
+   "ipa": "/ˈpɜ:tʃəs/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在应用文高频",
    "groups": [
     {
      "sense": "购买；购买物",
@@ -23376,10 +23367,10 @@
       {
        "text": "purchase a ticket",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "She purchased a new dictionary for her English class.",
+       "example_zh": "她为英语课买了一本新词典。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "make a purchase",
@@ -23397,10 +23388,10 @@
   },
   {
    "headword": "pursue",
-   "ipa": "",
+   "ipa": "/pəˈsju:/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是人物类文章高频",
    "groups": [
     {
      "sense": "追求、从事；追赶",
@@ -23410,10 +23401,10 @@
       {
        "text": "pursue a career",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "He decided to pursue his interest in astronomy.",
+       "example_zh": "他决定追求自己对天文学的兴趣。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "pursue a goal",
@@ -23431,10 +23422,10 @@
   },
   {
    "headword": "push",
-   "ipa": "",
+   "ipa": "/pʊʃ/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是社会类文章高频",
    "groups": [
     {
      "sense": "推；推动、逼迫",
@@ -23444,10 +23435,10 @@
       {
        "text": "push forward",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Please push the door open; it isn't locked.",
+       "example_zh": "请把门推开，它没有锁。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "push sb to do",
@@ -23465,10 +23456,10 @@
   },
   {
    "headword": "put",
-   "ipa": "",
+   "ipa": "/pʊt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "三个短语义完全不同",
    "groups": [
     {
      "sense": "放置；使处于；表达",
@@ -23478,10 +23469,10 @@
       {
        "text": "put off",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Put your name at the top of the page.",
+       "example_zh": "把你的名字写在页面的顶端。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "put up with",
@@ -23499,10 +23490,10 @@
   },
   {
    "headword": "quality",
-   "ipa": "",
+   "ipa": "/ˈkwɒləti/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "qualities（优点）在人物描写类文章出现",
    "groups": [
     {
      "sense": "质量；品质；优质的",
@@ -23512,10 +23503,10 @@
       {
        "text": "high quality",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The quality of the paper is more important than its length.",
+       "example_zh": "论文的质量比长度更重要。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "quality education",
@@ -23533,10 +23524,10 @@
   },
   {
    "headword": "raise",
-   "ipa": "",
+   "ipa": "/reɪz/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "raise money for 是公益主题作文核心",
    "groups": [
     {
      "sense": "提高；筹集；提出；抚养",
@@ -23567,10 +23558,10 @@
   },
   {
    "headword": "rationale",
-   "ipa": "",
+   "ipa": "/ˌræʃəˈnæl/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "学术类文章出现",
    "groups": [
     {
      "sense": "理由、依据；基本原理",
@@ -23580,10 +23571,10 @@
       {
        "text": "the rationale behind",
        "type": "名词词块",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The teacher explained the rationale behind the new homework rule.",
+       "example_zh": "老师解释了新作业规定背后的理由。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "rationale for",
@@ -23601,10 +23592,10 @@
   },
   {
    "headword": "reach",
-   "ipa": "",
+   "ipa": "/riʧ/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是应用文高频",
    "groups": [
     {
      "sense": "到达；达成；伸手够到；范围",
@@ -23614,10 +23605,10 @@
       {
        "text": "reach a decision",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "We reached the top of the hill just before sunset.",
+       "example_zh": "我们正好在日落前到达山顶。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "within reach",
@@ -23635,10 +23626,10 @@
   },
   {
    "headword": "read",
-   "ipa": "",
+   "ipa": "/rɛd/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是阅读类文章高频",
    "groups": [
     {
      "sense": "阅读；读作；理解",
@@ -23648,10 +23639,10 @@
       {
        "text": "read between the lines",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "She reads English stories for twenty minutes every night.",
+       "example_zh": "她每晚读二十分钟英语故事。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "read out",
@@ -23669,10 +23660,10 @@
   },
   {
    "headword": "receive",
-   "ipa": "",
+   "ipa": "/rɪˈsiv/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "被动语态是高频考点",
    "groups": [
     {
      "sense": "收到；接待；接受",
@@ -23703,10 +23694,10 @@
   },
   {
    "headword": "record",
-   "ipa": "",
+   "ipa": "/ˈrɛkərd/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "体育与成就类文章高频",
    "groups": [
     {
      "sense": "记录；唱片；录音",
@@ -23716,10 +23707,10 @@
       {
        "text": "keep a record",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The school recorded the results of the sports day.",
+       "example_zh": "学校记录了运动会的成绩。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "set a record",
@@ -23737,10 +23728,10 @@
   },
   {
    "headword": "reduce",
-   "ipa": "",
+   "ipa": "/rɪˈdju:s/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "被动义是社会类文章高频",
    "groups": [
     {
      "sense": "减少、降低；使陷入",
@@ -23750,10 +23741,10 @@
       {
        "text": "reduce costs",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Turning off unused lights can reduce electricity costs.",
+       "example_zh": "关掉不用的灯可以降低电费。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "reduce to",
@@ -23771,10 +23762,10 @@
   },
   {
    "headword": "refer",
-   "ipa": "",
+   "ipa": "/rɪˈfɜ:(r)/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "refer to 的三个义项要分清",
    "groups": [
     {
      "sense": "提及；参考；指的是",
@@ -23784,10 +23775,10 @@
       {
        "text": "refer to",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Please refer to the notes on page twenty.",
+       "example_zh": "请参阅第二十页的笔记。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "refer … to",
@@ -23805,10 +23796,10 @@
   },
   {
    "headword": "refine",
-   "ipa": "",
+   "ipa": "/rɪˈfaɪn/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在教育类文章出现",
    "groups": [
     {
      "sense": "精炼、改进；提纯",
@@ -23818,10 +23809,10 @@
       {
        "text": "refine a plan",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "She refined her speech after the first rehearsal.",
+       "example_zh": "第一次排练后她完善了演讲稿。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "refined sugar",
@@ -23839,10 +23830,10 @@
   },
   {
    "headword": "reflect",
-   "ipa": "",
+   "ipa": "/rɪˈflekt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "多义是 E2 考点",
    "groups": [
     {
      "sense": "反映；反射；思考",
@@ -23852,10 +23843,10 @@
       {
        "text": "reflect on",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The lake reflected the mountains in the early morning.",
+       "example_zh": "清晨湖面倒映着群山。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "reflect reality",
@@ -23873,10 +23864,10 @@
   },
   {
    "headword": "regard",
-   "ipa": "",
+   "ipa": "/rɪˈgɑ:d/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "两个搭配义完全不同",
    "groups": [
     {
      "sense": "把…看作；关注；问候",
@@ -23886,10 +23877,10 @@
       {
        "text": "regard … as",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Many people regard him as a gifted writer.",
+       "example_zh": "许多人把他视为有天赋的作家。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "with regard to",
@@ -23907,10 +23898,10 @@
   },
   {
    "headword": "reinforce",
-   "ipa": "",
+   "ipa": "/ˌriɪnˈfɔrs/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是作文高频",
    "groups": [
     {
      "sense": "加强、强化；增援",
@@ -23920,10 +23911,10 @@
       {
        "text": "reinforce an idea",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The teacher used examples to reinforce the grammar rule.",
+       "example_zh": "老师用例子来强化这条语法规则。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "reinforce a building",
@@ -23941,10 +23932,10 @@
   },
   {
    "headword": "reject",
-   "ipa": "",
+   "ipa": "/rɪˈdʒekt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是应用文高频",
    "groups": [
     {
      "sense": "拒绝、驳回；排斥",
@@ -23954,10 +23945,10 @@
       {
        "text": "reject an offer",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The committee rejected the plan for lack of funds.",
+       "example_zh": "委员会因资金不足否决了该计划。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "reject a claim",
@@ -23975,10 +23966,10 @@
   },
   {
    "headword": "reluctant",
-   "ipa": "",
+   "ipa": "/rɪˈləktənt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "结构是作文高频",
    "groups": [
     {
      "sense": "不情愿的、勉强的",
@@ -23988,10 +23979,10 @@
       {
        "text": "be reluctant to",
        "type": "系表搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "He was reluctant to speak in front of the whole class.",
+       "example_zh": "他不愿在全班面前讲话。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "reluctant agreement",
@@ -24009,10 +24000,10 @@
   },
   {
    "headword": "remain",
-   "ipa": "",
+   "ipa": "/rɪˈmeɪn/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "系动词用法是语法填空考点",
    "groups": [
     {
      "sense": "保持；留下；仍然是",
@@ -24022,10 +24013,10 @@
       {
        "text": "remain silent",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Only three students remained in the classroom after school.",
+       "example_zh": "放学后只有三名学生留在教室里。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "remain in",
@@ -24178,10 +24169,10 @@
   },
   {
    "headword": "report",
-   "ipa": "",
+   "ipa": "/rɪˈpɔrt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "report that 从句是语法填空常见结构",
    "groups": [
     {
      "sense": "报告、报道；汇报",
@@ -24191,10 +24182,10 @@
       {
        "text": "report on",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The newspaper reported the opening of the new library.",
+       "example_zh": "报纸报道了新图书馆的开放。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "a news report",
@@ -24212,10 +24203,10 @@
   },
   {
    "headword": "require",
-   "ipa": "",
+   "ipa": "/rɪˈkwaɪə/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "主动被动语态转换是高频错点",
    "groups": [
     {
      "sense": "需要、要求",
@@ -24225,10 +24216,10 @@
       {
        "text": "require attention",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "This course requires two hours of reading each week.",
+       "example_zh": "这门课要求每周两小时的阅读。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "require sb to do",
@@ -24246,10 +24237,10 @@
   },
   {
    "headword": "reserve",
-   "ipa": "",
+   "ipa": "/rɪˈzɜ:v/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是应用文高频",
    "groups": [
     {
      "sense": "预订；保留；储备",
@@ -24259,10 +24250,10 @@
       {
        "text": "reserve a table",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "You can reserve a seat in the school hall online.",
+       "example_zh": "你可以在线预订学校礼堂的座位。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "in reserve",
@@ -24280,10 +24271,10 @@
   },
   {
    "headword": "resilience",
-   "ipa": "",
+   "ipa": "/rɪˈzɪljəns/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "社会与心理类文章高频",
    "groups": [
     {
      "sense": "韧性、恢复力",
@@ -24293,10 +24284,10 @@
       {
        "text": "build resilience",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Her resilience helped her return to training after the injury.",
+       "example_zh": "她的韧性帮助她在受伤后重返训练。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "resilience to stress",
@@ -24314,10 +24305,10 @@
   },
   {
    "headword": "resource",
-   "ipa": "",
+   "ipa": "/rɪˈsɔ:s/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "环保类文章核心",
    "groups": [
     {
      "sense": "资源；财力；应变之策",
@@ -24327,10 +24318,10 @@
       {
        "text": "natural resources",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The school library is a valuable resource for students.",
+       "example_zh": "学校图书馆是学生宝贵的资源。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "human resources",
@@ -24348,10 +24339,10 @@
   },
   {
    "headword": "respect",
-   "ipa": "",
+   "ipa": "/rɪˈspekt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "短语义是完形高频",
    "groups": [
     {
      "sense": "尊重；方面；遵守",
@@ -24361,10 +24352,10 @@
       {
        "text": "with respect to",
        "type": "介词短语",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "We should respect different opinions in a discussion.",
+       "example_zh": "讨论中我们应尊重不同意见。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "respect the rules",
@@ -24382,10 +24373,10 @@
   },
   {
    "headword": "rest",
-   "ipa": "",
+   "ipa": "/rɛst/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是议论文高频",
    "groups": [
     {
      "sense": "休息；其余部分；依靠",
@@ -24395,10 +24386,10 @@
       {
        "text": "take a rest",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Let's rest for a few minutes before the next task.",
+       "example_zh": "下一项任务前我们休息几分钟吧。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "the rest of",
@@ -24416,10 +24407,10 @@
   },
   {
    "headword": "restrain",
-   "ipa": "",
+   "ipa": "/riˈstreɪn/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是经济类文章高频",
    "groups": [
     {
      "sense": "抑制、克制；束缚",
@@ -24429,10 +24420,10 @@
       {
        "text": "restrain oneself",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "He restrained himself from shouting in the library.",
+       "example_zh": "他忍住没在图书馆里大喊。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "restrain from",
@@ -24450,10 +24441,10 @@
   },
   {
    "headword": "restraint",
-   "ipa": "",
+   "ipa": "/rɪˈstreɪnt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "社会类文章较少但可考",
    "groups": [
     {
      "sense": "克制；限制措施",
@@ -24463,10 +24454,10 @@
       {
        "text": "show restraint",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "She showed great restraint when criticized unfairly.",
+       "example_zh": "受到不公正批评时她表现得非常克制。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "impose restraints",
@@ -24484,10 +24475,10 @@
   },
   {
    "headword": "retain",
-   "ipa": "",
+   "ipa": "/rɪˈteɪn/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是经济类文章高频",
    "groups": [
     {
      "sense": "保留、保持；留住",
@@ -24497,10 +24488,10 @@
       {
        "text": "retain control",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "It is hard to retain new words without regular review.",
+       "example_zh": "不经常复习，新单词很难记住。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "retain information",
@@ -24518,10 +24509,10 @@
   },
   {
    "headword": "return",
-   "ipa": "",
+   "ipa": "/rɪˈtərn/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "in return 是作文高频",
    "groups": [
     {
      "sense": "返回；归还；回报",
@@ -24531,10 +24522,10 @@
       {
        "text": "return home",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Please return the books to the shelf after reading.",
+       "example_zh": "读完后请把书放回书架。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "in return for",
@@ -24552,10 +24543,10 @@
   },
   {
    "headword": "reveal",
-   "ipa": "",
+   "ipa": "/rɪˈvi:l/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "句型是语法填空高频",
    "groups": [
     {
      "sense": "揭示、透露；显露",
@@ -24565,10 +24556,10 @@
       {
        "text": "reveal a secret",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The survey revealed that most students read after dinner.",
+       "example_zh": "调查显示大多数学生晚饭后阅读。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "reveal that",
@@ -24586,10 +24577,10 @@
   },
   {
    "headword": "rise",
-   "ipa": "",
+   "ipa": "/raɪz/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "give rise to 是社会类文章核心",
    "groups": [
     {
      "sense": "上升、增长；起身",
@@ -24599,10 +24590,10 @@
       {
        "text": "rise sharply",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The number of readers has risen sharply this term.",
+       "example_zh": "本学期读者人数大幅上升。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "a rise in",
@@ -24620,10 +24611,10 @@
   },
   {
    "headword": "role",
-   "ipa": "",
+   "ipa": "/roʊl/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是作文高频",
    "groups": [
     {
      "sense": "角色、作用",
@@ -24633,10 +24624,10 @@
       {
        "text": "play a role in",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Parents play an important role in a child's education.",
+       "example_zh": "家长在孩子的教育中扮演重要角色。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "a leading role",
@@ -24654,10 +24645,10 @@
   },
   {
    "headword": "routine",
-   "ipa": "",
+   "ipa": "/ru:ˈti:n/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是应用文高频",
    "groups": [
     {
      "sense": "常规、例行；日常的",
@@ -24667,10 +24658,10 @@
       {
        "text": "daily routine",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "A simple morning routine can make the day easier.",
+       "example_zh": "简单的晨间常规能让一天更顺畅。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "routine check",
@@ -24688,10 +24679,10 @@
   },
   {
    "headword": "rule",
-   "ipa": "",
+   "ipa": "/rul/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "短语义是完形高频",
    "groups": [
     {
      "sense": "规则；统治；裁定",
@@ -24722,10 +24713,10 @@
   },
   {
    "headword": "run",
-   "ipa": "",
+   "ipa": "/rən/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "三个短语义完全不同",
    "groups": [
     {
      "sense": "经营；跑；运转；一段时间",
@@ -24735,10 +24726,10 @@
       {
        "text": "run a business",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "She runs in the park before breakfast every day.",
+       "example_zh": "她每天早饭前在公园跑步。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "run out of",
@@ -24756,10 +24747,10 @@
   },
   {
    "headword": "sacrifice",
-   "ipa": "",
+   "ipa": "/ˈsækrəˌfaɪs/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在人物类文章高频",
    "groups": [
     {
      "sense": "牺牲；献祭",
@@ -24769,10 +24760,10 @@
       {
        "text": "make a sacrifice",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "He sacrificed his weekend to help his friend move house.",
+       "example_zh": "他牺牲周末帮朋友搬家。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "sacrifice for",
@@ -24790,10 +24781,10 @@
   },
   {
    "headword": "scale",
-   "ipa": "",
+   "ipa": "/skeɪl/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是经济类文章高频",
    "groups": [
     {
      "sense": "规模；刻度；攀登",
@@ -24803,10 +24794,10 @@
       {
        "text": "a large scale",
        "type": "名词词块",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The museum displayed a small scale model of the ship.",
+       "example_zh": "博物馆展出了那艘船的小比例模型。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "scale up",
@@ -24824,10 +24815,10 @@
   },
   {
    "headword": "scheme",
-   "ipa": "",
+   "ipa": "/ˈsɪstə/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "a pension scheme 是社会类文章核心",
    "groups": [
     {
      "sense": "计划、方案；阴谋",
@@ -24858,10 +24849,10 @@
   },
   {
    "headword": "scope",
-   "ipa": "",
+   "ipa": "/skoʊp/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是议论文高频",
    "groups": [
     {
      "sense": "范围、领域；机会",
@@ -24871,10 +24862,10 @@
       {
        "text": "the scope of",
        "type": "名词词块",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The scope of the project is too wide for one term.",
+       "example_zh": "这个项目的范围对一个学期来说太广。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "beyond one’s scope",
@@ -24892,10 +24883,10 @@
   },
   {
    "headword": "scrutiny",
-   "ipa": "",
+   "ipa": "/ˈskrutəni/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在社会类文章出现",
    "groups": [
     {
      "sense": "仔细审查、细看",
@@ -24905,10 +24896,10 @@
       {
        "text": "under scrutiny",
        "type": "介词短语",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The plan received close scrutiny from the head teacher.",
+       "example_zh": "该计划受到校长的仔细审查。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "close scrutiny",
@@ -24926,10 +24917,10 @@
   },
   {
    "headword": "section",
-   "ipa": "",
+   "ipa": "/ˈsekʃ(ə)n/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是应用文高频",
    "groups": [
     {
      "sense": "部分、章节；部门",
@@ -24939,10 +24930,10 @@
       {
        "text": "a section of",
        "type": "名词词块",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The second section of the passage explains the reason.",
+       "example_zh": "文章第二部分解释了原因。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "the sports section",
@@ -24960,10 +24951,10 @@
   },
   {
    "headword": "secure",
-   "ipa": "",
+   "ipa": "/sɪˈkjʊə(r)/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "词性歧义是 E5 考点",
    "groups": [
     {
      "sense": "安全的；获得；保护",
@@ -24973,10 +24964,10 @@
       {
        "text": "secure a job",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "She secured a place in the school choir.",
+       "example_zh": "她获得了学校合唱团的一个名额。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "feel secure",
@@ -24994,10 +24985,10 @@
   },
   {
    "headword": "security",
-   "ipa": "",
+   "ipa": "/sɪˈkjʊərəti/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在社会类文章出现",
    "groups": [
     {
      "sense": "安全；保障；证券",
@@ -25007,10 +24998,10 @@
       {
        "text": "security measures",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Airport security asks passengers to remove their shoes.",
+       "example_zh": "机场安检要求乘客脱鞋。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "job security",
@@ -25028,10 +25019,10 @@
   },
   {
    "headword": "sequence",
-   "ipa": "",
+   "ipa": "/ˈsi:kwəns/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "科技类文章高频",
    "groups": [
     {
      "sense": "顺序、序列；安排",
@@ -25041,10 +25032,10 @@
       {
        "text": "in sequence",
        "type": "介词短语",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Put the events in the correct sequence.",
+       "example_zh": "把事件按正确顺序排列。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "a sequence of",
@@ -25062,10 +25053,10 @@
   },
   {
    "headword": "serve",
-   "ipa": "",
+   "ipa": "/sərv/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是完形高频",
    "groups": [
     {
      "sense": "服务；供应；担任；服刑",
@@ -25096,10 +25087,10 @@
   },
   {
    "headword": "service",
-   "ipa": "",
+   "ipa": "/ˈsərvɪs/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "in the service of 属书面义",
    "groups": [
     {
      "sense": "服务；公共服务；维修",
@@ -25109,10 +25100,10 @@
       {
        "text": "public service",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The bus service to the town runs every twenty minutes.",
+       "example_zh": "去镇上的公交每二十分钟一班。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "service a car",
@@ -25130,10 +25121,10 @@
   },
   {
    "headword": "set",
-   "ipa": "",
+   "ipa": "/sɛt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "三个短语义完全不同",
    "groups": [
     {
      "sense": "设置；使开始；一套",
@@ -25143,10 +25134,10 @@
       {
        "text": "set an example",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "She set the alarm for six o'clock.",
+       "example_zh": "她把闹钟设在六点。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "set up",
@@ -25331,10 +25322,10 @@
   },
   {
    "headword": "shape",
-   "ipa": "",
+   "ipa": "/ʃeɪp/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "动词义是议论文高分表达",
    "groups": [
     {
      "sense": "形状；v.塑造、形成",
@@ -25365,10 +25356,10 @@
   },
   {
    "headword": "shatter",
-   "ipa": "",
+   "ipa": "/ˈʃætər/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是社会类文章高频",
    "groups": [
     {
      "sense": "打碎；粉碎（希望）",
@@ -25378,10 +25369,10 @@
       {
        "text": "shatter a window",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The news shattered his hopes of joining the team.",
+       "example_zh": "这则消息打破了他加入队伍的希望。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "shatter dreams",
@@ -25399,10 +25390,10 @@
   },
   {
    "headword": "shortage",
-   "ipa": "",
+   "ipa": "/ˈʃɔ:tɪdʒ/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是经济类文章核心",
    "groups": [
     {
      "sense": "短缺、不足",
@@ -25412,10 +25403,10 @@
       {
        "text": "a shortage of",
        "type": "名词词块",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "There is a shortage of desks in the new classroom.",
+       "example_zh": "新教室缺少课桌。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "food shortage",
@@ -25433,10 +25424,10 @@
   },
   {
    "headword": "show",
-   "ipa": "",
+   "ipa": "/ʃoʊ/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "短语义是完形高频",
    "groups": [
     {
      "sense": "展示；表明；演出",
@@ -25446,10 +25437,10 @@
       {
        "text": "show that",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The film shows how a small act of kindness can spread.",
+       "example_zh": "这部电影展现了小小的善举如何传播。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "on show",
@@ -25467,10 +25458,10 @@
   },
   {
    "headword": "significance",
-   "ipa": "",
+   "ipa": "/ˈsɪɡnətʃə/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "作文高分表达",
    "groups": [
     {
      "sense": "重要性、意义",
@@ -25480,10 +25471,10 @@
       {
        "text": "the significance of",
        "type": "名词词块",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The teacher explained the significance of the date.",
+       "example_zh": "老师解释了这个日期的意义。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "be of significance",
@@ -25501,10 +25492,10 @@
   },
   {
    "headword": "solve",
-   "ipa": "",
+   "ipa": "/sɒlv/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "与 settle 构成辨析组",
    "groups": [
     {
      "sense": "解决、解答",
@@ -25514,10 +25505,10 @@
       {
        "text": "solve a problem",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "We need to solve the problem before Friday.",
+       "example_zh": "我们需要在周五前解决这个问题。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "solve a puzzle",
@@ -25535,10 +25526,10 @@
   },
   {
    "headword": "spark",
-   "ipa": "",
+   "ipa": "/spɑrk/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是议论文高频",
    "groups": [
     {
      "sense": "火花；引发、激发",
@@ -25548,10 +25539,10 @@
       {
        "text": "spark an interest",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "His question sparked a lively discussion in class.",
+       "example_zh": "他的问题在课堂上引发了热烈的讨论。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "spark a debate",
@@ -25569,10 +25560,10 @@
   },
   {
    "headword": "spend",
-   "ipa": "",
+   "ipa": "/spɛnd/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是高频错点",
    "groups": [
     {
      "sense": "花费时间或金钱",
@@ -25582,10 +25573,10 @@
       {
        "text": "spend on",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "She spends an hour practising listening every evening.",
+       "example_zh": "她每天晚上花一小时练习听力。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "spend time doing",
@@ -25603,10 +25594,10 @@
   },
   {
    "headword": "spirit",
-   "ipa": "",
+   "ipa": "/ˈspɪrɪt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "in spirits 是应用文问候语",
    "groups": [
     {
      "sense": "精神；情绪；幽灵；烈酒",
@@ -25637,10 +25628,10 @@
   },
   {
    "headword": "squeeze",
-   "ipa": "",
+   "ipa": "/skwiːz/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是社会类文章高频",
    "groups": [
     {
      "sense": "挤压；榨取；拥挤",
@@ -25650,10 +25641,10 @@
       {
        "text": "squeeze in",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "He squeezed into a seat at the back of the room.",
+       "example_zh": "他挤进了房间后排的一个座位。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "squeeze out",
@@ -25671,10 +25662,10 @@
   },
   {
    "headword": "stage",
-   "ipa": "",
+   "ipa": "/steɪdʒ/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "at an early stage 是完形高频",
    "groups": [
     {
      "sense": "阶段；舞台；举办",
@@ -25684,10 +25675,10 @@
       {
        "text": "at a stage",
        "type": "介词短语",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The first stage of the project is completed.",
+       "example_zh": "项目的第一阶段已经完成。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "stage a play",
@@ -25705,10 +25696,10 @@
   },
   {
    "headword": "standard",
-   "ipa": "",
+   "ipa": "/ˈstændərd/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "up to standard 是应用文高频",
    "groups": [
     {
      "sense": "标准；通常的、合格的",
@@ -25718,10 +25709,10 @@
       {
        "text": "meet the standard",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The school has a high standard for spoken English.",
+       "example_zh": "学校对英语口语要求很高。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "a standard answer",
@@ -25739,10 +25730,10 @@
   },
   {
    "headword": "starve",
-   "ipa": "",
+   "ipa": "/stɑ:v/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "比喻义是完形高频",
    "groups": [
     {
      "sense": "挨饿；使极度缺乏",
@@ -25752,10 +25743,10 @@
       {
        "text": "starve to death",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Millions of people starve because of the long drought.",
+       "example_zh": "由于长期干旱，数百万人挨饿。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "be starved of",
@@ -25773,10 +25764,10 @@
   },
   {
    "headword": "statement",
-   "ipa": "",
+   "ipa": "/ˈsteɪtmənt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "make a statement 是完形高频",
    "groups": [
     {
      "sense": "陈述、声明；报表",
@@ -25786,10 +25777,10 @@
       {
        "text": "make a statement",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "He made a short statement to the whole school.",
+       "example_zh": "他向全校做了简短的声明。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "a formal statement",
@@ -25807,10 +25798,10 @@
   },
   {
    "headword": "stay",
-   "ipa": "",
+   "ipa": "/steɪ/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "系动词用法是语法填空考点",
    "groups": [
     {
      "sense": "停留、保持；逗留",
@@ -25820,10 +25811,10 @@
       {
        "text": "stay calm",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Please stay in your seat until the bell rings.",
+       "example_zh": "铃响前请留在座位上。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "stay up",
@@ -25841,10 +25832,10 @@
   },
   {
    "headword": "steer",
-   "ipa": "",
+   "ipa": "/stɪr/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是应用文高频",
    "groups": [
     {
      "sense": "驾驶；引导、掌控",
@@ -25854,10 +25845,10 @@
       {
        "text": "steer a car",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "She steered the conversation towards the coming exam.",
+       "example_zh": "她把话题引向即将到来的考试。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "steer the conversation",
@@ -25875,10 +25866,10 @@
   },
   {
    "headword": "stick",
-   "ipa": "",
+   "ipa": "/stɪk/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "stick to doing 是经典考点",
    "groups": [
     {
      "sense": "粘贴；卡住；坚持；棍",
@@ -25888,10 +25879,10 @@
       {
        "text": "stick to",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Stick the picture on the wall with this tape.",
+       "example_zh": "用这卷胶带把画贴在墙上。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "get stuck",
@@ -25909,10 +25900,10 @@
   },
   {
    "headword": "stipulate",
-   "ipa": "",
+   "ipa": "/ˈstɪpjəˌleɪt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "句型是语法填空高频",
    "groups": [
     {
      "sense": "规定、明确要求",
@@ -25922,10 +25913,10 @@
       {
        "text": "stipulate that",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The rules stipulate that all visitors must sign in.",
+       "example_zh": "规定明确要求所有访客必须签到。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "as stipulated",
@@ -25943,10 +25934,10 @@
   },
   {
    "headword": "stress",
-   "ipa": "",
+   "ipa": "/stres/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在健康类文章高频",
    "groups": [
     {
      "sense": "压力；强调；重音",
@@ -25956,10 +25947,10 @@
       {
        "text": "stress the importance",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Teachers often stress the importance of revision.",
+       "example_zh": "老师们常强调复习的重要性。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "under stress",
@@ -25977,10 +25968,10 @@
   },
   {
    "headword": "strike",
-   "ipa": "",
+   "ipa": "/straɪk/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "多义分叉是 E2 考点",
    "groups": [
     {
      "sense": "打击；罢工；突然想到",
@@ -25990,10 +25981,10 @@
       {
        "text": "strike a balance",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "A strange idea struck me while I was reading.",
+       "example_zh": "阅读时我突然想到一个奇怪的主意。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "it strikes me that",
@@ -26011,10 +26002,10 @@
   },
   {
    "headword": "strive",
-   "ipa": "",
+   "ipa": "/straɪv/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "结构是作文核心",
    "groups": [
     {
      "sense": "努力、奋斗",
@@ -26024,10 +26015,10 @@
       {
        "text": "strive for",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "We should strive for progress, not perfection.",
+       "example_zh": "我们应争取进步，而不是完美。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "strive to do",
@@ -26045,10 +26036,10 @@
   },
   {
    "headword": "structure",
-   "ipa": "",
+   "ipa": "/ˈstrʌktʃə(r)/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "动词义是作文加分点",
    "groups": [
     {
      "sense": "结构、构造；组织、安排",
@@ -26058,10 +26049,10 @@
       {
        "text": "the structure of",
        "type": "名词词块",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The essay has a clear structure: introduction, body and ending.",
+       "example_zh": "这篇文章结构清晰：开头、正文和结尾。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "structure a plan",
@@ -26079,10 +26070,10 @@
   },
   {
    "headword": "substance",
-   "ipa": "",
+   "ipa": "/ˈsʌbstəns/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "比喻义在议论文出现",
    "groups": [
     {
      "sense": "物质；实质、要点",
@@ -26092,10 +26083,10 @@
       {
        "text": "a chemical substance",
        "type": "名词词块",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "There is little substance in his argument.",
+       "example_zh": "他的论证几乎没有实质内容。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "the substance of",
@@ -26113,10 +26104,10 @@
   },
   {
    "headword": "substantiate",
-   "ipa": "",
+   "ipa": "/səbˈstænʧiˌeɪt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在学术类文章出现",
    "groups": [
     {
      "sense": "证实、证明…属实",
@@ -26126,10 +26117,10 @@
       {
        "text": "substantiate a claim",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "He gave data to substantiate his claim.",
+       "example_zh": "他提供数据来证实自己的说法。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "substantiate evidence",
@@ -26147,10 +26138,10 @@
   },
   {
    "headword": "substitute",
-   "ipa": "",
+   "ipa": "/ˈsʌbstɪtjuːt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是语法填空高频",
    "groups": [
     {
      "sense": "替代品；代替",
@@ -26160,10 +26151,10 @@
       {
        "text": "substitute A for B",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "You can substitute honey for sugar in this recipe.",
+       "example_zh": "这个食谱里可以用蜂蜜代替糖。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "a substitute for",
@@ -26181,10 +26172,10 @@
   },
   {
    "headword": "suffer",
-   "ipa": "",
+   "ipa": "/ˈsʌfə(r)/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "介词搭配是高频错点",
    "groups": [
     {
      "sense": "遭受、忍受；患病",
@@ -26194,10 +26185,10 @@
       {
        "text": "suffer from",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Many students suffer from a lack of sleep.",
+       "example_zh": "许多学生饱受睡眠不足之苦。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "suffer a loss",
@@ -26215,10 +26206,10 @@
   },
   {
    "headword": "supply",
-   "ipa": "",
+   "ipa": "/səˈplaɪ/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "双宾语结构是高频考点",
    "groups": [
     {
      "sense": "供应、供给；补给品",
@@ -26228,10 +26219,10 @@
       {
        "text": "supply sb with",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The school supplies notebooks to all new students.",
+       "example_zh": "学校向所有新生提供笔记本。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "in short supply",
@@ -26249,10 +26240,10 @@
   },
   {
    "headword": "support",
-   "ipa": "",
+   "ipa": "/səˈpɔːt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是社会类文章高频",
    "groups": [
     {
      "sense": "支持；支撑；供养",
@@ -26262,10 +26253,10 @@
       {
        "text": "support an idea",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Her family supported her decision to study abroad.",
+       "example_zh": "家人支持她出国留学的决定。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "financial support",
@@ -26283,10 +26274,10 @@
   },
   {
    "headword": "survey",
-   "ipa": "",
+   "ipa": "/sɜːˈveɪ/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "动词与 conduct 构成搭配组",
    "groups": [
     {
      "sense": "调查；测量；全面审视",
@@ -26643,10 +26634,10 @@
   },
   {
    "headword": "sustain",
-   "ipa": "",
+   "ipa": "/səˈsteɪn/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "多义是 E2 考点",
    "groups": [
     {
      "sense": "维持；承受；遭受",
@@ -26656,10 +26647,10 @@
       {
        "text": "sustain growth",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The charity needs more donations to sustain its work.",
+       "example_zh": "这家慈善机构需要更多捐款来维持工作。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "sustain damage",
@@ -26677,10 +26668,10 @@
   },
   {
    "headword": "swap",
-   "ipa": "",
+   "ipa": "/swɒp/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在口语类文章出现",
    "groups": [
     {
      "sense": "交换、调换",
@@ -26690,10 +26681,10 @@
       {
        "text": "swap A for B",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "We swapped seats so that he could see the board.",
+       "example_zh": "我们换了座位，这样他就能看见黑板。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "swap ideas",
@@ -26711,10 +26702,10 @@
   },
   {
    "headword": "swear",
-   "ipa": "",
+   "ipa": "/swɛr/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是完形高频",
    "groups": [
     {
      "sense": "发誓；咒骂",
@@ -26724,10 +26715,10 @@
       {
        "text": "swear to do",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "He swore that he had locked the door.",
+       "example_zh": "他发誓自己锁了门。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "swear at",
@@ -26745,10 +26736,10 @@
   },
   {
    "headword": "symbol",
-   "ipa": "",
+   "ipa": "/ˈsɪmbl/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "文化类文章必备",
    "groups": [
     {
      "sense": "符号；象征",
@@ -26758,10 +26749,10 @@
       {
        "text": "a symbol of",
        "type": "名词词块",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The dove is a symbol of peace.",
+       "example_zh": "鸽子是和平的象征。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "a peace symbol",
@@ -26779,10 +26770,10 @@
   },
   {
    "headword": "tackle",
-   "ipa": "",
+   "ipa": "/ˈtækl/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是环保类文章核心",
    "groups": [
     {
      "sense": "处理、应对； tackle 擒抱",
@@ -26792,10 +26783,10 @@
       {
        "text": "tackle a problem",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Let's tackle the hardest question first.",
+       "example_zh": "我们先解决最难的题目。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "tackle a task",
@@ -26813,10 +26804,10 @@
   },
   {
    "headword": "take",
-   "ipa": "",
+   "ipa": "/teɪk/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "三个短语义完全不同",
    "groups": [
     {
      "sense": "拿、取；花费；采取；认为",
@@ -26826,10 +26817,10 @@
       {
        "text": "take place",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "It takes about twenty minutes to walk to the station.",
+       "example_zh": "走到车站大约需要二十分钟。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "take into account",
@@ -26847,10 +26838,10 @@
   },
   {
    "headword": "tame",
-   "ipa": "",
+   "ipa": "/teɪm/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配较少考",
    "groups": [
     {
      "sense": "驯服的； tame 驯养、控制",
@@ -26860,10 +26851,10 @@
       {
        "text": "a tame animal",
        "type": "名词词块",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "It took months to tame the wild horse.",
+       "example_zh": "花了几个月才驯服那匹野马。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "tame a river",
@@ -26881,10 +26872,10 @@
   },
   {
    "headword": "taste",
-   "ipa": "",
+   "ipa": "/teɪst/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "have a taste for 与 develop a taste for",
    "groups": [
     {
      "sense": "味道；品味；尝",
@@ -26894,10 +26885,10 @@
       {
        "text": "have a taste of",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The soup tastes a little too salty.",
+       "example_zh": "这汤尝起来有点咸。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "taste good",
@@ -26915,10 +26906,10 @@
   },
   {
    "headword": "tend",
-   "ipa": "",
+   "ipa": "/tend/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "义项分裂是典型 E2 考点",
    "groups": [
     {
      "sense": "倾向于；照料",
@@ -26928,10 +26919,10 @@
       {
        "text": "tend to do",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Students tend to remember words better in the morning.",
+       "example_zh": "学生往往在早上记单词效果更好。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "tend to sb",
@@ -26949,10 +26940,10 @@
   },
   {
    "headword": "tendency",
-   "ipa": "",
+   "ipa": "/ˈtendənsi/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是数据类文章高频",
    "groups": [
     {
      "sense": "趋势、倾向",
@@ -26962,10 +26953,10 @@
       {
        "text": "a tendency to",
        "type": "名词词块",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "He has a tendency to check his phone while studying.",
+       "example_zh": "他有学习时看手机的倾向。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "have a tendency",
@@ -26983,10 +26974,10 @@
   },
   {
    "headword": "term",
-   "ipa": "",
+   "ipa": "/tərm/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "in terms of 是语法填空与写作双重高频",
    "groups": [
     {
      "sense": "术语；学期；期限；条件",
@@ -26996,10 +26987,10 @@
       {
        "text": "in terms of",
        "type": "介词短语",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "We have three terms in a school year.",
+       "example_zh": "一学年有三个学期。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "long-term",
@@ -27017,10 +27008,10 @@
   },
   {
    "headword": "test",
-   "ipa": "",
+   "ipa": "/tɛst/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "定语位置是语法填空考点",
    "groups": [
     {
      "sense": "测试、检验；考验",
@@ -27030,10 +27021,10 @@
       {
        "text": "take a test",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The doctor tested his eyesight.",
+       "example_zh": "医生给他测了视力。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "test the water",
@@ -27051,10 +27042,10 @@
   },
   {
    "headword": "threaten",
-   "ipa": "",
+   "ipa": "/ˈθretn/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "与 scare 构成辨析组",
    "groups": [
     {
      "sense": "威胁、恐吓；预示危险",
@@ -27064,10 +27055,10 @@
       {
        "text": "threaten to do",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Dark clouds threatened rain before the match.",
+       "example_zh": "比赛前乌云密布，眼看要下雨。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "pose a threat",
@@ -27085,10 +27076,10 @@
   },
   {
    "headword": "thrive",
-   "ipa": "",
+   "ipa": "/θraɪv/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是作文高频",
    "groups": [
     {
      "sense": "兴旺、茁壮成长",
@@ -27098,10 +27089,10 @@
       {
        "text": "thrive on",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Some plants thrive in cool, shady places.",
+       "example_zh": "有些植物在阴凉处生长旺盛。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "thrive in",
@@ -27119,10 +27110,10 @@
   },
   {
    "headword": "tolerate",
-   "ipa": "",
+   "ipa": "/ˈtɒləreɪt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是社会类文章高频",
    "groups": [
     {
      "sense": "容忍、忍受；耐受",
@@ -27132,10 +27123,10 @@
       {
        "text": "tolerate noise",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "I can't tolerate the noise from the next room.",
+       "example_zh": "我无法忍受隔壁房间的噪音。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "tolerate differences",
@@ -27153,10 +27144,10 @@
   },
   {
    "headword": "touch",
-   "ipa": "",
+   "ipa": "/təʧ/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "keep in touch with 是应用文高频",
    "groups": [
     {
      "sense": "触摸；感动；涉及",
@@ -27166,10 +27157,10 @@
       {
        "text": "in touch with",
        "type": "介词短语",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Don't touch the wet paint on the wall.",
+       "example_zh": "别碰墙上未干的油漆。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "touch on",
@@ -27187,10 +27178,10 @@
   },
   {
    "headword": "trade",
-   "ipa": "",
+   "ipa": "/treɪd/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "trade off 是经济类文章高频",
    "groups": [
     {
      "sense": "贸易；行业；交易",
@@ -27200,10 +27191,10 @@
       {
        "text": "international trade",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "China trades with many countries around the world.",
+       "example_zh": "中国与世界上许多国家有贸易往来。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "trade in",
@@ -27221,10 +27212,10 @@
   },
   {
    "headword": "trajectory",
-   "ipa": "",
+   "ipa": "/trəˈʤɛktəri/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在社会类文章出现",
    "groups": [
     {
      "sense": "轨迹、轨道；发展路径",
@@ -27234,10 +27225,10 @@
       {
        "text": "the trajectory of",
        "type": "名词词块",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The rocket followed its planned trajectory into space.",
+       "example_zh": "火箭沿预定轨迹进入太空。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "career trajectory",
@@ -27255,10 +27246,10 @@
   },
   {
    "headword": "transform",
-   "ipa": "",
+   "ipa": "/trænsˈfɔ:m/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是社会类文章核心",
    "groups": [
     {
      "sense": "使彻底改变、改造",
@@ -27268,10 +27259,10 @@
       {
        "text": "transform into",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The internet has transformed the way we learn.",
+       "example_zh": "互联网改变了我们的学习方式。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "transform a system",
@@ -27289,10 +27280,10 @@
   },
   {
    "headword": "transition",
-   "ipa": "",
+   "ipa": "/trænˈzɪʃn/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是社会类文章高频",
    "groups": [
     {
      "sense": "过渡、转变",
@@ -27302,10 +27293,10 @@
       {
        "text": "transition from … to",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The transition from junior to senior high can be challenging.",
+       "example_zh": "从初中到高中的过渡可能具有挑战性。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "a smooth transition",
@@ -27323,10 +27314,10 @@
   },
   {
    "headword": "trend",
-   "ipa": "",
+   "ipa": "/trend/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是社会类文章高频",
    "groups": [
     {
      "sense": "趋势、倾向；时尚",
@@ -27336,10 +27327,10 @@
       {
        "text": "a trend towards",
        "type": "名词词块",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "There is a growing trend of reading e-books among students.",
+       "example_zh": "学生中阅读电子书呈增长趋势。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "follow the trend",
@@ -27357,10 +27348,10 @@
   },
   {
    "headword": "trigger",
-   "ipa": "",
+   "ipa": "/ˈtrɪgər/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在社会类文章高频",
    "groups": [
     {
      "sense": "引发、触发；扳机",
@@ -27370,10 +27361,10 @@
       {
        "text": "trigger a reaction",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "A small mistake triggered a serious argument.",
+       "example_zh": "一个小错误引发了激烈的争吵。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "trigger a crisis",
@@ -27391,10 +27382,10 @@
   },
   {
    "headword": "trim",
-   "ipa": "",
+   "ipa": "/trɪm/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在商业类文章出现",
    "groups": [
     {
      "sense": "修剪；削减；整齐的",
@@ -27404,10 +27395,10 @@
       {
        "text": "trim costs",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "She trimmed the article to fit the page.",
+       "example_zh": "她删减了文章以适合版面。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "trim a hedge",
@@ -27425,10 +27416,10 @@
   },
   {
    "headword": "trust",
-   "ipa": "",
+   "ipa": "/trəst/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "结构是高频考点",
    "groups": [
     {
      "sense": "信任；信托",
@@ -27438,10 +27429,10 @@
       {
        "text": "trust sb",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Trust is built through honest words and actions.",
+       "example_zh": "信任通过诚实的言行建立起来。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "build trust",
@@ -27459,10 +27450,10 @@
   },
   {
    "headword": "try",
-   "ipa": "",
+   "ipa": "/traɪ/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "try doing vs try to do 是经典考点",
    "groups": [
     {
      "sense": "尝试；审判",
@@ -27472,10 +27463,10 @@
       {
        "text": "try to do",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Try this method and see if it works for you.",
+       "example_zh": "试试这个方法，看是否适合你。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "try out",
@@ -27493,10 +27484,10 @@
   },
   {
    "headword": "turn",
-   "ipa": "",
+   "ipa": "/tərn/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "turn out 是完形高频",
    "groups": [
     {
      "sense": "转动；变成；轮流",
@@ -27506,10 +27497,10 @@
       {
        "text": "turn out",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Turn left at the corner and you'll see the library.",
+       "example_zh": "在拐角处左转，你就会看到图书馆。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "turn into",
@@ -27527,10 +27518,10 @@
   },
   {
    "headword": "undermine",
-   "ipa": "",
+   "ipa": "/ˈəndərˌmaɪn/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是议论文高频",
    "groups": [
     {
      "sense": "逐渐削弱、损害（信心等）",
@@ -27540,10 +27531,10 @@
       {
        "text": "undermine confidence",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Constant criticism can undermine a child's confidence.",
+       "example_zh": "不断的批评会削弱孩子的自信。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "undermine authority",
@@ -27561,10 +27552,10 @@
   },
   {
    "headword": "undertake",
-   "ipa": "",
+   "ipa": "/ʌndəˈteɪk/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是语法填空高频",
    "groups": [
     {
      "sense": "承担、着手；承诺",
@@ -27574,10 +27565,10 @@
       {
        "text": "undertake a task",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The school undertook a survey of students' reading habits.",
+       "example_zh": "学校开展了一项关于学生阅读习惯的调查。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "undertake to do",
@@ -27595,10 +27586,10 @@
   },
   {
    "headword": "unit",
-   "ipa": "",
+   "ipa": "/ˈjunɪt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "计量单位在科普阅读中常见",
    "groups": [
     {
      "sense": "单位；单元；单元件",
@@ -27608,10 +27599,10 @@
       {
        "text": "a unit of",
        "type": "名词词块",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "This unit focuses on environmental protection.",
+       "example_zh": "这个单元聚焦环境保护。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "a family unit",
@@ -27629,10 +27620,10 @@
   },
   {
    "headword": "unveil",
-   "ipa": "",
+   "ipa": "/ənˈveɪl/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在新闻类文章高频",
    "groups": [
     {
      "sense": "揭开；首次展示、公布",
@@ -27642,10 +27633,10 @@
       {
        "text": "unveil a plan",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The museum unveiled a new exhibition last Friday.",
+       "example_zh": "博物馆上周五揭幕了一个新展览。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "unveil a statue",
@@ -27663,10 +27654,10 @@
   },
   {
    "headword": "uphold",
-   "ipa": "",
+   "ipa": "/əˈphoʊld/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是文化类文章高频",
    "groups": [
     {
      "sense": "维护、坚持（原则、判决）",
@@ -27676,10 +27667,10 @@
       {
        "text": "uphold a principle",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "We should uphold the rules even when no one is watching.",
+       "example_zh": "即使无人监督，我们也应遵守规则。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "uphold the law",
@@ -27697,10 +27688,10 @@
   },
   {
    "headword": "urge",
-   "ipa": "",
+   "ipa": "/ɜ:dʒ/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "名词义在人物类文章出现",
    "groups": [
     {
      "sense": "敦促、强烈要求；冲动",
@@ -27710,10 +27701,10 @@
       {
        "text": "urge sb to do",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The teacher urged us to check our answers carefully.",
+       "example_zh": "老师敦促我们仔细检查答案。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "have an urge to",
@@ -27731,10 +27722,10 @@
   },
   {
    "headword": "use",
-   "ipa": "",
+   "ipa": "/juz/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "used to do vs be used to doing 是经典考点",
    "groups": [
     {
      "sense": "使用、利用；用途",
@@ -27744,10 +27735,10 @@
       {
        "text": "make use of",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Use a dictionary to check the meaning of new words.",
+       "example_zh": "用词典查新词的意思。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "use up",
@@ -27932,10 +27923,10 @@
   },
   {
    "headword": "vary",
-   "ipa": "",
+   "ipa": "/ˈveəri/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是数据类文章核心",
    "groups": [
     {
      "sense": "变化、不同",
@@ -27945,10 +27936,10 @@
       {
        "text": "vary from … to",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The prices vary from shop to shop.",
+       "example_zh": "各家商店的价格有所不同。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "vary in",
@@ -27966,10 +27957,10 @@
   },
   {
    "headword": "vast",
-   "ipa": "",
+   "ipa": "/vɑ:st/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在数据类文章高频",
    "groups": [
     {
      "sense": "巨大的、广阔的",
@@ -27979,10 +27970,10 @@
       {
        "text": "a vast area",
        "type": "名词词块",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "A vast field of wheat stretched to the horizon.",
+       "example_zh": "广阔的麦田一直延伸到地平线。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "a vast majority",
@@ -28000,10 +27991,10 @@
   },
   {
    "headword": "venture",
-   "ipa": "",
+   "ipa": "/ˈvɛnʧər/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在商业类文章出现",
    "groups": [
     {
      "sense": "冒险事业；冒险去做",
@@ -28013,10 +28004,10 @@
       {
        "text": "a joint venture",
        "type": "名词词块",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The company decided to venture into the online market.",
+       "example_zh": "公司决定涉足线上市场。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "venture into",
@@ -28034,10 +28025,10 @@
   },
   {
    "headword": "verify",
-   "ipa": "",
+   "ipa": "/ˈvɛrəˌfaɪ/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是科研类文章高频",
    "groups": [
     {
      "sense": "核实、证明…为真",
@@ -28047,10 +28038,10 @@
       {
        "text": "verify a fact",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Please verify the time of the meeting with your teacher.",
+       "example_zh": "请向老师核实会议时间。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "verify the results",
@@ -28068,10 +28059,10 @@
   },
   {
    "headword": "violate",
-   "ipa": "",
+   "ipa": "/ˈvaɪəleɪt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是社会类文章高频",
    "groups": [
     {
      "sense": "违反、违背；侵犯",
@@ -28081,10 +28072,10 @@
       {
        "text": "violate the law",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Drivers who violate the law will be fined.",
+       "example_zh": "违法的司机将被罚款。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "violate a rule",
@@ -28102,10 +28093,10 @@
   },
   {
    "headword": "violence",
-   "ipa": "",
+   "ipa": "/ˈvaɪələns/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "社会类文章高频",
    "groups": [
     {
      "sense": "暴力、猛烈",
@@ -28115,10 +28106,10 @@
       {
        "text": "use violence",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The film was criticised for its violence.",
+       "example_zh": "这部电影因暴力内容受到批评。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "violent crime",
@@ -28136,10 +28127,10 @@
   },
   {
    "headword": "virtue",
-   "ipa": "",
+   "ipa": "/ˈvɜ:tʃu:/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配在议论文出现",
    "groups": [
     {
      "sense": "美德；优点；好处",
@@ -28149,10 +28140,10 @@
       {
        "text": "by virtue of",
        "type": "介词短语",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Patience is a virtue that helps in learning.",
+       "example_zh": "耐心是一种有助于学习的美德。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "a virtue of",
@@ -28170,10 +28161,10 @@
   },
   {
    "headword": "visit",
-   "ipa": "",
+   "ipa": "/ˈvɪzɪt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是应用文高频",
    "groups": [
     {
      "sense": "拜访、参观；就诊",
@@ -28183,10 +28174,10 @@
       {
        "text": "pay a visit to",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Our class will visit the science museum tomorrow.",
+       "example_zh": "我们班明天将参观科技馆。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "visit a museum",
@@ -28204,10 +28195,10 @@
   },
   {
    "headword": "voice",
-   "ipa": "",
+   "ipa": "/vɔɪs/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "应用文高频",
    "groups": [
     {
      "sense": "嗓音；意见；表达",
@@ -28217,10 +28208,10 @@
       {
        "text": "raise one’s voice",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "She raised her voice so everyone could hear her.",
+       "example_zh": "她提高嗓门，好让大家都听见。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "voice an opinion",
@@ -28238,10 +28229,10 @@
   },
   {
    "headword": "vulnerable",
-   "ipa": "",
+   "ipa": "/ˈvəlnərəbəl/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是社会类文章高频",
    "groups": [
     {
      "sense": "脆弱的、易受伤的",
@@ -28251,10 +28242,10 @@
       {
        "text": "be vulnerable to",
        "type": "系表搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Young children are especially vulnerable to cold weather.",
+       "example_zh": "幼儿尤其容易受寒冷天气影响。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "vulnerable groups",
@@ -28272,10 +28263,10 @@
   },
   {
    "headword": "wait",
-   "ipa": "",
+   "ipa": "/weɪt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "can't wait to do 是应用文高频",
    "groups": [
     {
      "sense": "等待；伺候",
@@ -28285,10 +28276,10 @@
       {
        "text": "wait for",
        "type": "动词+介词",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "We waited for the bus in the rain.",
+       "example_zh": "我们在雨中等公交车。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "wait on",
@@ -28306,10 +28297,10 @@
   },
   {
    "headword": "warrant",
-   "ipa": "",
+   "ipa": "/ˈwɔrənt/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "搭配是学术类文章高频",
    "groups": [
     {
      "sense": "保证； warrants 正当理由；搜查令",
@@ -28319,10 +28310,10 @@
       {
        "text": "warrant attention",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The evidence does not warrant such a strong conclusion.",
+       "example_zh": "这些证据不足以得出如此强烈的结论。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "a search warrant",
@@ -28340,10 +28331,10 @@
   },
   {
    "headword": "waste",
-   "ipa": "",
+   "ipa": "/weɪst/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "waste of time/money 搭配",
    "groups": [
     {
      "sense": "浪费；废弃物；荒芜的",
@@ -28353,10 +28344,10 @@
       {
        "text": "waste time",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Don't waste time on questions you cannot answer.",
+       "example_zh": "别在你答不上来的题目上浪费时间。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "a waste of",
@@ -28374,10 +28365,10 @@
   },
   {
    "headword": "watch",
-   "ipa": "",
+   "ipa": "/wɔʧ/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "短语义是完形高频",
    "groups": [
     {
      "sense": "观看；看守；手表",
@@ -28387,10 +28378,10 @@
       {
        "text": "watch out",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Watch the video and take notes.",
+       "example_zh": "观看视频并做笔记。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "keep watch",
@@ -28408,10 +28399,10 @@
   },
   {
    "headword": "wear",
-   "ipa": "",
+   "ipa": "/wɛr/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "与 tear 构成对比组",
    "groups": [
     {
      "sense": "穿、戴；磨损；呈现",
@@ -28421,10 +28412,10 @@
       {
        "text": "wear out",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "He wore a thick coat because it was cold.",
+       "example_zh": "因为天冷，他穿着厚外套。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "wear a smile",
@@ -28442,10 +28433,10 @@
   },
   {
    "headword": "welcome",
-   "ipa": "",
+   "ipa": "/ˈwɛlkəm/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "应用文核心句式",
    "groups": [
     {
      "sense": "欢迎；受欢迎的",
@@ -28455,10 +28446,10 @@
       {
        "text": "be welcome to",
        "type": "系表搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The new students were warmly welcomed by the whole school.",
+       "example_zh": "新生受到全校的热情欢迎。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "a warm welcome",
@@ -28476,10 +28467,10 @@
   },
   {
    "headword": "welfare",
-   "ipa": "",
+   "ipa": "/ˈwelfeə(r)/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "社会类文章核心",
    "groups": [
     {
      "sense": "福利、福祉",
@@ -28489,10 +28480,10 @@
       {
        "text": "social welfare",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The school cares about the welfare of every student.",
+       "example_zh": "学校关心每一位学生的福祉。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "welfare state",
@@ -28510,10 +28501,10 @@
   },
   {
    "headword": "wisdom",
-   "ipa": "",
+   "ipa": "/ˈwɪzdəm/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "文化类文章出现",
    "groups": [
     {
      "sense": "智慧、才智",
@@ -28523,10 +28514,10 @@
       {
        "text": "a word of wisdom",
        "type": "名词词块",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Ancient wisdom can still teach us useful lessons.",
+       "example_zh": "古老的智慧仍能教给我们有益的道理。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "wisdom of crowds",
@@ -28544,10 +28535,10 @@
   },
   {
    "headword": "witness",
-   "ipa": "",
+   "ipa": "/ˈwɪtnəs/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "动词义在阅读高频",
    "groups": [
     {
      "sense": "目击者；见证；证明",
@@ -28557,10 +28548,10 @@
       {
        "text": "witness a change",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "She witnessed the accident on her way to school.",
+       "example_zh": "她在上学路上目睹了那起事故。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "bear witness to",
@@ -28578,10 +28569,10 @@
   },
   {
    "headword": "work",
-   "ipa": "",
+   "ipa": "/wərk/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "三义是完形高频",
    "groups": [
     {
      "sense": "工作；作品；奏效",
@@ -28591,10 +28582,10 @@
       {
        "text": "work out",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The new method works well for vocabulary review.",
+       "example_zh": "这种新方法对词汇复习很有效。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "at work",
@@ -28612,10 +28603,10 @@
   },
   {
    "headword": "workforce",
-   "ipa": "",
+   "ipa": "/ˈwərkˌfɔrs/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "经济类文章高频",
    "groups": [
     {
      "sense": "劳动力、全体员工",
@@ -28625,10 +28616,10 @@
       {
        "text": "the workforce",
        "type": "名词词块",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "Women make up half of the workforce in this factory.",
+       "example_zh": "女性占这家工厂劳动力的一半。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "workforce development",
@@ -28646,10 +28637,10 @@
   },
   {
    "headword": "yield",
-   "ipa": "",
+   "ipa": "/ji:ld/",
    "level": "T1",
    "core_tier": "required",
-   "note": "",
+   "note": "义项分叉是 E2 考点",
    "groups": [
     {
      "sense": "产生、产出；让步；产量",
@@ -28659,10 +28650,10 @@
       {
        "text": "yield results",
        "type": "动词搭配",
-       "example": "",
-       "example_zh": "",
-       "source": "",
-       "example_method": "无例句"
+       "example": "The field yielded a good harvest last autumn.",
+       "example_zh": "这块田去年秋天收成很好。",
+       "source": "仿真例句 · 高考高频句式（词条语境）",
+       "example_method": "词条语境句"
       },
       {
        "text": "yield to pressure",

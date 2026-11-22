@@ -173,6 +173,8 @@ var Store = (function () {
     for (k in b) if (!(k in state)) state[k] = b[k];
     entitlements = (remoteEnt && typeof remoteEnt === 'object') ? remoteEnt : { all: false, books: {} };
     if (!entitlements.books) entitlements.books = {};
+    if (!state.quiz) state.quiz = b.quiz;
+    if (!state.quiz.wrongLog) state.quiz.wrongLog = [];
     try {
       localStorage.setItem(CACHE_KEY, JSON.stringify(state));
       localStorage.setItem(ENT_CACHE_KEY, JSON.stringify(entitlements));
@@ -187,14 +189,16 @@ var Store = (function () {
       families: {},    // headword → FSRS 卡片（词形网维度，一词一网一卡）
       log: [],         // 复习日志 {sid, rating, at, iv}
       familyLog: [],   // 词形网复习/回流日志 {hw, rating, cause, at, iv}
-      quiz: { answered: 0, right: 0, wrong: 0, byModule: {}, byType: {} },
+      quiz: { answered: 0, right: 0, wrong: 0, byModule: {}, byType: {}, wrongLog: [] },
       days: [],        // 有活动的日期戳 (YYYY-MM-DD)
       seconds: 0,      // 累计学习秒数
       startedAt: null,
       quickPractice: {},  // 非 LEX 覆盖词：word → {count, mastery, lastAt}
       learnedAt: {},      // word → 首次学会时间戳（红转绿的时刻）
       orders: [],         // 购买/兑换订单记录，随 learning_state 一起云同步，永久可下载凭证
-      dailyWrong: {}      // 每日今日任务答错的词：{ 'YYYY-MM-DD': [word,...] }，用于跨天追踪
+      dailyWrong: {},     // 每日今日任务答错的词：{ 'YYYY-MM-DD': [word,...] }，用于跨天追踪
+      dailySessions: {},  // 今日任务多轮会话：{ 'YYYY-MM-DD': { rounds:[...], answers, right, wrong } }
+      planChecks: {}      // 30 天计划打卡：{ '1': 完成时间戳, ... }，随 learning_state 云同步
     };
   }
 
@@ -207,6 +211,8 @@ var Store = (function () {
     // 兼容字段缺失
     var b = blank();
     for (var k in b) if (!(k in state)) state[k] = b[k];
+    if (!state.quiz) state.quiz = b.quiz;
+    if (!state.quiz.wrongLog) state.quiz.wrongLog = [];
     return state;
   }
 
@@ -281,6 +287,77 @@ var Store = (function () {
     var st = load();
     if (!st.dailyWrong || !key) return [];
     return (st.dailyWrong[key] || []).slice();
+  }
+
+  /* ── 今日任务多轮会话 ──
+   * 一轮 = 一次入队词集 + 这一轮的真实作答次数（错词重练也算一次）。
+   * 按日期存进 learning_state，随云同步；分母不再只在内存里。 */
+  function dailySession(key) {
+    var st = load(), k = key || today();
+    if (!st.dailySessions) st.dailySessions = {};
+    if (!st.dailySessions[k]) {
+      st.dailySessions[k] = { rounds: [], answers: 0, right: 0, wrong: 0 };
+    }
+    return st.dailySessions[k];
+  }
+  function startDailyRound(words, key) {
+    var s = dailySession(key);
+    s.rounds.push({
+      no: s.rounds.length + 1,
+      words: (words || []).slice(),
+      answered: 0, right: 0, wrong: 0, wrongWords: []
+    });
+    save();
+    return s.rounds[s.rounds.length - 1];
+  }
+  function noteDailyRoundAnswer(word, ok, key) {
+    var s = dailySession(key);
+    var r = s.rounds[s.rounds.length - 1];
+    if (!r) r = startDailyRound([], key);
+    s.answers++;
+    s[ok ? 'right' : 'wrong']++;
+    r.answered++;
+    r[ok ? 'right' : 'wrong']++;
+    if (!ok && word && r.wrongWords.indexOf(word) < 0) r.wrongWords.push(word);
+    save();
+    return s;
+  }
+  function dailySessionStats(key) {
+    var s = dailySession(key);
+    var r = s.rounds[s.rounds.length - 1] || {
+      no: 0, words: [], answered: 0, right: 0, wrong: 0, wrongWords: []
+    };
+    return {
+      dateKey: key || today(), rounds: s.rounds.length,
+      answers: s.answers, right: s.right, wrong: s.wrong,
+      accuracy: s.answers ? Math.round(100 * s.right / s.answers) : 0,
+      roundNo: r.no, roundWords: (r.words || []).slice(),
+      roundAnswered: r.answered, roundRight: r.right, roundWrong: r.wrong,
+      roundWrongWords: (r.wrongWords || []).slice()
+    };
+  }
+
+  /* ── 30 天计划表打卡 ──
+   * 打卡写入 learning_state，跟今日任务分母、订单一样随云同步；换设备不丢。
+   * 再次点击同一天撤销，方便误勾后修正。 */
+  function planCheckMap() {
+    var st = load();
+    if (!st.planChecks) st.planChecks = {};
+    return st.planChecks;
+  }
+  function togglePlanCheck(day) {
+    var n = Number(day);
+    if (!(n >= 1 && n <= 30)) return false;
+    var m = planCheckMap(), k = String(n);
+    if (m[k]) delete m[k]; else m[k] = Date.now();
+    save();
+    return !!m[k];
+  }
+  function planCheckDone(day) { return !!planCheckMap()[String(day)]; }
+  function planCheckCount() {
+    var m = planCheckMap(), n = 0;
+    for (var k in m) if (m[k]) n++;
+    return n;
   }
 
   function touchToday() {
@@ -603,6 +680,84 @@ var Store = (function () {
     return { solid: solid, learning: learning, fresh: fresh, total: total };
   }
 
+  /* ── 复盘：逐条错词流水聚合 ──
+   * 默认近 30 天，days=0 表示全部；Top 按错次降序、最近错的时间降序。
+   * 前端失分地图的错词榜、错因分布、复习队列都取自这里，不再用静态样例。 */
+  function wrongWordStats(days) {
+    var st = load(), log = (st.quiz && st.quiz.wrongLog) || [];
+    var windowMs = days ? Number(days) * DAY : 0, now = Date.now();
+    var map = {}, byErr = {}, i, e;
+    for (i = 0; i < log.length; i++) {
+      e = log[i] || {};
+      if (windowMs && (!e.at || now - e.at > windowMs)) continue;
+      var ek = e.errCode || e.module || '未标注';
+      byErr[ek] = (byErr[ek] || 0) + 1;
+      var hw = e.hw || '(未标注)';
+      if (!map[hw]) map[hw] = { w: hw, n: 0, at: 0, errCode: e.errCode || '', module: e.module || '' };
+      var r = map[hw];
+      r.n++;
+      if (e.at > r.at) r.at = e.at;
+      if (!r.errCode && e.errCode) r.errCode = e.errCode;
+      if (!r.module && e.module) r.module = e.module;
+    }
+    var top = Object.keys(map).map(function (k) { return map[k]; })
+      .sort(function (a, b) { return b.n - a.n || b.at - a.at; });
+    return {
+      total: top.reduce(function (a, r) { return a + r.n; }, 0),
+      distinct: top.length, top: top, byErr: byErr
+    };
+  }
+
+  /* ── 云端算法统计：FSRS 预测 ──
+   * 到期/明日到期来自真实 due；可提取性 R 由幂律遗忘曲线现算。
+   * 这是登录后才能看到的「云端算法」权益，数字全部可从卡片状态复核。 */
+  function reviewForecast() {
+    var st = load(), now = Date.now(), day = FSRS.DAY;
+    var dueToday = 0, dueTomorrow = 0, atRisk = 0, solid = 0, cards = 0, sumR = 0, lapses = 0;
+    var wordMap = sidWordMap(), seen = {}, weakWords = [];
+    Object.keys(st.cards || {}).forEach(function (sid) {
+      var c = st.cards[sid];
+      if (!c || c.state === FSRS.STATE.NEW || !c.last) return;
+      cards++;
+      var r = FSRS.currentR(c, now), daysLeft = (c.due - now) / day;
+      sumR += r;
+      lapses += c.lapses || 0;
+      if (daysLeft <= 0) dueToday++;
+      else if (daysLeft <= 1) dueTomorrow++;
+      if (r >= 0.9) solid++;
+      if (r < 0.75) {
+        atRisk++;
+        var w = wordMap[sid];
+        if (w && !seen[w]) {
+          seen[w] = 1;
+          weakWords.push({
+            w: w, r: Math.round(r * 100),
+            due: daysLeft <= 0 ? '待复习' : FSRS.intervalText(Math.ceil(daysLeft))
+          });
+        }
+      }
+    });
+    weakWords.sort(function (a, b) { return a.r - b.r; });
+    var famTotal = 0, famSolid = 0;
+    Object.keys(st.families || {}).forEach(function (hw) {
+      var c = st.families[hw];
+      if (!c || c.state === FSRS.STATE.NEW || !c.last) return;
+      famTotal++;
+      if (FSRS.currentR(c, now) >= 0.9) famSolid++;
+    });
+    return {
+      cards: cards,
+      dueToday: dueToday, dueTomorrow: dueTomorrow,
+      atRisk: atRisk, solid: solid,
+      solidPct: cards ? Math.round(100 * solid / cards) : 0,
+      avgR: cards ? Math.round(100 * sumR / cards) : 0,
+      lapses: lapses,
+      weakWords: weakWords.slice(0, 8),
+      familyTotal: famTotal, familySolid: famSolid,
+      familySolidPct: famTotal ? Math.round(100 * famSolid / famTotal) : 0
+    };
+  }
+
   function quizAnswer(correct, module, type, headword, errCode) {
     var st = load();
     st.quiz.answered++;
@@ -610,6 +765,16 @@ var Store = (function () {
     if (module) st.quiz.byModule[module] = (st.quiz.byModule[module] || 0) + (correct ? 0 : 1);
     // 题型分布：题库标注了「题型」才统计，没有标记就留空，不臆造
     if (type && !correct) st.quiz.byType[type] = (st.quiz.byType[type] || 0) + 1;
+    /* 逐条错词流水：复盘页的 Top 错词 / 错因归因 / 复习队列都从这里来。
+     * 只留最近 300 条，避免云端快照无限膨胀；统计按 30 天窗口过滤。 */
+    if (!correct) {
+      if (!st.quiz.wrongLog) st.quiz.wrongLog = [];
+      st.quiz.wrongLog.push({
+        hw: headword || '', module: module || '', errCode: errCode || '',
+        type: type || '', at: Date.now()
+      });
+      if (st.quiz.wrongLog.length > 300) st.quiz.wrongLog = st.quiz.wrongLog.slice(-300);
+    }
     // 错因回流：答错且属于词形维度 → 重排对应词形网
     var reflowed = (!correct ? reflowOnError(headword, errCode) : null);
     touchToday();
@@ -645,10 +810,17 @@ var Store = (function () {
     return h >>> 0;
   }
 
-  function dailyPlan(mode, dateKey) {
+  function dailyPlan(mode, dateKey, opts) {
     mode = mode || 'theme';
     dateKey = dateKey || today();
+    opts = opts || {};
     var st = load();
+    var focusSet = {}, excludeSet = {};
+    (opts.focus || []).forEach(function (w) { if (w) focusSet[w] = 1; });
+    (opts.exclude || []).forEach(function (w) { if (w) excludeSet[w] = 1; });
+    var limit = opts.limit || DAILY_TOTAL;
+    var quota = opts.quota || DAILY_QUOTA;
+    var seedExtra = opts.seedExtra ? String(opts.seedExtra) : '';
 
     /* 全量词源：CTX_COVERAGE.all 去重 */
     var all = [];
@@ -672,6 +844,8 @@ var Store = (function () {
     var buckets = { new: [], review: [], consolidate: [] };
     for (var j = 0; j < all.length; j++) {
       var m = all[j];
+      /* 多轮换批：上一轮已答对的词默认不再抽；错题回炉的词即使排除也保留 */
+      if (excludeSet[m.w] && !focusSet[m.w]) continue;
       var p = wordProgress(m.w);
       var sm = studyMeta(m.w);
       var fast = !isLexWord(m.w);
@@ -680,7 +854,7 @@ var Store = (function () {
         due: sm.due, r: sm.r, lapses: sm.lapses,
         theme: m.theme || '', tier: m.tier || 'recommended', deep: !!m.deep,
         learned: p.learned, mastery: p.mastery, practiced: p.practiced, stage: '',
-        prevWrong: !!prevSet[m.w]
+        prevWrong: !!prevSet[m.w], focusWrong: !!focusSet[m.w]
       };
       if (!p.learned) {
         buckets.new.push(it);
@@ -701,7 +875,7 @@ var Store = (function () {
     /* 昨日错词强制归入复习段（可能原本在巩固/新学段），确保跨天回带兑现 */
     ['new', 'consolidate'].forEach(function (k) {
       buckets[k] = buckets[k].filter(function (it) {
-        if (it.prevWrong) { buckets.review.push(it); return false; }
+        if (it.prevWrong || it.focusWrong) { buckets.review.push(it); return false; }
         return true;
       });
     });
@@ -715,7 +889,7 @@ var Store = (function () {
         return a.w < b.w ? -1 : (a.w > b.w ? 1 : 0);
       }
       /* random：日期 + 单词做稳定哈希，同一天刷新结果不变，隔天自动换一批 */
-      var ka = hashSeed(dateKey + '|' + a.w), kb = hashSeed(dateKey + '|' + b.w);
+      var ka = hashSeed(dateKey + seedExtra + '|' + a.w), kb = hashSeed(dateKey + seedExtra + '|' + b.w);
       return ka - kb || (a.w < b.w ? -1 : 1);
     }
     ['new', 'review', 'consolidate'].forEach(function (k) {
@@ -725,7 +899,8 @@ var Store = (function () {
           if (ta !== tb) return ta - tb;                 // 必考层优先装入
           if (a.deep !== b.deep) return a.deep ? -1 : 1; // 精修词优先
         } else if (k === 'review') {
-          if (!!a.prevWrong !== !!b.prevWrong) return a.prevWrong ? -1 : 1; // 昨日错词最优先
+          if (!!a.focusWrong !== !!b.focusWrong) return a.focusWrong ? -1 : 1; // 上轮错词最优先回炉
+          if (!!a.prevWrong !== !!b.prevWrong) return a.prevWrong ? -1 : 1;    // 昨日错词次优先
           var da = isFinite(a.due) ? a.due : 9999, db = isFinite(b.due) ? b.due : 9999;
           if (da !== db) return da - db;                 // 越早到期越先复习
         } else {
@@ -739,21 +914,44 @@ var Store = (function () {
     var picked = { new: [], review: [], consolidate: [] };
     var stageOrder = ['new', 'review', 'consolidate'];
     stageOrder.forEach(function (k) {
-      picked[k] = buckets[k].slice(0, DAILY_QUOTA[k]);
+      picked[k] = buckets[k].slice(0, quota[k]);
     });
     var count = picked.new.length + picked.review.length + picked.consolidate.length;
-    if (count < DAILY_TOTAL) {
+    if (count < limit) {
       var donors = stageOrder.map(function (k) {
         return { k: k, rest: buckets[k].slice(picked[k].length) };
       }).sort(function (a, b) { return b.rest.length - a.rest.length; });
-      var need = DAILY_TOTAL - count, di = 0;
+      var need = limit - count, di = 0;
       while (need > 0 && di < donors.length) {
         var d = donors[di];
         if (d.rest.length) { picked[d.k].push(d.rest.shift()); need--; }
         else di++;
       }
     }
+    /* 主题模式：同主题打散成「主主题 + 相邻主题」轮转，避免一整段都是同一语境；
+     * 错词回炉轮保持原优先级，确保错误词连续拿下。 */
+    function mixThemes(list) {
+      if (mode !== 'theme' || (opts.focus && opts.focus.length) || list.length < 6) return list;
+      var groups = {}, order = [];
+      for (var i = 0; i < list.length; i++) {
+        var k = list[i].theme || '';
+        if (!groups[k]) { groups[k] = []; order.push(k); }
+        groups[k].push(list[i]);
+      }
+      var out = [], idx = 0;
+      while (out.length < list.length) {
+        var added = false;
+        for (var g = 0; g < order.length; g++) {
+          var arr = groups[order[g]];
+          if (idx < arr.length) { out.push(arr[idx]); added = true; }
+        }
+        if (!added) break;
+        idx++;
+      }
+      return out;
+    }
     stageOrder.forEach(function (k) {
+      picked[k] = mixThemes(picked[k]);
       picked[k].forEach(function (it) { it.stage = k; });
     });
 
@@ -780,7 +978,9 @@ var Store = (function () {
       themeFocus: themeFocus, generatedAt: Date.now(),
       prevWrongWords: prevList,
       prevWrongCount: prevList.length,
-      prevWrongInPlan: items.filter(function (x) { return x.prevWrong; }).length
+      prevWrongInPlan: items.filter(function (x) { return x.prevWrong; }).length,
+      focusWords: (opts.focus || []).slice(),
+      focusInPlan: items.filter(function (x) { return x.focusWrong; }).length
     };
   }
 
@@ -866,6 +1066,11 @@ var Store = (function () {
     learnedCount: learnedCount, newWordsToday: newWordsToday,
     dailyPlan: dailyPlan, DAILY_TOTAL: DAILY_TOTAL,
     noteDailyWrong: noteDailyWrong, dailyWrongOn: dailyWrongOn, dateKeyOffset: dateKeyOffset, today: today,
+    startDailyRound: startDailyRound, noteDailyRoundAnswer: noteDailyRoundAnswer,
+    dailySession: dailySession, dailySessionStats: dailySessionStats,
+    wrongWordStats: wrongWordStats, reviewForecast: reviewForecast,
+    planCheckMap: planCheckMap, togglePlanCheck: togglePlanCheck,
+    planCheckDone: planCheckDone, planCheckCount: planCheckCount,
     levelInfo: levelInfo, milestoneList: milestoneList,
     crossedMilestone: crossedMilestone, crossedLevel: crossedLevel,
     newWordsLast7Days: newWordsLast7Days, masteryDistribution: masteryDistribution

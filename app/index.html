@@ -133,8 +133,11 @@
                   今日必练 · 3 分钟
                 </div>
                 <h4>熟词僻义专项</h4>
-                <p id="homeQuizLine">12 道高频陷阱题 · 做完 3 题看你的真实正确率</p>
-                <span class="go">开始练习 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
+                <p id="homeQuizLine">100 个高频陷阱词 · 100 道仿真题 · 做完 3 题看真实正确率</p>
+                <div class="hero-actions">
+                  <span class="go">开始练习 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
+                  <button class="hero-alt" onclick="event.stopPropagation();openTrapWords()">看 100 个陷阱词表</button>
+                </div>
               </div>
 
             </div>
@@ -244,7 +247,7 @@
             <div class="backbar">
               <button class="icon-btn" onclick="go('s-quiz')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button>
               <h3>核心变体词 · 熟练度</h3>
-              <span class="more" style="margin-left:auto;font-size:11px;color:var(--ink-3)">443 词</span>
+              <span id="trapCountLabel" class="more" style="margin-left:auto;font-size:11px;color:var(--ink-3)">100 词</span>
             </div>
             <div id="trapWordsBody"></div>
           </section>
@@ -276,6 +279,8 @@
                 <p id="errAdvice">正在统计你的错因分布…</p>
               </div>
 
+              <div id="errCloud"></div>
+
               <div class="chart-card">
                 <h4>错因分布</h4>
                 <div class="sub" id="errDistSub">按失分原因归类，而非词表顺序</div>
@@ -296,7 +301,7 @@
               <div class="sec-head"><h3>高频错词 · Top 5</h3><span class="more" id="errTotal">全部 0 个</span></div>
               <div class="errlist" id="errList"></div>
 
-              <button class="btn btn-dark" style="margin-top:14px" onclick="go('s-quiz')">一键攻克 Top10 错词</button>
+              <button class="btn btn-dark" style="margin-top:14px" onclick="reviewTopWrong()">按真实错词顺序复习 Top10</button>
 
               </div>
 
@@ -326,6 +331,8 @@
                 <div class="kpi"><div class="l">坚持打卡</div><b id="kpiCheckin">0/7</b><div class="d" id="rpCheckSub">今天开始第一次打卡</div></div>
               </div>
 
+              <div id="rpCloud"></div>
+
               <div class="chart-card">
                 <h4>每日新学量</h4>
                 <div class="sub">本周首次学会的词数（周一至周日）· 真实记录</div>
@@ -341,18 +348,12 @@
 
               <div class="chart-card rp-full">
                 <h4>本周薄弱项 · 完整版</h4>
-                <div class="sub">建议按此顺序补弱</div>
-                <div class="bench top"><span class="bench-label">熟词僻义</span><div class="bench-track"><div class="bench-fill" style="width:38%"></div></div><span class="bench-val">38%</span></div>
-                <div class="bench"><span class="bench-label">一词多义</span><div class="bench-track"><div class="bench-fill" style="width:24%;opacity:.72"></div></div><span class="bench-val">24%</span></div>
-                <div class="bench"><span class="bench-label">固定搭配</span><div class="bench-track"><div class="bench-fill" style="width:19%;opacity:.52"></div></div><span class="bench-val">19%</span></div>
+                <div class="sub">按近 7 天真实错题归因排序，不是预设百分比</div>
+                <div id="rpWeakList"></div>
               </div>
 
               <div class="sec-head rp-full"><h3>下周行动计划 · 完整版</h3></div>
-              <div class="ptips rp-full">
-                <div class="ptip"><span class="n">1</span><span>本周有 <b>1 天未打卡</b>（周六），建议把每日目标从 20 词调到 15 词，先保住连续性再提量。</span></div>
-                <div class="ptip"><span class="n">2</span><span>错题集中在<b>熟词僻义</b>，是「认识但不懂句中含义」。专项训练每天 5 题，两周可见明显变化。</span></div>
-                <div class="ptip"><span class="n">3</span><span>正确率提升 8%，处于健康区间。<b>不必加量</b>，当前节奏比强度更重要。</span></div>
-              </div>
+              <div class="ptips rp-full" id="rpActionList"></div>
 
               </div>
             </div>

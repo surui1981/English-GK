@@ -32,6 +32,8 @@ ENTRIES = P('data', 'batch1', 'entries.json')
 CORE = P('data', 'core_freq_curated.json')
 PARA = P('data', 'product', 'ai_paraphrase.json')
 EXAMPLES = P('data', 'product', 'colloc_examples.json')
+CONTEXT = P('data', 'product', 'context_book.json')
+EXTRA_EX = P('data', 'product', 'context_examples_extra.txt')
 OUT = P('data', 'product', 'colloc_book.json')
 
 BOOK_NAME = '高考英语高频搭配速记手册'
@@ -45,6 +47,19 @@ ARTS = set('a an the'.split())
 def load(p):
     with open(p, encoding='utf-8') as f:
         return json.load(f)
+
+
+def load_extra_examples():
+    out = {}
+    with open(EXTRA_EX, encoding='utf-8') as f:
+        for line in f:
+            line = line.rstrip('\r\n')
+            if not line:
+                continue
+            parts = line.split(' || ')
+            if len(parts) == 3:
+                out[parts[0]] = {'en': parts[1], 'zh': parts[2]}
+    return out
 
 
 def colloc_type(c):
@@ -103,6 +118,8 @@ def main():
     core = load(CORE)['words']
     para = load(PARA)
     examples = load(EXAMPLES)
+    ctx = {w['headword']: w for w in load(CONTEXT)['words']}
+    extra = load_extra_examples()
     para_map = {w['w']: w for w in para['words']}
     deep = {e['headword'] for e in entries}
 
@@ -133,8 +150,10 @@ def main():
         if not groups:
             continue
         words.append(OrderedDict([
-            ('headword', hw), ('ipa', e.get('ipa', '')), ('level', e.get('level', '')),
-            ('core_tier', c.get('tier', '')), ('note', e.get('notes', '')),
+            ('headword', hw), ('ipa', e.get('ipa', '') or ctx.get(hw, {}).get('ipa', '')),
+            ('level', e.get('level', '')),
+            ('core_tier', c.get('tier', '')),
+            ('note', e.get('notes', '') or ctx.get(hw, {}).get('note', '')),
             ('groups', groups),
             ('colloc_count', sum(len(g['collocations']) for g in groups)),
             ('layer', 'L1-精修词条'),
@@ -166,12 +185,26 @@ def main():
         if not groups:
             continue
         words.append(OrderedDict([
-            ('headword', hw), ('ipa', ''), ('level', 'T1'),
-            ('core_tier', 'required'), ('note', ''),
+            ('headword', hw), ('ipa', ctx.get(hw, {}).get('ipa', '')), ('level', 'T1'),
+            ('core_tier', 'required'), ('note', ctx.get(hw, {}).get('note', '')),
             ('groups', groups),
             ('colloc_count', sum(len(g['collocations']) for g in groups)),
             ('layer', 'L2-自研释义词条'),
         ]))
+
+    # 无例句词条：用《仿真语境版》新增的 224 条自研仿真句补一条「词条语境句」，
+    # 明确区分于「手工精修」的逐搭配独立例句，不冒充针对性例句。
+    for w in words:
+        hw = w['headword']
+        if not extra.get(hw) or any(c.get('example') for g in w['groups'] for c in g['collocations']):
+            continue
+        first = w['groups'][0]['collocations'][0]
+        first['example'] = extra[hw]['en']
+        first['example_zh'] = extra[hw]['zh']
+        first['source'] = '仿真例句 · 高考高频句式（词条语境）'
+        first['example_method'] = '词条语境句'
+        method_count['无例句'] -= 1
+        method_count['词条语境句'] += 1
 
     # T1 优先排序
     tier_rank = {'T1': 0, 'T2': 1, 'T3': 2}
@@ -193,12 +226,10 @@ def main():
             ('copyright', '核心搭配例句为逐条自研仿真写作并标注来源；其余沿用义项语境句并如实标注，不收录真题原文/选项/解析。'),
             ('pricing', OrderedDict([
                 ('tiers', [
-                    OrderedDict([('name', '10% 试读'), ('words', 60), ('price', 1.9)]),
-                    OrderedDict([('name', '50% 进阶'), ('words', 300), ('price', 3.9)]),
-                    OrderedDict([('name', '完整版'), ('words', n_words), ('price', 4.9)]),
+                    OrderedDict([('name', '完整版'), ('words', n_words), ('price', 2.9)]),
                 ]),
                 ('currency', 'CNY'),
-                ('unit', '按词分档'),
+                ('unit', '单本买断'),
             ])),
             ('coverage', OrderedDict([
                 ('planned_words', n_words),
@@ -206,7 +237,7 @@ def main():
                 ('current_groups', n_groups),
                 ('current_collocations', total_col),
                 ('examples_by_method', dict(method_count)),
-                ('note', '核心搭配配独立仿真例句（手工精修）；其余为义项语境句或无例句，均已逐条标注。'),
+                ('note', '手工精修为逐搭配独立例句；义项语境句与词条语境句均如实标注来源，剩余无例句条目不做虚假精修。'),
             ])),
             ('type_distribution', OrderedDict(sorted(ctype_count.items(), key=lambda x: -x[1]))),
         ])),

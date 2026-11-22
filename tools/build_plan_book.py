@@ -89,14 +89,13 @@ def main():
         ('meta', OrderedDict([
             ('name', BOOK_NAME),
             ('subtitle', '四轮递进 · 每日梯度 · 可打印打卡'),
-            ('status', '样本卷'),
+            ('status', '正式版'),
             ('description', '30 天四阶段递进计划：前两周集中学完 100 词，后两周转入语境强化与提取复习；每日任务与复盘节点明确，附可打印打卡表。'),
             ('method', '教研体系四轮学习法：逐词学习 → 重点突破 → 意识增进 → 温故知新。'),
             ('copyright', '计划表为自研编排，词序来自自建精修词库，不含教材原文与单元词表。'),
             ('pricing', OrderedDict([
                 ('tiers', [
-                    OrderedDict([('name', '7 天体验'), ('days', 7), ('price', 1.9)]),
-                    OrderedDict([('name', '30 天全套'), ('days', 30), ('price', 3.9)]),
+                    OrderedDict([('name', '30 天完整版'), ('days', 30), ('price', 2.9)]),
                 ]),
                 ('currency', 'CNY'),
             ])),

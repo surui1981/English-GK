@@ -437,6 +437,9 @@ try { vm.runInContext(script, ctxG, {filename:'index.html'}); }
 catch(e){ ok(false, '熟练度上下文加载异常: ' + e.message); }
 const evG = e => vm.runInContext(e, ctxG);
 
+ok(evG('trapWordStats().total') === 100, '免费态熟练度统计为 100 精修陷阱词（实际 ' + evG('trapWordStats().total') + '）');
+evG('Store.grantAll();'); // 本节验证全量词表的自评反馈，按新权益模型先解锁 443 词
+
 let st0 = evG('trapWordStats()');
 ok(st0.total === 443, '熟练度统计覆盖 443 核心词（实际 ' + st0.total + '）');
 ok(st0.learned === 0 && st0.red === 443, '初始全红：已学0 / 未学443');
