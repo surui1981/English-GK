@@ -63,6 +63,9 @@
                 </div>
               </div>
 
+              <!-- 遗忘预警卡：由真实 FSRS 到期/断更状态派生，无到期词时不显示 -->
+              <div id="forgetAlert"></div>
+
               <!-- 今日任务：首屏解决「今天该学什么」 -->
               <div class="card today-card" style="display:block">
                 <div class="today-top">
@@ -388,10 +391,10 @@
               <div class="mcard">
                 <span class="k">全包 · 一次买断</span>
                 <h4>拾词全包</h4>
-                <p style="font-size:12px;color:var(--ink-3)">四本读本全含 + 完整学习周报 + 全部专项训练与义项树</p>
+                <p style="font-size:12px;color:var(--ink-3)">四本资料下载 + 云端账号服务 + 全部分析能力激活；一次买断，永久可用</p>
                 <div id="fullpackStats" style="font-size:11.5px;color:var(--ink-3);line-height:1.6;margin:8px 0 2px"></div>
                 <div class="price" id="shopPrice">
-                  <b>¥9.9</b><em>含四本书 + 完整周报</em>
+                  <b>¥9.9</b><em>资料包 + 云端账号 + 全部分析</em>
                 </div>
                 <div class="mlist">
                   <div><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>完整 100 题专项训练册 PDF</div>
@@ -403,7 +406,16 @@
                 <button class="btn btn-primary" id="shopAllBtn" onclick="openFullPack()">查看详情试读词库</button>
               </div>
 
-              <div class="sec-head"><h3>单品读本</h3><span class="more">电子 PDF · 每本 ¥2.9</span></div>
+              <div class="sec-head"><h3>资料下载包</h3><span class="more">四本打包 ¥2.9</span></div>
+              <div class="mcard" style="margin-bottom:12px">
+                <span class="k">资料下载 · 一次买断</span>
+                <h4>四本资料包</h4>
+                <p style="font-size:12px;color:var(--ink-3)">仿真语境版 + 高频搭配手册 + 熟词僻义100题 + 30天计划表，一次下载、永久可读。仅含资料本身，不含云端账号服务与数据分析。</p>
+                <div class="price"><b>¥2.9</b><em>四本全含 · 无年卡月卡</em></div>
+                <button class="btn btn-primary" id="materialsBtn" onclick="openPay('materials')">购买资料包 ¥2.9</button>
+              </div>
+
+              <div class="sec-head"><h3>四本资料目录</h3><span class="more">已包含在资料包内</span></div>
               <div id="goodsList"></div>
 
               <div class="card" style="padding:14px;margin-top:6px;display:flex;gap:11px;align-items:center">
@@ -481,6 +493,11 @@
 
               <div class="sec-head"><h3>我的</h3></div>
               <div class="card" style="overflow:hidden">
+                <button class="mrow" onclick="openNotices()">
+                  <span class="ic"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg></span>
+                  <span class="t">消息提醒</span>
+                  <span class="r"><span id="noticeDot" class="notice-dot" style="display:none"></span><span id="noticeCount">0 条新提醒</span> <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
+                </button>
                 <button class="mrow" onclick="go('s-err')">
                   <span class="ic"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg></span>
                   <span class="t">错题本</span>
@@ -558,6 +575,7 @@
 <script src="js/config.js"></script>
 <script src="js/cloud.js"></script>
 <script src="js/fsrs.js"></script>
+<script src="js/notices.js"></script>
 <script src="js/lex.js"></script>
 <script src="js/data.js"></script>
 <script src="js/app.js"></script>

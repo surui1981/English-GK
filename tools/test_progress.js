@@ -375,11 +375,12 @@ const evF = e => vm.runInContext(e, ctxF);
 
 if (typeof evF('CTX_TRAP') !== 'undefined' && evF('CTX_TRAP')) {
   const tw = evF('CTX_TRAP.words');
-  ok(tw.length === 443, 'CTX_TRAP 注入 443 个高考必考核心词（实际 ' + tw.length + '）');
+  ok(tw.length === 1007, 'CTX_TRAP 注入 1007 个核心词（实际 ' + tw.length + '）');
   ok(evF('CTX_TRAP.meta.coverage.featured_words') === 100 &&
+     evF('CTX_TRAP.meta.coverage.highfreq_words') === 564 &&
      evF('CTX_TRAP.meta.coverage.extended_words') === 343,
-     '分层口径：精修 100 + 扩展 343');
-  ok(evF('CTX_TRAP.meta.coverage.variants_total') >= 3000, '变体提示总量 ≥3000（实际 ' + evF('CTX_TRAP.meta.coverage.variants_total') + '）');
+     '分层口径：精修 100 + 高频688新词 564 + 必考扩展 343');
+  ok(evF('CTX_TRAP.meta.coverage.variants_total') >= 6000, '变体提示总量 ≥6000（实际 ' + evF('CTX_TRAP.meta.coverage.variants_total') + '）');
 
   const bad = tw.filter(w => {
     const q = w.question || {};
@@ -392,7 +393,7 @@ if (typeof evF('CTX_TRAP') !== 'undefined' && evF('CTX_TRAP')) {
     if (new Set((w.variants||[]).map(v=>v.form.toLowerCase())).size !== (w.variants||[]).length) return true;
     return false;
   });
-  ok(bad.length === 0, '443 词变体/题目结构完整且无重复变体（异常 ' + bad.length + ' 词）');
+  ok(bad.length === 0, '1007 词变体/题目结构完整且无重复变体（异常 ' + bad.length + ' 词）');
   ok(tw.every(w => (w.question||{}).source && (w.question||{}).source.indexOf('仿真') >= 0), '题目来源均标注仿真语境，不含真题');
 
   const qz = evF('QUIZ');
@@ -438,11 +439,11 @@ catch(e){ ok(false, '熟练度上下文加载异常: ' + e.message); }
 const evG = e => vm.runInContext(e, ctxG);
 
 ok(evG('trapWordStats().total') === 100, '免费态熟练度统计为 100 精修陷阱词（实际 ' + evG('trapWordStats().total') + '）');
-evG('Store.grantAll();'); // 本节验证全量词表的自评反馈，按新权益模型先解锁 443 词
+evG('Store.grantAll();'); // 本节验证全量词表的自评反馈，按新权益模型先解锁 1007 词
 
 let st0 = evG('trapWordStats()');
-ok(st0.total === 443, '熟练度统计覆盖 443 核心词（实际 ' + st0.total + '）');
-ok(st0.learned === 0 && st0.red === 443, '初始全红：已学0 / 未学443');
+ok(st0.total === 1007, '熟练度统计覆盖 1007 核心词（实际 ' + st0.total + '）');
+ok(st0.learned === 0 && st0.red === 1007, '初始全红：已学0 / 未学1007');
 try {
   evG('openTrapWords()');
   const h = getElG('trapWordsBody').innerHTML;
@@ -454,7 +455,7 @@ try {
 const l2word = evG('(function(){for(var i=0;i<trapCtx().words.length;i++){var x=trapCtx().words[i];if(!x.featured)return x.headword;}return null;})()');
 evG('trapRate("' + l2word + '",3)');
 let st1 = evG('trapWordStats()');
-ok(st1.learned === 1 && st1.red === 442, '扩展核心词自评后 红转绿（已学1 / 未学442）');
+ok(st1.learned === 1 && st1.red === 1006, '扩展核心词自评后 红转绿（已学1 / 未学1006）');
 const prog1 = evG('Store.wordProgress("' + l2word + '")');
 ok(prog1.learned && prog1.practiced === 1 && prog1.mastery === 50, '反馈含练习次数与熟练度：' + l2word + ' 1次/50%');
 ok(getElG('trapWordsBody').innerHTML.indexOf('1 次') >= 0, '词行即时显示练习次数');
@@ -465,7 +466,7 @@ evG('trapRate("' + l1word + '",3)');
 let st2 = evG('trapWordStats()');
 ok(st2.learned === 2, '精修核心词也能通过 FSRS 路径更新熟练度（已学2）');
 evG('twFilter="red";twShown=40;renderTrapWords()');
-ok(evG('trapWordList().length') === 441, '未学筛选随学习实时减少（实际 ' + evG('trapWordList().length') + '）');
+ok(evG('trapWordList().length') === 1005, '未学筛选随学习实时减少（实际 ' + evG('trapWordList().length') + '）');
 
 console.log('\n========== 结果：' + PASS + ' 通过 / ' + FAIL + ' 失败 ==========\n');
 process.exit(FAIL ? 1 : 0);

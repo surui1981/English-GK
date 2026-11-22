@@ -171,8 +171,9 @@ var Store = (function () {
     var b = blank(), k;
     state = (remoteState && typeof remoteState === 'object') ? remoteState : blank();
     for (k in b) if (!(k in state)) state[k] = b[k];
-    entitlements = (remoteEnt && typeof remoteEnt === 'object') ? remoteEnt : { all: false, books: {} };
+    entitlements = (remoteEnt && typeof remoteEnt === 'object') ? remoteEnt : { all: false, materials: false, books: {} };
     if (!entitlements.books) entitlements.books = {};
+    if (typeof entitlements.materials !== 'boolean') entitlements.materials = !!entitlements.all;
     if (!state.quiz) state.quiz = b.quiz;
     if (!state.quiz.wrongLog) state.quiz.wrongLog = [];
     try {
@@ -198,7 +199,12 @@ var Store = (function () {
       orders: [],         // 购买/兑换订单记录，随 learning_state 一起云同步，永久可下载凭证
       dailyWrong: {},     // 每日今日任务答错的词：{ 'YYYY-MM-DD': [word,...] }，用于跨天追踪
       dailySessions: {},  // 今日任务多轮会话：{ 'YYYY-MM-DD': { rounds:[...], answers, right, wrong } }
-      planChecks: {}      // 30 天计划打卡：{ '1': 完成时间戳, ... }，随 learning_state 云同步
+      planChecks: {},     // 30 天计划打卡：{ '1': 完成时间戳, ... }，随 learning_state 云同步
+      notices: {          // 站内触达：lastSeen 上次打开；dismissed 当天已忽略；read 已读事件
+        lastSeen: null,
+        dismissed: {},
+        read: {}
+      }
     };
   }
 
@@ -213,6 +219,9 @@ var Store = (function () {
     for (var k in b) if (!(k in state)) state[k] = b[k];
     if (!state.quiz) state.quiz = b.quiz;
     if (!state.quiz.wrongLog) state.quiz.wrongLog = [];
+    if (!state.notices) state.notices = b.notices;
+    if (!state.notices.dismissed) state.notices.dismissed = {};
+    if (!state.notices.read) state.notices.read = {};
     return state;
   }
 
@@ -224,13 +233,16 @@ var Store = (function () {
   /* ── 购买权益 ──
    * 一次购买全站解锁：付款成功后不再出现付费信息。
    * 权益与学习状态分开存储，重置学习不会掉权益。 */
+  /* 两档权益：¥2.9 materials = 四本资料打包下载（本地）；
+   * ¥9.9 all = 资料包 + 云端账号服务 + 全部分析。books 保留旧单本授权兼容。 */
   function loadEnt() {
     if (entitlements) return entitlements;
     try {
       var raw = localStorage.getItem(ENT_KEY);
-      entitlements = raw ? JSON.parse(raw) : { all: false, books: {} };
-    } catch (e) { entitlements = { all: false, books: {} }; }
+      entitlements = raw ? JSON.parse(raw) : { all: false, materials: false, books: {} };
+    } catch (e) { entitlements = { all: false, materials: false, books: {} }; }
     if (!entitlements.books) entitlements.books = {};
+    if (typeof entitlements.materials !== 'boolean') entitlements.materials = !!entitlements.all;
     return entitlements;
   }
   function saveEnt() {
@@ -238,11 +250,17 @@ var Store = (function () {
     if (syncHook) syncHook('entitlements');
   }
   function hasAll() { return !!loadEnt().all; }
-  function hasBook(key) { return hasAll() || !!loadEnt().books[key]; }
-  function grantAll() { loadEnt().all = true; saveEnt(); }
+  function hasMaterials() { return hasAll() || !!loadEnt().materials; }
+  function hasBook(key) { return hasMaterials() || !!loadEnt().books[key]; }
+  function grantMaterials() { loadEnt().materials = true; saveEnt(); }
+  function grantAll() {
+    loadEnt().all = true;
+    loadEnt().materials = true;
+    saveEnt();
+  }
   function grantBook(key) { loadEnt().books[key] = true; saveEnt(); }
   function resetEnt() {
-    entitlements = { all: false, books: {} };
+    entitlements = { all: false, materials: false, books: {} };
     saveEnt();
     return entitlements;
   }
@@ -1059,7 +1077,8 @@ var Store = (function () {
     reviewFamily: reviewFamily, reflowOnError: reflowOnError,
     familyMastery: familyMastery, familyDueText: familyDueText,
     quizAnswer: quizAnswer, addTime: addTime, stats: stats, streak: streak,
-    hasAll: hasAll, hasBook: hasBook, grantAll: grantAll, grantBook: grantBook,
+    hasAll: hasAll, hasBook: hasBook, hasMaterials: hasMaterials,
+    grantAll: grantAll, grantMaterials: grantMaterials, grantBook: grantBook,
     resetEnt: resetEnt,
     isLexWord: isLexWord, wordProgress: wordProgress, practiceQuick: practiceQuick,
     practiceVariant: practiceVariant, studyMeta: studyMeta,

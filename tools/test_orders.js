@@ -92,11 +92,11 @@ ok(/链接不过期/.test(text), '凭证写明链接不过期');
 ok(/不含真题与教材原文/.test(text), '凭证含合规说明');
 ok(/拾词订单凭证_.*\.txt/.test(dl.name), '下载文件名正确：' + dl.name);
 
-console.log('\n=== 3. 单本支付与兑换码各生成订单 ===');
-ev('buyItem=GOODS[0];payBook()');
+console.log('\n=== 3. 资料包扫码支付与兑换码各生成订单 ===');
+ev("payPlan='materials';gotoQR();confirmPay()");
 const orders2 = ev('loadOrders()');
-ok(orders2.length === 2, '单本支付后共 2 条订单');
-ok(Number(orders2[0].amount) === 2.9 && orders2[0].key === 'context', '单本订单金额 ¥2.9 且绑定读本');
+ok(orders2.length === 2, '资料包支付后共 2 条订单');
+ok(Number(orders2[0].amount) === 2.9 && orders2[0].key === 'materials', '资料包订单金额 ¥2.9 且绑定 materials');
 ev('recordRedeemOrder("SC-TEST-2026")');
 const orders3 = ev('loadOrders()');
 ok(orders3.length === 3, '兑换码激活后共 3 条订单');

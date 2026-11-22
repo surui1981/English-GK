@@ -518,6 +518,130 @@ def build_l2_word(idx, hw, para_map, colloc_map, context_map, cov_map,
     ])
 
 
+# ───────────────────────── L3：688 高频词轻量词卡（¥2.9 资料包权益） ─────────────────────────
+# 这批词来自用户提供的《核心高频688词汇》，自带考频/中文义，但多数无自研搭配与例句。
+# 轻量标准：用中文义拆义项 + 规则词形变化 + 形近词 + 常见义干扰，保证每词 ≥6 条变体 + 1 道义项辨析题。
+# 对外不呈现真题原文；例句字段留空或标为「义项辨析（无语境例句）」。
+
+def make_l3_variants(hw, senses, common, neighbors, pos, freq=0):
+    variants, seen = [], set()
+
+    def add(form, kind, label, note):
+        key = str(form).strip().lower()
+        if not form or key in seen:
+            return
+        seen.add(key)
+        variants.append(OrderedDict([
+            ('form', form), ('kind', kind), ('label', label), ('note', note),
+        ]))
+
+    # 1) 义项变体：把中文义拆出的其余义项作为同词不同语境义
+    for s in [x for x in senses if x != common][:3]:
+        add(s, 'sense', '义项变体', '同一个词在不同语境下的另一个高频义')
+    # 2) 词形变化：只用最稳妥的 -s/-es 复数或三单形式，不臆造 -ed/-ing
+    plurals = [f for f in word_forms(hw) if f != hw.lower() and f.endswith(('s', 'es'))]
+    if plurals:
+        add(sorted(plurals, key=len)[0], 'inflection', '词形变化', '高考阅读中常见的复数/三单形式')
+    # 3) 常见义干扰
+    if common:
+        add(common, 'common', '常见义干扰', '看到这个词先别急着套最常见义，先看搭配')
+    # 4) 形近易混
+    for nb in neighbors[:2]:
+        add(nb, 'confusable', '形近易混', '与 %s 拼写接近，考场先看清词尾和搭配' % hw)
+    # 5) 词性提示
+    if pos:
+        add(pos, 'pos', '词性提示', '先判词性再定义项，避免词性误判')
+    # 兜底：确保每词至少 6 条（考频高时用考频提示，避免与其他 tip 文案重复）
+    if len(variants) < 6 and freq:
+        add('考频 %d · 高考核心高频词' % freq, 'tip', '语境提示',
+            '复现考频高，优先掌握核心义项与常见搭配')
+    if len(variants) < 6:
+        add('结合语境判断义项', 'tip', '语境提示', '不要按中文直译硬套，先看这个词在句中的作用')
+    if len(variants) < 6:
+        add('按词性辨析义项', 'tip', '语境提示', '先定词性再定义项，避免常见义先入为主')
+    return variants
+
+
+def make_l3_question(idx, hw, senses, common, pos):
+    focus = senses[0] if senses else hw
+    distract = [s for s in senses if s != focus]
+    pool = dedupe(distract + [common, '其他义项', '常见义干扰'])
+    answer_index = idx % 4
+    options = [None] * 4
+    options[answer_index] = focus
+    di = 0
+    for p in range(4):
+        if p != answer_index:
+            options[p] = pool[di] if di < len(pool) else '其他义项'
+            di += 1
+    # 去重，避免干扰项与答案重复
+    seen = {focus}
+    for p in range(4):
+        if p == answer_index:
+            continue
+        if options[p] in seen:
+            for cand in pool + ['其他义项', '常见义干扰', '词义待辨析']:
+                if cand not in seen:
+                    options[p] = cand
+                    break
+        seen.add(options[p])
+    letter = 'ABCD'[answer_index]
+    explanation = (
+        '【考场动作】先看该词在句中的词性与搭配，不要直接套中文最常见义。\n'
+        '【为什么选 %s】%s 在此语境取「%s」。\n'
+        '【常见义干扰】%s 往往是最先被套入的日常义，需结合上下文排除。\n'
+        '【变体提醒】本词还可表示 %s；判语境再定义项。'
+    ) % (
+        letter, hw, focus, common or '日常常用义',
+        '、'.join(distract[:3]) or '其他搭配义',
+    )
+    return OrderedDict([
+        ('no', idx),
+        ('stem', 'In this list, the high-frequency word "%s" most probably means ___.' % hw),
+        ('stem_cn', '高频词「%s」在高考语境中最接近下列哪个义项？' % hw),
+        ('options', options), ('answer_index', answer_index),
+        ('answer_text', focus), ('explanation', explanation),
+        ('carrier', 'C1'),
+        ('difficulty', 'hard' if len(senses) >= 3 else ('mid' if len(senses) == 2 else 'easy')),
+        ('module', 'E1_熟词僻义'), ('headword', hw), ('errCode', 'E1'),
+        ('type', 'C1'),
+        ('source', '688 高频词中文义拆分 · 义项辨析（仿真语境，不含真题原文/选项/解析）'),
+        ('mode', 'collocation'), ('featured', False),
+    ])
+
+
+def build_l3_word(idx, rec, neighbors, pos):
+    hw = rec['headword']
+    senses = dedupe(rec.get('senses') or [])
+    if not senses:
+        senses = [rec['cn_raw'] or hw]
+    common = senses[-1] if len(senses) > 1 else (senses[0] if senses else '')
+    variants = make_l3_variants(hw, senses, common, neighbors, pos, rec.get('freq', 0))
+    if len(variants) < 6:
+        raise ValueError('%s L3 变体不足：%d' % (hw, len(variants)))
+    sense_id = 'hf688_' + re.sub(r'[^A-Za-z0-9]+', '_', hw).strip('_')
+    return OrderedDict([
+        ('no', idx), ('headword', hw),
+        ('ipa', rec.get('ipa') or ''),
+        ('level', '高频'), ('layer', 'L3-高频688'), ('featured', False),
+        ('access', 'materials'),
+        ('freq', rec.get('freq', 0)),
+        ('source_basis', '用户提供的 688 高频词表 · 中文义拆分义项（轻量词卡）'),
+        ('sense_id', sense_id), ('sense_text', senses[0] if senses else ''),
+        ('sense_level', 'S2' if len(senses) > 1 else 'S1'),
+        ('common_senses', [common] if common else []),
+        ('answer_form', senses[0] if senses else ''),
+        ('example', OrderedDict([
+            ('en', ''), ('zh', ''),
+            ('source', '义项辨析 · 无独立语境例句（不含真题）'),
+            ('carrier', 'C1'),
+        ])),
+        ('patterns', senses[:4]),
+        ('variants', variants),
+        ('question', make_l3_question(idx, hw, senses, common, pos)),
+    ])
+
+
 def main():
     entries = load(SRC)
     if len(entries) != 100:
@@ -559,28 +683,71 @@ def main():
             len(words) + 1, hw, para_map, colloc_map, context_map,
             cov_map, all_headwords, focus_map))
 
+    # ── L3：688 高频词中的新词（不与现有 443 重合），轻量词卡 ──
+    hf = jload('highfreq688.json')
+    existing = {w['headword'].lower() for w in words}
+    # 规范音标：只接受 /.../ 包裹的国际音标（语境版优先，覆盖索引次之）；
+    # 两者都没有时留空，绝不用 doc 转码后残缺的问号音标。
+    def valid_ipa(s):
+        return isinstance(s, str) and s.startswith('/') and s.endswith('/') and '?' not in s
+
+    ipa_map = {}
+    for w in context['words']:
+        if valid_ipa(w.get('ipa')):
+            ipa_map.setdefault(w['headword'].lower(), w['ipa'])
+    for w in coverage['words']:
+        if valid_ipa(w.get('ipa')):
+            ipa_map.setdefault(w['w'].lower(), w['ipa'])
+    # 形近词候选池：现有全词表 + 688 全词表
+    neighbor_pool = list(existing) + [r['headword'] for r in hf['words']]
+    l3_added = 0
+    for rec in hf['words']:
+        hw = rec['headword']
+        if hw in existing:
+            continue  # 已在 L1/L2，保留原精修词卡
+        r = OrderedDict(rec)
+        if ipa_map.get(hw):
+            r['ipa'] = ipa_map[hw]
+        neighbors = shape_neighbors(hw, neighbor_pool, 2)
+        pos = ''
+        cw = next((x for x in coverage['words'] if x['w'].lower() == hw), None)
+        if cw and cw.get('pos'):
+            p = cw['pos']
+            pos = ' / '.join(POS_ZH.get(str(x).lower(), str(x)) for x in p) if isinstance(p, list) else str(p)
+        words.append(build_l3_word(len(words) + 1, r, neighbors, pos))
+        existing.add(hw)
+        l3_added += 1
+
     variants_total = sum(len(w['variants']) for w in words)
     types = sorted({v['label'] for w in words for v in w['variants']})
     featured = sum(1 for w in words if w.get('featured'))
-    l2 = len(words) - featured
+    l3 = sum(1 for w in words if w.get('layer') == 'L3-高频688')
+    l2 = len(words) - featured - l3
+    materials_words = featured + l3  # ¥2.9 资料包可解锁：免费 100 + 高频 688 新词
 
     data = OrderedDict([
         ('meta', OrderedDict([
             ('name', '高考核心词变体库 · 熟词僻义专项'),
             ('status', '正式版'),
-            ('source', 'batch1 精修词 + 必考层自研释义 + 高频搭配 + 覆盖索引'),
+            ('source', 'batch1 精修词 + 必考层自研释义 + 高频搭配 + 覆盖索引 + 688 高频词表'),
             ('copyright', '例句与搭配语境均为自研仿真，不含真题原文、真题选项与真题解析。'),
             ('coverage', OrderedDict([
                 ('total_words', len(words)),
                 ('required_words', len(required)),
                 ('featured_words', featured),
                 ('extended_words', l2),
+                ('highfreq_words', l3),
+                ('materials_words', materials_words),
                 ('questions', len(words)),
                 ('featured_questions', featured),
                 ('variants_total', variants_total),
                 ('variants_per_word_min', min(len(w['variants']) for w in words)),
                 ('layers', OrderedDict([
                     ('L1-精修陷阱', featured), ('L2-必考核心', l2),
+                    ('L3-高频688', l3),
+                ])),
+                ('access', OrderedDict([
+                    ('free', featured), ('materials', l3), ('all', l2),
                 ])),
                 ('types', types),
             ])),
@@ -593,8 +760,10 @@ def main():
         json.dump(data, f, ensure_ascii=False, indent=2)
 
     print('输出: %s' % OUT)
-    print('  %d 核心词（精修 %d + 扩展 %d）/ %d 题 / %d 条变体提示' % (
-        len(words), featured, l2, len(words), variants_total))
+    print('  %d 核心词（精修 %d + L2必考 %d + L3高频688新词 %d）/ %d 题 / %d 条变体提示' % (
+        len(words), featured, l2, l3, len(words), variants_total))
+    print('  门禁分层：免费 %d / ¥2.9资料包累计 %d / 全包 %d' % (
+        featured, materials_words, len(words)))
     print('  每词至少 %d 条变体；类型：%s' % (
         min(len(w['variants']) for w in words), '、'.join(types)))
 

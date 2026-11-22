@@ -108,15 +108,15 @@ ok(/近 30 天你因「熟词僻义」错/.test(C.el('errAdvice').innerHTML) &&
 ok(/<span class="bench-label">一词多义<\/span>[\s\S]{0,220}?33%/.test(C.el('errDist').innerHTML) &&
    !/挽回/.test(C.el('errAdvice').innerHTML),'次要错因显示真实占比，不再只有单一分类或虚假提分承诺');
 
-console.log('\n=== 4. 云端分层：游客看引导，登录看 FSRS 算法 ===');
-ok(/注册云端 · 解锁遗忘曲线统计/.test(C.el('errCloud').innerHTML),'游客在失分地图看到注册引导');
-ok(/去登录/.test(C.el('errCloud').innerHTML),'引导按钮指向登录页');
-loggedIn(C,true);
+console.log('\n=== 4. 云端分层：未全包看引导，全包显示 FSRS 算法 ===');
+ok(/全包 ¥9\.9 · 解锁云端算法统计/.test(C.el('errCloud').innerHTML),'未全包时在失分地图看到全包引导');
+ok(/升级全包/.test(C.el('errCloud').innerHTML) && /openPay\('all'\)/.test(C.el('errCloud').innerHTML),'引导按钮指向全包购买');
+C.ev('Store.grantAll();');
 C.ev('Store.reviewSense(LEX[0].senses[0].sense_id,3,LEX[0].w);renderErrCloud();');
 h=C.el('errCloud').innerHTML;
-ok(/FSRS-5 实时计算/.test(h) && /记忆稳固率/.test(h),'登录后显示 FSRS 算法卡');
+ok(/FSRS-5 实时计算/.test(h) && /记忆稳固率/.test(h),'全包用户显示 FSRS 算法卡');
 ok(/今日待复习|明日到期/.test(h),'算法卡展示真实到期预测');
-ok(/注册云端 · 解锁/.test(h)===false,'登录后不再显示注册引导');
+ok(/全包 ¥9\.9 · 解锁/.test(h)===false,'解锁后不再显示全包引导');
 C.ev('window.__requireLogin=function(){};setReviewPanel("s-parent");');
 ok(true,'基础周报面板对游客/登录用户均可直接切换，无整页门禁');
 
@@ -130,7 +130,7 @@ ok(/%38|38%/.test(D.el('rpWeakList').innerHTML)===false,'写死的百分比已�
 let act=D.el('rpActionList').innerHTML;
 ok(!/周六/.test(act) && !/正确率提升 8%/.test(act),'写死的「周六未打卡 / 提升 8%」已移除');
 ok(/本周有 <b>7 天<\/b>没有新学记录/.test(act),'空教学周给出真实的连续性与降量建议');
-ok(/注册云端 · 解锁算法统计/.test(D.el('rpCloud').innerHTML),'游客基础周报仍可见，算法卡单独引导注册');
+ok(/全包 ¥9\.9 · 解锁云端分析/.test(D.el('rpCloud').innerHTML),'未全包基础周报仍可见，算法卡单独引导升级');
 D.ev('Store.quizAnswer(false,"熟词僻义","C1","appreciate","E1");Store.quizAnswer(false,"熟词僻义","C2","appreciate","E1");Store.quizAnswer(false,"熟词僻义","C3","interest","E2");Store.reviewSense(LEX[0].senses[0].sense_id,3,LEX[0].w);');
 D.ev('(function(){var c=Store.load().cards[LEX[0].senses[0].sense_id];c.last=Date.now()-60*86400000;c.s=1;c.due=Date.now()-86400000;Store.save();})();');
 D.ev('renderParentReport();');
@@ -139,14 +139,14 @@ ok(/错因集中在/.test(act) && /近 7 天/.test(act),'行动计划来自近 7
 ok(/今日到期|可提取性低于 75%/.test(act),'行动计划引用 FSRS 真实预测');
 ok(/熟词僻义/.test(D.el('rpWeakList').innerHTML),'薄弱项按真实错因生成');
 loggedIn(D,true);
-D.ev('renderParentReport();');
+D.ev('Store.grantAll();renderParentReport();');
 h=D.el('rpCloud').innerHTML;
-ok(/记忆健康度/.test(h) && /FSRS-5 实时计算/.test(h),'登录用户周报显示云端算法统计');
+ok(/记忆健康度/.test(h) && /FSRS-5 实时计算/.test(h),'全包用户周报显示云端算法统计');
 ok(/平均可提取性/.test(h) && /云端同步的 FSRS 卡片状态/.test(h),'算法数值标明来源，可复核');
 
 console.log('\n=== 6. 构建产物同步 ===');
 ok(PROTO.indexOf('wrongWordStats')>=0 && PROTO.indexOf('reviewForecast')>=0,'单文件原型包含新 Store API');
-ok(PROTO.indexOf('注册云端 · 解锁算法统计')>=0,'单文件原型包含注册引导');
+ok(PROTO.indexOf('全包 ¥9.9 · 解锁云端分析')>=0,'单文件原型包含全包升级引导');
 ok(HTML.indexOf('id="rpCloud"')>=0 && HTML.indexOf('id="errCloud"')>=0,'两份复盘容器均已就位');
 ok(HTML.indexOf('id="rpWeakList"')>=0 && HTML.indexOf('id="rpActionList"')>=0,'周报深度区改为动态容器');
 ok(HTML.indexOf('按真实错词顺序复习 Top10')>=0,'一键复习入口接真实错词队列');
