@@ -37,7 +37,7 @@
 | `app/` | **唯一可维护源**。`index.html` + `styles.css` + `js/`（config / cloud / fsrs / lex / data / app / boot）+ `admin/`（兑换码后台，含「产品说明 · 使用场景」折叠面板）。用户端打开即应用本体：桌面居中预览，手机端全屏铺满；产品方案与变现位介绍只在后台可见 |
 | `prototype/` | 构建产物。`src/fsrs.js`、`src/lex.js` 是源文件副本；`index.html` 由 `tools/build_prototype.py` 内联生成，供轻量测试与离线预览 |
 | `data/product/` | 商品级数据源：`word_coverage.json`（4110 词）、`ai_paraphrase.json`（443 词自研释义）、`context_book.json`（4110 词全量补全版）、`context_examples_extra.txt`（224 词新增仿真例句源文件）、`context_ipa_autofill.json`（1000 词规则音标）、`colloc_book.json`（443 词 / 2302 搭配）、`quiz_book.json`（100 题）、`trap_variants.json`（443 词 / 3370 条变体提示）、`plan_book.json` |
-| `tools/` | 构建与校验流水线：`build_*.py` 生成数据/产物；`build_prototype.py` 内联多文件为单文件；`test_progress.js` / `test_cloud.js` / `test_daily.js` / `test_alpha.js` / `test_answerflow.js` / `test_pricing.js` / `test_orders.js` / `test_sticky.js` / `test_context.js` / `test_nav.js` / `test_daily_rounds.js` / `test_books.js` / `test_review.js` / `test_trap_access.js` 为回归测试 |
+| `tools/` | 构建与校验流水线：`build_*.py` 生成数据/产物；`build_prototype.py` 内联多文件为单文件；`test_progress.js` / `test_cloud.js` / `test_daily.js` / `test_alpha.js` / `test_answerflow.js` / `test_pricing.js` / `test_orders.js` / `test_sticky.js` / `test_context.js` / `test_nav.js` / `test_daily_rounds.js` / `test_books.js` / `test_review.js` / `test_trap_access.js` / `test_weekly_export.js` 为回归测试 |
 | `docs/` | 教研与商品化方案文档 |
 | `output/` | 成品 PDF：训练册与体验样张 |
 | `data/`（根目录） | 素材库与教材原件（内部使用，见「版权与合规红线」） |
@@ -70,6 +70,7 @@ node tools/test_nav.js        # 子页面常驻返回栏/返回首页：20 项
 node tools/test_books.js      # 三本辅助材料：同源试读/例句来源/打卡打印：33 项
 node tools/test_review.js     # 复盘：真实错词归因/FSRS 算法统计/注册分层：45 项
 node tools/test_trap_access.js # 熟词僻义：首页100词口径/免费100与全包443：28 项
+node tools/test_weekly_export.js # 周报完整版：深度归因/计划/图片与文字导出：31 项
 ```
 
 云端登录、兑换码等真实链路依赖线上域名，需通过分享链接访问测试。
@@ -142,7 +143,7 @@ node tools/test_trap_access.js # 熟词僻义：首页100词口径/免费100与�
 | 免费层 | ¥0 | 今日任务、FSRS 记忆、词形发散、红绿进度 + A-Z、基础失分地图、**基础学习周报**（游客可见）、熟词僻义 **100 精修陷阱词 + 100 题（免费 3 题试练）**、四本书真实试读 | 已实现 |
 | 注册云端 | 免费 | 登录后额外解锁 **FSRS 算法统计**：今日/明日到期复习词、记忆稳固率、平均可提取性、高危遗忘词与词形网稳固率，换设备继续累计；不另外收费 | 已实现：复盘页算法卡 |
 | 单本读本 | ¥2.9 / 本 | 《仿真语境版》《高频搭配速记手册》《熟词僻义100题训练册》《30天冲刺计划表》各 2.9 元，买断制、永久可读；不含完整周报 | 已实现：取消历史分档，统一单本价 |
-| 完整周报全包 | ¥9.9 | 四本书全含 + 完整学习周报（深度归因 / 下周行动计划 / 导出）+ **全量 443 高频词汇陷阱与 3370 条变体提示** + 全部专项题库与解析 + 错词自动复习；一次买断 | 已实现：购买弹窗 + 权益写入 + 全站付费信息自动隐藏；兑换码走同一权益 |
+| 完整周报全包 | ¥9.9 | 四本书全含 + **完整学习周报**（深度失分归因 / 下周行动计划 / 周报图片与文字导出）+ **全量 443 高频词汇陷阱与 3370 条变体提示** + 全部专项题库与解析 + 错词自动复习；一次买断。基础数据永久免费，不设付费墙 | 已实现：购买弹窗 + 权益写入 + 全站付费信息自动隐藏；兑换码走同一权益 |
 
 价格锚点：四本单买合计 ¥11.6，全包 ¥9.9 更划算；只做事实陈述，不用划线价或虚假原价。
 
@@ -206,6 +207,7 @@ node tools/test_trap_access.js # 熟词僻义：首页100词口径/免费100与�
 - 免费可验证：真实试读内容 + 免费 3 题 + 基础学习周报永久免费，先验证价值再付费。
 - 数据真实：学习周报的学习时长、本周新学、正确率、打卡、每日柱状图与热力图全部来自 `Store` 的真实记录；薄弱项与下周行动计划按近 7 天真实错词和 FSRS 到期预测生成，不写死估算数字或虚假提分承诺。
 - 算法可复核：注册后展示的记忆稳固率、可提取性、到期词数均由真实 FSRS 卡片状态现算，与复习行为同步变化。
+- 周报分层透明：基础数据（时长 / 新学 / 正确率 / 打卡 / 柱状图 / 热力图）永久免费；完整版的深度归因、下周计划与报告导出均基于同一份 `rpLast` 真实快照生成，不另造数字。
 - 价格诚实：一次买断、无续费、无划线价、7 天无理由退款；单本与全包权益边界在商店、详情、支付弹窗保持同一口径。
 - 数据归属：学习记录本地暂存 + 登录后合并，不覆盖云端已有进度；兑换码即学号可查。
 - 订单永久可下载：支付或兑换成功后生成订单记录，保存在「我的 → 我的订单」；每条订单可随时下载订单凭证，链接过期也不会丢失，历史权益可下载权益凭证。

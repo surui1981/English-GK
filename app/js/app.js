@@ -1935,6 +1935,7 @@ function renderHeatmap(){
   }
   box.innerHTML=html;
 }
+let rpLast=null;  // 周报快照：渲染与报告导出共用同一份真实数据
 function renderParentReport(){
   const $=id=>document.getElementById(id);
   const set=(id,v)=>{const e=$(id); if(e)e.textContent=v;};
@@ -1977,36 +1978,68 @@ function renderParentReport(){
     '<div class="wk-bar" style="height:'+Math.max(3,Math.round(counts[i]/max*66))+'px"></div>'+
     '<span class="wk-n">'+l+'</span></div>').join('');
   renderHeatmap();
-  renderReportDeep(Store.wrongWordStats(7),counts,stat,q);
+  const ws=Store.wrongWordStats(7);
+  const deep=renderReportDeep(ws,counts,stat,q);
   renderReportCloud();
+  rpLast={
+    owned:owned, range:set2range(mon,sun), weekNew:weekNew, minutes:mins,
+    accuracy:stat?stat.accuracy:0, streak:stat?stat.streak:0,
+    answered:q.answered||0, right:q.right||0, wrong:q.wrong||0,
+    dailyNew:counts.slice(), weak:deep.weak, actions:deep.actions,
+    deepLines:deep.lines, wrongTotal:ws.total, wrongDistinct:ws.distinct,
+    topWords:ws.top.slice(0,5).map(function(r){
+      const p=Store.wordProgress(r.w);
+      return {w:r.w,n:r.n,mastery:p.mastery,learned:p.learned};
+    }),
+    algo:Store.reviewForecast(), cloudUser:isCloudUser()
+  };
 }
-/* 完整版深度区：薄弱项与下周计划全部由本周真实记录推导 */
+function set2range(mon,sun){
+  return (mon.getMonth()+1)+'.'+mon.getDate()+' – '+(sun.getMonth()+1)+'.'+sun.getDate();
+}
+/* 完整版深度区：薄弱项、深度归因与下周计划全部由真实记录推导 */
 function renderReportDeep(ws,counts,stat,q){
   const $=id=>document.getElementById(id);
-  const weak=$('rpWeakList');
-  if(weak){
+  const plain=s=>String(s).replace(/<[^>]*>/g,'');
+  const weakEl=$('rpWeakList');
+  const weakRows=ERR_CATS.map(c=>({c:c,v:errCatCount(c,ws,(q&&q.byModule)||{})}))
+    .filter(r=>r.v>0).sort((a,b)=>b.v-a.v).slice(0,3);
+  if(weakEl){
     if(!ws.total){
-      weak.innerHTML='<div style="font-size:12px;color:var(--ink-3);padding:8px 0;line-height:1.6">近 7 天还没有错题记录。做几道专项题后，这里会按真实错因排序。</div>';
+      weakEl.innerHTML='<div style="font-size:12px;color:var(--ink-3);padding:8px 0;line-height:1.6">近 7 天还没有错题记录。做几道专项题后，这里会按真实错因排序。</div>';
     }else{
-      const rows=ERR_CATS.map(c=>({c:c,v:errCatCount(c,ws,(q&&q.byModule)||{})}))
-        .filter(r=>r.v>0).sort((a,b)=>b.v-a.v).slice(0,3);
-      weak.innerHTML=rows.map((r,i)=>
+      weakEl.innerHTML=weakRows.map((r,i)=>
         '<div class="bench'+(i===0?' top':'')+'"><span class="bench-label">'+r.c.label+'</span>'+
         '<div class="bench-track"><div class="bench-fill" style="width:'+Math.max(3,Math.round(100*r.v/ws.total))+'%;opacity:'+r.c.o+'"></div></div>'+
         '<span class="bench-val">'+Math.round(100*r.v/ws.total)+'%</span></div>').join('');
     }
   }
-  const acts=$('rpActionList');
-  if(!acts)return;
+  const f=Store.reviewForecast();
+  const month=Store.wrongWordStats(30);
+  const prior=Math.max(0,month.total-ws.total);
+  const top=weakRows[0]||null;
+  const weakTopWords=ws.top.slice(0,5).filter(function(r){
+    const p=Store.wordProgress(r.w); return p.learned&&p.mastery<75;
+  }).length;
+  const typeRows=Object.keys((q&&q.byType)||{}).map(k=>({k:k,v:q.byType[k]}))
+    .sort((a,b)=>b.v-a.v).slice(0,2);
+  const lines=[];
+  if(top) lines.push('首要错因「'+top.c.label+'」'+top.v+' 次，占近 7 天错词的 '+Math.round(100*top.v/ws.total)+'%'+
+    (prior?'；近 30 天累计 '+month.total+' 次，前 23 天 '+prior+' 次。':'。'));
+  else lines.push('近 7 天还没有错题记录，暂无错因归因。');
+  lines.push('Top5 错词中 '+weakTopWords+' 个记忆未稳固（熟练度低于 75%）；FSRS 当前标记 '+f.atRisk+' 个高危遗忘词。');
+  if(typeRows.length)lines.push('题型分布：'+typeRows.map(r=>r.k+' '+r.v+' 次').join('、')+'。');
+  const deepEl=$('rpDeep');
+  if(deepEl)deepEl.innerHTML=lines.map(t=>'<div class="rp-deep-line">'+t+'</div>').join('');
+
+  const actsEl=$('rpActionList');
   const items=[];
   const blankDays=counts.filter(v=>v===0).length;
   if(blankDays)items.push('本周有 <b>'+blankDays+' 天</b>没有新学记录，先把每日目标稳在 15 词，保住连续性再提量。');
   if(ws.total){
-    const top=ERR_CATS.map(c=>({c:c,v:errCatCount(c,ws,(q&&q.byModule)||{})}))
-      .sort((a,b)=>b.v-a.v)[0];
-    items.push('近 7 天错因集中在「<b>'+top.c.label+'</b>」（'+top.v+' 次），建议每天 5 道该专项题。');
+    const topCause=weakRows[0]||ERR_CATS[0];
+    items.push('近 7 天错因集中在「<b>'+topCause.c.label+'</b>」（'+topCause.v+' 次），建议每天 5 道该专项题。');
   }
-  const f=Store.reviewForecast();
   if(f.dueToday||f.atRisk)
     items.push('FSRS 显示 <b>'+f.dueToday+' 词今日到期</b>、'+f.atRisk+' 词可提取性低于 75%，先复习再学新词。');
   if(stat&&stat.quizAnswered)
@@ -2014,8 +2047,13 @@ function renderReportDeep(ws,counts,stat,q){
       ? ('正确率 '+stat.accuracy+'% 处于健康区间，<b>保持当前节奏</b>，不必盲目加量。')
       : ('正确率 '+stat.accuracy+'%，先把错题回炉一轮再加量。'));
   if(!items.length)items.push('完成 3 道专项题和一轮今日任务后，这里会按你的真实记录生成下周行动计划。');
-  acts.innerHTML=items.slice(0,4).map((t,i)=>
+  const shown=items.slice(0,4);
+  if(actsEl)actsEl.innerHTML=shown.map((t,i)=>
     '<div class="ptip"><span class="n">'+(i+1)+'</span><span>'+t+'</span></div>').join('');
+  return {
+    weak:weakRows.map(r=>({label:r.c.label,n:r.v,pct:ws.total?Math.round(100*r.v/ws.total):0})),
+    actions:shown.map(plain), lines:lines
+  };
 }
 /* 登录权益：云端 FSRS 算法统计，未登录只看到注册引导，基础周报照常可见 */
 function renderReportCloud(){
@@ -2038,6 +2076,112 @@ function renderReportCloud(){
     '</div>'+
     '<div class="algo-risk">已训练 '+f.cards+' 张义项卡 / '+f.familyTotal+' 张词形网卡，平均可提取性 '+f.avgR+'%，累计遗忘回流 '+f.lapses+' 次。数字来自云端同步的 FSRS 卡片状态。</div>'+
   '</div>';
+}
+/* ============ 完整版周报导出 ============
+ * 基础数据永久免费；导出是 ¥9.9 完整版权益。内容全部来自 rpLast（同一份渲染数据）。 */
+function weeklyReportLines(){
+  if(!rpLast||!rpLast.owned)renderParentReport();
+  const d=rpLast||{}, f=d.algo||{}, L=[];
+  L.push('拾词 · 学习周报');
+  L.push('统计周期：'+(d.range||'本周'));
+  L.push('生成时间：'+new Date().toLocaleString('zh-CN'));
+  L.push('基础数据永久免费 · 深度归因、行动计划与报告导出属于完整版');
+  L.push('');
+  L.push('一、基础数据（全部来自真实学习记录）');
+  L.push('累计学习时长：'+(d.minutes>=60?(d.minutes/60).toFixed(1)+' 小时':d.minutes+' 分钟'));
+  L.push('本周新学词：'+d.weekNew+' 词');
+  L.push('综合正确率：'+(d.answered?d.accuracy+'%（'+d.right+'/'+d.answered+' 题）':'暂无作答'));
+  L.push('连续打卡：'+d.streak+' 天');
+  L.push('');
+  L.push('二、深度失分归因');
+  (d.deepLines||[]).forEach(function(t,i){L.push((i+1)+'. '+t);});
+  if((d.weak||[]).length)L.push('薄弱项：'+d.weak.map(function(w){return w.label+' '+w.pct+'%';}).join('、'));
+  if((d.topWords||[]).length)L.push('高频错词：'+d.topWords.map(function(w){
+    return w.w+'（错 '+w.n+' 次，熟练度 '+w.mastery+'%）';}).join('、'));
+  L.push('');
+  L.push('三、下周行动计划');
+  (d.actions||[]).forEach(function(t,i){L.push((i+1)+'. '+t);});
+  L.push('');
+  L.push('四、云端算法统计'+(d.cloudUser?'':'（注册云端后可见）'));
+  if(d.cloudUser)L.push('记忆稳固率 '+f.solidPct+'% · 今日到期 '+f.dueToday+' 词 · 高危遗忘 '+f.atRisk+' 词 · 平均可提取性 '+f.avgR+'% · 词形网稳固 '+f.familySolidPct+'%');
+  else L.push('注册云端后可查看基于 FSRS 的遗忘曲线统计，换设备继续累计。');
+  L.push('');
+  L.push('数据说明：例句为仿真语境，不含真题原文与教材原文；所有数字来自真实学习记录，不写死估算。');
+  return L;
+}
+function exportWeeklyReportText(){
+  if(!Store.hasAll())return null;
+  const name='拾词学习周报_'+new Date().toISOString().slice(0,10)+'.txt';
+  return downloadText(name,weeklyReportLines().join('\n'));
+}
+function rpWrapText(g,text,x,y,maxW,lineH,maxLines){
+  let line='',n=0;
+  if(typeof g.measureText!=='function'){g.fillText(text,x,y,maxW);return 1;}
+  for(let i=0;i<text.length;i++){
+    const test=line+text[i];
+    if(g.measureText(test).width>maxW&&line){
+      g.fillText(line,x,y+n*lineH);n++;line=text[i];
+      if(n>=maxLines-1)break;
+    }else line=test;
+  }
+  if(line&&n<maxLines){g.fillText(line,x,y+n*lineH);n++;}
+  return n;
+}
+function exportWeeklyReport(){
+  if(!Store.hasAll())return null;
+  if(typeof document.createElement!=='function')return null;
+  const cv=document.createElement('canvas');
+  if(!cv||typeof cv.getContext!=='function')return null;
+  cv.width=750;cv.height=1400;
+  const g=cv.getContext('2d'),d=rpLast||{},f=d.algo||{};
+  g.fillStyle='#ffffff';g.fillRect(0,0,750,1400);
+  g.fillStyle='#0f766e';g.fillRect(0,0,750,190);
+  g.fillStyle='#ffffff';g.font='bold 40px sans-serif';g.fillText('拾词 · 学习周报',50,80);
+  g.font='24px sans-serif';g.fillText(d.range||'本周',50,132);
+  g.fillStyle='#b7e4dd';g.font='20px sans-serif';g.fillText('基础数据永久免费 · 完整版导出',50,166);
+  const kpis=[
+    ['累计学习时长',d.minutes>=60?(d.minutes/60).toFixed(1)+'h':d.minutes+'min'],
+    ['本周新学词',String(d.weekNew||0)+' 词'],
+    ['综合正确率',d.answered?(d.accuracy+'%'):'—'],
+    ['连续打卡',String(d.streak||0)+' 天']
+  ];
+  g.font='22px sans-serif';
+  kpis.forEach(function(k,i){
+    const x=50+(i%2)*340,y=220+Math.floor(i/2)*120;
+    g.fillStyle='#f1f6f3';g.fillRect(x,y,320,100);
+    g.fillStyle='#66786f';g.font='20px sans-serif';g.fillText(k[0],x+18,y+34);
+    g.fillStyle='#0f766e';g.font='bold 38px sans-serif';g.fillText(k[1],x+18,y+78);
+  });
+  let y=500;
+  g.fillStyle='#17362b';g.font='bold 30px sans-serif';g.fillText('深度失分归因',50,y);y+=46;
+  g.font='24px sans-serif';g.fillStyle='#33453c';
+  (d.deepLines||[]).forEach(function(t){y+=rpWrapText(g,'· '+t,50,y,650,34,3)+16;});
+  if((d.topWords||[]).length){
+    y+=18;g.fillStyle='#17362b';g.font='bold 26px sans-serif';
+    g.fillText('高频错词',50,y,650);y+=38;
+    g.fillStyle='#33453c';g.font='22px sans-serif';
+    y+=rpWrapText(g,d.topWords.map(function(w){return w.w+' '+w.n+'次';}).join('  ·  '),50,y,650,32,3)+10;
+  }
+  y+=26;g.fillStyle='#17362b';g.font='bold 30px sans-serif';g.fillText('下周行动计划',50,y);y+=46;
+  g.font='23px sans-serif';g.fillStyle='#33453c';
+  (d.actions||[]).forEach(function(t,i){y+=rpWrapText(g,(i+1)+'. '+t,50,y,650,34,3)+14;});
+  y+=26;g.fillStyle='#17362b';g.font='bold 30px sans-serif';
+  g.fillText(d.cloudUser?'云端算法统计':'注册云端 · 解锁算法统计',50,y,650);y+=46;
+  g.font='23px sans-serif';g.fillStyle='#33453c';
+  if(d.cloudUser){
+    y+=rpWrapText(g,'记忆稳固率 '+f.solidPct+'% · 今日到期 '+f.dueToday+' 词 · 高危遗忘 '+f.atRisk+' 词 · 平均可提取性 '+f.avgR+'%',50,y,650,34,3);
+  }else y+=rpWrapText(g,'基础周报已包含真实数据；注册云端后可查看 FSRS 遗忘曲线统计。',50,y,650,34,3);
+  g.fillStyle='#8aa096';g.font='20px sans-serif';
+  g.fillText('例句为仿真语境 · 不含真题与教材原文 · 数据来自真实学习记录',50,1350,650);
+  let url='';
+  try{ url=cv.toDataURL('image/png'); }catch(e){ return null; }
+  const a=document.createElement('a');
+  a.href=url;a.download='拾词学习周报_'+new Date().toISOString().slice(0,10)+'.png';
+  const p=document.body||document.documentElement;
+  if(p&&p.appendChild)p.appendChild(a);
+  if(typeof a.click==='function')a.click();
+  if(a.parentNode&&a.parentNode.removeChild)a.parentNode.removeChild(a);
+  return {href:url.slice(0,30),name:a.download};
 }
 renderParentReport();
 

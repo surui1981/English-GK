@@ -149,6 +149,8 @@ svg{display:block}
 .algo-risk{font-size:10.5px;line-height:1.6;color:#41556f;background:#eef4fc;border-radius:9px;padding:8px 9px;margin-top:9px}
 .algo-risk b{color:#b45309}
 .algo-chip{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:9.5px;background:#fff;border:1px solid #dbe7f6;border-radius:6px;padding:2px 5px;margin:3px 3px 0 0}
+.rp-deep-line{font-size:11px;line-height:1.65;color:var(--ink-2);background:var(--canvas);border-radius:9px;padding:8px 10px;margin-bottom:6px}
+.rp-deep-line:last-child{margin-bottom:0}
 
 /* 学习周报：基础版免费，完整版由 9.9 全包解锁 */
 .rp-upgrade{margin:0 0 13px}
