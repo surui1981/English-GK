@@ -82,6 +82,7 @@ def refresh_data():
         inject_json('colloc_book.json', 'CTX_COLLOC', '《高频搭配速记手册》成书数据'),
         inject_json('quiz_book.json', 'CTX_QUIZ', '《熟词僻义100题训练册》成书数据'),
         inject_json('trap_variants.json', 'CTX_TRAP', '熟词僻义 · 高考常考变体词汇数据'),
+        inject_json('highfreq688.json', 'CTX_HIGHFREQ', '《高考核心高频688词》成书数据'),
         inject_json('plan_book.json', 'CTX_PLAN', '《30天冲刺计划表》成书数据'),
         coverage_js(),
         inject_json('ai_paraphrase.json', 'CTX_PARAPHRASE', '必考层 · 自研释义改写数据'),

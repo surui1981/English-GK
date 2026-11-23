@@ -155,10 +155,10 @@ const ERR_CATS=[
 ];
 
 const GOODS=[
- {key:"context",n:"《高考英语核心词 · 仿真语境版》",d:"每个词配一句仿真语境例句 + 3 个高频义项 + 真实搭配",p:2.9,o:null,badge:"热销",cover:"linear-gradient(150deg,#0f766e,#115e59)",coverText:"仿真语境<br>核心词",note:"四本资料包内 · 打包下载 ¥2.9",detail:"openBook"},
- {key:"quiz",n:"《熟词僻义100题专项训练册》",d:"100 题覆盖 100 个高频词的陷阱义，每题附考场动作与错因解析",p:2.9,o:null,badge:"新上架",cover:"linear-gradient(150deg,#f59e0b,#b45309)",coverText:"熟词僻义<br>100题专项",note:"四本资料包内 · 打包下载 ¥2.9",detail:"openBook3"},
- {key:"colloc",n:"《高考英语高频搭配速记手册》",d:"443 词高频搭配，核心搭配配独立仿真例句，词块整体记忆",p:2.9,o:null,badge:"正式版",cover:"linear-gradient(150deg,#475569,#1e293b)",coverText:"高频搭配<br>速记手册",note:"四本资料包内 · 打包下载 ¥2.9",detail:"openBook2"},
- {key:"plan",n:"《30 天冲刺计划表 + 单词打卡表》",d:"可打印 A4，含每日词量梯度与复盘表",p:2.9,o:null,badge:"打印即用",cover:"linear-gradient(150deg,#0369a1,#075985)",coverText:"30天冲刺<br>计划打卡表",note:"四本资料包内 · 打包下载 ¥2.9",detail:"openBook4"}
+ {key:"context",n:"《高考英语核心词 · 仿真语境版》",d:"每个词配一句仿真语境例句 + 3 个高频义项 + 真实搭配",p:2.9,o:null,badge:"热销",cover:"linear-gradient(150deg,#0f766e,#115e59)",coverText:"仿真语境<br>核心词",note:"四本资料包内 · 下单后免费下载",detail:"openBook"},
+ {key:"quiz",n:"《熟词僻义100题专项训练册》",d:"100 题覆盖 100 个高频词的陷阱义，每题附考场动作与错因解析",p:2.9,o:null,badge:"新上架",cover:"linear-gradient(150deg,#f59e0b,#b45309)",coverText:"熟词僻义<br>100题专项",note:"四本资料包内 · 下单后免费下载",detail:"openBook3"},
+ {key:"colloc",n:"《高考英语高频搭配速记手册》",d:"443 词高频搭配，核心搭配配独立仿真例句，词块整体记忆",p:2.9,o:null,badge:"正式版",cover:"linear-gradient(150deg,#475569,#1e293b)",coverText:"高频搭配<br>速记手册",note:"四本资料包内 · 下单后免费下载",detail:"openBook2"},
+ {key:"plan",n:"《30 天冲刺计划表 + 单词打卡表》",d:"可打印 A4，含每日词量梯度与复盘表",p:2.9,o:null,badge:"打印即用",cover:"linear-gradient(150deg,#0369a1,#075985)",coverText:"30天冲刺<br>计划打卡表",note:"四本资料包内 · 下单后免费下载",detail:"openBook4"}
 ];
 
 /* ==================== STATE ==================== */
@@ -188,19 +188,21 @@ let twFilter='all', twQuery='', twShown=40, twLastWord='';
 let payPlan='year', payStage='plan', buyItem=null, couponUsed=false;
 
 /* ==================== NAV ==================== */
-const SCREENS=['s-home','s-study','s-fam','s-progress','s-quiz','s-trapwords','s-review','s-shop','s-book','s-book2','s-book3','s-book4','s-fullpack','s-me'];
+const SCREENS=['s-home','s-study','s-article','s-fam','s-progress','s-quiz','s-trapwords','s-review','s-shop','s-book','s-book2','s-book3','s-book4','s-book5','s-fullpack','s-me'];
 /* 失分地图 / 学习周报现在是「学习复盘」内部的两个面板，不再是独立页面。
  * 保留 go('s-err') / go('s-parent') 作为兼容入口，自动切到对应面板。 */
 const REVIEW_PANELS=['s-err','s-parent'];
 const META={
  's-home':['首页 · 今日任务','首屏解决「今天该学什么」，高考倒计时 + 连续打卡 + 一个明确的主任务入口，降低高三用户的决策成本。'],
  's-study':['背单词卡','词卡正面是词，背面是释义、仿真语境例句、搭配与熟词僻义提示。必须翻面才能评价 —— 这是记忆算法唯一可靠的数据来源。'],
+ 's-article':['文章化背词','把待复习词放进一篇连贯短文：先通读，再语境填词，最后三档自评。结果回流同一套 FSRS，不另起记忆系统。'],
  's-fam':['发散复习','词形网专属复习：一个核心词带出整族派生词与形近词，三档评价喂给词形网 FSRS 卡片，按到期优先排期。'],
  's-progress':['单词进度','全量 4110 词的练习次数与熟练度一目了然：红=新词优先复习，绿=已学完降低频率，点击即可快速学习。'],
  's-book':['仿真语境版 · 图书详情','一词三义 + 仿真例句 + 真实搭配，单本 ¥2.9 买断，可免费试读真实内容（非样张占位）。'],
  's-book2':['高频搭配速记手册 · 图书详情','一词一组、按义项分组的高频搭配，词块整体记忆，可免费试读真实搭配卡。'],
  's-book3':['熟词僻义100题训练册 · 图书详情','100 题 / 100 词 / 100 个陷阱义，附高考常考变体词卡：词形、形近、搭配与常见义干扰，可免费试读 3 题。'],
  's-book4':['30天冲刺计划表 · 图书详情','四轮递进、每日梯度、可打印打卡表，附全 30 天计划表试读。'],
+ 's-book5':['高考核心高频688词 · 词表详情','按真题复现考频排序的 688 个高频词，逐词配音标、义项拆分与变体词卡；资料包解锁全表，免费试读前 20 词。'],
  's-fullpack':['拾词全包 · 词库详情','考纲范围全覆盖 + 必考层自研释义改写：展示真实覆盖词数、分层结构与可检索的释义样本。'],
  's-quiz':['专项训练 · 熟词僻义','100 题仿真训练，答题反馈即时给出高考常考变体词与常见义干扰；免费 3 题，第 4 题触发付费墙。'],
  's-trapwords':['核心变体词 · 熟练度','高考核心词变体词卡与熟练度反馈：练习次数、红绿状态、牢固/巩固/新学分档，三档自评即时回流。免费 100 精修词，资料包解锁 688 高频词，全包再含必考核心词。'],
@@ -247,7 +249,7 @@ function go(id){
     id='s-review';
   }
   SCREENS.forEach(s=>document.getElementById(s).classList.toggle('on',s===id));
-  document.getElementById('phone').classList.toggle('no-tab',['s-study','s-fam','s-progress','s-quiz','s-trapwords','s-book','s-book2','s-book3','s-book4','s-fullpack'].includes(id));
+  document.getElementById('phone').classList.toggle('no-tab',['s-study','s-article','s-fam','s-progress','s-quiz','s-trapwords','s-book','s-book2','s-book3','s-book4','s-book5','s-fullpack'].includes(id));
   document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('on',t.dataset.tab===id||(id==='s-quiz'&&t.dataset.tab==='s-study')));
   if(reviewPanel) setReviewPanel(reviewPanel,true);
   document.getElementById('screens').scrollTop=0;
@@ -685,6 +687,45 @@ function famRate(rating,label){
   showReward('词形网已复习', w.w+' · 已排入下次复习', false);
   setTimeout(()=>{famSched=null;famIdx++;renderFam();},900);
 }
+/* ==================== 下单后免费下载 · 电子资料 ====================
+ * 付过款（资料包 materials 或全包 all）即可下载全部电子资料，下载本身不再收费。
+ * 文件为自研可打印 HTML + 现成训练册 PDF，由 tools/build_downloads.py 生成。 */
+const MATERIAL_FILES={
+  context:{name:'高考英语核心词-仿真语境版.html',label:'仿真语境版 · HTML（可打印）'},
+  colloc:{name:'高考英语高频搭配速记手册.html',label:'高频搭配速记手册 · HTML（可打印）'},
+  quiz:{name:'熟词僻义100题专项训练册.pdf',label:'熟词僻义100题训练册 · PDF',alt:'熟词僻义100题专项训练册.html'},
+  plan:{name:'30天冲刺计划表.html',label:'30 天冲刺计划表 · HTML（可打印）'},
+  highfreq:{name:'高考核心高频688词表.html',label:'高频 688 词表 · HTML（可打印）'}
+};
+function canDownload(){ return typeof Store!=='undefined'&&(Store.hasMaterials()||Store.hasAll()); }
+function downloadMaterial(key){
+  if(!canDownload()){
+    if(typeof needLogin==='function'){
+      needLogin(function(){openPay('materials');},'下单后即可免费下载资料，请先登录并下单解锁。');
+    }else openPay('materials');
+    return;
+  }
+  const f=MATERIAL_FILES[key];
+  if(!f)return;
+  const a=document.createElement('a');
+  a.href='assets/downloads/'+encodeURIComponent(f.name);
+  a.download=f.name;
+  a.setAttribute('rel','noopener');
+  document.body.appendChild(a); a.click();
+  try{document.body.removeChild(a);}catch(e){}
+  if(typeof toast==='function')toast('已开始下载：'+f.label);
+}
+function downloadAllMaterials(){
+  if(!canDownload()){ openPay('materials'); return; }
+  Object.keys(MATERIAL_FILES).forEach(function(k,i){
+    setTimeout(function(){downloadMaterial(k);},i*350);
+  });
+}
+/* 详情页解锁态的下载按钮；key 为本资料在 MATERIAL_FILES 中的标识 */
+function materialDownloadBtn(key){
+  return '<button class="btn btn-primary" style="width:100%" onclick="downloadMaterial(\''+key+'\')">下单已解锁 · 免费下载资料</button>';
+}
+
 /* ==================== 仿真语境版 · 图书详情 + 试读 ==================== */
 let bookTier=0, bookPreviewN=3;
 function bookSample(){
@@ -737,7 +778,7 @@ function renderBook(){
       '<div class="bk-pt"><span class="ic"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>'+
       '<div><b>'+p[0]+'</b> · '+p[1]+'</div></div>').join('')+'</div>'+
     '<div class="bk-tiers">'+tiersHtml+'</div>'+
-    (Store.hasBook('context')?'<button class="btn btn-primary" style="width:100%;opacity:.7" disabled>已解锁 · 资料包可下载</button>':'<button class="btn btn-primary" style="width:100%" onclick="bookBuy()">购买资料包 ¥2.9</button>')+
+    (Store.hasBook('context')?materialDownloadBtn('context'):'<button class="btn btn-primary" style="width:100%" onclick="bookBuy()">下单 ¥2.9 · 解锁后免费下载</button>')+
     '<p style="text-align:center;font-size:10.5px;color:var(--ink-3);line-height:1.5;margin:9px 2px 0">'+m.description+'</p>'+
     '<div class="bk-preview"><div class="pv-head"><h4>免费试读</h4><span>真实内容 · 非样张占位</span></div>'+
       prevHtml+moreBtn+'</div>';
@@ -798,7 +839,7 @@ function renderBook2(){
       '<div><b>'+p[0]+'</b> · '+p[1]+'</div></div>').join('')+'</div>'+
     (typeDist?'<div style="font-size:11px;color:var(--ink-3);line-height:1.6;margin:2px 0 8px">搭配类型：'+typeDist+'</div>':'')+
     '<div class="bk-tiers">'+tiersHtml+'</div>'+
-    (Store.hasBook('colloc')?'<button class="btn btn-primary" style="width:100%;opacity:.7" disabled>已解锁 · 资料包可下载</button>':'<button class="btn btn-primary" style="width:100%" onclick="colBuy()">购买资料包 ¥2.9</button>')+
+    (Store.hasBook('colloc')?materialDownloadBtn('colloc'):'<button class="btn btn-primary" style="width:100%" onclick="colBuy()">下单 ¥2.9 · 解锁后免费下载</button>')+
     '<p style="text-align:center;font-size:10.5px;color:var(--ink-3);line-height:1.5;margin:9px 2px 0">'+m.description+'</p>'+
     '<div class="bk-preview"><div class="pv-head"><h4>免费试读</h4><span>按词 · 真实内容</span></div>'+
       prev+moreBtn+'</div>';
@@ -859,7 +900,7 @@ function renderBook3(){
       '<div class="bk-pt"><span class="ic"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>'+
       '<div><b>'+p[0]+'</b> · '+p[1]+'</div></div>').join('')+'</div>'+
     '<div class="bk-tiers">'+tiersHtml+'</div>'+
-    (Store.hasBook('quiz')?'<button class="btn btn-primary" style="width:100%;opacity:.7" disabled>已解锁 · 资料包可下载</button>':'<button class="btn btn-primary" style="width:100%" onclick="quizBookBuy()">购买资料包 ¥2.9</button>')+
+    (Store.hasBook('quiz')?materialDownloadBtn('quiz'):'<button class="btn btn-primary" style="width:100%" onclick="quizBookBuy()">下单 ¥2.9 · 解锁后免费下载</button>')+
     '<p style="text-align:center;font-size:10.5px;color:var(--ink-3);line-height:1.5;margin:9px 2px 0">'+m.description+'</p>'+
     '<div class="bk-preview"><div class="pv-head"><h4>免费试读 · 3 题</h4><span>含答案解析</span></div>'+prev+
       '<div class="pv-more">完整版 100 题 · 5 单元 · 逐题解析</div></div>'+
@@ -944,7 +985,7 @@ function renderBook4(){
       '<div class="bk-pt"><span class="ic"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>'+
       '<div><b>'+p[0]+'</b> · '+p[1]+'</div></div>').join('')+'</div>'+
     '<div class="bk-tiers">'+tiersHtml+'</div>'+
-    (Store.hasBook('plan')?'<button class="btn btn-primary" style="width:100%;opacity:.7" disabled>已解锁 · 资料包可下载</button>':'<button class="btn btn-primary" style="width:100%" onclick="planBookBuy()">购买资料包 ¥2.9</button>')+
+    (Store.hasBook('plan')?materialDownloadBtn('plan'):'<button class="btn btn-primary" style="width:100%" onclick="planBookBuy()">下单 ¥2.9 · 解锁后免费下载</button>')+
     '<p style="text-align:center;font-size:10.5px;color:var(--ink-3);line-height:1.5;margin:9px 2px 0">'+m.description+'</p>'+
     '<div class="bk-preview"><div class="pv-head"><h4>计划表试读 · 全 30 天</h4><span>已打卡 '+done+' / '+days.length+' 天</span></div>'+
       '<div class="pl-progress"><span style="width:'+pct+'%"></span></div>'+
@@ -954,6 +995,66 @@ function renderBook4(){
 }
 function planBookBuy(){ openPay('materials'); }
 function openBook4(){planTier=0;renderBook4();go('s-book4');}
+
+/* ==================== 高考核心高频688词 · 词表详情 + 试读 ==================== */
+let hfPreviewN=20;
+function highfreqSample(){
+  return (typeof CTX_HIGHFREQ!=='undefined'&&CTX_HIGHFREQ)?CTX_HIGHFREQ
+    :{meta:{name:'高考核心高频 688 词',total:688,freq_range:[1,310],desc:'按真题复现考频排序的高频词表。'},words:[]};
+}
+function hfIpa(w){
+  if(w.ipa)return w.ipa;
+  const trap=(typeof CTX_TRAP!=='undefined'&&CTX_TRAP&&CTX_TRAP.words)||[];
+  const hit=trap.find(x=>x.headword===w.headword&&x.ipa);
+  return hit?hit.ipa:'';
+}
+function renderBook5(){
+  const body=document.getElementById('book5Body');
+  if(!body)return;
+  const b=highfreqSample(),m=b.meta||{},all=b.words||[];
+  const total=m.total||all.length||688;
+  const unlocked=typeof Store!=='undefined'&&(Store.hasMaterials()||Store.hasAll());
+  const show=unlocked?Math.min(all.length,hfPreviewN):Math.min(all.length,20);
+  const pts=[
+    ['真题考频排序','688 词按复现考频从高到低排列（考频 '+((m.freq_range||[])[0]||1)+'–'+((m.freq_range||[])[1]||310)+'），先背最常考的'],
+    ['逐词义项拆分','每个高频词拆成 2–6 个常见义项，一词多义不再只记最常见义'],
+    ['变体词卡配套','资料包新增的 564 词各配至少 6 条变体提示与义项辨析，可直接练'],
+    ['资料包内解锁','¥2.9 一次买断，全表可读、可打印；不含云端账号服务与分析']
+  ];
+  const rows=all.slice(0,show).map(w=>{
+    const senses=(w.senses||[]).filter(Boolean).join(' · ')||w.cn_raw||'';
+    const ipa=hfIpa(w);
+    return '<div class="pv-word">'+
+      '<div class="pv-top"><span class="pv-w">'+w.headword+'</span>'+
+      '<span class="pv-ipa">'+(ipa?ipa+' · ':'')+'考频 '+(w.freq||'')+' · No.'+(w.no||'')+'</span></div>'+
+      '<div class="pv-sense"><span class="pv-st">'+senses+'</span></div>'+
+    '</div>';
+  }).join('');
+  const moreBtn=unlocked&&show<all.length?
+    '<div class="pv-more"><button class="btn btn-ghost" onclick="hfPreviewN=Math.min('+all.length+',hfPreviewN+20);renderBook5()">再显示 20 词（已看 '+show+'/'+all.length+'）</button></div>':'';
+  const gateHtml=unlocked
+    ?'<div class="bk-pts" style="margin-top:12px"><div class="bk-pt"><span class="ic"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span><div><b>已解锁全表 '+total+' 词</b> · 点下方按钮查看可练词卡与变体提示</div></div></div>'+
+      materialDownloadBtn('highfreq')+
+      '<button class="btn btn-ghost" style="width:100%;margin-top:8px" onclick="go(\'s-trapwords\')">去练习高频词卡</button>'
+    :'<button class="btn btn-primary" style="width:100%" onclick="openPay(\'materials\')">下单 ¥2.9 · 解锁后免费下载全表</button>'+
+      '<div style="text-align:center;font-size:11px;color:var(--ink-3);margin-top:8px;line-height:1.5">当前免费试读前 20 词 · 资料包内含全部 '+total+' 词</div>';
+  body.innerHTML=
+    '<div class="bk-cover" style="background:linear-gradient(150deg,#7c3aed,#5b21b6)"><span class="bk-badge">资料包附赠</span>'+
+      '<div class="bk-eyebrow">真题考频 · 高频优先</div>'+
+      '<h2>'+m.name+'</h2><div class="bk-sub">'+(m.desc||'')+'<br>'+
+      '共 '+total+' 词 · 考频 '+((m.freq_range||[])[0]||1)+'–'+((m.freq_range||[])[1]||310)+'</div></div>'+
+    '<div class="bk-pts">'+pts.map(p=>
+      '<div class="bk-pt"><span class="ic"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>'+
+      '<div><b>'+p[0]+'</b> · '+p[1]+'</div></div>').join('')+'</div>'+
+    gateHtml+
+    '<div class="bk-preview"><div class="pv-head"><h4>免费试读 · 按考频排序</h4><span>真实词表 · 非样张占位</span></div>'+
+      rows+moreBtn+
+      (!unlocked&&all.length>20?'<div class="pv-more">试读结束 · 资料包解锁全部 '+all.length+' 词</div>':'')+
+    '</div>'+
+    '<p style="text-align:center;font-size:10.5px;color:var(--ink-3);line-height:1.5;margin:9px 2px 0">'+(m.copyright||'')+'</p>';
+}
+function hfBookBuy(){ openPay('materials'); }
+function openBook5(){hfPreviewN=20;renderBook5();go('s-book5');}
 function famNetHtml(lw){
   const fam=lw.word_family||[], conf=lw.confusable||[];
   if(!fam.length&&!conf.length)return '';
@@ -2263,6 +2364,24 @@ function downloadLegacyVoucher(){
   ].join('\n');
   return downloadText('拾词全包权益凭证.txt',text);
 }
+/* 资料下载中心：下单后统一入口，列出全部可免费下载的电子资料 */
+function openDownloads(){
+  if(!canDownload()){ openPay('materials'); return; }
+  let s='<div class="handle"></div><h3>资料下载</h3>'+
+    '<p class="sub">下单已解锁 · 全部资料免费下载，可自行打印成 PDF / 纸质版</p>';
+  Object.keys(MATERIAL_FILES).forEach(function(k){
+    const f=MATERIAL_FILES[k];
+    s+='<div class="card" style="padding:12px;margin-bottom:9px;display:flex;gap:10px;align-items:center">'+
+      '<div style="flex:1"><div style="font-size:12.5px;font-weight:600">'+escHtml(f.label)+'</div>'+
+      '<div style="font-size:10.5px;color:var(--ink-3);margin-top:2px">电子版 · 下单后免费 · 永久可下载</div></div>'+
+      '<button class="ord-btn" onclick="downloadMaterial(\''+k+'\')">下载</button></div>';
+  });
+  s+='<button class="btn btn-primary" style="width:100%;margin-top:6px" onclick="downloadAllMaterials()">一键下载全部资料</button>'+
+    '<p style="text-align:center;font-size:10.5px;color:var(--ink-3);line-height:1.6;margin-top:10px">'+
+    '资料为自研仿真内容，不含真题原文；下载本身不再收费，一次买断永久可用。</p>';
+  openMask(s);
+}
+function escHtml(s){ return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 function openOrders(){
   const list=loadOrders();
   let s='<div class="handle"></div><h3>我的订单</h3><p class="sub">一次买断 · 订单与资料永久可下载</p>';
@@ -2276,6 +2395,7 @@ function openOrders(){
       '<div class="ord-meta">'+o.source+' · '+fmtOrderTime(o.at)+' · 永久有效</div>'+
       '<div class="ord-btns"><button class="ord-btn" onclick="downloadOrder(\''+o.no+'\')">下载订单凭证</button></div></div>').join('');
   }
+  if(canDownload()) s+='<button class="btn btn-primary" style="width:100%;margin-top:6px" onclick="closeMask();openDownloads()">下载已购资料（免费）</button>';
   s+='<p style="text-align:center;font-size:11px;color:var(--ink-3);margin-top:12px;line-height:1.6">订单与资料永久可下载 · 链接过期也可在这里重新获取<br>7 天无理由退款 · 一次买断无续费</p>';
   openMask(s);
 }
@@ -2326,9 +2446,10 @@ function renderPay(){
     s+='<div class="success"><div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></div>'+
       '<h3>开通成功</h3><p>'+(payPlan==='materials'
         ?'四本资料包已生效：全部资料可下载、可打印，一次买断没有续费。云端账号与全部分析可在「我的」升级全包后开启。'
-        :'全包已生效：资料包 + 云端账号服务 + 全部分析能力，一次买断，没有续费。')+'订单已保存，可永久下载凭证。</p>'+
-      '<button class="btn btn-primary" onclick="closeMask();openOrders()">查看并下载订单凭证</button>'+
-      '<button class="btn btn-ghost" style="margin-top:10px" onclick="closeMask();go(\'s-quiz\')">继续刷题</button></div>';
+        :'全包已生效：资料包 + 云端账号服务 + 全部分析能力，一次买断，没有续费。')+'订单已保存，资料现在即可免费下载。</p>'+
+      '<button class="btn btn-primary" onclick="closeMask();openDownloads()">立即免费下载资料</button>'+
+      '<button class="btn btn-ghost" style="margin-top:8px" onclick="closeMask();openOrders()">查看订单凭证</button>'+
+      '<button class="btn btn-ghost" style="margin-top:8px" onclick="closeMask();go(\'s-quiz\')">继续刷题</button></div>';
   }else if(payStage==='qr'){
     const amt=payAmount();
     s+='<h3>微信扫码支付</h3>'+
@@ -2435,15 +2556,26 @@ function refreshEntitlementUI(){
   }
   const matBtn=$('materialsBtn');
   if(matBtn){
-    matBtn.textContent=owned||materials?'资料包已解锁 · 四本可下载':'购买资料包 ¥2.9';
-    matBtn.disabled=!!(owned||materials);
-    matBtn.style.opacity=(owned||materials)?'.6':'';
+    if(owned||materials){
+      matBtn.textContent='下单已解锁 · 免费下载全部资料';
+      matBtn.disabled=false;
+      matBtn.style.opacity='';
+      matBtn.onclick=function(){openDownloads();};
+    }else{
+      matBtn.textContent='下单 ¥2.9 · 解锁后免费下载';
+      matBtn.disabled=false;
+      matBtn.style.opacity='';
+      matBtn.onclick=function(){openPay('materials');};
+    }
   }
+  const dlHint=$('downloadHint');
+  if(dlHint)dlHint.textContent=(owned||materials)?'点击免费下载':'下单后免费下载';
   // 重新渲染所有动态页面，让购买按钮按最新权益显示
   if(typeof renderBook==='function')renderBook();
   if(typeof renderBook2==='function')renderBook2();
   if(typeof renderBook3==='function')renderBook3();
   if(typeof renderBook4==='function')renderBook4();
+  if(typeof renderBook5==='function')renderBook5();
   if(typeof renderFullPack==='function')renderFullPack();
   if(typeof renderQuiz==='function')renderQuiz();
   if(typeof renderTrapWords==='function')renderTrapWords(); // 词表按资料包/全包权益切换 100→664→1007 词

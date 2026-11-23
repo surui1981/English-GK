@@ -130,6 +130,18 @@
 
               <div class="sec-head"><h3>为你推荐</h3><span class="more" style="color:var(--ink-3);font-weight:500">今日精练</span></div>
 
+              <div class="hero-entry ar-entry" onclick="Article.open()">
+                <div class="k">
+                  <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5V5.5Z"/><path d="M4 20.5A2.5 2.5 0 0 1 6.5 18H20v3H6.5A2.5 2.5 0 0 1 4 20.5Z"/></svg>
+                  新玩法 · 文章化背词
+                </div>
+                <h4>把单词放进一篇短文里记</h4>
+                <p id="homeArticleLine">到期词自动成文 · 通读 → 填词 → 自评 · 结果回流记忆算法</p>
+                <div class="hero-actions">
+                  <span class="go">开始读一篇 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
+                </div>
+              </div>
+
               <div class="hero-entry" onclick="go('s-quiz')">
                 <div class="k">
                   <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 2.6 6.3 6.8.5-5.2 4.5 1.6 6.6L12 16.3 6.2 19.9l1.6-6.6L2.6 8.8l6.8-.5L12 2Z"/></svg>
@@ -162,7 +174,26 @@
               <p id="homeProgLine">红=新词 · 绿=已学完 · 4110 词全量</p>
               <span class="go" style="color:#b45309">查看 <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
             </div>
+            <!-- 文章化背词入口：同一批待复习词，换个语境再学一遍 -->
+            <div class="card small-entry" onclick="Article.open()" style="margin:0 0 12px;border-color:#bfe3d8;background:linear-gradient(120deg,#f4fcf9,#fff);cursor:pointer">
+              <div class="ic" style="background:#e6f7f0;color:#0f766e">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5V5.5Z"/><path d="M8 8h8M8 12h6"/></svg>
+              </div>
+              <h4>文章化背词 · 把词放进短文里</h4>
+              <p>到期词自动成文 · 通读 → 填词 → 三档自评 · 回流记忆算法</p>
+              <span class="go" style="color:#0f766e">读一篇 <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
+            </div>
             <div id="studyBody"></div>
+          </section>
+
+          <!-- ===== ARTICLE STUDY (文章化背词) ===== -->
+          <section class="screen sub" id="s-article">
+            <div class="studybar">
+              <button class="icon-btn" onclick="go('s-study')"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button>
+              <div class="pbar"><i id="arBar" style="width:0%"></i></div>
+              <span class="cnt" id="arCnt">0/4</span>
+            </div>
+            <div id="arBody"></div>
           </section>
 
           <!-- ===== FAMILY REVIEW (发散复习) ===== -->
@@ -223,6 +254,16 @@
               <button class="home-link" onclick="go('s-home')">返回首页</button>
             </div>
             <div id="book4Body"></div>
+          </section>
+
+          <!-- ===== BOOK5 DETAIL (高考核心高频688词) ===== -->
+          <section class="screen sub" id="s-book5">
+            <div class="backbar">
+              <button class="icon-btn" onclick="go('s-shop')" aria-label="返回资料页"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button>
+              <h3>词表详情</h3>
+              <button class="home-link" onclick="go('s-home')">返回首页</button>
+            </div>
+            <div id="book5Body"></div>
           </section>
 
           <!-- ===== FULL PACK DETAIL (¥9.9 全包) ===== -->
@@ -411,20 +452,30 @@
                 <span class="k">资料下载 · 一次买断</span>
                 <h4>四本资料包</h4>
                 <p style="font-size:12px;color:var(--ink-3)">仿真语境版 + 高频搭配手册 + 熟词僻义100题 + 30天计划表，一次下载、永久可读。仅含资料本身，不含云端账号服务与数据分析。</p>
-                <div class="price"><b>¥2.9</b><em>四本全含 · 无年卡月卡</em></div>
-                <button class="btn btn-primary" id="materialsBtn" onclick="openPay('materials')">购买资料包 ¥2.9</button>
+                <div class="price"><b>¥2.9</b><em>四本全含 · 下单后免费下载</em></div>
+                <button class="btn btn-primary" id="materialsBtn" onclick="openPay('materials')">下单 ¥2.9 · 解锁后免费下载</button>
               </div>
 
               <div class="sec-head"><h3>四本资料目录</h3><span class="more">已包含在资料包内</span></div>
               <div id="goodsList"></div>
+
+              <div class="sec-head"><h3>附赠词表</h3><span class="more">资料包内可解锁</span></div>
+              <div class="card goods" id="highfreqCard">
+                <div class="gcover" style="background:linear-gradient(150deg,#7c3aed,#5b21b6)">高频688<br>词表<span class="badge">附赠</span></div>
+                <div class="ginfo">
+                  <h5>《高考核心高频 688 词》</h5>
+                  <div class="desc">按真题复现考频排序，考频越高越靠前；逐词配音标、义项拆分与变体词卡</div>
+                  <div class="gbot"><div><div class="gprice"><b>含于 ¥2.9</b></div><div style="font-size:10.5px;color:var(--ink-3)">资料包解锁 688 词 · 免费试读前 20 词</div></div>
+                  <button class="buy-btn" onclick="openBook5()">查看详情试读</button></div></div>
+              </div>
 
               <div class="card" style="padding:14px;margin-top:6px;display:flex;gap:11px;align-items:center">
                 <div style="width:34px;height:34px;border-radius:11px;background:var(--accent-tint);color:var(--accent-deep);display:grid;place-items:center;flex:none">
                   <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m8 11 4 4 4-4"/><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg>
                 </div>
                 <div style="flex:1">
-                  <div style="font-size:13px;font-weight:600">下单后 3 分钟内可下载</div>
-                  <div style="font-size:11.5px;color:var(--ink-3)">全部电子版，可自行双面打印，无实体书</div>
+                  <div style="font-size:13px;font-weight:600">下单后立即免费下载</div>
+                  <div style="font-size:11.5px;color:var(--ink-3)">全部电子版，可自行双面打印，无实体书；下载本身不再收费</div>
                 </div>
               </div>
             </div>
@@ -508,6 +559,11 @@
                   <span class="t">学习周报</span>
                   <span class="r">11月10日 <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
                 </button>
+                <button class="mrow" onclick="openDownloads()">
+                  <span class="ic"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m8 11 4 4 4-4"/><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg></span>
+                  <span class="t">资料下载</span>
+                  <span class="r"><span id="downloadHint">下单后免费下载</span> <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
+                </button>
                 <button class="mrow" onclick="openOrders()">
                   <span class="ic"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2.5"/><path d="M2 10h20"/></svg></span>
                   <span class="t">我的订单</span>
@@ -579,6 +635,7 @@
 <script src="js/lex.js"></script>
 <script src="js/data.js"></script>
 <script src="js/app.js"></script>
+<script src="js/article.js"></script>
 <script src="js/boot.js"></script>
 </body>
 </html>

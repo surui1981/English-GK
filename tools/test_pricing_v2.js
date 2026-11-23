@@ -113,13 +113,13 @@ console.log('\n=== 6. 商店与详情口径 ===');
 ok(HTML.indexOf('四本资料包')>=0 && /打包 ¥2\.9/.test(HTML),'商店出现资料包卡');
 ok(HTML.indexOf("onclick=\"openPay('materials')\"")>=0,'商店资料包按钮直达 materials 档');
 ok(HTML.indexOf('资料包 + 云端账号 + 全部分析')>=0,'全包卡文案按新权益更新');
-ok(APP.indexOf('资料包已解锁 · 四本可下载')>=0,'四本详情页统一显示资料包解锁态');
+ok(APP.indexOf('materialDownloadBtn')>=0,'四本详情页统一用真实下载按钮替换禁用态');
 ok(GOODSNOTE(),'四本目录说明统一为资料包内');
 function GOODSNOTE(){ return A.ev('GOODS.every(g=>/四本资料包内/.test(g.note))'); }
 A.ev('Store.reset();Store.resetEnt();refreshEntitlementUI();');
-ok(/购买资料包 ¥2\.9/.test(A.el('materialsBtn').textContent),'未购买时按钮显示 ¥2.9');
+ok(/下单 ¥2\.9 · 解锁后免费下载/.test(A.el('materialsBtn').textContent),'未购买时按钮显示下单金额与免费下载');
 A.ev('Store.grantMaterials();refreshEntitlementUI();');
-ok(/资料包已解锁/.test(A.el('materialsBtn').textContent) && A.el('materialsBtn').disabled===true,'购买后按钮变已解锁并禁用');
+ok(/下单已解锁 · 免费下载全部资料/.test(A.el('materialsBtn').textContent) && A.el('materialsBtn').disabled===false,'购买后按钮变可点的免费下载入口');
 
 console.log('\n=== 7. 构建产物同步 ===');
 ok(PROTO.indexOf('hasMaterials')>=0 && PROTO.indexOf('grantMaterials')>=0,'单文件原型包含新权益 API');

@@ -36,6 +36,9 @@ var CloudStore = (function () {
   function isReady() { return ready; }
   function getSession() { return session; }
   function lastErrorMessage() { return lastError; }
+  /* 暴露底层客户端：文章化背词需要调用免密钥 LLM（cloud.llm.*）。
+   * 只读访问，不改变任何鉴权 / 同步行为。 */
+  function getClient() { return init(); }
 
   /* ── 错误分类：可恢复的网络错误保留会话，鉴权错误要求重新登录 ── */
   function describeError(err) {
@@ -296,7 +299,7 @@ var CloudStore = (function () {
   return {
     init: init, restoreAuth: restoreAuth, load: load, push: push,
     schedulePush: schedulePush, flush: flush, isReady: isReady,
-    getSession: getSession, lastErrorMessage: lastErrorMessage,
+    getSession: getSession, lastErrorMessage: lastErrorMessage, getClient: getClient,
     sendPhoneCode: sendPhoneCode, submitPhoneLogin: submitPhoneLogin,
     signInWechat: signInWechat, signOut: signOut, setStatus: setStatus,
     markReady: function () { ready = true; },
