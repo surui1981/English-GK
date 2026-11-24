@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>拾词 · 文章化背词 · 方案与测试一页汇报</title>
+<style>
+:root{
+  --canvas:#f7f5f0; --card:#fff; --ink:#14171e; --ink-2:#3a4256; --ink-3:#7c7a72;
+  --line:#e9e3d6; --line-soft:#f2efe8;
+  --primary:#2f6f5e; --primary-deep:#1e4a3e; --primary-tint:#eaf3f0;
+  --accent:#c97b3f; --accent-tint:#faf1e8;
+  --ok:#2f6f5e; --ok-tint:#eaf3f0; --warn:#b06367; --warn-tint:#faf0f0;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  font-family:'Outfit','Noto Sans SC','PingFang SC','Hiragino Sans GB',sans-serif;
+  background:var(--canvas);color:var(--ink);font-size:13px;line-height:1.55;
+  -webkit-font-smoothing:antialiased;padding:26px 18px 40px;
+}
+.page{max-width:1080px;margin:0 auto;background:var(--card);border:1px solid var(--line);
+  border-radius:18px;padding:26px 30px 30px;box-shadow:0 10px 36px -14px rgba(20,23,30,.18)}
+.mono{font-family:'JetBrains Mono','SFMono-Regular',Consolas,monospace}
+
+/* ── header ── */
+header{display:flex;justify-content:space-between;align-items:flex-start;gap:24px;
+  border-bottom:1px solid var(--line);padding-bottom:18px;margin-bottom:18px}
+.eyebrow{font-size:10px;letter-spacing:.16em;color:var(--primary);text-transform:uppercase;margin-bottom:9px}
+h1{font-size:26px;line-height:1.25;font-weight:700;letter-spacing:-.025em}
+h1 em{font-style:normal;color:var(--primary)}
+.lede{font-size:12.5px;color:var(--ink-2);margin-top:8px;max-width:56em}
+.status{display:flex;flex-direction:column;align-items:flex-end;gap:6px;flex:none}
+.badge{font-size:11px;font-weight:700;color:#fff;background:var(--primary);padding:5px 12px;border-radius:99px}
+.badge.dim{background:var(--primary-tint);color:var(--primary-deep);border:1px solid #cfe3dc;font-weight:500}
+.status .mono{font-size:10px;color:var(--ink-3)}
+
+/* ── sections ── */
+.sec{margin-bottom:18px}
+.sec-h{display:flex;align-items:baseline;gap:9px;margin-bottom:9px}
+.sec-n{font-size:10px;letter-spacing:.1em;color:var(--primary);font-weight:600}
+.sec-h h2{font-size:14px;font-weight:700;letter-spacing:-.01em}
+.sec-h .note{font-size:10.5px;color:var(--ink-3);margin-left:auto}
+.grid{display:grid;gap:12px}
+.g-main{grid-template-columns:1.62fr 1fr}
+.g3{grid-template-columns:repeat(3,1fr)}
+.g4{grid-template-columns:repeat(4,1fr)}
+.card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:13px 14px}
+.card.tint{background:var(--primary-tint);border-color:#cfe3dc}
+.card h3{font-size:12px;font-weight:700;margin-bottom:7px;color:var(--primary-deep)}
+.card p{font-size:11.5px;color:var(--ink-2);line-height:1.6}
+.card p b{color:var(--ink)}
+
+/* ── pain → response ── */
+.pain{display:grid;grid-template-columns:1fr 18px 1fr;gap:6px;align-items:center;
+  padding:7px 0;border-bottom:1px solid var(--line-soft);font-size:11.5px}
+.pain:last-child{border-bottom:0}
+.pain .a{color:var(--ink-2)}
+.pain .arrow{color:var(--accent);font-size:14px;text-align:center}
+.pain .b{color:var(--primary-deep);font-weight:600}
+.tiny{font-size:10px;color:var(--ink-3);letter-spacing:.04em}
+
+/* ── flow ── */
+.flow{display:grid;grid-template-columns:repeat(6,1fr);gap:6px}
+.step{background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px 8px;position:relative;text-align:center}
+.step:not(:last-child)::after{content:'›';position:absolute;right:-7px;top:50%;transform:translateY(-50%);
+  color:var(--accent);font-size:19px;font-weight:700;line-height:1;z-index:2}
+.step .n{font-size:9px;letter-spacing:.08em;color:var(--accent);font-weight:600}
+.step .t{font-size:11.5px;font-weight:700;margin:4px 0 3px;color:var(--ink)}
+.step .d{font-size:9.5px;color:var(--ink-3);line-height:1.4}
+
+/* ── pills / kv ── */
+.pill{display:inline-block;font-size:9.5px;font-family:'JetBrains Mono',monospace;
+  padding:1px 6px;border-radius:4px;background:var(--primary-tint);color:var(--primary-deep);margin-right:5px}
+.pill.alt{background:var(--accent-tint);color:#9a5a24}
+.kv{display:grid;grid-template-columns:56px 1fr;gap:5px 9px;font-size:11px;line-height:1.5}
+.kv dt{font-size:9.5px;letter-spacing:.05em;color:var(--primary);font-weight:600;padding-top:1px}
+.kv dd{color:var(--ink-2)}
+
+/* ── test stats ── */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.stat{background:var(--primary-tint);border:1px solid #cfe3dc;border-radius:10px;padding:10px 6px;text-align:center}
+.stat .v{font-size:23px;font-weight:700;line-height:1;color:var(--primary-deep);font-family:'Outfit',sans-serif}
+.stat .l{font-size:9.5px;color:var(--ink-2);margin-top:5px}
+.stat.z{background:var(--accent-tint);border-color:#ecd9c5}
+.stat.z .v{color:#9a5a24}
+
+.testlist{margin-top:10px;display:grid;grid-template-columns:1fr 1fr;gap:0 16px;
+  font-size:10px;font-family:'JetBrains Mono',monospace;color:var(--ink-2)}
+.testlist div{display:flex;justify-content:space-between;padding:2.5px 0;border-bottom:1px dotted var(--line)}
+.testlist b{color:var(--primary-deep);font-weight:600}
+
+.check{font-size:11px;line-height:1.65;color:var(--ink-2)}
+.check div{padding:2.5px 0;border-bottom:1px solid var(--line-soft)}
+.check div:last-child{border:0}
+.check .m{font-family:'JetBrains Mono',monospace;color:var(--primary);font-size:10px;margin-right:6px}
+.todo{margin-top:9px;background:var(--warn-tint);border:1px solid #ecd4d4;border-radius:10px;padding:9px 11px;
+  font-size:10.5px;color:var(--ink-2);line-height:1.6}
+.todo b{color:var(--warn)}
+
+footer{border-top:1px solid var(--line);margin-top:16px;padding-top:10px;
+  display:flex;justify-content:space-between;gap:16px;font-size:9.5px;color:var(--ink-3)}
+footer .mono{font-size:9.5px}
+
+@media print{
+  @page{size:A4 portrait;margin:9mm}
+  html,body{padding:0;background:#fff;width:auto}
+  /* 保持屏幕端的 1080px 逻辑宽度，整体等比缩放到 A4 可用宽度，
+     避免窄栏重排把一页撑成多页 */
+  .page{width:1080px;max-width:none;border:0;border-radius:0;box-shadow:none;
+        padding:24px 30px 26px;zoom:.40}
+}
+@media (max-width:760px){
+  .g-main,.g3,.g4{grid-template-columns:1fr}
+  .flow{grid-template-columns:repeat(2,1fr)}
+  .step:not(:last-child)::after{display:none}
+  header{flex-direction:column}
+  .status{align-items:flex-start}
+  .testlist{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+<header>
+  <div>
+    <div class="eyebrow">PROJECT BRIEF · 拾词高考英语 · 2026-11-24</div>
+    <h1>文章化背词 · <em>方案与测试一页汇报</em></h1>
+    <p class="lede">把「一个词一道题」升级为「一篇短文串起 3–5 个待复习词」：先通读、再语境填词、最后三档自评，结果回流同一套 FSRS。本期不新增付费点，作为留存功能向全部用户开放。</p>
+  </div>
+  <div class="status">
+    <span class="badge">已上线 · b6c2e8d</span>
+    <span class="badge dim">方案 + 核心功能 + 回归完成</span>
+    <span class="mono">20 组 / 769 项 / 0 失败</span>
+  </div>
+</header>
+
+<div class="grid g-main">
+
+  <!-- 左主栏 -->
+  <div>
+    <section class="sec">
+      <div class="sec-h"><span class="sec-n mono">01</span><h2>为什么做</h2><span class="note">背词单元从「识记」走向「迁移」</span></div>
+      <div class="card">
+        <div class="pain"><span class="a">词卡里认识，回到阅读认不出</span><span class="arrow">→</span><span class="b">目标词放进连贯短文，先看语境再判断</span></div>
+        <div class="pain"><span class="a">熟词僻义靠死记中文释义</span><span class="arrow">→</span><span class="b">语境决定义项，答案必须由上下文推出</span></div>
+        <div class="pain"><span class="a">一道道孤立题，缺少完成故事</span><span class="arrow">→</span><span class="b">到期词自动成文，一篇有始有终的学习单元</span></div>
+        <div class="pain"><span class="a">背完就忘，复习动力靠自律</span><span class="arrow">→</span><span class="b">到期/高危词直接成为下一篇的选词输入</span></div>
+      </div>
+    </section>
+
+    <section class="sec">
+      <div class="sec-h"><span class="sec-n mono">02</span><h2>核心学习循环</h2><span class="note">不另起记忆系统，不新增付费点</span></div>
+      <div class="flow">
+        <div class="step"><div class="n mono">01 INPUT</div><div class="t">选文输入</div><div class="d">到期词 / 高危词<br>由 FSRS 派生</div></div>
+        <div class="step"><div class="n mono">02 READ</div><div class="t">通读短文</div><div class="d">目标词高亮<br>中文大意可展开</div></div>
+        <div class="step"><div class="n mono">03 BLANK</div><div class="t">语境填词</div><div class="d">逐空四选一<br>即时义项反馈</div></div>
+        <div class="step"><div class="n mono">04 RATE</div><div class="t">三档自评</div><div class="d">认识 / 犹豫 / 忘了<br>比对错更真实</div></div>
+        <div class="step"><div class="n mono">05 FSRS</div><div class="t">回流算法</div><div class="d">义项卡 + 词形网<br>同一份记忆状态</div></div>
+        <div class="step"><div class="n mono">06 NEXT</div><div class="t">下一篇推荐</div><div class="d">按最新到期<br>与高危状态生成</div></div>
+      </div>
+    </section>
+
+    <section class="sec">
+      <div class="sec-h"><span class="sec-n mono">03</span><h2>实现要点</h2><span class="note">app/js/article.js · s-article 页面</span></div>
+      <div class="grid g4">
+        <div class="card">
+          <h3>选词</h3>
+          <p><span class="pill">FSRS</span>按 <b>due / lapses / mastery</b> 取 3–5 词，同主题优先聚合；候选不足时用精修词补足，避免生成「只有一空」的文章。</p>
+        </div>
+        <div class="card">
+          <h3>生成</h3>
+          <p><span class="pill">LLM</span><span class="pill alt">stream</span>运行时免密钥生成：取可用模型，强制流式 + 应用自管 system；只传词形/义项/主题，不传身份信息。</p>
+        </div>
+        <div class="card">
+          <h3>回流</h3>
+          <p><span class="pill">FSRS</span>自评 3/2/1 写入 <b>reviewSense</b> 或 <b>practiceQuick</b>，并同步 <b>reviewFamily(article)</b>；选对但点「犹豫」同样缩短间隔。</p>
+        </div>
+        <div class="card">
+          <h3>降级</h3>
+          <p><span class="pill alt">offline</span>无网 / 无模型 / JSON 非法 → 词库真实例句拼成离线语境包，页面明确标注「离线语境包」，不冒充 AI 生成。</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- 右栏 -->
+  <div>
+    <section class="sec">
+      <div class="sec-h"><span class="sec-n mono">04</span><h2>测试汇报</h2><span class="note">全量回归</span></div>
+      <div class="stats">
+        <div class="stat"><div class="v">20</div><div class="l">测试组</div></div>
+        <div class="stat"><div class="v">769</div><div class="l">断言项</div></div>
+        <div class="stat z"><div class="v">0</div><div class="l">失败</div></div>
+        <div class="stat"><div class="v">86</div><div class="l">本篇专项</div></div>
+      </div>
+      <div class="testlist">
+        <div><span>test_progress</span><b>113</b></div>
+        <div><span>test_article_study</span><b>86</b></div>
+        <div><span>test_cloud</span><b>53</b></div>
+        <div><span>test_review</span><b>45</b></div>
+        <div><span>test_trap_access</span><b>40</b></div>
+        <div><span>test_notices</span><b>39</b></div>
+        <div><span>test_downloads</span><b>38</b></div>
+        <div><span>test_pricing_v2</span><b>37</b></div>
+        <div><span>test_highfreq_book</span><b>35</b></div>
+        <div><span>test_books</span><b>33</b></div>
+        <div><span>test_pricing</span><b>33</b></div>
+        <div><span>test_weekly_export</span><b>31</b></div>
+        <div><span>test_sticky</span><b>30</b></div>
+        <div><span>test_orders</span><b>27</b></div>
+        <div><span>test_context</span><b>24</b></div>
+        <div><span>test_answerflow</span><b>23</b></div>
+        <div><span>test_daily_rounds</span><b>23</b></div>
+        <div><span>test_daily</span><b>21</b></div>
+        <div><span>test_nav</span><b>20</b></div>
+        <div><span>test_alpha</span><b>18</b></div>
+      </div>
+      <div class="card" style="margin-top:10px">
+        <h3>86 项专项测试覆盖</h3>
+        <p>选词来自真实记忆状态 · 提示词与隐私边界 · JSON 硬校验（空数/选项/答案归属/sense_id）· 在线流式生成与当天缓存 · 离线语境包 · 完整状态机 · FSRS 回流 · 断网端到端 · 入口与构建产物。</p>
+      </div>
+    </section>
+
+    <section class="sec">
+      <div class="sec-h"><span class="sec-n mono">05</span><h2>上线校验</h2><span class="note">带 sharecode 实测</span></div>
+      <div class="card">
+        <div class="check">
+          <div><span class="m">200</span>index.html · 含 s-article / Article.open()</div>
+          <div><span class="m">200</span>article.js · 23,360 B · stream / system 齐备</div>
+          <div><span class="m">200</span>app.js · 导航逻辑已注册文章页</div>
+          <div><span class="m">200</span>收款码图片 · 49,255 B</div>
+          <div><span class="m">200</span>688 词表下载 · 79,328 B</div>
+        </div>
+        <div class="todo">
+          <b>待验收</b>：① 管理员手机号 <span class="mono">13353263911</span> 需首次登录才写入 admin_roles；② 手机端验收 ¥2.9 / ¥9.9 扫码、自助解锁、订单与兑换码。
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" style="margin-bottom:0">
+      <div class="sec-h"><span class="sec-n mono">06</span><h2>交付信息</h2></div>
+      <div class="card tint">
+        <dl class="kv">
+          <dt>方案</dt><dd>docs/文章化背词功能方案.md</dd>
+          <dt>实现</dt><dd>app/js/article.js · s-article · cloud.getClient()</dd>
+          <dt>测试</dt><dd>tools/test_article_study.js（86 项）</dd>
+          <dt>提交</dt><dd class="mono">b6c2e8d · origin/main</dd>
+          <dt>线上</dt><dd class="mono">shici-english-gk · 分享链接不变</dd>
+        </dl>
+      </div>
+    </section>
+  </div>
+</div>
+
+<footer>
+  <span>拾词 · 高考英语词汇学习记忆系统 · 文章化背词一页汇报</span>
+  <span class="mono">生成于 2026-11-24 · v1.0</span>
+</footer>
+
+</div>
+</body>
+</html>
